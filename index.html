@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7e46d0c484.js" crossorigin="anonymous"></script>
+    <title>Portfolio personal || Esteban Zárate</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">EZ</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Inicio</a></li>
+            <li><a href="#about" onclick="toggleMenu();">Acerca de mi</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Tecnologías</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Proyectos</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">contacto</a></li>
+        </ul>
+    </header>
+
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hola, Mi nombre es<br><span>Esteban Zárate</span></h2>
+            <h3>Soy desarrollador Front End Jr.</h3>
+            <a href="#about" class="btn">Acerca de mi</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>Acerca de mi</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>Soy desarrollador Front End</h3>
+                <p>Durante el año 2021 comencé mis estudios para hacer un cambio en mi vida profesional, me estoy enfocando en el uso de HTML, CSS y JavaScript.
+                <br><br>
+                En los pasados meses realicé cursos de Desarrollo Web y JavaScript en Coderhouse, y actualmente me encuentro realizando el de React JS.</p>
+            </div>
+            <div class="w50">
+                <img src="images/img1.jpg" class="img">
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>Tecnologías</h2>
+            <p>Estas son las tecnologías con las que trabajo</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="images/html5-brands.svg">
+                <h2>HTML</h2>
+            </div>
+            <div class="servicesBx">
+                <img src="images/css3-alt-brands.svg">
+                <h2>CSS</h2>
+            </div>
+            <div class="servicesBx">
+                <img src="images/sass-brands.svg">
+                <h2>Sass</h2>
+            </div>
+            <div class="servicesBx">
+                <img src="images/bootstrap-brands.svg">
+                <h2>Bootstrap</h2>
+            </div>
+            <div class="servicesBx">
+                <img src="images/js-brands.svg">
+                <h2>JavaScript</h2>
+            </div>
+            <div class="servicesBx">
+                <img src="images/git-alt-brands.svg">
+                <h2>Git</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>Proyectos</h2>
+            <p>Estos son los proyectos en los que he estado trabajando.. vendrán más..</p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <img src="images/keel.jpg">
+            </div>
+            <div class="workBx">
+                <img src="">
+            </div>
+            <div class="workBx">
+                <img src="">
+            </div>
+            <div class="workBx">
+                <img src="">
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contactame</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Información de contacto</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Ubicación</h3>
+                            <p>Caseros (1678), Buenos Aires, Argentina</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Celular</h3>
+                            <p>+54 9 1122771652</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-open"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>esteban-zarate@hotmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <input type="text" name="" placeholder="Nombre Completo">
+                    <input type="email" name="" placeholder="Email">
+                    <textarea placeholder="Tu mensaje"></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>Copyright &copy; 2022. Todos los derechos reservados.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
