@@ -320,7 +320,7 @@ header {
         justify-content: space-between;
         flex-wrap: wrap;
         .project {
-            width: 45%;
+            width: 49%;
             padding: 20px;
             position: relative;
             display: flex;
@@ -550,18 +550,30 @@ header {
     section {
         padding: 100px 50px;
     }
-    .banner {
+    .main {
         padding: 150px 50px 100px;
         h2 {
-            font-size: 1.5em;
+            font-size: 2em;
         }
         h3 {
-            font-size: 1em;
+            font-size: 1.2em;
         }
         .btn {
             margin-top: 10px;
             padding: 10px 20px;
-            font-size: 16px;
+            font-size: 18px;
+        }
+    }
+    .about {
+        padding: 2rem;
+    }
+    .tech {
+        padding: 1.5rem;
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3.8rem;
+            padding: 0 1rem;
         }
     }
     .heading h2 {
@@ -579,21 +591,22 @@ header {
     .servicesBx {
         margin: 10px;
     }
-    .project {
-        width: 100%;
-        padding: 10px;
-    }
-    .testimonialBx {
-        max-width: calc(100% - 20px);
-        padding: 40px 20px;
-        margin: 10px;
-        background: #2196f3;
-        h3 {
-            margin-top: 20px;
+    .projects {
+        padding: 2rem 3rem;
+        .content {
+            align-items: center;
+            .project {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 2rem;
+            }
         }
     }
-    .contactInfo {
-        margin: 20px 0;
+    .contact{
+        padding: 2rem;
+        .contactInfo {
+            margin: 20px 0;
+        }
     }
 }
 

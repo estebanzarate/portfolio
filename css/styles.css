@@ -286,7 +286,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap; }
     .projects .content .project {
-      width: 45%;
+      width: 49%;
       padding: 20px;
       position: relative;
       display: flex;
@@ -470,16 +470,25 @@ header {
         margin: 10px; }
   section {
     padding: 100px 50px; }
-  .banner {
+  .main {
     padding: 150px 50px 100px; }
-    .banner h2 {
-      font-size: 1.5em; }
-    .banner h3 {
-      font-size: 1em; }
-    .banner .btn {
+    .main h2 {
+      font-size: 2em; }
+    .main h3 {
+      font-size: 1.2em; }
+    .main .btn {
       margin-top: 10px;
       padding: 10px 20px;
-      font-size: 16px; }
+      font-size: 18px; }
+  .about {
+    padding: 2rem; }
+  .tech {
+    padding: 1.5rem; }
+    .tech .content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 3.8rem;
+      padding: 0 1rem; }
   .heading h2 {
     font-size: 24px; }
   .contentBx h3 {
@@ -490,18 +499,18 @@ header {
     margin-bottom: 20px; }
   .servicesBx {
     margin: 10px; }
-  .project {
-    width: 100%;
-    padding: 10px; }
-  .testimonialBx {
-    max-width: calc(100% - 20px);
-    padding: 40px 20px;
-    margin: 10px;
-    background: #2196f3; }
-    .testimonialBx h3 {
-      margin-top: 20px; }
-  .contactInfo {
-    margin: 20px 0; } }
+  .projects {
+    padding: 2rem 3rem; }
+    .projects .content {
+      align-items: center; }
+      .projects .content .project {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 2rem; }
+  .contact {
+    padding: 2rem; }
+    .contact .contactInfo {
+      margin: 20px 0; } }
 
 @media (max-width: 600px) {
   header {
