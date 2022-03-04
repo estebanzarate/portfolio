@@ -1,3 +1,7 @@
+:root {
+    --mainColor: rgb(0, 255, 0);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +11,7 @@
 }
 
 section {
-    padding: 80px;
+    padding: 2rem;
 }
 
 .heading {

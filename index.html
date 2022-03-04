@@ -15,21 +15,21 @@
         <a href="#" class="logo">EZ</a>
         <div class="toggle" onclick="toggleMenu();"></div>
         <ul class="menu">
-            <li><a href="#home" onclick="toggleMenu();">Inicio</a></li>
-            <li><a href="#about" onclick="toggleMenu();">Acerca de mi</a></li>
-            <li><a href="#services" onclick="toggleMenu();">Tecnologías</a></li>
-            <li><a href="#work" onclick="toggleMenu();">Proyectos</a></li>
+            <li><a href="#home" onclick="toggleMenu();">inicio</a></li>
+            <li><a href="#about" onclick="toggleMenu();">acerca de mi</a></li>
+            <li><a href="#tech" onclick="toggleMenu();">tecnologías</a></li>
+            <li><a href="#projects" onclick="toggleMenu();">proyectos</a></li>
             <li><a href="#contact" onclick="toggleMenu();">contacto</a></li>
         </ul>
     </header>
     <!-- END OF HEADER -->
 
     <!-- MAIN -->
-    <section class="banner" id="home">
+    <section class="main" id="home">
         <div class="textBx">
-            <h2>Hola, Mi nombre es<br><span>Esteban Zárate</span></h2>
+            <h2>Hola, mi nombre es<br><span>Esteban Zárate</span></h2>
             <h3>Soy desarrollador Front End Jr.</h3>
-            <a href="#about" class="btn">Acerca de mi</a>
+            <a href="#about" class="btn"><span>acerca de mi</span></a>
         </div>
     </section>
     <!-- END OF MAIN -->
@@ -42,9 +42,8 @@
         <div class="content">
             <div class="contentBx w50">
                 <h3>Soy desarrollador Front End</h3>
-                <p>Durante el año 2021 comencé mis estudios para hacer un cambio en mi vida profesional, me estoy enfocando en el uso de HTML, CSS y JavaScript.
-                <br><br>
-                En los pasados meses realicé cursos de Desarrollo Web y JavaScript en Coderhouse, y actualmente me encuentro realizando el de React JS.</p>
+                <p class="aboutP">Durante el año 2021 comencé mis estudios para hacer un cambio en mi vida profesional, me estoy enfocando en el uso de HTML, CSS, JavaScript y React JS.</p>
+                <p class="aboutP">En los meses pasados realicé los cursos de Desarrollo Web, JavaScript y React JS en Coderhouse y actualmente me encuentro realizando el de backend para completar la carrera de Desarrollador Full Stack.</p>
             </div>
             <div class="w50">
                 <img src="./images/img1.jpg" class="img">
@@ -54,10 +53,9 @@
     <!-- END OF ACERCA DE MI -->
 
     <!-- TECNOLOGIAS -->
-    <section class="services" id="services">
+    <section class="tech" id="tech">
         <div class="heading white">
-            <h2>Tecnologías</h2>
-            <p>Estas son las tecnologías con las que trabajo</p>
+            <h2>Stack de tecnologías</h2>
         </div>
         <div class="content">
             <div class="cuboContainer" id="cuboContainerUno">
@@ -125,17 +123,16 @@
     <!-- END OF TECNOLOGIAS -->
 
     <!-- PROYECTOS -->
-    <section class="work" id="work">
+    <section class="projects" id="projects">
         <div class="heading">
             <h2>Proyectos</h2>
-            <p>Estos son los proyectos en los que he estado trabajando.. vendrán más..</p>
         </div>
         <div class="content">
             <div class="workBx">
                 <img src="./images/keel.jpg">
             </div>
             <div class="workBx">
-                <img src="">
+                <img src="./images/luvikup.jpg">
             </div>
             <div class="workBx">
                 <img src="">
@@ -205,6 +202,6 @@
 
     <!-- SCRIPT -->
     <script src="script.js"></script>
-    
+
 </body>
 </html>
