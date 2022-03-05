@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 :root {
-  --clr: #00ade1; }
+  --clr: #00ade1;
+  --mainColor: rgb(145, 255, 0); }
 
 * {
   margin: 0;
@@ -153,6 +154,8 @@ header {
       opacity: 1; }
     .main .btn:hover::after {
       opacity: 1; }
+    .main .btn:hover span {
+      color: var(--mainColor); }
 
 @keyframes animate {
   0% {
@@ -163,7 +166,14 @@ header {
     background-position: 0 0; } }
 
 .about {
-  background: #e7e7e7; }
+  background: transparent;
+  position: relative;
+  overflow: hidden; }
+  .about .heading h2 {
+    color: orangered;
+    font-size: 2rem;
+    font-weight: 900;
+    -webkit-text-stroke: 1px white; }
   .about .contentBx {
     padding-right: 30px;
     display: flex;
@@ -172,9 +182,41 @@ header {
     .about .contentBx h3 {
       font-size: 24px;
       margin-bottom: 2rem; }
+      .about .contentBx h3 span {
+        color: orangered;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+        -webkit-text-stroke: 1px white; }
     .about .contentBx .aboutP {
       text-indent: 2rem;
-      margin-bottom: 1.2rem; }
+      margin-bottom: 1.2rem;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 1rem;
+      font-weight: 500;
+      color: #fff; }
+  .about .bcGenCont {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    z-index: -1; }
+    .about .bcGenCont .block {
+      z-index: -1;
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background: #fff;
+      box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.25); }
+      .about .bcGenCont .block:nth-child(3n + 2) {
+        background: #444; }
+      .about .bcGenCont .block:nth-child(3n + 3) {
+        background: #ff9213; }
 
 .tech {
   background: #111; }
@@ -551,4 +593,6 @@ header {
   .banner {
     padding: 150px 20px 100px; }
   section {
-    padding: 100px 20px; } }
+    padding: 100px 20px; }
+  .contentBx h3 span {
+    display: block; } }
