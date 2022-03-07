@@ -3,7 +3,10 @@ window.addEventListener("scroll", function () {
     header.classList.toggle('sticky', window.scrollY > 0);
 });
 
-window.addEventListener('load', generate);
+window.addEventListener('load', () => {
+    generate();
+    balls();
+});
 
 function toggleMenu() {
     let menuToggle = document.querySelector('.toggle');
@@ -35,4 +38,18 @@ function generate() {
             return anime.random(1, 4)
         }
     })
+}
+
+function balls() {
+    const ball = document.querySelectorAll(".ball");
+    for (let i = 0; i < ball.length; i++) {
+        const frag = document.createDocumentFragment();
+        for (let j = 1; j < 180; j++) {
+            const balls = document.createElement("div");
+            balls.classList.add("balls");
+            balls.style.transform = `rotateY(${j}deg)`;
+            frag.appendChild(balls);
+        }
+        ball[i].appendChild(frag);
+    }
 }
