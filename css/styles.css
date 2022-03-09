@@ -50,6 +50,23 @@ section {
 img {
   max-width: 100%; }
 
+body .whatsapp {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  color: #00df04;
+  font-size: 3rem;
+  z-index: 100;
+  border: 1px solid #d3d3d3;
+  padding: 1rem;
+  border-radius: 50%;
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+  transition: .4s; }
+  body .whatsapp:hover {
+    background: rgba(0, 0, 0, 0.4);
+    border-color: #0f0; }
+
 header {
   position: fixed;
   top: 0;
@@ -262,6 +279,25 @@ header {
 
 .tech {
   background: #111; }
+  .tech .stack h2 {
+    font-size: 2rem;
+    color: #0e3742;
+    text-transform: uppercase;
+    -webkit-box-reflect: below -40px linear-gradient(transparent, #0004); }
+    .tech .stack h2 span {
+      animation: light 5s linear infinite; }
+      .tech .stack h2 span:nth-child(1) {
+        animation-delay: .4s; }
+      .tech .stack h2 span:nth-child(3) {
+        animation-delay: .2s; }
+
+@keyframes light {
+  0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92% {
+    color: #2b4d06;
+    text-shadow: none; }
+  18.1%, 20.1%, 30%, 50%, 60.1%, 65%, 80.1%, 90%, 92.1%, 100% {
+    color: #fff;
+    text-shadow: 0 0 10px #89ff00, 0 0 20px #89ff00, 0 0 40px #89ff00, 0 0 80px #89ff00, 0 0 160px #89ff00, 0 0 400px #89ff00; } }
   .tech .content {
     margin: 4rem 0;
     display: flex;
@@ -349,22 +385,25 @@ header {
           position: absolute;
           width: 100%;
           height: 100%;
-          transition: .5s; }
-          .tech .content .cuboContainer .cubo .cara img {
-            width: 100%;
-            height: 100%; }
-    .tech .content #cuboContainerUno:hover .cara {
-      background: rgba(255, 165, 0, 0.4); }
-    .tech .content #cuboContainerDos:hover .cara {
-      background: rgba(33, 150, 243, 0.4); }
-    .tech .content #cuboContainerTres:hover .cara {
-      background: rgba(191, 64, 128, 0.4); }
-    .tech .content #cuboContainerCuatro:hover .cara {
-      background: rgba(102, 16, 242, 0.4); }
-    .tech .content #cuboContainerCinco:hover .cara {
-      background: rgba(255, 255, 0, 0.4); }
-    .tech .content #cuboContainerSeis:hover .cara {
-      background: rgba(241, 78, 50, 0.4); }
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          transition: .3s; }
+          .tech .content .cuboContainer .cubo .cara i {
+            font-size: 5rem;
+            color: rgba(255, 255, 255, 0.5); }
+    .tech .content #cuboContainerUno:hover .cara i {
+      color: orange; }
+    .tech .content #cuboContainerDos:hover .cara i {
+      color: #2196f3; }
+    .tech .content #cuboContainerTres:hover .cara i {
+      color: #bf4080; }
+    .tech .content #cuboContainerCuatro:hover .cara i {
+      color: #6610f2; }
+    .tech .content #cuboContainerCinco:hover .cara i {
+      color: yellow; }
+    .tech .content #cuboContainerSeis:hover .cara i {
+      color: #f14e32; }
 
 .projects {
   background: #e7e7e7; }
@@ -456,7 +495,7 @@ header {
           color: #fff;
           display: flex;
           justify-content: center;
-          align-items: flex-start;
+          align-items: center;
           font-size: 24px; }
         .contact .content .contactInfo .contactInfoBx .box .text {
           display: flex;
@@ -621,9 +660,9 @@ header {
             display: block;
             width: 100%;
             height: 2px;
-            background: #fff;
+            background: #d3d3d3;
             transition: .5s;
-            border-radius: 2px;
+            border-radius: 5px;
             pointer-events: none; }
         .contact .content .contactForm .row100 .col .textarea {
           position: relative;
@@ -675,8 +714,6 @@ header {
     header.sticky {
       padding: 20px 50px;
       z-index: 1000; }
-      header.sticky .toggle {
-        filter: invert(1); }
     header .menu {
       position: fixed;
       top: 75px;
@@ -781,4 +818,7 @@ header {
   section {
     padding: 100px 20px; }
   .contentBx h3 span {
-    display: block; } }
+    display: block; }
+  .contactForm .row100 .col {
+    display: flex;
+    justify-content: center; } }
