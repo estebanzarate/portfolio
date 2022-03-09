@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <script src="https://kit.fontawesome.com/7e46d0c484.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfolio personal || Esteban Zárate</title>
 </head>
 <body>
@@ -16,7 +17,7 @@
         <div class="toggle" onclick="toggleMenu();"></div>
         <ul class="menu">
             <li><a href="#home" onclick="toggleMenu();" data-text="&nbsp;inicio">&nbsp;inicio</a></li>
-            <li><a href="#about" onclick="toggleMenu();" data-text="&nbsp;acerca&nbsp;de&nbsp;mi">&nbsp;acerca de mi</a></li>
+            <li><a href="#about" onclick="toggleMenu();" data-text="&nbsp;acerca&nbsp;de&nbsp;mi">&nbsp;acerca de mi</a></lidata-text=>
             <li><a href="#tech" onclick="toggleMenu();" data-text="&nbsp;tecnologías">&nbsp;tecnologías</a></li>
             <li><a href="#projects" onclick="toggleMenu();" data-text="&nbsp;proyectos">&nbsp;proyectos</a></li>
             <li><a href="#contact" onclick="toggleMenu();" data-text="&nbsp;contacto">&nbsp;contacto</a></li>
@@ -63,9 +64,6 @@
         <div class="content">
             <div class="cuboContainer" id="cuboContainerUno">
                 <div class="cubo" id="cuboUno">
-                    <div class="ballContainer">
-                        <div class="ball"></div>
-                    </div>
                     <div class="cara caraUno"><img src="./images/html5-brands.svg"></div>
                     <div class="cara caraDos"><img src="./images/html5-brands.svg"></div>
                     <div class="cara caraTres"><img src="./images/html5-brands.svg"></div>
@@ -76,9 +74,6 @@
             </div>
             <div class="cuboContainer" id="cuboContainerDos">
                 <div class="cubo" id="cuboDos">
-                    <div class="ballContainer">
-                        <div class="ball"></div>
-                    </div>
                     <div class="cara caraUno"><img src="./images/css3-alt-brands.svg"></div>
                     <div class="cara caraDos"><img src="./images/css3-alt-brands.svg"></div>
                     <div class="cara caraTres"><img src="./images/css3-alt-brands.svg"></div>
@@ -89,9 +84,6 @@
             </div>
             <div class="cuboContainer" id="cuboContainerTres">
                 <div class="cubo" id="cuboTres">
-                    <div class="ballContainer">
-                        <div class="ball"></div>
-                    </div>
                     <div class="cara caraUno"><img src="./images/sass-brands.svg"></div>
                     <div class="cara caraDos"><img src="./images/sass-brands.svg"></div>
                     <div class="cara caraTres"><img src="./images/sass-brands.svg"></div>
@@ -102,9 +94,6 @@
             </div>
             <div class="cuboContainer" id="cuboContainerCuatro">
                 <div class="cubo" id="cuboCuatro">
-                    <div class="ballContainer">
-                        <div class="ball"></div>
-                    </div>
                     <div class="cara caraUno"><img src="./images/bootstrap-brands.svg"></div>
                     <div class="cara caraDos"><img src="./images/bootstrap-brands.svg"></div>
                     <div class="cara caraTres"><img src="./images/bootstrap-brands.svg"></div>
@@ -115,9 +104,6 @@
             </div>
             <div class="cuboContainer" id="cuboContainerCinco">
                 <div class="cubo" id="cuboCinco">
-                    <div class="ballContainer">
-                        <div class="ball"></div>
-                    </div>
                     <div class="cara caraUno"><img src="./images/js-brands.svg"></div>
                     <div class="cara caraDos"><img src="./images/js-brands.svg"></div>
                     <div class="cara caraTres"><img src="./images/js-brands.svg"></div>
@@ -128,9 +114,6 @@
             </div>
             <div class="cuboContainer" id="cuboContainerSeis">
                 <div class="cubo" id="cuboSeis">
-                    <div class="ballContainer">
-                        <div class="ball"></div>
-                    </div>
                     <div class="cara caraUno"><img src="./images/git-alt-brands.svg"></div>
                     <div class="cara caraDos"><img src="./images/git-alt-brands.svg"></div>
                     <div class="cara caraTres"><img src="./images/git-alt-brands.svg"></div>
@@ -205,6 +188,14 @@
                             <p>esteban-zarate@hotmail.com</p>
                         </div>
                     </div>
+                    <div class="redes">
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/esteban-zarate/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href="https://github.com/estebanzarate" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                            <li><a href="https://twitter.com/estebanzarate_" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/estebanzarate__/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="contactForm">
@@ -252,6 +243,6 @@
     <!-- SCRIPT -->
     <script src="anime.min.js"></script>
     <script src="script.js"></script>
-
+    
 </body>
 </html>

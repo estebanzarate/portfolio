@@ -62,13 +62,14 @@ header {
   align-items: center;
   transition: .5s; }
   header.sticky {
-    background: #fff;
+    background: transparent;
     padding: 20px 100px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); }
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(30px); }
     header.sticky .logo {
-      color: #111; }
+      color: #00df04; }
     header.sticky ul li a {
-      color: #111; }
+      color: #fff; }
   header .logo {
     color: #fff;
     font-size: 24px;
@@ -81,7 +82,38 @@ header {
     display: flex; }
     header ul li {
       position: relative;
-      list-style: none; }
+      list-style: none;
+      background: #060c21;
+      margin: .4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      header ul li:nth-child(1)::before, header ul li:nth-child(1)::after {
+        background: linear-gradient(235deg, #ff005e, #010615, #fbff00); }
+      header ul li:nth-child(3)::before, header ul li:nth-child(3)::after {
+        background: linear-gradient(235deg, #772aff, #010615, #2196f3); }
+      header ul li:nth-child(5)::before, header ul li:nth-child(5)::after {
+        background: linear-gradient(235deg, #ff005e, #010615, #fbff00); }
+      header ul li::before {
+        content: "";
+        position: absolute;
+        top: -1px;
+        left: -1px;
+        right: -1px;
+        bottom: -1px;
+        background: #fff;
+        z-index: -1;
+        background: linear-gradient(235deg, #89ff00, #010615, #00bcd4); }
+      header ul li::after {
+        content: "";
+        position: absolute;
+        top: -1px;
+        left: -1px;
+        right: -1px;
+        bottom: -1px;
+        background: #fff;
+        z-index: -2;
+        filter: blur(50px); }
       header ul li a {
         position: relative;
         display: inline-block;
@@ -295,16 +327,6 @@ header {
         display: flex;
         justify-content: center;
         align-items: center; }
-        .tech .content .cuboContainer .cubo .ballContainer .ball {
-          width: 4rem;
-          height: 4rem;
-          transform-style: preserve-3d; }
-          .tech .content .cuboContainer .cubo .ballContainer .ball .balls {
-            background: #00df04;
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            border-radius: 50%; }
         .tech .content .cuboContainer .cubo .caraUno {
           background: rgba(34, 34, 34, 0.6);
           transform: translateZ(50px); }
@@ -419,7 +441,11 @@ header {
       font-weight: 500;
       margin-bottom: 10px; }
     .contact .content .contactInfo .contactInfoBx {
-      position: relative; }
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      height: 100%; }
       .contact .content .contactInfo .contactInfoBx .box {
         position: relative;
         padding: 20px 0;
@@ -443,9 +469,62 @@ header {
             font-weight: 500;
             color: #2196f3;
             margin-bottom: 0; }
+      .contact .content .contactInfo .contactInfoBx .redes {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .contact .content .contactInfo .contactInfoBx .redes::before {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          height: 50%;
+          z-index: 1;
+          backdrop-filter: blur(5px); }
+        .contact .content .contactInfo .contactInfoBx .redes ul {
+          position: relative;
+          display: flex;
+          z-index: 2; }
+          .contact .content .contactInfo .contactInfoBx .redes ul li {
+            position: relative;
+            list-style: none;
+            margin: 10px; }
+            .contact .content .contactInfo .contactInfoBx .redes ul li a {
+              position: relative;
+              width: 80px;
+              height: 80px;
+              display: inline-block;
+              border-radius: 10px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              text-decoration: none;
+              color: #fff;
+              font-size: 2em;
+              border: 1px solid rgba(255, 255, 255, 0.4);
+              border-right: 1px solid rgba(255, 255, 255, 0.2);
+              border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+              box-shadow: 0 5px 45px rgba(255, 255, 255, 0.2);
+              backdrop-filter: blur(2px);
+              transition: .5s;
+              overflow: hidden; }
+              .contact .content .contactInfo .contactInfoBx .redes ul li a:hover {
+                transform: translateY(-20px); }
+                .contact .content .contactInfo .contactInfoBx .redes ul li a:hover::before {
+                  transform: skewX(45deg) translateX(-150px); }
+              .contact .content .contactInfo .contactInfoBx .redes ul li a::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 50px;
+                height: 100%;
+                background: rgba(255, 255, 255, 0.2);
+                transform: skewX(45deg) translateX(150px);
+                transition: .5s; }
   .contact .content .contactForm {
     position: relative;
-    z-index: 1000;
     width: 100%;
     max-width: 1000px;
     padding: 50px;
@@ -552,15 +631,20 @@ header {
           height: 100px;
           padding: 10px 0; }
         .contact .content .contactForm .row100 .col input[type="submit"] {
-          border: none;
-          padding: 10px 40px;
-          cursor: pointer;
-          outline: none;
-          background: #fff;
-          color: #000;
+          position: relative;
+          display: inline-block;
+          padding: 10px 20px;
+          border: 2px solid #0f0;
+          margin: 40px;
+          text-transform: uppercase;
           font-weight: 600;
-          font-size: 18px;
-          border-radius: 2px; }
+          text-decoration: none;
+          letter-spacing: 2px;
+          color: #fff;
+          transition: .5s;
+          background: #000;
+          cursor: pointer;
+          -webkit-box-reflect: below 0px linear-gradient(transparent, #0002); }
 
 .copyright {
   background: #000;
