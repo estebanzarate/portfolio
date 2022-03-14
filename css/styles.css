@@ -21,7 +21,8 @@
   background: linear-gradient(transparent, #00c6ff); }
 
 section {
-  padding: 2rem; }
+  padding: 2rem;
+  scroll-margin-top: 75px; }
 
 .heading {
   width: 100%;
@@ -70,7 +71,6 @@ body .whatsapp {
 header {
   position: fixed;
   top: 0;
-  left: 0;
   width: 100%;
   padding: 40px 100px;
   z-index: 1000;
@@ -228,6 +228,28 @@ header {
   background: transparent;
   position: relative;
   overflow: hidden; }
+  .about .bcGenCont {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    z-index: -1; }
+    .about .bcGenCont .block {
+      z-index: -1;
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background: #fff;
+      box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.25); }
+      .about .bcGenCont .block:nth-child(3n + 2) {
+        background: #444; }
+      .about .bcGenCont .block:nth-child(3n + 3) {
+        background: #ff9213; }
   .about .heading h2 {
     color: orangered;
     font-size: 2rem;
@@ -254,36 +276,18 @@ header {
       padding: 1rem;
       font-weight: 500;
       color: #fff; }
-  .about .bcGenCont {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    z-index: -1; }
-    .about .bcGenCont .block {
-      z-index: -1;
-      position: absolute;
-      width: 50px;
-      height: 50px;
-      background: #fff;
-      box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.25); }
-      .about .bcGenCont .block:nth-child(3n + 2) {
-        background: #444; }
-      .about .bcGenCont .block:nth-child(3n + 3) {
-        background: #ff9213; }
 
 .tech {
-  background: #111; }
+  background: #111;
+  padding: 2rem 0; }
   .tech .stack h2 {
+    margin: 2rem 0;
     font-size: 2rem;
-    color: #0e3742;
     text-transform: uppercase;
-    -webkit-box-reflect: below -40px linear-gradient(transparent, #0004); }
+    -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.8);
+    letter-spacing: 2px;
+    -webkit-box-reflect: below -40px linear-gradient(transparent, #0004);
+    color: #89ff00; }
     .tech .stack h2 span {
       animation: light 5s linear infinite; }
       .tech .stack h2 span:nth-child(1) {
@@ -293,17 +297,17 @@ header {
 
 @keyframes light {
   0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92% {
-    color: #2b4d06;
+    color: #27490083;
     text-shadow: none; }
   18.1%, 20.1%, 30%, 50%, 60.1%, 65%, 80.1%, 90%, 92.1%, 100% {
-    color: #fff;
+    color: #27490083;
     text-shadow: 0 0 10px #89ff00, 0 0 20px #89ff00, 0 0 40px #89ff00, 0 0 80px #89ff00, 0 0 160px #89ff00, 0 0 400px #89ff00; } }
   .tech .content {
-    margin: 4rem 0;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    flex-direction: row; }
+    flex-direction: row;
+    padding: 4rem 0; }
     .tech .content .cuboContainer {
       perspective: 2000px;
       perspective-origin: 10px -1000px; }
@@ -406,7 +410,15 @@ header {
       color: #f14e32; }
 
 .projects {
-  background: #e7e7e7; }
+  background: #fff;
+  padding: 0 4rem 5rem; }
+  .projects .heading h2 {
+    margin: 2rem 0;
+    -webkit-text-stroke: 1.5px orange;
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-size: 2rem;
+    color: orangered; }
   .projects .content {
     display: flex;
     justify-content: space-between;
@@ -440,8 +452,8 @@ header {
         position: relative;
         z-index: 10;
         padding: 1rem; }
-      .projects .content .project:hover {
-        transform: scale(0.9); }
+      .projects .content .project:hover::after {
+        filter: blur(30px); }
       .projects .content .project::before {
         content: "";
         position: absolute;
@@ -458,7 +470,7 @@ header {
         width: 100%;
         height: 100%;
         background: linear-gradient(45deg, #ffbc00, #ff0058);
-        filter: blur(30px); }
+        transition: all .3s; }
       .projects .content .project:nth-child(2)::before, .projects .content .project:nth-child(2)::after {
         background: linear-gradient(315deg, #03a9f4, #ff0058); }
       .projects .content .project .projectCont {
@@ -472,6 +484,12 @@ header {
 
 .contact {
   background: #111; }
+  .contact .heading h2 {
+    color: orangered;
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    -webkit-text-stroke: 1px white; }
   .contact .content .contactInfo {
     min-width: 40%; }
     .contact .content .contactInfo h3 {
@@ -682,8 +700,10 @@ header {
           color: #fff;
           transition: .5s;
           background: #000;
-          cursor: pointer;
           -webkit-box-reflect: below 0px linear-gradient(transparent, #0002); }
+          .contact .content .contactForm .row100 .col input[type="submit"]:hover {
+            cursor: pointer;
+            background: rgba(0, 0, 0, 0.2); }
 
 .copyright {
   background: #000;

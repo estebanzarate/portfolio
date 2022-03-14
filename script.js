@@ -29,27 +29,13 @@ function generate() {
     anime({
         targets: ".block",
         translateX: function () {
-            return anime.random(-700, 700)
+            return anime.random(-950, 950)
         },
         translateY: function () {
-            return anime.random(-700, 700)
+            return anime.random(-950, 950)
         },
         scale: function () {
             return anime.random(1, 4)
         }
     })
-}
-
-function balls() {
-    const ball = document.querySelectorAll(".ball");
-    for (let i = 0; i < ball.length; i++) {
-        const frag = document.createDocumentFragment();
-        for (let j = 1; j < 180; j++) {
-            const balls = document.createElement("div");
-            balls.classList.add("balls");
-            balls.style.transform = `rotateY(${j}deg)`;
-            frag.appendChild(balls);
-        }
-        ball[i].appendChild(frag);
-    }
 }
