@@ -83,17 +83,28 @@ header {
     padding: 20px 100px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(30px); }
-    header.sticky .logo {
-      color: #00df04; }
     header.sticky ul li a {
       color: #fff; }
   header .logo {
-    color: #fff;
-    font-size: 24px;
+    color: #0f0;
+    font-size: 2.5rem;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 700;
     letter-spacing: 2px; }
+    header .logo i {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      header .logo i .cv {
+        position: absolute;
+        bottom: .2rem;
+        transform: rotateZ(-25deg);
+        color: #ff0000;
+        font-size: 1.1rem;
+        letter-spacing: -.1rem;
+        -webkit-text-stroke: 1px yellow; }
   header ul {
     position: relative;
     display: flex; }
@@ -526,6 +537,13 @@ header {
             font-weight: 500;
             color: #2196f3;
             margin-bottom: 0; }
+          .contact .content .contactInfo .contactInfoBx .box .text a {
+            text-decoration: none;
+            font-size: 16px;
+            color: #fff;
+            transition: color .4s; }
+            .contact .content .contactInfo .contactInfoBx .box .text a:hover {
+              color: #dbdbdb; }
       .contact .content .contactInfo .contactInfoBx .redes {
         position: relative;
         display: flex;
