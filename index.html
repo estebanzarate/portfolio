@@ -205,14 +205,14 @@
                 <div class="row100">
                     <div class="col">
                         <div class="inputBox">
-                            <input type="text" name="Nombre" required>
+                            <input type="text" name="name" title="No se aceptan números ni símbolos, solo letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
                             <span class="text">Nombre</span>
                             <span class="line"></span>
                         </div>
                     </div>
                     <div class="col">
                         <div class="inputBox">
-                            <input type="text" name="Email" required>
+                            <input type="text" name="email" title="Email incorrecto" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
                             <span class="text">Email</span>
                             <span class="line"></span>
                         </div>
@@ -221,7 +221,7 @@
                 <div class="row100">
                     <div class="col">
                         <div class="inputBox textarea">
-                            <textarea name="Mensaje" required></textarea>
+                            <textarea name="message" data-pattern="^.{1,255}$" title="Tu mensaje no debe exceder los 255 caracteres" required></textarea>
                             <span class="text">Escribí tu mensaje</span>
                             <span class="line"></span>
                         </div>
