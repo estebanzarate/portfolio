@@ -1,4 +1,5 @@
 :root {
+    --verde: #51ff00;
     --clr: #00ade1;
     --mainColor: rgb(145, 255, 0);
 }
@@ -7,7 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -16,16 +17,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(transparent, #51ff00);
+    background: var(--verde);
     border-radius: 6px;
 }
 
-::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(transparent, #00c6ff);
-}
-
 section {
-    padding: 2rem;
+    padding: 4rem;
     scroll-margin-top: 75px;
 }
 

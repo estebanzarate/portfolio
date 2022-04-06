@@ -1,18 +1,19 @@
 window.addEventListener("scroll", function () {
     let header = this.document.querySelector("header");
-    header.classList.toggle('sticky', window.scrollY > 0);
+    header.classList.toggle("sticky", window.scrollY > 0);
 });
 
-window.addEventListener('load', () => {
+setInterval(() => generate(), 3000);
+
+window.addEventListener("load", () => {
     generate();
-    balls();
 });
 
 function toggleMenu() {
-    let menuToggle = document.querySelector('.toggle');
-    let menu = document.querySelector('.menu');
-    menuToggle.classList.toggle('active');
-    menu.classList.toggle('active');
+    let menuToggle = document.querySelector(".toggle");
+    let menu = document.querySelector(".menu");
+    menuToggle.classList.toggle("active");
+    menu.classList.toggle("active");
 }
 
 const about = document.querySelector(".about"),
@@ -29,13 +30,27 @@ function generate() {
     anime({
         targets: ".block",
         translateX: function () {
-            return anime.random(-950, 950)
+            return anime.random(-950, 950);
         },
         translateY: function () {
-            return anime.random(-950, 950)
+            return anime.random(-950, 950);
         },
         scale: function () {
-            return anime.random(1, 4)
-        }
-    })
+            return anime.random(1, 4);
+        },
+    });
 }
+
+const projects = document.getElementById("projects");
+document.addEventListener("mouseover", (e) => {
+    if (e.target.matches(".iframeLink")) {
+        if (projects.firstElementChild.classList.contains("ifra")) {
+            projects.removeChild(projects.firstElementChild);
+        }
+        const href = e.target.parentNode.href;
+        const iframe = document.createElement("iframe");
+        iframe.src = href;
+        iframe.classList.add("ifra");
+        projects.insertAdjacentElement("afterbegin", iframe);
+    }
+});
