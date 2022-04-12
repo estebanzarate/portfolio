@@ -106,15 +106,14 @@ header {
         -webkit-text-stroke: 1px yellow; }
   header ul {
     position: relative;
-    display: flex; }
+    display: flex;
+    list-style: none; }
     header ul li {
       position: relative;
-      list-style: none;
       margin: 0.4rem;
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 0.2rem 0.6rem;
       background-color: #000; }
       header ul li:nth-child(1)::after, header ul li:nth-child(1)::before {
         animation-delay: 0.4s; }
@@ -189,12 +188,23 @@ header {
         background: linear-gradient(250deg, var(--verde), transparent, var(--verde));
         animation: aniLee 5s linear infinite; }
       header ul li a {
+        width: 100%;
         position: relative;
         display: inline-block;
-        margin: 0 15px;
         color: #fff;
         text-decoration: none;
-        font-size: 1.1rem; }
+        font-size: 1.1rem;
+        padding: 0.1rem 1.2rem; }
+      header ul li:hover::before {
+        content: none;
+        background: none;
+        animation: none; }
+      header ul li:hover::after {
+        content: none;
+        background: none;
+        animation: none; }
+      header ul li:hover a {
+        color: gray; }
 
 .main {
   position: relative;
@@ -212,8 +222,7 @@ header {
     line-height: 1.5em; }
     .main h2 p {
       font-size: 1.3em;
-      font-weight: 700;
-      text-indent: 3rem; }
+      font-weight: 700; }
   .main h3 {
     font-size: 1.5em;
     color: #fff;
@@ -336,7 +345,15 @@ header {
       color: #fff; }
 
 .tech {
-  background: #111; }
+  background: #111;
+  position: relative; }
+  .tech .h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10rem;
+    color: #fff; }
   .tech .stack h2 {
     font-size: 2rem;
     text-transform: uppercase;
@@ -438,6 +455,15 @@ header {
     transform: rotateY(0) rotateX(0); }
   to {
     transform: rotateY(360deg) rotateX(360deg); } }
+      .tech .content .cuboContainer #cuboSiete {
+        animation: girar7 20s infinite linear;
+        transform: rotateY(23deg) rotateX(133deg); }
+
+@keyframes girar7 {
+  from {
+    transform: rotateY(0) rotateX(0); }
+  to {
+    transform: rotateY(-360deg) rotateX(-360deg); } }
       .tech .content .cuboContainer .cubo {
         min-width: 100px;
         min-height: 100px;
@@ -486,6 +512,8 @@ header {
       color: yellow; }
     .tech .content #cuboContainerSeis:hover .cara i {
       color: #f14e32; }
+    .tech .content #cuboContainerSiete:hover .cara i {
+      color: #60d9fb; }
 
 .projects {
   background: transparent;
@@ -495,7 +523,8 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    border: none; }
   .projects .content {
     display: flex;
     justify-content: space-between;
@@ -561,18 +590,13 @@ header {
 .contact {
   background: #111; }
   .contact .heading h2 {
-    color: #ffffffdd;
+    color: transparent;
     font-size: 2.5rem;
     font-weight: 900;
-    -webkit-text-stroke: 2px var(--verde);
+    -webkit-text-stroke: 1px var(--verde);
     letter-spacing: 2px; }
   .contact .content .contactInfo {
     min-width: 50%; }
-    .contact .content .contactInfo h3 {
-      color: #fff;
-      font-size: 20px;
-      font-weight: 500;
-      margin-bottom: 10px; }
     .contact .content .contactInfo .contactInfoBx {
       position: relative;
       display: flex;
@@ -600,7 +624,7 @@ header {
           font-weight: 300; }
           .contact .content .contactInfo .contactInfoBx .box .text h3 {
             font-weight: 500;
-            color: #2196f3;
+            color: var(--verde);
             margin-bottom: 0; }
           .contact .content .contactInfo .contactInfoBx .box .text a {
             text-decoration: none;
@@ -647,9 +671,10 @@ header {
               border-bottom: 1px solid rgba(255, 255, 255, 0.2);
               box-shadow: 0 5px 45px rgba(255, 255, 255, 0.2);
               backdrop-filter: blur(2px);
-              transition: 0.5s;
+              transition: 0.2s;
               overflow: hidden; }
               .contact .content .contactInfo .contactInfoBx .redes ul li a:hover {
+                color: var(--verde);
                 transform: translateY(-20px); }
                 .contact .content .contactInfo .contactInfoBx .redes ul li a:hover::before {
                   transform: skewX(45deg) translateX(-150px); }
@@ -660,31 +685,18 @@ header {
                 left: 0;
                 width: 50px;
                 height: 100%;
-                background: rgba(255, 255, 255, 0.2);
+                background: var(--verde);
                 transform: skewX(45deg) translateX(150px);
-                transition: 0.5s; }
+                transition: 0.2s; }
   .contact .content .contactForm {
     position: relative;
     width: 100%;
     max-width: 1000px;
     padding: 2rem 4rem;
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     backdrop-filter: blur(30px);
-    overflow: hidden; }
-    .contact .content .contactForm::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: -40%;
-      width: 100%;
-      height: 100%;
-      background: rgba(255, 255, 255, 0.05);
-      pointer-events: none;
-      transform: skew(-45deg); }
+    font-size: 1rem; }
     .contact .content .contactForm .divInput {
       display: flex;
       justify-content: space-between;
@@ -694,13 +706,16 @@ header {
         min-width: 20rem;
         height: 2.5rem;
         border-radius: 10px;
-        padding: 0.4rem;
-        font-size: 1rem;
-        color: #fff; }
-        .contact .content .contactForm .divInput input::placeholder {
-          color: black; }
+        border: 1px solid transparent;
+        padding: 0.6rem;
+        color: #fff;
+        box-shadow: 0 0 5px var(--verde), 0 0 10px var(--verde); }
         .contact .content .contactForm .divInput input:focus {
           outline: none; }
+        .contact .content .contactForm .divInput input:hover {
+          border: 0.1px solid; }
+          .contact .content .contactForm .divInput input:hover::placeholder {
+            color: var(--verde); }
     .contact .content .contactForm .divTextArea {
       width: 100%;
       display: flex;
@@ -711,12 +726,17 @@ header {
         min-height: 15rem;
         background-color: transparent;
         resize: none;
+        box-shadow: 0 0 5px var(--verde), 0 0 10px var(--verde);
+        border: 1px solid transparent;
         border-radius: 10px;
         padding: 1rem;
-        font-size: 1rem;
         color: #fff; }
         .contact .content .contactForm .divTextArea textarea:focus {
           outline: none; }
+        .contact .content .contactForm .divTextArea textarea:hover {
+          border: 0.1px solid; }
+          .contact .content .contactForm .divTextArea textarea:hover::placeholder {
+            color: var(--verde); }
     .contact .content .contactForm .divSubmit {
       display: flex;
       justify-content: center; }
@@ -726,8 +746,8 @@ header {
         border: none; }
 
 .copyright {
-  background: #000;
-  color: #fff;
+  background: var(--verde);
+  color: #000;
   text-align: center;
   padding: 10px; }
 
@@ -735,6 +755,12 @@ header {
   header {
     padding: 20px 50px;
     z-index: 1000; }
+    header ul li::before {
+      content: none;
+      animation: none; }
+    header ul li::after {
+      content: none;
+      animation: none; }
     header .toggle {
       width: 40px;
       height: 40px;
@@ -789,6 +815,7 @@ header {
         font-weight: 700;
         line-height: 1em;
         color: transparent;
+        padding: 0;
         -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5); }
         header .menu a:hover::before {
           width: 100%;
@@ -859,6 +886,17 @@ header {
     padding: 100px 20px; }
   .contentBx h3 span {
     display: block; }
-  .contactForm .row100 .col {
-    display: flex;
-    justify-content: center; } }
+  .about .content .contentBx {
+    padding-right: 0; }
+  .projects {
+    padding: 0; }
+    .projects .content {
+      gap: 2rem; }
+      .projects .content .project {
+        margin-bottom: 0; }
+  .contact .content .contactForm {
+    padding: 1rem; }
+    .contact .content .contactForm .divInput {
+      display: flex;
+      flex-direction: column;
+      height: 6.5rem; } }

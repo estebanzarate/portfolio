@@ -34,6 +34,7 @@ header {
     justify-content: space-between;
     align-items: center;
     transition: 0.5s;
+
     &.sticky {
         background: transparent;
         padding: 20px 100px;
@@ -69,14 +70,14 @@ header {
     ul {
         position: relative;
         display: flex;
+        list-style: none;
         li {
             position: relative;
-            list-style: none;
             margin: 0.4rem;
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 0.2rem 0.6rem;
+
             background-color: #000;
             &:nth-child(1)::after,
             &:nth-child(1)::before {
@@ -180,12 +181,28 @@ header {
                 animation: aniLee 5s linear infinite;
             }
             a {
+                width: 100%;
                 position: relative;
                 display: inline-block;
-                margin: 0 15px;
                 color: #fff;
                 text-decoration: none;
                 font-size: 1.1rem;
+                padding: 0.1rem 1.2rem;
+            }
+            &:hover {
+                &::before {
+                    content: none;
+                    background: none;
+                    animation: none;
+                }
+                &::after {
+                    content: none;
+                    background: none;
+                    animation: none;
+                }
+                a {
+                    color: gray;
+                }
             }
         }
     }
@@ -210,7 +227,6 @@ header {
         p {
             font-size: 1.3em;
             font-weight: 700;
-            text-indent: 3rem;
         }
     }
     h3 {
@@ -389,6 +405,15 @@ header {
 // TECNOLOGIAS
 .tech {
     background: #111;
+    position: relative;
+    .h2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 10rem;
+        color: #fff;
+    }
     .stack {
         h2 {
             font-size: 2rem;
@@ -519,6 +544,18 @@ header {
                     transform: rotateY(360deg) rotateX(360deg);
                 }
             }
+            #cuboSiete {
+                animation: girar7 20s infinite linear;
+                transform: rotateY(23deg) rotateX(133deg);
+            }
+            @keyframes girar7 {
+                from {
+                    transform: rotateY(0) rotateX(0);
+                }
+                to {
+                    transform: rotateY(-360deg) rotateX(-360deg);
+                }
+            }
             .cubo {
                 min-width: 100px;
                 min-height: 100px;
@@ -595,6 +632,11 @@ header {
                 color: rgb(241, 78, 50);
             }
         }
+        #cuboContainerSiete:hover .cara {
+            i {
+                color: rgb(96, 217, 251);
+            }
+        }
     }
 }
 // END OF TECNOLOGIAS
@@ -609,6 +651,7 @@ header {
         left: 0;
         width: 100%;
         height: 100%;
+        border: none;
     }
     .content {
         display: flex;
@@ -691,22 +734,16 @@ header {
     background: #111;
     .heading {
         h2 {
-            color: #ffffffdd;
+            color: transparent;
             font-size: 2.5rem;
             font-weight: 900;
-            -webkit-text-stroke: 2px var(--verde);
+            -webkit-text-stroke: 1px var(--verde);
             letter-spacing: 2px;
         }
     }
     .content {
         .contactInfo {
             min-width: 50%;
-            h3 {
-                color: #fff;
-                font-size: 20px;
-                font-weight: 500;
-                margin-bottom: 10px;
-            }
             .contactInfoBx {
                 position: relative;
                 display: flex;
@@ -735,7 +772,7 @@ header {
                         font-weight: 300;
                         h3 {
                             font-weight: 500;
-                            color: #2196f3;
+                            color: var(--verde);
                             margin-bottom: 0;
                         }
                         a {
@@ -789,9 +826,10 @@ header {
                                     rgba(255, 255, 255, 0.2);
                                 box-shadow: 0 5px 45px rgba(255, 255, 255, 0.2);
                                 backdrop-filter: blur(2px);
-                                transition: 0.5s;
+                                transition: 0.2s;
                                 overflow: hidden;
                                 &:hover {
+                                    color: var(--verde);
                                     transform: translateY(-20px);
                                     &::before {
                                         transform: skewX(45deg)
@@ -805,9 +843,9 @@ header {
                                     left: 0;
                                     width: 50px;
                                     height: 100%;
-                                    background: rgba(255, 255, 255, 0.2);
+                                    background: var(--verde);
                                     transform: skewX(45deg) translateX(150px);
-                                    transition: 0.5s;
+                                    transition: 0.2s;
                                 }
                             }
                         }
@@ -820,24 +858,10 @@ header {
             width: 100%;
             max-width: 1000px;
             padding: 2rem 4rem;
-            background: rgba(255, 255, 255, 0.1);
-            box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
-            border: 1px solid rgba(255, 255, 255, 0.25);
-            border-right: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
             backdrop-filter: blur(30px);
-            overflow: hidden;
-            &::before {
-                content: "";
-                position: absolute;
-                top: 0;
-                left: -40%;
-                width: 100%;
-                height: 100%;
-                background: rgba(255, 255, 255, 0.05);
-                pointer-events: none;
-                transform: skew(-45deg);
-            }
+            font-size: 1rem;
             .divInput {
                 display: flex;
                 justify-content: space-between;
@@ -847,14 +871,18 @@ header {
                     min-width: 20rem;
                     height: 2.5rem;
                     border-radius: 10px;
-                    padding: 0.4rem;
-                    font-size: 1rem;
+                    border: 1px solid transparent;
+                    padding: 0.6rem;
                     color: #fff;
-                    &::placeholder {
-                        color: black;
-                    }
+                    box-shadow: 0 0 5px var(--verde), 0 0 10px var(--verde);
                     &:focus {
                         outline: none;
+                    }
+                    &:hover {
+                        border: 0.1px solid;
+                        &::placeholder {
+                            color: var(--verde);
+                        }
                     }
                 }
             }
@@ -868,12 +896,19 @@ header {
                     min-height: 15rem;
                     background-color: transparent;
                     resize: none;
+                    box-shadow: 0 0 5px var(--verde), 0 0 10px var(--verde);
+                    border: 1px solid transparent;
                     border-radius: 10px;
                     padding: 1rem;
-                    font-size: 1rem;
                     color: #fff;
                     &:focus {
                         outline: none;
+                    }
+                    &:hover {
+                        border: 0.1px solid;
+                        &::placeholder {
+                            color: var(--verde);
+                        }
                     }
                 }
             }
@@ -893,8 +928,8 @@ header {
 
 // COPYRIGHT
 .copyright {
-    background: #000;
-    color: #fff;
+    background: var(--verde);
+    color: #000;
     text-align: center;
     padding: 10px;
 }
@@ -905,6 +940,18 @@ header {
     header {
         padding: 20px 50px;
         z-index: 1000;
+        ul {
+            li {
+                &::before {
+                    content: none;
+                    animation: none;
+                }
+                &::after {
+                    content: none;
+                    animation: none;
+                }
+            }
+        }
         .toggle {
             width: 40px;
             height: 40px;
@@ -967,6 +1014,7 @@ header {
                 font-weight: 700;
                 line-height: 1em;
                 color: transparent;
+                padding: 0;
                 -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
                 &:hover {
                     &::before {
@@ -1056,6 +1104,7 @@ header {
         &.sticky {
             padding: 20px 20px;
         }
+
         .menu {
             a {
                 font-size: 3rem;
@@ -1075,12 +1124,28 @@ header {
             }
         }
     }
-    .contactForm {
-        .row100 {
-            .col {
-                display: flex;
-                justify-content: center;
+    .about {
+        .content {
+            .contentBx {
+                padding-right: 0;
             }
+        }
+    }
+    .projects {
+        padding: 0;
+        .content {
+            gap: 2rem;
+            .project {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .contact .content .contactForm {
+        padding: 1rem;
+        .divInput {
+            display: flex;
+            flex-direction: column;
+            height: 6.5rem;
         }
     }
 }
