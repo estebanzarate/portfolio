@@ -129,6 +129,7 @@
 
         <!-- TECNOLOGIAS -->
         <section class="tech" id="tech">
+            <div id="divTech" class="divTech"></div>
             <div class="heading white stack">
                 <h2>
                     <span>Skills</span>
@@ -138,7 +139,8 @@
                 <div
                     class="cuboContainer"
                     id="cuboContainerUno"
-                    data-tech="html"
+                    data-tech="HTML"
+                    data-color="ffa500"
                 >
                     <div class="cubo" id="cuboUno">
                         <div class="cara caraUno">
@@ -164,7 +166,8 @@
                 <div
                     class="cuboContainer"
                     id="cuboContainerDos"
-                    data-tech="css"
+                    data-tech="CSS"
+                    data-color="2196f3"
                 >
                     <div class="cubo" id="cuboDos">
                         <div class="cara caraUno">
@@ -190,7 +193,8 @@
                 <div
                     class="cuboContainer"
                     id="cuboContainerTres"
-                    data-tech="sass"
+                    data-tech="Sass"
+                    data-color="bf4080"
                 >
                     <div class="cubo" id="cuboTres">
                         <div class="cara caraUno">
@@ -216,7 +220,8 @@
                 <div
                     class="cuboContainer"
                     id="cuboContainerCuatro"
-                    data-tech="bootstrap"
+                    data-tech="Bootstrap"
+                    data-color="6610f2"
                 >
                     <div class="cubo" id="cuboCuatro">
                         <div class="cara caraUno">
@@ -242,7 +247,8 @@
                 <div
                     class="cuboContainer"
                     id="cuboContainerCinco"
-                    data-tech="javascript"
+                    data-tech="JavaScript"
+                    data-color="ffff00"
                 >
                     <div class="cubo" id="cuboCinco">
                         <div class="cara caraUno">
@@ -269,6 +275,7 @@
                     class="cuboContainer"
                     id="cuboContainerSeis"
                     data-tech="git"
+                    data-color="f14e32"
                 >
                     <div class="cubo" id="cuboSeis">
                         <div class="cara caraUno">
@@ -294,7 +301,8 @@
                 <div
                     class="cuboContainer"
                     id="cuboContainerSiete"
-                    data-tech="react"
+                    data-tech="React JS"
+                    data-color="60d9fb"
                 >
                     <div class="cubo" id="cuboSiete">
                         <div class="cara caraUno">
@@ -423,11 +431,25 @@
                     class="contactForm"
                 >
                     <div class="divInput">
-                        <input type="text" placeholder="Nombre" />
-                        <input type="email" placeholder="Email" />
+                        <input
+                            type="text"
+                            placeholder="Nombre"
+                            name="name"
+                            required
+                        />
+                        <input
+                            type="email"
+                            placeholder="Email"
+                            name="email"
+                            required
+                        />
                     </div>
                     <div class="divTextArea">
-                        <textarea placeholder="Ingresa tu mensaje.."></textarea>
+                        <textarea
+                            placeholder="Ingresa tu mensaje.."
+                            name="message"
+                            required
+                        ></textarea>
                     </div>
                     <div class="divSubmit">
                         <input type="submit" value="Enviar" />

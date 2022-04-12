@@ -54,3 +54,18 @@ document.addEventListener("mouseover", (e) => {
         projects.insertAdjacentElement("afterbegin", iframe);
     }
 });
+
+const divTech = document.getElementById("divTech");
+document.addEventListener("mouseover", (e) => {
+    if (e.target.matches(".cara")) {
+        divTech.textContent = e.target.parentNode.parentNode.dataset.tech;
+        divTech.style.color = `#${e.target.parentNode.parentNode.dataset.color}`;
+        divTech.style.background = `linear-gradient(to top, #${e.target.parentNode.parentNode.dataset.color}, #000)`;
+    }
+    if (e.target.matches(".fa-brands")) {
+        divTech.textContent =
+            e.target.parentNode.parentNode.parentNode.dataset.tech;
+        divTech.style.color = `#${e.target.parentNode.parentNode.parentNode.dataset.color}`;
+        divTech.style.background = `linear-gradient(to top, #${e.target.parentNode.parentNode.parentNode.dataset.color}, #000)`;
+    }
+});

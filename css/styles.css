@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 :root {
   --verde: #51ff00;
@@ -342,13 +343,18 @@ header {
 .tech {
   background: #111;
   position: relative; }
-  .tech .h2 {
+  .tech .divTech {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 10rem;
-    color: #fff; }
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 12rem;
+    -webkit-text-stroke: 1px white; }
   .tech .stack h2 {
     font-size: 2rem;
     text-transform: uppercase;
@@ -493,7 +499,7 @@ header {
             color: rgba(255, 255, 255, 0.5);
             transition: color 0.3s; }
     .tech .content #cuboContainerUno:hover .cara i {
-      color: orange; }
+      color: #ffa500; }
     .tech .content #cuboContainerDos:hover .cara i {
       color: #2196f3; }
     .tech .content #cuboContainerTres:hover .cara i {
@@ -501,7 +507,7 @@ header {
     .tech .content #cuboContainerCuatro:hover .cara i {
       color: #6610f2; }
     .tech .content #cuboContainerCinco:hover .cara i {
-      color: yellow; }
+      color: #ffff00; }
     .tech .content #cuboContainerSeis:hover .cara i {
       color: #f14e32; }
     .tech .content #cuboContainerSiete:hover .cara i {

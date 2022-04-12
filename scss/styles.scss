@@ -398,13 +398,18 @@ header {
 .tech {
     background: #111;
     position: relative;
-    .h2 {
+    .divTech {
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 10rem;
-        color: #fff;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 12rem;
+        -webkit-text-stroke: 1px rgba(255, 255, 255, 1);
     }
     .stack {
         h2 {
@@ -591,37 +596,37 @@ header {
         }
         #cuboContainerUno:hover .cara {
             i {
-                color: rgb(255, 165, 0);
+                color: #ffa500;
             }
         }
         #cuboContainerDos:hover .cara {
             i {
-                color: rgb(33, 150, 243);
+                color: #2196f3;
             }
         }
         #cuboContainerTres:hover .cara {
             i {
-                color: rgb(191, 64, 128);
+                color: #bf4080;
             }
         }
         #cuboContainerCuatro:hover .cara {
             i {
-                color: rgb(102, 16, 242);
+                color: #6610f2;
             }
         }
         #cuboContainerCinco:hover .cara {
             i {
-                color: rgb(255, 255, 0);
+                color: #ffff00;
             }
         }
         #cuboContainerSeis:hover .cara {
             i {
-                color: rgb(241, 78, 50);
+                color: #f14e32;
             }
         }
         #cuboContainerSiete:hover .cara {
             i {
-                color: rgb(96, 217, 251);
+                color: #60d9fb;
             }
         }
     }
