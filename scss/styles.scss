@@ -217,22 +217,22 @@ header {
     background-size: cover;
     background-position: right;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     h2 {
-        font-size: 3em;
+        font-size: 3rem;
         color: #fff;
         font-weight: 500;
         line-height: 1.5em;
-        p {
-            font-size: 1.3em;
-            font-weight: 700;
-        }
     }
-    h3 {
-        font-size: 1.5em;
+    p {
+        font-size: 3rem;
         color: #fff;
         font-weight: 500;
+        line-height: 1.5em;
+        font-size: 2em;
+        font-weight: 700;
     }
     .btn {
         position: relative;
@@ -1072,8 +1072,8 @@ header {
         .content {
             display: flex;
             flex-wrap: wrap;
-            gap: 3.8rem;
-            padding: 0 1rem;
+            gap: 6rem 3rem;
+            padding: 2rem 1rem;
         }
     }
     .heading h2 {
@@ -1111,7 +1111,7 @@ header {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
     header {
         padding: 20px 20px;
         &.sticky {
@@ -1123,6 +1123,9 @@ header {
                 font-size: 3rem;
             }
         }
+    }
+    .main {
+        min-height: 70vh;
     }
     .banner {
         padding: 150px 20px 100px;
@@ -1142,6 +1145,11 @@ header {
             .contentBx {
                 padding-right: 0;
             }
+        }
+    }
+    .tech {
+        .divTech {
+            font-size: 6rem;
         }
     }
     .projects {
