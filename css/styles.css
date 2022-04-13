@@ -344,6 +344,13 @@ header {
 .tech {
   background: #111;
   position: relative; }
+  .tech .destello {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: var(--verde);
+    box-shadow: 0 0 10px 1px var(--verde), 0 0 20px 2px var(--verde), 0 0 40px 4px var(--verde), 0 0 80px var(--verde), 0 0 160px var(--verde); }
   .tech .divTech {
     position: absolute;
     top: 0;
@@ -352,10 +359,11 @@ header {
     bottom: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 12rem;
-    -webkit-text-stroke: 1px white; }
+    align-items: center; }
+    .tech .divTech p {
+      font-family: "Roboto", sans-serif;
+      font-size: 12rem;
+      -webkit-text-stroke: 1px white; }
   .tech .stack h2 {
     font-size: 2rem;
     text-transform: uppercase;

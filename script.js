@@ -1,14 +1,17 @@
+const divTech = document.getElementById("divTech"),
+    about = document.querySelector(".about"),
+    bcGenCont = document.querySelector(".bcGenCont"),
+    projects = document.getElementById("projects"),
+    divTechP = document.getElementById("divTechP"),
+    sectionTech = document.getElementById("tech");
+
 window.addEventListener("scroll", function () {
     let header = this.document.querySelector("header");
     header.classList.toggle("sticky", window.scrollY > 0);
 });
+about.addEventListener("click", generate);
 
-setInterval(() => generate(), 3000);
-
-window.addEventListener("load", () => {
-    generate();
-});
-
+//Navbar media queries
 function toggleMenu() {
     let menuToggle = document.querySelector(".toggle");
     let menu = document.querySelector(".menu");
@@ -16,16 +19,13 @@ function toggleMenu() {
     menu.classList.toggle("active");
 }
 
-const about = document.querySelector(".about"),
-    bcGenCont = document.querySelector(".bcGenCont");
-about.addEventListener("click", generate);
-
 for (let i = 1; i <= 1000; i++) {
     const blocks = document.createElement("div");
     blocks.classList.add("block");
     bcGenCont.appendChild(blocks);
 }
 
+//About me background
 function generate() {
     anime({
         targets: ".block",
@@ -40,8 +40,9 @@ function generate() {
         },
     });
 }
+setInterval(() => generate(), 3000);
 
-const projects = document.getElementById("projects");
+//Projects background
 document.addEventListener("mouseover", (e) => {
     if (e.target.matches(".iframeLink")) {
         if (projects.firstElementChild.classList.contains("ifra")) {
@@ -55,17 +56,38 @@ document.addEventListener("mouseover", (e) => {
     }
 });
 
-const divTech = document.getElementById("divTech");
+//Skills background
 document.addEventListener("mouseover", (e) => {
     if (e.target.matches(".cara")) {
-        divTech.textContent = e.target.parentNode.parentNode.dataset.tech;
+        divTechP.textContent = e.target.parentNode.parentNode.dataset.tech;
         divTech.style.color = `#${e.target.parentNode.parentNode.dataset.color}`;
         divTech.style.background = `linear-gradient(to top, #${e.target.parentNode.parentNode.dataset.color}, #000,#000)`;
     }
     if (e.target.matches(".fa-brands")) {
-        divTech.textContent =
+        divTechP.textContent =
             e.target.parentNode.parentNode.parentNode.dataset.tech;
         divTech.style.color = `#${e.target.parentNode.parentNode.parentNode.dataset.color}`;
         divTech.style.background = `linear-gradient(to top, #${e.target.parentNode.parentNode.parentNode.dataset.color}, #000,#000)`;
     }
+});
+
+//Destello en skills
+const destello = () => {
+    setInterval(() => {
+        const randomWidth = Math.floor(Math.random() * divTech.offsetWidth);
+        const randomHeight = Math.floor(Math.random() * divTech.offsetHeight);
+        const div = document.createElement("div");
+        div.classList.add("destello");
+        div.style.top = `${randomHeight}px`;
+        div.style.left = `${randomWidth}px`;
+        sectionTech.appendChild(div);
+        setTimeout(() => {
+            div.parentElement.removeChild(div);
+        }, 550);
+    }, 500);
+};
+
+document.addEventListener("DOMContentLoaded", () => {
+    destello();
+    generate();
 });
