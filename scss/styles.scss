@@ -419,7 +419,7 @@ header {
         align-items: center;
         p {
             font-family: "Roboto", sans-serif;
-            font-size: 12rem;
+            font-size: 10rem;
             -webkit-text-stroke: 1px rgba(255, 255, 255, 1);
         }
     }
@@ -1161,7 +1161,9 @@ header {
     }
     .tech {
         .divTech {
-            font-size: 6rem;
+            #divTechP {
+                font-size: 5.5rem;
+            }
         }
     }
     .projects {

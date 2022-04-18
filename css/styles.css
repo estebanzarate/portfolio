@@ -362,7 +362,7 @@ header {
     align-items: center; }
     .tech .divTech p {
       font-family: "Roboto", sans-serif;
-      font-size: 12rem;
+      font-size: 10rem;
       -webkit-text-stroke: 1px white; }
   .tech .stack h2 {
     font-size: 2rem;
@@ -916,8 +916,8 @@ header {
     display: block; }
   .about .content .contentBx {
     padding-right: 0; }
-  .tech .divTech {
-    font-size: 6rem; }
+  .tech .divTech #divTechP {
+    font-size: 5.5rem; }
   .projects {
     padding: 0; }
     .projects .content {
