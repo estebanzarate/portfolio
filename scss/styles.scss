@@ -649,6 +649,7 @@ header {
 .projects {
     background: transparent;
     position: relative;
+    padding: 2rem;
     .ifra {
         position: absolute;
         top: 0;
@@ -659,9 +660,9 @@ header {
     }
     .content {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
-        padding: 2rem;
+        gap: 2rem;
         .project {
             width: 49%;
             padding: 20px;

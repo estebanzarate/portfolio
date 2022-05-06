@@ -19,7 +19,7 @@
   background: var(--verde);
   border-radius: 6px; }
 
-section {
+.section {
   padding: 4rem;
   scroll-margin-top: 75px; }
 
@@ -524,7 +524,8 @@ header {
 
 .projects {
   background: transparent;
-  position: relative; }
+  position: relative;
+  padding: 2rem; }
   .projects .ifra {
     position: absolute;
     top: 0;
@@ -534,9 +535,9 @@ header {
     border: none; }
   .projects .content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    padding: 2rem; }
+    gap: 2rem; }
     .projects .content .project {
       width: 49%;
       padding: 20px;
