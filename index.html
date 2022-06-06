@@ -1,491 +1,381 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./css/styles.css" />
-        <link
-            rel="shortcut icon"
-            href="./images/favicon.png"
-            type="image/x-icon"
-        />
-        <script
-            src="https://kit.fontawesome.com/7e46d0c484.js"
-            crossorigin="anonymous"
-        ></script>
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-            integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-            integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        />
-        <title>Esteban Zárate</title>
-    </head>
-    <body>
-        <a href="https://wa.me/5491122771652/" target="_blank">
-            <i class="fa-brands fa-whatsapp whatsapp"></i>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/7e46d0c484.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Esteban Zárate</title>
+</head>
+
+<body>
+    <a href="https://wa.me/5491122771652/" target="_blank">
+        <i class="fa-brands fa-whatsapp whatsapp"></i>
+    </a>
+
+    <!-- HEADER -->
+    <header>
+        <a href="./CV/CV-Esteban-Zarate.pdf" download="Esteban-Zarate-CV" class="logo">
+            <p>descargar CV</p>
         </a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li class="liNav">
+                <a href="#home" onclick="toggleMenu();" data-text="&nbsp;inicio">&nbsp;inicio</a>
+            </li>
+            <li class="liNav">
+                <a href="#about" onclick="toggleMenu();" data-text="&nbsp;acerca&nbsp;de&nbsp;mi">&nbsp;acerca de mi</a>
+            </li>
+            <li class="liNav">
+                <a href="#tech" onclick="toggleMenu();" data-text="&nbsp;skills">&nbsp;skills</a>
+            </li>
+            <li class="liNav">
+                <a href="#projects" onclick="toggleMenu();" data-text="&nbsp;proyectos">&nbsp;proyectos</a>
+            </li>
+            <li class="liNav">
+                <a href="#contact" onclick="toggleMenu();" data-text="&nbsp;contacto">&nbsp;contacto</a>
+            </li>
+        </ul>
+    </header>
+    <!-- END OF HEADER -->
 
-        <!-- HEADER -->
-        <header>
-            <a
-                href="./CV/CV-Esteban-Zarate.pdf"
-                download="Esteban-Zarate-CV"
-                class="logo"
-                ><i class="fa-solid fa-file-lines"
-                    ><span class="cv">CV</span></i
-                ></a
-            >
-            <div class="toggle" onclick="toggleMenu();"></div>
-            <ul class="menu">
-                <li class="liNav">
-                    <a
-                        href="#home"
-                        onclick="toggleMenu();"
-                        data-text="&nbsp;inicio"
-                        >&nbsp;inicio</a
-                    >
-                </li>
-                <li class="liNav">
-                    <a
-                        href="#about"
-                        onclick="toggleMenu();"
-                        data-text="&nbsp;acerca&nbsp;de&nbsp;mi"
-                        >&nbsp;acerca de mi</a
-                    >
-                </li>
-                <li class="liNav">
-                    <a
-                        href="#tech"
-                        onclick="toggleMenu();"
-                        data-text="&nbsp;skills"
-                        >&nbsp;skills</a
-                    >
-                </li>
-                <li class="liNav">
-                    <a
-                        href="#projects"
-                        onclick="toggleMenu();"
-                        data-text="&nbsp;proyectos"
-                        >&nbsp;proyectos</a
-                    >
-                </li>
-                <li class="liNav">
-                    <a
-                        href="#contact"
-                        onclick="toggleMenu();"
-                        data-text="&nbsp;contacto"
-                        >&nbsp;contacto</a
-                    >
-                </li>
-            </ul>
-        </header>
-        <!-- END OF HEADER -->
+    <!-- MAIN -->
+    <section class="main section" id="home">
+        <h2>👋 Mi nombre es</h2>
+        <p>Esteban Zárate</p>
+        <p><span>Desarrollador</span> <span>Front-End</span></p>
+        <a href="#about" class="btn"><span>acerca de mi</span></a>
+    </section>
+    <!-- END OF MAIN -->
 
-        <!-- MAIN -->
-        <section class="main section" id="home">
-            <h2>👋 Mi nombre es</h2>
-            <p>Esteban Zárate</p>
-            <a href="#about" class="btn"><span>acerca de mi</span></a>
-        </section>
-        <!-- END OF MAIN -->
-
-        <!-- ACERCA DE MI -->
-        <section class="about section" id="about">
-            <div class="bcGenCont"></div>
-            <div class="content">
-                <div class="contentBx w50">
-                    <h3>Soy desarrollador <span>Front-End</span></h3>
-                    <p class="aboutP">
-                        En el 2021 comencé a dedicarme al desarrollo web
-                        aprendiendo tecnologías como HTML, CSS, Bootstrap y
-                        React JS. Para tener una perspectiva completa estoy
-                        sumando el stack MERN.
-                    </p>
-                    <p class="aboutP">
-                        Hoy continúo incorporando todo lo que me permita
-                        insertarme en este mundo y aportar mi granito de arena
-                        de la manera mas efectiva.
-                    </p>
-                    <p class="aboutP">
-                        Me considero creativo, responsable, dedicado y
-                        apasionado.
-                    </p>
-                </div>
-                <div class="w50 imgContain">
-                    <img src="./images/img1.jpg" class="img" />
-                </div>
+    <!-- ACERCA DE MI -->
+    <section class="about section" id="about">
+        <div class="bcGenCont"></div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>Soy desarrollador <span>Front-End</span></h3>
+                <p class="aboutP">
+                    En el 2021 comencé a dedicarme al desarrollo web
+                    aprendiendo tecnologías como HTML, CSS, Bootstrap y
+                    React JS. Para tener una perspectiva completa estoy
+                    sumando el stack MERN.
+                </p>
+                <p class="aboutP">
+                    Hoy continúo incorporando todo lo que me permita
+                    insertarme en este mundo y aportar mi granito de arena
+                    de la manera mas efectiva.
+                </p>
+                <p class="aboutP">
+                    Me considero creativo, responsable, dedicado y
+                    apasionado.
+                </p>
             </div>
-        </section>
-        <!-- END OF ACERCA DE MI -->
+            <div class="w50 imgContain">
+                <img src="./images/img1.jpg" class="img" />
+            </div>
+        </div>
+    </section>
+    <!-- END OF ACERCA DE MI -->
 
-        <!-- TECNOLOGIAS -->
-        <section class="tech section" id="tech">
-            <div id="divTech" class="divTech">
-                <p id="divTechP"></p>
-            </div>
-            <div class="heading white stack">
-                <h2>
-                    <span>Skills</span>
-                </h2>
-            </div>
-            <div class="content">
-                <div
-                    class="cuboContainer"
-                    id="cuboContainerUno"
-                    data-tech="HTML"
-                    data-color="ffa500"
-                >
-                    <div class="cubo" id="cuboUno">
-                        <div class="cara caraUno">
-                            <i class="fa-brands fa-html5"></i>
-                        </div>
-                        <div class="cara caraDos">
-                            <i class="fa-brands fa-html5"></i>
-                        </div>
-                        <div class="cara caraTres">
-                            <i class="fa-brands fa-html5"></i>
-                        </div>
-                        <div class="cara caraCuatro">
-                            <i class="fa-brands fa-html5"></i>
-                        </div>
-                        <div class="cara caraCinco">
-                            <i class="fa-brands fa-html5"></i>
-                        </div>
-                        <div class="cara caraSeis">
-                            <i class="fa-brands fa-html5"></i>
-                        </div>
+    <!-- TECNOLOGIAS -->
+    <section class="tech section" id="tech">
+        <div id="divTech" class="divTech">
+            <p id="divTechP"></p>
+        </div>
+        <div class="heading white stack">
+            <h2>
+                <span>Skills</span>
+            </h2>
+        </div>
+        <div class="content">
+            <div class="cuboContainer" id="cuboContainerUno" data-tech="HTML" data-color="ffa500">
+                <div class="cubo" id="cuboUno">
+                    <div class="cara caraUno">
+                        <i class="fa-brands fa-html5"></i>
                     </div>
-                </div>
-                <div
-                    class="cuboContainer"
-                    id="cuboContainerDos"
-                    data-tech="CSS"
-                    data-color="2196f3"
-                >
-                    <div class="cubo" id="cuboDos">
-                        <div class="cara caraUno">
-                            <i class="fa-brands fa-css3-alt"></i>
-                        </div>
-                        <div class="cara caraDos">
-                            <i class="fa-brands fa-css3-alt"></i>
-                        </div>
-                        <div class="cara caraTres">
-                            <i class="fa-brands fa-css3-alt"></i>
-                        </div>
-                        <div class="cara caraCuatro">
-                            <i class="fa-brands fa-css3-alt"></i>
-                        </div>
-                        <div class="cara caraCinco">
-                            <i class="fa-brands fa-css3-alt"></i>
-                        </div>
-                        <div class="cara caraSeis">
-                            <i class="fa-brands fa-css3-alt"></i>
-                        </div>
+                    <div class="cara caraDos">
+                        <i class="fa-brands fa-html5"></i>
                     </div>
-                </div>
-                <div
-                    class="cuboContainer"
-                    id="cuboContainerTres"
-                    data-tech="Sass"
-                    data-color="bf4080"
-                >
-                    <div class="cubo" id="cuboTres">
-                        <div class="cara caraUno">
-                            <i class="fa-brands fa-sass"></i>
-                        </div>
-                        <div class="cara caraDos">
-                            <i class="fa-brands fa-sass"></i>
-                        </div>
-                        <div class="cara caraTres">
-                            <i class="fa-brands fa-sass"></i>
-                        </div>
-                        <div class="cara caraCuatro">
-                            <i class="fa-brands fa-sass"></i>
-                        </div>
-                        <div class="cara caraCinco">
-                            <i class="fa-brands fa-sass"></i>
-                        </div>
-                        <div class="cara caraSeis">
-                            <i class="fa-brands fa-sass"></i>
-                        </div>
+                    <div class="cara caraTres">
+                        <i class="fa-brands fa-html5"></i>
                     </div>
-                </div>
-                <div
-                    class="cuboContainer"
-                    id="cuboContainerCuatro"
-                    data-tech="Bootstrap"
-                    data-color="6610f2"
-                >
-                    <div class="cubo" id="cuboCuatro">
-                        <div class="cara caraUno">
-                            <i class="fa-brands fa-bootstrap"></i>
-                        </div>
-                        <div class="cara caraDos">
-                            <i class="fa-brands fa-bootstrap"></i>
-                        </div>
-                        <div class="cara caraTres">
-                            <i class="fa-brands fa-bootstrap"></i>
-                        </div>
-                        <div class="cara caraCuatro">
-                            <i class="fa-brands fa-bootstrap"></i>
-                        </div>
-                        <div class="cara caraCinco">
-                            <i class="fa-brands fa-bootstrap"></i>
-                        </div>
-                        <div class="cara caraSeis">
-                            <i class="fa-brands fa-bootstrap"></i>
-                        </div>
+                    <div class="cara caraCuatro">
+                        <i class="fa-brands fa-html5"></i>
                     </div>
-                </div>
-                <div
-                    class="cuboContainer"
-                    id="cuboContainerCinco"
-                    data-tech="JavaScript"
-                    data-color="ffff00"
-                >
-                    <div class="cubo" id="cuboCinco">
-                        <div class="cara caraUno">
-                            <i class="fa-brands fa-js"></i>
-                        </div>
-                        <div class="cara caraDos">
-                            <i class="fa-brands fa-js"></i>
-                        </div>
-                        <div class="cara caraTres">
-                            <i class="fa-brands fa-js"></i>
-                        </div>
-                        <div class="cara caraCuatro">
-                            <i class="fa-brands fa-js"></i>
-                        </div>
-                        <div class="cara caraCinco">
-                            <i class="fa-brands fa-js"></i>
-                        </div>
-                        <div class="cara caraSeis">
-                            <i class="fa-brands fa-js"></i>
-                        </div>
+                    <div class="cara caraCinco">
+                        <i class="fa-brands fa-html5"></i>
                     </div>
-                </div>
-                <div
-                    class="cuboContainer"
-                    id="cuboContainerSeis"
-                    data-tech="git"
-                    data-color="f14e32"
-                >
-                    <div class="cubo" id="cuboSeis">
-                        <div class="cara caraUno">
-                            <i class="fa-brands fa-git-alt"></i>
-                        </div>
-                        <div class="cara caraDos">
-                            <i class="fa-brands fa-git-alt"></i>
-                        </div>
-                        <div class="cara caraTres">
-                            <i class="fa-brands fa-git-alt"></i>
-                        </div>
-                        <div class="cara caraCuatro">
-                            <i class="fa-brands fa-git-alt"></i>
-                        </div>
-                        <div class="cara caraCinco">
-                            <i class="fa-brands fa-git-alt"></i>
-                        </div>
-                        <div class="cara caraSeis">
-                            <i class="fa-brands fa-git-alt"></i>
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="cuboContainer"
-                    id="cuboContainerSiete"
-                    data-tech="React JS"
-                    data-color="60d9fb"
-                >
-                    <div class="cubo" id="cuboSiete">
-                        <div class="cara caraUno">
-                            <i class="fa-brands fa-react"></i>
-                        </div>
-                        <div class="cara caraDos">
-                            <i class="fa-brands fa-react"></i>
-                        </div>
-                        <div class="cara caraTres">
-                            <i class="fa-brands fa-react"></i>
-                        </div>
-                        <div class="cara caraCuatro">
-                            <i class="fa-brands fa-react"></i>
-                        </div>
-                        <div class="cara caraCinco">
-                            <i class="fa-brands fa-react"></i>
-                        </div>
-                        <div class="cara caraSeis">
-                            <i class="fa-brands fa-react"></i>
-                        </div>
+                    <div class="cara caraSeis">
+                        <i class="fa-brands fa-html5"></i>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- END OF TECNOLOGIAS -->
-
-        <!-- PROYECTOS -->
-        <section class="projects section" id="projects">
-            <div class="content">
-                <div class="project">
-                    <span></span>
-                    <div class="projectCont">
-                        <a
-                            href="https://estebanzarate.github.io/DWProject-Coder"
-                            target="_blank"
-                            id="linkKeel"
-                        >
-                            <img
-                                src="./images/keel.jpg"
-                                class="iframeLink"
-                                data-link="linkKeel"
-                            />
-                        </a>
+            <div class="cuboContainer" id="cuboContainerDos" data-tech="CSS" data-color="2196f3">
+                <div class="cubo" id="cuboDos">
+                    <div class="cara caraUno">
+                        <i class="fa-brands fa-css3-alt"></i>
                     </div>
-                </div>
-                <div class="project">
-                    <span></span>
-                    <div class="projectCont">
-                        <a
-                            href="https://estebanzarate.github.io/ReactJSProject-Coder/"
-                            target="_blank"
-                            id="linkLuvi"
-                        >
-                            <img
-                                src="./images/luvikup.jpg"
-                                class="iframeLink"
-                                data-link="linkLuvi"
-                            />
-                        </a>
+                    <div class="cara caraDos">
+                        <i class="fa-brands fa-css3-alt"></i>
                     </div>
-                </div>
-                <div class="project">
-                    <span></span>
-                    <div class="projectCont">
-                        <a
-                            href="https://estebanzarate.github.io/toDoList/"
-                            target="_blank"
-                            id="linkToDo"
-                        >
-                            <img
-                                src="./images/todolist.jpg"
-                                class="iframeLink"
-                                data-link="linkToDo"
-                            />
-                        </a>
+                    <div class="cara caraTres">
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <div class="cara caraCuatro">
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <div class="cara caraCinco">
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <div class="cara caraSeis">
+                        <i class="fa-brands fa-css3-alt"></i>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- END OF PROYECTOS -->
+            <div class="cuboContainer" id="cuboContainerTres" data-tech="Sass" data-color="bf4080">
+                <div class="cubo" id="cuboTres">
+                    <div class="cara caraUno">
+                        <i class="fa-brands fa-sass"></i>
+                    </div>
+                    <div class="cara caraDos">
+                        <i class="fa-brands fa-sass"></i>
+                    </div>
+                    <div class="cara caraTres">
+                        <i class="fa-brands fa-sass"></i>
+                    </div>
+                    <div class="cara caraCuatro">
+                        <i class="fa-brands fa-sass"></i>
+                    </div>
+                    <div class="cara caraCinco">
+                        <i class="fa-brands fa-sass"></i>
+                    </div>
+                    <div class="cara caraSeis">
+                        <i class="fa-brands fa-sass"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="cuboContainer" id="cuboContainerCuatro" data-tech="Bootstrap" data-color="6610f2">
+                <div class="cubo" id="cuboCuatro">
+                    <div class="cara caraUno">
+                        <i class="fa-brands fa-bootstrap"></i>
+                    </div>
+                    <div class="cara caraDos">
+                        <i class="fa-brands fa-bootstrap"></i>
+                    </div>
+                    <div class="cara caraTres">
+                        <i class="fa-brands fa-bootstrap"></i>
+                    </div>
+                    <div class="cara caraCuatro">
+                        <i class="fa-brands fa-bootstrap"></i>
+                    </div>
+                    <div class="cara caraCinco">
+                        <i class="fa-brands fa-bootstrap"></i>
+                    </div>
+                    <div class="cara caraSeis">
+                        <i class="fa-brands fa-bootstrap"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="cuboContainer" id="cuboContainerCinco" data-tech="JavaScript" data-color="ffff00">
+                <div class="cubo" id="cuboCinco">
+                    <div class="cara caraUno">
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                    <div class="cara caraDos">
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                    <div class="cara caraTres">
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                    <div class="cara caraCuatro">
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                    <div class="cara caraCinco">
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                    <div class="cara caraSeis">
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="cuboContainer" id="cuboContainerSeis" data-tech="git" data-color="f14e32">
+                <div class="cubo" id="cuboSeis">
+                    <div class="cara caraUno">
+                        <i class="fa-brands fa-git-alt"></i>
+                    </div>
+                    <div class="cara caraDos">
+                        <i class="fa-brands fa-git-alt"></i>
+                    </div>
+                    <div class="cara caraTres">
+                        <i class="fa-brands fa-git-alt"></i>
+                    </div>
+                    <div class="cara caraCuatro">
+                        <i class="fa-brands fa-git-alt"></i>
+                    </div>
+                    <div class="cara caraCinco">
+                        <i class="fa-brands fa-git-alt"></i>
+                    </div>
+                    <div class="cara caraSeis">
+                        <i class="fa-brands fa-git-alt"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="cuboContainer" id="cuboContainerSiete" data-tech="React JS" data-color="60d9fb">
+                <div class="cubo" id="cuboSiete">
+                    <div class="cara caraUno">
+                        <i class="fa-brands fa-react"></i>
+                    </div>
+                    <div class="cara caraDos">
+                        <i class="fa-brands fa-react"></i>
+                    </div>
+                    <div class="cara caraTres">
+                        <i class="fa-brands fa-react"></i>
+                    </div>
+                    <div class="cara caraCuatro">
+                        <i class="fa-brands fa-react"></i>
+                    </div>
+                    <div class="cara caraCinco">
+                        <i class="fa-brands fa-react"></i>
+                    </div>
+                    <div class="cara caraSeis">
+                        <i class="fa-brands fa-react"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END OF TECNOLOGIAS -->
 
-        <!-- CONTACTO -->
-        <section class="contact section" id="contact">
-            <!-- <div class="heading">
+    <!-- PROYECTOS -->
+    <section class="projects section" id="projects">
+        <div class="content">
+            <div class="project">
+                <span></span>
+                <div class="projectCont">
+                    <a href="https://estebanzarate.github.io/DWProject-Coder" target="_blank" id="linkKeel">
+                        <img src="./images/keel.jpg" class="iframeLink" data-link="linkKeel" />
+                    </a>
+                </div>
+            </div>
+            <div class="project">
+                <span></span>
+                <div class="projectCont">
+                    <a href="https://estebanzarate.github.io/ReactJSProject-Coder/" target="_blank" id="linkLuvi">
+                        <img src="./images/luvikup.jpg" class="iframeLink" data-link="linkLuvi" />
+                    </a>
+                </div>
+            </div>
+            <div class="project">
+                <span></span>
+                <div class="projectCont">
+                    <a href="https://estebanzarate.github.io/toDoList/" target="_blank" id="linkToDo">
+                        <img src="./images/todolist.jpg" class="iframeLink" data-link="linkToDo" />
+                    </a>
+                </div>
+            </div>
+            <div class="project">
+                <span></span>
+                <div class="projectCont">
+                    <a href="https://estebanzarate.github.io/JavaScriptProject-Coder/" target="_blank" id="linkSP">
+                        <img src="./images/southpark.jpg" class="iframeLink" data-link="linkSP" />
+                    </a>
+                </div>
+            </div>
+            <div class="project">
+                <span></span>
+                <div class="projectCont">
+                    <a href="https://estebanzarate.github.io/pokeappjs/" target="_blank" id="linkPoke">
+                        <img src="./images/poke.jpg" class="iframeLink" data-link="linkPoke" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END OF PROYECTOS -->
+
+    <!-- CONTACTO -->
+    <section class="contact section" id="contact">
+        <!-- <div class="heading">
                 <h2>stay in touch</h2>
             </div> -->
-            <div class="content">
-                <div class="contactInfo">
-                    <div class="contactInfoBx">
-                        <div class="box">
-                            <div class="icon">
-                                <i class="fa fa-map-marker"></i>
-                            </div>
-                            <div class="text">
-                                <h3>Ubicación</h3>
-                                <p>Caseros (1678), Buenos Aires, Argentina</p>
-                            </div>
+        <div class="content">
+            <div class="contactInfo">
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
                         </div>
-                        <div class="box">
-                            <div class="icon">
-                                <i class="fa fa-phone"></i>
-                            </div>
-                            <div class="text">
-                                <h3>Celular</h3>
-                                <p>+54 9 1122771652</p>
-                            </div>
+                        <div class="text">
+                            <h3>Ubicación</h3>
+                            <p>Caseros (1678), Buenos Aires, Argentina</p>
                         </div>
-                        <div class="box">
-                            <div class="icon">
-                                <i class="fa fa-envelope-open"></i>
-                            </div>
-                            <div class="text">
-                                <h3>Email</h3>
-                                <a href="mailto:esteban-zarate@hotmail.com"
-                                    >esteban-zarate@hotmail.com</a
-                                >
-                            </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
                         </div>
-                        <div class="redes">
-                            <ul>
-                                <li>
-                                    <a
-                                        href="https://www.linkedin.com/in/esteban-zarate/"
-                                        target="_blank"
-                                        ><i class="fa-brands fa-linkedin-in"></i
-                                    ></a>
-                                </li>
-                                <li>
-                                    <a
-                                        href="https://github.com/estebanzarate"
-                                        target="_blank"
-                                        ><i class="fa-brands fa-github"></i
-                                    ></a>
-                                </li>
-                            </ul>
+                        <div class="text">
+                            <h3>Celular</h3>
+                            <p>+54 9 1122771652</p>
                         </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-open"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <a href="mailto:esteban-zarate@hotmail.com">esteban-zarate@hotmail.com</a>
+                        </div>
+                    </div>
+                    <div class="redes">
+                        <ul>
+                            <li>
+                                <a href="https://www.linkedin.com/in/esteban-zarate/" target="_blank"><i
+                                        class="fa-brands fa-linkedin-in"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/estebanzarate" target="_blank"><i
+                                        class="fa-brands fa-github"></i></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <form
-                    action="https://formspree.io/f/xwkyqwqr"
-                    method="POST"
-                    class="contactForm"
-                >
-                    <div class="divInput">
-                        <input
-                            type="text"
-                            placeholder="Nombre"
-                            name="name"
-                            required
-                        />
-                        <input
-                            type="email"
-                            placeholder="Email"
-                            name="email"
-                            required
-                        />
-                    </div>
-                    <div class="divTextArea">
-                        <textarea
-                            placeholder="Ingresa tu mensaje.."
-                            name="message"
-                            required
-                        ></textarea>
-                    </div>
-                    <div class="divSubmit">
-                        <input type="submit" value="Enviar" />
-                    </div>
-                </form>
             </div>
-        </section>
-        <!-- END OF CONTACTO -->
-
-        <!-- COPYRIGHT -->
-        <div class="copyright">
-            <p>Copyright &copy; 2022. Todos los derechos reservados.</p>
+            <form action="https://formspree.io/f/xwkyqwqr" method="POST" class="contactForm">
+                <div class="divInput">
+                    <input type="text" placeholder="Nombre" name="name" required />
+                    <input type="email" placeholder="Email" name="email" required />
+                </div>
+                <div class="divTextArea">
+                    <textarea placeholder="Ingresa tu mensaje.." name="message" required></textarea>
+                </div>
+                <div class="divSubmit">
+                    <input type="submit" value="Enviar" />
+                </div>
+            </form>
         </div>
-        <!-- END OF COPYRIGHT -->
+    </section>
+    <!-- END OF CONTACTO -->
 
-        <!-- SCRIPT -->
-        <script src="anime.min.js"></script>
-        <script src="script.js"></script>
-    </body>
+    <!-- COPYRIGHT -->
+    <div class="copyright">
+        <p>Copyright &copy; 2022. Todos los derechos reservados.</p>
+    </div>
+    <!-- END OF COPYRIGHT -->
+
+    <!-- SCRIPT -->
+    <script src="anime.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
 </html>
