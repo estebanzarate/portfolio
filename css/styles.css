@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 :root {
   --verde: #51ff00;
   --clr: #00ade1;
@@ -97,24 +97,6 @@ body::-webkit-scrollbar-thumb {
 
 img {
   max-width: 100%; }
-
-body .whatsapp {
-  position: fixed;
-  bottom: 1.5rem;
-  right: 1.5rem;
-  color: var(--verde);
-  font-size: 3rem;
-  z-index: 100;
-  border: 1px solid #d3d3d3;
-  padding: 1rem;
-  border-radius: 50%;
-  backdrop-filter: blur(10px);
-  cursor: pointer;
-  transition: 0.4s; }
-  body .whatsapp:hover {
-    background: rgba(0, 0, 0, 0.4);
-    border-color: var(--verde);
-    color: #ffffffad; }
 
 header {
   position: fixed;
@@ -275,6 +257,24 @@ header {
         color: var(--verde); }
       header ul li:active {
         transform: scale(0.9); }
+
+body .whatsapp {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  color: var(--verde);
+  font-size: 3rem;
+  z-index: 100;
+  border: 1px solid #d3d3d3;
+  padding: 1rem;
+  border-radius: 50%;
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+  transition: 0.4s; }
+  body .whatsapp:hover {
+    background: rgba(0, 0, 0, 0.4);
+    border-color: var(--verde);
+    color: #ffffffad; }
 
 .main {
   position: relative;
@@ -866,6 +866,8 @@ header {
     header ul li::after {
       content: none;
       animation: none; }
+    header ul li a:hover {
+      color: unset; }
     header .toggle {
       width: 40px;
       height: 40px;
