@@ -98,7 +98,7 @@ body::-webkit-scrollbar-thumb {
 img {
   max-width: 100%; }
 
-header {
+.header {
   position: fixed;
   top: 0;
   width: 100%;
@@ -108,20 +108,20 @@ header {
   justify-content: space-between;
   align-items: center;
   transition: 0.5s; }
-  header.sticky {
+  .header.sticky {
     background: transparent;
     padding: 20px 100px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(30px); }
-    header.sticky ul li a {
+    .header.sticky ul li a {
       color: #fff; }
-  header .cv {
+  .header .cv {
     position: relative;
     background-color: #000;
     padding: 0.1rem 1.2rem;
     text-decoration: none;
     color: #fff; }
-    header .cv::before {
+    .header .cv::before {
       content: '';
       position: absolute;
       top: -2px;
@@ -131,7 +131,7 @@ header {
       z-index: -1;
       background: linear-gradient(250deg, var(--verde), transparent, var(--verde));
       animation: aniLee 4.5s linear infinite; }
-    header .cv::after {
+    .header .cv::after {
       content: '';
       position: absolute;
       top: -2px;
@@ -142,38 +142,38 @@ header {
       filter: blur(50px);
       background: linear-gradient(250deg, var(--verde), transparent, var(--verde));
       animation: aniLee 5s linear infinite; }
-    header .cv:hover::before {
+    .header .cv:hover::before {
       content: none;
       background: none;
       animation: none; }
-    header .cv:hover::after {
+    .header .cv:hover::after {
       content: none;
       background: none;
       animation: none; }
-    header .cv:hover a {
+    .header .cv:hover a {
       color: gray; }
-    header .cv:active {
+    .header .cv:active {
       transform: scale(0.9); }
-  header ul {
+  .header ul {
     position: relative;
     display: flex;
     list-style: none; }
-    header ul li {
+    .header ul li {
       position: relative;
       margin: 0.4rem;
       display: flex;
       justify-content: center;
       align-items: center;
       background-color: #000; }
-      header ul li:nth-child(1)::after, header ul li:nth-child(1)::before {
+      .header ul li:nth-child(1)::after, .header ul li:nth-child(1)::before {
         animation-delay: 0.4s; }
-      header ul li:nth-child(2)::after, header ul li:nth-child(2)::before {
+      .header ul li:nth-child(2)::after, .header ul li:nth-child(2)::before {
         animation-delay: 1.1s; }
-      header ul li:nth-child(3)::after, header ul li:nth-child(3)::before {
+      .header ul li:nth-child(3)::after, .header ul li:nth-child(3)::before {
         animation-delay: 0.8s; }
-      header ul li:nth-child(4)::after, header ul li:nth-child(4)::before {
+      .header ul li:nth-child(4)::after, .header ul li:nth-child(4)::before {
         animation-delay: 1.3s; }
-      header ul li:nth-child(5)::after, header ul li:nth-child(5)::before {
+      .header ul li:nth-child(5)::after, .header ul li:nth-child(5)::before {
         animation-delay: 0.2s; }
 
 @keyframes aniLee {
@@ -216,7 +216,7 @@ header {
     bottom: -2px;
     z-index: -1;
     background: linear-gradient(235deg, var(--verde), #010615, var(--verde)); } }
-      header ul li::before {
+      .header ul li::before {
         content: '';
         position: absolute;
         top: -2px;
@@ -226,7 +226,7 @@ header {
         z-index: -1;
         background: linear-gradient(250deg, var(--verde), transparent, var(--verde));
         animation: aniLee 4.5s linear infinite; }
-      header ul li::after {
+      .header ul li::after {
         content: '';
         position: absolute;
         top: -2px;
@@ -237,7 +237,7 @@ header {
         filter: blur(50px);
         background: linear-gradient(250deg, var(--verde), transparent, var(--verde));
         animation: aniLee 5s linear infinite; }
-      header ul li a {
+      .header ul li a {
         width: 100%;
         position: relative;
         display: inline-block;
@@ -245,18 +245,113 @@ header {
         text-decoration: none;
         font-size: 1.1rem;
         padding: 0.1rem 1.2rem; }
-      header ul li:hover::before {
+      .header ul li:hover::before {
         content: none;
         background: none;
         animation: none; }
-      header ul li:hover::after {
+      .header ul li:hover::after {
         content: none;
         background: none;
         animation: none; }
-      header ul li:hover a {
+      .header ul li:hover a {
         color: var(--verde); }
-      header ul li:active {
+      .header ul li:active {
         transform: scale(0.9); }
+
+@media (max-width: 991px) {
+  .header {
+    padding: 20px 50px;
+    z-index: 1000; }
+    .header ul li::before {
+      content: none;
+      animation: none; }
+    .header ul li::after {
+      content: none;
+      animation: none; }
+    .header ul li a:hover {
+      color: unset; }
+    .header .toggle {
+      width: 40px;
+      height: 40px;
+      background: url("../images/menu.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 30px;
+      cursor: pointer; }
+      .header .toggle.active {
+        width: 40px;
+        height: 40px;
+        background: url("../images/close.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 25px;
+        cursor: pointer; }
+    .header.sticky {
+      padding: 20px 50px;
+      z-index: 1000; }
+      .header.sticky ul li a {
+        color: unset; }
+    .header .menu {
+      position: fixed;
+      top: 75px;
+      left: -100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: calc(100vh - 75px);
+      width: 100%;
+      background: #0c0c0c;
+      transition: 0.5s;
+      z-index: 999;
+      border-top: 1px solid rgba(0, 0, 0, 0.2); }
+      .header .menu li:nth-child(2) {
+        --clr: #ff6493; }
+      .header .menu li:nth-child(3) {
+        --clr: #ffdd1c; }
+      .header .menu li:nth-child(4) {
+        --clr: #00dc82; }
+      .header .menu li:nth-child(5) {
+        --clr: #dc00d4; }
+      .header .menu.active {
+        left: 0; }
+      .header .menu a {
+        position: relative;
+        color: #111;
+        font-size: 4em;
+        margin: 10px;
+        letter-spacing: 0.1rem;
+        text-transform: uppercase;
+        font-size: 4rem;
+        font-weight: 700;
+        line-height: 1em;
+        color: transparent;
+        padding: 0;
+        -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5); }
+        .header .menu a:hover::before {
+          width: 100%;
+          filter: drop-shadow(0 0 25px var(--clr)); }
+        .header .menu a::before {
+          content: attr(data-text);
+          position: absolute;
+          color: var(--clr);
+          width: 0;
+          overflow: hidden;
+          border-right: 8px solid var(--clr);
+          -webkit-text-stroke: 1px var(--clr);
+          transition: 1s; } }
+
+@media (max-width: 480px) {
+  .header {
+    padding: 20px 20px; }
+    .header.sticky {
+      padding: 20px 20px; }
+      .header.sticky ul li a {
+        color: unset; }
+    .header .menu a {
+      font-size: 3rem; }
+      .header .menu a:hover {
+        color: unset; } }
 
 body .whatsapp {
   position: fixed;
@@ -857,87 +952,6 @@ body .whatsapp {
   padding: 10px; }
 
 @media (max-width: 991px) {
-  header {
-    padding: 20px 50px;
-    z-index: 1000; }
-    header ul li::before {
-      content: none;
-      animation: none; }
-    header ul li::after {
-      content: none;
-      animation: none; }
-    header ul li a:hover {
-      color: unset; }
-    header .toggle {
-      width: 40px;
-      height: 40px;
-      background: url("../images/menu.png");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 30px;
-      cursor: pointer; }
-      header .toggle.active {
-        width: 40px;
-        height: 40px;
-        background: url("../images/close.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 25px;
-        cursor: pointer; }
-    header.sticky {
-      padding: 20px 50px;
-      z-index: 1000; }
-      header.sticky ul li a {
-        color: unset; }
-    header .menu {
-      position: fixed;
-      top: 75px;
-      left: -100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: calc(100vh - 75px);
-      width: 100%;
-      background: #0c0c0c;
-      transition: 0.5s;
-      z-index: 999;
-      border-top: 1px solid rgba(0, 0, 0, 0.2); }
-      header .menu li:nth-child(2) {
-        --clr: #ff6493; }
-      header .menu li:nth-child(3) {
-        --clr: #ffdd1c; }
-      header .menu li:nth-child(4) {
-        --clr: #00dc82; }
-      header .menu li:nth-child(5) {
-        --clr: #dc00d4; }
-      header .menu.active {
-        left: 0; }
-      header .menu a {
-        position: relative;
-        color: #111;
-        font-size: 4em;
-        margin: 10px;
-        letter-spacing: 0.1rem;
-        text-transform: uppercase;
-        font-size: 4rem;
-        font-weight: 700;
-        line-height: 1em;
-        color: transparent;
-        padding: 0;
-        -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5); }
-        header .menu a:hover::before {
-          width: 100%;
-          filter: drop-shadow(0 0 25px var(--clr)); }
-        header .menu a::before {
-          content: attr(data-text);
-          position: absolute;
-          color: var(--clr);
-          width: 0;
-          overflow: hidden;
-          border-right: 8px solid var(--clr);
-          -webkit-text-stroke: 1px var(--clr);
-          transition: 1s; }
   section {
     padding: 100px 50px; }
   .main {
@@ -984,16 +998,6 @@ body .whatsapp {
       margin: 20px 0; } }
 
 @media (max-width: 480px) {
-  header {
-    padding: 20px 20px; }
-    header.sticky {
-      padding: 20px 20px; }
-      header.sticky ul li a {
-        color: unset; }
-    header .menu a {
-      font-size: 3rem; }
-      header .menu a:hover {
-        color: unset; }
   .main {
     min-height: 70vh; }
   .banner {
