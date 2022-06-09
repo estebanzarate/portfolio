@@ -99,6 +99,9 @@ header {
 				color: gray;
 			}
 		}
+		&:active {
+			transform: scale(.9);
+		}
     }
     ul {
         position: relative;
@@ -236,6 +239,9 @@ header {
                     color: var(--verde);
                 }
             }
+			&:active {
+				transform: scale(.9);
+			}
         }
     }
 }
@@ -277,7 +283,7 @@ header {
                 &:nth-child(2) {
                     -webkit-text-stroke: 2px yellowgreen;
                     font-size: 2.5rem;
-                    color: var(--verde);
+                    color: #fff;
                 }
             }
         }

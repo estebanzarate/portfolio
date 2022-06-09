@@ -124,6 +124,8 @@ header {
         animation: none; }
       header .logo:hover a {
         color: gray; }
+    header .logo:active {
+      transform: scale(0.9); }
   header ul {
     position: relative;
     display: flex;
@@ -225,6 +227,8 @@ header {
         animation: none; }
       header ul li:hover a {
         color: var(--verde); }
+      header ul li:active {
+        transform: scale(0.9); }
 
 .main {
   position: relative;
@@ -257,7 +261,7 @@ header {
       .main p:nth-of-type(2) span:nth-child(2) {
         -webkit-text-stroke: 2px yellowgreen;
         font-size: 2.5rem;
-        color: var(--verde); }
+        color: #fff; }
   .main .btn {
     position: relative;
     display: flex;
