@@ -14,12 +14,12 @@
     scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar {
-    width: 10px;
+body::-webkit-scrollbar {
+    width: 12px;
 }
 
-::-webkit-scrollbar-thumb {
-    background: var(--verde);
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(to top, violet, indigo, blue, green, yellow, orange, red);
     border-radius: 6px;
 }
 
