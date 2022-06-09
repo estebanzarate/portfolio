@@ -1,4 +1,4 @@
-const cursor = document.querySelector('.cursor');
+// const cursor = document.querySelector('.cursor');
 
 const divTech = document.getElementById("divTech"),
     about = document.querySelector(".about"),
@@ -90,9 +90,9 @@ const destello = () => {
     }, 500);
 };
 
-document.addEventListener('mouseover', e => {
-	cursor.setAttribute('style', 'top: ' + (e.pageY - 10) + 'px; left: ' + (e.pageX - 10) + 'px;');
-});
+// document.addEventListener('mouseover', e => {
+// 	cursor.setAttribute('style', 'top: ' + (e.pageY - 10) + 'px; left: ' + (e.pageX - 10) + 'px;');
+// });
 
 document.addEventListener("DOMContentLoaded", () => {
     destello();
@@ -101,8 +101,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 document.addEventListener('click', e => {
 	toggleMenu(e);
-	cursor.classList.add('expand');
-	setTimeout(() => {
-		cursor.classList.remove('expand');
-	}, 500);
+	// cursor.classList.add('expand');
+	// setTimeout(() => {
+	// 	cursor.classList.remove('expand');
+	// }, 500);
 });

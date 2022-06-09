@@ -1050,6 +1050,13 @@ header {
         &.sticky {
             padding: 20px 50px;
             z-index: 1000;
+			ul {
+				li {
+					a {
+						color: unset;
+					}
+				}
+			}
         }
         .menu {
             position: fixed;
@@ -1181,8 +1188,14 @@ header {
         padding: 20px 20px;
         &.sticky {
             padding: 20px 20px;
+			ul {
+				li {
+					a {
+						color: unset;
+					}
+				}
+			}
         }
-
         .menu {
             a {
                 font-size: 3rem;
