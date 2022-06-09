@@ -12,11 +12,13 @@ window.addEventListener("scroll", function () {
 about.addEventListener("click", generate);
 
 //Navbar media queries
-function toggleMenu() {
-    let menuToggle = document.querySelector(".toggle");
-    let menu = document.querySelector(".menu");
-    menuToggle.classList.toggle("active");
-    menu.classList.toggle("active");
+function toggleMenu(e) {
+	if (e.target.matches('.toggleMenu')) {
+		let menuToggle = document.querySelector(".toggle");
+		let menu = document.querySelector(".menu");
+		menuToggle.classList.toggle("active");
+		menu.classList.toggle("active");
+	}
 }
 
 for (let i = 1; i <= 1000; i++) {
@@ -91,3 +93,5 @@ document.addEventListener("DOMContentLoaded", () => {
     destello();
     generate();
 });
+
+document.addEventListener('click', e => toggleMenu(e));
