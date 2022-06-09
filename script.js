@@ -1,3 +1,5 @@
+const cursor = document.querySelector('.cursor');
+
 const divTech = document.getElementById("divTech"),
     about = document.querySelector(".about"),
     bcGenCont = document.querySelector(".bcGenCont"),
@@ -11,7 +13,7 @@ window.addEventListener("scroll", function () {
 });
 about.addEventListener("click", generate);
 
-//Navbar media queries
+//Menu navbar toggle media queries
 function toggleMenu(e) {
 	if (e.target.matches('.toggleMenu')) {
 		let menuToggle = document.querySelector(".toggle");
@@ -42,7 +44,6 @@ function generate() {
         },
     });
 }
-setInterval(() => generate(), 3000);
 
 //Projects background
 document.addEventListener("mouseover", (e) => {
@@ -89,9 +90,19 @@ const destello = () => {
     }, 500);
 };
 
+document.addEventListener('mouseover', e => {
+	cursor.setAttribute('style', 'top: ' + (e.pageY - 10) + 'px; left: ' + (e.pageX - 10) + 'px;');
+});
+
 document.addEventListener("DOMContentLoaded", () => {
     destello();
     generate();
 });
 
-document.addEventListener('click', e => toggleMenu(e));
+document.addEventListener('click', e => {
+	toggleMenu(e);
+	cursor.classList.add('expand');
+	setTimeout(() => {
+		cursor.classList.remove('expand');
+	}, 500);
+});
