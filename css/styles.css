@@ -112,6 +112,18 @@ header {
       filter: blur(50px);
       background: linear-gradient(250deg, var(--verde), transparent, var(--verde));
       animation: aniLee 5s linear infinite; }
+    header .logo:hover {
+      color: var(--verde); }
+      header .logo:hover::before {
+        content: none;
+        background: none;
+        animation: none; }
+      header .logo:hover::after {
+        content: none;
+        background: none;
+        animation: none; }
+      header .logo:hover a {
+        color: gray; }
   header ul {
     position: relative;
     display: flex;
@@ -212,7 +224,7 @@ header {
         background: none;
         animation: none; }
       header ul li:hover a {
-        color: gray; }
+        color: var(--verde); }
 
 .main {
   position: relative;

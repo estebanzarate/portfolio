@@ -83,6 +83,22 @@ header {
             );
             animation: aniLee 5s linear infinite;
         }
+		&:hover {
+			color: var(--verde);
+			&::before {
+				content: none;
+				background: none;
+				animation: none;
+			}
+			&::after {
+				content: none;
+				background: none;
+				animation: none;
+			}
+			a {
+				color: gray;
+			}
+		}
     }
     ul {
         position: relative;
@@ -217,7 +233,7 @@ header {
                     animation: none;
                 }
                 a {
-                    color: gray;
+                    color: var(--verde);
                 }
             }
         }
