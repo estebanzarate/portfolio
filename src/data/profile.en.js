@@ -1,8 +1,8 @@
 const profile = {
   name: "Esteban Zárate",
-  role: "Analista de Ciberseguridad",
+  role: "Cybersecurity Analyst",
   description:
-    "Entusiasta de ciberseguridad con experiencia en desarrollo full stack (JavaScript, React, Node.js) en transición hacia la seguridad ofensiva y defensiva. Actualmente me centro en penetration testing y análisis de vulnerabilidades, documentando mi aprendizaje con artículos sobre máquinas en Hack The Box, TryHackMe y otras plataformas en mi GitBook.",
+    "Cybersecurity enthusiast with a background in full stack development (JavaScript, React, Node.js), transitioning into offensive and defensive security. Currently focused on penetration testing and vulnerability analysis, documenting my learning journey through writeups on HackTheBox, TryHackMe and other platforms on my GitBook.",
   location: "Buenos Aires, Argentina",
   links: {
     github: "https://github.com/estebanzarate",
@@ -17,17 +17,15 @@ const profile = {
       id: 1,
       role: "Cybersecurity Learner & CTF Player",
       company: "",
-      period: "2022 — Presente",
+      period: "2022 — Present",
       description:
-        "Práctica activa de penetration testing mediante resolución de máquinas en plataformas CTF. Writeups documentados en gitbook personal. Técnicas trabajadas: privilege escalation en Linux/Windows, Active Directory attacks, web application exploitation, network enumeration y post-exploitation.",
+        "Active practice of penetration testing through CTF machine solving. Writeups documented on a personal GitBook. Techniques covered: Linux/Windows privilege escalation, Active Directory attacks, web application exploitation, network enumeration and post-exploitation.",
       tags: ["Pentesting", "Web Security", "CTF"],
     },
   ],
-  // Skills derivados de módulos completados en HTB Academy
-  // Cada tag corresponde a uno o más módulos finalizados — sin inventar niveles
   skills: [
     {
-      category: "Pentesting & Explotación",
+      category: "Pentesting & Exploitation",
       color: "danger",
       items: [
         { name: "Metasploit Framework", source: "Using the Metasploit Framework" },
@@ -44,7 +42,7 @@ const profile = {
       ],
     },
     {
-      category: "Seguridad Web",
+      category: "Web Security",
       color: "warning",
       items: [
         { name: "SQL Injection", source: "SQL Injection Fundamentals" },
@@ -52,13 +50,13 @@ const profile = {
         { name: "Web Fuzzing", source: "Attacking Web Applications with Ffuf / Web Fuzzing" },
         { name: "JavaScript Deobfuscation", source: "JavaScript Deobfuscation" },
         { name: "WordPress Hacking", source: "Hacking WordPress" },
-        { name: "Information Gathering Web", source: "Information Gathering - Web Edition" },
+        { name: "Web Information Gathering", source: "Information Gathering - Web Edition" },
         { name: "Web Requests & HTTP", source: "Web Requests" },
         { name: "Bug Bounty Process", source: "Bug Bounty Hunting Process" },
       ],
     },
     {
-      category: "Redes & Reconocimiento",
+      category: "Networks & Reconnaissance",
       color: "info",
       items: [
         { name: "Nmap", source: "Network Enumeration with Nmap" },
@@ -70,7 +68,7 @@ const profile = {
       ],
     },
     {
-      category: "Sistemas Operativos",
+      category: "Operating Systems",
       color: "success",
       items: [
         { name: "Linux", source: "Linux Fundamentals" },
@@ -82,7 +80,7 @@ const profile = {
       ],
     },
     {
-      category: "Programación & Scripting",
+      category: "Programming & Scripting",
       color: "primary",
       items: [
         { name: "Python 3", source: "Introduction to Python 3 / DNS Enumeration Using Python" },
@@ -92,14 +90,14 @@ const profile = {
       ],
     },
     {
-      category: "Metodología & Proceso",
+      category: "Methodology & Process",
       color: "secondary",
       items: [
         { name: "Penetration Testing Process", source: "Penetration Testing Process" },
         { name: "Vulnerability Assessment", source: "Vulnerability Assessment" },
         { name: "Incident Handling", source: "Security Incident Reporting" },
         { name: "Pentest Reporting", source: "Pentest in a Nutshell" },
-        { name: "Fundamentos de IA", source: "Fundamentals of AI" },
+        { name: "AI Fundamentals", source: "Fundamentals of AI" },
       ],
     },
   ],
@@ -109,70 +107,70 @@ const profile = {
       title: "TestOut Client Pro",
       institution: "TestOut Corporation",
       period: "2024",
-      certificate: "/certificates/TOCP.webp"
+      certificate: "/certificates/TOCP.webp",
     },
     {
       id: 2,
       title: "TestOut PC Pro",
       institution: "TestOut Corporation",
       period: "2024",
-      certificate: "/certificates/TOPCP.webp"
+      certificate: "/certificates/TOPCP.webp",
     },
     {
       id: 3,
-      title: "Introducción a Linux",
+      title: "Introduction to Linux",
       institution: "Hack4u",
-      period: "2023"
+      period: "2023",
     },
     {
       id: 4,
-      title: "Introducción al Hacking",
+      title: "Introduction to Hacking",
       institution: "Hack4u",
       period: "2023",
-      certificate: "/certificates/IH.webp"
+      certificate: "/certificates/IH.webp",
     },
     {
       id: 5,
-      title: "Python Ofensivo",
+      title: "Offensive Python",
       institution: "Hack4u",
       period: "2023",
-      certificate: "/certificates/PO.webp"
+      certificate: "/certificates/PO.webp",
     },
     {
       id: 6,
       title: "Introduction to Cyber Security Learning Path",
       institution: "TryHackMe",
       period: "2023",
-      certificate: "/certificates/ICSLP.webp"
+      certificate: "/certificates/ICSLP.webp",
     },
     {
       id: 7,
       title: "Pre Security Learning Path",
       institution: "TryHackMe",
       period: "2023",
-      certificate: "/certificates/PSLP.webp"
+      certificate: "/certificates/PSLP.webp",
     },
     {
       id: 8,
       title: "Complete Beginner Learning Path",
       institution: "TryHackMe",
       period: "2023",
-      certificate: "/certificates/CBLP.webp"
+      certificate: "/certificates/CBLP.webp",
     },
     {
       id: 9,
       title: "Web Fundamentals Learning Path",
       institution: "TryHackMe",
       period: "2023",
-      certificate: "/certificates/WFLP.webp"
+      certificate: "/certificates/WFLP.webp",
     },
     {
       id: 10,
       title: "Jr Penetration Tester Learning Path",
       institution: "TryHackMe",
       period: "2023",
-      certificate: "/certificates/JPTLP.webp"
-    }
+      certificate: "/certificates/JPTLP.webp",
+    },
   ],
 }
 

@@ -1,4 +1,6 @@
 import { useState, useMemo } from 'react'
+import useLanguage from '../hooks/useLanguage'
+import translations from '../data/translations'
 import machinesData from '../data/machines.json'
 
 const difficultyColor = {
@@ -20,7 +22,10 @@ function StatCard({ label, value, colorClass }) {
 }
 
 function HTBMachines() {
+  const { lang } = useLanguage()
+  const t = translations[lang].machines
   const { statistics, machines } = machinesData
+
   const [filterOS, setFilterOS] = useState('All')
   const [filterDiff, setFilterDiff] = useState('All')
   const [search, setSearch] = useState('')
@@ -42,10 +47,7 @@ function HTBMachines() {
   const paginated = filtered.slice((page - 1) * ITEMS_PER_PAGE, page * ITEMS_PER_PAGE)
 
   function handleFilterChange(setter) {
-    return (val) => {
-      setter(val)
-      setPage(1)
-    }
+    return (val) => { setter(val); setPage(1) }
   }
 
   return (
@@ -53,13 +55,15 @@ function HTBMachines() {
 
       <div className="border-l-4 border-success pl-4">
         <h2 className="text-2xl font-bold text-light">HackTheBox <span className="text-success">Machines</span></h2>
-        <p className="text-secondary text-sm mt-1">Actualizado: {new Date(machinesData.last_updated).toLocaleDateString('es-AR')}</p>
+        <p className="text-secondary text-sm mt-1">
+          {t.subtitle}: {new Date(machinesData.last_updated).toLocaleDateString(lang === 'es' ? 'es-AR' : 'en-US')}
+        </p>
       </div>
 
       <div className="flex flex-wrap gap-3">
-        <StatCard label="Total" value={statistics.total} colorClass="border-surface2" />
-        <StatCard label="User Owns" value={statistics.user_owns} colorClass="border-info/40" />
-        <StatCard label="Root Owns" value={statistics.root_owns} colorClass="border-primary/40" />
+        <StatCard label={t.total} value={statistics.total} colorClass="border-surface2" />
+        <StatCard label={t.userOwns} value={statistics.user_owns} colorClass="border-info/40" />
+        <StatCard label={t.rootOwns} value={statistics.root_owns} colorClass="border-primary/40" />
         <StatCard label="Easy" value={statistics.by_difficulty.Easy ?? 0} colorClass="border-success/40" />
         <StatCard label="Medium" value={statistics.by_difficulty.Medium ?? 0} colorClass="border-warning/40" />
         <StatCard label="Hard" value={statistics.by_difficulty.Hard ?? 0} colorClass="border-danger/40" />
@@ -77,7 +81,7 @@ function HTBMachines() {
       <div className="flex flex-col sm:flex-row gap-3">
         <input
           type="text"
-          placeholder="Buscar máquina..."
+          placeholder={t.searchPlaceholder}
           value={search}
           onChange={e => { setSearch(e.target.value); setPage(1) }}
           className="flex-1 px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-light placeholder-secondary focus:outline-none focus:border-primary text-sm"
@@ -87,28 +91,28 @@ function HTBMachines() {
           onChange={e => handleFilterChange(setFilterOS)(e.target.value)}
           className="px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-secondary focus:outline-none focus:border-primary text-sm"
         >
-          {osList.map(os => <option key={os} value={os}>{os === 'All' ? 'Todos los OS' : os}</option>)}
+          {osList.map(os => <option key={os} value={os}>{os === 'All' ? t.allOS : os}</option>)}
         </select>
         <select
           value={filterDiff}
           onChange={e => handleFilterChange(setFilterDiff)(e.target.value)}
           className="px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-secondary focus:outline-none focus:border-primary text-sm"
         >
-          {diffList.map(d => <option key={d} value={d}>{d === 'All' ? 'Todas las diffs' : d}</option>)}
+          {diffList.map(d => <option key={d} value={d}>{d === 'All' ? t.allDiff : d}</option>)}
         </select>
       </div>
 
-      <p className="text-secondary text-sm">{filtered.length} máquinas encontradas</p>
+      <p className="text-secondary text-sm">{filtered.length} {t.found}</p>
 
       <div className="overflow-x-auto rounded-lg border border-surface2">
         <table className="w-full text-sm">
           <thead>
             <tr className="bg-surface2 text-secondary uppercase text-xs tracking-wider">
-              <th className="px-4 py-3 text-left">Nombre</th>
-              <th className="px-4 py-3 text-left">OS</th>
-              <th className="px-4 py-3 text-left">Dificultad</th>
-              <th className="px-4 py-3 text-center">User</th>
-              <th className="px-4 py-3 text-center">Root</th>
+              <th className="px-4 py-3 text-left">{t.name}</th>
+              <th className="px-4 py-3 text-left">{t.os}</th>
+              <th className="px-4 py-3 text-left">{t.difficulty}</th>
+              <th className="px-4 py-3 text-center">{t.user}</th>
+              <th className="px-4 py-3 text-center">{t.root}</th>
             </tr>
           </thead>
           <tbody>
@@ -125,14 +129,10 @@ function HTBMachines() {
                   </span>
                 </td>
                 <td className="px-4 py-3 text-center">
-                  {m.user_owned
-                    ? <span className="text-success font-bold">✓</span>
-                    : <span className="text-secondary">✗</span>}
+                  {m.user_owned ? <span className="text-success font-bold">✓</span> : <span className="text-secondary">✗</span>}
                 </td>
                 <td className="px-4 py-3 text-center">
-                  {m.root_owned
-                    ? <span className="text-success font-bold">✓</span>
-                    : <span className="text-secondary">✗</span>}
+                  {m.root_owned ? <span className="text-success font-bold">✓</span> : <span className="text-secondary">✗</span>}
                 </td>
               </tr>
             ))}
@@ -147,7 +147,7 @@ function HTBMachines() {
             disabled={page === 1}
             className="px-3 py-1.5 rounded bg-surface2 text-secondary hover:text-light disabled:opacity-30 text-sm transition-colors"
           >
-            Anterior
+            {t.prev}
           </button>
           <span className="text-secondary text-sm">
             <span className="text-light font-medium">{page}</span> / {totalPages}
@@ -157,7 +157,7 @@ function HTBMachines() {
             disabled={page === totalPages}
             className="px-3 py-1.5 rounded bg-surface2 text-secondary hover:text-light disabled:opacity-30 text-sm transition-colors"
           >
-            Siguiente
+            {t.next}
           </button>
         </div>
       )}

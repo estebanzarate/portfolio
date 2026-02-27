@@ -1,4 +1,6 @@
-import profile from '../data/profile.js'
+import useLanguage from '../hooks/useLanguage'
+import profileES from '../data/profile.js'
+import profileEN from '../data/profile.en.js'
 import avatar from '../assets/profile.webp'
 
 const linkConfig = [
@@ -65,31 +67,20 @@ const linkConfig = [
 ]
 
 function Hero() {
+  const { lang } = useLanguage()
+  const profile = lang === 'es' ? profileES : profileEN
+
   return (
     <section id="about" className="py-16 scroll-mt-20">
       <div className="flex flex-col md:flex-row items-center md:items-start gap-10">
 
-        {/* Avatar placeholder */}
-        <div className="shrink-0 rounded-full bg-surface2 border-2 border-primary flex items-center justify-center text-5xl select-none">
-          <img
-            src={avatar}
-            alt={profile.name}
-            className="shrink-0 w-32 h-32 rounded-full border-4 border-primary object-cover"
-          />
-        </div>
+        <img src={avatar} alt={profile.name} className="shrink-0 w-32 h-32 rounded-full border-4 border-primary object-cover" />
 
-        {/* Info */}
         <div className="flex flex-col gap-4 text-center md:text-left">
-
           <h1 className="text-4xl font-bold text-light">{profile.name}</h1>
-
-          {/* Rol */}
           <p className="text-info text-lg font-medium">{profile.role}</p>
-
-          {/* Descripción */}
           <p className="text-secondary max-w-xl leading-relaxed">{profile.description}</p>
 
-          {/* Ubicación */}
           <div className="flex items-center justify-center md:justify-start gap-1 text-secondary text-sm">
             <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
               <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
@@ -97,7 +88,6 @@ function Hero() {
             {profile.location}
           </div>
 
-          {/* Links */}
           <div className="flex flex-wrap justify-center md:justify-start gap-3 mt-2">
             {linkConfig.map(({ key, label, icon, color }) =>
               profile.links[key] ? (

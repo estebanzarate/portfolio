@@ -1,4 +1,7 @@
-import profile from '../data/profile.js'
+import useLanguage from '../hooks/useLanguage'
+import profileES from '../data/profile.js'
+import profileEN from '../data/profile.en.js'
+import translations from '../data/translations'
 
 const colorMap = {
   danger: { border: 'border-danger/40', label: 'text-danger', tag: 'bg-danger/10 border-danger/30 text-danger' },
@@ -10,16 +13,18 @@ const colorMap = {
 }
 
 function Skills() {
+  const { lang } = useLanguage()
+  const profile = lang === 'es' ? profileES : profileEN
+  const t = translations[lang].skills
+
   return (
     <section id="skills" className="flex flex-col gap-6 scroll-mt-20">
 
       <div className="border-l-4 border-secondary pl-4">
         <h2 className="text-2xl font-bold text-light">
-          Skills y <span className="text-secondary">Tecnologías</span>
+          {t.title} <span className="text-secondary">{t.subtitle}</span>
         </h2>
-        <p className="text-secondary text-sm mt-1">
-          Basado en módulos completados en HackTheBox Academy
-        </p>
+        <p className="text-secondary text-sm mt-1">{t.source}</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

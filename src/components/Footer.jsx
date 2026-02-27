@@ -1,6 +1,10 @@
-import profile from '../data/profile.js'
+import useLanguage from '../hooks/useLanguage'
+import profileES from '../data/profile.js'
+import profileEN from '../data/profile.en.js'
 
 function Footer() {
+  const { lang } = useLanguage()
+  const profile = lang === 'es' ? profileES : profileEN
   const year = new Date().getFullYear()
 
   return (
@@ -12,40 +16,24 @@ function Footer() {
           <span className="text-secondary text-xs">{profile.role}</span>
         </div>
 
-        <div className="flex flex-col items-center gap-1">
-          <span className="text-secondary text-xs">
-            © {year} {profile.name}
-          </span>
-        </div>
+        <span className="text-secondary text-xs">© {year} {profile.name}</span>
 
         <div className="flex items-center gap-4">
           {profile.links.github && (
-            <a
-              href={profile.links.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-secondary hover:text-light transition-colors text-xs"
-            >
+            <a href={profile.links.github} target="_blank" rel="noopener noreferrer"
+              className="text-secondary hover:text-light transition-colors text-xs">
               GitHub
             </a>
           )}
           {profile.links.linkedin && (
-            <a
-              href={profile.links.linkedin}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-secondary hover:text-info transition-colors text-xs"
-            >
+            <a href={profile.links.linkedin} target="_blank" rel="noopener noreferrer"
+              className="text-secondary hover:text-info transition-colors text-xs">
               LinkedIn
             </a>
           )}
           {profile.links.blog && (
-            <a
-              href={profile.links.blog}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-secondary hover:text-warning transition-colors text-xs"
-            >
+            <a href={profile.links.blog} target="_blank" rel="noopener noreferrer"
+              className="text-secondary hover:text-warning transition-colors text-xs">
               Blog
             </a>
           )}

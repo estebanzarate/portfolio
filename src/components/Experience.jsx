@@ -1,7 +1,10 @@
 import { useState, useEffect } from 'react'
-import profile from '../data/profile.js'
+import useLanguage from '../hooks/useLanguage'
+import profileES from '../data/profile.js'
+import profileEN from '../data/profile.en.js'
+import translations from '../data/translations'
 
-function CertificateModal({ edu, onClose }) {
+function CertificateModal({ edu, t, onClose }) {
   useEffect(() => {
     function handleKey(e) {
       if (e.key === 'Escape') onClose()
@@ -33,7 +36,7 @@ function CertificateModal({ edu, onClose }) {
         </div>
         <img
           src={edu.certificate}
-          alt={`Certificado — ${edu.title}`}
+          alt={`${t.viewCertificate} — ${edu.title}`}
           className="w-full rounded-lg border border-surface2 object-contain max-h-[70vh]"
         />
       </div>
@@ -42,15 +45,17 @@ function CertificateModal({ edu, onClose }) {
 }
 
 function Experience() {
+  const { lang } = useLanguage()
+  const profile = lang === 'es' ? profileES : profileEN
+  const t = translations[lang].experience
   const [activeCert, setActiveCert] = useState(null)
 
   return (
     <section id="experience" className="flex flex-col gap-10 scroll-mt-20">
 
-      {/* Experiencia */}
       <div className="flex flex-col gap-6">
         <div className="border-l-4 border-warning pl-4">
-          <h2 className="text-2xl font-bold text-light">Experiencia</h2>
+          <h2 className="text-2xl font-bold text-light">{t.title}</h2>
         </div>
 
         <div className="flex flex-col gap-4">
@@ -84,10 +89,11 @@ function Experience() {
         </div>
       </div>
 
-      {/* Educación */}
       <div className="flex flex-col gap-6">
         <div className="border-l-4 border-info pl-4">
-          <h2 className="text-2xl font-bold text-light">Educación y <span className="text-info">Certificaciones</span></h2>
+          <h2 className="text-2xl font-bold text-light">
+            {t.education} <span className="text-info">{t.certifications}</span>
+          </h2>
         </div>
 
         <div className="flex flex-col gap-3">
@@ -109,7 +115,7 @@ function Experience() {
                     onClick={() => setActiveCert(edu)}
                     className="text-xs px-2 py-1 rounded border border-info/40 text-info hover:bg-info/10 transition-colors"
                   >
-                    Ver certificado
+                    {t.viewCertificate}
                   </button>
                 )}
               </div>
@@ -119,7 +125,7 @@ function Experience() {
       </div>
 
       {activeCert && (
-        <CertificateModal edu={activeCert} onClose={() => setActiveCert(null)} />
+        <CertificateModal edu={activeCert} t={t} onClose={() => setActiveCert(null)} />
       )}
 
     </section>
