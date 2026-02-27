@@ -50,7 +50,7 @@ function Experience() {
       {/* Experiencia */}
       <div className="flex flex-col gap-6">
         <div className="border-l-4 border-warning pl-4">
-          <h2 className="text-2xl font-bold text-light">Experiencia <span className="text-warning">Laboral</span></h2>
+          <h2 className="text-2xl font-bold text-light">Experiencia</h2>
         </div>
 
         <div className="flex flex-col gap-4">
