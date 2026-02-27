@@ -103,7 +103,77 @@ const profile = {
       ],
     },
   ],
-  education: [],
+  education: [
+    {
+      id: 1,
+      title: "TestOut Client Pro",
+      institution: "TestOut Corporation",
+      period: "2024",
+      certificate: "/certificates/TOCP.webp"
+    },
+    {
+      id: 2,
+      title: "TestOut PC Pro",
+      institution: "TestOut Corporation",
+      period: "2024",
+      certificate: "/certificates/TOPCP.webp"
+    },
+    {
+      id: 3,
+      title: "Introducción a Linux",
+      institution: "Hack4u",
+      period: "2023"
+    },
+    {
+      id: 4,
+      title: "Introducción al Hacking",
+      institution: "Hack4u",
+      period: "2023",
+      certificate: "/certificates/IH.webp"
+    },
+    {
+      id: 5,
+      title: "Python Ofensivo",
+      institution: "Hack4u",
+      period: "2023",
+      certificate: "/certificates/PO.webp"
+    },
+    {
+      id: 6,
+      title: "Introduction to Cyber Security Learning Path",
+      institution: "TryHackMe",
+      period: "2023",
+      certificate: "/certificates/ICSLP.webp"
+    },
+    {
+      id: 7,
+      title: "Pre Security Learning Path",
+      institution: "TryHackMe",
+      period: "2023",
+      certificate: "/certificates/PSLP.webp"
+    },
+    {
+      id: 8,
+      title: "Complete Beginner Learning Path",
+      institution: "TryHackMe",
+      period: "2023",
+      certificate: "/certificates/CBLP.webp"
+    },
+    {
+      id: 9,
+      title: "Web Fundamentals Learning Path",
+      institution: "TryHackMe",
+      period: "2023",
+      certificate: "/certificates/WFLP.webp"
+    },
+    {
+      id: 10,
+      title: "Jr Penetration Tester Learning Path",
+      institution: "TryHackMe",
+      period: "2023",
+      certificate: "/certificates/JPTLP.webp"
+    }
+  ],
 }
 
 export default profile
