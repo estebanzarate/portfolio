@@ -5,6 +5,7 @@ import Experience from './components/Experience'
 import Skills from './components/Skills'
 import HTBMachines from './components/HTBMachines'
 import HTBAcademy from './components/HTBAcademy'
+import THMRooms from './components/THMRooms'
 import Footer from './components/Footer'
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
             <div className="py-16"><Experience /></div>
             <div className="py-16"><Skills /></div>
             <div className="py-16"><HTBMachines /></div>
-            <div className="pt-16"><HTBAcademy /></div>
+            <div className="py-16"><HTBAcademy /></div>
+            <div className="pt-16"><THMRooms /></div>
           </div>
         </main>
         <Footer />

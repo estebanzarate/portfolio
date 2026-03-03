@@ -11,6 +11,7 @@ function Header() {
     { label: t.skills, href: '#skills' },
     { label: t.machines, href: '#machines' },
     { label: t.academy, href: '#academy' },
+    { label: t.thm, href: '#thm' },
   ]
 
   return (
