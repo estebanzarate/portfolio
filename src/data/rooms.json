@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-03-04T01:51:23.012Z",
+  "last_updated": "2026-03-04T23:42:00.627Z",
   "statistics": {
-    "total_rooms": 193,
-    "completed": 189,
-    "completion_percentage": 97.9,
+    "total_rooms": 195,
+    "completed": 192,
+    "completion_percentage": 98.5,
     "by_difficulty": {
-      "easy": 138,
+      "easy": 141,
       "medium": 32,
       "info": 19
     },
     "by_type": {
-      "challenge": 28,
-      "walkthrough": 161
+      "challenge": 29,
+      "walkthrough": 163
     }
   },
   "rooms": [
@@ -782,6 +782,26 @@
         "Linux"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/338614f6e8d7068dfc3272e144c59818.jpeg"
+    },
+    {
+      "id": "601f09d0640e286c5fe3d43e",
+      "title": "VulnNet: Internal",
+      "code": "vulnnetinternal",
+      "description": "VulnNet Entertainment learns from its mistakes, and now they have something new for you...",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Penetration testing",
+        "Red teaming",
+        "enumeration",
+        "Exploitation",
+        "Nmap",
+        "Showmount",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/133abb8b1a8449912a2461b8bd7d8edd.png"
     },
     {
       "id": "6050f7833c64c72e01eb0a8f",
@@ -1636,6 +1656,28 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/268e10b8ee0b53d1074b2a7fd5b1a789.png"
     },
     {
+      "id": "610980c0a43bdd00600408dc",
+      "title": "Brute Force Heroes",
+      "code": "bruteforceheroes",
+      "description": "Walkthrough room to look at the different tools that can be used when brute forcing, as well as the different situations that might favour one tool over another ",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Penetration testing",
+        "Red teaming",
+        "Application penetration testing",
+        "Burp Suite",
+        "Zap",
+        "Hydra",
+        "Hashcat",
+        "JtR",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/608e3293aede745c0790a05e9c3f8341.png"
+    },
+    {
       "id": "610d0258516bcd0055fc1806",
       "title": "Intro to Cross-site Scripting",
       "code": "xss",
@@ -1898,6 +1940,24 @@
         "Linux"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6187c9220cd0ff0c5c3b29b9aa6252ea.png"
+    },
+    {
+      "id": "61d74a696ae9410ef8415f48",
+      "title": "Insekube",
+      "code": "insekube",
+      "description": "Exploiting Kubernetes by leveraging a Grafana LFI vulnerability",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "General Cyber",
+        "Penetration testing",
+        "Red teaming",
+        "DevSecOps",
+        "kubernetes"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/3c98dd3bb37fa4a1130057bd65fdca53.png"
     },
     {
       "id": "620d139f6d58c3004b8faa2a",
@@ -3772,17 +3832,6 @@
       "completed": true,
       "tags": [],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5ed5961c6276df568891c3ea-1770943483211"
-    },
-    {
-      "id": "6989ece61902907bcb539217",
-      "title": "Love at First Breach 2026 -  Advanced Track",
-      "code": "lafbctf2026-advanced",
-      "description": "Go deeper into TryHeartMe's web of lies.",
-      "difficulty": "hard",
-      "type": "challenge",
-      "completed": false,
-      "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5ed5961c6276df568891c3ea-1770737101248"
     }
   ]
 }

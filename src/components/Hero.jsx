@@ -103,6 +103,16 @@ function Hero() {
                 </a>
               ) : null
             )}
+            <a
+              href={lang === 'es' ? '/resume-es.pdf' : '/resume-en.pdf'}
+              download="estebanzarate.pdf"
+              className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-primary/10 border border-primary/40 text-primary hover:bg-primary/20 transition-all text-sm font-medium"
+            >
+              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z" />
+              </svg>
+              {lang === 'es' ? 'Descargar CV' : 'Download Resume'}
+            </a>
           </div>
         </div>
       </div>

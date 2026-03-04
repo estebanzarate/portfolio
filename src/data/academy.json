@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-04T01:49:38.270Z",
+  "last_updated": "2026-03-04T23:41:53.122Z",
   "statistics": {
     "total_modules": 156,
-    "completed": 49,
-    "completion_percentage": 31.4,
+    "completed": 50,
+    "completion_percentage": 32.1,
     "by_category": {
       "Offensive": {
         "completed": 24,
@@ -16,9 +16,9 @@
         "percentage": 2.5
       },
       "General": {
-        "completed": 23,
+        "completed": 24,
         "total": 29,
-        "percentage": 81.1
+        "percentage": 81.6
       },
       "Purple": {
         "completed": 1,
@@ -411,7 +411,7 @@
       "name": "Incident Handling Process",
       "slug": "incident-handling-process",
       "description": "Security Incident handling has become a vital part of every organization's defensive strategy, as attacks constantly evolve and successful compromises are becoming a daily occurrence. In this module, we will review the process of handling an incident from the very early stage of detecting a suspicious event to confirming a compromise and responding to it.",
-      "progress": 81.82
+      "progress": 100
     },
     {
       "id": 153,
