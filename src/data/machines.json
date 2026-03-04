@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-02-27T00:20:42.777Z",
+  "last_updated": "2026-03-04T01:39:24.129Z",
   "statistics": {
-    "total": 517,
+    "total": 518,
     "user_owns": 178,
     "root_owns": 177,
     "by_os": {
@@ -26,6 +26,14 @@
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
+    },
+    {
+      "id": 844,
+      "name": "Pirate",
+      "os": "Windows",
+      "difficulty": "Hard",
+      "user_owned": false,
+      "root_owned": false
     },
     {
       "id": 841,
@@ -166,14 +174,6 @@
     {
       "id": 736,
       "name": "Expressway",
-      "os": "Linux",
-      "difficulty": "Easy",
-      "user_owned": true,
-      "root_owned": true
-    },
-    {
-      "id": 721,
-      "name": "Soulmate",
       "os": "Linux",
       "difficulty": "Easy",
       "user_owned": true,
@@ -370,6 +370,14 @@
       "difficulty": "Medium",
       "user_owned": false,
       "root_owned": false
+    },
+    {
+      "id": 721,
+      "name": "Soulmate",
+      "os": "Linux",
+      "difficulty": "Easy",
+      "user_owned": true,
+      "root_owned": true
     },
     {
       "id": 718,
