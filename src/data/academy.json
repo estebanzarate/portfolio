@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-04T23:41:53.122Z",
+  "last_updated": "2026-03-06T16:50:38.160Z",
   "statistics": {
     "total_modules": 156,
-    "completed": 50,
-    "completion_percentage": 32.1,
+    "completed": 49,
+    "completion_percentage": 31.4,
     "by_category": {
       "Offensive": {
         "completed": 24,
@@ -16,9 +16,9 @@
         "percentage": 2.5
       },
       "General": {
-        "completed": 24,
+        "completed": 23,
         "total": 29,
-        "percentage": 81.6
+        "percentage": 86.9
       },
       "Purple": {
         "completed": 1,
@@ -929,7 +929,7 @@
       "name": "Applications of AI in InfoSec",
       "slug": "applications-of-ai-in-infosec",
       "description": "This module is a practical introduction to building AI models that can be applied to various infosec domains. It covers setting up a controlled AI environment using Miniconda for package management and JupyterLab for interactive experimentation. Students will learn to handle datasets, preprocess and transform data, and implement structured workflows for tasks such as spam classification, network anomaly detection, and malware classification. Throughout the module, learners will explore essential Python libraries like Scikit-learn and PyTorch, understand effective approaches to dataset processing, and become familiar with common evaluation metrics, enabling them to navigate the entire lifecycle of AI model development and experimentation.",
-      "progress": 4
+      "progress": 100
     },
     {
       "id": 293,

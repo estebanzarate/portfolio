@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-03-04T23:42:00.627Z",
+  "last_updated": "2026-03-06T16:51:23.175Z",
   "statistics": {
-    "total_rooms": 195,
-    "completed": 192,
+    "total_rooms": 205,
+    "completed": 202,
     "completion_percentage": 98.5,
     "by_difficulty": {
-      "easy": 141,
-      "medium": 32,
+      "easy": 150,
+      "medium": 33,
       "info": 19
     },
     "by_type": {
-      "challenge": 29,
-      "walkthrough": 163
+      "challenge": 30,
+      "walkthrough": 172
     }
   },
   "rooms": [
@@ -200,6 +200,29 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/ca3da5aa8e312b0316f06a25a03028a5.png"
     },
     {
+      "id": "5db08731278d520a986149ac",
+      "title": "DVWA",
+      "code": "dvwa",
+      "description": "Basic room for testing exploits against the Damn Vulnerable Web Application box",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "General Cyber",
+        "Penetration testing",
+        "Red teaming",
+        "Security analysis",
+        "SQLMap",
+        "Hydra",
+        "ffuf",
+        "Burp Suite",
+        "Linux",
+        "Web"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/370ada1208acaa6444fce2cfac2be0a2.png"
+    },
+    {
       "id": "5ddc7633bb226e7352a57aea",
       "title": "Attacktive Directory",
       "code": "attacktivedirectory",
@@ -221,6 +244,22 @@
         "Windows"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/f38b047a2a7089147766099dffeb8a5d.png"
+    },
+    {
+      "id": "5de958efa744773ea7ef8820",
+      "title": "Wifi Hacking 101",
+      "code": "wifihacking101",
+      "description": "Learn to attack WPA(2) networks! Ideally you'll want a smartphone with you for this, preferably one that supports hosting wifi hotspots so you can follow along.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Penetration testing",
+        "Red teaming",
+        "Network penetration testing"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/9c6dced5409f0ab40334bed720f438f5.png"
     },
     {
       "id": "5e227063c18e8c55af412e60",
@@ -1900,6 +1939,22 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/87d4f9a61d3f92a761d4824b062d115e.png"
     },
     {
+      "id": "614ce9e34240f700435d15dc",
+      "title": "Red Team Engagements",
+      "code": "redteamengagements",
+      "description": "Learn the steps and procedures of a red team engagement, including planning, frameworks, and documentation.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Red teaming",
+        "Information gathering",
+        "Research"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735574311415"
+    },
+    {
       "id": "617032dd1f1e5500492ebec2",
       "title": "Weaponization ",
       "code": "weaponization",
@@ -1958,6 +2013,22 @@
         "kubernetes"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/3c98dd3bb37fa4a1130057bd65fdca53.png"
+    },
+    {
+      "id": "61e6e51029c5b3004ab82955",
+      "title": "Red Team Fundamentals",
+      "code": "redteamfundamentals",
+      "description": "Learn about the basics of a red engagement, the main components and stakeholders involved, and how red teaming differs from other cyber security engagements.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Red teaming",
+        "Penetration testing",
+        "Documentation"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735574324705"
     },
     {
       "id": "620d139f6d58c3004b8faa2a",
@@ -2298,6 +2369,23 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735573254803"
     },
     {
+      "id": "62e8333776ad610042452002",
+      "title": "Introduction to Windows API",
+      "code": "windowsapi",
+      "description": "Learn how to interact with the win32 API and understand its wide range of use cases",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Red teaming",
+        "Endpoint security monitoring",
+        "Security analysis",
+        "Windows"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/303a7ced0af5e7a634df6dfb4497cb40.png"
+    },
+    {
       "id": "631211ab243aa600601e75f7",
       "title": "Dreaming",
       "code": "dreaming",
@@ -2411,6 +2499,25 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/618b3fa52f0acc0061fb0172-1718377893997"
     },
     {
+      "id": "653a98292a6702c7d288f15f",
+      "title": "Become a Hacker",
+      "code": "becomeahackeroa",
+      "description": "Learn how TryHackMe can help you become a hacker.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "General Cyber",
+        "Penetration testing",
+        "Red teaming",
+        "Gobuster",
+        "Hydra",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/1e86f53cbe40b305b17e1e61a8cf0e74.svg"
+    },
+    {
       "id": "655dae854bec4be00c0e5983",
       "title": "CSRF",
       "code": "csrfV2",
@@ -2517,6 +2624,30 @@
         "Metasploit Framework"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/618b3fa52f0acc0061fb0172-1732205261742"
+    },
+    {
+      "id": "65fd7e05678bc78720a37464",
+      "title": "Rabbit Store",
+      "code": "rabbitstore",
+      "description": "Demonstrate your web application testing skills and the basics of Linux to escalate your privileges.",
+      "difficulty": "medium",
+      "type": "challenge",
+      "completed": true,
+      "tags": [
+        "Linux",
+        "security",
+        "Webapp",
+        "Privesc",
+        "Penetration Tester/ Red Team",
+        "Red",
+        "Authentication bypass",
+        "Exploitation",
+        "Enumeration",
+        "Red teaming",
+        "Penetration testing",
+        "Domain enumeration"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/618b3fa52f0acc0061fb0172-1727807358043"
     },
     {
       "id": "6609d5b07cf2fa86a54a62da",
@@ -2765,6 +2896,52 @@
         "Burp Suite"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/2d29d11807430c2448e77a00f10d52c9c4f1993af71c9765190b36986323d7af.66c513e4445cb5649e636a36-1725441274792"
+    },
+    {
+      "id": "672b50a0321e047a84533eff",
+      "title": "Supply Chain Attack: Lottie",
+      "code": "supplychainattacks",
+      "description": "Learn about supply chain attacks and their various mitigation techniques.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Linux",
+        "Blue",
+        "Red",
+        "gitlab",
+        "git",
+        "cve20237028",
+        "security",
+        "account-takeover",
+        "Penetration Tester/ Red Team",
+        "Security Engineer",
+        "Exploitation",
+        "Vulnerability analysis",
+        "Code review",
+        "Secure coding",
+        "hardening",
+        "Web"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62a7685ca6e7ce005d3f3afe-1731472510279"
+    },
+    {
+      "id": "67fda3a9138bee168f3c3efb",
+      "title": "Offensive Security Intro",
+      "code": "offensivesecurityintrokK",
+      "description": "Hack your first website (legally in a safe environment) and experience an ethical hacker's job.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Penetration testing",
+        "Red teaming",
+        "Application penetration testing",
+        "Gobuster",
+        "Web"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/85c37a8504a5db86f501beb204d2b78e8e7270d05ee0b036a4324cf48e04fecf.66704dd0e54a1f39bff7b1a1-1735573222714"
     },
     {
       "id": "681b3109f613e121102edb35",
@@ -3325,6 +3502,32 @@
       "completed": true,
       "tags": [],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/61a7523c029d1c004fac97b3-1763120602843"
+    },
+    {
+      "id": "691470d1489f094ee04af8a8",
+      "title": "Django: CVE-2025-64459",
+      "code": "djangocve202564459",
+      "description": "Explore and learn about the Django CVE-2025-64459 vulnerability.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Security Analyst/ Blue Team",
+        "Penetration Tester/ Red Team",
+        "Security Engineer",
+        "General Cyber",
+        "Web",
+        "Red",
+        "Python",
+        "Exploitation",
+        "CVE",
+        "SQL injection",
+        "Exploit",
+        "CVE Exploit",
+        "segment 2",
+        "segment 2.5"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1763364665707"
     },
     {
       "id": "69372770e663ab1fd4b38594",
