@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-03-06T16:50:19.302Z",
+  "last_updated": "2026-03-08T05:10:09.893Z",
   "statistics": {
-    "total": 518,
+    "total": 519,
     "user_owns": 178,
     "root_owns": 177,
     "by_os": {
@@ -26,6 +26,14 @@
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
+    },
+    {
+      "id": 847,
+      "name": "CCTV",
+      "os": "Linux",
+      "difficulty": "Easy",
+      "user_owned": false,
+      "root_owned": false
     },
     {
       "id": 844,
@@ -140,14 +148,6 @@
       "root_owned": false
     },
     {
-      "id": 796,
-      "name": "Giveback",
-      "os": "Linux",
-      "difficulty": "Medium",
-      "user_owned": false,
-      "root_owned": false
-    },
-    {
       "id": 787,
       "name": "Conversor",
       "os": "Linux",
@@ -224,6 +224,14 @@
       "name": "JobTwo",
       "os": "Windows",
       "difficulty": "Hard",
+      "user_owned": false,
+      "root_owned": false
+    },
+    {
+      "id": 796,
+      "name": "Giveback",
+      "os": "Linux",
+      "difficulty": "Medium",
       "user_owned": false,
       "root_owned": false
     },

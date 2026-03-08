@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-03-06T16:51:23.175Z",
+  "last_updated": "2026-03-08T05:10:25.419Z",
   "statistics": {
-    "total_rooms": 205,
-    "completed": 202,
-    "completion_percentage": 98.5,
+    "total_rooms": 215,
+    "completed": 211,
+    "completion_percentage": 98.1,
     "by_difficulty": {
-      "easy": 150,
+      "easy": 159,
       "medium": 33,
       "info": 19
     },
     "by_type": {
-      "challenge": 30,
-      "walkthrough": 172
+      "challenge": 31,
+      "walkthrough": 180
     }
   },
   "rooms": [
@@ -285,6 +285,22 @@
         "Linux"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/282c55307eada4ad18a0b06e4d65ff34.jpeg"
+    },
+    {
+      "id": "5e278d3c2875603ba63337ce",
+      "title": "Year of the Rabbit",
+      "code": "yearoftherabbit",
+      "description": "Time to enter the warren...",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Red teaming",
+        "Penetration testing",
+        "log analysis"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/c062ef0e0b4f70e51a2dafc5fc2bca0e.jpeg"
     },
     {
       "id": "5e2ef1508e67395e9ff05ef8",
@@ -2857,6 +2873,24 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1725523498749"
     },
     {
+      "id": "66deb5530288f675f0e2d33d",
+      "title": "Insecure Randomness",
+      "code": "insecurerandomness",
+      "description": "Learn how incorrectly configured randomness can lead to application compromise.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Penetration Tester/ Red Team",
+        "Security Engineer",
+        "Penetration testing",
+        "Web",
+        "Red",
+        "segment 2.5"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62a7685ca6e7ce005d3f3afe-1726641550999"
+    },
+    {
       "id": "66e44382fd6ce645435979e3",
       "title": "Training Impact on Teams",
       "code": "training",
@@ -2926,6 +2960,55 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62a7685ca6e7ce005d3f3afe-1731472510279"
     },
     {
+      "id": "67ab0602f70442e3ddda0561",
+      "title": "Custom Tooling Using Python",
+      "code": "customtoolingpython",
+      "description": "Creating custom tooling for application testing using Python.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Penetration Tester/ Red Team",
+        "General Cyber",
+        "Red",
+        "segment 3",
+        "segment 4",
+        "Python",
+        "Application penetration testing",
+        "Scripting",
+        "Cross-site scripting (XSS)",
+        "Brute force attacks",
+        "Web",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62a7685ca6e7ce005d3f3afe-1743656880330"
+    },
+    {
+      "id": "67e173384230a2f8ca20c812",
+      "title": "Next.js: CVE-2025-29927",
+      "code": "nextjscve202529927",
+      "description": "Explore an authorisation bypass vulnerability in Next.js.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Security Analyst/ Blue Team",
+        "Penetration Tester/ Red Team",
+        "Vulnerability analysis",
+        "Web",
+        "Blue",
+        "Red",
+        "Exploitation",
+        "authorization",
+        "CVE",
+        "Auth",
+        "authorisation",
+        "segment 2.5",
+        "curl"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1742831379313"
+    },
+    {
       "id": "67fda3a9138bee168f3c3efb",
       "title": "Offensive Security Intro",
       "code": "offensivesecurityintrokK",
@@ -2942,6 +3025,27 @@
         "Web"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/85c37a8504a5db86f501beb204d2b78e8e7270d05ee0b036a4324cf48e04fecf.66704dd0e54a1f39bff7b1a1-1735573222714"
+    },
+    {
+      "id": "68126ccc243043eb516d5745",
+      "title": "Writing Pentest Reports",
+      "code": "writingpentestreports",
+      "description": "Learn how to write professional pentesting reports that communicate risk to business stakeholders.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Pentesting",
+        "reporting",
+        "Penetration Tester/ Red Team",
+        "Red",
+        "segment 2.5",
+        "Application penetration testing",
+        "Penetration testing",
+        "Web",
+        "Burp Suite"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6093e17fa004d20049b6933e-1746290313524"
     },
     {
       "id": "681b3109f613e121102edb35",
@@ -2966,6 +3070,53 @@
         "Password Attacks"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/899ee7ac465626c3ebaa8bb73db4d329178d4d453afd52c6c6d9d971019cb4b5.5f04259cf9bf5b57aed2c476-1746607282956"
+    },
+    {
+      "id": "684adef42bf6634501dd06b6",
+      "title": "Roundcube: CVE-2025-49113",
+      "code": "roundcubecve202549113",
+      "description": "Exploit CVE-2025-49113 in a lab environment.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Linux",
+        "Web",
+        "Exploitation",
+        "CVE",
+        " exploit",
+        "Security Analyst/ Blue Team",
+        "Penetration Tester/ Red Team",
+        "General Cyber",
+        "Security Engineer",
+        "Red",
+        "Purple",
+        "segment 2",
+        "segment 2.5",
+        "segment 3",
+        "Ncat",
+        "nc"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1750061875034"
+    },
+    {
+      "id": "68515928d4c468f7db6cc15e",
+      "title": "Chaining Vulnerabilities",
+      "code": "chainingvulnerabilitiesZp",
+      "description": "Learn how to chain vulnerabilities! From Low to High!",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        " web",
+        "Penetration Tester/ Red Team",
+        "Red",
+        "segment 3",
+        "Application penetration testing",
+        "Web",
+        "Burp Suite"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/645b19f5d5848d004ab9c9e2-1752206689409"
     },
     {
       "id": "68644f8e2fd4ac3cc58979b3",
@@ -3528,6 +3679,74 @@
         "segment 2.5"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1763364665707"
+    },
+    {
+      "id": "6914745e5e413b9bf4d80cd3",
+      "title": "WAF: Introduction",
+      "code": "wafintroduction",
+      "description": "Learn about Web Application Firewalls and what differentiates them from other types of firewalls.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "HTTP",
+        "web ",
+        "firewall",
+        " web application",
+        "WAF",
+        " web app",
+        "segment 2.5",
+        "segment 3",
+        "Firewall evasion",
+        "Web application security",
+        "Web",
+        "curl",
+        "Red",
+        "Penetration Tester/ Red Team",
+        "Security Engineer",
+        "General Cyber",
+        "Security Analyst/ Blue Team"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1763367396646"
+    },
+    {
+      "id": "691db273e2abcc5610a1891e",
+      "title": "BankGPT",
+      "code": "bankgpt",
+      "description": "A customer service assistant used by a banking system.",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": false,
+      "tags": [],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/645b19f5d5848d004ab9c9e2-1763995733732"
+    },
+    {
+      "id": "6931423a01db5e52a77a7e1d",
+      "title": "React2Shell: CVE-2025-55182",
+      "code": "react2shellcve202555182",
+      "description": "Explore the CVE-2025-55182 vulnerability in React server components.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Security Analyst/ Blue Team",
+        "Penetration Tester/ Red Team",
+        "Security Engineer",
+        "Web",
+        "Burp Suite",
+        "Blue",
+        "Red",
+        "Purple",
+        "exploit",
+        "CVE",
+        "poc",
+        "CVE Exploit",
+        "segment 2",
+        "segment 2.5",
+        "segment 3",
+        "Web application security"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1764954113748"
     },
     {
       "id": "69372770e663ab1fd4b38594",
