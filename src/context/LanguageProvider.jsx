@@ -2,7 +2,7 @@ import { useState } from 'react'
 import LanguageContext from './LanguageContext'
 
 function LanguageProvider({ children }) {
-  const [lang, setLang] = useState('es')
+  const [lang, setLang] = useState('en')
 
   function toggleLang() {
     setLang(prev => prev === 'es' ? 'en' : 'es')
