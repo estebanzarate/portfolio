@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-03-08T05:10:25.419Z",
+  "last_updated": "2026-03-10T02:54:42.878Z",
   "statistics": {
-    "total_rooms": 215,
-    "completed": 211,
-    "completion_percentage": 98.1,
+    "total_rooms": 228,
+    "completed": 224,
+    "completion_percentage": 98.2,
     "by_difficulty": {
-      "easy": 159,
+      "easy": 172,
       "medium": 33,
       "info": 19
     },
     "by_type": {
-      "challenge": 31,
-      "walkthrough": 180
+      "challenge": 41,
+      "walkthrough": 183
     }
   },
   "rooms": [
@@ -551,6 +551,24 @@
         "Windows"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5ebaa42422d2cf0aa103b2c77d02e100.png"
+    },
+    {
+      "id": "5ec280928b7e262efeb8c837",
+      "title": "Brooklyn Nine Nine",
+      "code": "brooklynninenine",
+      "description": "This room is aimed for beginner level hackers but anyone can try to hack this box. There are two main intended ways to root the box.",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Security Engineer",
+        "Network penetration testing",
+        "Vulnerability analysis",
+        "Penetration testing",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/95b2fab20e29a6d22d6191a789dcbe1f.jpeg"
     },
     {
       "id": "5ecd23dec5b7e144c653d8f7",
@@ -2102,6 +2120,50 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/e501e768017ceda79aca90fee8e0077c.png"
     },
     {
+      "id": "622412cf03017400563303fa",
+      "title": "Corridor",
+      "code": "corridor",
+      "description": "Can you escape the Corridor?",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [
+        "Red teaming",
+        "Penetration testing",
+        "Linux",
+        "Burp Suite",
+        "Red",
+        "owasp zap",
+        "mini-challenge"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/04afd126bf7a729eec5ff41e5b9b1212.png"
+    },
+    {
+      "id": "622682128709cd004ce72851",
+      "title": "Agent T",
+      "code": "agentt",
+      "description": "Something seems a little off with the server.",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Security Engineer",
+        "Penetration testing",
+        "Application penetration testing",
+        "Vulnerability analysis",
+        "Red teaming",
+        "Security analysis",
+        "Nmap",
+        "burpsuite",
+        "find",
+        "exploitdb",
+        "Linux",
+        "Web"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5dbc4e7d8515e7bc05b7742f26944ae9.png"
+    },
+    {
       "id": "6226a23a0cde4b0054f256c6",
       "title": "Offensive Security Intro",
       "code": "offensivesecurityintro",
@@ -2118,6 +2180,78 @@
         "Web"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/presec-room-image1.png"
+    },
+    {
+      "id": "622ba76891285b005eaf8b14",
+      "title": "Neighbour",
+      "code": "neighbour",
+      "description": "Check out our new cloud service, Authentication Anywhere. Can you find other user's secrets?",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [
+        "Application penetration testing",
+        "Linux",
+        "Red",
+        "Code review",
+        "browser",
+        "mini-challenge",
+        "Penetration Tester/ Red Team",
+        "segment 2"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5e9c5d0148cf664325c8a075-1737130517336"
+    },
+    {
+      "id": "622ba9ec5d81bd004a12865c",
+      "title": "Dig Dug",
+      "code": "digdug",
+      "description": "Turns out this machine is a DNS server - it's time to get your shovels out!",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [
+        "Red",
+        "enumeration",
+        "Penetration testing",
+        "Web"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5e9c5d0148cf664325c8a075-1737130447892"
+    },
+    {
+      "id": "622bacc144211102a293ac4e",
+      "title": "Lo-Fi",
+      "code": "lofi",
+      "description": "Want to hear some lo-fi beats, to relax or study to? We've got you covered!",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [
+        "Linux",
+        "Red",
+        "security",
+        "ctf",
+        "enumeration",
+        "lfi",
+        "mini-challenge"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5de96d9ca744773ea7ef8c00-1737110160739"
+    },
+    {
+      "id": "622bb53de7347f05d0f94cc0",
+      "title": "CyberHeroes",
+      "code": "cyberheroes",
+      "description": "Want to be a part of the elite club of CyberHeroes? Prove your merit by finding a way to log in!",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [
+        "Red",
+        "enumeration",
+        "Exploitation",
+        "Linux",
+        "Web"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5e9c5d0148cf664325c8a075-1737130334933"
     },
     {
       "id": "622d20b8a316e90830d09387",
@@ -2449,6 +2583,27 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/3b2f3af8e836785fe698356264efbb55.png"
     },
     {
+      "id": "633b09e0a64681004884b7d2",
+      "title": "Valley",
+      "code": "valleype",
+      "description": "Can you find your way into the Valley?",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [
+        "Red",
+        "General Cyber",
+        "Penetration testing",
+        "Red teaming",
+        "ffuf",
+        "Wireshark",
+        "Ghidra",
+        "Linux",
+        "Web"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/2700326f6bf2127c414a0fa4582496cd.png"
+    },
+    {
       "id": "6465f1ed5c090e005644cfbb",
       "title": "OWASP Broken Access Control",
       "code": "owaspbrokenaccesscontrol",
@@ -2470,6 +2625,25 @@
         "Linux"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/b60af5cb376e62ee1a7af132cc134588.png"
+    },
+    {
+      "id": "649caba75b61780062e77cf1",
+      "title": "W1seGuy",
+      "code": "w1seguy",
+      "description": "A w1se guy 0nce said, the answer is usually as plain as day.",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [
+        "Linux",
+        "Red",
+        "Code review",
+        "cryptography",
+        "mini-challenge",
+        "General Cyber",
+        "segment 2"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/9a13d8dcbd8940d14352ba2edbf66735.png"
     },
     {
       "id": "64db81c465e0ecc74345169f",
@@ -2960,6 +3134,32 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62a7685ca6e7ce005d3f3afe-1731472510279"
     },
     {
+      "id": "674e1cdf47c742f61152df78",
+      "title": "Bypass Really Simple Security",
+      "code": "bypassreallysimplesecurity",
+      "description": "Learn how to exploit a WordPress website using CVE-2024-10924 and understand various mitigation techniques.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Security Analyst/ Blue Team",
+        "Penetration Tester/ Red Team",
+        "Security Engineer",
+        "General Cyber",
+        "Penetration testing",
+        "Web",
+        "Blue",
+        "Red",
+        "security",
+        "web",
+        "cms",
+        "WordPress",
+        " plugin",
+        "segment 2"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62a7685ca6e7ce005d3f3afe-1733724189107"
+    },
+    {
       "id": "67ab0602f70442e3ddda0561",
       "title": "Custom Tooling Using Python",
       "code": "customtoolingpython",
@@ -3025,6 +3225,37 @@
         "Web"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/85c37a8504a5db86f501beb204d2b78e8e7270d05ee0b036a4324cf48e04fecf.66704dd0e54a1f39bff7b1a1-1735573222714"
+    },
+    {
+      "id": "6808a656322b23705313515c",
+      "title": "Erlang/OTP SSH: CVE-2025-32433",
+      "code": "erlangotpsshcve202532433",
+      "description": "Learn about and exploit Erlang/OTP SSH CVE-2025-32433 in a lab setup.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Security Analyst/ Blue Team",
+        "Penetration Tester/ Red Team",
+        "Security Engineer",
+        "Blue",
+        "Red",
+        "Purple",
+        "CVE",
+        " exploit",
+        "CVE Exploit",
+        "segment 2",
+        "segment 2.5",
+        "Docker",
+        "Linux",
+        "Python",
+        "Exploitation",
+        "Reverse shell techniques",
+        "Authentication bypass",
+        "Network penetration testing",
+        "Network traffic analysis"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1745418138356"
     },
     {
       "id": "68126ccc243043eb516d5745",
@@ -3119,6 +3350,23 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/645b19f5d5848d004ab9c9e2-1752206689409"
     },
     {
+      "id": "685bfbba3190cd44e8db3907",
+      "title": "Oracle 9",
+      "code": "oracle9",
+      "description": "My designation is Oracle 9, I carry with me a sealed transmission.",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [
+        "Artificial intelligence",
+        "Red",
+        "Penetration Tester/ Red Team",
+        "segment 2",
+        "AI Pentesting"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6228f0d4ca8e57005149c3e3-1751449906664"
+    },
+    {
       "id": "68644f8e2fd4ac3cc58979b3",
       "title": "Defensive Security Intro",
       "code": "defensivesecurityintroqW",
@@ -3135,6 +3383,24 @@
         "Incident response"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/90baccc4261cc1fb0e668bb005c846cbde5ca7288d6ad5187dcba168bae597ea.66704dd0e54a1f39bff7b1a1-1735573172232"
+    },
+    {
+      "id": "68b85673688546044b52cf5a",
+      "title": "Input Manipulation & Prompt Injection",
+      "code": "inputmanipulationpromptinjection",
+      "description": "Understand the basics of LLM Prompt Injection attacks.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "ai",
+        "Penetration Tester/ Red Team",
+        "Red",
+        "segment 2.5",
+        "AI Pentesting",
+        "Artificial intelligence"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/645b19f5d5848d004ab9c9e2-1759491275677"
     },
     {
       "id": "68db9f76810325d62268550f",
