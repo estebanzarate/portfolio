@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-03-10T02:54:42.878Z",
+  "last_updated": "2026-03-11T02:00:55.207Z",
   "statistics": {
-    "total_rooms": 228,
-    "completed": 224,
-    "completion_percentage": 98.2,
+    "total_rooms": 236,
+    "completed": 230,
+    "completion_percentage": 97.5,
     "by_difficulty": {
-      "easy": 172,
+      "easy": 178,
       "medium": 33,
       "info": 19
     },
     "by_type": {
-      "challenge": 41,
-      "walkthrough": 183
+      "challenge": 43,
+      "walkthrough": 187
     }
   },
   "rooms": [
@@ -223,6 +223,34 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/370ada1208acaa6444fce2cfac2be0a2.png"
     },
     {
+      "id": "5dd1bd64ef950b10526d81fc",
+      "title": "Advent of Cyber 1 [2019]",
+      "code": "25daysofchristmas",
+      "description": "Get started with Cyber Security in 25 Days - Learn the basics by doing a new, beginner friendly security challenge every day leading up to Christmas.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": false,
+      "tags": [
+        "General Cyber",
+        "Penetration testing",
+        "Windows",
+        "Linux",
+        "Web",
+        "Wireshark",
+        "Nmap",
+        "Burp Suite",
+        "Hydra",
+        "nc",
+        "Red",
+        "Password cracking",
+        "Privilege escalation",
+        "Exploitation",
+        "enumeration",
+        "special-event"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/9efbcb85d76feac6b711b8ed1b2fd534.png"
+    },
+    {
       "id": "5ddc7633bb226e7352a57aea",
       "title": "Attacktive Directory",
       "code": "attacktivedirectory",
@@ -376,6 +404,28 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/43522e07a54978ab307ad173fd585ab6.png"
     },
     {
+      "id": "5e700e89290e4f081d349714",
+      "title": "Tony the Tiger",
+      "code": "tonythetiger",
+      "description": "Learn how to use a Java Serialisation attack in this boot-to-root",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Penetration testing",
+        "Red teaming",
+        "enumeration",
+        "encryption",
+        "Privilege escalation",
+        "Nmap",
+        "netcat",
+        "Linux",
+        "Web"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/268771cc9cef46ed20e557612028c6ba.png"
+    },
+    {
       "id": "5e715b8113049839ea7439d7",
       "title": "Google Dorking",
       "code": "googledorking",
@@ -472,6 +522,24 @@
         "Web"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/b154b0d0ebaff4cb8148b63d7311c760.png"
+    },
+    {
+      "id": "5e85a63855ddcd7f81fc102c",
+      "title": "Introduction to Django",
+      "code": "django",
+      "description": "How it works and why should I learn it?",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "enumeration",
+        "Penetration testing",
+        "Django",
+        "Nmap",
+        "Web"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/c11fb449f10add8bc11a137fef9e979c.png"
     },
     {
       "id": "5eb438b93c40cf0ca353284e",
@@ -855,6 +923,30 @@
         "Linux"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/338614f6e8d7068dfc3272e144c59818.jpeg"
+    },
+    {
+      "id": "601068a7cecfb3686f4897d8",
+      "title": "VulnNet: Node",
+      "code": "vulnnetnode",
+      "description": "After the previous breach, VulnNet Entertainment states it won't happen again. Can you prove they're wrong?",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Penetration testing",
+        "Red teaming",
+        "Application penetration testing",
+        "enumeration",
+        "Exploitation",
+        "Nmap",
+        "Gobuster",
+        "burp suit",
+        "netcat",
+        "Linux",
+        "Web"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/ccbc0836dcca57cbcb1a270de2daabf0.png"
     },
     {
       "id": "601f09d0640e286c5fe3d43e",
@@ -2947,6 +3039,46 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1719330093098"
     },
     {
+      "id": "6658b8ba7dc8524fb5880fd9",
+      "title": "NoSQL Injection",
+      "code": "nosqlinjectiontutorial",
+      "description": "A walkthrough depicting basic NoSQL injections on MongoDB.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "web",
+        "php",
+        "nosql",
+        "mongodb",
+        "Penetration Tester/ Red Team",
+        "Application penetration testing",
+        "Burp Suite",
+        "Web",
+        "Red"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6093e17fa004d20049b6933e-1720003412048"
+    },
+    {
+      "id": "6666b1cd526cb7163dcd72e6",
+      "title": "Enumeration & Brute Force",
+      "code": "enumerationbruteforce",
+      "description": "Enumerate and brute force authentication mechanisms.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        " brute force",
+        " enumeration",
+        "Penetration Tester/ Red Team",
+        "Red",
+        "Application penetration testing",
+        "Web",
+        "Burp Suite"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/645b19f5d5848d004ab9c9e2-1719928599415"
+    },
+    {
       "id": "66684daedde4de46303b2a96",
       "title": "SOC Fundamentals",
       "code": "socfundamentals",
@@ -3158,6 +3290,25 @@
         "segment 2"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62a7685ca6e7ce005d3f3afe-1733724189107"
+    },
+    {
+      "id": "678a54a860fc560256d845f8",
+      "title": "Breaking Crypto the Simple Way",
+      "code": "breakingcryptothesimpleway",
+      "description": "Exploiting common cryptographic mistakes.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Cryptographic Failures",
+        "Penetration Tester/ Red Team",
+        "Red",
+        "segment 2.5",
+        "Application penetration testing",
+        "Web",
+        "Burp Suite"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/645b19f5d5848d004ab9c9e2-1739180133439"
     },
     {
       "id": "67ab0602f70442e3ddda0561",
@@ -4520,6 +4671,17 @@
       "completed": true,
       "tags": [],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5ed5961c6276df568891c3ea-1770943483211"
+    },
+    {
+      "id": "6989ece61902907bcb539217",
+      "title": "Love at First Breach 2026 -  Advanced Track",
+      "code": "lafbctf2026-advanced",
+      "description": "Go deeper into TryHeartMe's web of lies.",
+      "difficulty": "hard",
+      "type": "challenge",
+      "completed": false,
+      "tags": [],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5ed5961c6276df568891c3ea-1770737101248"
     }
   ]
 }
