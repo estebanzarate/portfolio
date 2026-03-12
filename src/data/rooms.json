@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-03-11T02:00:55.207Z",
+  "last_updated": "2026-03-12T02:07:36.016Z",
   "statistics": {
-    "total_rooms": 236,
-    "completed": 230,
+    "total_rooms": 242,
+    "completed": 236,
     "completion_percentage": 97.5,
     "by_difficulty": {
-      "easy": 178,
+      "easy": 184,
       "medium": 33,
       "info": 19
     },
     "by_type": {
-      "challenge": 43,
-      "walkthrough": 187
+      "challenge": 44,
+      "walkthrough": 192
     }
   },
   "rooms": [
@@ -736,6 +736,26 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735573910730"
     },
     {
+      "id": "5f1376802e10d21f3fc0c075",
+      "title": "Bolt",
+      "code": "bolt",
+      "description": "A hero is unleashed",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Security Engineer",
+        "Application penetration testing",
+        "Penetration testing",
+        "Nmap",
+        "searchsploit",
+        "metasploit",
+        "Web"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/d2a747d195d4607cfd296eb2cffb7af1.png"
+    },
+    {
       "id": "5f1db6c6cf08ce29f63401e8",
       "title": "Python Basics",
       "code": "pythonbasics",
@@ -862,6 +882,24 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5d653d7a4e8a1a6d98379168cfc30ac0.png"
     },
     {
+      "id": "5fa25e57f0506c48b1fab589",
+      "title": "Introduction to Flask",
+      "code": "flask",
+      "description": "How it works and how can I exploit it?",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "General Cyber",
+        "Exploitation",
+        "Code review",
+        "flask",
+        "Web"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/7189d9e0b1ec48e6e750491cf4dd10df.jpeg"
+    },
+    {
       "id": "5fa730bf09051d48aa3bd904",
       "title": "John the Ripper: The Basics",
       "code": "johntheripperbasics",
@@ -877,6 +915,24 @@
         "Haiti"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1729224165341"
+    },
+    {
+      "id": "5fcdc3cfa5a8e233c2879cfc",
+      "title": "DNS Manipulation",
+      "code": "dnsmanipulation",
+      "description": "Manipulating DNS queries to our advantage",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Exploitation",
+        "Wireshark",
+        "nslookup",
+        "Windows",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/8679261c8169d77aed56f0bc6d2fcf4b.png"
     },
     {
       "id": "5fd4e87472a7721ed9e42737",
@@ -1881,6 +1937,26 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/d6b7bef661d649753707772c046ace34.png"
     },
     {
+      "id": "6129c9786b369d0050257a8d",
+      "title": "Tech_Supp0rt: 1",
+      "code": "techsupp0rt1",
+      "description": "Hack into the scammer's under-development website to foil their plans.",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Penetration testing",
+        "Red teaming",
+        "reverse engineering",
+        "Nmap",
+        "CyberChef",
+        "Burp Suite",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/4128774917fae71184e79acab2007e93.png"
+    },
+    {
       "id": "612d55a8d7a8ef00490c8ca5",
       "title": "Atlas",
       "code": "atlas",
@@ -2611,6 +2687,24 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735573254803"
     },
     {
+      "id": "62bd78ba21035e0049401173",
+      "title": "Atlassian CVE-2022-26134",
+      "code": "cve202226134",
+      "description": "An interactive lab showcasing the Confluence Server and Data Center un-authenticated RCE vulnerability.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Exploitation",
+        "Detection engineering",
+        "Security analysis",
+        "yara",
+        "Web"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/24abefb51d5df78a4baa58fa49e979eb.png"
+    },
+    {
       "id": "62e8333776ad610042452002",
       "title": "Introduction to Windows API",
       "code": "windowsapi",
@@ -2697,7 +2791,7 @@
     },
     {
       "id": "6465f1ed5c090e005644cfbb",
-      "title": "OWASP Broken Access Control",
+      "title": "Broken Access Control",
       "code": "owaspbrokenaccesscontrol",
       "description": "Exploit Broken Access Control: Number 1 of the Top 10 web security risks.",
       "difficulty": "easy",
@@ -2779,6 +2873,28 @@
         "Security Engineer"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/618b3fa52f0acc0061fb0172-1718377893997"
+    },
+    {
+      "id": "65083cca987f636ff69afb08",
+      "title": "HTTP Request Smuggling",
+      "code": "httprequestsmuggling",
+      "description": "Learn about HTTP Request Smuggling and its different techniques.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Security Engineer",
+        "Penetration testing",
+        "Application penetration testing",
+        "Exploitation",
+        "hardening",
+        "Vulnerability analysis",
+        "Burp Suite",
+        "Linux",
+        "Web"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/02c75078a8759443f0b565ce48b89589.png"
     },
     {
       "id": "653a98292a6702c7d288f15f",
