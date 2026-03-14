@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-03-12T02:07:36.016Z",
+  "last_updated": "2026-03-14T02:11:11.359Z",
   "statistics": {
-    "total_rooms": 242,
-    "completed": 236,
-    "completion_percentage": 97.5,
+    "total_rooms": 267,
+    "completed": 260,
+    "completion_percentage": 97.4,
     "by_difficulty": {
-      "easy": 184,
+      "easy": 204,
       "medium": 33,
-      "info": 19
+      "info": 23
     },
     "by_type": {
-      "challenge": 44,
-      "walkthrough": 192
+      "challenge": 47,
+      "walkthrough": 213
     }
   },
   "rooms": [
@@ -54,7 +54,7 @@
         "Nmap",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/7717bbc69c486931e503a74f3192a4d8.gif"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339260886-blue.png"
     },
     {
       "id": "5d3f3faabe83462671c59eb7",
@@ -104,6 +104,23 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/85dee7ce633f5668b104d329da2769c3.png"
     },
     {
+      "id": "5d52cdc82ec38e61dcfa3a1b",
+      "title": "Anonforce",
+      "code": "bsidesgtanonforce",
+      "description": "boot2root machine for FIT and bsides guatemala CTF",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Penetration testing",
+        "Red teaming",
+        "Linux",
+        "Web"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/eef338293d4a928420f1603870699e75.jpeg"
+    },
+    {
       "id": "5d5700fb4174eb6de3a2e0d1",
       "title": "Empire",
       "code": "rppsempire",
@@ -122,6 +139,24 @@
         "Windows"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6c115871f6b6d8c2886d5dd63c718ca8.png"
+    },
+    {
+      "id": "5d635fe4c8cd8348d0b4f923",
+      "title": "Dav",
+      "code": "bsidesgtdav",
+      "description": "boot2root machine for FIT and bsides guatemala CTF",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Penetration testing",
+        "Red teaming",
+        "Application penetration testing",
+        "Linux",
+        "Web"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/cb525f3e7944eb5eec637698f48b6844.jpeg"
     },
     {
       "id": "5d6fc9ff89f67e1b3cca26b5",
@@ -223,13 +258,30 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/370ada1208acaa6444fce2cfac2be0a2.png"
     },
     {
+      "id": "5dcda26e00192f7f71554b4d",
+      "title": "WebGOAT",
+      "code": "webgoat",
+      "description": "Simple testing room for beating on WebGOAT",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Penetration testing",
+        "Vulnerability analysis",
+        "Domain enumeration",
+        "Web"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/3f5ef66148ccfc98b4597d467943e185.jpeg"
+    },
+    {
       "id": "5dd1bd64ef950b10526d81fc",
       "title": "Advent of Cyber 1 [2019]",
       "code": "25daysofchristmas",
       "description": "Get started with Cyber Security in 25 Days - Learn the basics by doing a new, beginner friendly security challenge every day leading up to Christmas.",
       "difficulty": "easy",
       "type": "walkthrough",
-      "completed": false,
+      "completed": true,
       "tags": [
         "General Cyber",
         "Penetration testing",
@@ -345,6 +397,74 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/477fa75b67495338f4eb12d9010b7b8e.png"
     },
     {
+      "id": "5e357905e253d54ba1126132",
+      "title": "Shodan.io",
+      "code": "shodan",
+      "description": "Learn about Shodan.io and how to use it for devices enumeration - is your coffee machine publicly accessible?",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Purple",
+        "Red teaming"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/995f80e68816165b201d93afe7703776.png"
+    },
+    {
+      "id": "5e36129f10c4674ba9f8554b",
+      "title": "Geolocating Images",
+      "code": "geolocatingimages",
+      "description": "Room to understand how to geolocate images",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Purple",
+        "Penetration testing",
+        "Red teaming",
+        "OSINT"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/59bb6a64228a88219c0a9de1928226b8.jpeg"
+    },
+    {
+      "id": "5e3d73dac9f2a441a1942fd9",
+      "title": "Phishing: HiddenEye",
+      "code": "phishinghiddeneye",
+      "description": "A simple guide on how to use a tool known as HiddenEye developed by ANONUD4Y. This tool helps you create a phishing page for different sites such as Gmail, Snapchat, Paypal and more. Including understanding the difference between legit and fake site.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Phishing",
+        "Email analysis",
+        "Hidden Eye",
+        "Gophish",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/77663a5ba36a16ec0fd8eb598649e38c.png"
+    },
+    {
+      "id": "5e400d56285d3a54044c2217",
+      "title": "Sudo Buffer Overflow",
+      "code": "sudovulnsbof",
+      "description": "A tutorial room exploring CVE-2019-18634 in the Unix Sudo Program. Room Two in the SudoVulns Series",
+      "difficulty": "info",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Penetration testing",
+        "Red teaming",
+        "Privilege escalation",
+        "Exploitation",
+        "ssh",
+        "searchsploit",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/e3b2def112489cd67ab68bf246093c3c.png"
+    },
+    {
       "id": "5e43ca6a994cae0185e844a0",
       "title": "Introductory Networking",
       "code": "introtonetworking",
@@ -382,7 +502,7 @@
         "Hydra",
         "Red"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/69208399c3fe8b0416103c51e291e117.png"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339389870-hydra.png"
     },
     {
       "id": "5e5d312831717578c8ada47f",
@@ -540,6 +660,28 @@
         "Web"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/c11fb449f10add8bc11a137fef9e979c.png"
+    },
+    {
+      "id": "5ea1d319f943b07e84e05fe8",
+      "title": "Blaster",
+      "code": "blaster",
+      "description": "A blast from the past!",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Security Engineer",
+        "Penetration testing",
+        "Nmap",
+        "Dirbuster",
+        "XFreeRDP",
+        "cmd",
+        "metasploit",
+        "Windows",
+        "Web"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/07ad91ce2628efb8a2a3c5fddaeac710.png"
     },
     {
       "id": "5eb438b93c40cf0ca353284e",
@@ -736,6 +878,21 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735573910730"
     },
     {
+      "id": "5f11a2030f4da933eda06224",
+      "title": "History of Malware",
+      "code": "historyofmalware",
+      "description": "Join this room to learn about the first forms of malware and how they turned into the malicious code we see today.",
+      "difficulty": "info",
+      "type": "walkthrough",
+      "completed": false,
+      "tags": [
+        "Purple",
+        "Security analysis",
+        "Red teaming"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/3d8b9651d22266ef7447287e1328b5aa.png"
+    },
+    {
       "id": "5f1376802e10d21f3fc0c075",
       "title": "Bolt",
       "code": "bolt",
@@ -756,6 +913,24 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/d2a747d195d4607cfd296eb2cffb7af1.png"
     },
     {
+      "id": "5f189bc83f7d9d33ae6f5de1",
+      "title": "Psycho Break",
+      "code": "psychobreak",
+      "description": "Help Sebastian and his team of investigators to withstand the dangers that come ahead.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "cryptography",
+        "enumeration",
+        "Exploitation",
+        "Linux",
+        "Windows"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/7b57e3dc40f9d4a84488439fb763e1b1.jpeg"
+    },
+    {
       "id": "5f1db6c6cf08ce29f63401e8",
       "title": "Python Basics",
       "code": "pythonbasics",
@@ -769,6 +944,25 @@
         "python"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735573939706"
+    },
+    {
+      "id": "5f4dd5a1a1014b7041c8876a",
+      "title": "Physical Security Intro",
+      "code": "physicalsecurityintro",
+      "description": "This room is an introduction to physical security methods to bypass locks, doors and other physical barriers.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Hardware penetration testing",
+        "knife",
+        "Shim",
+        "Mini Knife",
+        "Jiggler",
+        "scada"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/a6d38d1e588a012eaf692e923e0c8926.png"
     },
     {
       "id": "5f4f89e8fef43326520de74d",
@@ -849,6 +1043,51 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/ecf19b4a404cce7551226269fdd1972d.png"
     },
     {
+      "id": "5f7ce6a18aa8a33e7150b907",
+      "title": "All in One",
+      "code": "allinonemj",
+      "description": "This is a fun box where you will get to exploit the system in several ways. Few intended and unintended paths to getting user and root access.",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": false,
+      "tags": [
+        "Red",
+        "Security Engineer",
+        "Red teaming",
+        "Penetration testing",
+        "Application penetration testing",
+        "Vulnerability analysis",
+        "Nmap",
+        "ftp",
+        "Gobuster",
+        "wpscan",
+        "netcat",
+        "metasploit",
+        "find",
+        "Linux",
+        "Web"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/915c0170a4d0a50cac23bac0f0b1f739.png"
+    },
+    {
+      "id": "5f8cd29d228530375331adb3",
+      "title": "Getting Started",
+      "code": "gettingstarted",
+      "description": "Get started with TryHackMe by hacking a fake social media website!",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "General Cyber",
+        "Brute force attacks",
+        "Code review",
+        "Directory enumeration",
+        "Web"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/923112c47e9e684ca2e4f077e7830da5.jpeg"
+    },
+    {
       "id": "5f95b9e32fa3673dbfb2d2e9",
       "title": "Starting Out In Cyber Sec",
       "code": "startingoutincybersec",
@@ -914,7 +1153,7 @@
         "John the Ripper",
         "Haiti"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1729224165341"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339187295-johntheripperbasics.png"
     },
     {
       "id": "5fcdc3cfa5a8e233c2879cfc",
@@ -933,6 +1172,23 @@
         "Linux"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/8679261c8169d77aed56f0bc6d2fcf4b.png"
+    },
+    {
+      "id": "5fce3d54a5a8e233c287aa90",
+      "title": "Badbyte",
+      "code": "badbyte",
+      "description": "Infiltrate BadByte and help us to take over root.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Security Engineer",
+        "Penetration testing",
+        "Network penetration testing",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/e10efbdae42b02a75d412d843705cb56.png"
     },
     {
       "id": "5fd4e87472a7721ed9e42737",
@@ -981,6 +1237,26 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/338614f6e8d7068dfc3272e144c59818.jpeg"
     },
     {
+      "id": "5fee462d13e8ff58ab1e873f",
+      "title": "Cyborg",
+      "code": "cyborgt8",
+      "description": "A box involving encrypted archives, source code analysis and more.",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [
+        "Red",
+        "General Cyber",
+        "Penetration testing",
+        "Red teaming",
+        "Hashcat",
+        "ffuf",
+        "Linux",
+        "Web"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6cc3e134a104210f90367c6557e42b6e.jpeg"
+    },
+    {
       "id": "601068a7cecfb3686f4897d8",
       "title": "VulnNet: Node",
       "code": "vulnnetnode",
@@ -1005,6 +1281,42 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/ccbc0836dcca57cbcb1a270de2daabf0.png"
     },
     {
+      "id": "601714607da0fa46f3c7b9bd",
+      "title": "Baron Samedit",
+      "code": "sudovulnssamedit",
+      "description": "A tutorial room exploring CVE-2021-3156 in the Unix Sudo Program. Room Three in the SudoVulns Series",
+      "difficulty": "info",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Penetration testing",
+        "Red teaming",
+        "Privilege escalation",
+        "Exploitation",
+        "searchsploit",
+        "Metasploit Framework",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/b64a68fc8025073fc1cc1ba972380ebd.png"
+    },
+    {
+      "id": "601ca59f49245778458bbdb7",
+      "title": "Linux Backdoors",
+      "code": "linuxbackdoors",
+      "description": "Learn all the different techniques used to backdoor a linux machine!",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Penetration testing",
+        "php",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/92a7eee54c5c4ce8ec4cd7468c2cf028.png"
+    },
+    {
       "id": "601f09d0640e286c5fe3d43e",
       "title": "VulnNet: Internal",
       "code": "vulnnetinternal",
@@ -1023,6 +1335,27 @@
         "Linux"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/133abb8b1a8449912a2461b8bd7d8edd.png"
+    },
+    {
+      "id": "6022d02eb8d8066c42593a1b",
+      "title": "Cyber Scotland 2021",
+      "code": "cyberweek2021",
+      "description": "Follow along tutorials for Scottish Cyberweek Demos",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "General Cyber",
+        "social engineering",
+        "Exploitation",
+        "Security analysis",
+        "SET (Social Engineering Toolkit)",
+        "WPSScan",
+        "Linux",
+        "Web"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/d7631293b11aba96a4f5a00a3571ebda.png"
     },
     {
       "id": "6050f7833c64c72e01eb0a8f",
@@ -1062,7 +1395,7 @@
         "File system navigation",
         "segment 2"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/presec-room-image13.png"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773338653719-linuxfundamentalspart1.png"
     },
     {
       "id": "605c991a51a66f03a514770f",
@@ -1079,7 +1412,7 @@
         "File system navigation",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/presec-room-image13.png"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773338657502-linuxfundamentalspart1.png"
     },
     {
       "id": "605cbd7de3e045775d2172f1",
@@ -1114,7 +1447,7 @@
         "automation",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/presec-room-image13.png"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773338660579-linuxfundamentalspart1.png"
     },
     {
       "id": "606d6c850562674d2e98c999",
@@ -1187,7 +1520,25 @@
         "Wireshark",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/presec-room-image14.png"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773338771062-windowsfundamentals1xbx.png"
+    },
+    {
+      "id": "6081fdaa817eea41ccfead28",
+      "title": "OverlayFS - CVE-2021-3493",
+      "code": "overlayfs",
+      "description": "Exploit a 2021 Kernel vulnerability in Ubuntu to become root almost instantly!",
+      "difficulty": "info",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Security Engineer",
+        "Penetration testing",
+        "Red teaming",
+        "Exploitation",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/29fd674a4ce506920970714ef27b3d45.png"
     },
     {
       "id": "608c04d1c7eb3b00424c2179",
@@ -1250,7 +1601,7 @@
         "Resmon (Resource Manager)",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/presec-room-image15.png"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773338774698-windowsfundamentals2x0x.png"
     },
     {
       "id": "609313a28648290050a63be7",
@@ -1270,6 +1621,25 @@
         "Windows"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/2a037a905e467620157a23ab35bb3522.png"
+    },
+    {
+      "id": "609d1a64f32ee90041a2b371",
+      "title": "SQLMAP",
+      "code": "sqlmap",
+      "description": "Learn about and use Sqlmap to exploit the web application",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Penetration testing",
+        "Application penetration testing",
+        "Reconnaissance",
+        "SQLMap",
+        "Burp Suite",
+        "Web"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/523723e4d3b75b6439b8e2cd0fa6880b.png"
     },
     {
       "id": "60ae443a4c7e1d004a677ce8",
@@ -1360,6 +1730,23 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/presec-room-image8.png"
     },
     {
+      "id": "60b0c1e03071e1005f9e3341",
+      "title": "Learning Cyber Security",
+      "code": "beginnerpathintro",
+      "description": "Get a short introduction to a few of the security topics you'll be learning about.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Security Engineer",
+        "Penetration testing",
+        "Application penetration testing",
+        "Network security engineering"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/1616670bad7fd5b1b335edb119adae92.png"
+    },
+    {
       "id": "60ba3f01ad9ff1004266e1cb",
       "title": "Windows Fundamentals 3",
       "code": "windowsfundamentals3xzx",
@@ -1377,7 +1764,28 @@
         "BitLocker",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/presec-room-image16.png"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773338778881-windowsfundamentals3xzx_.png"
+    },
+    {
+      "id": "60c0c663b7e1c400516a6802",
+      "title": "Deja Vu",
+      "code": "dejavu",
+      "description": "Exploit a recent code injection vulnerability to take over a website full of cute dog pictures!",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "enumeration",
+        "Exploitation",
+        "Privilege escalation",
+        "metasploit",
+        "Burp Suite",
+        "Nmap",
+        "Web",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/db58ef402783e8d637df6c04ea9e6142.png"
     },
     {
       "id": "60c21ceedbfbd5004ec4543b",
@@ -1417,6 +1825,25 @@
         "Web"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/3ce8e9c4d1da5eefef690e11f75798c7.png"
+    },
+    {
+      "id": "60c53a8b662c01005fab553a",
+      "title": "Polkit: CVE-2021-3560",
+      "code": "polkit",
+      "description": "Walkthrough room for CVE-2021-3560",
+      "difficulty": "info",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Red teaming",
+        "Penetration testing",
+        "command injection",
+        "Scripting",
+        "terminal",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/e9f162fd101bd7becc3327feea17b295.png"
     },
     {
       "id": "60c5f40abbe2e9004736751f",
@@ -1604,7 +2031,7 @@
         "msfdb",
         "msfvenom"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735574248252"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339253878-metasploitintro.png"
     },
     {
       "id": "60f03e8568f23900490844c7",
@@ -1794,7 +2221,7 @@
         "pattern_offset",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735574256490"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339246178-metasploitintro.png"
     },
     {
       "id": "610291d9eede810048dd2d6b",
@@ -1854,7 +2281,7 @@
         "getsystem",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735574264704"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339257101-metasploitintro.png"
     },
     {
       "id": "6107da24f571710060be5cac",
@@ -2285,7 +2712,7 @@
         "Linux",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/e501e768017ceda79aca90fee8e0077c.png"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400267726-Room_Image-9.png"
     },
     {
       "id": "622412cf03017400563303fa",
@@ -2347,7 +2774,7 @@
         "Gobuster",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/presec-room-image1.png"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773338590067-offensivesecurityintro.png"
     },
     {
       "id": "622ba76891285b005eaf8b14",
@@ -2521,7 +2948,7 @@
         "Security analysis",
         "Incident response"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/presec-room-image2.png"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773338611844-defensivesecurityintro.png"
     },
     {
       "id": "626387f54c4556004a34a992",
@@ -2579,7 +3006,7 @@
         "Metasploit Framework",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/presec-room-image3.png"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339767672-careersincyber.png"
     },
     {
       "id": "627367a038c78d004b0fb8b8",
@@ -2648,7 +3075,7 @@
         "segment 2",
         "segment 2.5"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735575366699"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339621952-introtosiem.png"
     },
     {
       "id": "62a79f64126bc700560fd452",
@@ -2668,7 +3095,7 @@
         "System administration",
         "Identity and access management (IAC)"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735574588674"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773338782693-winadbasics.png"
     },
     {
       "id": "62bae2b9dc6a500060047287",
@@ -2684,7 +3111,7 @@
         "Threat modelling",
         "Security analysis"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735573254803"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339763473-securityprinciples.png"
     },
     {
       "id": "62bd78ba21035e0049401173",
@@ -2743,32 +3170,6 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/ce007d5234db7621568cf95579eda299.png"
     },
     {
-      "id": "631677872f1a5a0049c3b570",
-      "title": "OWASP Top 10 - 2021",
-      "code": "owasptop102021",
-      "description": "Learn about and exploit each of the OWASP Top 10 vulnerabilities; the 10 most critical web security risks.",
-      "difficulty": "easy",
-      "type": "walkthrough",
-      "completed": true,
-      "tags": [
-        "General Cyber",
-        "Web",
-        "Burp Suite",
-        "Red",
-        "ssrf",
-        "command injection",
-        "authentication bypass",
-        "Python NEW",
-        "Exploit development",
-        "Vulnerability analysis",
-        "Application penetration testing",
-        "Red teaming",
-        "Penetration testing",
-        "Identity and access management (IAC)"
-      ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/3b2f3af8e836785fe698356264efbb55.png"
-    },
-    {
       "id": "633b09e0a64681004884b7d2",
       "title": "Valley",
       "code": "valleype",
@@ -2788,6 +3189,34 @@
         "Web"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/2700326f6bf2127c414a0fa4582496cd.png"
+    },
+    {
+      "id": "6414b943f7fe3f0052085a8a",
+      "title": "Outlook NTLM Leak",
+      "code": "outlookntlmleak",
+      "description": "Leak password hashes from a user by sending them an email by abusing CVE-2023-23397.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Purple",
+        "Security analysis",
+        "Incident response",
+        "Security operations",
+        "Incident handling",
+        "Detection engineering",
+        "Penetration testing",
+        "Red teaming",
+        "Exploit development",
+        "hardening",
+        "Code review",
+        "Sigma",
+        "yara",
+        "powershell",
+        "Responder NEW",
+        "Windows"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/8c1a96c6829a9e4ebd5715d5577b8517.png"
     },
     {
       "id": "6465f1ed5c090e005644cfbb",
@@ -2895,6 +3324,26 @@
         "Web"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/02c75078a8759443f0b565ce48b89589.png"
+    },
+    {
+      "id": "6529b16b1512c6716fc656e6",
+      "title": "Confluence CVE-2023-22515",
+      "code": "confluence202322515",
+      "description": "Exploit CVE-2023-22515 to get admin access to Confluence Server and Data Center editions.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Purple",
+        "Detection engineering",
+        "Penetration testing",
+        "Red teaming",
+        "Application penetration testing",
+        "risk management",
+        "hardening",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/b487fd948edf68a8200421f272759fed.png"
     },
     {
       "id": "653a98292a6702c7d288f15f",
@@ -3024,6 +3473,27 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/618b3fa52f0acc0061fb0172-1732205261742"
     },
     {
+      "id": "65d34e8775488d8b700b19a0",
+      "title": "Moniker Link (CVE-2024-21413)",
+      "code": "monikerlink",
+      "description": "Leak user's credentials using CVE-2024-21413 to bypass Outlook's Protected View.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Vulnerability analysis",
+        "Penetration testing",
+        "Exploitation",
+        "Detection engineering",
+        "hardening",
+        "Responder",
+        "Wireshark",
+        "Windows"
+      ],
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339241811-monikerlink.png"
+    },
+    {
       "id": "65fd7e05678bc78720a37464",
       "title": "Rabbit Store",
       "code": "rabbitstore",
@@ -3103,7 +3573,7 @@
         "CLI",
         "General Cyber"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1718096949787"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773338846698-windowscommandline.png"
     },
     {
       "id": "6627c853bdb090891ef4369b",
@@ -3131,7 +3601,7 @@
         "censys",
         "Social Media"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1718102661617"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773338615305-searchskills.png"
     },
     {
       "id": "663e40d9e9ae81db98f61fd5",
@@ -3152,7 +3622,7 @@
         "TCP",
         "IP"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1719330093098"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773341473209-networkingconcepts.png"
     },
     {
       "id": "6658b8ba7dc8524fb5880fd9",
@@ -3211,7 +3681,7 @@
         " cyber security",
         "Analyst SOC"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6645aa8c024f7893371eb7ac-1718872418242"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339521292-socfundamentals.png"
     },
     {
       "id": "66697080a2878519cd453e78",
@@ -3266,7 +3736,7 @@
         "CyberChef",
         "Security analysis"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5e6bbe59a46ee9407fd65bbe-1726735019985"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339692582-cyberchefbasics.png"
     },
     {
       "id": "66c379a1a5a29465fcae366e",
@@ -3292,7 +3762,7 @@
         " Caesar Cipher",
         "Cryptography"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1725523498749"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339175115-cryptographybasics.png"
     },
     {
       "id": "66deb5530288f675f0e2d33d",
@@ -3332,7 +3802,7 @@
         "security training",
         "tryhackme"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1729238449176"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339777763-training.png"
     },
     {
       "id": "6709166f408e675d7a01a237",
@@ -3351,7 +3821,7 @@
         "Web",
         "Burp Suite"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/2d29d11807430c2448e77a00f10d52c9c4f1993af71c9765190b36986323d7af.66c513e4445cb5649e636a36-1725441274792"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339319960-webapplicationbasics.png"
     },
     {
       "id": "672b50a0321e047a84533eff",
@@ -4163,7 +4633,7 @@
       "type": "walkthrough",
       "completed": true,
       "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5de96d9ca744773ea7ef8c00-1763120773735"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339806999-owasptopten2025one.png"
     },
     {
       "id": "6910ebccbbf6510418138ebd",
@@ -4174,7 +4644,7 @@
       "type": "walkthrough",
       "completed": true,
       "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/61a7523c029d1c004fac97b3-1763120444231"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339822057-owasptopten2025one.png"
     },
     {
       "id": "6910ebfda2ab0bcc10166e90",
@@ -4185,7 +4655,7 @@
       "type": "walkthrough",
       "completed": true,
       "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/61a7523c029d1c004fac97b3-1763120602843"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339828097-owasptopten2025one.png"
     },
     {
       "id": "691470d1489f094ee04af8a8",
@@ -4296,7 +4766,7 @@
         "Hypervisor",
         "segment 1"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/68dac5d6d4d4f23175b3296f-1768564539328"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400177898-Room_Image-2.png"
     },
     {
       "id": "6938e3a1c9be1bed60c1a854",
@@ -4316,7 +4786,7 @@
         "segment 1",
         "segment 2"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/616945d482ef350052080da1-1769567053940"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400208698-Room_Image-5.png"
     },
     {
       "id": "693a90f1d8b79d22e73b9392",
@@ -4332,7 +4802,7 @@
         "Purple",
         "segment 1"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5e8dd9a4a45e18443162feab-1770750018664"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400244147-linuxfundamentalspart1.png"
     },
     {
       "id": "693aab34e8fd11ac6170526f",
@@ -4356,7 +4826,7 @@
         "segment 1",
         "segment 2"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1770279121333"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400279781-Room_Image-10.png"
     },
     {
       "id": "693aab7ce31a9a95a2a181b2",
@@ -4378,7 +4848,7 @@
         "utf-8",
         "segment 1"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1770279136146"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400285735-Room_Image-13.png"
     },
     {
       "id": "693aabcb70d3c563289b564f",
@@ -4398,7 +4868,7 @@
         "segment 1",
         "segment 2"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1770279169747"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400296115-Room_Image-12.png"
     },
     {
       "id": "693aabde56b620f222796be3",
@@ -4419,7 +4889,7 @@
         "segment 1",
         "segment 2"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1770279159961"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400291430-Room_Image-11.png"
     },
     {
       "id": "693cee8c999d17cddc880176",
@@ -4439,7 +4909,7 @@
         "Windows Defender",
         "segment 1"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/616945d482ef350052080da1-1769567016911"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400216298-Room_Image-8.png"
     },
     {
       "id": "69405b95811b663620ca4c0c",
@@ -4454,7 +4924,7 @@
         "cloud computing",
         "segment 1"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/68dac5d6d4d4f23175b3296f-1768564581802"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400183488-Room_Image-4.png"
     },
     {
       "id": "69412ddb5cef0a01ebe0d967",
@@ -4469,7 +4939,7 @@
         "Windows",
         "segment 1"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5e8dd9a4a45e18443162feab-1770749878306"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400260703-Room_Image-7.png"
     },
     {
       "id": "6942c7ef0224651089cb8fdd",
@@ -4489,7 +4959,7 @@
         "segment 1",
         "segment 2"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6645aa8c024f7893371eb7ac-1769531287346"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400312904-Room_Image-15.png"
     },
     {
       "id": "6942c91edae025de74ebb679",
@@ -4508,7 +4978,7 @@
         "MySQL",
         "segment 1"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6808d44047ac5684351c94da-1770786255643"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400301430-Room_Image-14.png"
     },
     {
       "id": "694535c370e0d8024611aee4",
@@ -4529,7 +4999,7 @@
         "segment 1",
         "N/A"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5fc2847e1bbebc03aa89fbf2-1771252893778"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400321470-Room_Image-17.png"
     },
     {
       "id": "6945606bd6cc93efea287e7b",
@@ -4544,7 +5014,7 @@
         "Developer Tool",
         "segment 1"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66c44fd9733427ea1181ad58-1768925219868"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400170483-Room_Image-1.png"
     },
     {
       "id": "694a181822d3a2e1da963a1a",
@@ -4570,7 +5040,7 @@
         "segment 1",
         "Web application security"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/616945d482ef350052080da1-1769596621305"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400336792-Room_Image-16.png"
     },
     {
       "id": "694a8120d5a629e7fd635203",
@@ -4591,7 +5061,7 @@
         "segment 1",
         "Web application security"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/616945d482ef350052080da1-1769596798859"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400341993-Room_Image-18.png"
     },
     {
       "id": "695d03d589354d71afd6f863",
@@ -4630,7 +5100,7 @@
         "segment 1",
         "N/A"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66c44fd9733427ea1181ad58-1770046674668"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400154829-Room_Image.png"
     },
     {
       "id": "6970f1edc98f34dac4e2aeeb",
@@ -4676,7 +5146,7 @@
         "segment 1",
         "segment 2"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1770645202800"
+      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400161307-Room_Image-3.png"
     },
     {
       "id": "6984f997f89de3973bbbbdae",
