@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-14T02:11:02.862Z",
+  "last_updated": "2026-03-16T19:47:41.704Z",
   "statistics": {
     "total_modules": 156,
-    "completed": 49,
-    "completion_percentage": 31.4,
+    "completed": 50,
+    "completion_percentage": 32.1,
     "by_category": {
       "Offensive": {
         "completed": 24,
@@ -16,7 +16,7 @@
         "percentage": 2.5
       },
       "General": {
-        "completed": 23,
+        "completed": 24,
         "total": 29,
         "percentage": 86.9
       },

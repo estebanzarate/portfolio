@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-03-14T02:11:11.359Z",
+  "last_updated": "2026-03-16T19:47:48.911Z",
   "statistics": {
-    "total_rooms": 267,
-    "completed": 260,
-    "completion_percentage": 97.4,
+    "total_rooms": 273,
+    "completed": 269,
+    "completion_percentage": 98.5,
     "by_difficulty": {
-      "easy": 204,
-      "medium": 33,
-      "info": 23
+      "easy": 205,
+      "medium": 34,
+      "info": 30
     },
     "by_type": {
-      "challenge": 47,
-      "walkthrough": 213
+      "challenge": 48,
+      "walkthrough": 221
     }
   },
   "rooms": [
@@ -445,6 +445,22 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/77663a5ba36a16ec0fd8eb598649e38c.png"
     },
     {
+      "id": "5e4009ed285d3a54044c21dd",
+      "title": "Sudo Security Bypass",
+      "code": "sudovulnsbypass",
+      "description": "A tutorial room exploring CVE-2019-14287 in the Unix Sudo Program. Room One in the SudoVulns Series",
+      "difficulty": "info",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Security analysis",
+        "Penetration testing",
+        "Red teaming"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/79e82f49bdb7cb0090d5bad603866cd9.png"
+    },
+    {
       "id": "5e400d56285d3a54044c2217",
       "title": "Sudo Buffer Overflow",
       "code": "sudovulnsbof",
@@ -826,6 +842,23 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/481f3944fed367e7755cd7f120a66e22.jpeg"
     },
     {
+      "id": "5edda86da9de501640171220",
+      "title": "Windows PrivEsc",
+      "code": "windows10privesc",
+      "description": "Practice your Windows Privilege Escalation skills on an intentionally misconfigured Windows VM with multiple ways to get admin/SYSTEM! RDP is available. Credentials: user:password321",
+      "difficulty": "medium",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Application penetration testing",
+        "Red teaming",
+        "Penetration testing",
+        "Identity and access management (IAC)"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/380988091a148cb77d399cf3c577f6da.jpeg"
+    },
+    {
       "id": "5ee05469dd9e641e61d67510",
       "title": "OWASP Juice Shop",
       "code": "owaspjuiceshop",
@@ -884,7 +917,7 @@
       "description": "Join this room to learn about the first forms of malware and how they turned into the malicious code we see today.",
       "difficulty": "info",
       "type": "walkthrough",
-      "completed": false,
+      "completed": true,
       "tags": [
         "Purple",
         "Security analysis",
@@ -1049,7 +1082,7 @@
       "description": "This is a fun box where you will get to exploit the system in several ways. Few intended and unintended paths to getting user and root access.",
       "difficulty": "easy",
       "type": "challenge",
-      "completed": false,
+      "completed": true,
       "tags": [
         "Red",
         "Security Engineer",
@@ -2660,6 +2693,22 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735574324705"
     },
     {
+      "id": "61f19a72253213005300ba33",
+      "title": "Pwnkit: CVE-2021-4034",
+      "code": "pwnkit",
+      "description": "Interactive lab for exploiting and remediating Pwnkit (CVE-2021-4034) in the Polkit package",
+      "difficulty": "info",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Exploitation",
+        "Privilege escalation",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/74e0f54fbdb415de32d590fe9af9816c.png"
+    },
+    {
       "id": "620d139f6d58c3004b8faa2a",
       "title": "Intro to Digital Forensics",
       "code": "introdigitalforensics",
@@ -2775,6 +2824,24 @@
         "Web"
       ],
       "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773338590067-offensivesecurityintro.png"
+    },
+    {
+      "id": "6227b4c006e41e005286f4dd",
+      "title": "Dirty Pipe: CVE-2022-0847",
+      "code": "dirtypipe",
+      "description": "Interactive lab for exploiting Dirty Pipe (CVE-2022-0847) in the Linux Kernel",
+      "difficulty": "info",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Penetration testing",
+        "Exploitation",
+        "Privilege escalation",
+        "Kernel exploitation",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/dc199f5811f650866479991882430b1c.png"
     },
     {
       "id": "622ba76891285b005eaf8b14",
@@ -2931,6 +2998,26 @@
         "Identity and access management (IAC)"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735574741077"
+    },
+    {
+      "id": "6247df790e24e0004acb12fc",
+      "title": "Spring4Shell: CVE-2022-22965",
+      "code": "spring4shell",
+      "description": "Interactive lab for exploiting Spring4Shell (CVE-2022-22965) in the Java Spring Framework",
+      "difficulty": "info",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "enumeration",
+        "Exploitation",
+        "Penetration testing",
+        "Nmap",
+        "Burp Suite",
+        "searchsploit",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/45b3fa32cb65b9475a47f3a3d6857e49.png"
     },
     {
       "id": "624ee2179653750048ac4902",
@@ -3259,6 +3346,48 @@
         "segment 2"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/9a13d8dcbd8940d14352ba2edbf66735.png"
+    },
+    {
+      "id": "64a56cc71d917a00602eecf0",
+      "title": "Burp Suite: Repeater",
+      "code": "burpsuiterepeater",
+      "description": "Learn how to use Repeater to duplicate requests in Burp Suite.",
+      "difficulty": "info",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "General Cyber",
+        "Penetration testing",
+        "Application penetration testing",
+        "authentication bypass",
+        "SQL Injection",
+        "Burp Suite",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/003f622eb51e1399dde189ddbc9804a3.png"
+    },
+    {
+      "id": "64b7e49c92f84f0055eb9ad5",
+      "title": "PaperCut: CVE-2023-27350",
+      "code": "papercut",
+      "description": "Authorisation bypass (CVE-2023-27350) in PaperCut Print Management software leading to remote code execution. ",
+      "difficulty": "info",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Windows",
+        "Red",
+        "Blue",
+        "security",
+        "papercut",
+        "print",
+        "print management",
+        "CVE-2023-27350",
+        "rce",
+        "auth bypass"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/c5e3f2c6f7b787a81c9ce97322632a49.svg"
     },
     {
       "id": "64db81c465e0ecc74345169f",
@@ -4711,17 +4840,6 @@
         "Security Analyst/ Blue Team"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1763367396646"
-    },
-    {
-      "id": "691db273e2abcc5610a1891e",
-      "title": "BankGPT",
-      "code": "bankgpt",
-      "description": "A customer service assistant used by a banking system.",
-      "difficulty": "easy",
-      "type": "challenge",
-      "completed": false,
-      "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/645b19f5d5848d004ab9c9e2-1763995733732"
     },
     {
       "id": "6931423a01db5e52a77a7e1d",
