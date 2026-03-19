@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-03-16T19:47:48.911Z",
+  "last_updated": "2026-03-19T16:44:34.252Z",
   "statistics": {
-    "total_rooms": 273,
-    "completed": 269,
-    "completion_percentage": 98.5,
+    "total_rooms": 283,
+    "completed": 277,
+    "completion_percentage": 97.9,
     "by_difficulty": {
-      "easy": 205,
-      "medium": 34,
+      "easy": 207,
+      "medium": 40,
       "info": 30
     },
     "by_type": {
-      "challenge": 48,
-      "walkthrough": 221
+      "challenge": 50,
+      "walkthrough": 227
     }
   },
   "rooms": [
@@ -678,6 +678,24 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/c11fb449f10add8bc11a137fef9e979c.png"
     },
     {
+      "id": "5e9bc91f65995b561332b976",
+      "title": "Windows PrivEsc Arena",
+      "code": "windowsprivescarena",
+      "description": "Students will learn how to escalate privileges using a very vulnerable Windows 7 VM.  RDP is open.  Your credentials are user:password321",
+      "difficulty": "medium",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Penetration testing",
+        "Red teaming",
+        "Security analysis",
+        "Metasploit Framework",
+        "Windows"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/82d78fb8902418779d1ad30b81df8f05.png"
+    },
+    {
       "id": "5ea1d319f943b07e84e05fe8",
       "title": "Blaster",
       "code": "blaster",
@@ -818,6 +836,22 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/ca82a12b6aab343bc4689e6b7690457c.png"
     },
     {
+      "id": "5ece28b485bfcf479dbd2986",
+      "title": "Break Out The Cage",
+      "code": "breakoutthecage1",
+      "description": "Help Cage bring back his acting career and investigate the nefarious goings on of his agent!",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Penetration testing",
+        "Red teaming",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/29ef13afaef5de5b8f1a27653f9d7a2d.jpeg"
+    },
+    {
       "id": "5edbd241838ad50ee32b579d",
       "title": "AttackerKB",
       "code": "attackerkb",
@@ -868,6 +902,24 @@
       "completed": true,
       "tags": [],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/9a0c0a661ba218c0f9d533c8f41d8dd5.png"
+    },
+    {
+      "id": "5eec8d23c05e2d6735e99107",
+      "title": "Linux PrivEsc Arena",
+      "code": "linuxprivescarena",
+      "description": "Students will learn how to escalate privileges using a very vulnerable Linux VM.  SSH is open.  Your credentials are TCM:Hacker123",
+      "difficulty": "medium",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Penetration testing",
+        "Red teaming",
+        "Vulnerability analysis",
+        "John the Ripper",
+        "Hashcat"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/43afc4ae36b5432c737ff13fdaf911a5.png"
     },
     {
       "id": "5ef5ffc770e2b153dc0856ce",
@@ -2362,7 +2414,7 @@
       "id": "610d0258516bcd0055fc1806",
       "title": "Intro to Cross-site Scripting",
       "code": "xss",
-      "description": "Learn how to detect and exploit XSS vulnerabilities, giving you control of other visitor's browsers.",
+      "description": "Learn how to detect and exploit XSS vulnerabilities, giving you control of other visitors' browsers.",
       "difficulty": "easy",
       "type": "walkthrough",
       "completed": true,
@@ -2675,6 +2727,25 @@
         "kubernetes"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/3c98dd3bb37fa4a1130057bd65fdca53.png"
+    },
+    {
+      "id": "61e3fc55acb6b6005c442877",
+      "title": "Intrusion Detection ",
+      "code": "idsevasion",
+      "description": "Learn cyber evasion techniques and put them to the test against two IDS",
+      "difficulty": "medium",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Penetration testing",
+        "Red teaming",
+        "Nmap",
+        "Nikto",
+        "Suricata",
+        "Wazuh"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/9f5785fc9979f57ec0df40f2f06d8f2b.png"
     },
     {
       "id": "61e6e51029c5b3004ab82955",
@@ -3000,6 +3071,29 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735574741077"
     },
     {
+      "id": "623c6c285180df005f472524",
+      "title": "PrintNightmare",
+      "code": "printnightmarehpzqlp8",
+      "description": "Learn about the vulnerability known as PrintNightmare (CVE-2021-1675) and (CVE-2021-34527).",
+      "difficulty": "medium",
+      "type": "walkthrough",
+      "completed": false,
+      "tags": [
+        "Red",
+        "Red teaming",
+        "Penetration testing",
+        "Exploitation",
+        "log analysis",
+        "Packet analysis",
+        "Metasploit Framework",
+        "msfvenom",
+        "Splunk",
+        "Windows Event Viewer",
+        "Windows"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/01c0ff183a9d9767f90b03ca14b9a24d.png"
+    },
+    {
       "id": "6247df790e24e0004acb12fc",
       "title": "Spring4Shell: CVE-2022-22965",
       "code": "spring4shell",
@@ -3278,6 +3372,49 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/2700326f6bf2127c414a0fa4582496cd.png"
     },
     {
+      "id": "63dd618dfbfbcf005f12964f",
+      "title": "Crylo",
+      "code": "crylo4a",
+      "description": "Learn about the CryptoJS library and JavaScript-based client-side encryption and decryption.",
+      "difficulty": "medium",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "General Cyber",
+        "Penetration testing",
+        "Red teaming",
+        "Network penetration testing",
+        "Application penetration testing",
+        "Exploit development",
+        "Port scanning",
+        "Code review",
+        "SQL Injection",
+        "command injection",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/af0e7c2109847033d31d273498657526.png"
+    },
+    {
+      "id": "6405e37fb35234005f9784aa",
+      "title": "Hijack",
+      "code": "hijack",
+      "description": "Misconfigs conquered, identities claimed.",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Penetration testing",
+        "Red teaming",
+        "Network penetration testing",
+        "Ncat",
+        "Web",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/8d33165f4e0c5c59dcaced020cfd29d8.png"
+    },
+    {
       "id": "6414b943f7fe3f0052085a8a",
       "title": "Outlook NTLM Leak",
       "code": "outlookntlmleak",
@@ -3390,6 +3527,26 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/c5e3f2c6f7b787a81c9ce97322632a49.svg"
     },
     {
+      "id": "64c2b8b63b27320054384d0b",
+      "title": "CVE-2023-38408 ",
+      "code": "cve202338408",
+      "description": "Learn how to move laterally abusing libraries' side effects in Ubuntu (CVE-2023-38408).",
+      "difficulty": "medium",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Penetration testing",
+        "Red teaming",
+        "Exploit development",
+        "Reverse shell techniques",
+        "Bind shell techniques",
+        "Netcat NEW",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/3dfb0eaecf05e50b2b3fd5bca46ca5e2.svg"
+    },
+    {
       "id": "64db81c465e0ecc74345169f",
       "title": "Publisher",
       "code": "publisher",
@@ -3453,6 +3610,31 @@
         "Web"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/02c75078a8759443f0b565ce48b89589.png"
+    },
+    {
+      "id": "651dce0028485828d36c50fe",
+      "title": "Looney Tunables",
+      "code": "looneytunes",
+      "description": "CVE-2023-4911: That's all Sec-Folks!",
+      "difficulty": "medium",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "General Cyber",
+        "Security analysis",
+        "Penetration testing",
+        "Red teaming",
+        "Vulnerability analysis",
+        "Application penetration testing",
+        "Exploit development",
+        "Lateral movement",
+        "Buffer overflow exploitation",
+        "Python NEW",
+        "gcc",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6aaf1cd97145181eb0980816614ff67c.png"
     },
     {
       "id": "6529b16b1512c6716fc656e6",
@@ -5386,6 +5568,29 @@
       "completed": false,
       "tags": [],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5ed5961c6276df568891c3ea-1770737101248"
+    },
+    {
+      "id": "69a551a5af9a49ea1cf56e44",
+      "title": "Defensive Security Intro",
+      "code": "defensivesecurityintroezn39",
+      "description": "Introducing defensive security, where you will protect FakeBank from an ongoing attack.",
+      "difficulty": "info",
+      "type": "walkthrough",
+      "completed": false,
+      "tags": [
+        "Security Analyst/ Blue Team",
+        "Windows",
+        "Web",
+        "Blue",
+        "cyber defence",
+        " windows",
+        " Incident Response",
+        "Security Operation",
+        "Security Analyst",
+        "Log Viewer NEW",
+        "segment 1"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/60eeba4c12d185eee073d97e9a219ff1e4088f3604c9a07605f4aa8a42df9d60.5de96d9ca744773ea7ef8c00-1769425626237"
     }
   ]
 }
