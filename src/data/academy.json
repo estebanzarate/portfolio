@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-19T16:43:12.483Z",
+  "last_updated": "2026-04-06T19:56:53.519Z",
   "statistics": {
-    "total_modules": 156,
-    "completed": 50,
-    "completion_percentage": 32.1,
+    "total_modules": 157,
+    "completed": 51,
+    "completion_percentage": 32.5,
     "by_category": {
       "Offensive": {
         "completed": 24,
@@ -12,11 +12,11 @@
       },
       "Defensive": {
         "completed": 1,
-        "total": 28,
-        "percentage": 2.5
+        "total": 29,
+        "percentage": 2.4
       },
       "General": {
-        "completed": 24,
+        "completed": 25,
         "total": 29,
         "percentage": 86.9
       },
@@ -1111,6 +1111,13 @@
       "name": "AI Privacy",
       "slug": "ai-privacy",
       "description": "This module explores privacy attacks against machine learning models and the differential privacy defenses that protect models from such attacks.",
+      "progress": 0
+    },
+    {
+      "id": 339,
+      "name": "Persistence Tradecraft Analysis",
+      "slug": "persistence-tradecraft-analysis",
+      "description": "This module covers the persistence tradecraft on Windows, from its role in the attack lifecycle to its detection and investigation. Persistence mechanisms allow adversaries to maintain access to compromised systems even after reboots, logoffs, or system interruptions. In Windows environments, attackers often abuse legitimate system features such as Scheduled Tasks, Services, and Registry-based startup mechanisms to ensure their malicious code executes automatically. Understanding how these techniques operate and how they appear in system artifacts is essential for detecting and investigating long-term intrusions. Throughout the module, you will explore real-world persistence mechanisms to understand how they work internally and learn to translate this knowledge into effective, reliable detection rules.",
       "progress": 0
     },
     {
