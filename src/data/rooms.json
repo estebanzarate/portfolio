@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-04-06T19:58:18.398Z",
+  "last_updated": "2026-04-09T23:39:37.020Z",
   "statistics": {
-    "total_rooms": 292,
-    "completed": 286,
-    "completion_percentage": 97.9,
+    "total_rooms": 293,
+    "completed": 287,
+    "completion_percentage": 98,
     "by_difficulty": {
-      "easy": 211,
+      "easy": 212,
       "medium": 45,
       "info": 30
     },
     "by_type": {
-      "challenge": 54,
+      "challenge": 55,
       "walkthrough": 232
     }
   },
@@ -55,6 +55,23 @@
         "Windows"
       ],
       "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339260886-blue.png"
+    },
+    {
+      "id": "5d3bb00e7c5b877bc87557c1",
+      "title": "Ignite",
+      "code": "ignite",
+      "description": "A new start-up has a few issues with their web server.",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Penetration testing",
+        "Ncat",
+        "Web",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/676cb3273c613c9ba00688162efc0979.png"
     },
     {
       "id": "5d3f3faabe83462671c59eb7",

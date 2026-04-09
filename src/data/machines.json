@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-06T19:56:44.809Z",
+  "last_updated": "2026-04-09T23:38:30.517Z",
   "statistics": {
     "total": 525,
-    "user_owns": 181,
-    "root_owns": 180,
+    "user_owns": 182,
+    "root_owns": 181,
     "by_os": {
       "Linux": 126,
-      "Windows": 49,
+      "Windows": 50,
       "Other": 3,
       "Solaris": 1,
       "OpenBSD": 1
     },
     "by_difficulty": {
       "Easy": 134,
-      "Medium": 30,
+      "Medium": 31,
       "Hard": 10,
       "Insane": 6
     }
@@ -4168,8 +4168,8 @@
       "name": "Bastard",
       "os": "Windows",
       "difficulty": "Medium",
-      "user_owned": false,
-      "root_owned": false
+      "user_owned": true,
+      "root_owned": true
     },
     {
       "id": 6,
