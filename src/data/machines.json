@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-04-09T23:38:30.517Z",
+  "last_updated": "2026-04-11T00:41:17.437Z",
   "statistics": {
     "total": 525,
-    "user_owns": 182,
-    "root_owns": 181,
+    "user_owns": 183,
+    "root_owns": 182,
     "by_os": {
-      "Linux": 126,
+      "Linux": 127,
       "Windows": 50,
       "Other": 3,
       "Solaris": 1,
@@ -13,7 +13,7 @@
     },
     "by_difficulty": {
       "Easy": 134,
-      "Medium": 31,
+      "Medium": 32,
       "Hard": 10,
       "Insane": 6
     }
@@ -4160,8 +4160,8 @@
       "name": "Tenten",
       "os": "Linux",
       "difficulty": "Medium",
-      "user_owned": false,
-      "root_owned": false
+      "user_owned": true,
+      "root_owned": true
     },
     {
       "id": 7,

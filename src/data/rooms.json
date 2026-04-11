@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-04-09T23:39:37.020Z",
+  "last_updated": "2026-04-11T00:40:57.399Z",
   "statistics": {
-    "total_rooms": 293,
-    "completed": 287,
+    "total_rooms": 294,
+    "completed": 288,
     "completion_percentage": 98,
     "by_difficulty": {
-      "easy": 212,
+      "easy": 213,
       "medium": 45,
       "info": 30
     },
     "by_type": {
       "challenge": 55,
-      "walkthrough": 232
+      "walkthrough": 233
     }
   },
   "rooms": [
@@ -573,7 +573,7 @@
         "Hydra",
         "Red"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339389870-hydra.png"
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/69208399c3fe8b0416103c51e291e117.png"
     },
     {
       "id": "5e5d312831717578c8ada47f",
@@ -5794,6 +5794,25 @@
         "segment 1"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/60eeba4c12d185eee073d97e9a219ff1e4088f3604c9a07605f4aa8a42df9d60.5de96d9ca744773ea7ef8c00-1769425626237"
+    },
+    {
+      "id": "69abe5c8bc3647d68f78765b",
+      "title": "CSRF Introduction",
+      "code": "csrfintroduction",
+      "description": "Understand CSRF vulnerability and practice exploiting insecure state-changing requests.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Penetration Tester/ Red Team",
+        "Security Engineer",
+        "Web",
+        "Red",
+        "segment 2.5",
+        "segment 3",
+        "Web application security"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62a7685ca6e7ce005d3f3afe-1775466711834"
     }
   ]
 }
