@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-11T03:59:39.318Z",
+  "last_updated": "2026-04-14T00:23:20.242Z",
   "statistics": {
-    "total": 525,
-    "user_owns": 185,
-    "root_owns": 184,
+    "total": 526,
+    "user_owns": 187,
+    "root_owns": 186,
     "by_os": {
-      "Linux": 128,
+      "Linux": 129,
+      "Windows": 51,
       "Android": 1,
-      "Windows": 50,
       "Other": 3,
       "Solaris": 1,
       "OpenBSD": 1
     },
     "by_difficulty": {
-      "Easy": 135,
+      "Easy": 137,
       "Medium": 33,
       "Hard": 10,
       "Insane": 6
@@ -29,12 +29,12 @@
       "root_owned": true
     },
     {
-      "id": 356,
-      "name": "Explore",
-      "os": "Android",
+      "id": 867,
+      "name": "Silentium",
+      "os": "Linux",
       "difficulty": "Easy",
-      "user_owned": true,
-      "root_owned": true
+      "user_owned": false,
+      "root_owned": false
     },
     {
       "id": 864,
@@ -149,14 +149,6 @@
       "root_owned": false
     },
     {
-      "id": 820,
-      "name": "Browsed",
-      "os": "Linux",
-      "difficulty": "Medium",
-      "user_owned": true,
-      "root_owned": true
-    },
-    {
       "id": 817,
       "name": "Eloquia",
       "os": "Windows",
@@ -251,6 +243,14 @@
       "difficulty": "Medium",
       "user_owned": false,
       "root_owned": false
+    },
+    {
+      "id": 820,
+      "name": "Browsed",
+      "os": "Linux",
+      "difficulty": "Medium",
+      "user_owned": true,
+      "root_owned": true
     },
     {
       "id": 811,
@@ -2369,8 +2369,8 @@
       "name": "Driver",
       "os": "Windows",
       "difficulty": "Easy",
-      "user_owned": false,
-      "root_owned": false
+      "user_owned": true,
+      "root_owned": true
     },
     {
       "id": 384,
@@ -2385,8 +2385,8 @@
       "name": "Validation",
       "os": "Linux",
       "difficulty": "Easy",
-      "user_owned": false,
-      "root_owned": false
+      "user_owned": true,
+      "root_owned": true
     },
     {
       "id": 379,
@@ -2491,6 +2491,14 @@
       "difficulty": "Medium",
       "user_owned": false,
       "root_owned": false
+    },
+    {
+      "id": 356,
+      "name": "Explore",
+      "os": "Android",
+      "difficulty": "Easy",
+      "user_owned": true,
+      "root_owned": true
     },
     {
       "id": 355,

@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-04-11T03:59:20.175Z",
+  "last_updated": "2026-04-14T00:22:58.210Z",
   "statistics": {
-    "total_rooms": 294,
-    "completed": 288,
-    "completion_percentage": 98,
+    "total_rooms": 296,
+    "completed": 289,
+    "completion_percentage": 97.6,
     "by_difficulty": {
       "easy": 213,
       "medium": 45,
-      "info": 30
+      "info": 31
     },
     "by_type": {
       "challenge": 55,
-      "walkthrough": 233
+      "walkthrough": 234
     }
   },
   "rooms": [
@@ -4437,6 +4437,29 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1742831379313"
     },
     {
+      "id": "67e2b406050ea4e0a69bd5e4",
+      "title": "AI/ML Security Threats",
+      "code": "aimlsecuritythreats",
+      "description": "Learn AI basics, key terms, and how it's used by both attackers and defenders.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": false,
+      "tags": [
+        "Security Analyst/ Blue Team",
+        "Blue",
+        "Phishing",
+        "Log analysis",
+        "Artificial Intelligence",
+        "Adversarial AI",
+        "machine learning",
+        "LLM",
+        "segment 2.5",
+        "Artificial intelligence",
+        "Ollama"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6228f0d4ca8e57005149c3e3-1775812180696"
+    },
+    {
       "id": "67fda3a9138bee168f3c3efb",
       "title": "Offensive Security Intro",
       "code": "offensivesecurityintrokK",
@@ -5813,6 +5836,17 @@
         "Web application security"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62a7685ca6e7ce005d3f3afe-1775466711834"
+    },
+    {
+      "id": "69d65e3c1f606a19e2c00d3b",
+      "title": "AI Security Path Ticketing Event",
+      "code": "aisecuritypathticketingevent",
+      "description": "Learn all you need to know about how to engage with the AI Security Path launch event!",
+      "difficulty": "info",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6228f0d4ca8e57005149c3e3-1776095593200"
     }
   ]
 }
