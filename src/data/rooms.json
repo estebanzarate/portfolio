@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-04-14T00:22:58.210Z",
+  "last_updated": "2026-04-16T01:21:56.601Z",
   "statistics": {
-    "total_rooms": 296,
-    "completed": 289,
+    "total_rooms": 297,
+    "completed": 290,
     "completion_percentage": 97.6,
     "by_difficulty": {
-      "easy": 213,
+      "easy": 214,
       "medium": 45,
       "info": 31
     },
     "by_type": {
       "challenge": 55,
-      "walkthrough": 234
+      "walkthrough": 235
     }
   },
   "rooms": [
@@ -4443,7 +4443,7 @@
       "description": "Learn AI basics, key terms, and how it's used by both attackers and defenders.",
       "difficulty": "easy",
       "type": "walkthrough",
-      "completed": false,
+      "completed": true,
       "tags": [
         "Security Analyst/ Blue Team",
         "Blue",
@@ -5794,6 +5794,26 @@
       "completed": false,
       "tags": [],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5ed5961c6276df568891c3ea-1770737101248"
+    },
+    {
+      "id": "699c39ffe5ef675dd5ac5069",
+      "title": "AI Models & Data",
+      "code": "aimodelsdata",
+      "description": "Explore how data is fundamental to AI security, and the models which power it.",
+      "difficulty": "medium",
+      "type": "walkthrough",
+      "completed": false,
+      "tags": [
+        "Security Analyst/ Blue Team",
+        "General Cyber",
+        "Blue",
+        "Artificial Intelligence",
+        "LLM",
+        "segment 2.5",
+        "Artificial intelligence",
+        "Model hardening"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6228f0d4ca8e57005149c3e3-1775756838514"
     },
     {
       "id": "69a551a5af9a49ea1cf56e44",

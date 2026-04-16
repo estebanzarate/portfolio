@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-14T00:23:20.242Z",
+  "last_updated": "2026-04-16T01:22:19.833Z",
   "statistics": {
     "total": 526,
     "user_owns": 187,
@@ -27,6 +27,14 @@
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
+    },
+    {
+      "id": 401,
+      "name": "Return",
+      "os": "Windows",
+      "difficulty": "Easy",
+      "user_owned": false,
+      "root_owned": false
     },
     {
       "id": 867,
@@ -2312,14 +2320,6 @@
       "id": 408,
       "name": "Secret",
       "os": "Linux",
-      "difficulty": "Easy",
-      "user_owned": false,
-      "root_owned": false
-    },
-    {
-      "id": 401,
-      "name": "Return",
-      "os": "Windows",
       "difficulty": "Easy",
       "user_owned": false,
       "root_owned": false
