@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-16T01:23:32.723Z",
+  "last_updated": "2026-04-16T14:22:42.997Z",
   "statistics": {
     "total": 526,
-    "user_owns": 187,
-    "root_owns": 186,
+    "user_owns": 189,
+    "root_owns": 188,
     "by_os": {
-      "Linux": 129,
-      "Windows": 51,
+      "Linux": 130,
+      "Windows": 52,
       "Android": 1,
       "Other": 3,
       "Solaris": 1,
       "OpenBSD": 1
     },
     "by_difficulty": {
-      "Easy": 137,
+      "Easy": 139,
       "Medium": 33,
       "Hard": 10,
       "Insane": 6
@@ -27,14 +27,6 @@
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
-    },
-    {
-      "id": 401,
-      "name": "Return",
-      "os": "Windows",
-      "difficulty": "Easy",
-      "user_owned": false,
-      "root_owned": false
     },
     {
       "id": 867,
@@ -2321,8 +2313,16 @@
       "name": "Secret",
       "os": "Linux",
       "difficulty": "Easy",
-      "user_owned": false,
-      "root_owned": false
+      "user_owned": true,
+      "root_owned": true
+    },
+    {
+      "id": 401,
+      "name": "Return",
+      "os": "Windows",
+      "difficulty": "Easy",
+      "user_owned": true,
+      "root_owned": true
     },
     {
       "id": 400,
