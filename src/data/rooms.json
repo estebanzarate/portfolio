@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-04-16T14:22:19.255Z",
+  "last_updated": "2026-04-17T00:47:31.660Z",
   "statistics": {
-    "total_rooms": 297,
-    "completed": 290,
-    "completion_percentage": 97.6,
+    "total_rooms": 299,
+    "completed": 292,
+    "completion_percentage": 97.7,
     "by_difficulty": {
-      "easy": 214,
-      "medium": 45,
+      "easy": 215,
+      "medium": 46,
       "info": 31
     },
     "by_type": {
-      "challenge": 55,
-      "walkthrough": 235
+      "challenge": 56,
+      "walkthrough": 236
     }
   },
   "rooms": [
@@ -156,6 +156,24 @@
         "Windows"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6c115871f6b6d8c2886d5dd63c718ca8.png"
+    },
+    {
+      "id": "5d60adfec8cd8348d0b4db84",
+      "title": "Thompson",
+      "code": "bsidesgtthompson",
+      "description": "boot2root machine for FIT and bsides guatemala CTF",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Penetration testing",
+        "Red teaming",
+        "Application penetration testing",
+        "Linux",
+        "Web"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/f5e35bf1d933a9b45077e5388635a593.png"
     },
     {
       "id": "5d61c39ec8cd8348d0b4e99f",
@@ -5796,13 +5814,32 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5ed5961c6276df568891c3ea-1770737101248"
     },
     {
+      "id": "6996b15dda757919a0fceb23",
+      "title": "Prompt Engineering",
+      "code": "promptengineeringaisec",
+      "description": "Learn how LLMs process text and craft effective prompts for security and adversarial testing.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": false,
+      "tags": [
+        "General Cyber",
+        "Purple",
+        "Artificial Intelligence",
+        "LLM",
+        "segment 2",
+        "Prompt injection",
+        "Artificial intelligence"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6228f0d4ca8e57005149c3e3-1775820505806"
+    },
+    {
       "id": "699c39ffe5ef675dd5ac5069",
       "title": "AI Models & Data",
       "code": "aimodelsdata",
       "description": "Explore how data is fundamental to AI security, and the models which power it.",
       "difficulty": "medium",
       "type": "walkthrough",
-      "completed": false,
+      "completed": true,
       "tags": [
         "Security Analyst/ Blue Team",
         "General Cyber",
