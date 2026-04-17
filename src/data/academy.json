@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-17T00:47:38.725Z",
+  "last_updated": "2026-04-17T20:30:21.330Z",
   "statistics": {
     "total_modules": 157,
     "completed": 51,
@@ -8,7 +8,7 @@
       "Offensive": {
         "completed": 24,
         "total": 96,
-        "percentage": 29.4
+        "percentage": 29.5
       },
       "Defensive": {
         "completed": 1,
@@ -943,7 +943,7 @@
       "name": "Introduction to Red Teaming AI",
       "slug": "introduction-to-red-teaming-ai",
       "description": "This module provides a comprehensive introduction to the world of red teaming Artificial Intelligence (AI) and systems utilizing Machine Learning (ML) deployments. It covers an overview of common security vulnerabilities in these systems and the types of attacks that can be launched against their components.",
-      "progress": 9.09
+      "progress": 18.18
     },
     {
       "id": 295,

@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-04-17T00:47:31.660Z",
+  "last_updated": "2026-04-17T20:30:20.209Z",
   "statistics": {
-    "total_rooms": 299,
-    "completed": 292,
+    "total_rooms": 300,
+    "completed": 293,
     "completion_percentage": 97.7,
     "by_difficulty": {
-      "easy": 215,
+      "easy": 216,
       "medium": 46,
       "info": 31
     },
     "by_type": {
       "challenge": 56,
-      "walkthrough": 236
+      "walkthrough": 237
     }
   },
   "rooms": [
@@ -310,6 +310,26 @@
         "Web"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/370ada1208acaa6444fce2cfac2be0a2.png"
+    },
+    {
+      "id": "5dcb7db400192f7f7155299a",
+      "title": "Ice",
+      "code": "ice",
+      "description": "Deploy & hack into a Windows machine, exploiting a very poorly secured media server.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Penetration testing",
+        "Red teaming",
+        "Network penetration testing",
+        "Metasploit Framework",
+        "Nmap",
+        "Mimikatz",
+        "Windows"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/829892f5e7936a448f465b64d64f9c62.png"
     },
     {
       "id": "5dcda26e00192f7f71554b4d",

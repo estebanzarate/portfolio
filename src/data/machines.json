@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-04-17T00:47:52.979Z",
+  "last_updated": "2026-04-17T20:30:43.873Z",
   "statistics": {
     "total": 526,
-    "user_owns": 189,
-    "root_owns": 188,
+    "user_owns": 190,
+    "root_owns": 189,
     "by_os": {
-      "Linux": 130,
+      "Linux": 131,
       "Windows": 52,
       "Android": 1,
       "Other": 3,
@@ -13,7 +13,7 @@
       "OpenBSD": 1
     },
     "by_difficulty": {
-      "Easy": 139,
+      "Easy": 140,
       "Medium": 33,
       "Hard": 10,
       "Insane": 6
@@ -27,14 +27,6 @@
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
-    },
-    {
-      "id": 414,
-      "name": "Nunchucks",
-      "os": "Linux",
-      "difficulty": "Easy",
-      "user_owned": false,
-      "root_owned": false
     },
     {
       "id": 867,
@@ -2283,6 +2275,14 @@
       "difficulty": "Medium",
       "user_owned": false,
       "root_owned": false
+    },
+    {
+      "id": 414,
+      "name": "Nunchucks",
+      "os": "Linux",
+      "difficulty": "Easy",
+      "user_owned": true,
+      "root_owned": true
     },
     {
       "id": 413,
