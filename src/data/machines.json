@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-04-17T20:32:20.766Z",
+  "last_updated": "2026-04-23T15:34:15.472Z",
   "statistics": {
-    "total": 526,
-    "user_owns": 190,
-    "root_owns": 189,
+    "total": 527,
+    "user_owns": 191,
+    "root_owns": 190,
     "by_os": {
-      "Linux": 131,
+      "Linux": 132,
       "Windows": 52,
       "Android": 1,
       "Other": 3,
@@ -13,7 +13,7 @@
       "OpenBSD": 1
     },
     "by_difficulty": {
-      "Easy": 140,
+      "Easy": 141,
       "Medium": 33,
       "Hard": 10,
       "Insane": 6
@@ -27,6 +27,22 @@
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
+    },
+    {
+      "id": 423,
+      "name": "Pandora",
+      "os": "Linux",
+      "difficulty": "Easy",
+      "user_owned": false,
+      "root_owned": false
+    },
+    {
+      "id": 888,
+      "name": "Logging",
+      "os": "Windows",
+      "difficulty": "Medium",
+      "user_owned": false,
+      "root_owned": false
     },
     {
       "id": 867,
@@ -197,14 +213,6 @@
       "root_owned": false
     },
     {
-      "id": 754,
-      "name": "DarkZero",
-      "os": "Windows",
-      "difficulty": "Hard",
-      "user_owned": true,
-      "root_owned": true
-    },
-    {
       "id": 691,
       "name": "Cobblestone",
       "os": "Linux",
@@ -371,6 +379,14 @@
       "difficulty": "Medium",
       "user_owned": false,
       "root_owned": false
+    },
+    {
+      "id": 754,
+      "name": "DarkZero",
+      "os": "Windows",
+      "difficulty": "Hard",
+      "user_owned": true,
+      "root_owned": true
     },
     {
       "id": 751,
@@ -2221,14 +2237,6 @@
       "root_owned": false
     },
     {
-      "id": 423,
-      "name": "Pandora",
-      "os": "Linux",
-      "difficulty": "Easy",
-      "user_owned": false,
-      "root_owned": false
-    },
-    {
       "id": 422,
       "name": "Search",
       "os": "Windows",
@@ -2265,8 +2273,8 @@
       "name": "Backdoor",
       "os": "Linux",
       "difficulty": "Easy",
-      "user_owned": false,
-      "root_owned": false
+      "user_owned": true,
+      "root_owned": true
     },
     {
       "id": 415,

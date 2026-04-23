@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-04-17T20:32:02.842Z",
+  "last_updated": "2026-04-23T15:33:50.712Z",
   "statistics": {
-    "total_rooms": 300,
-    "completed": 293,
-    "completion_percentage": 97.7,
+    "total_rooms": 308,
+    "completed": 299,
+    "completion_percentage": 97.1,
     "by_difficulty": {
-      "easy": 216,
-      "medium": 46,
+      "easy": 219,
+      "medium": 49,
       "info": 31
     },
     "by_type": {
-      "challenge": 56,
-      "walkthrough": 237
+      "challenge": 57,
+      "walkthrough": 242
     }
   },
   "rooms": [
@@ -1433,6 +1433,24 @@
         "Web"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6cc3e134a104210f90367c6557e42b6e.jpeg"
+    },
+    {
+      "id": "5ff0d31026b8416e6268aa01",
+      "title": "Bash Scripting ",
+      "code": "bashscripting",
+      "description": "A Walkthrough room to teach you the basics of bash scripting",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Purple",
+        "Security Engineer",
+        "Security analysis",
+        "Security operations",
+        "bash",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6d22bfaf14c9d40539415d505f2cf759.png"
     },
     {
       "id": "601068a7cecfb3686f4897d8",
@@ -2952,6 +2970,23 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/74e0f54fbdb415de32d590fe9af9816c.png"
     },
     {
+      "id": "6201974fb0353c00548c1814",
+      "title": "Bypassing UAC",
+      "code": "bypassinguac",
+      "description": "Learn common ways to bypass User Account Control (UAC) in Windows hosts.",
+      "difficulty": "medium",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Veil-Framework",
+        "Metasploit Framework",
+        "Responder",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/9c8359d213941312199b6142d3421a57.png"
+    },
+    {
       "id": "620d139f6d58c3004b8faa2a",
       "title": "Intro to Digital Forensics",
       "code": "introdigitalforensics",
@@ -3544,6 +3579,31 @@
         "Web"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/ce007d5234db7621568cf95579eda299.png"
+    },
+    {
+      "id": "6328bfc4149c9b005fb1bff8",
+      "title": "Splunk: Exploring SPL",
+      "code": "splunkexploringspl",
+      "description": "Learn and explore the Splunk's Search Processing Language.",
+      "difficulty": "medium",
+      "type": "walkthrough",
+      "completed": false,
+      "tags": [
+        "Security Analyst/ Blue Team",
+        "Security Engineer",
+        "Security analysis",
+        "Windows",
+        "Splunk",
+        "Blue",
+        "log analysis",
+        "SIEM",
+        "Log analysis",
+        " splunk",
+        "segment 2",
+        "segment 2.5",
+        "segment 3"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/10276e702a014f44aad22f1302b6c309.png"
     },
     {
       "id": "633b09e0a64681004884b7d2",
@@ -4403,6 +4463,31 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/645b19f5d5848d004ab9c9e2-1739180133439"
     },
     {
+      "id": "679a6052b410bbce25fc16df",
+      "title": "Phishing Basics",
+      "code": "phishingbasics",
+      "description": "Explore phishing techniques and tools for penetration testing.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Penetration Tester/ Red Team",
+        "Penetration testing",
+        "Linux",
+        "The Social-Engineer Toolkit (SET)",
+        "Red",
+        "Phishing",
+        "Phishing ",
+        "Social engineering",
+        " pentest",
+        "Phishing attacks",
+        "Offensive Pentesting",
+        "Adversary emulation",
+        "segment 2.5"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62ff64c3c859dc0042b2b9f6-1775735976220"
+    },
+    {
       "id": "67ab0602f70442e3ddda0561",
       "title": "Custom Tooling Using Python",
       "code": "customtoolingpython",
@@ -4592,6 +4677,28 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/899ee7ac465626c3ebaa8bb73db4d329178d4d453afd52c6c6d9d971019cb4b5.5f04259cf9bf5b57aed2c476-1746607282956"
     },
     {
+      "id": "682b04c789a411b8e894d051",
+      "title": "AI Forensics",
+      "code": "aiforensics",
+      "description": "Explore AI DFIR and learn how it boosts your investigation capabilities.",
+      "difficulty": "medium",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Security Analyst/ Blue Team",
+        "Blue",
+        "segment 2",
+        "segment 2.5",
+        "Digital forensics",
+        "Artificial intelligence",
+        "Python",
+        "Artificial Intelligence",
+        "LLM",
+        "machine learning"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6228f0d4ca8e57005149c3e3-1775756737657"
+    },
+    {
       "id": "684adef42bf6634501dd06b6",
       "title": "Roundcube: CVE-2025-49113",
       "code": "roundcubecve202549113",
@@ -4618,6 +4725,17 @@
         "nc"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1750061875034"
+    },
+    {
+      "id": "684c5d0d0234b84dc701472e",
+      "title": "ContAInment",
+      "code": "containment",
+      "description": "Can you help contain the ransomware threat with the help of AI?",
+      "difficulty": "medium",
+      "type": "challenge",
+      "completed": true,
+      "tags": [],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6228f0d4ca8e57005149c3e3-1775756760371"
     },
     {
       "id": "68515928d4c468f7db6cc15e",
@@ -5840,7 +5958,7 @@
       "description": "Learn how LLMs process text and craft effective prompts for security and adversarial testing.",
       "difficulty": "easy",
       "type": "walkthrough",
-      "completed": false,
+      "completed": true,
       "tags": [
         "General Cyber",
         "Purple",
@@ -5896,6 +6014,25 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/60eeba4c12d185eee073d97e9a219ff1e4088f3604c9a07605f4aa8a42df9d60.5de96d9ca744773ea7ef8c00-1769425626237"
     },
     {
+      "id": "69a762a6d0cf8a134298d3b9",
+      "title": "Securing AI Systems",
+      "code": "securingaisystems",
+      "description": "Map AI architecture, identify OWASP/ATLAS attack surfaces, and apply secure design to trust boundaries.",
+      "difficulty": "medium",
+      "type": "walkthrough",
+      "completed": false,
+      "tags": [
+        "Security Engineer",
+        "Blue",
+        "AI",
+        "segment 2",
+        "segment 2.5",
+        "Security architecture",
+        "Artificial intelligence"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/69650d18bb3fe8c456972924-1775820714254"
+    },
+    {
       "id": "69abe5c8bc3647d68f78765b",
       "title": "CSRF Introduction",
       "code": "csrfintroduction",
@@ -5913,6 +6050,26 @@
         "Web application security"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62a7685ca6e7ce005d3f3afe-1775466711834"
+    },
+    {
+      "id": "69bbcfaeca986bc5db93e493",
+      "title": "Vulnerability Scanning Tools",
+      "code": "vulnerabilityscanningtools",
+      "description": "Learn about scanning tools such as Nmap, OpenVAS, and Nikto, and explore the world of pentesting.",
+      "difficulty": "medium",
+      "type": "walkthrough",
+      "completed": false,
+      "tags": [
+        "Penetration Tester/ Red Team",
+        "General Cyber",
+        "Web",
+        "Red",
+        "Vulnerability ",
+        "vulnerability scanning",
+        "segment 2",
+        "Web application security"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/691e303c8bb7e99b93a58132-1774169676399"
     },
     {
       "id": "69d65e3c1f606a19e2c00d3b",
