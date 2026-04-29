@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-04-29T13:27:14.708Z",
+  "last_updated": "2026-04-29T21:05:29.748Z",
   "statistics": {
-    "total_rooms": 312,
-    "completed": 304,
-    "completion_percentage": 97.4,
+    "total_rooms": 318,
+    "completed": 310,
+    "completion_percentage": 97.5,
     "by_difficulty": {
-      "easy": 220,
+      "easy": 222,
       "medium": 53,
-      "info": 31
+      "info": 35
     },
     "by_type": {
       "challenge": 58,
-      "walkthrough": 246
+      "walkthrough": 252
     }
   },
   "rooms": [
@@ -1033,6 +1033,25 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/ae4bd465dbc01f0b09273ebbc1496063.png"
     },
     {
+      "id": "5f0b94076af0fb452da81299",
+      "title": "REmux The Tmux",
+      "code": "tmuxremux",
+      "description": "Updated, how to use tmux guide. Defaults and customize your workflow.",
+      "difficulty": "info",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Purple",
+        "General Cyber",
+        "Penetration testing",
+        "Reverse shell techniques",
+        "Exploitation",
+        "tmux",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/52ccf342efb1d502fd2fdca4b20ede34.png"
+    },
+    {
       "id": "5f0c76f6e0a30d3d778db8bf",
       "title": "Network Services 2",
       "code": "networkservices2",
@@ -1819,6 +1838,17 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/2a037a905e467620157a23ab35bb3522.png"
     },
     {
+      "id": "6096aec7b2e4540048d583df",
+      "title": "Learn and win prizes",
+      "code": "tickets1",
+      "description": "Complete rooms, win tickets. Get 3 of the same tickets and win a prize.",
+      "difficulty": "info",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6cc1aa3b8181453d191d33233d0c12d9.png"
+    },
+    {
       "id": "609d1a64f32ee90041a2b371",
       "title": "SQLMAP",
       "code": "sqlmap",
@@ -2058,6 +2088,29 @@
         "Linux"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/7303ba648ef3f3f899a55c7b19195add.png"
+    },
+    {
+      "id": "60cbc74100dc8c004174e2c9",
+      "title": "Phishing Analysis Fundamentals",
+      "code": "phishingemails1tryoe",
+      "description": "Learn all the components that make up an email. ",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "General Cyber",
+        "Security analysis",
+        "Incident response",
+        "Windows",
+        "Blue",
+        "virustotal",
+        "any.run",
+        "Static malware analysis",
+        "Email analysis",
+        "Dynamic malware analysis",
+        "Phishtool"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735575404083"
     },
     {
       "id": "60d9c86638a1990050ae3675",
@@ -2580,6 +2633,22 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/4128774917fae71184e79acab2007e93.png"
     },
     {
+      "id": "612ce5b0d7a8ef00490c426a",
+      "title": "Security Awareness",
+      "code": "securityawarenessintro",
+      "description": "An introduction to security awareness; why its important, the impact of being attacked, different threat actors and basic account security.",
+      "difficulty": "info",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Blue",
+        "General Cyber",
+        "Incident response",
+        "Web"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/d3d7881518d71dc929b4e84c2b47ed55.png"
+    },
+    {
       "id": "612cfd6342d7f60053259157",
       "title": "Jax sucks alot.............",
       "code": "jason",
@@ -2813,6 +2882,29 @@
         "Linux"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/88a78308312cbba547f0e0fa5f6025bd.png"
+    },
+    {
+      "id": "61683e87761294005ebd2a02",
+      "title": "Common Attacks",
+      "code": "commonattacks",
+      "description": "With practical exercises see how common attacks occur, and improve your cyber hygiene to stay safer online.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Blue",
+        "Security Engineer",
+        "Security analysis",
+        "Detection engineering",
+        "Incident response",
+        "Malware analysis",
+        "Threat Intelligence",
+        "Splunk",
+        "Snort",
+        "FireEye",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735573649376"
     },
     {
       "id": "616af3312e0b080051bd1572",
@@ -4790,6 +4882,17 @@
         "Incident response"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/90baccc4261cc1fb0e668bb005c846cbde5ca7288d6ad5187dcba168bae597ea.66704dd0e54a1f39bff7b1a1-1735573172232"
+    },
+    {
+      "id": "68a8463f0f60016219118f89",
+      "title": "Hack2Win: How you can grab extra tickets",
+      "code": "hack2win",
+      "description": "Hack and win! Complete rooms, earn tickets, fill stamp cards, and enter raffles for $40,000+ prizes.",
+      "difficulty": "info",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/d0a58ca1d013f9613b13b01e5eb7b86a9c2543effa8703a7f2d139a8663d9928.png"
     },
     {
       "id": "68b85673688546044b52cf5a",
