@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-04-23T15:33:50.712Z",
+  "last_updated": "2026-04-29T13:27:14.708Z",
   "statistics": {
-    "total_rooms": 308,
-    "completed": 299,
-    "completion_percentage": 97.1,
+    "total_rooms": 312,
+    "completed": 304,
+    "completion_percentage": 97.4,
     "by_difficulty": {
-      "easy": 219,
-      "medium": 49,
+      "easy": 220,
+      "medium": 53,
       "info": 31
     },
     "by_type": {
-      "challenge": 57,
-      "walkthrough": 242
+      "challenge": 58,
+      "walkthrough": 246
     }
   },
   "rooms": [
@@ -5551,6 +5551,24 @@
       "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400291430-Room_Image-11.png"
     },
     {
+      "id": "693ad2f1f0aaec55a5ee7b17",
+      "title": "LLM Security",
+      "code": "llmsecurity",
+      "description": "Understand LLMs as an attack surface and get an overview of LLM security threats.",
+      "difficulty": "medium",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "General Cyber",
+        "Blue",
+        "Artificial Intelligence",
+        "LLM",
+        "segment 2",
+        "Artificial intelligence"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6228f0d4ca8e57005149c3e3-1775756919058"
+    },
+    {
       "id": "693cee8c999d17cddc880176",
       "title": "Windows Basics",
       "code": "windowsbasics",
@@ -6014,13 +6032,35 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/60eeba4c12d185eee073d97e9a219ff1e4088f3604c9a07605f4aa8a42df9d60.5de96d9ca744773ea7ef8c00-1769425626237"
     },
     {
+      "id": "69a576459c36c7158c55b6b1",
+      "title": "AI Threat Modelling",
+      "code": "aithreatmodelling",
+      "description": "Assess and mitigate enterprise AI/ML risks via systematic, defender-focused auditing.",
+      "difficulty": "medium",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Security Analyst/ Blue Team",
+        "Penetration Tester/ Red Team",
+        "General Cyber",
+        "Blue",
+        "Artificial Intelligence",
+        "LLM",
+        "MITRE ATT&CK® Navigator",
+        "segment 2.5",
+        "AI Pentesting",
+        "Artificial intelligence"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6228f0d4ca8e57005149c3e3-1775757065770"
+    },
+    {
       "id": "69a762a6d0cf8a134298d3b9",
       "title": "Securing AI Systems",
       "code": "securingaisystems",
       "description": "Map AI architecture, identify OWASP/ATLAS attack surfaces, and apply secure design to trust boundaries.",
       "difficulty": "medium",
       "type": "walkthrough",
-      "completed": false,
+      "completed": true,
       "tags": [
         "Security Engineer",
         "Blue",
@@ -6052,6 +6092,26 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62a7685ca6e7ce005d3f3afe-1775466711834"
     },
     {
+      "id": "69ae6c930dd4fefb8f723f1b",
+      "title": "AI System Reconnaissance",
+      "code": "aisystemreconnaissance",
+      "description": "Discover AI infrastructure by scanning ML services, frameworks, and extracting metadata from APIs.",
+      "difficulty": "medium",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Penetration Tester/ Red Team",
+        "Nmap",
+        "Purple",
+        "Reconnaissance",
+        "curl",
+        "AI",
+        "segment 2",
+        "AI Pentesting"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/69650d18bb3fe8c456972924-1775820771840"
+    },
+    {
       "id": "69bbcfaeca986bc5db93e493",
       "title": "Vulnerability Scanning Tools",
       "code": "vulnerabilityscanningtools",
@@ -6070,6 +6130,26 @@
         "Web application security"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/691e303c8bb7e99b93a58132-1774169676399"
+    },
+    {
+      "id": "69d11794a4b37712cfb0bdc4",
+      "title": "AI Threat Modelling Assessment",
+      "code": "aithreatmodellingassessment",
+      "description": "Put your AI threat modelling skills to the test using an interactive assessment application.",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [
+        "Security Analyst/ Blue Team",
+        "General Cyber",
+        "Blue",
+        "Artificial Intelligence",
+        "LLM",
+        "segment 2.5",
+        "AI Pentesting",
+        "Artificial intelligence"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6228f0d4ca8e57005149c3e3-1775755617179"
     },
     {
       "id": "69d65e3c1f606a19e2c00d3b",
