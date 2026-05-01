@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-04-29T21:05:29.748Z",
+  "last_updated": "2026-05-01T01:51:42.251Z",
   "statistics": {
-    "total_rooms": 318,
-    "completed": 310,
+    "total_rooms": 319,
+    "completed": 311,
     "completion_percentage": 97.5,
     "by_difficulty": {
-      "easy": 222,
+      "easy": 223,
       "medium": 53,
       "info": 35
     },
     "by_type": {
       "challenge": 58,
-      "walkthrough": 252
+      "walkthrough": 253
     }
   },
   "rooms": [
@@ -4893,6 +4893,28 @@
       "completed": true,
       "tags": [],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/d0a58ca1d013f9613b13b01e5eb7b86a9c2543effa8703a7f2d139a8663d9928.png"
+    },
+    {
+      "id": "68aef11763cadeddca4f758a",
+      "title": "Introduction to EDR",
+      "code": "introductiontoedrs",
+      "description": "Learn the fundamentals of EDR and explore its features and working.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "EDR",
+        "Endpoint Protection",
+        "Security Analyst/ Blue Team",
+        "Blue",
+        "segment 1",
+        "segment 2",
+        "segment 2.5",
+        "Incident response",
+        "Incident handling",
+        "Windows"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/f90bca871d79eae64a3ebebc4e68ab62989c77d93523f3871dc893a1d5706792.6645aa8c024f7893371eb7ac-1753204708163"
     },
     {
       "id": "68b85673688546044b52cf5a",

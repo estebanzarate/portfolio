@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-04-29T21:05:48.332Z",
+  "last_updated": "2026-05-01T01:52:03.582Z",
   "statistics": {
     "total": 528,
-    "user_owns": 193,
-    "root_owns": 192,
+    "user_owns": 194,
+    "root_owns": 193,
     "by_os": {
-      "Linux": 134,
+      "Linux": 135,
       "Windows": 52,
       "Android": 1,
       "Other": 3,
@@ -13,7 +13,7 @@
       "OpenBSD": 1
     },
     "by_difficulty": {
-      "Easy": 143,
+      "Easy": 144,
       "Medium": 33,
       "Hard": 10,
       "Insane": 6
@@ -23,6 +23,14 @@
     {
       "id": 351,
       "name": "Cap",
+      "os": "Linux",
+      "difficulty": "Easy",
+      "user_owned": true,
+      "root_owned": true
+    },
+    {
+      "id": 432,
+      "name": "Paper",
       "os": "Linux",
       "difficulty": "Easy",
       "user_owned": true,
@@ -2185,14 +2193,6 @@
       "name": "Flustered",
       "os": "Linux",
       "difficulty": "Medium",
-      "user_owned": false,
-      "root_owned": false
-    },
-    {
-      "id": 432,
-      "name": "Paper",
-      "os": "Linux",
-      "difficulty": "Easy",
       "user_owned": false,
       "root_owned": false
     },
