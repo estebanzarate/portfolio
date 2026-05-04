@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-05-01T01:51:42.251Z",
+  "last_updated": "2026-05-04T21:42:56.938Z",
   "statistics": {
-    "total_rooms": 319,
-    "completed": 311,
+    "total_rooms": 321,
+    "completed": 313,
     "completion_percentage": 97.5,
     "by_difficulty": {
-      "easy": 223,
+      "easy": 225,
       "medium": 53,
       "info": 35
     },
     "by_type": {
-      "challenge": 58,
-      "walkthrough": 253
+      "challenge": 59,
+      "walkthrough": 254
     }
   },
   "rooms": [
@@ -398,6 +398,24 @@
         "Windows"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/f38b047a2a7089147766099dffeb8a5d.png"
+    },
+    {
+      "id": "5ddfed56aaea05681f32f6ce",
+      "title": "LazyAdmin",
+      "code": "lazyadmin",
+      "description": "Easy linux machine to practice your skills",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Penetration testing",
+        "Red teaming",
+        "Ncat",
+        "Web",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/efbb70493ba66dfbac4302c02ad8facf.jpeg"
     },
     {
       "id": "5de958efa744773ea7ef8820",
@@ -4673,6 +4691,33 @@
         "Ollama"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6228f0d4ca8e57005149c3e3-1775812180696"
+    },
+    {
+      "id": "67f0ce79b0ee614d7cb16746",
+      "title": "Windows Logging for SOC",
+      "code": "windowsloggingforsoc",
+      "description": "Start your Windows monitoring journey by learning how to use system logs to detect threats.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Security Analyst/ Blue Team",
+        "Security analysis",
+        "Windows",
+        "Blue",
+        "powershell",
+        "defending windows",
+        "soc",
+        "sysmon",
+        "event logging",
+        "Log analysis",
+        "Log correlation",
+        "segment 2",
+        "segment 2.5",
+        "segment 3",
+        "Windows Event Viewer"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/678ecc92c80aa206339f0f23-1748608724312"
     },
     {
       "id": "67fda3a9138bee168f3c3efb",

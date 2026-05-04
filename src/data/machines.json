@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-01T01:52:03.582Z",
+  "last_updated": "2026-05-04T21:43:21.361Z",
   "statistics": {
     "total": 528,
     "user_owns": 194,
@@ -23,14 +23,6 @@
     {
       "id": 351,
       "name": "Cap",
-      "os": "Linux",
-      "difficulty": "Easy",
-      "user_owned": true,
-      "root_owned": true
-    },
-    {
-      "id": 432,
-      "name": "Paper",
       "os": "Linux",
       "difficulty": "Easy",
       "user_owned": true,
@@ -2195,6 +2187,14 @@
       "difficulty": "Medium",
       "user_owned": false,
       "root_owned": false
+    },
+    {
+      "id": 432,
+      "name": "Paper",
+      "os": "Linux",
+      "difficulty": "Easy",
+      "user_owned": true,
+      "root_owned": true
     },
     {
       "id": 431,
