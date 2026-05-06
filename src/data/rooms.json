@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-05-04T21:42:56.938Z",
+  "last_updated": "2026-05-06T04:36:26.723Z",
   "statistics": {
-    "total_rooms": 321,
-    "completed": 313,
+    "total_rooms": 322,
+    "completed": 314,
     "completion_percentage": 97.5,
     "by_difficulty": {
-      "easy": 225,
+      "easy": 226,
       "medium": 53,
       "info": 35
     },
     "by_type": {
       "challenge": 59,
-      "walkthrough": 254
+      "walkthrough": 255
     }
   },
   "rooms": [
@@ -1237,6 +1237,27 @@
         "Windows"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/42bdeb37580f893369c19dc7250fe7d8.jpeg"
+    },
+    {
+      "id": "5f6dc092ad42a045be2b62b9",
+      "title": "Linux Strength Training",
+      "code": "linuxstrengthtraining",
+      "description": "Guided room for beginners to learn/reinforce linux command line skills",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Purple",
+        "Security Engineer",
+        "Security operations",
+        "Security analysis",
+        "Detection engineering",
+        "John the Ripper",
+        "Hash-identifier",
+        "Haiti",
+        "gpg"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/b4f28a92c7d33f8460d896653cf5d428.png"
     },
     {
       "id": "5f78eb34828b1b6e6809767c",

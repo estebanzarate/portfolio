@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-04T21:42:57.214Z",
+  "last_updated": "2026-05-06T04:36:26.850Z",
   "statistics": {
-    "total_modules": 157,
+    "total_modules": 158,
     "completed": 51,
-    "completion_percentage": 32.5,
+    "completion_percentage": 32.3,
     "by_category": {
       "Offensive": {
         "completed": 24,
@@ -12,13 +12,13 @@
       },
       "Defensive": {
         "completed": 1,
-        "total": 29,
-        "percentage": 2.4
+        "total": 30,
+        "percentage": 2.3
       },
       "General": {
         "completed": 25,
         "total": 29,
-        "percentage": 86.9
+        "percentage": 87.6
       },
       "Purple": {
         "completed": 1,
@@ -558,7 +558,7 @@
       "name": "Android Fundamentals",
       "slug": "android-fundamentals",
       "description": "This module introduces fundamental concepts of the Android environment, focusing on the operating system, its security features, and the structure of applications. It provides students with details about the different styles of application development and familiarizes them with their development environment. This module also explains how apps communicate in the Android environment, highlighting why this is critical information for their security. Students are also introduced to setting up a testing environment to prepare for the Application Penetration Testing process.",
-      "progress": 0
+      "progress": 15
     },
     {
       "id": 204,
@@ -1125,6 +1125,13 @@
       "name": "Android Attacks",
       "slug": "android-attacks",
       "description": "This module introduces common mobile security attacks through a series of hands-on vulnerable application examples. Students will learn how mobile vulnerabilities arise, how to categorize them based on known mobile security frameworks, how they are exploited in real applications, and how to identify and remediate them using techniques learned in the previous modules.",
+      "progress": 0
+    },
+    {
+      "id": 342,
+      "name": "Credential Access Tradecraft Analysis",
+      "slug": "credential-access-tradecraft-analysis",
+      "description": "This module delivers an in-depth, defense-focused study of Windows credential access. It explains how adversaries steal credentials via dumping and abuse of sensitive stores, then breaks down authentication flows, cryptographic protections, and both live-memory and offline extraction to understand tool behavior and build robust detection rules. It also covers DPAPI, Windows Credential Manager, browser credential stores including App-Bound encryption, and Credential Guard bypass techniques with their detection opportunities.",
       "progress": 0
     }
   ]
