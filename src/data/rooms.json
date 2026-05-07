@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-05-06T04:36:26.723Z",
+  "last_updated": "2026-05-07T02:08:48.924Z",
   "statistics": {
-    "total_rooms": 322,
-    "completed": 314,
+    "total_rooms": 324,
+    "completed": 316,
     "completion_percentage": 97.5,
     "by_difficulty": {
-      "easy": 226,
-      "medium": 53,
+      "easy": 227,
+      "medium": 54,
       "info": 35
     },
     "by_type": {
       "challenge": 59,
-      "walkthrough": 255
+      "walkthrough": 257
     }
   },
   "rooms": [
@@ -1322,6 +1322,27 @@
         "Web"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/923112c47e9e684ca2e4f077e7830da5.jpeg"
+    },
+    {
+      "id": "5f9448cc99ae8d3dc0186787",
+      "title": "Mobile Malware Analysis",
+      "code": "mma",
+      "description": "Learn and practice mobile malware analysis.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Blue",
+        "Security Engineer",
+        "Mobile penetration testing",
+        "reverse engineering",
+        "Incident response",
+        "mobsf",
+        "MITRE ATT&CK® Navigator",
+        "virustotal",
+        "Windows"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/1a8af49f6135843b36f1378812034155.png"
     },
     {
       "id": "5f95b9e32fa3673dbfb2d2e9",
@@ -6038,6 +6059,31 @@
         "segment 2"
       ],
       "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400161307-Room_Image-3.png"
+    },
+    {
+      "id": "6984336959d4757192c37e92",
+      "title": "Intro to AD Authentication",
+      "code": "introtoactivedirectoryauthentication",
+      "description": "Examine how AD authentication works and the various protocols it uses.",
+      "difficulty": "medium",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Penetration Tester/ Red Team",
+        "Windows",
+        "Hashcat",
+        "Impacket",
+        "Red",
+        "Password cracking",
+        "Active Directory",
+        "hacking windows",
+        "NTLM",
+        "ActiveDirectory",
+        "Password attacks",
+        "Active Directory pentesting",
+        "segment 2"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6808d44047ac5684351c94da-1777562424344"
     },
     {
       "id": "6984f997f89de3973bbbbdae",

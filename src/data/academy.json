@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-06T04:36:26.850Z",
+  "last_updated": "2026-05-07T02:08:44.483Z",
   "statistics": {
     "total_modules": 158,
     "completed": 51,
@@ -18,7 +18,7 @@
       "General": {
         "completed": 25,
         "total": 29,
-        "percentage": 87.6
+        "percentage": 87.8
       },
       "Purple": {
         "completed": 1,
@@ -558,7 +558,7 @@
       "name": "Android Fundamentals",
       "slug": "android-fundamentals",
       "description": "This module introduces fundamental concepts of the Android environment, focusing on the operating system, its security features, and the structure of applications. It provides students with details about the different styles of application development and familiarizes them with their development environment. This module also explains how apps communicate in the Android environment, highlighting why this is critical information for their security. Students are also introduced to setting up a testing environment to prepare for the Application Penetration Testing process.",
-      "progress": 15
+      "progress": 20
     },
     {
       "id": 204,
