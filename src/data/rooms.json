@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-05-07T02:08:48.924Z",
+  "last_updated": "2026-05-11T22:49:14.914Z",
   "statistics": {
-    "total_rooms": 324,
-    "completed": 316,
-    "completion_percentage": 97.5,
+    "total_rooms": 327,
+    "completed": 320,
+    "completion_percentage": 97.9,
     "by_difficulty": {
-      "easy": 227,
-      "medium": 54,
+      "easy": 229,
+      "medium": 56,
       "info": 35
     },
     "by_type": {
       "challenge": 59,
-      "walkthrough": 257
+      "walkthrough": 261
     }
   },
   "rooms": [
@@ -1015,6 +1015,28 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/9a0c0a661ba218c0f9d533c8f41d8dd5.png"
     },
     {
+      "id": "5ee72f8d21bb3c54b7b06483",
+      "title": "Regular Expressions",
+      "code": "catregex",
+      "description": "Learn and practise using regular expressions.",
+      "difficulty": "medium",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Purple",
+        "Security Engineer",
+        "SIEM engineering",
+        "Penetration testing",
+        "Digital forensics",
+        "Red teaming",
+        "Security analysis",
+        "Vulnerability analysis",
+        "Incident response",
+        "Malware analysis"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/cddd3c214db8ff7df5d524af3cfad5e4.png"
+    },
+    {
       "id": "5eec8d23c05e2d6735e99107",
       "title": "Linux PrivEsc Arena",
       "code": "linuxprivescarena",
@@ -1530,6 +1552,22 @@
         "Linux"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6d22bfaf14c9d40539415d505f2cf759.png"
+    },
+    {
+      "id": "600514f252a8f04310e6882d",
+      "title": "Linux Modules",
+      "code": "linuxmodules",
+      "description": "Learn linux modules in a fun way",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Purple",
+        "Penetration testing",
+        "Security operations",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/1572ee9ebc9f63e1e0122e8d23bb33c6.jpeg"
     },
     {
       "id": "601068a7cecfb3686f4897d8",
@@ -3430,6 +3468,24 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735574741077"
     },
     {
+      "id": "6238eeee29449b0048d98000",
+      "title": "Unified Kill Chain",
+      "code": "unifiedkillchain",
+      "description": "The Unified Kill Chain is a framework which establishes the phases of an attack, and a means of identifying and mitigating risk to IT assets.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Blue",
+        "Security Engineer",
+        "Threat modelling",
+        "Security analysis",
+        "Threat Intelligence",
+        "mitre"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/f41ca18ac58ffaae35cc78ba615f238d.png"
+    },
+    {
       "id": "623921676647c40041c81d30",
       "title": "Bugged",
       "code": "bugged",
@@ -3739,7 +3795,7 @@
       "description": "Learn and explore the Splunk's Search Processing Language.",
       "difficulty": "medium",
       "type": "walkthrough",
-      "completed": false,
+      "completed": true,
       "tags": [
         "Security Analyst/ Blue Team",
         "Security Engineer",
