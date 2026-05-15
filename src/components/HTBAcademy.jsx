@@ -2,9 +2,9 @@ import { useState, useMemo, Fragment } from 'react'
 import useLanguage from '../hooks/useLanguage'
 import translations from '../data/translations'
 import academyData from '../data/academy.json'
+import StatCard from './ui/StatCard'
 
 const ITEMS_PER_PAGE = 20
-
 const categoryColor = {
   Offensive: 'text-danger border-danger/40 bg-danger/10',
   Defensive: 'text-info border-info/40 bg-info/10',
@@ -18,7 +18,6 @@ function ProgressBar({ value }) {
       value >= 50 ? 'bg-warning' :
         value > 0 ? 'bg-primary' :
           'bg-surface2'
-
   return (
     <div className="flex items-center gap-2">
       <div className="flex-1 h-1.5 rounded-full bg-surface2 overflow-hidden">
@@ -29,21 +28,10 @@ function ProgressBar({ value }) {
   )
 }
 
-function StatCard({ label, value, sub, colorClass }) {
-  return (
-    <div className={`flex flex-col px-5 py-3 rounded-lg bg-surface2 border ${colorClass} min-w-[120px]`}>
-      <span className="text-2xl font-bold text-light">{value}</span>
-      <span className="text-xs text-secondary mt-0.5">{label}</span>
-      {sub && <span className="text-xs text-secondary mt-0.5">{sub}</span>}
-    </div>
-  )
-}
-
 function HTBAcademy() {
   const { lang } = useLanguage()
   const t = translations[lang].academy
   const { statistics, modules } = academyData
-
   const [filterStatus, setFilterStatus] = useState('All')
   const [search, setSearch] = useState('')
   const [page, setPage] = useState(1)
@@ -74,14 +62,12 @@ function HTBAcademy() {
 
   return (
     <section id="academy" className="flex flex-col gap-6 scroll-mt-20">
-
       <div className="border-l-4 border-primary pl-4">
         <h2 className="text-2xl font-bold text-light">HackTheBox <span className="text-primary">Academy</span></h2>
         <p className="text-secondary text-sm mt-1">
           {t.subtitle}: {new Date(academyData.last_updated).toLocaleDateString(lang === 'es' ? 'es-AR' : 'en-US')}
         </p>
       </div>
-
       <div className="flex flex-wrap gap-3">
         <StatCard label={t.totalModules} value={statistics.total_modules} colorClass="border-surface2" />
         <StatCard
@@ -91,7 +77,6 @@ function HTBAcademy() {
           colorClass="border-success/40"
         />
       </div>
-
       <div className="flex flex-wrap gap-3">
         {Object.entries(statistics.by_category).map(([cat, data]) => (
           <div
@@ -108,7 +93,6 @@ function HTBAcademy() {
           </div>
         ))}
       </div>
-
       <div className="flex flex-col sm:flex-row gap-3">
         <input
           type="text"
@@ -127,9 +111,7 @@ function HTBAcademy() {
           ))}
         </select>
       </div>
-
       <p className="text-secondary text-sm">{filtered.length} {t.found}</p>
-
       <div className="overflow-x-auto rounded-lg border border-surface2">
         <table className="w-full text-sm">
           <thead>
@@ -167,7 +149,6 @@ function HTBAcademy() {
           </tbody>
         </table>
       </div>
-
       {totalPages > 1 && (
         <div className="flex items-center justify-center gap-2">
           <button
@@ -189,7 +170,6 @@ function HTBAcademy() {
           </button>
         </div>
       )}
-
     </section>
   )
 }

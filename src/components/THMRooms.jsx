@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react'
 import useLanguage from '../hooks/useLanguage'
 import translations from '../data/translations'
 import roomsData from '../data/rooms.json'
+import StatCard from './ui/StatCard'
 
 const difficultyColor = {
   easy: 'text-success border-success/40 bg-success/10',
@@ -9,28 +10,16 @@ const difficultyColor = {
   hard: 'text-danger border-danger/40 bg-danger/10',
   info: 'text-info border-info/40 bg-info/10',
 }
-
 const typeColor = {
   walkthrough: 'text-primary border-primary/40 bg-primary/10',
   challenge: 'text-warning border-warning/40 bg-warning/10',
 }
-
 const ITEMS_PER_PAGE = 20
-
-function StatCard({ label, value, colorClass }) {
-  return (
-    <div className={`flex flex-col items-center justify-center px-5 py-3 rounded-lg bg-surface2 border ${colorClass} min-w-[80px]`}>
-      <span className="text-2xl font-bold text-light">{value}</span>
-      <span className="text-xs text-secondary mt-0.5">{label}</span>
-    </div>
-  )
-}
 
 function THMRooms() {
   const { lang } = useLanguage()
   const t = translations[lang].thm
   const { statistics, rooms } = roomsData
-
   const [filterDiff, setFilterDiff] = useState('All')
   const [filterType, setFilterType] = useState('All')
   const [filterDone, setFilterDone] = useState('All')
@@ -39,7 +28,6 @@ function THMRooms() {
 
   const diffList = ['All', 'easy', 'medium', 'hard', 'info']
   const typeList = ['All', 'walkthrough', 'challenge']
-  const doneList = ['All', 'completed', 'incomplete']
 
   const filtered = useMemo(() => {
     return rooms.filter(r => {
@@ -60,22 +48,17 @@ function THMRooms() {
 
   return (
     <section id="thm" className="flex flex-col gap-6 scroll-mt-20">
-
       <div className="border-l-4 border-danger pl-4">
         <h2 className="text-2xl font-bold text-light">TryHackMe <span className="text-danger">Rooms</span></h2>
         <p className="text-secondary text-sm mt-1">
           {t.subtitle}: {new Date(roomsData.last_updated).toLocaleDateString(lang === 'es' ? 'es-AR' : 'en-US')}
         </p>
       </div>
-
-      {/* Stats globales */}
       <div className="flex flex-wrap gap-3">
         <StatCard label={t.total} value={statistics.total_rooms} colorClass="border-surface2" />
         <StatCard label={t.completed} value={statistics.completed} colorClass="border-success/40" />
         <StatCard label={t.percentage} value={`${statistics.completion_percentage}%`} colorClass="border-info/40" />
       </div>
-
-      {/* Stats por dificultad */}
       <div className="flex flex-wrap gap-3">
         {Object.entries(statistics.by_difficulty).map(([diff, count]) => (
           <StatCard
@@ -94,8 +77,6 @@ function THMRooms() {
           />
         ))}
       </div>
-
-      {/* Filtros */}
       <div className="flex flex-col sm:flex-row gap-3">
         <input
           type="text"
@@ -136,10 +117,7 @@ function THMRooms() {
           <option value="incomplete">{t.incompleteFilter}</option>
         </select>
       </div>
-
       <p className="text-secondary text-sm">{filtered.length} {t.found}</p>
-
-      {/* Tabla */}
       <div className="overflow-x-auto rounded-lg border border-surface2">
         <table className="w-full text-sm">
           <thead>
@@ -177,7 +155,6 @@ function THMRooms() {
           </tbody>
         </table>
       </div>
-
       {totalPages > 1 && (
         <div className="flex items-center justify-center gap-2">
           <button
@@ -199,7 +176,6 @@ function THMRooms() {
           </button>
         </div>
       )}
-
     </section>
   )
 }

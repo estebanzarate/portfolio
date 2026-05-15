@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-05-11T22:49:14.914Z",
+  "last_updated": "2026-05-15T23:37:00.195Z",
   "statistics": {
-    "total_rooms": 327,
-    "completed": 320,
+    "total_rooms": 328,
+    "completed": 321,
     "completion_percentage": 97.9,
     "by_difficulty": {
-      "easy": 229,
+      "easy": 230,
       "medium": 56,
       "info": 35
     },
     "by_type": {
       "challenge": 59,
-      "walkthrough": 261
+      "walkthrough": 262
     }
   },
   "rooms": [
@@ -1280,6 +1280,19 @@
         "gpg"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/b4f28a92c7d33f8460d896653cf5d428.png"
+    },
+    {
+      "id": "5f6f5f7317eed411eace7fe1",
+      "title": "Tutorial",
+      "code": "tutorial",
+      "description": "Learn how to use a TryHackMe room to start your upskilling in cyber security.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "General Cyber"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/c916cc3206c2199f9b5e9db43d5a15e9.png"
     },
     {
       "id": "5f78eb34828b1b6e6809767c",

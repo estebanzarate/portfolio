@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import useLanguage from '../hooks/useLanguage'
-import profileES from '../data/profile.js'
-import profileEN from '../data/profile.en.js'
+import profile from '../data/profile.js'
 import translations from '../data/translations'
 
 function CertificateModal({ edu, t, onClose }) {
@@ -46,20 +45,18 @@ function CertificateModal({ edu, t, onClose }) {
 
 function Experience() {
   const { lang } = useLanguage()
-  const profile = lang === 'es' ? profileES : profileEN
+  const p = profile[lang]
   const t = translations[lang].experience
   const [activeCert, setActiveCert] = useState(null)
 
   return (
     <section id="experience" className="flex flex-col gap-10 scroll-mt-20">
-
       <div className="flex flex-col gap-6">
         <div className="border-l-4 border-warning pl-4">
           <h2 className="text-2xl font-bold text-light">{t.title}</h2>
         </div>
-
         <div className="flex flex-col gap-4">
-          {profile.experience.map(exp => (
+          {p.experience.map(exp => (
             <div
               key={exp.id}
               className="flex flex-col gap-3 p-5 rounded-lg bg-surface border border-surface2 hover:border-primary/40 transition-colors"
@@ -88,16 +85,14 @@ function Experience() {
           ))}
         </div>
       </div>
-
       <div className="flex flex-col gap-6">
         <div className="border-l-4 border-info pl-4">
           <h2 className="text-2xl font-bold text-light">
             {t.education} <span className="text-info">{t.certifications}</span>
           </h2>
         </div>
-
         <div className="flex flex-col gap-3">
-          {profile.education.map(edu => (
+          {p.education.map(edu => (
             <div
               key={edu.id}
               className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 p-4 rounded-lg bg-surface border border-surface2 hover:border-info/40 transition-colors"
@@ -123,11 +118,9 @@ function Experience() {
           ))}
         </div>
       </div>
-
       {activeCert && (
         <CertificateModal edu={activeCert} t={t} onClose={() => setActiveCert(null)} />
       )}
-
     </section>
   )
 }

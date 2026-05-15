@@ -1,12 +1,26 @@
+import { lazy, Suspense } from 'react'
 import LanguageProvider from './context/LanguageProvider'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Experience from './components/Experience'
 import Skills from './components/Skills'
-import HTBMachines from './components/HTBMachines'
-import HTBAcademy from './components/HTBAcademy'
-import THMRooms from './components/THMRooms'
 import Footer from './components/Footer'
+import ScrollToTop from './components/ScrollToTop'
+
+const HTBMachines = lazy(() => import('./components/HTBMachines'))
+const HTBAcademy = lazy(() => import('./components/HTBAcademy'))
+const THMRooms = lazy(() => import('./components/THMRooms'))
+
+function SectionFallback() {
+  return (
+    <div className="flex items-center justify-center py-24">
+      <div className="flex flex-col items-center gap-3">
+        <div className="w-6 h-6 rounded-full border-2 border-primary border-t-transparent animate-spin" />
+        <span className="text-secondary text-sm">Cargando...</span>
+      </div>
+    </div>
+  )
+}
 
 function App() {
   return (
@@ -18,12 +32,25 @@ function App() {
             <div className="pb-16"><Hero /></div>
             <div className="py-16"><Experience /></div>
             <div className="py-16"><Skills /></div>
-            <div className="py-16"><HTBMachines /></div>
-            <div className="py-16"><HTBAcademy /></div>
-            <div className="pt-16"><THMRooms /></div>
+            <div className="py-16">
+              <Suspense fallback={<SectionFallback />}>
+                <HTBMachines />
+              </Suspense>
+            </div>
+            <div className="py-16">
+              <Suspense fallback={<SectionFallback />}>
+                <HTBAcademy />
+              </Suspense>
+            </div>
+            <div className="pt-16">
+              <Suspense fallback={<SectionFallback />}>
+                <THMRooms />
+              </Suspense>
+            </div>
           </div>
         </main>
         <Footer />
+        <ScrollToTop />
       </div>
     </LanguageProvider>
   )
