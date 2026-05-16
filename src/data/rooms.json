@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-15T23:37:00.195Z",
+  "last_updated": "2026-05-16T14:50:30.008Z",
   "statistics": {
     "total_rooms": 328,
     "completed": 321,
@@ -2505,7 +2505,7 @@
       "id": "60f952c158feb80049f89dc0",
       "title": "Nmap Live Host Discovery",
       "code": "nmap01",
-      "description": "Learn how to use Nmap to discover live hosts using ARP scan, ICMP scan, and TCP/UDP ping scan.",
+      "description": "Learn how to use Nmap to discover live hosts using ARP, ICMP, and TCP/UDP ping scan.",
       "difficulty": "medium",
       "type": "walkthrough",
       "completed": true,
@@ -2520,7 +2520,7 @@
         "Wireshark",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/a6b64823d42120e106cb7e89ceaa4817.png"
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62a7685ca6e7ce005d3f3afe-1778939441152"
     },
     {
       "id": "60f9532d58feb80049f89e01",
@@ -2531,22 +2531,24 @@
       "type": "walkthrough",
       "completed": true,
       "tags": [
-        "Red",
-        "Penetration testing",
-        "Red teaming",
+        "Penetration Tester/ Red Team",
         "Vulnerability analysis",
+        "Red teaming",
+        "Penetration testing",
+        "Linux",
+        "Nmap",
+        "Red",
         "enumeration",
         "Port scanning",
-        "Nmap",
-        "Linux"
+        "segment 2.5"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/b58d92b89e2890b5f5651e3927aee8f1.png"
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62a7685ca6e7ce005d3f3afe-1778940381346"
     },
     {
       "id": "60f953510bad50005b06ca78",
       "title": "Nmap Advanced Port Scans",
       "code": "nmap03",
-      "description": "Learn advanced techniques such as null, FIN, Xmas, and idle (zombie) scans, spoofing, in addition to FW and IDS evasion.",
+      "description": "Learn advanced scanning and spoofing techniques covering null, FIN, Xmas, and idle scans.",
       "difficulty": "medium",
       "type": "walkthrough",
       "completed": true,

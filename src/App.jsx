@@ -1,5 +1,6 @@
 import { lazy, Suspense } from 'react'
 import LanguageProvider from './context/LanguageProvider'
+import ThemeProvider from './context/ThemeProvider'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Experience from './components/Experience'
@@ -24,35 +25,37 @@ function SectionFallback() {
 
 function App() {
   return (
-    <LanguageProvider>
-      <div className="min-h-screen bg-bg text-light font-sans flex flex-col">
-        <Header />
-        <main className="max-w-5xl w-full mx-auto px-4 py-10 flex-1">
-          <div className="flex flex-col divide-y divide-surface2">
-            <div className="pb-16"><Hero /></div>
-            <div className="py-16"><Experience /></div>
-            <div className="py-16"><Skills /></div>
-            <div className="py-16">
-              <Suspense fallback={<SectionFallback />}>
-                <HTBMachines />
-              </Suspense>
+    <ThemeProvider>
+      <LanguageProvider>
+        <div className="min-h-screen bg-bg text-light font-sans flex flex-col">
+          <Header />
+          <main className="max-w-5xl w-full mx-auto px-4 py-10 flex-1">
+            <div className="flex flex-col divide-y divide-surface2">
+              <div className="pb-16"><Hero /></div>
+              <div className="py-16"><Experience /></div>
+              <div className="py-16"><Skills /></div>
+              <div className="py-16">
+                <Suspense fallback={<SectionFallback />}>
+                  <HTBMachines />
+                </Suspense>
+              </div>
+              <div className="py-16">
+                <Suspense fallback={<SectionFallback />}>
+                  <HTBAcademy />
+                </Suspense>
+              </div>
+              <div className="pt-16">
+                <Suspense fallback={<SectionFallback />}>
+                  <THMRooms />
+                </Suspense>
+              </div>
             </div>
-            <div className="py-16">
-              <Suspense fallback={<SectionFallback />}>
-                <HTBAcademy />
-              </Suspense>
-            </div>
-            <div className="pt-16">
-              <Suspense fallback={<SectionFallback />}>
-                <THMRooms />
-              </Suspense>
-            </div>
-          </div>
-        </main>
-        <Footer />
-        <ScrollToTop />
-      </div>
-    </LanguageProvider>
+          </main>
+          <Footer />
+          <ScrollToTop />
+        </div>
+      </LanguageProvider>
+    </ThemeProvider>
   )
 }
 

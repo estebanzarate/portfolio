@@ -40,25 +40,18 @@ const CONFIG = {
   }
 };
 
-/**
- * Processes HTB Academy statistics and module progress
- */
 async function processAcademy() {
   console.log('🎓 Processing HTB Academy...');
   const [statsRes, modulesRes] = await Promise.all([
     fetch(`${CONFIG.academy.base}/modules/statistics`, { headers: CONFIG.academy.headers }),
     fetch(`${CONFIG.academy.base}/modules?per_page=200`, { headers: CONFIG.academy.headers })
   ]);
-
   if (!statsRes.ok || !modulesRes.ok) throw new Error('HTB Academy API error');
-
   const statsRaw = await statsRes.json();
   const modulesRaw = await modulesRes.json();
-
   const items = statsRaw.data.completion_statistics.by_category;
   const byCategory = {};
   let totalCompleted = 0, totalModules = 0;
-
   for (const item of items) {
     const name = item.category.title;
     const completed = item.statistics.total_completed;
@@ -67,7 +60,6 @@ async function processAcademy() {
     totalCompleted += completed;
     totalModules += total;
   }
-
   const output = {
     last_updated: new Date().toISOString(),
     statistics: {
@@ -80,32 +72,25 @@ async function processAcademy() {
       id: m.id, name: m.name, slug: m.slug, description: m.description, progress: m.progress
     }))
   };
-
   writeFileSync(CONFIG.academy.output, JSON.stringify(output, null, 2));
   console.log(`✅ Academy: ${output.modules.length} modules saved.`);
 }
 
-/**
- * Processes HTB Lab Machines ownership data
- */
 async function processMachines() {
   console.log('🖥️  Processing HTB Machines...');
   const res = await fetch(`${CONFIG.machines.base}/machines?per_page=1000`, { headers: CONFIG.machines.headers });
   if (!res.ok) throw new Error('HTB Machines API error');
-
   const raw = await res.json();
   const machines = raw.data.map(m => ({
     id: m.id, name: m.name, os: m.os, difficulty: m.difficultyText,
     user_owned: m.authUserInUserOwns, root_owned: m.authUserInRootOwns
   }));
-
   const owned = raw.data.filter(m => m.authUserInRootOwns);
   const byOS = {}, byDifficulty = {};
   for (const m of owned) {
     byOS[m.os] = (byOS[m.os] ?? 0) + 1;
     byDifficulty[m.difficultyText] = (byDifficulty[m.difficultyText] ?? 0) + 1;
   }
-
   const output = {
     last_updated: new Date().toISOString(),
     statistics: {
@@ -117,18 +102,13 @@ async function processMachines() {
     },
     machines
   };
-
   writeFileSync(CONFIG.machines.output, JSON.stringify(output, null, 2));
   console.log(`✅ Machines: ${machines.length} saved.`);
 }
 
-/**
- * Processes TryHackMe user room data
- */
 async function processTHM() {
   console.log('🚪 Processing TryHackMe...');
   let page = 1, allDocs = [], totalPages = 1;
-
   while (page <= totalPages) {
     const res = await fetch(`${CONFIG.thm.base}/rooms/my-rooms?page=${page}&limit=200`, { headers: CONFIG.thm.headers });
     if (!res.ok) throw new Error(`THM API error on page ${page}`);
@@ -137,14 +117,12 @@ async function processTHM() {
     totalPages = json.data.totalPages;
     page++;
   }
-
   const completed = allDocs.filter(r => r.userCompleted);
   const byDifficulty = {}, byType = {};
   for (const r of completed) {
     byDifficulty[r.difficulty] = (byDifficulty[r.difficulty] ?? 0) + 1;
     byType[r.type] = (byType[r.type] ?? 0) + 1;
   }
-
   const output = {
     last_updated: new Date().toISOString(),
     statistics: {
@@ -160,28 +138,34 @@ async function processTHM() {
       tags: r.tagEntities.map(t => t.tagLabel), imageURL: r.imageURL,
     }))
   };
-
   writeFileSync(CONFIG.thm.output, JSON.stringify(output, null, 2));
   console.log(`✅ THM: ${output.rooms.length} rooms saved.`);
 }
 
-/**
- * Orchestrates the data fetching process
- */
 async function main() {
-  try {
-    mkdirSync(DATA_DIR, { recursive: true });
+  mkdirSync(DATA_DIR, { recursive: true });
 
-    await Promise.all([
-      processAcademy(),
-      processMachines(),
-      processTHM()
-    ]);
+  const results = await Promise.allSettled([
+    processAcademy(),
+    processMachines(),
+    processTHM(),
+  ]);
 
-    console.log('\n🚀 All data synchronized successfully!');
-  } catch (err) {
-    console.error('\n❌ Global Error:', err.message);
+  const labels = ['Academy', 'Machines', 'THM'];
+  let hasErrors = false;
+
+  results.forEach((result, i) => {
+    if (result.status === 'rejected') {
+      console.error(`\n❌ ${labels[i]} failed: ${result.reason?.message ?? result.reason}`);
+      hasErrors = true;
+    }
+  });
+
+  if (hasErrors) {
+    console.warn('\n⚠️  Sync completed with errors. Some data may be stale.');
     process.exit(1);
+  } else {
+    console.log('\n🚀 All data synchronized successfully!');
   }
 }
 

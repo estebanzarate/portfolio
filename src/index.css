@@ -1,15 +1,112 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #3B71CA;
-  --color-secondary: #9FA6B2;
+  --color-primary: #00e5a0;
+  --color-secondary: #888888;
   --color-success: #14A44D;
   --color-danger: #DC4C64;
   --color-warning: #E4A11B;
   --color-info: #54B4D3;
-  --color-light: #FBFBFB;
-  --color-dark: #332D2D;
-  --color-bg: #1a1a2e;
-  --color-surface: #16213e;
-  --color-surface2: #0f3460;
+  --color-light: #f0f0f0;
+  --color-dark: #0d0d0d;
+  --color-bg: #0d0d0d;
+  --color-surface: #1a1a1a;
+  --color-surface2: #2a2a2a;
+}
+
+html {
+  transition:
+    background-color 200ms ease,
+    color 200ms ease,
+    border-color 200ms ease;
+}
+
+/* ── Terminal ───────────────────────────────────────────────────────────────── */
+
+html[data-palette="terminal"][data-theme="dark"] {
+  --color-primary: #00e5a0;
+  --color-secondary: #888888;
+  --color-success: #14A44D;
+  --color-danger: #DC4C64;
+  --color-warning: #E4A11B;
+  --color-info: #54B4D3;
+  --color-light: #f0f0f0;
+  --color-dark: #0d0d0d;
+  --color-bg: #0d0d0d;
+  --color-surface: #1a1a1a;
+  --color-surface2: #2a2a2a;
+}
+
+html[data-palette="terminal"][data-theme="light"] {
+  --color-primary: #00a870;
+  --color-secondary: #777777;
+  --color-success: #0d7a3a;
+  --color-danger: #b83050;
+  --color-warning: #b07800;
+  --color-info: #2a7fa0;
+  --color-light: #111111;
+  --color-dark: #111111;
+  --color-bg: #f7f7f5;
+  --color-surface: #ffffff;
+  --color-surface2: #ebebea;
+}
+
+/* ── Void Blue ──────────────────────────────────────────────────────────────── */
+
+html[data-palette="void-blue"][data-theme="dark"] {
+  --color-primary: #4d9eff;
+  --color-secondary: #5a6677;
+  --color-success: #14A44D;
+  --color-danger: #DC4C64;
+  --color-warning: #E4A11B;
+  --color-info: #54B4D3;
+  --color-light: #e8eaf0;
+  --color-dark: #090e1a;
+  --color-bg: #090e1a;
+  --color-surface: #0e1624;
+  --color-surface2: #1c2a40;
+}
+
+html[data-palette="void-blue"][data-theme="light"] {
+  --color-primary: #1a5fb8;
+  --color-secondary: #7a8899;
+  --color-success: #0d7a3a;
+  --color-danger: #b83050;
+  --color-warning: #b07800;
+  --color-info: #2a7fa0;
+  --color-light: #0d1420;
+  --color-dark: #0d1420;
+  --color-bg: #f4f6fa;
+  --color-surface: #ffffff;
+  --color-surface2: #eaecf4;
+}
+
+/* ── Slate ──────────────────────────────────────────────────────────────────── */
+
+html[data-palette="slate"][data-theme="dark"] {
+  --color-primary: #ff8c42;
+  --color-secondary: #6e6a65;
+  --color-success: #14A44D;
+  --color-danger: #DC4C64;
+  --color-warning: #E4A11B;
+  --color-info: #54B4D3;
+  --color-light: #f0ede8;
+  --color-dark: #141210;
+  --color-bg: #141210;
+  --color-surface: #1e1b18;
+  --color-surface2: #2e2a25;
+}
+
+html[data-palette="slate"][data-theme="light"] {
+  --color-primary: #c45e10;
+  --color-secondary: #8a8680;
+  --color-success: #0d7a3a;
+  --color-danger: #b83050;
+  --color-warning: #b07800;
+  --color-info: #2a7fa0;
+  --color-light: #18150f;
+  --color-dark: #18150f;
+  --color-bg: #faf8f5;
+  --color-surface: #ffffff;
+  --color-surface2: #eeebe6;
 }

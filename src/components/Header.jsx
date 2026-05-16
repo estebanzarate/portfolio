@@ -1,9 +1,34 @@
 import { useState, useEffect, useRef } from 'react'
 import useLanguage from '../hooks/useLanguage'
+import useTheme from '../hooks/useTheme'
 import translations from '../data/translations'
+
+const PALETTE_ACCENT = {
+  'terminal': '#00e5a0',
+  'void-blue': '#4d9eff',
+  'slate': '#ff8c42',
+}
+
+function SunIcon() {
+  return (
+    <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="4" />
+      <path strokeLinecap="round" d="M12 2v2M12 20v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M2 12h2M20 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
+    </svg>
+  )
+}
+
+function MoonIcon() {
+  return (
+    <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
+    </svg>
+  )
+}
 
 function Header() {
   const { lang, toggleLang } = useLanguage()
+  const { theme, palette, currentPalette, toggleTheme, cyclePalette } = useTheme()
   const t = translations[lang].nav
   const [menuOpen, setMenuOpen] = useState(false)
   const [activeSection, setActiveSection] = useState('about')
@@ -22,11 +47,8 @@ function Header() {
     const sectionIds = navLinks.map(l => l.id)
     let intersectionObserver = null
 
-    // Registra en el IntersectionObserver todos los section IDs
-    // que ya existen en el DOM en ese momento
     function setupIntersectionObserver() {
       if (intersectionObserver) intersectionObserver.disconnect()
-
       intersectionObserver = new IntersectionObserver(
         entries => {
           entries.forEach(entry => {
@@ -35,15 +57,12 @@ function Header() {
         },
         { rootMargin: '-20% 0px -75% 0px', threshold: 0 }
       )
-
       sectionIds
         .map(id => document.getElementById(id))
         .filter(Boolean)
         .forEach(el => intersectionObserver.observe(el))
     }
 
-    // Observa el main para detectar cuando los componentes lazy
-    // montan sus secciones y agregan los elementos al DOM
     const mutationObserver = new MutationObserver(() => {
       const allFound = sectionIds.every(id => document.getElementById(id))
       setupIntersectionObserver()
@@ -53,9 +72,7 @@ function Header() {
     setupIntersectionObserver()
 
     const main = document.querySelector('main')
-    if (main) {
-      mutationObserver.observe(main, { childList: true, subtree: true })
-    }
+    if (main) mutationObserver.observe(main, { childList: true, subtree: true })
 
     return () => {
       intersectionObserver?.disconnect()
@@ -63,7 +80,6 @@ function Header() {
     }
   }, [])
 
-  // Cerrar menú con Escape
   useEffect(() => {
     function handleKey(e) {
       if (e.key === 'Escape') setMenuOpen(false)
@@ -72,7 +88,6 @@ function Header() {
     return () => document.removeEventListener('keydown', handleKey)
   }, [])
 
-  // Cerrar menú al hacer click fuera
   useEffect(() => {
     function handleClickOutside(e) {
       if (menuRef.current && !menuRef.current.contains(e.target)) {
@@ -83,7 +98,6 @@ function Header() {
     return () => document.removeEventListener('mousedown', handleClickOutside)
   }, [menuOpen])
 
-  // Bloquear scroll del body cuando el menú está abierto
   useEffect(() => {
     document.body.style.overflow = menuOpen ? 'hidden' : ''
     return () => { document.body.style.overflow = '' }
@@ -101,6 +115,8 @@ function Header() {
     return `${base} ${isActive ? 'text-primary' : 'text-secondary hover:text-primary'}`
   }
 
+  const accentColor = PALETTE_ACCENT[palette]
+
   return (
     <header className="sticky top-0 z-50 bg-surface border-b border-surface2 shadow-lg" ref={menuRef}>
       <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
@@ -111,24 +127,50 @@ function Header() {
         {/* Nav desktop */}
         <nav className="hidden md:flex items-center gap-6">
           {navLinks.map(link => (
-            <a
-              key={link.href}
-              href={link.href}
-              className={getLinkClass(link.id)}
-            >
+            <a key={link.href} href={link.href} className={getLinkClass(link.id)}>
               {link.label}
             </a>
           ))}
+        </nav>
+
+        {/* Controles desktop */}
+        <div className="hidden md:flex items-center gap-2">
+          <button
+            onClick={cyclePalette}
+            title={`Paleta: ${currentPalette.label}`}
+            className="w-7 h-7 rounded-full border-2 border-surface2 hover:border-primary/50 transition-all flex items-center justify-center"
+            style={{ backgroundColor: accentColor }}
+          />
+          <button
+            onClick={toggleTheme}
+            aria-label={theme === 'dark' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'}
+            className="w-8 h-8 flex items-center justify-center rounded border border-surface2 text-secondary hover:text-primary hover:border-primary/50 transition-all"
+          >
+            {theme === 'dark' ? <SunIcon /> : <MoonIcon />}
+          </button>
           <button
             onClick={toggleLang}
-            className="ml-2 px-2.5 py-1 rounded border border-surface2 text-secondary hover:text-light hover:border-primary/50 transition-all text-xs font-semibold tracking-wider"
+            className="px-2.5 py-1 rounded border border-surface2 text-secondary hover:text-light hover:border-primary/50 transition-all text-xs font-semibold tracking-wider"
           >
             {lang === 'es' ? 'EN' : 'ES'}
           </button>
-        </nav>
+        </div>
 
         {/* Controles mobile */}
-        <div className="flex md:hidden items-center gap-3">
+        <div className="flex md:hidden items-center gap-2">
+          <button
+            onClick={cyclePalette}
+            title={`Paleta: ${currentPalette.label}`}
+            className="w-6 h-6 rounded-full border-2 border-surface2 hover:border-primary/50 transition-all"
+            style={{ backgroundColor: accentColor }}
+          />
+          <button
+            onClick={toggleTheme}
+            aria-label={theme === 'dark' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'}
+            className="w-8 h-8 flex items-center justify-center rounded border border-surface2 text-secondary hover:text-primary transition-all"
+          >
+            {theme === 'dark' ? <SunIcon /> : <MoonIcon />}
+          </button>
           <button
             onClick={toggleLang}
             className="px-2.5 py-1 rounded border border-surface2 text-secondary hover:text-light hover:border-primary/50 transition-all text-xs font-semibold tracking-wider"
@@ -149,9 +191,7 @@ function Header() {
       </div>
 
       {/* Drawer mobile */}
-      <div
-        className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${menuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}
-      >
+      <div className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${menuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
         <nav className="flex flex-col border-t border-surface2 px-4 py-3 gap-1">
           {navLinks.map(link => (
             <a
