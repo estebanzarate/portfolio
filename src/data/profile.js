@@ -105,7 +105,7 @@ const profile = {
     education: [
       { id: 1, title: "TestOut Client Pro", institution: "TestOut Corporation", period: "2024", certificate: "/certificates/TOCP.webp" },
       { id: 2, title: "TestOut PC Pro", institution: "TestOut Corporation", period: "2024", certificate: "/certificates/TOPCP.webp" },
-      { id: 3, title: "Introducción a Linux", institution: "Hack4u", period: "2023" },
+      { id: 3, title: "Introducción a Linux", institution: "Hack4u", period: "2023", certificate: "/certificates/IL.webp" },
       { id: 4, title: "Introducción al Hacking", institution: "Hack4u", period: "2023", certificate: "/certificates/IH.webp" },
       { id: 5, title: "Python Ofensivo", institution: "Hack4u", period: "2023", certificate: "/certificates/PO.webp" },
       { id: 6, title: "Introduction to Cyber Security Learning Path", institution: "TryHackMe", period: "2023", certificate: "/certificates/ICSLP.webp" },
@@ -222,7 +222,7 @@ const profile = {
     education: [
       { id: 1, title: "TestOut Client Pro", institution: "TestOut Corporation", period: "2024", certificate: "/certificates/TOCP.webp" },
       { id: 2, title: "TestOut PC Pro", institution: "TestOut Corporation", period: "2024", certificate: "/certificates/TOPCP.webp" },
-      { id: 3, title: "Introduction to Linux", institution: "Hack4u", period: "2023" },
+      { id: 3, title: "Introduction to Linux", institution: "Hack4u", period: "2023", certificate: "/certificates/IL.webp" },
       { id: 4, title: "Introduction to Hacking", institution: "Hack4u", period: "2023", certificate: "/certificates/IH.webp" },
       { id: 5, title: "Offensive Python", institution: "Hack4u", period: "2023", certificate: "/certificates/PO.webp" },
       { id: 6, title: "Introduction to Cyber Security Learning Path", institution: "TryHackMe", period: "2023", certificate: "/certificates/ICSLP.webp" },
