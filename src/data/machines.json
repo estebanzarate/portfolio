@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-16T16:28:17.349Z",
+  "last_updated": "2026-05-17T01:28:31.042Z",
   "statistics": {
-    "total": 529,
+    "total": 530,
     "user_owns": 194,
     "root_owns": 193,
     "by_os": {
@@ -27,6 +27,14 @@
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
+    },
+    {
+      "id": 897,
+      "name": "SmartHire",
+      "os": "Linux",
+      "difficulty": "Medium",
+      "user_owned": false,
+      "root_owned": false
     },
     {
       "id": 894,

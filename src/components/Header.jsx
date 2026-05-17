@@ -3,11 +3,7 @@ import useLanguage from '../hooks/useLanguage'
 import useTheme from '../hooks/useTheme'
 import translations from '../data/translations'
 
-const PALETTE_ACCENT = {
-  'terminal': '#00e5a0',
-  'void-blue': '#4d9eff',
-  'slate': '#ff8c42',
-}
+const MOBILE_NAV_ID = 'mobile-nav-drawer'
 
 function SunIcon() {
   return (
@@ -26,6 +22,22 @@ function MoonIcon() {
   )
 }
 
+function usePrimaryColor(deps) {
+  const [color, setColor] = useState('')
+
+  useEffect(() => {
+    const raf = requestAnimationFrame(() => {
+      const value = getComputedStyle(document.documentElement)
+        .getPropertyValue('--color-primary')
+        .trim()
+      setColor(value)
+    })
+    return () => cancelAnimationFrame(raf)
+  }, deps)
+
+  return color
+}
+
 function Header() {
   const { lang, toggleLang } = useLanguage()
   const { theme, palette, currentPalette, toggleTheme, cyclePalette } = useTheme()
@@ -33,6 +45,8 @@ function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
   const [activeSection, setActiveSection] = useState('about')
   const menuRef = useRef(null)
+
+  const accentColor = usePrimaryColor([theme, palette])
 
   const navLinks = [
     { label: t.about, href: '#about', id: 'about' },
@@ -108,14 +122,12 @@ function Header() {
     const base = 'transition-colors text-sm font-medium'
     if (mobile) {
       return `${base} px-3 py-2.5 rounded-lg ${isActive
-        ? 'text-primary bg-primary/10'
-        : 'text-secondary hover:text-primary hover:bg-surface2/50'
+          ? 'text-primary bg-primary/10'
+          : 'text-secondary hover:text-primary hover:bg-surface2/50'
         }`
     }
     return `${base} ${isActive ? 'text-primary' : 'text-secondary hover:text-primary'}`
   }
-
-  const accentColor = PALETTE_ACCENT[palette]
 
   return (
     <header className="sticky top-0 z-50 bg-surface border-b border-surface2 shadow-lg" ref={menuRef}>
@@ -124,7 +136,6 @@ function Header() {
           Esteban Zárate
         </span>
 
-        {/* Nav desktop */}
         <nav className="hidden md:flex items-center gap-6">
           {navLinks.map(link => (
             <a key={link.href} href={link.href} className={getLinkClass(link.id)}>
@@ -133,12 +144,11 @@ function Header() {
           ))}
         </nav>
 
-        {/* Controles desktop */}
         <div className="hidden md:flex items-center gap-2">
           <button
             onClick={cyclePalette}
             title={`Paleta: ${currentPalette.label}`}
-            className="w-7 h-7 rounded-full border-2 border-surface2 hover:border-primary/50 transition-all flex items-center justify-center"
+            className="w-7 h-7 rounded-full border-2 border-surface2 hover:border-primary/50 transition-all"
             style={{ backgroundColor: accentColor }}
           />
           <button
@@ -156,7 +166,6 @@ function Header() {
           </button>
         </div>
 
-        {/* Controles mobile */}
         <div className="flex md:hidden items-center gap-2">
           <button
             onClick={cyclePalette}
@@ -181,6 +190,7 @@ function Header() {
             onClick={() => setMenuOpen(prev => !prev)}
             aria-label={menuOpen ? 'Cerrar menú' : 'Abrir menú'}
             aria-expanded={menuOpen}
+            aria-controls={MOBILE_NAV_ID}
             className="flex flex-col justify-center items-center w-8 h-8 gap-1.5 text-secondary hover:text-light transition-colors"
           >
             <span className={`block h-0.5 w-5 bg-current transition-all duration-300 origin-center ${menuOpen ? 'rotate-45 translate-y-2' : ''}`} />
@@ -190,8 +200,10 @@ function Header() {
         </div>
       </div>
 
-      {/* Drawer mobile */}
-      <div className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${menuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
+      <div
+        id={MOBILE_NAV_ID}
+        className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${menuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}
+      >
         <nav className="flex flex-col border-t border-surface2 px-4 py-3 gap-1">
           {navLinks.map(link => (
             <a

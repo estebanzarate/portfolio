@@ -38,6 +38,8 @@ const translations = {
       root: 'Root',
       prev: 'Anterior',
       next: 'Siguiente',
+      noData: 'No hay datos de máquinas disponibles.',
+      noResults: 'Ninguna máquina coincide con los filtros aplicados.',
     },
     academy: {
       subtitle: 'Actualizado',
@@ -55,6 +57,8 @@ const translations = {
       progress: 'Progreso',
       prev: 'Anterior',
       next: 'Siguiente',
+      noData: 'No hay datos de módulos disponibles.',
+      noResults: 'Ningún módulo coincide con los filtros aplicados.',
     },
     thm: {
       subtitle: 'Actualizado',
@@ -74,9 +78,15 @@ const translations = {
       status: 'Estado',
       prev: 'Anterior',
       next: 'Siguiente',
+      noData: 'No hay datos de rooms disponibles.',
+      noResults: 'Ninguna room coincide con los filtros aplicados.',
     },
     footer: {
       updatedAt: 'Actualizado',
+    },
+    common: {
+      loading: 'Cargando...',
+      sectionError: 'No se pudo cargar esta sección.',
     },
   },
   en: {
@@ -118,6 +128,8 @@ const translations = {
       root: 'Root',
       prev: 'Previous',
       next: 'Next',
+      noData: 'No machine data available.',
+      noResults: 'No machines match the applied filters.',
     },
     academy: {
       subtitle: 'Updated',
@@ -135,6 +147,8 @@ const translations = {
       progress: 'Progress',
       prev: 'Previous',
       next: 'Next',
+      noData: 'No module data available.',
+      noResults: 'No modules match the applied filters.',
     },
     thm: {
       subtitle: 'Updated',
@@ -154,9 +168,15 @@ const translations = {
       status: 'Status',
       prev: 'Previous',
       next: 'Next',
+      noData: 'No room data available.',
+      noResults: 'No rooms match the applied filters.',
     },
     footer: {
       updatedAt: 'Updated',
+    },
+    common: {
+      loading: 'Loading...',
+      sectionError: 'This section could not be loaded.',
     },
   },
 }

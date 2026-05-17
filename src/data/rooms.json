@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-05-16T16:27:56.333Z",
+  "last_updated": "2026-05-17T01:28:09.869Z",
   "statistics": {
-    "total_rooms": 328,
-    "completed": 321,
+    "total_rooms": 329,
+    "completed": 322,
     "completion_percentage": 97.9,
     "by_difficulty": {
       "easy": 230,
-      "medium": 56,
+      "medium": 57,
       "info": 35
     },
     "by_type": {
       "challenge": 59,
-      "walkthrough": 262
+      "walkthrough": 263
     }
   },
   "rooms": [
@@ -2562,7 +2562,7 @@
         "Nmap",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/4c839414544f794b63aafc6ed841848b.png"
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62a7685ca6e7ce005d3f3afe-1778952120935"
     },
     {
       "id": "60fd47daa0c4a9004968059b",
@@ -2723,7 +2723,7 @@
         "Nmap",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/d6b7bef661d649753707772c046ace34.png"
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62a7685ca6e7ce005d3f3afe-1778952644474"
     },
     {
       "id": "6129c9786b369d0050257a8d",
@@ -3764,6 +3764,26 @@
         "Web"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/24abefb51d5df78a4baa58fa49e979eb.png"
+    },
+    {
+      "id": "62ce7894bee3350061888866",
+      "title": "Traffic Analysis Essentials",
+      "code": "trafficanalysisessentials",
+      "description": "Learn Network Security and Traffic Analysis foundations and take a step into probing network anomalies.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": false,
+      "tags": [
+        "General Cyber",
+        "Blue",
+        "Security operations",
+        "Incident response",
+        "Network security engineering",
+        "Network monitoring",
+        "Network traffic analysis",
+        "Network troubleshooting"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735575427717"
     },
     {
       "id": "62e8333776ad610042452002",
@@ -6426,7 +6446,7 @@
       "description": "Learn about scanning tools such as Nmap, OpenVAS, and Nikto, and explore the world of pentesting.",
       "difficulty": "medium",
       "type": "walkthrough",
-      "completed": false,
+      "completed": true,
       "tags": [
         "Penetration Tester/ Red Team",
         "General Cyber",

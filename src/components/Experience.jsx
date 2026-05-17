@@ -1,13 +1,53 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import useLanguage from '../hooks/useLanguage'
 import profile from '../data/profile.js'
 import translations from '../data/translations'
 
-function CertificateModal({ edu, t, onClose }) {
+const FOCUSABLE = [
+  'a[href]',
+  'button:not([disabled])',
+  'input:not([disabled])',
+  'select:not([disabled])',
+  'textarea:not([disabled])',
+  '[tabindex]:not([tabindex="-1"])',
+].join(', ')
+
+function CertificateModal({ edu, t, onClose, triggerRef }) {
+  const modalRef = useRef(null)
+
+  useEffect(() => {
+    const firstFocusable = modalRef.current?.querySelectorAll(FOCUSABLE)?.[0]
+    firstFocusable?.focus()
+
+    return () => {
+      triggerRef.current?.focus()
+    }
+  }, [])
+
   useEffect(() => {
     function handleKey(e) {
-      if (e.key === 'Escape') onClose()
+      if (e.key === 'Escape') {
+        onClose()
+        return
+      }
+
+      if (e.key !== 'Tab') return
+
+      const focusable = [...(modalRef.current?.querySelectorAll(FOCUSABLE) ?? [])]
+      if (focusable.length === 0) return
+
+      const first = focusable[0]
+      const last = focusable[focusable.length - 1]
+
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault()
+        last.focus()
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault()
+        first.focus()
+      }
     }
+
     document.addEventListener('keydown', handleKey)
     return () => document.removeEventListener('keydown', handleKey)
   }, [onClose])
@@ -18,12 +58,16 @@ function CertificateModal({ edu, t, onClose }) {
       onClick={onClose}
     >
       <div
+        ref={modalRef}
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="cert-modal-title"
         className="relative bg-surface border border-surface2 rounded-xl shadow-2xl max-w-2xl w-full p-4 flex flex-col gap-4"
         onClick={e => e.stopPropagation()}
       >
         <div className="flex items-start justify-between gap-4">
           <div>
-            <h3 className="text-light font-semibold text-sm">{edu.title}</h3>
+            <h3 id="cert-modal-title" className="text-light font-semibold text-sm">{edu.title}</h3>
             <p className="text-info text-xs mt-0.5">{edu.institution} — {edu.period}</p>
           </div>
           <button
@@ -48,6 +92,12 @@ function Experience() {
   const p = profile[lang]
   const t = translations[lang].experience
   const [activeCert, setActiveCert] = useState(null)
+  const triggerRef = useRef(null)
+
+  function openCert(edu, buttonEl) {
+    triggerRef.current = buttonEl
+    setActiveCert(edu)
+  }
 
   return (
     <section id="experience" className="flex flex-col gap-10 scroll-mt-20">
@@ -85,6 +135,7 @@ function Experience() {
           ))}
         </div>
       </div>
+
       <div className="flex flex-col gap-6">
         <div className="border-l-4 border-info pl-4">
           <h2 className="text-2xl font-bold text-light">
@@ -107,7 +158,7 @@ function Experience() {
                 </span>
                 {edu.certificate && (
                   <button
-                    onClick={() => setActiveCert(edu)}
+                    onClick={e => openCert(edu, e.currentTarget)}
                     className="text-xs px-2 py-1 rounded border border-info/40 text-info hover:bg-info/10 transition-colors"
                   >
                     {t.viewCertificate}
@@ -118,8 +169,14 @@ function Experience() {
           ))}
         </div>
       </div>
+
       {activeCert && (
-        <CertificateModal edu={activeCert} t={t} onClose={() => setActiveCert(null)} />
+        <CertificateModal
+          edu={activeCert}
+          t={t}
+          onClose={() => setActiveCert(null)}
+          triggerRef={triggerRef}
+        />
       )}
     </section>
   )
