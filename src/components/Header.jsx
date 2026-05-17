@@ -43,7 +43,7 @@ function Header() {
   const { theme, palette, currentPalette, toggleTheme, cyclePalette } = useTheme()
   const t = translations[lang].nav
   const [menuOpen, setMenuOpen] = useState(false)
-  const [activeSection, setActiveSection] = useState('about')
+  const [activeSection, setActiveSection] = useState('')
   const menuRef = useRef(null)
 
   const accentColor = usePrimaryColor([theme, palette])
@@ -94,6 +94,15 @@ function Header() {
     }
   }, [])
 
+  // Resetear activeSection cuando el scroll vuelve al tope
+  useEffect(() => {
+    function handleScroll() {
+      if (window.scrollY === 0) setActiveSection('')
+    }
+    window.addEventListener('scroll', handleScroll, { passive: true })
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
   useEffect(() => {
     function handleKey(e) {
       if (e.key === 'Escape') setMenuOpen(false)
@@ -117,6 +126,11 @@ function Header() {
     return () => { document.body.style.overflow = '' }
   }, [menuOpen])
 
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+    setActiveSection('')
+  }
+
   function getLinkClass(id, mobile = false) {
     const isActive = activeSection === id
     const base = 'transition-colors text-sm font-medium'
@@ -132,9 +146,12 @@ function Header() {
   return (
     <header className="sticky top-0 z-50 bg-surface border-b border-surface2 shadow-lg" ref={menuRef}>
       <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-        <span className="text-primary font-bold text-xl tracking-wide">
+        <button
+          onClick={scrollToTop}
+          className="text-primary font-bold text-xl tracking-wide hover:opacity-80 transition-opacity"
+        >
           Esteban Zárate
-        </span>
+        </button>
 
         <nav className="hidden md:flex items-center gap-6">
           {navLinks.map(link => (
