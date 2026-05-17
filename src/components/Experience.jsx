@@ -38,22 +38,14 @@ function CertificateModal({ edu, t, onClose, triggerRef }) {
 
   useEffect(() => {
     function handleKey(e) {
-      if (e.key === 'Escape') {
-        onClose()
-        return
-      }
+      if (e.key === 'Escape') { onClose(); return }
       if (e.key !== 'Tab') return
       const focusable = [...(modalRef.current?.querySelectorAll(FOCUSABLE) ?? [])]
       if (focusable.length === 0) return
       const first = focusable[0]
       const last = focusable[focusable.length - 1]
-      if (e.shiftKey && document.activeElement === first) {
-        e.preventDefault()
-        last.focus()
-      } else if (!e.shiftKey && document.activeElement === last) {
-        e.preventDefault()
-        first.focus()
-      }
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus() }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus() }
     }
     document.addEventListener('keydown', handleKey)
     return () => document.removeEventListener('keydown', handleKey)
@@ -77,10 +69,7 @@ function CertificateModal({ edu, t, onClose, triggerRef }) {
             <h3 id="cert-modal-title" className="text-light font-semibold text-sm">{edu.title}</h3>
             <p className="text-primary text-xs mt-0.5">{edu.institution} — {edu.period}</p>
           </div>
-          <button
-            onClick={onClose}
-            className="text-secondary hover:text-light transition-colors text-lg leading-none shrink-0"
-          >
+          <button onClick={onClose} className="text-secondary hover:text-light transition-colors text-lg leading-none shrink-0">
             ✕
           </button>
         </div>
@@ -109,7 +98,7 @@ function Experience() {
   return (
     <section id="experience" className="flex flex-col gap-10 scroll-mt-20">
       <div className="flex flex-col gap-6">
-        <div className="border-l-4 border-warning pl-4">
+        <div className="border-l-4 border-primary pl-4">
           <h2 className="text-2xl font-bold text-light">{t.title}</h2>
         </div>
         <div className="flex flex-col gap-4">
@@ -130,10 +119,7 @@ function Experience() {
               <p className="text-secondary text-sm leading-relaxed">{exp.description}</p>
               <div className="flex flex-wrap gap-2">
                 {exp.tags.map(tag => (
-                  <span
-                    key={tag}
-                    className="px-2 py-0.5 rounded bg-surface2 text-secondary text-xs border border-surface2"
-                  >
+                  <span key={tag} className="px-2 py-0.5 rounded bg-surface2 text-secondary text-xs border border-surface2">
                     {tag}
                   </span>
                 ))}

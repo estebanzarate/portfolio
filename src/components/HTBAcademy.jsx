@@ -6,19 +6,12 @@ import StatCard from './ui/StatCard'
 import EmptyState from './ui/EmptyState'
 
 const ITEMS_PER_PAGE = 20
-const categoryColor = {
-  Offensive: 'text-danger border-danger/40 bg-danger/10',
-  Defensive: 'text-info border-info/40 bg-info/10',
-  General: 'text-primary border-primary/40 bg-primary/10',
-  Purple: 'text-secondary border-secondary/40 bg-secondary/10',
-}
 
 function ProgressBar({ value, label }) {
   const color =
     value === 100 ? 'bg-success' :
-      value >= 50 ? 'bg-warning' :
-        value > 0 ? 'bg-primary' :
-          'bg-surface2'
+      value > 0 ? 'bg-primary' :
+        'bg-surface2'
   return (
     <div
       className="flex items-center gap-2"
@@ -31,7 +24,7 @@ function ProgressBar({ value, label }) {
       <div className="flex-1 h-1.5 rounded-full bg-surface2 overflow-hidden">
         <div className={`h-full rounded-full transition-all ${color}`} style={{ width: `${value}%` }} />
       </div>
-      <span className="text-xs text-secondary w-8 text-right" aria-hidden="true">{value}%</span>
+      <span className="text-xs text-secondary w-8 text-right shrink-0" aria-hidden="true">{value}%</span>
     </div>
   )
 }
@@ -71,6 +64,14 @@ function HTBAcademy() {
   const hasData = modules.length > 0
   const hasResults = filtered.length > 0
 
+  const Pagination = () => totalPages > 1 ? (
+    <div className="flex items-center justify-center gap-2">
+      <button onClick={() => setPage(p => Math.max(1, p - 1))} disabled={page === 1} className="px-3 py-1.5 rounded bg-surface2 text-secondary hover:text-light disabled:opacity-30 text-sm transition-colors">{t.prev}</button>
+      <span className="text-secondary text-sm"><span className="text-light font-medium">{page}</span> / {totalPages}</span>
+      <button onClick={() => setPage(p => Math.min(totalPages, p + 1))} disabled={page === totalPages} className="px-3 py-1.5 rounded bg-surface2 text-secondary hover:text-light disabled:opacity-30 text-sm transition-colors">{t.next}</button>
+    </div>
+  ) : null
+
   return (
     <section id="academy" className="flex flex-col gap-6 scroll-mt-20">
       <div className="border-l-4 border-primary pl-4">
@@ -80,29 +81,17 @@ function HTBAcademy() {
         </p>
       </div>
 
-      {!hasData ? (
-        <EmptyState message={t.noData} />
-      ) : (
+      {!hasData ? <EmptyState message={t.noData} /> : (
         <>
           <div className="flex flex-wrap gap-3">
             <StatCard label={t.totalModules} value={statistics.total_modules} colorClass="border-surface2" />
-            <StatCard
-              label={t.completed}
-              value={statistics.completed}
-              sub={t.completedSub(statistics.completion_percentage)}
-              colorClass="border-success/40"
-            />
+            <StatCard label={t.completed} value={statistics.completed} sub={t.completedSub(statistics.completion_percentage)} colorClass="border-primary/40" />
           </div>
           <div className="flex flex-wrap gap-3">
             {Object.entries(statistics.by_category).map(([cat, data]) => (
-              <div
-                key={cat}
-                className={`flex flex-col px-4 py-3 rounded-lg bg-surface2 border min-w-[160px] gap-3 ${categoryColor[cat] ?? 'border-surface2'}`}
-              >
+              <div key={cat} className="flex flex-col px-4 py-3 rounded-lg bg-surface2 border border-surface2 min-w-[160px] gap-3">
                 <div className="flex flex-col gap-1">
-                  <span className={`text-xs font-semibold px-2 py-0.5 rounded border self-start ${categoryColor[cat] ?? ''}`}>
-                    {cat}
-                  </span>
+                  <span className="text-xs font-semibold text-light">{cat}</span>
                   <span className="text-xs text-secondary">{data.completed} / {data.total} {t.modules}</span>
                 </div>
                 <ProgressBar value={data.percentage} label={`${cat}: ${data.percentage}%`} />
@@ -117,22 +106,37 @@ function HTBAcademy() {
               onChange={e => { setSearch(e.target.value); setPage(1) }}
               className="flex-1 px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-light placeholder-secondary focus:outline-none focus:border-primary text-sm"
             />
-            <select
-              value={filterStatus}
-              onChange={e => { setFilterStatus(e.target.value); setPage(1) }}
-              className="px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-secondary focus:outline-none focus:border-primary text-sm"
-            >
-              {statusList.map(s => (
-                <option key={s} value={s}>{statusLabels[s]}</option>
-              ))}
+            <select value={filterStatus} onChange={e => { setFilterStatus(e.target.value); setPage(1) }} className="px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-secondary focus:outline-none focus:border-primary text-sm">
+              {statusList.map(s => <option key={s} value={s}>{statusLabels[s]}</option>)}
             </select>
           </div>
           <p className="text-secondary text-sm">{filtered.length} {t.found}</p>
-          {!hasResults ? (
-            <EmptyState message={t.noResults} />
-          ) : (
+
+          {!hasResults ? <EmptyState message={t.noResults} /> : (
             <>
-              <div className="overflow-x-auto rounded-lg border border-surface2">
+              {/* Cards mobile */}
+              <div className="flex flex-col gap-2 md:hidden">
+                {paginated.map(m => (
+                  <div key={m.id} className="flex flex-col gap-2 p-3 rounded-lg bg-surface border border-surface2">
+                    <button
+                      onClick={() => setExpanded(prev => prev === m.id ? null : m.id)}
+                      className="flex items-center justify-between gap-2 w-full text-left"
+                    >
+                      <span className="text-light font-medium text-sm">{m.name}</span>
+                      <span className="text-secondary text-xs shrink-0" aria-hidden="true">{expanded === m.id ? '▲' : '▼'}</span>
+                    </button>
+                    <ProgressBar value={m.progress} label={`${m.name}: ${m.progress}%`} />
+                    {expanded === m.id && m.description && (
+                      <p className="text-secondary text-xs leading-relaxed pt-1 border-t border-surface2">
+                        {m.description}
+                      </p>
+                    )}
+                  </div>
+                ))}
+              </div>
+
+              {/* Tabla desktop */}
+              <div className="hidden md:block overflow-x-auto rounded-lg border border-surface2">
                 <table className="w-full text-sm">
                   <thead>
                     <tr className="bg-surface2 text-secondary uppercase text-xs tracking-wider">
@@ -169,27 +173,7 @@ function HTBAcademy() {
                   </tbody>
                 </table>
               </div>
-              {totalPages > 1 && (
-                <div className="flex items-center justify-center gap-2">
-                  <button
-                    onClick={() => setPage(p => Math.max(1, p - 1))}
-                    disabled={page === 1}
-                    className="px-3 py-1.5 rounded bg-surface2 text-secondary hover:text-light disabled:opacity-30 text-sm transition-colors"
-                  >
-                    {t.prev}
-                  </button>
-                  <span className="text-secondary text-sm">
-                    <span className="text-light font-medium">{page}</span> / {totalPages}
-                  </span>
-                  <button
-                    onClick={() => setPage(p => Math.min(totalPages, p + 1))}
-                    disabled={page === totalPages}
-                    className="px-3 py-1.5 rounded bg-surface2 text-secondary hover:text-light disabled:opacity-30 text-sm transition-colors"
-                  >
-                    {t.next}
-                  </button>
-                </div>
-              )}
+              <Pagination />
             </>
           )}
         </>

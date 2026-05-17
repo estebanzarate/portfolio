@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-17T11:45:23.698Z",
+  "last_updated": "2026-05-17T23:11:49.556Z",
   "statistics": {
     "total_rooms": 329,
     "completed": 322,
     "completion_percentage": 97.9,
     "by_difficulty": {
-      "easy": 230,
-      "medium": 57,
+      "easy": 231,
+      "medium": 56,
       "info": 35
     },
     "by_type": {
@@ -2908,7 +2908,7 @@
       "title": "Net Sec Challenge",
       "code": "netsecchallenge",
       "description": "Practice the skills you have learned in the Network Security module.",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "type": "challenge",
       "completed": true,
       "tags": [
