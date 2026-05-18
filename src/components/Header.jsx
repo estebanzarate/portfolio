@@ -141,7 +141,7 @@ function Header() {
 
   function getLinkClass(id, mobile = false) {
     const isActive = activeSection === id
-    const base = 'transition-colors text-sm font-medium'
+    const base = 'cursor-pointer transition-colors text-sm font-medium'
     if (mobile) {
       return `${base} px-3 py-2.5 rounded-lg ${isActive
           ? 'text-primary bg-primary/10'
@@ -156,7 +156,7 @@ function Header() {
       <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
         <button
           onClick={scrollToTop}
-          className="text-primary font-bold text-xl tracking-wide hover:opacity-80 transition-opacity"
+          className="cursor-pointer text-primary font-bold text-xl tracking-wide hover:opacity-80 transition-opacity"
         >
           Esteban Zárate
         </button>
@@ -178,19 +178,19 @@ function Header() {
           <button
             onClick={cyclePalette}
             title={`Paleta: ${currentPalette.label}`}
-            className="w-7 h-7 rounded-full border-2 border-surface2 hover:border-primary/50 transition-all"
+            className="cursor-pointer w-7 h-7 rounded-full border-2 border-surface2 hover:border-primary/50 transition-all"
             style={{ backgroundColor: accentColor }}
           />
           <button
             onClick={toggleTheme}
             aria-label={theme === 'dark' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'}
-            className="w-8 h-8 flex items-center justify-center rounded border border-surface2 text-secondary hover:text-primary hover:border-primary/50 transition-all"
+            className="cursor-pointer w-8 h-8 flex items-center justify-center rounded border border-surface2 text-secondary hover:text-primary hover:border-primary/50 transition-all"
           >
             {theme === 'dark' ? <SunIcon /> : <MoonIcon />}
           </button>
           <button
             onClick={toggleLang}
-            className="px-2.5 py-1 rounded border border-surface2 text-secondary hover:text-light hover:border-primary/50 transition-all text-xs font-semibold tracking-wider"
+            className="cursor-pointer px-2.5 py-1 rounded border border-surface2 text-secondary hover:text-light hover:border-primary/50 transition-all text-xs font-semibold tracking-wider"
           >
             {lang === 'es' ? 'EN' : 'ES'}
           </button>
@@ -200,19 +200,19 @@ function Header() {
           <button
             onClick={cyclePalette}
             title={`Paleta: ${currentPalette.label}`}
-            className="w-6 h-6 rounded-full border-2 border-surface2 hover:border-primary/50 transition-all"
+            className="cursor-pointer w-6 h-6 rounded-full border-2 border-surface2 hover:border-primary/50 transition-all"
             style={{ backgroundColor: accentColor }}
           />
           <button
             onClick={toggleTheme}
             aria-label={theme === 'dark' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'}
-            className="w-8 h-8 flex items-center justify-center rounded border border-surface2 text-secondary hover:text-primary transition-all"
+            className="cursor-pointer w-8 h-8 flex items-center justify-center rounded border border-surface2 text-secondary hover:text-primary transition-all"
           >
             {theme === 'dark' ? <SunIcon /> : <MoonIcon />}
           </button>
           <button
             onClick={toggleLang}
-            className="px-2.5 py-1 rounded border border-surface2 text-secondary hover:text-light hover:border-primary/50 transition-all text-xs font-semibold tracking-wider"
+            className="cursor-pointer px-2.5 py-1 rounded border border-surface2 text-secondary hover:text-light hover:border-primary/50 transition-all text-xs font-semibold tracking-wider"
           >
             {lang === 'es' ? 'EN' : 'ES'}
           </button>
@@ -221,7 +221,7 @@ function Header() {
             aria-label={menuOpen ? 'Cerrar menú' : 'Abrir menú'}
             aria-expanded={menuOpen}
             aria-controls={MOBILE_NAV_ID}
-            className="flex flex-col justify-center items-center w-8 h-8 gap-1.5 text-secondary hover:text-light transition-colors"
+            className="cursor-pointer flex flex-col justify-center items-center w-8 h-8 gap-1.5 text-secondary hover:text-light transition-colors"
           >
             <span className={`block h-0.5 w-5 bg-current transition-all duration-300 origin-center ${menuOpen ? 'rotate-45 translate-y-2' : ''}`} />
             <span className={`block h-0.5 w-5 bg-current transition-all duration-300 ${menuOpen ? 'opacity-0 scale-x-0' : ''}`} />

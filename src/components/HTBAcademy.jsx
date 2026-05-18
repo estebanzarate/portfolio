@@ -7,6 +7,8 @@ import StatsBanner from './ui/StatsBanner'
 import EmptyState from './ui/EmptyState'
 
 const ITEMS_PER_PAGE = 20
+const paginationBtn = 'px-3 py-1.5 rounded bg-surface2 text-secondary text-sm transition-colors cursor-pointer hover:text-light disabled:opacity-30 disabled:cursor-not-allowed'
+const selectClass = 'cursor-pointer px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-secondary focus:outline-none focus:border-primary text-sm'
 
 function ProgressBar({ value, label }) {
   const color =
@@ -61,17 +63,15 @@ function HTBAcademy() {
     { label: t.completed, value: statistics.completed, accent: true },
     { label: '%', value: `${statistics.completion_percentage}%`, accent: false },
   ]
-
   const bannerChips = Object.entries(statistics.by_category).map(([cat, data]) => ({
-    label: cat,
-    value: `${data.completed}/${data.total}`,
+    label: cat, value: `${data.completed}/${data.total}`,
   }))
 
   const Pagination = () => totalPages > 1 ? (
     <div className="flex items-center justify-center gap-2">
-      <button onClick={() => setPage(p => Math.max(1, p - 1))} disabled={page === 1} className="px-3 py-1.5 rounded bg-surface2 text-secondary hover:text-light disabled:opacity-30 text-sm transition-colors">{t.prev}</button>
+      <button onClick={() => setPage(p => Math.max(1, p - 1))} disabled={page === 1} className={paginationBtn}>{t.prev}</button>
       <span className="text-secondary text-sm"><span className="text-light font-medium">{page}</span> / {totalPages}</span>
-      <button onClick={() => setPage(p => Math.min(totalPages, p + 1))} disabled={page === totalPages} className="px-3 py-1.5 rounded bg-surface2 text-secondary hover:text-light disabled:opacity-30 text-sm transition-colors">{t.next}</button>
+      <button onClick={() => setPage(p => Math.min(totalPages, p + 1))} disabled={page === totalPages} className={paginationBtn}>{t.next}</button>
     </div>
   ) : null
 
@@ -86,10 +86,7 @@ function HTBAcademy() {
 
       {!hasData ? <EmptyState message={t.noData} /> : (
         <>
-          {/* Stats mobile */}
           <StatsBanner items={bannerItems} chips={bannerChips} />
-
-          {/* Stats desktop */}
           <div className="hidden md:flex flex-wrap gap-3">
             <StatCard label={t.totalModules} value={statistics.total_modules} colorClass="border-surface2" />
             <StatCard label={t.completed} value={statistics.completed} sub={t.completedSub(statistics.completion_percentage)} colorClass="border-primary/40" />
@@ -108,7 +105,7 @@ function HTBAcademy() {
 
           <div className="flex flex-col sm:flex-row gap-3">
             <input type="text" placeholder={t.searchPlaceholder} value={search} onChange={e => { setSearch(e.target.value); setPage(1) }} className="flex-1 px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-light placeholder-secondary focus:outline-none focus:border-primary text-sm" />
-            <select value={filterStatus} onChange={e => { setFilterStatus(e.target.value); setPage(1) }} className="px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-secondary focus:outline-none focus:border-primary text-sm">
+            <select value={filterStatus} onChange={e => { setFilterStatus(e.target.value); setPage(1) }} className={selectClass}>
               {statusList.map(s => <option key={s} value={s}>{statusLabels[s]}</option>)}
             </select>
           </div>
@@ -119,7 +116,7 @@ function HTBAcademy() {
               <div className="flex flex-col gap-2 md:hidden">
                 {paginated.map(m => (
                   <div key={m.id} className="flex flex-col gap-2 p-3 rounded-lg bg-surface border border-surface2">
-                    <button onClick={() => setExpanded(prev => prev === m.id ? null : m.id)} className="flex items-center justify-between gap-2 w-full text-left">
+                    <button onClick={() => setExpanded(prev => prev === m.id ? null : m.id)} className="cursor-pointer flex items-center justify-between gap-2 w-full text-left">
                       <span className="text-light font-medium text-sm">{m.name}</span>
                       <span className="text-secondary text-xs shrink-0" aria-hidden="true">{expanded === m.id ? '▲' : '▼'}</span>
                     </button>
@@ -141,7 +138,7 @@ function HTBAcademy() {
                   <tbody>
                     {paginated.map((m, i) => (
                       <Fragment key={m.id}>
-                        <tr onClick={() => setExpanded(prev => prev === m.id ? null : m.id)} className={`border-t border-surface2 hover:bg-surface2/50 transition-colors cursor-pointer ${i % 2 === 0 ? '' : 'bg-surface/30'}`}>
+                        <tr onClick={() => setExpanded(prev => prev === m.id ? null : m.id)} className={`cursor-pointer border-t border-surface2 hover:bg-surface2/50 transition-colors ${i % 2 === 0 ? '' : 'bg-surface/30'}`}>
                           <td className="px-4 py-3">
                             <div className="flex items-center gap-2">
                               <span className="text-light font-medium">{m.name}</span>

@@ -17,6 +17,8 @@ const typeColor = {
   challenge: 'text-secondary border-surface2 bg-surface2',
 }
 const ITEMS_PER_PAGE = 20
+const paginationBtn = 'px-3 py-1.5 rounded bg-surface2 text-secondary text-sm transition-colors cursor-pointer hover:text-light disabled:opacity-30 disabled:cursor-not-allowed'
+const selectClass = 'cursor-pointer px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-secondary focus:outline-none focus:border-primary text-sm'
 
 function THMRooms() {
   const { lang } = useLanguage()
@@ -54,23 +56,20 @@ function THMRooms() {
     { label: t.completed, value: statistics.completed, accent: true },
     { label: t.percentage, value: `${statistics.completion_percentage}%`, accent: false },
   ]
-
   const bannerChips = [
     ...Object.entries(statistics.by_difficulty).map(([diff, count]) => ({
-      label: diff.charAt(0).toUpperCase() + diff.slice(1),
-      value: count,
+      label: diff.charAt(0).toUpperCase() + diff.slice(1), value: count,
     })),
     ...Object.entries(statistics.by_type).map(([type, count]) => ({
-      label: type.charAt(0).toUpperCase() + type.slice(1),
-      value: count,
+      label: type.charAt(0).toUpperCase() + type.slice(1), value: count,
     })),
   ]
 
   const Pagination = () => totalPages > 1 ? (
     <div className="flex items-center justify-center gap-2">
-      <button onClick={() => setPage(p => Math.max(1, p - 1))} disabled={page === 1} className="px-3 py-1.5 rounded bg-surface2 text-secondary hover:text-light disabled:opacity-30 text-sm transition-colors">{t.prev}</button>
+      <button onClick={() => setPage(p => Math.max(1, p - 1))} disabled={page === 1} className={paginationBtn}>{t.prev}</button>
       <span className="text-secondary text-sm"><span className="text-light font-medium">{page}</span> / {totalPages}</span>
-      <button onClick={() => setPage(p => Math.min(totalPages, p + 1))} disabled={page === totalPages} className="px-3 py-1.5 rounded bg-surface2 text-secondary hover:text-light disabled:opacity-30 text-sm transition-colors">{t.next}</button>
+      <button onClick={() => setPage(p => Math.min(totalPages, p + 1))} disabled={page === totalPages} className={paginationBtn}>{t.next}</button>
     </div>
   ) : null
 
@@ -85,10 +84,7 @@ function THMRooms() {
 
       {!hasData ? <EmptyState message={t.noData} /> : (
         <>
-          {/* Stats mobile */}
           <StatsBanner items={bannerItems} chips={bannerChips} />
-
-          {/* Stats desktop */}
           <div className="hidden md:flex flex-wrap gap-3">
             <StatCard label={t.total} value={statistics.total_rooms} colorClass="border-surface2" />
             <StatCard label={t.completed} value={statistics.completed} colorClass="border-primary/40" />
@@ -105,13 +101,13 @@ function THMRooms() {
 
           <div className="flex flex-col sm:flex-row gap-3">
             <input type="text" placeholder={t.searchPlaceholder} value={search} onChange={e => { setSearch(e.target.value); setPage(1) }} className="flex-1 px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-light placeholder-secondary focus:outline-none focus:border-primary text-sm" />
-            <select value={filterDiff} onChange={e => resetPage(setFilterDiff)(e.target.value)} className="px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-secondary focus:outline-none focus:border-primary text-sm">
+            <select value={filterDiff} onChange={e => resetPage(setFilterDiff)(e.target.value)} className={selectClass}>
               {diffList.map(d => <option key={d} value={d}>{d === 'All' ? t.allDiff : d.charAt(0).toUpperCase() + d.slice(1)}</option>)}
             </select>
-            <select value={filterType} onChange={e => resetPage(setFilterType)(e.target.value)} className="px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-secondary focus:outline-none focus:border-primary text-sm">
+            <select value={filterType} onChange={e => resetPage(setFilterType)(e.target.value)} className={selectClass}>
               {typeList.map(t_ => <option key={t_} value={t_}>{t_ === 'All' ? t.allType : t_.charAt(0).toUpperCase() + t_.slice(1)}</option>)}
             </select>
-            <select value={filterDone} onChange={e => resetPage(setFilterDone)(e.target.value)} className="px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-secondary focus:outline-none focus:border-primary text-sm">
+            <select value={filterDone} onChange={e => resetPage(setFilterDone)(e.target.value)} className={selectClass}>
               <option value="All">{t.allStatus}</option>
               <option value="completed">{t.completedFilter}</option>
               <option value="incomplete">{t.incompleteFilter}</option>

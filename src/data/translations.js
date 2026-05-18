@@ -16,6 +16,7 @@ const translations = {
       education: 'Educación y',
       certifications: 'Certificaciones',
       viewCertificate: 'Ver certificado',
+      openFullSize: 'Abrir en tamaño completo',
     },
     skills: {
       title: 'Skills y',
@@ -106,6 +107,7 @@ const translations = {
       education: 'Education &',
       certifications: 'Certifications',
       viewCertificate: 'View certificate',
+      openFullSize: 'Open full size',
     },
     skills: {
       title: 'Skills &',

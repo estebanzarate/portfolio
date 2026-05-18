@@ -13,6 +13,8 @@ const difficultyColor = {
   Insane: 'text-info border-info/40 bg-info/10',
 }
 const ITEMS_PER_PAGE = 20
+const paginationBtn = 'px-3 py-1.5 rounded bg-surface2 text-secondary text-sm transition-colors cursor-pointer hover:text-light disabled:opacity-30 disabled:cursor-not-allowed'
+const selectClass = 'cursor-pointer px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-secondary focus:outline-none focus:border-primary text-sm'
 
 function HTBMachines() {
   const { lang } = useLanguage()
@@ -48,7 +50,6 @@ function HTBMachines() {
     { label: t.userOwns, value: statistics.user_owns, accent: false },
     { label: t.rootOwns, value: statistics.root_owns, accent: true },
   ]
-
   const bannerChips = [
     ...Object.entries(statistics.by_difficulty).map(([d, v]) => ({ label: d, value: v })),
     ...Object.entries(statistics.by_os).map(([os, v]) => ({ label: os, value: v })),
@@ -56,9 +57,9 @@ function HTBMachines() {
 
   const Pagination = () => totalPages > 1 ? (
     <div className="flex items-center justify-center gap-2">
-      <button onClick={() => setPage(p => Math.max(1, p - 1))} disabled={page === 1} className="px-3 py-1.5 rounded bg-surface2 text-secondary hover:text-light disabled:opacity-30 text-sm transition-colors">{t.prev}</button>
+      <button onClick={() => setPage(p => Math.max(1, p - 1))} disabled={page === 1} className={paginationBtn}>{t.prev}</button>
       <span className="text-secondary text-sm"><span className="text-light font-medium">{page}</span> / {totalPages}</span>
-      <button onClick={() => setPage(p => Math.min(totalPages, p + 1))} disabled={page === totalPages} className="px-3 py-1.5 rounded bg-surface2 text-secondary hover:text-light disabled:opacity-30 text-sm transition-colors">{t.next}</button>
+      <button onClick={() => setPage(p => Math.min(totalPages, p + 1))} disabled={page === totalPages} className={paginationBtn}>{t.next}</button>
     </div>
   ) : null
 
@@ -73,10 +74,7 @@ function HTBMachines() {
 
       {!hasData ? <EmptyState message={t.noData} /> : (
         <>
-          {/* Stats mobile */}
           <StatsBanner items={bannerItems} chips={bannerChips} />
-
-          {/* Stats desktop */}
           <div className="hidden md:flex flex-wrap gap-3">
             <StatCard label={t.total} value={statistics.total} colorClass="border-surface2" />
             <StatCard label={t.userOwns} value={statistics.user_owns} colorClass="border-surface2" />
@@ -96,10 +94,10 @@ function HTBMachines() {
 
           <div className="flex flex-col sm:flex-row gap-3">
             <input type="text" placeholder={t.searchPlaceholder} value={search} onChange={e => { setSearch(e.target.value); setPage(1) }} className="flex-1 px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-light placeholder-secondary focus:outline-none focus:border-primary text-sm" />
-            <select value={filterOS} onChange={e => handleFilterChange(setFilterOS)(e.target.value)} className="px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-secondary focus:outline-none focus:border-primary text-sm">
+            <select value={filterOS} onChange={e => handleFilterChange(setFilterOS)(e.target.value)} className={selectClass}>
               {osList.map(os => <option key={os} value={os}>{os === 'All' ? t.allOS : os}</option>)}
             </select>
-            <select value={filterDiff} onChange={e => handleFilterChange(setFilterDiff)(e.target.value)} className="px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-secondary focus:outline-none focus:border-primary text-sm">
+            <select value={filterDiff} onChange={e => handleFilterChange(setFilterDiff)(e.target.value)} className={selectClass}>
               {diffList.map(d => <option key={d} value={d}>{d === 'All' ? t.allDiff : d}</option>)}
             </select>
           </div>

@@ -29,6 +29,14 @@ function ExternalLinkIcon() {
 
 function CertificateModal({ edu, t, onClose, triggerRef }) {
   const modalRef = useRef(null)
+  const [visible, setVisible] = useState(false)
+  const [imgReady, setImgReady] = useState(false)
+
+  // Fade-in del modal tras el primer frame
+  useEffect(() => {
+    const raf = requestAnimationFrame(() => setVisible(true))
+    return () => cancelAnimationFrame(raf)
+  }, [])
 
   useEffect(() => {
     const firstFocusable = modalRef.current?.querySelectorAll(FOCUSABLE)?.[0]
@@ -53,7 +61,7 @@ function CertificateModal({ edu, t, onClose, triggerRef }) {
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-dark/70 backdrop-blur-sm"
+      className={`fixed inset-0 z-50 flex items-center justify-center p-4 bg-dark/70 backdrop-blur-sm cursor-pointer transition-opacity duration-200 ${visible ? 'opacity-100' : 'opacity-0'}`}
       onClick={onClose}
     >
       <div
@@ -61,7 +69,7 @@ function CertificateModal({ edu, t, onClose, triggerRef }) {
         role="dialog"
         aria-modal="true"
         aria-labelledby="cert-modal-title"
-        className="relative bg-surface border border-surface2 rounded-xl shadow-2xl max-w-2xl w-full p-4 flex flex-col gap-4"
+        className={`relative bg-surface border border-surface2 rounded-xl shadow-2xl max-w-2xl w-full p-4 flex flex-col gap-4 cursor-default transition-all duration-200 ${visible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}
         onClick={e => e.stopPropagation()}
       >
         <div className="flex items-start justify-between gap-4">
@@ -69,15 +77,41 @@ function CertificateModal({ edu, t, onClose, triggerRef }) {
             <h3 id="cert-modal-title" className="text-light font-semibold text-sm">{edu.title}</h3>
             <p className="text-primary text-xs mt-0.5">{edu.institution} — {edu.period}</p>
           </div>
-          <button onClick={onClose} className="text-secondary hover:text-light transition-colors text-lg leading-none shrink-0">
-            ✕
-          </button>
+          <div className="flex items-center gap-2 shrink-0">
+            <a
+              href={edu.certificate}
+              target="_blank"
+              rel="noopener noreferrer"
+              title={t.openFullSize}
+              className="cursor-pointer text-secondary hover:text-primary transition-colors"
+              onClick={e => e.stopPropagation()}
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+            <button
+              onClick={onClose}
+              className="cursor-pointer text-secondary hover:text-light transition-colors text-lg leading-none"
+            >
+              ✕
+            </button>
+          </div>
         </div>
-        <img
-          src={edu.certificate}
-          alt={`${t.viewCertificate} — ${edu.title}`}
-          className="w-full rounded-lg border border-surface2 object-contain max-h-[70vh]"
-        />
+
+        <div className="relative w-full rounded-lg overflow-hidden border border-surface2 min-h-[200px] flex items-center justify-center bg-surface2/30">
+          {!imgReady && (
+            <div className="absolute inset-0 flex items-center justify-center">
+              <div className="w-6 h-6 rounded-full border-2 border-primary border-t-transparent animate-spin" />
+            </div>
+          )}
+          <img
+            src={edu.certificate}
+            alt={`${t.viewCertificate} — ${edu.title}`}
+            onLoad={() => setImgReady(true)}
+            className={`w-full object-contain max-h-[65vh] transition-opacity duration-300 ${imgReady ? 'opacity-100' : 'opacity-0'}`}
+          />
+        </div>
       </div>
     </div>
   )
@@ -93,6 +127,12 @@ function Experience() {
   function openCert(edu, buttonEl) {
     triggerRef.current = buttonEl
     setActiveCert(edu)
+    window.dispatchEvent(new CustomEvent('certModal', { detail: { open: true } }))
+  }
+
+  function closeCert() {
+    setActiveCert(null)
+    window.dispatchEvent(new CustomEvent('certModal', { detail: { open: false } }))
   }
 
   return (
@@ -164,7 +204,7 @@ function Experience() {
                 {edu.certificate && (
                   <button
                     onClick={e => openCert(edu, e.currentTarget)}
-                    className="text-xs px-2 py-1 rounded border border-primary/40 text-primary hover:bg-primary/10 transition-colors"
+                    className="cursor-pointer text-xs px-2 py-1 rounded border border-primary/40 text-primary hover:bg-primary/10 transition-colors"
                   >
                     {t.viewCertificate}
                   </button>
@@ -179,7 +219,7 @@ function Experience() {
         <CertificateModal
           edu={activeCert}
           t={t}
-          onClose={() => setActiveCert(null)}
+          onClose={closeCert}
           triggerRef={triggerRef}
         />
       )}
