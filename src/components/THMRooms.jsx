@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react'
 import useLanguage from '../hooks/useLanguage'
 import translations from '../data/translations'
 import roomsData from '../data/rooms.json'
+import writeupsData from '../data/writeups.json'
 import StatCard from './ui/StatCard'
 import StatsBanner from './ui/StatsBanner'
 import EmptyState from './ui/EmptyState'
@@ -19,6 +20,23 @@ const typeColor = {
 const ITEMS_PER_PAGE = 20
 const paginationBtn = 'px-3 py-1.5 rounded bg-surface2 text-secondary text-sm transition-colors cursor-pointer hover:text-light disabled:opacity-30 disabled:cursor-not-allowed'
 const selectClass = 'cursor-pointer px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-secondary focus:outline-none focus:border-primary text-sm'
+
+function WriteupLink({ url, label }) {
+  if (!url) return <span className="text-secondary text-xs">—</span>
+  return (
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-1 text-xs text-primary hover:underline cursor-pointer"
+    >
+      {label}
+      <svg className="w-3 h-3" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24" aria-hidden="true">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+      </svg>
+    </a>
+  )
+}
 
 function THMRooms() {
   const { lang } = useLanguage()
@@ -117,26 +135,33 @@ function THMRooms() {
 
           {!hasResults ? <EmptyState message={t.noResults} /> : (
             <>
+              {/* Cards mobile */}
               <div className="flex flex-col gap-2 md:hidden">
-                {paginated.map(r => (
-                  <div key={r.id} className="flex items-center justify-between gap-3 p-3 rounded-lg bg-surface border border-surface2">
-                    <div className="flex flex-col gap-1.5 min-w-0">
-                      <span className="text-light font-medium text-sm leading-tight">{r.title}</span>
-                      <div className="flex items-center gap-1.5 flex-wrap">
-                        <span className={`px-2 py-0.5 rounded border text-xs font-medium ${difficultyColor[r.difficulty] ?? 'text-secondary border-surface2'}`}>
-                          {r.difficulty.charAt(0).toUpperCase() + r.difficulty.slice(1)}
-                        </span>
-                        <span className={`px-2 py-0.5 rounded border text-xs font-medium ${typeColor[r.type] ?? 'text-secondary border-surface2'}`}>
-                          {r.type.charAt(0).toUpperCase() + r.type.slice(1)}
-                        </span>
+                {paginated.map(r => {
+                  const writeup = writeupsData.rooms[r.code]?.writeup ?? null
+                  return (
+                    <div key={r.id} className="flex items-center justify-between gap-3 p-3 rounded-lg bg-surface border border-surface2">
+                      <div className="flex flex-col gap-1.5 min-w-0">
+                        <span className="text-light font-medium text-sm leading-tight">{r.title}</span>
+                        <div className="flex items-center gap-1.5 flex-wrap">
+                          <span className={`px-2 py-0.5 rounded border text-xs font-medium ${difficultyColor[r.difficulty] ?? 'text-secondary border-surface2'}`}>
+                            {r.difficulty.charAt(0).toUpperCase() + r.difficulty.slice(1)}
+                          </span>
+                          <span className={`px-2 py-0.5 rounded border text-xs font-medium ${typeColor[r.type] ?? 'text-secondary border-surface2'}`}>
+                            {r.type.charAt(0).toUpperCase() + r.type.slice(1)}
+                          </span>
+                          {writeup && <WriteupLink url={writeup} label="Writeup" />}
+                        </div>
                       </div>
+                      <span className={`text-lg font-bold shrink-0 ${r.completed ? 'text-success' : 'text-secondary'}`}>
+                        {r.completed ? '✓' : '✗'}
+                      </span>
                     </div>
-                    <span className={`text-lg font-bold shrink-0 ${r.completed ? 'text-success' : 'text-secondary'}`}>
-                      {r.completed ? '✓' : '✗'}
-                    </span>
-                  </div>
-                ))}
+                  )
+                })}
               </div>
+
+              {/* Tabla desktop */}
               <div className="hidden md:block overflow-x-auto rounded-lg border border-surface2">
                 <table className="w-full text-sm">
                   <thead>
@@ -145,27 +170,32 @@ function THMRooms() {
                       <th className="px-4 py-3 text-left">{t.difficulty}</th>
                       <th className="px-4 py-3 text-left">{t.type}</th>
                       <th className="px-4 py-3 text-center">{t.status}</th>
+                      <th className="px-4 py-3 text-left">{t.writeup}</th>
                     </tr>
                   </thead>
                   <tbody>
-                    {paginated.map((r, i) => (
-                      <tr key={r.id} className={`border-t border-surface2 hover:bg-surface2/50 transition-colors ${i % 2 === 0 ? '' : 'bg-surface/30'}`}>
-                        <td className="px-4 py-3 text-light font-medium">{r.title}</td>
-                        <td className="px-4 py-3">
-                          <span className={`px-2 py-0.5 rounded border text-xs font-medium ${difficultyColor[r.difficulty] ?? 'text-secondary border-surface2'}`}>
-                            {r.difficulty.charAt(0).toUpperCase() + r.difficulty.slice(1)}
-                          </span>
-                        </td>
-                        <td className="px-4 py-3">
-                          <span className={`px-2 py-0.5 rounded border text-xs font-medium ${typeColor[r.type] ?? 'text-secondary border-surface2'}`}>
-                            {r.type.charAt(0).toUpperCase() + r.type.slice(1)}
-                          </span>
-                        </td>
-                        <td className="px-4 py-3 text-center">
-                          {r.completed ? <span className="text-success font-bold">✓</span> : <span className="text-secondary">✗</span>}
-                        </td>
-                      </tr>
-                    ))}
+                    {paginated.map((r, i) => {
+                      const writeup = writeupsData.rooms[r.code]?.writeup ?? null
+                      return (
+                        <tr key={r.id} className={`border-t border-surface2 hover:bg-surface2/50 transition-colors ${i % 2 === 0 ? '' : 'bg-surface/30'}`}>
+                          <td className="px-4 py-3 text-light font-medium">{r.title}</td>
+                          <td className="px-4 py-3">
+                            <span className={`px-2 py-0.5 rounded border text-xs font-medium ${difficultyColor[r.difficulty] ?? 'text-secondary border-surface2'}`}>
+                              {r.difficulty.charAt(0).toUpperCase() + r.difficulty.slice(1)}
+                            </span>
+                          </td>
+                          <td className="px-4 py-3">
+                            <span className={`px-2 py-0.5 rounded border text-xs font-medium ${typeColor[r.type] ?? 'text-secondary border-surface2'}`}>
+                              {r.type.charAt(0).toUpperCase() + r.type.slice(1)}
+                            </span>
+                          </td>
+                          <td className="px-4 py-3 text-center">
+                            {r.completed ? <span className="text-success font-bold">✓</span> : <span className="text-secondary">✗</span>}
+                          </td>
+                          <td className="px-4 py-3"><WriteupLink url={writeup} label="Writeup" /></td>
+                        </tr>
+                      )
+                    })}
                   </tbody>
                 </table>
               </div>

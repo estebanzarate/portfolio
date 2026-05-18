@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { writeFileSync, mkdirSync } from 'fs';
+import { writeFileSync, readFileSync, existsSync, mkdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -37,6 +37,9 @@ const CONFIG = {
       Referer: 'https://tryhackme.com/rooms?tab=saved',
       Cookie: `connect.sid=${process.env.THM_SESSION}`,
     }
+  },
+  writeups: {
+    output: join(DATA_DIR, 'writeups.json'),
   }
 };
 
@@ -142,6 +145,46 @@ async function processTHM() {
   console.log(`✅ THM: ${output.rooms.length} rooms saved.`);
 }
 
+function processWriteups() {
+  console.log('📝 Updating writeups...');
+
+  const writeupsPath = CONFIG.writeups.output;
+  const machinesPath = CONFIG.machines.output;
+  const roomsPath = CONFIG.thm.output;
+
+  const existing = existsSync(writeupsPath)
+    ? JSON.parse(readFileSync(writeupsPath, 'utf-8'))
+    : { machines: {}, rooms: {} };
+
+  let addedMachines = 0;
+  let addedRooms = 0;
+
+  if (existsSync(machinesPath)) {
+    const { machines } = JSON.parse(readFileSync(machinesPath, 'utf-8'));
+    for (const m of machines) {
+      const key = String(m.id);
+      if (!existing.machines[key]) {
+        existing.machines[key] = { name: m.name, writeup: null };
+        addedMachines++;
+      }
+    }
+  }
+
+  if (existsSync(roomsPath)) {
+    const { rooms } = JSON.parse(readFileSync(roomsPath, 'utf-8'));
+    for (const r of rooms) {
+      const key = r.code;
+      if (!existing.rooms[key]) {
+        existing.rooms[key] = { title: r.title, writeup: null };
+        addedRooms++;
+      }
+    }
+  }
+
+  writeFileSync(writeupsPath, JSON.stringify(existing, null, 2));
+  console.log(`✅ Writeups: +${addedMachines} machines, +${addedRooms} rooms added.`);
+}
+
 async function main() {
   mkdirSync(DATA_DIR, { recursive: true });
 
@@ -160,6 +203,8 @@ async function main() {
       hasErrors = true;
     }
   });
+
+  processWriteups();
 
   if (hasErrors) {
     console.warn('\n⚠️  Sync completed with errors. Some data may be stale.');

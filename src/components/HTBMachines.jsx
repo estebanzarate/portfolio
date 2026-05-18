@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react'
 import useLanguage from '../hooks/useLanguage'
 import translations from '../data/translations'
 import machinesData from '../data/machines.json'
+import writeupsData from '../data/writeups.json'
 import StatCard from './ui/StatCard'
 import StatsBanner from './ui/StatsBanner'
 import EmptyState from './ui/EmptyState'
@@ -15,6 +16,23 @@ const difficultyColor = {
 const ITEMS_PER_PAGE = 20
 const paginationBtn = 'px-3 py-1.5 rounded bg-surface2 text-secondary text-sm transition-colors cursor-pointer hover:text-light disabled:opacity-30 disabled:cursor-not-allowed'
 const selectClass = 'cursor-pointer px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-secondary focus:outline-none focus:border-primary text-sm'
+
+function WriteupLink({ url, label }) {
+  if (!url) return <span className="text-secondary text-xs">—</span>
+  return (
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-1 text-xs text-primary hover:underline cursor-pointer"
+    >
+      {label}
+      <svg className="w-3 h-3" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24" aria-hidden="true">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+      </svg>
+    </a>
+  )
+}
 
 function HTBMachines() {
   const { lang } = useLanguage()
@@ -105,21 +123,32 @@ function HTBMachines() {
 
           {!hasResults ? <EmptyState message={t.noResults} /> : (
             <>
+              {/* Cards mobile */}
               <div className="flex flex-col gap-2 md:hidden">
-                {paginated.map(m => (
-                  <div key={m.id} className="flex items-center justify-between p-3 rounded-lg bg-surface border border-surface2">
-                    <div className="flex flex-col gap-1 min-w-0">
-                      <span className="text-light font-medium text-sm truncate">{m.name}</span>
-                      <span className="text-secondary text-xs">{m.os}</span>
+                {paginated.map(m => {
+                  const writeup = writeupsData.machines[String(m.id)]?.writeup ?? null
+                  return (
+                    <div key={m.id} className="flex items-center justify-between p-3 rounded-lg bg-surface border border-surface2">
+                      <div className="flex flex-col gap-1 min-w-0">
+                        <span className="text-light font-medium text-sm truncate">{m.name}</span>
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <span className="text-secondary text-xs">{m.os}</span>
+                          {writeup && (
+                            <WriteupLink url={writeup} label="Writeup" />
+                          )}
+                        </div>
+                      </div>
+                      <div className="flex items-center gap-2 shrink-0 ml-3">
+                        <span className={`px-2 py-0.5 rounded border text-xs font-medium ${difficultyColor[m.difficulty]}`}>{m.difficulty}</span>
+                        <span className={`text-sm font-bold ${m.user_owned ? 'text-success' : 'text-secondary'}`} title={t.user}>U</span>
+                        <span className={`text-sm font-bold ${m.root_owned ? 'text-success' : 'text-secondary'}`} title={t.root}>R</span>
+                      </div>
                     </div>
-                    <div className="flex items-center gap-2 shrink-0 ml-3">
-                      <span className={`px-2 py-0.5 rounded border text-xs font-medium ${difficultyColor[m.difficulty]}`}>{m.difficulty}</span>
-                      <span className={`text-sm font-bold ${m.user_owned ? 'text-success' : 'text-secondary'}`} title={t.user}>U</span>
-                      <span className={`text-sm font-bold ${m.root_owned ? 'text-success' : 'text-secondary'}`} title={t.root}>R</span>
-                    </div>
-                  </div>
-                ))}
+                  )
+                })}
               </div>
+
+              {/* Tabla desktop */}
               <div className="hidden md:block overflow-x-auto rounded-lg border border-surface2">
                 <table className="w-full text-sm">
                   <thead>
@@ -129,18 +158,23 @@ function HTBMachines() {
                       <th className="px-4 py-3 text-left">{t.difficulty}</th>
                       <th className="px-4 py-3 text-center">{t.user}</th>
                       <th className="px-4 py-3 text-center">{t.root}</th>
+                      <th className="px-4 py-3 text-left">{t.writeup}</th>
                     </tr>
                   </thead>
                   <tbody>
-                    {paginated.map((m, i) => (
-                      <tr key={m.id} className={`border-t border-surface2 hover:bg-surface2/50 transition-colors ${i % 2 === 0 ? '' : 'bg-surface/30'}`}>
-                        <td className="px-4 py-3 text-light font-medium">{m.name}</td>
-                        <td className="px-4 py-3 text-secondary">{m.os}</td>
-                        <td className="px-4 py-3"><span className={`px-2 py-0.5 rounded border text-xs font-medium ${difficultyColor[m.difficulty]}`}>{m.difficulty}</span></td>
-                        <td className="px-4 py-3 text-center">{m.user_owned ? <span className="text-success font-bold">✓</span> : <span className="text-secondary">✗</span>}</td>
-                        <td className="px-4 py-3 text-center">{m.root_owned ? <span className="text-success font-bold">✓</span> : <span className="text-secondary">✗</span>}</td>
-                      </tr>
-                    ))}
+                    {paginated.map((m, i) => {
+                      const writeup = writeupsData.machines[String(m.id)]?.writeup ?? null
+                      return (
+                        <tr key={m.id} className={`border-t border-surface2 hover:bg-surface2/50 transition-colors ${i % 2 === 0 ? '' : 'bg-surface/30'}`}>
+                          <td className="px-4 py-3 text-light font-medium">{m.name}</td>
+                          <td className="px-4 py-3 text-secondary">{m.os}</td>
+                          <td className="px-4 py-3"><span className={`px-2 py-0.5 rounded border text-xs font-medium ${difficultyColor[m.difficulty]}`}>{m.difficulty}</span></td>
+                          <td className="px-4 py-3 text-center">{m.user_owned ? <span className="text-success font-bold">✓</span> : <span className="text-secondary">✗</span>}</td>
+                          <td className="px-4 py-3 text-center">{m.root_owned ? <span className="text-success font-bold">✓</span> : <span className="text-secondary">✗</span>}</td>
+                          <td className="px-4 py-3"><WriteupLink url={writeup} label="Writeup" /></td>
+                        </tr>
+                      )
+                    })}
                   </tbody>
                 </table>
               </div>

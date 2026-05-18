@@ -1,0 +1,3442 @@
+{
+  "machines": {
+    "1": {
+      "name": "Lame",
+      "writeup": null
+    },
+    "2": {
+      "name": "Legacy",
+      "writeup": null
+    },
+    "3": {
+      "name": "Devel",
+      "writeup": null
+    },
+    "4": {
+      "name": "Popcorn",
+      "writeup": null
+    },
+    "5": {
+      "name": "Beep",
+      "writeup": null
+    },
+    "6": {
+      "name": "Optimum",
+      "writeup": null
+    },
+    "7": {
+      "name": "Bastard",
+      "writeup": null
+    },
+    "8": {
+      "name": "Tenten",
+      "writeup": null
+    },
+    "9": {
+      "name": "Arctic",
+      "writeup": null
+    },
+    "11": {
+      "name": "Cronos",
+      "writeup": null
+    },
+    "13": {
+      "name": "Grandpa",
+      "writeup": null
+    },
+    "14": {
+      "name": "Granny",
+      "writeup": null
+    },
+    "15": {
+      "name": "October",
+      "writeup": null
+    },
+    "17": {
+      "name": "Brainfuck",
+      "writeup": null
+    },
+    "18": {
+      "name": "Lazy",
+      "writeup": null
+    },
+    "19": {
+      "name": "Sneaky",
+      "writeup": null
+    },
+    "20": {
+      "name": "Joker",
+      "writeup": null
+    },
+    "21": {
+      "name": "Haircut",
+      "writeup": null
+    },
+    "22": {
+      "name": "Holiday",
+      "writeup": null
+    },
+    "26": {
+      "name": "Bank",
+      "writeup": null
+    },
+    "27": {
+      "name": "Europa",
+      "writeup": null
+    },
+    "37": {
+      "name": "Calamity",
+      "writeup": null
+    },
+    "42": {
+      "name": "Charon",
+      "writeup": null
+    },
+    "45": {
+      "name": "Jail",
+      "writeup": null
+    },
+    "48": {
+      "name": "Blocky",
+      "writeup": null
+    },
+    "51": {
+      "name": "Blue",
+      "writeup": null
+    },
+    "54": {
+      "name": "Nineveh",
+      "writeup": null
+    },
+    "57": {
+      "name": "Apocalyst",
+      "writeup": null
+    },
+    "58": {
+      "name": "Shrek",
+      "writeup": null
+    },
+    "64": {
+      "name": "Mirai",
+      "writeup": null
+    },
+    "85": {
+      "name": "SolidState",
+      "writeup": null
+    },
+    "98": {
+      "name": "Mantis",
+      "writeup": null
+    },
+    "101": {
+      "name": "Kotarak",
+      "writeup": null
+    },
+    "108": {
+      "name": "Shocker",
+      "writeup": null
+    },
+    "109": {
+      "name": "Minion",
+      "writeup": null
+    },
+    "110": {
+      "name": "Node",
+      "writeup": null
+    },
+    "111": {
+      "name": "Sense",
+      "writeup": null
+    },
+    "112": {
+      "name": "Enterprise",
+      "writeup": null
+    },
+    "113": {
+      "name": "Tally",
+      "writeup": null
+    },
+    "114": {
+      "name": "Jeeves",
+      "writeup": null
+    },
+    "115": {
+      "name": "Ariekei",
+      "writeup": null
+    },
+    "116": {
+      "name": "Fulcrum",
+      "writeup": null
+    },
+    "117": {
+      "name": "Inception",
+      "writeup": null
+    },
+    "118": {
+      "name": "Bashed",
+      "writeup": null
+    },
+    "119": {
+      "name": "FluxCapacitor",
+      "writeup": null
+    },
+    "120": {
+      "name": "CrimeStoppers",
+      "writeup": null
+    },
+    "121": {
+      "name": "Nibbles",
+      "writeup": null
+    },
+    "122": {
+      "name": "Nightmare",
+      "writeup": null
+    },
+    "123": {
+      "name": "Chatterbox",
+      "writeup": null
+    },
+    "124": {
+      "name": "Falafel",
+      "writeup": null
+    },
+    "126": {
+      "name": "Aragog",
+      "writeup": null
+    },
+    "127": {
+      "name": "Valentine",
+      "writeup": null
+    },
+    "128": {
+      "name": "Bart",
+      "writeup": null
+    },
+    "129": {
+      "name": "Stratosphere",
+      "writeup": null
+    },
+    "130": {
+      "name": "Celestial",
+      "writeup": null
+    },
+    "131": {
+      "name": "Silo",
+      "writeup": null
+    },
+    "132": {
+      "name": "Poison",
+      "writeup": null
+    },
+    "133": {
+      "name": "Rabbit",
+      "writeup": null
+    },
+    "134": {
+      "name": "Canape",
+      "writeup": null
+    },
+    "135": {
+      "name": "Olympus",
+      "writeup": null
+    },
+    "136": {
+      "name": "Sunday",
+      "writeup": null
+    },
+    "137": {
+      "name": "Fighter",
+      "writeup": null
+    },
+    "138": {
+      "name": "TartarSauce",
+      "writeup": null
+    },
+    "139": {
+      "name": "Dropzone",
+      "writeup": null
+    },
+    "140": {
+      "name": "DevOops",
+      "writeup": null
+    },
+    "141": {
+      "name": "Smasher",
+      "writeup": null
+    },
+    "142": {
+      "name": "Bounty",
+      "writeup": null
+    },
+    "143": {
+      "name": "Reel",
+      "writeup": null
+    },
+    "144": {
+      "name": "Jerry",
+      "writeup": null
+    },
+    "145": {
+      "name": "Mischief",
+      "writeup": null
+    },
+    "146": {
+      "name": "Hawk",
+      "writeup": null
+    },
+    "147": {
+      "name": "Reddish",
+      "writeup": null
+    },
+    "148": {
+      "name": "Active",
+      "writeup": null
+    },
+    "149": {
+      "name": "Waldo",
+      "writeup": null
+    },
+    "150": {
+      "name": "Dab",
+      "writeup": null
+    },
+    "151": {
+      "name": "SecNotes",
+      "writeup": null
+    },
+    "152": {
+      "name": "Oz",
+      "writeup": null
+    },
+    "153": {
+      "name": "Giddy",
+      "writeup": null
+    },
+    "154": {
+      "name": "YPuffy",
+      "writeup": null
+    },
+    "155": {
+      "name": "Carrier",
+      "writeup": null
+    },
+    "156": {
+      "name": "Access",
+      "writeup": null
+    },
+    "157": {
+      "name": "Ethereal",
+      "writeup": null
+    },
+    "158": {
+      "name": "Frolic",
+      "writeup": null
+    },
+    "159": {
+      "name": "Zipper",
+      "writeup": null
+    },
+    "160": {
+      "name": "Curling",
+      "writeup": null
+    },
+    "161": {
+      "name": "Vault",
+      "writeup": null
+    },
+    "162": {
+      "name": "RedCross",
+      "writeup": null
+    },
+    "163": {
+      "name": "Irked",
+      "writeup": null
+    },
+    "164": {
+      "name": "BigHead",
+      "writeup": null
+    },
+    "165": {
+      "name": "Teacher",
+      "writeup": null
+    },
+    "166": {
+      "name": "Lightweight",
+      "writeup": null
+    },
+    "167": {
+      "name": "Chaos",
+      "writeup": null
+    },
+    "168": {
+      "name": "Conceal",
+      "writeup": null
+    },
+    "169": {
+      "name": "Sizzle",
+      "writeup": null
+    },
+    "170": {
+      "name": "Help",
+      "writeup": null
+    },
+    "171": {
+      "name": "FluJab",
+      "writeup": null
+    },
+    "172": {
+      "name": "CTF",
+      "writeup": null
+    },
+    "173": {
+      "name": "FriendZone",
+      "writeup": null
+    },
+    "175": {
+      "name": "Querier",
+      "writeup": null
+    },
+    "176": {
+      "name": "Hackback",
+      "writeup": null
+    },
+    "177": {
+      "name": "Netmon",
+      "writeup": null
+    },
+    "178": {
+      "name": "Fortune",
+      "writeup": null
+    },
+    "179": {
+      "name": "Arkham",
+      "writeup": null
+    },
+    "180": {
+      "name": "Helpline",
+      "writeup": null
+    },
+    "181": {
+      "name": "LaCasaDePapel",
+      "writeup": null
+    },
+    "183": {
+      "name": "Kryptos",
+      "writeup": null
+    },
+    "184": {
+      "name": "Unattended",
+      "writeup": null
+    },
+    "185": {
+      "name": "OneTwoSeven",
+      "writeup": null
+    },
+    "186": {
+      "name": "Bastion",
+      "writeup": null
+    },
+    "187": {
+      "name": "Ghoul",
+      "writeup": null
+    },
+    "188": {
+      "name": "SwagShop",
+      "writeup": null
+    },
+    "189": {
+      "name": "Ellingson",
+      "writeup": null
+    },
+    "190": {
+      "name": "Luke",
+      "writeup": null
+    },
+    "191": {
+      "name": "Smasher2",
+      "writeup": null
+    },
+    "192": {
+      "name": "Writeup",
+      "writeup": null
+    },
+    "193": {
+      "name": "Chainsaw",
+      "writeup": null
+    },
+    "194": {
+      "name": "Jarvis",
+      "writeup": null
+    },
+    "195": {
+      "name": "Haystack",
+      "writeup": null
+    },
+    "196": {
+      "name": "Player",
+      "writeup": null
+    },
+    "197": {
+      "name": "Craft",
+      "writeup": null
+    },
+    "198": {
+      "name": "RE",
+      "writeup": null
+    },
+    "199": {
+      "name": "Safe",
+      "writeup": null
+    },
+    "200": {
+      "name": "Rope",
+      "writeup": null
+    },
+    "201": {
+      "name": "Heist",
+      "writeup": null
+    },
+    "202": {
+      "name": "Scavenger",
+      "writeup": null
+    },
+    "203": {
+      "name": "Networked",
+      "writeup": null
+    },
+    "204": {
+      "name": "Zetta",
+      "writeup": null
+    },
+    "207": {
+      "name": "Bitlab",
+      "writeup": null
+    },
+    "208": {
+      "name": "Wall",
+      "writeup": null
+    },
+    "209": {
+      "name": "Bankrobber",
+      "writeup": null
+    },
+    "210": {
+      "name": "Json",
+      "writeup": null
+    },
+    "211": {
+      "name": "Sniper",
+      "writeup": null
+    },
+    "212": {
+      "name": "Forest",
+      "writeup": null
+    },
+    "213": {
+      "name": "Registry",
+      "writeup": null
+    },
+    "214": {
+      "name": "Mango",
+      "writeup": null
+    },
+    "215": {
+      "name": "Postman",
+      "writeup": null
+    },
+    "216": {
+      "name": "AI",
+      "writeup": null
+    },
+    "217": {
+      "name": "Traverxec",
+      "writeup": null
+    },
+    "218": {
+      "name": "Control",
+      "writeup": null
+    },
+    "219": {
+      "name": "Obscurity",
+      "writeup": null
+    },
+    "220": {
+      "name": "Resolute",
+      "writeup": null
+    },
+    "221": {
+      "name": "PlayerTwo",
+      "writeup": null
+    },
+    "222": {
+      "name": "OpenAdmin",
+      "writeup": null
+    },
+    "223": {
+      "name": "Monteverde",
+      "writeup": null
+    },
+    "224": {
+      "name": "Patents",
+      "writeup": null
+    },
+    "225": {
+      "name": "Nest",
+      "writeup": null
+    },
+    "227": {
+      "name": "Fatty",
+      "writeup": null
+    },
+    "229": {
+      "name": "Sauna",
+      "writeup": null
+    },
+    "230": {
+      "name": "Book",
+      "writeup": null
+    },
+    "231": {
+      "name": "Oouch",
+      "writeup": null
+    },
+    "232": {
+      "name": "Multimaster",
+      "writeup": null
+    },
+    "233": {
+      "name": "TraceBack",
+      "writeup": null
+    },
+    "234": {
+      "name": "Remote",
+      "writeup": null
+    },
+    "235": {
+      "name": "Cascade",
+      "writeup": null
+    },
+    "239": {
+      "name": "ForwardSlash",
+      "writeup": null
+    },
+    "240": {
+      "name": "ServMon",
+      "writeup": null
+    },
+    "241": {
+      "name": "Magic",
+      "writeup": null
+    },
+    "244": {
+      "name": "Quick",
+      "writeup": null
+    },
+    "248": {
+      "name": "Admirer",
+      "writeup": null
+    },
+    "251": {
+      "name": "Cache",
+      "writeup": null
+    },
+    "252": {
+      "name": "Travel",
+      "writeup": null
+    },
+    "253": {
+      "name": "Dyplesher",
+      "writeup": null
+    },
+    "254": {
+      "name": "Blunder",
+      "writeup": null
+    },
+    "255": {
+      "name": "Blackfield",
+      "writeup": null
+    },
+    "256": {
+      "name": "Fuse",
+      "writeup": null
+    },
+    "259": {
+      "name": "Tabby",
+      "writeup": null
+    },
+    "260": {
+      "name": "RopeTwo",
+      "writeup": null
+    },
+    "261": {
+      "name": "Intense",
+      "writeup": null
+    },
+    "262": {
+      "name": "SneakyMailer",
+      "writeup": null
+    },
+    "263": {
+      "name": "Buff",
+      "writeup": null
+    },
+    "267": {
+      "name": "OpenKeyS",
+      "writeup": null
+    },
+    "268": {
+      "name": "Unbalanced",
+      "writeup": null
+    },
+    "269": {
+      "name": "Laser",
+      "writeup": null
+    },
+    "270": {
+      "name": "Worker",
+      "writeup": null
+    },
+    "271": {
+      "name": "Omni",
+      "writeup": null
+    },
+    "274": {
+      "name": "Feline",
+      "writeup": null
+    },
+    "275": {
+      "name": "Passage",
+      "writeup": null
+    },
+    "276": {
+      "name": "Compromised",
+      "writeup": null
+    },
+    "277": {
+      "name": "CrossFit",
+      "writeup": null
+    },
+    "278": {
+      "name": "Doctor",
+      "writeup": null
+    },
+    "281": {
+      "name": "Reel2",
+      "writeup": null
+    },
+    "282": {
+      "name": "Jewel",
+      "writeup": null
+    },
+    "283": {
+      "name": "Bucket",
+      "writeup": null
+    },
+    "286": {
+      "name": "Time",
+      "writeup": null
+    },
+    "296": {
+      "name": "APT",
+      "writeup": null
+    },
+    "297": {
+      "name": "Academy",
+      "writeup": null
+    },
+    "298": {
+      "name": "Laboratory",
+      "writeup": null
+    },
+    "299": {
+      "name": "Cereal",
+      "writeup": null
+    },
+    "302": {
+      "name": "Luanne",
+      "writeup": null
+    },
+    "303": {
+      "name": "Sharp",
+      "writeup": null
+    },
+    "304": {
+      "name": "Ready",
+      "writeup": null
+    },
+    "307": {
+      "name": "Attended",
+      "writeup": null
+    },
+    "308": {
+      "name": "Delivery",
+      "writeup": null
+    },
+    "309": {
+      "name": "Tenet",
+      "writeup": null
+    },
+    "310": {
+      "name": "Tentacle",
+      "writeup": null
+    },
+    "313": {
+      "name": "Sink",
+      "writeup": null
+    },
+    "314": {
+      "name": "ScriptKiddie",
+      "writeup": null
+    },
+    "315": {
+      "name": "Ophiuchi",
+      "writeup": null
+    },
+    "316": {
+      "name": "Breadcrumbs",
+      "writeup": null
+    },
+    "317": {
+      "name": "Spectra",
+      "writeup": null
+    },
+    "320": {
+      "name": "TheNotebook",
+      "writeup": null
+    },
+    "321": {
+      "name": "Proper",
+      "writeup": null
+    },
+    "322": {
+      "name": "CrossFitTwo",
+      "writeup": null
+    },
+    "323": {
+      "name": "Armageddon",
+      "writeup": null
+    },
+    "335": {
+      "name": "Schooled",
+      "writeup": null
+    },
+    "338": {
+      "name": "Unobtainium",
+      "writeup": null
+    },
+    "339": {
+      "name": "Toolbox",
+      "writeup": null
+    },
+    "340": {
+      "name": "Atom",
+      "writeup": null
+    },
+    "341": {
+      "name": "Monitors",
+      "writeup": null
+    },
+    "344": {
+      "name": "Love",
+      "writeup": null
+    },
+    "345": {
+      "name": "PivotAPI",
+      "writeup": null
+    },
+    "346": {
+      "name": "Pit",
+      "writeup": null
+    },
+    "347": {
+      "name": "Knife",
+      "writeup": null
+    },
+    "350": {
+      "name": "Spider",
+      "writeup": null
+    },
+    "351": {
+      "name": "Cap",
+      "writeup": null
+    },
+    "352": {
+      "name": "Dynstr",
+      "writeup": null
+    },
+    "355": {
+      "name": "Static",
+      "writeup": null
+    },
+    "356": {
+      "name": "Explore",
+      "writeup": null
+    },
+    "357": {
+      "name": "Intelligence",
+      "writeup": null
+    },
+    "358": {
+      "name": "Seal",
+      "writeup": null
+    },
+    "359": {
+      "name": "BountyHunter",
+      "writeup": null
+    },
+    "360": {
+      "name": "Pikaboo",
+      "writeup": null
+    },
+    "361": {
+      "name": "Writer",
+      "writeup": null
+    },
+    "371": {
+      "name": "Anubis",
+      "writeup": null
+    },
+    "372": {
+      "name": "Developer",
+      "writeup": null
+    },
+    "373": {
+      "name": "Previse",
+      "writeup": null
+    },
+    "374": {
+      "name": "Horizontall",
+      "writeup": null
+    },
+    "375": {
+      "name": "EarlyAccess",
+      "writeup": null
+    },
+    "376": {
+      "name": "Forge",
+      "writeup": null
+    },
+    "378": {
+      "name": "Gobox",
+      "writeup": null
+    },
+    "379": {
+      "name": "Stacked",
+      "writeup": null
+    },
+    "382": {
+      "name": "Validation",
+      "writeup": null
+    },
+    "384": {
+      "name": "Bolt",
+      "writeup": null
+    },
+    "387": {
+      "name": "Driver",
+      "writeup": null
+    },
+    "388": {
+      "name": "Hancliffe",
+      "writeup": null
+    },
+    "389": {
+      "name": "Jarmis",
+      "writeup": null
+    },
+    "398": {
+      "name": "Devzat",
+      "writeup": null
+    },
+    "399": {
+      "name": "Overflow",
+      "writeup": null
+    },
+    "400": {
+      "name": "Antique",
+      "writeup": null
+    },
+    "401": {
+      "name": "Return",
+      "writeup": null
+    },
+    "408": {
+      "name": "Secret",
+      "writeup": null
+    },
+    "409": {
+      "name": "Toby",
+      "writeup": null
+    },
+    "410": {
+      "name": "Shibboleth",
+      "writeup": null
+    },
+    "413": {
+      "name": "Spooktrol",
+      "writeup": null
+    },
+    "414": {
+      "name": "Nunchucks",
+      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/nunchucks"
+    },
+    "415": {
+      "name": "Unicode",
+      "writeup": null
+    },
+    "416": {
+      "name": "Backdoor",
+      "writeup": null
+    },
+    "417": {
+      "name": "Fingerprint",
+      "writeup": null
+    },
+    "418": {
+      "name": "Union",
+      "writeup": null
+    },
+    "421": {
+      "name": "Timing",
+      "writeup": null
+    },
+    "422": {
+      "name": "Search",
+      "writeup": null
+    },
+    "423": {
+      "name": "Pandora",
+      "writeup": null
+    },
+    "427": {
+      "name": "AdmirerToo",
+      "writeup": null
+    },
+    "428": {
+      "name": "LogForge",
+      "writeup": null
+    },
+    "429": {
+      "name": "Meta",
+      "writeup": null
+    },
+    "430": {
+      "name": "NodeBlog",
+      "writeup": null
+    },
+    "431": {
+      "name": "Scanned",
+      "writeup": null
+    },
+    "432": {
+      "name": "Paper",
+      "writeup": null
+    },
+    "437": {
+      "name": "Flustered",
+      "writeup": null
+    },
+    "438": {
+      "name": "Acute",
+      "writeup": null
+    },
+    "439": {
+      "name": "Undetected",
+      "writeup": null
+    },
+    "440": {
+      "name": "Pressed",
+      "writeup": null
+    },
+    "442": {
+      "name": "Epsilon",
+      "writeup": null
+    },
+    "443": {
+      "name": "SteamCloud",
+      "writeup": null
+    },
+    "444": {
+      "name": "RouterSpace",
+      "writeup": null
+    },
+    "446": {
+      "name": "GoodGames",
+      "writeup": null
+    },
+    "447": {
+      "name": "Object",
+      "writeup": null
+    },
+    "448": {
+      "name": "Phoenix",
+      "writeup": null
+    },
+    "450": {
+      "name": "Catch",
+      "writeup": null
+    },
+    "451": {
+      "name": "Perspective",
+      "writeup": null
+    },
+    "452": {
+      "name": "Timelapse",
+      "writeup": null
+    },
+    "456": {
+      "name": "Retired",
+      "writeup": null
+    },
+    "457": {
+      "name": "Ransom",
+      "writeup": null
+    },
+    "458": {
+      "name": "Talkative",
+      "writeup": null
+    },
+    "459": {
+      "name": "Hathor",
+      "writeup": null
+    },
+    "460": {
+      "name": "Altered",
+      "writeup": null
+    },
+    "462": {
+      "name": "Backend",
+      "writeup": null
+    },
+    "463": {
+      "name": "Late",
+      "writeup": null
+    },
+    "464": {
+      "name": "OverGraph",
+      "writeup": null
+    },
+    "467": {
+      "name": "Noter",
+      "writeup": null
+    },
+    "468": {
+      "name": "Response",
+      "writeup": null
+    },
+    "469": {
+      "name": "BackendTwo",
+      "writeup": null
+    },
+    "471": {
+      "name": "OpenSource",
+      "writeup": null
+    },
+    "473": {
+      "name": "Seventeen",
+      "writeup": null
+    },
+    "474": {
+      "name": "StreamIO",
+      "writeup": null
+    },
+    "476": {
+      "name": "Scrambled",
+      "writeup": null
+    },
+    "477": {
+      "name": "Trick",
+      "writeup": null
+    },
+    "478": {
+      "name": "Carpediem",
+      "writeup": null
+    },
+    "480": {
+      "name": "Faculty",
+      "writeup": null
+    },
+    "481": {
+      "name": "RedPanda",
+      "writeup": null
+    },
+    "482": {
+      "name": "Extension",
+      "writeup": null
+    },
+    "483": {
+      "name": "Shared",
+      "writeup": null
+    },
+    "484": {
+      "name": "Support",
+      "writeup": null
+    },
+    "485": {
+      "name": "Moderators",
+      "writeup": null
+    },
+    "490": {
+      "name": "Outdated",
+      "writeup": null
+    },
+    "491": {
+      "name": "Health",
+      "writeup": null
+    },
+    "492": {
+      "name": "Vessel",
+      "writeup": null
+    },
+    "493": {
+      "name": "UpDown",
+      "writeup": null
+    },
+    "495": {
+      "name": "Sekhmet",
+      "writeup": null
+    },
+    "496": {
+      "name": "Shoppy",
+      "writeup": null
+    },
+    "498": {
+      "name": "Absolute",
+      "writeup": null
+    },
+    "499": {
+      "name": "Ambassador",
+      "writeup": null
+    },
+    "500": {
+      "name": "Photobomb",
+      "writeup": null
+    },
+    "502": {
+      "name": "RainyDay",
+      "writeup": null
+    },
+    "503": {
+      "name": "Awkward",
+      "writeup": null
+    },
+    "504": {
+      "name": "MetaTwo",
+      "writeup": null
+    },
+    "510": {
+      "name": "Flight",
+      "writeup": null
+    },
+    "511": {
+      "name": "Forgot",
+      "writeup": null
+    },
+    "512": {
+      "name": "Derailed",
+      "writeup": null
+    },
+    "513": {
+      "name": "Precious",
+      "writeup": null
+    },
+    "514": {
+      "name": "Squashed",
+      "writeup": null
+    },
+    "517": {
+      "name": "Pollution",
+      "writeup": null
+    },
+    "518": {
+      "name": "Mentor",
+      "writeup": null
+    },
+    "519": {
+      "name": "Soccer",
+      "writeup": null
+    },
+    "521": {
+      "name": "BroScience",
+      "writeup": null
+    },
+    "523": {
+      "name": "Stocker",
+      "writeup": null
+    },
+    "525": {
+      "name": "Investigation",
+      "writeup": null
+    },
+    "526": {
+      "name": "Encoding",
+      "writeup": null
+    },
+    "527": {
+      "name": "Interface",
+      "writeup": null
+    },
+    "529": {
+      "name": "PikaTwoo",
+      "writeup": null
+    },
+    "530": {
+      "name": "Bagel",
+      "writeup": null
+    },
+    "531": {
+      "name": "Escape",
+      "writeup": null
+    },
+    "532": {
+      "name": "Agile",
+      "writeup": null
+    },
+    "533": {
+      "name": "Inject",
+      "writeup": null
+    },
+    "534": {
+      "name": "Cerberus",
+      "writeup": null
+    },
+    "535": {
+      "name": "Socket",
+      "writeup": null
+    },
+    "536": {
+      "name": "Coder",
+      "writeup": null
+    },
+    "537": {
+      "name": "Busqueda",
+      "writeup": null
+    },
+    "538": {
+      "name": "Mailroom",
+      "writeup": null
+    },
+    "539": {
+      "name": "MonitorsTwo",
+      "writeup": null
+    },
+    "540": {
+      "name": "OnlyForYou",
+      "writeup": null
+    },
+    "541": {
+      "name": "Snoopy",
+      "writeup": null
+    },
+    "542": {
+      "name": "Format",
+      "writeup": null
+    },
+    "543": {
+      "name": "PC",
+      "writeup": null
+    },
+    "544": {
+      "name": "Bookworm",
+      "writeup": null
+    },
+    "545": {
+      "name": "Jupiter",
+      "writeup": null
+    },
+    "546": {
+      "name": "Topology",
+      "writeup": null
+    },
+    "547": {
+      "name": "TwoMillion",
+      "writeup": null
+    },
+    "548": {
+      "name": "Sandworm",
+      "writeup": null
+    },
+    "549": {
+      "name": "Pilgrimage",
+      "writeup": null
+    },
+    "550": {
+      "name": "Intentions",
+      "writeup": null
+    },
+    "551": {
+      "name": "Sau",
+      "writeup": null
+    },
+    "552": {
+      "name": "RegistryTwo",
+      "writeup": null
+    },
+    "553": {
+      "name": "Authority",
+      "writeup": null
+    },
+    "554": {
+      "name": "Gofer",
+      "writeup": null
+    },
+    "555": {
+      "name": "Download",
+      "writeup": null
+    },
+    "556": {
+      "name": "Keeper",
+      "writeup": null
+    },
+    "557": {
+      "name": "Cybermonday",
+      "writeup": null
+    },
+    "558": {
+      "name": "Zipping",
+      "writeup": null
+    },
+    "559": {
+      "name": "CozyHosting",
+      "writeup": null
+    },
+    "560": {
+      "name": "Rebound",
+      "writeup": null
+    },
+    "563": {
+      "name": "Wifinetic",
+      "writeup": null
+    },
+    "564": {
+      "name": "Clicker",
+      "writeup": null
+    },
+    "568": {
+      "name": "Visual",
+      "writeup": null
+    },
+    "569": {
+      "name": "Analytics",
+      "writeup": null
+    },
+    "570": {
+      "name": "Drive",
+      "writeup": null
+    },
+    "571": {
+      "name": "Aero",
+      "writeup": null
+    },
+    "572": {
+      "name": "Manager",
+      "writeup": null
+    },
+    "573": {
+      "name": "Appsanity",
+      "writeup": null
+    },
+    "574": {
+      "name": "Codify",
+      "writeup": null
+    },
+    "575": {
+      "name": "Napper",
+      "writeup": null
+    },
+    "576": {
+      "name": "Hospital",
+      "writeup": null
+    },
+    "577": {
+      "name": "Devvortex",
+      "writeup": null
+    },
+    "578": {
+      "name": "Broker",
+      "writeup": null
+    },
+    "579": {
+      "name": "Ouija",
+      "writeup": null
+    },
+    "580": {
+      "name": "Surveillance",
+      "writeup": null
+    },
+    "581": {
+      "name": "Corporate",
+      "writeup": null
+    },
+    "582": {
+      "name": "Bizness",
+      "writeup": null
+    },
+    "583": {
+      "name": "Monitored",
+      "writeup": null
+    },
+    "584": {
+      "name": "Analysis",
+      "writeup": null
+    },
+    "585": {
+      "name": "Pov",
+      "writeup": null
+    },
+    "586": {
+      "name": "Skyfall",
+      "writeup": null
+    },
+    "587": {
+      "name": "Crafty",
+      "writeup": null
+    },
+    "588": {
+      "name": "Office",
+      "writeup": null
+    },
+    "589": {
+      "name": "Jab",
+      "writeup": null
+    },
+    "590": {
+      "name": "Perfection",
+      "writeup": null
+    },
+    "591": {
+      "name": "Builder",
+      "writeup": null
+    },
+    "592": {
+      "name": "FormulaX",
+      "writeup": null
+    },
+    "593": {
+      "name": "WifineticTwo",
+      "writeup": null
+    },
+    "594": {
+      "name": "Headless",
+      "writeup": null
+    },
+    "595": {
+      "name": "Mist",
+      "writeup": null
+    },
+    "596": {
+      "name": "IClean",
+      "writeup": null
+    },
+    "597": {
+      "name": "Usage",
+      "writeup": null
+    },
+    "598": {
+      "name": "Runner",
+      "writeup": null
+    },
+    "599": {
+      "name": "Intuition",
+      "writeup": null
+    },
+    "600": {
+      "name": "Mailing",
+      "writeup": null
+    },
+    "601": {
+      "name": "SolarLab",
+      "writeup": null
+    },
+    "602": {
+      "name": "MagicGardens",
+      "writeup": null
+    },
+    "603": {
+      "name": "BoardLight",
+      "writeup": null
+    },
+    "604": {
+      "name": "Freelancer",
+      "writeup": null
+    },
+    "605": {
+      "name": "Blurry",
+      "writeup": null
+    },
+    "608": {
+      "name": "Editorial",
+      "writeup": null
+    },
+    "611": {
+      "name": "Axlle",
+      "writeup": null
+    },
+    "613": {
+      "name": "PermX",
+      "writeup": null
+    },
+    "614": {
+      "name": "Blazorized",
+      "writeup": null
+    },
+    "616": {
+      "name": "Ghost",
+      "writeup": null
+    },
+    "617": {
+      "name": "GreenHorn",
+      "writeup": null
+    },
+    "618": {
+      "name": "Compiled",
+      "writeup": null
+    },
+    "619": {
+      "name": "Resource",
+      "writeup": null
+    },
+    "620": {
+      "name": "Sea",
+      "writeup": null
+    },
+    "621": {
+      "name": "Lantern",
+      "writeup": null
+    },
+    "622": {
+      "name": "MonitorsThree",
+      "writeup": null
+    },
+    "623": {
+      "name": "Infiltrator",
+      "writeup": null
+    },
+    "624": {
+      "name": "Sightless",
+      "writeup": null
+    },
+    "625": {
+      "name": "Caption",
+      "writeup": null
+    },
+    "626": {
+      "name": "Trickster",
+      "writeup": null
+    },
+    "627": {
+      "name": "Cicada",
+      "writeup": null
+    },
+    "628": {
+      "name": "Yummy",
+      "writeup": null
+    },
+    "629": {
+      "name": "EvilCUPS",
+      "writeup": null
+    },
+    "630": {
+      "name": "Instant",
+      "writeup": null
+    },
+    "631": {
+      "name": "Chemistry",
+      "writeup": null
+    },
+    "632": {
+      "name": "University",
+      "writeup": null
+    },
+    "633": {
+      "name": "Certified",
+      "writeup": null
+    },
+    "634": {
+      "name": "Administrator",
+      "writeup": null
+    },
+    "635": {
+      "name": "BlockBlock",
+      "writeup": null
+    },
+    "636": {
+      "name": "Alert",
+      "writeup": null
+    },
+    "637": {
+      "name": "Vintage",
+      "writeup": null
+    },
+    "638": {
+      "name": "LinkVortex",
+      "writeup": null
+    },
+    "639": {
+      "name": "Unrested",
+      "writeup": null
+    },
+    "640": {
+      "name": "Heal",
+      "writeup": null
+    },
+    "641": {
+      "name": "UnderPass",
+      "writeup": null
+    },
+    "642": {
+      "name": "EscapeTwo",
+      "writeup": null
+    },
+    "643": {
+      "name": "Backfire",
+      "writeup": null
+    },
+    "644": {
+      "name": "Strutted",
+      "writeup": null
+    },
+    "645": {
+      "name": "BigBang",
+      "writeup": null
+    },
+    "646": {
+      "name": "Cat",
+      "writeup": null
+    },
+    "647": {
+      "name": "DarkCorp",
+      "writeup": null
+    },
+    "648": {
+      "name": "Titanic",
+      "writeup": null
+    },
+    "649": {
+      "name": "Checker",
+      "writeup": null
+    },
+    "650": {
+      "name": "Cypher",
+      "writeup": null
+    },
+    "651": {
+      "name": "Dog",
+      "writeup": null
+    },
+    "652": {
+      "name": "TheFrizz",
+      "writeup": null
+    },
+    "653": {
+      "name": "Code",
+      "writeup": null
+    },
+    "654": {
+      "name": "Haze",
+      "writeup": null
+    },
+    "655": {
+      "name": "WhiteRabbit",
+      "writeup": null
+    },
+    "656": {
+      "name": "Nocturnal",
+      "writeup": null
+    },
+    "657": {
+      "name": "Scepter",
+      "writeup": null
+    },
+    "658": {
+      "name": "Eureka",
+      "writeup": null
+    },
+    "659": {
+      "name": "Environment",
+      "writeup": null
+    },
+    "660": {
+      "name": "Planning",
+      "writeup": null
+    },
+    "661": {
+      "name": "Puppy",
+      "writeup": null
+    },
+    "662": {
+      "name": "Fluffy",
+      "writeup": null
+    },
+    "663": {
+      "name": "Certificate",
+      "writeup": null
+    },
+    "664": {
+      "name": "TombWatcher",
+      "writeup": null
+    },
+    "665": {
+      "name": "Sorcery",
+      "writeup": null
+    },
+    "666": {
+      "name": "Down",
+      "writeup": null
+    },
+    "667": {
+      "name": "Shibuya",
+      "writeup": null
+    },
+    "668": {
+      "name": "Artificial",
+      "writeup": null
+    },
+    "669": {
+      "name": "RustyKey",
+      "writeup": null
+    },
+    "670": {
+      "name": "Voleur",
+      "writeup": null
+    },
+    "671": {
+      "name": "Retro",
+      "writeup": null
+    },
+    "672": {
+      "name": "Outbound",
+      "writeup": null
+    },
+    "673": {
+      "name": "Data",
+      "writeup": null
+    },
+    "677": {
+      "name": "VulnCicada",
+      "writeup": null
+    },
+    "678": {
+      "name": "VulnEscape",
+      "writeup": null
+    },
+    "680": {
+      "name": "Reset",
+      "writeup": null
+    },
+    "681": {
+      "name": "Redelegate",
+      "writeup": null
+    },
+    "682": {
+      "name": "Mirage",
+      "writeup": null
+    },
+    "683": {
+      "name": "Era",
+      "writeup": null
+    },
+    "684": {
+      "name": "Editor",
+      "writeup": null
+    },
+    "685": {
+      "name": "RetroTwo",
+      "writeup": null
+    },
+    "686": {
+      "name": "Ten",
+      "writeup": null
+    },
+    "687": {
+      "name": "Manage",
+      "writeup": null
+    },
+    "688": {
+      "name": "LustrousTwo",
+      "writeup": null
+    },
+    "689": {
+      "name": "Build",
+      "writeup": null
+    },
+    "690": {
+      "name": "Rainbow",
+      "writeup": null
+    },
+    "691": {
+      "name": "Cobblestone",
+      "writeup": null
+    },
+    "692": {
+      "name": "CodePartTwo",
+      "writeup": null
+    },
+    "693": {
+      "name": "Zero",
+      "writeup": null
+    },
+    "695": {
+      "name": "Sweep",
+      "writeup": null
+    },
+    "697": {
+      "name": "Phantom",
+      "writeup": null
+    },
+    "699": {
+      "name": "Lock",
+      "writeup": null
+    },
+    "701": {
+      "name": "Previous",
+      "writeup": null
+    },
+    "703": {
+      "name": "Guardian",
+      "writeup": null
+    },
+    "706": {
+      "name": "Reaper",
+      "writeup": null
+    },
+    "712": {
+      "name": "Sendai",
+      "writeup": null
+    },
+    "715": {
+      "name": "Race",
+      "writeup": null
+    },
+    "718": {
+      "name": "Media",
+      "writeup": null
+    },
+    "721": {
+      "name": "Soulmate",
+      "writeup": null
+    },
+    "724": {
+      "name": "Delegate",
+      "writeup": null
+    },
+    "727": {
+      "name": "HackNet",
+      "writeup": null
+    },
+    "733": {
+      "name": "Forgotten",
+      "writeup": null
+    },
+    "736": {
+      "name": "Expressway",
+      "writeup": null
+    },
+    "739": {
+      "name": "Baby",
+      "writeup": null
+    },
+    "743": {
+      "name": "RainbowTwo",
+      "writeup": null
+    },
+    "746": {
+      "name": "BabyTwo",
+      "writeup": null
+    },
+    "751": {
+      "name": "Imagery",
+      "writeup": null
+    },
+    "754": {
+      "name": "DarkZero",
+      "writeup": null
+    },
+    "757": {
+      "name": "Job",
+      "writeup": null
+    },
+    "760": {
+      "name": "Watcher",
+      "writeup": null
+    },
+    "763": {
+      "name": "Bamboo",
+      "writeup": null
+    },
+    "766": {
+      "name": "Breach",
+      "writeup": null
+    },
+    "769": {
+      "name": "Slonik",
+      "writeup": null
+    },
+    "772": {
+      "name": "ReaperTwo",
+      "writeup": null
+    },
+    "775": {
+      "name": "Signed",
+      "writeup": null
+    },
+    "778": {
+      "name": "Hercules",
+      "writeup": null
+    },
+    "781": {
+      "name": "Bruno",
+      "writeup": null
+    },
+    "784": {
+      "name": "Atlas",
+      "writeup": null
+    },
+    "787": {
+      "name": "Conversor",
+      "writeup": null
+    },
+    "790": {
+      "name": "Store",
+      "writeup": null
+    },
+    "793": {
+      "name": "Dump",
+      "writeup": null
+    },
+    "796": {
+      "name": "Giveback",
+      "writeup": null
+    },
+    "799": {
+      "name": "JobTwo",
+      "writeup": null
+    },
+    "802": {
+      "name": "NanoCorp",
+      "writeup": null
+    },
+    "805": {
+      "name": "Eighteen",
+      "writeup": null
+    },
+    "808": {
+      "name": "Fries",
+      "writeup": null
+    },
+    "811": {
+      "name": "Gavel",
+      "writeup": null
+    },
+    "814": {
+      "name": "MonitorsFour",
+      "writeup": null
+    },
+    "817": {
+      "name": "Eloquia",
+      "writeup": null
+    },
+    "820": {
+      "name": "Browsed",
+      "writeup": null
+    },
+    "823": {
+      "name": "AirTouch",
+      "writeup": null
+    },
+    "826": {
+      "name": "Overwatch",
+      "writeup": null
+    },
+    "829": {
+      "name": "Facts",
+      "writeup": null
+    },
+    "832": {
+      "name": "Pterodactyl",
+      "writeup": null
+    },
+    "835": {
+      "name": "WingData",
+      "writeup": null
+    },
+    "838": {
+      "name": "Barrier",
+      "writeup": null
+    },
+    "841": {
+      "name": "Interpreter",
+      "writeup": null
+    },
+    "844": {
+      "name": "Pirate",
+      "writeup": null
+    },
+    "847": {
+      "name": "CCTV",
+      "writeup": null
+    },
+    "850": {
+      "name": "VariaType",
+      "writeup": null
+    },
+    "853": {
+      "name": "Principal",
+      "writeup": null
+    },
+    "856": {
+      "name": "Kobold",
+      "writeup": null
+    },
+    "859": {
+      "name": "DevArea",
+      "writeup": null
+    },
+    "862": {
+      "name": "Garfield",
+      "writeup": null
+    },
+    "864": {
+      "name": "Snapped",
+      "writeup": null
+    },
+    "867": {
+      "name": "Silentium",
+      "writeup": null
+    },
+    "888": {
+      "name": "Logging",
+      "writeup": null
+    },
+    "891": {
+      "name": "PingPong",
+      "writeup": null
+    },
+    "894": {
+      "name": "Helix",
+      "writeup": null
+    },
+    "897": {
+      "name": "SmartHire",
+      "writeup": null
+    }
+  },
+  "rooms": {
+    "picklerick": {
+      "title": "Pickle Rick",
+      "writeup": null
+    },
+    "blue": {
+      "title": "Blue",
+      "writeup": null
+    },
+    "ignite": {
+      "title": "Ignite",
+      "writeup": null
+    },
+    "basicpentestingjt": {
+      "title": "Basic Pentesting",
+      "writeup": null
+    },
+    "vulnversity": {
+      "title": "Vulnversity",
+      "writeup": null
+    },
+    "bsidesgtanonforce": {
+      "title": "Anonforce",
+      "writeup": null
+    },
+    "rppsempire": {
+      "title": "Empire",
+      "writeup": null
+    },
+    "bsidesgtthompson": {
+      "title": "Thompson",
+      "writeup": null
+    },
+    "bsidesgtlibrary": {
+      "title": "Library",
+      "writeup": null
+    },
+    "bsidesgtdav": {
+      "title": "Dav",
+      "writeup": null
+    },
+    "kenobi": {
+      "title": "Kenobi",
+      "writeup": null
+    },
+    "rptmux": {
+      "title": "tmux",
+      "writeup": null
+    },
+    "steelmountain": {
+      "title": "Steel Mountain",
+      "writeup": null
+    },
+    "powershell": {
+      "title": "Hacking with PowerShell",
+      "writeup": null
+    },
+    "dvwa": {
+      "title": "DVWA",
+      "writeup": null
+    },
+    "ice": {
+      "title": "Ice",
+      "writeup": null
+    },
+    "webgoat": {
+      "title": "WebGOAT",
+      "writeup": null
+    },
+    "25daysofchristmas": {
+      "title": "Advent of Cyber 1 [2019]",
+      "writeup": null
+    },
+    "attacktivedirectory": {
+      "title": "Attacktive Directory",
+      "writeup": null
+    },
+    "lazyadmin": {
+      "title": "LazyAdmin",
+      "writeup": null
+    },
+    "wifihacking101": {
+      "title": "Wifi Hacking 101",
+      "writeup": null
+    },
+    "jackofalltrades": {
+      "title": "Jack-of-All-Trades",
+      "writeup": null
+    },
+    "thecodcaper": {
+      "title": "The Cod Caper",
+      "writeup": null
+    },
+    "yearoftherabbit": {
+      "title": "Year of the Rabbit",
+      "writeup": null
+    },
+    "torforbeginners": {
+      "title": "Tor",
+      "writeup": null
+    },
+    "shodan": {
+      "title": "Shodan.io",
+      "writeup": null
+    },
+    "geolocatingimages": {
+      "title": "Geolocating Images",
+      "writeup": null
+    },
+    "phishinghiddeneye": {
+      "title": "Phishing: HiddenEye",
+      "writeup": null
+    },
+    "sudovulnsbypass": {
+      "title": "Sudo Security Bypass",
+      "writeup": null
+    },
+    "sudovulnsbof": {
+      "title": "Sudo Buffer Overflow",
+      "writeup": null
+    },
+    "introtonetworking": {
+      "title": "Introductory Networking",
+      "writeup": null
+    },
+    "hydra": {
+      "title": "Hydra",
+      "writeup": null
+    },
+    "commonlinuxprivesc": {
+      "title": "Common Linux Privesc",
+      "writeup": null
+    },
+    "tonythetiger": {
+      "title": "Tony the Tiger",
+      "writeup": null
+    },
+    "googledorking": {
+      "title": "Google Dorking",
+      "writeup": null
+    },
+    "networkservices": {
+      "title": "Network Services",
+      "writeup": null
+    },
+    "introtoresearch": {
+      "title": "Introductory Researching",
+      "writeup": null
+    },
+    "introtoshells": {
+      "title": "What the Shell?",
+      "writeup": null
+    },
+    "learnowaspzap": {
+      "title": "Introduction to OWASP ZAP",
+      "writeup": null
+    },
+    "django": {
+      "title": "Introduction to Django",
+      "writeup": null
+    },
+    "windowsprivescarena": {
+      "title": "Windows PrivEsc Arena",
+      "writeup": null
+    },
+    "blaster": {
+      "title": "Blaster",
+      "writeup": null
+    },
+    "postexploit": {
+      "title": "Post-Exploitation Basics",
+      "writeup": null
+    },
+    "hashingcrypto101": {
+      "title": "Hashing - Crypto 101",
+      "writeup": null
+    },
+    "linuxprivesc": {
+      "title": "Linux PrivEsc",
+      "writeup": null
+    },
+    "uploadvulns": {
+      "title": "Upload Vulnerabilities",
+      "writeup": null
+    },
+    "brooklynninenine": {
+      "title": "Brooklyn Nine Nine",
+      "writeup": null
+    },
+    "encryptioncrypto101": {
+      "title": "Encryption - Crypto 101",
+      "writeup": null
+    },
+    "breakoutthecage1": {
+      "title": "Break Out The Cage",
+      "writeup": null
+    },
+    "attackerkb": {
+      "title": "AttackerKB",
+      "writeup": null
+    },
+    "windows10privesc": {
+      "title": "Windows PrivEsc",
+      "writeup": null
+    },
+    "owaspjuiceshop": {
+      "title": "OWASP Juice Shop",
+      "writeup": null
+    },
+    "catregex": {
+      "title": "Regular Expressions",
+      "writeup": null
+    },
+    "linuxprivescarena": {
+      "title": "Linux PrivEsc Arena",
+      "writeup": null
+    },
+    "printerhacking101": {
+      "title": "Printer Hacking 101",
+      "writeup": null
+    },
+    "tmuxremux": {
+      "title": "REmux The Tmux",
+      "writeup": null
+    },
+    "networkservices2": {
+      "title": "Network Services 2",
+      "writeup": null
+    },
+    "historyofmalware": {
+      "title": "History of Malware",
+      "writeup": null
+    },
+    "bolt": {
+      "title": "Bolt",
+      "writeup": null
+    },
+    "psychobreak": {
+      "title": "Psycho Break",
+      "writeup": null
+    },
+    "pythonbasics": {
+      "title": "Python Basics",
+      "writeup": null
+    },
+    "physicalsecurityintro": {
+      "title": "Physical Security Intro",
+      "writeup": null
+    },
+    "attackingics1": {
+      "title": "Attacking ICS Plant #1",
+      "writeup": null
+    },
+    "intropocscripting": {
+      "title": "Intro PoC Scripting",
+      "writeup": null
+    },
+    "hackermethodology": {
+      "title": "The Hacker Methodology",
+      "writeup": null
+    },
+    "linuxstrengthtraining": {
+      "title": "Linux Strength Training",
+      "writeup": null
+    },
+    "tutorial": {
+      "title": "Tutorial",
+      "writeup": null
+    },
+    "rustscan": {
+      "title": "RustScan",
+      "writeup": null
+    },
+    "allinonemj": {
+      "title": "All in One",
+      "writeup": null
+    },
+    "gettingstarted": {
+      "title": "Getting Started",
+      "writeup": null
+    },
+    "mma": {
+      "title": "Mobile Malware Analysis",
+      "writeup": null
+    },
+    "startingoutincybersec": {
+      "title": "Starting Out In Cyber Sec",
+      "writeup": null
+    },
+    "furthernmap": {
+      "title": "Nmap",
+      "writeup": null
+    },
+    "flask": {
+      "title": "Introduction to Flask",
+      "writeup": null
+    },
+    "johntheripperbasics": {
+      "title": "John the Ripper: The Basics",
+      "writeup": null
+    },
+    "dnsmanipulation": {
+      "title": "DNS Manipulation",
+      "writeup": null
+    },
+    "badbyte": {
+      "title": "Badbyte",
+      "writeup": null
+    },
+    "sqlilab": {
+      "title": "SQL Injection Lab",
+      "writeup": null
+    },
+    "owaspmutillidae": {
+      "title": "OWASP Mutillidae II",
+      "writeup": null
+    },
+    "cyborgt8": {
+      "title": "Cyborg",
+      "writeup": null
+    },
+    "bashscripting": {
+      "title": "Bash Scripting ",
+      "writeup": null
+    },
+    "linuxmodules": {
+      "title": "Linux Modules",
+      "writeup": null
+    },
+    "vulnnetnode": {
+      "title": "VulnNet: Node",
+      "writeup": null
+    },
+    "sudovulnssamedit": {
+      "title": "Baron Samedit",
+      "writeup": null
+    },
+    "linuxbackdoors": {
+      "title": "Linux Backdoors",
+      "writeup": null
+    },
+    "vulnnetinternal": {
+      "title": "VulnNet: Internal",
+      "writeup": null
+    },
+    "cyberweek2021": {
+      "title": "Cyber Scotland 2021",
+      "writeup": null
+    },
+    "vulnnetroasted": {
+      "title": "VulnNet: Roasted",
+      "writeup": null
+    },
+    "linuxfundamentalspart1": {
+      "title": "Linux Fundamentals Part 1",
+      "writeup": null
+    },
+    "linuxfundamentalspart2": {
+      "title": "Linux Fundamentals Part 2",
+      "writeup": null
+    },
+    "howwebsiteswork": {
+      "title": "How Websites Work",
+      "writeup": null
+    },
+    "linuxfundamentalspart3": {
+      "title": "Linux Fundamentals Part 3",
+      "writeup": null
+    },
+    "puttingitalltogether": {
+      "title": "Putting it all together",
+      "writeup": null
+    },
+    "dnsindetail": {
+      "title": "DNS in Detail",
+      "writeup": null
+    },
+    "httpindetail": {
+      "title": "HTTP in Detail",
+      "writeup": null
+    },
+    "windowsfundamentals1xbx": {
+      "title": "Windows Fundamentals 1",
+      "writeup": null
+    },
+    "overlayfs": {
+      "title": "OverlayFS - CVE-2021-3493",
+      "writeup": null
+    },
+    "pythonforcybersecurity": {
+      "title": "Python for Pentesters",
+      "writeup": null
+    },
+    "ffuf": {
+      "title": "ffuf",
+      "writeup": null
+    },
+    "windowsfundamentals2x0x": {
+      "title": "Windows Fundamentals 2",
+      "writeup": null
+    },
+    "powershellforpentesters": {
+      "title": "PowerShell for Pentesters",
+      "writeup": null
+    },
+    "tickets1": {
+      "title": "Learn and win prizes",
+      "writeup": null
+    },
+    "sqlmap": {
+      "title": "SQLMAP",
+      "writeup": null
+    },
+    "whatisnetworking": {
+      "title": "What is Networking?",
+      "writeup": null
+    },
+    "introtolan": {
+      "title": "Intro to LAN",
+      "writeup": null
+    },
+    "osimodelzi": {
+      "title": "OSI Model",
+      "writeup": null
+    },
+    "packetsframes": {
+      "title": "Packets & Frames",
+      "writeup": null
+    },
+    "extendingyournetwork": {
+      "title": "Extending Your Network",
+      "writeup": null
+    },
+    "beginnerpathintro": {
+      "title": "Learning Cyber Security",
+      "writeup": null
+    },
+    "windowsfundamentals3xzx": {
+      "title": "Windows Fundamentals 3",
+      "writeup": null
+    },
+    "dejavu": {
+      "title": "Deja Vu",
+      "writeup": null
+    },
+    "introtopwntools": {
+      "title": "Intro To Pwntools",
+      "writeup": null
+    },
+    "ide": {
+      "title": "IDE",
+      "writeup": null
+    },
+    "polkit": {
+      "title": "Polkit: CVE-2021-3560",
+      "writeup": null
+    },
+    "linprivesc": {
+      "title": "Linux Privilege Escalation",
+      "writeup": null
+    },
+    "phishingemails1tryoe": {
+      "title": "Phishing Analysis Fundamentals",
+      "writeup": null
+    },
+    "walkinganapplication": {
+      "title": "Walking An Application",
+      "writeup": null
+    },
+    "pentestingfundamentals": {
+      "title": "Pentesting Fundamentals",
+      "writeup": null
+    },
+    "principlesofsecurity": {
+      "title": "Principles of Security",
+      "writeup": null
+    },
+    "burpsuitebasicsold": {
+      "title": "Burp Suite: The Basics",
+      "writeup": null
+    },
+    "burpsuiterepeaterold": {
+      "title": "Burp Suite: Repeater",
+      "writeup": null
+    },
+    "burpsuiteintruderold": {
+      "title": "Burp Suite: Intruder",
+      "writeup": null
+    },
+    "burpsuiteomold": {
+      "title": "Burp Suite: Other Modules",
+      "writeup": null
+    },
+    "burpsuiteextenderold": {
+      "title": "Burp Suite: Extender",
+      "writeup": null
+    },
+    "metasploitexploitation": {
+      "title": "Metasploit: Exploitation",
+      "writeup": null
+    },
+    "contentdiscovery": {
+      "title": "Content Discovery",
+      "writeup": null
+    },
+    "subdomainenumeration": {
+      "title": "Subdomain Enumeration",
+      "writeup": null
+    },
+    "authenticationbypass": {
+      "title": "Authentication Bypass",
+      "writeup": null
+    },
+    "passiverecon": {
+      "title": "Passive Reconnaissance",
+      "writeup": null
+    },
+    "activerecon": {
+      "title": "Active Reconnaissance",
+      "writeup": null
+    },
+    "nmap01": {
+      "title": "Nmap Live Host Discovery",
+      "writeup": null
+    },
+    "nmap02": {
+      "title": "Nmap Basic Port Scans",
+      "writeup": null
+    },
+    "nmap03": {
+      "title": "Nmap Advanced Port Scans",
+      "writeup": null
+    },
+    "metasploitintro": {
+      "title": "Metasploit: Introduction ",
+      "writeup": null
+    },
+    "idor": {
+      "title": "IDOR",
+      "writeup": null
+    },
+    "vulnerabilities101": {
+      "title": "Vulnerabilities 101",
+      "writeup": null
+    },
+    "meterpreter": {
+      "title": "Metasploit: Meterpreter",
+      "writeup": null
+    },
+    "ssrfqi": {
+      "title": "Intro to SSRF",
+      "writeup": null
+    },
+    "bruteforceheroes": {
+      "title": "Brute Force Heroes",
+      "writeup": null
+    },
+    "xss": {
+      "title": "Intro to Cross-site Scripting",
+      "writeup": null
+    },
+    "nmap04": {
+      "title": "Nmap Post Port Scans",
+      "writeup": null
+    },
+    "techsupp0rt1": {
+      "title": "Tech_Supp0rt: 1",
+      "writeup": null
+    },
+    "securityawarenessintro": {
+      "title": "Security Awareness",
+      "writeup": null
+    },
+    "jason": {
+      "title": "Jax sucks alot.............",
+      "writeup": null
+    },
+    "atlas": {
+      "title": "Atlas",
+      "writeup": null
+    },
+    "vulnerabilitycapstone": {
+      "title": "Vulnerability Capstone",
+      "writeup": null
+    },
+    "exploitingavulnerabilityv2": {
+      "title": "Exploit Vulnerabilities",
+      "writeup": null
+    },
+    "protocolsandservers": {
+      "title": "Protocols and Servers",
+      "writeup": null
+    },
+    "sqlinjectionlm": {
+      "title": "SQL Injection",
+      "writeup": null
+    },
+    "oscommandinjection": {
+      "title": "Command Injection",
+      "writeup": null
+    },
+    "netsecchallenge": {
+      "title": "Net Sec Challenge",
+      "writeup": null
+    },
+    "fileinc": {
+      "title": "File Inclusion",
+      "writeup": null
+    },
+    "protocolsandservers2": {
+      "title": "Protocols and Servers 2",
+      "writeup": null
+    },
+    "redteamengagements": {
+      "title": "Red Team Engagements",
+      "writeup": null
+    },
+    "hackinghadoop": {
+      "title": "Hacking Hadoop",
+      "writeup": null
+    },
+    "commonattacks": {
+      "title": "Common Attacks",
+      "writeup": null
+    },
+    "redteamthreatintel": {
+      "title": "Red Team Threat Intel",
+      "writeup": null
+    },
+    "weaponization": {
+      "title": "Weaponization ",
+      "writeup": null
+    },
+    "plottedtms": {
+      "title": "Plotted-TMS",
+      "writeup": null
+    },
+    "insekube": {
+      "title": "Insekube",
+      "writeup": null
+    },
+    "adcertificatetemplates": {
+      "title": "AD Certificate Templates",
+      "writeup": null
+    },
+    "idsevasion": {
+      "title": "Intrusion Detection ",
+      "writeup": null
+    },
+    "redteamfundamentals": {
+      "title": "Red Team Fundamentals",
+      "writeup": null
+    },
+    "pwnkit": {
+      "title": "Pwnkit: CVE-2021-4034",
+      "writeup": null
+    },
+    "bypassinguac": {
+      "title": "Bypassing UAC",
+      "writeup": null
+    },
+    "introdigitalforensics": {
+      "title": "Intro to Digital Forensics",
+      "writeup": null
+    },
+    "layer2": {
+      "title": "L2 MAC Flooding & ARP Spoofing",
+      "writeup": null
+    },
+    "operatingsystemsecurity": {
+      "title": "Operating System Security",
+      "writeup": null
+    },
+    "corridor": {
+      "title": "Corridor",
+      "writeup": null
+    },
+    "agentt": {
+      "title": "Agent T",
+      "writeup": null
+    },
+    "offensivesecurityintro": {
+      "title": "Offensive Security Intro",
+      "writeup": null
+    },
+    "dirtypipe": {
+      "title": "Dirty Pipe: CVE-2022-0847",
+      "writeup": null
+    },
+    "neighbour": {
+      "title": "Neighbour",
+      "writeup": null
+    },
+    "digdug": {
+      "title": "Dig Dug",
+      "writeup": null
+    },
+    "lofi": {
+      "title": "Lo-Fi",
+      "writeup": null
+    },
+    "cyberheroes": {
+      "title": "CyberHeroes",
+      "writeup": null
+    },
+    "md2pdf": {
+      "title": "MD2PDF",
+      "writeup": null
+    },
+    "takeover": {
+      "title": "TakeOver",
+      "writeup": null
+    },
+    "intronetworksecurity": {
+      "title": "Network Security",
+      "writeup": null
+    },
+    "introwebapplicationsecurity": {
+      "title": "Web Application Security",
+      "writeup": null
+    },
+    "unifiedkillchain": {
+      "title": "Unified Kill Chain",
+      "writeup": null
+    },
+    "bugged": {
+      "title": "Bugged",
+      "writeup": null
+    },
+    "printnightmarehpzqlp8": {
+      "title": "PrintNightmare",
+      "writeup": null
+    },
+    "spring4shell": {
+      "title": "Spring4Shell: CVE-2022-22965",
+      "writeup": null
+    },
+    "defensivesecurityintro": {
+      "title": "Defensive Security Intro",
+      "writeup": null
+    },
+    "b3dr0ck": {
+      "title": "b3dr0ck",
+      "writeup": null
+    },
+    "securityoperations": {
+      "title": "Security Operations",
+      "writeup": null
+    },
+    "careersincyber": {
+      "title": "Careers in Cyber",
+      "writeup": null
+    },
+    "windowsprivesc20": {
+      "title": "Windows Privilege Escalation",
+      "writeup": null
+    },
+    "cve202226923": {
+      "title": "CVE-2022-26923",
+      "writeup": null
+    },
+    "introtosiem": {
+      "title": "Introduction to SIEM",
+      "writeup": null
+    },
+    "winadbasics": {
+      "title": "Active Directory Basics",
+      "writeup": null
+    },
+    "securityprinciples": {
+      "title": "Security Principles",
+      "writeup": null
+    },
+    "cve202226134": {
+      "title": "Atlassian CVE-2022-26134",
+      "writeup": null
+    },
+    "trafficanalysisessentials": {
+      "title": "Traffic Analysis Essentials",
+      "writeup": null
+    },
+    "windowsapi": {
+      "title": "Introduction to Windows API",
+      "writeup": null
+    },
+    "dreaming": {
+      "title": "Dreaming",
+      "writeup": null
+    },
+    "splunkexploringspl": {
+      "title": "Splunk: Exploring SPL",
+      "writeup": null
+    },
+    "valleype": {
+      "title": "Valley",
+      "writeup": null
+    },
+    "crylo4a": {
+      "title": "Crylo",
+      "writeup": null
+    },
+    "hijack": {
+      "title": "Hijack",
+      "writeup": null
+    },
+    "outlookntlmleak": {
+      "title": "Outlook NTLM Leak",
+      "writeup": null
+    },
+    "owaspbrokenaccesscontrol": {
+      "title": "Broken Access Control",
+      "writeup": null
+    },
+    "w1seguy": {
+      "title": "W1seGuy",
+      "writeup": null
+    },
+    "burpsuiterepeater": {
+      "title": "Burp Suite: Repeater",
+      "writeup": null
+    },
+    "papercut": {
+      "title": "PaperCut: CVE-2023-27350",
+      "writeup": null
+    },
+    "cve202338408": {
+      "title": "CVE-2023-38408 ",
+      "writeup": null
+    },
+    "publisher": {
+      "title": "Publisher",
+      "writeup": null
+    },
+    "httprequestsmuggling": {
+      "title": "HTTP Request Smuggling",
+      "writeup": null
+    },
+    "looneytunes": {
+      "title": "Looney Tunables",
+      "writeup": null
+    },
+    "confluence202322515": {
+      "title": "Confluence CVE-2023-22515",
+      "writeup": null
+    },
+    "becomeahackeroa": {
+      "title": "Become a Hacker",
+      "writeup": null
+    },
+    "csrfV2": {
+      "title": "CSRF",
+      "writeup": null
+    },
+    "axss": {
+      "title": "XSS",
+      "writeup": null
+    },
+    "pyrat": {
+      "title": "Pyrat",
+      "writeup": null
+    },
+    "lookup": {
+      "title": "Lookup",
+      "writeup": null
+    },
+    "monikerlink": {
+      "title": "Moniker Link (CVE-2024-21413)",
+      "writeup": null
+    },
+    "rabbitstore": {
+      "title": "Rabbit Store",
+      "writeup": null
+    },
+    "billing": {
+      "title": "Billing",
+      "writeup": null
+    },
+    "tryhack3mbricksheist": {
+      "title": "TryHack3M: Bricks Heist",
+      "writeup": null
+    },
+    "windowscommandline": {
+      "title": "Windows Command Line",
+      "writeup": null
+    },
+    "searchskills": {
+      "title": "Search Skills",
+      "writeup": null
+    },
+    "networkingconcepts": {
+      "title": "Networking Concepts",
+      "writeup": null
+    },
+    "nosqlinjectiontutorial": {
+      "title": "NoSQL Injection",
+      "writeup": null
+    },
+    "enumerationbruteforce": {
+      "title": "Enumeration & Brute Force",
+      "writeup": null
+    },
+    "socfundamentals": {
+      "title": "SOC Fundamentals",
+      "writeup": null
+    },
+    "soupedecode01": {
+      "title": "Soupedecode 01",
+      "writeup": null
+    },
+    "cyberchefbasics": {
+      "title": "CyberChef: The Basics",
+      "writeup": null
+    },
+    "cryptographybasics": {
+      "title": "Cryptography Basics",
+      "writeup": null
+    },
+    "insecurerandomness": {
+      "title": "Insecure Randomness",
+      "writeup": null
+    },
+    "training": {
+      "title": "Training Impact on Teams",
+      "writeup": null
+    },
+    "webapplicationbasics": {
+      "title": "Web Application Basics",
+      "writeup": null
+    },
+    "supplychainattacks": {
+      "title": "Supply Chain Attack: Lottie",
+      "writeup": null
+    },
+    "bypassreallysimplesecurity": {
+      "title": "Bypass Really Simple Security",
+      "writeup": null
+    },
+    "breakingcryptothesimpleway": {
+      "title": "Breaking Crypto the Simple Way",
+      "writeup": null
+    },
+    "phishingbasics": {
+      "title": "Phishing Basics",
+      "writeup": null
+    },
+    "customtoolingpython": {
+      "title": "Custom Tooling Using Python",
+      "writeup": null
+    },
+    "cyberkillchain": {
+      "title": "Cyber Kill Chain",
+      "writeup": null
+    },
+    "nextjscve202529927": {
+      "title": "Next.js: CVE-2025-29927",
+      "writeup": null
+    },
+    "aimlsecuritythreats": {
+      "title": "AI/ML Security Threats",
+      "writeup": null
+    },
+    "windowsloggingforsoc": {
+      "title": "Windows Logging for SOC",
+      "writeup": null
+    },
+    "offensivesecurityintrokK": {
+      "title": "Offensive Security Intro",
+      "writeup": null
+    },
+    "erlangotpsshcve202532433": {
+      "title": "Erlang/OTP SSH: CVE-2025-32433",
+      "writeup": null
+    },
+    "writingpentestreports": {
+      "title": "Writing Pentest Reports",
+      "writeup": null
+    },
+    "adbasicenumeration": {
+      "title": "AD: Basic Enumeration",
+      "writeup": null
+    },
+    "aiforensics": {
+      "title": "AI Forensics",
+      "writeup": null
+    },
+    "roundcubecve202549113": {
+      "title": "Roundcube: CVE-2025-49113",
+      "writeup": null
+    },
+    "containment": {
+      "title": "ContAInment",
+      "writeup": null
+    },
+    "chainingvulnerabilitiesZp": {
+      "title": "Chaining Vulnerabilities",
+      "writeup": null
+    },
+    "oracle9": {
+      "title": "Oracle 9",
+      "writeup": null
+    },
+    "defensivesecurityintroqW": {
+      "title": "Defensive Security Intro",
+      "writeup": null
+    },
+    "hack2win": {
+      "title": "Hack2Win: How you can grab extra tickets",
+      "writeup": null
+    },
+    "introductiontoedrs": {
+      "title": "Introduction to EDR",
+      "writeup": null
+    },
+    "inputmanipulationpromptinjection": {
+      "title": "Input Manipulation & Prompt Injection",
+      "writeup": null
+    },
+    "idor-aoc2025-zl6MywQid9": {
+      "title": "IDOR - Santa’s Little IDOR",
+      "writeup": null
+    },
+    "obfuscation-aoc2025-e5r8t2y6u9": {
+      "title": "Obfuscation - The Egg Shell File",
+      "writeup": null
+    },
+    "xss-aoc2025-c5j8b1m4t6": {
+      "title": "XSS - Merry XSSMas",
+      "writeup": null
+    },
+    "attacks-on-ecrypted-files-aoc2025-asdfghj123": {
+      "title": "Passwords - A Cracking Christmas",
+      "writeup": null
+    },
+    "azuresentinel-aoc2025-a7d3h9k0p2": {
+      "title": "SOC Alert Triaging - Tinsel Triage",
+      "writeup": null
+    },
+    "splunkforloganalysis-aoc2025-x8fj2k4rqp": {
+      "title": "Splunk Basics - Did you SIEM?",
+      "writeup": null
+    },
+    "phishing-aoc2025-h2tkye9fzU": {
+      "title": "Phishing - Merry Clickmas",
+      "writeup": null
+    },
+    "promptinjection-aoc2025-sxUMnCkvLO": {
+      "title": "Prompt Injection - Sched-yule conflict",
+      "writeup": null
+    },
+    "linuxcli-aoc2025-o1fpqkvxti": {
+      "title": "Linux CLI - Shells Bells",
+      "writeup": null
+    },
+    "yara-aoc2025-q9w1e3y5u7": {
+      "title": "YARA Rules - YARA mean one!",
+      "writeup": null
+    },
+    "registry-forensics-aoc2025-h6k9j2l5p8": {
+      "title": "Forensics - Registry Furensics",
+      "writeup": null
+    },
+    "webhackingusingcurl-aoc2025-w8q1a4s7d0": {
+      "title": "Exploitation with cURL - Hoperation Eggsploit",
+      "writeup": null
+    },
+    "ICS-modbus-aoc2025-g3m6n9b1v4": {
+      "title": "ICS/Modbus - Claus for Concern",
+      "writeup": null
+    },
+    "race-conditions-aoc2025-d7f0g3h6j9": {
+      "title": "Race Conditions - Toy to The World",
+      "writeup": null
+    },
+    "networkservices-aoc2025-jnsoqbxgky": {
+      "title": "Network Discovery - Scan-ta Clause",
+      "writeup": null
+    },
+    "container-security-aoc2025-z0x3v6n9m2": {
+      "title": "Containers - DoorDasher's Demise",
+      "writeup": null
+    },
+    "encoding-decoding-aoc2025-s1a4z7x0c3": {
+      "title": "CyberChef - Hoperation Save McSkidy",
+      "writeup": null
+    },
+    "spottingphishing-aoc2025-r2g4f6s8l0": {
+      "title": "Phishing - Phishmas Greetings",
+      "writeup": null
+    },
+    "AIforcyber-aoc2025-y9wWQ1zRgB": {
+      "title": "AI in Security - old sAInt nick",
+      "writeup": null
+    },
+    "htapowershell-aoc2025-p2l5k8j1h4": {
+      "title": "Malware Analysis - Malhare.exe",
+      "writeup": null
+    },
+    "detecting-c2-with-rita-aoc2025-m9n2b5v8c1": {
+      "title": "C2 Detection - Command & Carol",
+      "writeup": null
+    },
+    "cloudenum-aoc2025-y4u7i0o3p6": {
+      "title": "AWS Security - S3cret Santa",
+      "writeup": null
+    },
+    "malware-sandbox-aoc2025-SD1zn4fZQt": {
+      "title": "Malware Analysis - Egg-xecutable",
+      "writeup": null
+    },
+    "webattackforensics-aoc2025-b4t7c1d5f8": {
+      "title": "Web Attack Forensics - Drone Alone",
+      "writeup": null
+    },
+    "adventofcyberpreptrack": {
+      "title": "Advent of Cyber Prep Track",
+      "writeup": null
+    },
+    "owasptopten2025one": {
+      "title": "OWASP Top 10 2025: IAAA Failures",
+      "writeup": null
+    },
+    "owasptopten2025two": {
+      "title": "OWASP Top 10 2025: Application Design Flaws",
+      "writeup": null
+    },
+    "owasptopten2025three": {
+      "title": "OWASP Top 10 2025: Insecure Data Handling",
+      "writeup": null
+    },
+    "djangocve202564459": {
+      "title": "Django: CVE-2025-64459",
+      "writeup": null
+    },
+    "wafintroduction": {
+      "title": "WAF: Introduction",
+      "writeup": null
+    },
+    "react2shellcve202555182": {
+      "title": "React2Shell: CVE-2025-55182",
+      "writeup": null
+    },
+    "virtualisationbasics": {
+      "title": "Virtualisation Basics",
+      "writeup": null
+    },
+    "operatingsystemsintroduction": {
+      "title": "Operating Systems: Introduction",
+      "writeup": null
+    },
+    "linuxclibasics": {
+      "title": "Linux CLI Basics",
+      "writeup": null
+    },
+    "datarepresentation": {
+      "title": "Data Representation",
+      "writeup": null
+    },
+    "dataencoding": {
+      "title": "Data Encoding",
+      "writeup": null
+    },
+    "javascriptsimpledemo": {
+      "title": "JavaScript: Simple Demo",
+      "writeup": null
+    },
+    "pythonsimpledemo": {
+      "title": "Python: Simple Demo",
+      "writeup": null
+    },
+    "llmsecurity": {
+      "title": "LLM Security",
+      "writeup": null
+    },
+    "windowsbasics": {
+      "title": "Windows Basics",
+      "writeup": null
+    },
+    "cloudcomputingfundamentals": {
+      "title": "Cloud Computing Fundamentals",
+      "writeup": null
+    },
+    "windowsclibasics": {
+      "title": "Windows CLI Basics",
+      "writeup": null
+    },
+    "theciatriad": {
+      "title": "The CIA Triad",
+      "writeup": null
+    },
+    "databasesqlbasics": {
+      "title": "Database SQL Basics",
+      "writeup": null
+    },
+    "cryptographyconcepts": {
+      "title": "Cryptography Concepts",
+      "writeup": null
+    },
+    "clientserverbasics": {
+      "title": "Client-Server Basics",
+      "writeup": null
+    },
+    "becomeahacker": {
+      "title": "Become a Hacker",
+      "writeup": null
+    },
+    "becomeadefender": {
+      "title": "Become a Defender",
+      "writeup": null
+    },
+    "offensivesecurityintrokKx12": {
+      "title": "Offensive Security Intro",
+      "writeup": null
+    },
+    "insideacomputer": {
+      "title": "Inside a Computer System",
+      "writeup": null
+    },
+    "geoservercve202558360": {
+      "title": "GeoServer: CVE-2025-58360",
+      "writeup": null
+    },
+    "offensivesecurityintrokKx12l39": {
+      "title": "Offensive Security Intro",
+      "writeup": null
+    },
+    "computertypes": {
+      "title": "Computer Types",
+      "writeup": null
+    },
+    "introtoactivedirectoryauthentication": {
+      "title": "Intro to AD Authentication",
+      "writeup": null
+    },
+    "lafb2026e1": {
+      "title": "When Hearts Collide",
+      "writeup": null
+    },
+    "lafb2026e2": {
+      "title": "Love Letter Locker",
+      "writeup": null
+    },
+    "lafb2026e3": {
+      "title": "Cupid's Matchmaker",
+      "writeup": null
+    },
+    "lafb2026e4": {
+      "title": "Speed Chatting",
+      "writeup": null
+    },
+    "lafb2026e5": {
+      "title": "TryHeartMe",
+      "writeup": null
+    },
+    "lafb2026e6": {
+      "title": "CupidBot",
+      "writeup": null
+    },
+    "lafb2026e7": {
+      "title": "Corp Website",
+      "writeup": null
+    },
+    "lafb2026e8": {
+      "title": "Signed Messages",
+      "writeup": null
+    },
+    "lafb2026e9": {
+      "title": "Hidden Deep Into my Heart",
+      "writeup": null
+    },
+    "lafb2026e10": {
+      "title": "Valenfind",
+      "writeup": null
+    },
+    "lafbctf2026-advanced": {
+      "title": "Love at First Breach 2026 -  Advanced Track",
+      "writeup": null
+    },
+    "promptengineeringaisec": {
+      "title": "Prompt Engineering",
+      "writeup": null
+    },
+    "aimodelsdata": {
+      "title": "AI Models & Data",
+      "writeup": null
+    },
+    "defensivesecurityintroezn39": {
+      "title": "Defensive Security Intro",
+      "writeup": null
+    },
+    "aithreatmodelling": {
+      "title": "AI Threat Modelling",
+      "writeup": null
+    },
+    "securingaisystems": {
+      "title": "Securing AI Systems",
+      "writeup": null
+    },
+    "csrfintroduction": {
+      "title": "CSRF Introduction",
+      "writeup": null
+    },
+    "aisystemreconnaissance": {
+      "title": "AI System Reconnaissance",
+      "writeup": null
+    },
+    "vulnerabilityscanningtools": {
+      "title": "Vulnerability Scanning Tools",
+      "writeup": null
+    },
+    "aithreatmodellingassessment": {
+      "title": "AI Threat Modelling Assessment",
+      "writeup": null
+    },
+    "aisecuritypathticketingevent": {
+      "title": "AI Security Path Ticketing Event",
+      "writeup": null
+    }
+  }
+}
