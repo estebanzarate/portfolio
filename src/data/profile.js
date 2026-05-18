@@ -104,7 +104,15 @@ const profile = {
     ],
     education: [
       {
-        id: 1,
+        id: 11,
+        title: "Introduction to Cybersecurity",
+        institution: "Networking Academy through the Cisco Networking Academy program",
+        period: "2026",
+        certificate: "/certificates/ITC.webp",
+        courseUrl: "https://www.netacad.com/courses/introduction-to-cybersecurity?courseLang=en-US",
+      },
+      {
+        id: 10,
         title: "TestOut Client Pro",
         institution: "TestOut Corporation",
         period: "2024",
@@ -112,7 +120,7 @@ const profile = {
         courseUrl: "https://www.comptia.org/en-us/certifications/windows-client-pro/",
       },
       {
-        id: 2,
+        id: 9,
         title: "TestOut PC Pro",
         institution: "TestOut Corporation",
         period: "2024",
@@ -120,7 +128,7 @@ const profile = {
         courseUrl: "https://www.comptia.org/en-us/certifications/pc-pro/",
       },
       {
-        id: 3,
+        id: 8,
         title: "Introducción a Linux",
         institution: "Hack4u",
         period: "2023",
@@ -128,7 +136,7 @@ const profile = {
         courseUrl: "https://hack4u.io/curso/introduccion-a-linux",
       },
       {
-        id: 4,
+        id: 7,
         title: "Introducción al Hacking",
         institution: "Hack4u",
         period: "2023",
@@ -136,7 +144,7 @@ const profile = {
         courseUrl: "https://hack4u.io/curso/introduccion-al-hacking",
       },
       {
-        id: 5,
+        id: 6,
         title: "Python Ofensivo",
         institution: "Hack4u",
         period: "2023",
@@ -144,7 +152,7 @@ const profile = {
         courseUrl: "https://hack4u.io/curso/python-ofensivo",
       },
       {
-        id: 6,
+        id: 5,
         title: "Introduction to Cyber Security Learning Path",
         institution: "TryHackMe",
         period: "2023",
@@ -152,7 +160,7 @@ const profile = {
         courseUrl: "https://tryhackme.com/module/introduction-to-cyber-security",
       },
       {
-        id: 7,
+        id: 4,
         title: "Pre Security Learning Path",
         institution: "TryHackMe",
         period: "2023",
@@ -160,7 +168,7 @@ const profile = {
         courseUrl: "https://tryhackme.com/path/outline/presecurity",
       },
       {
-        id: 8,
+        id: 3,
         title: "Complete Beginner Learning Path",
         institution: "TryHackMe",
         period: "2023",
@@ -168,7 +176,7 @@ const profile = {
         courseUrl: "https://tryhackme.com/path/outline/presecurity",
       },
       {
-        id: 9,
+        id: 2,
         title: "Web Fundamentals Learning Path",
         institution: "TryHackMe",
         period: "2023",
@@ -176,7 +184,7 @@ const profile = {
         courseUrl: "https://tryhackme.com/path/outline/web",
       },
       {
-        id: 10,
+        id: 1,
         title: "Jr Penetration Tester Learning Path",
         institution: "TryHackMe",
         period: "2023",
@@ -291,7 +299,15 @@ const profile = {
     ],
     education: [
       {
-        id: 1,
+        id: 11,
+        title: "Introduction to Cybersecurity",
+        institution: "Networking Academy through the Cisco Networking Academy program",
+        period: "2026",
+        certificate: "/certificates/ITC.webp",
+        courseUrl: "https://www.netacad.com/courses/introduction-to-cybersecurity?courseLang=en-US",
+      },
+      {
+        id: 10,
         title: "TestOut Client Pro",
         institution: "TestOut Corporation",
         period: "2024",
@@ -299,7 +315,7 @@ const profile = {
         courseUrl: "https://www.comptia.org/en-us/certifications/windows-client-pro/",
       },
       {
-        id: 2,
+        id: 9,
         title: "TestOut PC Pro",
         institution: "TestOut Corporation",
         period: "2024",
@@ -307,7 +323,7 @@ const profile = {
         courseUrl: "https://www.comptia.org/en-us/certifications/pc-pro/",
       },
       {
-        id: 3,
+        id: 8,
         title: "Introduction to Linux",
         institution: "Hack4u",
         period: "2023",
@@ -315,7 +331,7 @@ const profile = {
         courseUrl: "https://hack4u.io/curso/introduccion-a-linux",
       },
       {
-        id: 4,
+        id: 7,
         title: "Introduction to Hacking",
         institution: "Hack4u",
         period: "2023",
@@ -323,7 +339,7 @@ const profile = {
         courseUrl: "https://hack4u.io/curso/introduccion-al-hacking",
       },
       {
-        id: 5,
+        id: 6,
         title: "Offensive Python",
         institution: "Hack4u",
         period: "2023",
@@ -331,7 +347,7 @@ const profile = {
         courseUrl: "https://hack4u.io/curso/python-ofensivo",
       },
       {
-        id: 6,
+        id: 5,
         title: "Introduction to Cyber Security Learning Path",
         institution: "TryHackMe",
         period: "2023",
@@ -339,7 +355,7 @@ const profile = {
         courseUrl: "https://tryhackme.com/module/introduction-to-cyber-security",
       },
       {
-        id: 7,
+        id: 4,
         title: "Pre Security Learning Path",
         institution: "TryHackMe",
         period: "2023",
@@ -347,7 +363,7 @@ const profile = {
         courseUrl: "https://tryhackme.com/path/outline/presecurity",
       },
       {
-        id: 8,
+        id: 3,
         title: "Complete Beginner Learning Path",
         institution: "TryHackMe",
         period: "2023",
@@ -355,7 +371,7 @@ const profile = {
         courseUrl: "https://tryhackme.com/path/outline/presecurity",
       },
       {
-        id: 9,
+        id: 2,
         title: "Web Fundamentals Learning Path",
         institution: "TryHackMe",
         period: "2023",
@@ -363,7 +379,7 @@ const profile = {
         courseUrl: "https://tryhackme.com/path/outline/web",
       },
       {
-        id: 10,
+        id: 1,
         title: "Jr Penetration Tester Learning Path",
         institution: "TryHackMe",
         period: "2023",
