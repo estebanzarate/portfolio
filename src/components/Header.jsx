@@ -24,7 +24,6 @@ function MoonIcon() {
 
 function usePrimaryColor(deps) {
   const [color, setColor] = useState('')
-
   useEffect(() => {
     const raf = requestAnimationFrame(() => {
       const value = getComputedStyle(document.documentElement)
@@ -34,7 +33,6 @@ function usePrimaryColor(deps) {
     })
     return () => cancelAnimationFrame(raf)
   }, deps)
-
   return color
 }
 
@@ -56,6 +54,22 @@ function Header() {
     { label: t.academy, href: '#academy', id: 'academy' },
     { label: t.thm, href: '#thm', id: 'thm' },
   ]
+
+  function scrollToSection(id) {
+    const el = document.getElementById(id)
+    if (el) el.scrollIntoView({ behavior: 'smooth' })
+  }
+
+  function handleNavClick(e, id) {
+    e.preventDefault()
+    scrollToSection(id)
+    setMenuOpen(false)
+  }
+
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+    setActiveSection('')
+  }
 
   useEffect(() => {
     const sectionIds = navLinks.map(l => l.id)
@@ -94,7 +108,6 @@ function Header() {
     }
   }, [])
 
-  // Resetear activeSection cuando el scroll vuelve al tope
   useEffect(() => {
     function handleScroll() {
       if (window.scrollY === 0) setActiveSection('')
@@ -126,11 +139,6 @@ function Header() {
     return () => { document.body.style.overflow = '' }
   }, [menuOpen])
 
-  function scrollToTop() {
-    window.scrollTo({ top: 0, behavior: 'smooth' })
-    setActiveSection('')
-  }
-
   function getLinkClass(id, mobile = false) {
     const isActive = activeSection === id
     const base = 'transition-colors text-sm font-medium'
@@ -155,7 +163,12 @@ function Header() {
 
         <nav className="hidden md:flex items-center gap-6">
           {navLinks.map(link => (
-            <a key={link.href} href={link.href} className={getLinkClass(link.id)}>
+            <a
+              key={link.href}
+              href={link.href}
+              onClick={e => handleNavClick(e, link.id)}
+              className={getLinkClass(link.id)}
+            >
               {link.label}
             </a>
           ))}
@@ -226,7 +239,7 @@ function Header() {
             <a
               key={link.href}
               href={link.href}
-              onClick={() => setMenuOpen(false)}
+              onClick={e => handleNavClick(e, link.id)}
               className={getLinkClass(link.id, true)}
             >
               {link.label}

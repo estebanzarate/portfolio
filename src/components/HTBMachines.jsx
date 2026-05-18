@@ -3,6 +3,7 @@ import useLanguage from '../hooks/useLanguage'
 import translations from '../data/translations'
 import machinesData from '../data/machines.json'
 import StatCard from './ui/StatCard'
+import StatsBanner from './ui/StatsBanner'
 import EmptyState from './ui/EmptyState'
 
 const difficultyColor = {
@@ -25,14 +26,12 @@ function HTBMachines() {
   const osList = ['All', ...Object.keys(statistics.by_os)]
   const diffList = ['All', 'Easy', 'Medium', 'Hard', 'Insane']
 
-  const filtered = useMemo(() => {
-    return machines.filter(m => {
-      const matchOS = filterOS === 'All' || m.os === filterOS
-      const matchDiff = filterDiff === 'All' || m.difficulty === filterDiff
-      const matchSearch = m.name.toLowerCase().includes(search.toLowerCase())
-      return matchOS && matchDiff && matchSearch
-    })
-  }, [machines, filterOS, filterDiff, search])
+  const filtered = useMemo(() => machines.filter(m => {
+    const matchOS = filterOS === 'All' || m.os === filterOS
+    const matchDiff = filterDiff === 'All' || m.difficulty === filterDiff
+    const matchSearch = m.name.toLowerCase().includes(search.toLowerCase())
+    return matchOS && matchDiff && matchSearch
+  }), [machines, filterOS, filterDiff, search])
 
   const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE)
   const paginated = filtered.slice((page - 1) * ITEMS_PER_PAGE, page * ITEMS_PER_PAGE)
@@ -43,6 +42,17 @@ function HTBMachines() {
 
   const hasData = machines.length > 0
   const hasResults = filtered.length > 0
+
+  const bannerItems = [
+    { label: t.total, value: statistics.total, accent: false },
+    { label: t.userOwns, value: statistics.user_owns, accent: false },
+    { label: t.rootOwns, value: statistics.root_owns, accent: true },
+  ]
+
+  const bannerChips = [
+    ...Object.entries(statistics.by_difficulty).map(([d, v]) => ({ label: d, value: v })),
+    ...Object.entries(statistics.by_os).map(([os, v]) => ({ label: os, value: v })),
+  ]
 
   const Pagination = () => totalPages > 1 ? (
     <div className="flex items-center justify-center gap-2">
@@ -63,7 +73,11 @@ function HTBMachines() {
 
       {!hasData ? <EmptyState message={t.noData} /> : (
         <>
-          <div className="flex flex-wrap gap-3">
+          {/* Stats mobile */}
+          <StatsBanner items={bannerItems} chips={bannerChips} />
+
+          {/* Stats desktop */}
+          <div className="hidden md:flex flex-wrap gap-3">
             <StatCard label={t.total} value={statistics.total} colorClass="border-surface2" />
             <StatCard label={t.userOwns} value={statistics.user_owns} colorClass="border-surface2" />
             <StatCard label={t.rootOwns} value={statistics.root_owns} colorClass="border-primary/40" />
@@ -72,21 +86,16 @@ function HTBMachines() {
             <StatCard label="Hard" value={statistics.by_difficulty.Hard ?? 0} colorClass="border-surface2" />
             <StatCard label="Insane" value={statistics.by_difficulty.Insane ?? 0} colorClass="border-surface2" />
           </div>
-          <div className="flex flex-wrap gap-2">
+          <div className="hidden md:flex flex-wrap gap-2">
             {Object.entries(statistics.by_os).map(([os, count]) => (
               <span key={os} className="px-3 py-1 rounded-full bg-surface2 text-secondary text-xs border border-surface2">
                 {os}: <span className="text-light font-medium">{count}</span>
               </span>
             ))}
           </div>
+
           <div className="flex flex-col sm:flex-row gap-3">
-            <input
-              type="text"
-              placeholder={t.searchPlaceholder}
-              value={search}
-              onChange={e => { setSearch(e.target.value); setPage(1) }}
-              className="flex-1 px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-light placeholder-secondary focus:outline-none focus:border-primary text-sm"
-            />
+            <input type="text" placeholder={t.searchPlaceholder} value={search} onChange={e => { setSearch(e.target.value); setPage(1) }} className="flex-1 px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-light placeholder-secondary focus:outline-none focus:border-primary text-sm" />
             <select value={filterOS} onChange={e => handleFilterChange(setFilterOS)(e.target.value)} className="px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-secondary focus:outline-none focus:border-primary text-sm">
               {osList.map(os => <option key={os} value={os}>{os === 'All' ? t.allOS : os}</option>)}
             </select>
@@ -98,7 +107,6 @@ function HTBMachines() {
 
           {!hasResults ? <EmptyState message={t.noResults} /> : (
             <>
-              {/* Cards mobile */}
               <div className="flex flex-col gap-2 md:hidden">
                 {paginated.map(m => (
                   <div key={m.id} className="flex items-center justify-between p-3 rounded-lg bg-surface border border-surface2">
@@ -107,17 +115,13 @@ function HTBMachines() {
                       <span className="text-secondary text-xs">{m.os}</span>
                     </div>
                     <div className="flex items-center gap-2 shrink-0 ml-3">
-                      <span className={`px-2 py-0.5 rounded border text-xs font-medium ${difficultyColor[m.difficulty]}`}>
-                        {m.difficulty}
-                      </span>
+                      <span className={`px-2 py-0.5 rounded border text-xs font-medium ${difficultyColor[m.difficulty]}`}>{m.difficulty}</span>
                       <span className={`text-sm font-bold ${m.user_owned ? 'text-success' : 'text-secondary'}`} title={t.user}>U</span>
                       <span className={`text-sm font-bold ${m.root_owned ? 'text-success' : 'text-secondary'}`} title={t.root}>R</span>
                     </div>
                   </div>
                 ))}
               </div>
-
-              {/* Tabla desktop */}
               <div className="hidden md:block overflow-x-auto rounded-lg border border-surface2">
                 <table className="w-full text-sm">
                   <thead>
@@ -134,9 +138,7 @@ function HTBMachines() {
                       <tr key={m.id} className={`border-t border-surface2 hover:bg-surface2/50 transition-colors ${i % 2 === 0 ? '' : 'bg-surface/30'}`}>
                         <td className="px-4 py-3 text-light font-medium">{m.name}</td>
                         <td className="px-4 py-3 text-secondary">{m.os}</td>
-                        <td className="px-4 py-3">
-                          <span className={`px-2 py-0.5 rounded border text-xs font-medium ${difficultyColor[m.difficulty]}`}>{m.difficulty}</span>
-                        </td>
+                        <td className="px-4 py-3"><span className={`px-2 py-0.5 rounded border text-xs font-medium ${difficultyColor[m.difficulty]}`}>{m.difficulty}</span></td>
                         <td className="px-4 py-3 text-center">{m.user_owned ? <span className="text-success font-bold">✓</span> : <span className="text-secondary">✗</span>}</td>
                         <td className="px-4 py-3 text-center">{m.root_owned ? <span className="text-success font-bold">✓</span> : <span className="text-secondary">✗</span>}</td>
                       </tr>

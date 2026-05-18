@@ -3,6 +3,7 @@ import useLanguage from '../hooks/useLanguage'
 import translations from '../data/translations'
 import roomsData from '../data/rooms.json'
 import StatCard from './ui/StatCard'
+import StatsBanner from './ui/StatsBanner'
 import EmptyState from './ui/EmptyState'
 
 const difficultyColor = {
@@ -30,15 +31,13 @@ function THMRooms() {
   const diffList = ['All', 'easy', 'medium', 'hard', 'info']
   const typeList = ['All', 'walkthrough', 'challenge']
 
-  const filtered = useMemo(() => {
-    return rooms.filter(r => {
-      const matchDiff = filterDiff === 'All' || r.difficulty === filterDiff
-      const matchType = filterType === 'All' || r.type === filterType
-      const matchDone = filterDone === 'All' || (filterDone === 'completed' ? r.completed : !r.completed)
-      const matchSearch = r.title.toLowerCase().includes(search.toLowerCase())
-      return matchDiff && matchType && matchDone && matchSearch
-    })
-  }, [rooms, filterDiff, filterType, filterDone, search])
+  const filtered = useMemo(() => rooms.filter(r => {
+    const matchDiff = filterDiff === 'All' || r.difficulty === filterDiff
+    const matchType = filterType === 'All' || r.type === filterType
+    const matchDone = filterDone === 'All' || (filterDone === 'completed' ? r.completed : !r.completed)
+    const matchSearch = r.title.toLowerCase().includes(search.toLowerCase())
+    return matchDiff && matchType && matchDone && matchSearch
+  }), [rooms, filterDiff, filterType, filterDone, search])
 
   const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE)
   const paginated = filtered.slice((page - 1) * ITEMS_PER_PAGE, page * ITEMS_PER_PAGE)
@@ -49,6 +48,23 @@ function THMRooms() {
 
   const hasData = rooms.length > 0
   const hasResults = filtered.length > 0
+
+  const bannerItems = [
+    { label: t.total, value: statistics.total_rooms, accent: false },
+    { label: t.completed, value: statistics.completed, accent: true },
+    { label: t.percentage, value: `${statistics.completion_percentage}%`, accent: false },
+  ]
+
+  const bannerChips = [
+    ...Object.entries(statistics.by_difficulty).map(([diff, count]) => ({
+      label: diff.charAt(0).toUpperCase() + diff.slice(1),
+      value: count,
+    })),
+    ...Object.entries(statistics.by_type).map(([type, count]) => ({
+      label: type.charAt(0).toUpperCase() + type.slice(1),
+      value: count,
+    })),
+  ]
 
   const Pagination = () => totalPages > 1 ? (
     <div className="flex items-center justify-center gap-2">
@@ -69,12 +85,16 @@ function THMRooms() {
 
       {!hasData ? <EmptyState message={t.noData} /> : (
         <>
-          <div className="flex flex-wrap gap-3">
+          {/* Stats mobile */}
+          <StatsBanner items={bannerItems} chips={bannerChips} />
+
+          {/* Stats desktop */}
+          <div className="hidden md:flex flex-wrap gap-3">
             <StatCard label={t.total} value={statistics.total_rooms} colorClass="border-surface2" />
             <StatCard label={t.completed} value={statistics.completed} colorClass="border-primary/40" />
             <StatCard label={t.percentage} value={`${statistics.completion_percentage}%`} colorClass="border-surface2" />
           </div>
-          <div className="flex flex-wrap gap-3">
+          <div className="hidden md:flex flex-wrap gap-3">
             {Object.entries(statistics.by_difficulty).map(([diff, count]) => (
               <StatCard key={diff} label={diff.charAt(0).toUpperCase() + diff.slice(1)} value={count} colorClass="border-surface2" />
             ))}
@@ -82,14 +102,9 @@ function THMRooms() {
               <StatCard key={type} label={type.charAt(0).toUpperCase() + type.slice(1)} value={count} colorClass="border-surface2" />
             ))}
           </div>
+
           <div className="flex flex-col sm:flex-row gap-3">
-            <input
-              type="text"
-              placeholder={t.searchPlaceholder}
-              value={search}
-              onChange={e => { setSearch(e.target.value); setPage(1) }}
-              className="flex-1 px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-light placeholder-secondary focus:outline-none focus:border-primary text-sm"
-            />
+            <input type="text" placeholder={t.searchPlaceholder} value={search} onChange={e => { setSearch(e.target.value); setPage(1) }} className="flex-1 px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-light placeholder-secondary focus:outline-none focus:border-primary text-sm" />
             <select value={filterDiff} onChange={e => resetPage(setFilterDiff)(e.target.value)} className="px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-secondary focus:outline-none focus:border-primary text-sm">
               {diffList.map(d => <option key={d} value={d}>{d === 'All' ? t.allDiff : d.charAt(0).toUpperCase() + d.slice(1)}</option>)}
             </select>
@@ -106,7 +121,6 @@ function THMRooms() {
 
           {!hasResults ? <EmptyState message={t.noResults} /> : (
             <>
-              {/* Cards mobile */}
               <div className="flex flex-col gap-2 md:hidden">
                 {paginated.map(r => (
                   <div key={r.id} className="flex items-center justify-between gap-3 p-3 rounded-lg bg-surface border border-surface2">
@@ -127,8 +141,6 @@ function THMRooms() {
                   </div>
                 ))}
               </div>
-
-              {/* Tabla desktop */}
               <div className="hidden md:block overflow-x-auto rounded-lg border border-surface2">
                 <table className="w-full text-sm">
                   <thead>
