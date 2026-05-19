@@ -11,7 +11,7 @@ const difficultyColor = {
   Easy: 'text-success border-success/40 bg-success/10',
   Medium: 'text-warning border-warning/40 bg-warning/10',
   Hard: 'text-danger border-danger/40 bg-danger/10',
-  Insane: 'text-info border-info/40 bg-info/10',
+  Insane: 'text-[#b0b8c8] border-[#b0b8c8]/40 bg-[#b0b8c8]/10',
 }
 const ITEMS_PER_PAGE = 20
 const paginationBtn = 'px-3 py-1.5 rounded bg-surface2 text-secondary text-sm transition-colors cursor-pointer hover:text-light disabled:opacity-30 disabled:cursor-not-allowed'

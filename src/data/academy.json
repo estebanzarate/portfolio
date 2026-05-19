@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-05-19T02:11:55.612Z",
+  "last_updated": "2026-05-19T17:59:46.580Z",
   "statistics": {
     "total_modules": 158,
-    "completed": 52,
-    "completion_percentage": 32.9,
+    "completed": 53,
+    "completion_percentage": 33.5,
     "by_category": {
       "Offensive": {
-        "completed": 24,
+        "completed": 25,
         "total": 96,
-        "percentage": 29.5
+        "percentage": 30.2
       },
       "Defensive": {
         "completed": 1,
@@ -313,7 +313,7 @@
       "name": "Cross-Site Scripting (XSS)",
       "slug": "cross-site-scripting-xss",
       "description": "Cross-Site Scripting (XSS) vulnerabilities are among the most common web application vulnerabilities. An XSS vulnerability may allow an attacker to execute arbitrary JavaScript code within the target's browser and result in complete web application compromise if chained together with other vulnerabilities. This module will teach you how to identify XSS vulnerabilities and exploit them.",
-      "progress": 10
+      "progress": 30
     },
     {
       "id": 108,
@@ -943,7 +943,7 @@
       "name": "Introduction to Red Teaming AI",
       "slug": "introduction-to-red-teaming-ai",
       "description": "This module provides a comprehensive introduction to the world of red teaming Artificial Intelligence (AI) and systems utilizing Machine Learning (ML) deployments. It covers an overview of common security vulnerabilities in these systems and the types of attacks that can be launched against their components.",
-      "progress": 27.27
+      "progress": 100
     },
     {
       "id": 295,
