@@ -1,17 +1,17 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #00e5a0;
-  --color-secondary: #888888;
+  --color-primary: #3B71CA;
+  --color-secondary: #6b7a8d;
   --color-success: #14A44D;
   --color-danger: #DC4C64;
   --color-warning: #E4A11B;
   --color-info: #54B4D3;
-  --color-light: #f0f0f0;
-  --color-dark: #080808;
-  --color-bg: #0d0d0d;
-  --color-surface: #1a1a1a;
-  --color-surface2: #2a2a2a;
+  --color-light: #e8edf5;
+  --color-dark: #050810;
+  --color-bg: #080d18;
+  --color-surface: #0d1525;
+  --color-surface2: #182038;
 }
 
 *,
@@ -23,64 +23,164 @@
     color 150ms ease;
 }
 
-/* ── Terminal ───────────────────────────────────────────────────────────────── */
+/* ── Blue (#3B71CA) ─────────────────────────────────────────────────────────── */
 
-html[data-palette="terminal"][data-theme="dark"] {
-  --color-primary: #00e5a0;
+html[data-palette="blue"][data-theme="dark"] {
+  --color-primary: #3B71CA;
+  --color-secondary: #6b7a8d;
+  --color-light: #e8edf5;
+  --color-bg: #080d18;
+  --color-surface: #0d1525;
+  --color-surface2: #182038;
+}
+
+html[data-palette="blue"][data-theme="light"] {
+  --color-primary: #2557a7;
+  --color-secondary: #6a7a8e;
+  --color-light: #0a1428;
+  --color-bg: #eef3fb;
+  --color-surface: #ffffff;
+  --color-surface2: #dde8f5;
+}
+
+/* ── Silver (#9FA6B2) ───────────────────────────────────────────────────────── */
+
+html[data-palette="silver"][data-theme="dark"] {
+  --color-primary: #c0c8d4;
+  --color-secondary: #6e7680;
+  --color-light: #e8ecf0;
+  --color-bg: #0c0d0f;
+  --color-surface: #141618;
+  --color-surface2: #1e2124;
+}
+
+html[data-palette="silver"][data-theme="light"] {
+  --color-primary: #5a6370;
+  --color-secondary: #8a9099;
+  --color-light: #0f1115;
+  --color-bg: #f2f3f5;
+  --color-surface: #ffffff;
+  --color-surface2: #e2e5e9;
+}
+
+/* ── Green (#14A44D) ────────────────────────────────────────────────────────── */
+
+html[data-palette="green"][data-theme="dark"] {
+  --color-primary: #14A44D;
+  --color-secondary: #507a60;
+  --color-light: #e8f5ee;
+  --color-bg: #060f09;
+  --color-surface: #0c1810;
+  --color-surface2: #152818;
+}
+
+html[data-palette="green"][data-theme="light"] {
+  --color-primary: #0d7a39;
+  --color-secondary: #507a60;
+  --color-light: #061009;
+  --color-bg: #f0fbf4;
+  --color-surface: #ffffff;
+  --color-surface2: #d0eedd;
+}
+
+/* ── Red (#DC4C64) ──────────────────────────────────────────────────────────── */
+
+html[data-palette="red"][data-theme="dark"] {
+  --color-primary: #DC4C64;
+  --color-secondary: #7a5060;
+  --color-light: #f5e8ec;
+  --color-bg: #110608;
+  --color-surface: #1c0c10;
+  --color-surface2: #2c1520;
+}
+
+html[data-palette="red"][data-theme="light"] {
+  --color-primary: #b83050;
+  --color-secondary: #8a6070;
+  --color-light: #1a060c;
+  --color-bg: #fdf0f3;
+  --color-surface: #ffffff;
+  --color-surface2: #f5d5dd;
+}
+
+/* ── Amber (#E4A11B) ────────────────────────────────────────────────────────── */
+
+html[data-palette="amber"][data-theme="dark"] {
+  --color-primary: #E4A11B;
+  --color-secondary: #7a6840;
+  --color-light: #f5f0e0;
+  --color-bg: #100d04;
+  --color-surface: #1c1608;
+  --color-surface2: #2c2210;
+}
+
+html[data-palette="amber"][data-theme="light"] {
+  --color-primary: #b07810;
+  --color-secondary: #8a7a50;
+  --color-light: #1a1205;
+  --color-bg: #fdf8ec;
+  --color-surface: #ffffff;
+  --color-surface2: #f5e5b8;
+}
+
+/* ── Cyan (#54B4D3) ─────────────────────────────────────────────────────────── */
+
+html[data-palette="cyan"][data-theme="dark"] {
+  --color-primary: #54B4D3;
+  --color-secondary: #507080;
+  --color-light: #e8f5fa;
+  --color-bg: #060c10;
+  --color-surface: #0a1520;
+  --color-surface2: #122030;
+}
+
+html[data-palette="cyan"][data-theme="light"] {
+  --color-primary: #2a8aaa;
+  --color-secondary: #5080a0;
+  --color-light: #050c10;
+  --color-bg: #eef8fc;
+  --color-surface: #ffffff;
+  --color-surface2: #cce8f5;
+}
+
+/* ── Pearl (#FBFBFB) ────────────────────────────────────────────────────────── */
+
+html[data-palette="pearl"][data-theme="dark"] {
+  --color-primary: #e0e0e0;
   --color-secondary: #888888;
-  --color-light: #f0f0f0;
-  --color-bg: #0d0d0d;
-  --color-surface: #1a1a1a;
-  --color-surface2: #2a2a2a;
+  --color-light: #f5f5f5;
+  --color-bg: #0a0a0a;
+  --color-surface: #141414;
+  --color-surface2: #1e1e1e;
 }
 
-html[data-palette="terminal"][data-theme="light"] {
-  --color-primary: #00a870;
-  --color-secondary: #777777;
+html[data-palette="pearl"][data-theme="light"] {
+  --color-primary: #787878;
+  --color-secondary: #999999;
   --color-light: #111111;
-  --color-bg: #f7f7f5;
+  --color-bg: #f5f5f2;
+  --color-surface: #fefefe;
+  --color-surface2: #e8e8e5;
+}
+
+/* ── Mocha (#332D2D) ────────────────────────────────────────────────────────── */
+
+html[data-palette="mocha"][data-theme="dark"] {
+  --color-primary: #a89080;
+  --color-secondary: #6e6460;
+  --color-light: #f0ece8;
+  --color-bg: #0f0c0b;
+  --color-surface: #1a1614;
+  --color-surface2: #28211e;
+}
+
+html[data-palette="mocha"][data-theme="light"] {
+  --color-primary: #332D2D;
+  --color-secondary: #8a8078;
+  --color-light: #1a1614;
+  --color-bg: #faf8f6;
   --color-surface: #ffffff;
-  --color-surface2: #ebebea;
-}
-
-/* ── Void Blue ──────────────────────────────────────────────────────────────── */
-
-html[data-palette="void-blue"][data-theme="dark"] {
-  --color-primary: #4d9eff;
-  --color-secondary: #5a6677;
-  --color-light: #e8eaf0;
-  --color-bg: #090e1a;
-  --color-surface: #0e1624;
-  --color-surface2: #1c2a40;
-}
-
-html[data-palette="void-blue"][data-theme="light"] {
-  --color-primary: #1a5fb8;
-  --color-secondary: #7a8899;
-  --color-light: #0d1420;
-  --color-bg: #f4f6fa;
-  --color-surface: #ffffff;
-  --color-surface2: #eaecf4;
-}
-
-/* ── Slate ──────────────────────────────────────────────────────────────────── */
-
-html[data-palette="slate"][data-theme="dark"] {
-  --color-primary: #ff8c42;
-  --color-secondary: #6e6a65;
-  --color-light: #f0ede8;
-  --color-bg: #141210;
-  --color-surface: #1e1b18;
-  --color-surface2: #2e2a25;
-}
-
-html[data-palette="slate"][data-theme="light"] {
-  --color-primary: #c45e10;
-  --color-secondary: #8a8680;
-  --color-light: #18150f;
-  --color-bg: #faf8f5;
-  --color-surface: #ffffff;
-  --color-surface2: #eeebe6;
+  --color-surface2: #ede8e4;
 }
 
 /* ── Modal animations ───────────────────────────────────────────────────────── */

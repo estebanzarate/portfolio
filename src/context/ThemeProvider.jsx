@@ -2,13 +2,18 @@ import { useState, useEffect } from 'react'
 import ThemeContext from './ThemeContext'
 
 export const PALETTES = [
-  { id: 'terminal', label: 'Terminal' },
-  { id: 'void-blue', label: 'Void Blue' },
-  { id: 'slate', label: 'Slate' },
+  { id: 'blue', label: 'Blue' },
+  { id: 'silver', label: 'Silver' },
+  { id: 'green', label: 'Green' },
+  { id: 'red', label: 'Red' },
+  { id: 'amber', label: 'Amber' },
+  { id: 'cyan', label: 'Cyan' },
+  { id: 'pearl', label: 'Pearl' },
+  { id: 'mocha', label: 'Mocha' },
 ]
 
 const DEFAULT_THEME = 'dark'
-const DEFAULT_PALETTE = 'terminal'
+const DEFAULT_PALETTE = 'blue'
 const LS_THEME = 'portfolio-theme'
 const LS_PALETTE = 'portfolio-palette'
 
