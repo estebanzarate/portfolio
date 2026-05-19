@@ -5,6 +5,7 @@ import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = join(__dirname, '../src/data');
+const SAMPLE_DIR = join(__dirname, '../.data');
 
 const CONFIG = {
   academy: {
@@ -84,6 +85,13 @@ async function processMachines() {
   const res = await fetch(`${CONFIG.machines.base}/machines?per_page=1000`, { headers: CONFIG.machines.headers });
   if (!res.ok) throw new Error('HTB Machines API error');
   const raw = await res.json();
+
+  mkdirSync(SAMPLE_DIR, { recursive: true });
+  writeFileSync(
+    join(SAMPLE_DIR, 'htb.json'),
+    JSON.stringify(raw.data[0] ?? {}, null, 2)
+  );
+
   const machines = raw.data.map(m => ({
     id: m.id, name: m.name, os: m.os, difficulty: m.difficultyText,
     user_owned: m.authUserInUserOwns, root_owned: m.authUserInRootOwns
@@ -107,6 +115,7 @@ async function processMachines() {
   };
   writeFileSync(CONFIG.machines.output, JSON.stringify(output, null, 2));
   console.log(`✅ Machines: ${machines.length} saved.`);
+  console.log(`   📄 Sample saved to .data/htb.json`);
 }
 
 async function processTHM() {
@@ -120,6 +129,13 @@ async function processTHM() {
     totalPages = json.data.totalPages;
     page++;
   }
+
+  mkdirSync(SAMPLE_DIR, { recursive: true });
+  writeFileSync(
+    join(SAMPLE_DIR, 'thm.json'),
+    JSON.stringify(allDocs[0] ?? {}, null, 2)
+  );
+
   const completed = allDocs.filter(r => r.userCompleted);
   const byDifficulty = {}, byType = {};
   for (const r of completed) {
@@ -143,6 +159,7 @@ async function processTHM() {
   };
   writeFileSync(CONFIG.thm.output, JSON.stringify(output, null, 2));
   console.log(`✅ THM: ${output.rooms.length} rooms saved.`);
+  console.log(`   📄 Sample saved to .data/thm.json`);
 }
 
 function processWriteups() {

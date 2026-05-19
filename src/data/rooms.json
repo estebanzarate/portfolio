@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-05-19T17:59:45.431Z",
+  "last_updated": "2026-05-19T23:01:05.678Z",
   "statistics": {
     "total_rooms": 330,
-    "completed": 323,
-    "completion_percentage": 97.9,
+    "completed": 322,
+    "completion_percentage": 97.6,
     "by_difficulty": {
-      "easy": 232,
+      "easy": 231,
       "medium": 56,
       "info": 35
     },
     "by_type": {
-      "challenge": 60,
+      "challenge": 59,
       "walkthrough": 263
     }
   },
@@ -6497,7 +6497,7 @@
       "description": "A collection of beginner and easy difficulty challenges available as part of our public 2026: An AI Odyssey CTF event.",
       "difficulty": "easy",
       "type": "challenge",
-      "completed": true,
+      "completed": false,
       "tags": [],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6228f0d4ca8e57005149c3e3-1778751780554"
     }
