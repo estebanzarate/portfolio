@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-05-18T21:07:49.795Z",
+  "last_updated": "2026-05-19T02:11:55.036Z",
   "statistics": {
-    "total_rooms": 329,
-    "completed": 322,
+    "total_rooms": 330,
+    "completed": 323,
     "completion_percentage": 97.9,
     "by_difficulty": {
-      "easy": 231,
+      "easy": 232,
       "medium": 56,
       "info": 35
     },
     "by_type": {
-      "challenge": 59,
+      "challenge": 60,
       "walkthrough": 263
     }
   },
@@ -6489,6 +6489,17 @@
       "completed": true,
       "tags": [],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6228f0d4ca8e57005149c3e3-1776095593200"
+    },
+    {
+      "id": "6a0063c4cfe1b136130aa827",
+      "title": "Vectara",
+      "code": "vectara",
+      "description": "A collection of beginner and easy difficulty challenges available as part of our public 2026: An AI Odyssey CTF event.",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6228f0d4ca8e57005149c3e3-1778751780554"
     }
   ]
 }

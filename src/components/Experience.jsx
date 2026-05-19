@@ -29,13 +29,11 @@ function ExternalLinkIcon() {
 
 function CertificateModal({ edu, t, onClose, triggerRef }) {
   const modalRef = useRef(null)
-  const [visible, setVisible] = useState(false)
   const [imgReady, setImgReady] = useState(false)
 
-  // Fade-in del modal tras el primer frame
   useEffect(() => {
-    const raf = requestAnimationFrame(() => setVisible(true))
-    return () => cancelAnimationFrame(raf)
+    document.body.style.overflow = 'hidden'
+    return () => { document.body.style.overflow = '' }
   }, [])
 
   useEffect(() => {
@@ -61,7 +59,7 @@ function CertificateModal({ edu, t, onClose, triggerRef }) {
 
   return (
     <div
-      className={`fixed inset-0 z-50 flex items-center justify-center p-4 bg-dark/70 backdrop-blur-sm cursor-pointer transition-opacity duration-200 ${visible ? 'opacity-100' : 'opacity-0'}`}
+      className="modal-backdrop fixed inset-0 z-50 flex items-center justify-center p-4 bg-dark/70 backdrop-blur-sm cursor-pointer"
       onClick={onClose}
     >
       <div
@@ -69,7 +67,7 @@ function CertificateModal({ edu, t, onClose, triggerRef }) {
         role="dialog"
         aria-modal="true"
         aria-labelledby="cert-modal-title"
-        className={`relative bg-surface border border-surface2 rounded-xl shadow-2xl max-w-2xl w-full p-4 flex flex-col gap-4 cursor-default transition-all duration-200 ${visible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}
+        className="modal-panel relative bg-surface border border-surface2 rounded-xl shadow-2xl max-w-2xl w-full p-4 flex flex-col gap-4 cursor-default"
         onClick={e => e.stopPropagation()}
       >
         <div className="flex items-start justify-between gap-4">
@@ -98,7 +96,6 @@ function CertificateModal({ edu, t, onClose, triggerRef }) {
             </button>
           </div>
         </div>
-
         <div className="relative w-full rounded-lg overflow-hidden border border-surface2 min-h-[200px] flex items-center justify-center bg-surface2/30">
           {!imgReady && (
             <div className="absolute inset-0 flex items-center justify-center">
@@ -134,6 +131,8 @@ function Experience() {
     setActiveCert(null)
     window.dispatchEvent(new CustomEvent('certModal', { detail: { open: false } }))
   }
+
+  const educationDesc = [...p.education].reverse()
 
   return (
     <section id="experience" className="flex flex-col gap-10 scroll-mt-20">
@@ -176,7 +175,7 @@ function Experience() {
           </h2>
         </div>
         <div className="flex flex-col gap-3">
-          {p.education.map(edu => (
+          {educationDesc.map(edu => (
             <div
               key={edu.id}
               className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 p-4 rounded-lg bg-surface border border-surface2 hover:border-primary/40 transition-colors"
