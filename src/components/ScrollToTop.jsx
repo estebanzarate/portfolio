@@ -31,7 +31,7 @@ function ScrollToTop() {
       onClick={scrollToTop}
       aria-label="Volver arriba"
       className={`
-        fixed bottom-6 right-6 z-50
+        fixed bottom-20 right-6 z-40
         w-10 h-10 rounded-full
         bg-surface border border-surface2
         text-secondary hover:text-primary hover:border-primary/50

@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-20T17:13:18.124Z",
+  "last_updated": "2026-05-20T22:30:15.955Z",
   "statistics": {
-    "total_rooms": 335,
+    "total_rooms": 336,
     "completed": 327,
-    "completion_percentage": 97.6,
+    "completion_percentage": 97.3,
     "by_difficulty": {
       "easy": 236,
       "medium": 56,
@@ -71,6 +71,26 @@
         "Windows"
       ],
       "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339260886-blue.png"
+    },
+    {
+      "id": "5cb0b1b8779909395702c6d5",
+      "title": "OhSINT",
+      "code": "ohsint",
+      "description": "Are you able to use open source intelligence to solve this challenge?",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": false,
+      "tags": [
+        "Red",
+        "General Cyber",
+        "OSINT",
+        "Red teaming",
+        "Information gathering",
+        "exiftool",
+        "Windows",
+        "Web"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/9c6bc7e6db746ea68ecaa99e328923f1.png"
     },
     {
       "id": "5d3bb00e7c5b877bc87557c1",

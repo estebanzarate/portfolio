@@ -207,6 +207,18 @@ html[data-palette="mocha"][data-theme="light"] {
   }
 }
 
+@keyframes fab-item-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.9);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
 .modal-backdrop {
   animation: modal-backdrop-in 250ms ease forwards;
 }

@@ -7,6 +7,7 @@ import Experience from './components/Experience'
 import Skills from './components/Skills'
 import Footer from './components/Footer'
 import ScrollToTop from './components/ScrollToTop'
+import ShareFAB from './components/ShareFAB'
 import ErrorBoundary from './components/ErrorBoundary'
 import useLanguage from './hooks/useLanguage'
 import translations from './data/translations'
@@ -64,6 +65,7 @@ function AppContent() {
       </main>
       <Footer />
       <ScrollToTop />
+      <ShareFAB />
     </div>
   )
 }

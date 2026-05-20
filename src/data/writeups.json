@@ -3461,6 +3461,10 @@
     "crackthehash": {
       "title": "Crack the hash",
       "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/crack-the-hash"
+    },
+    "ohsint": {
+      "title": "OhSINT",
+      "writeup": null
     }
   }
 }
