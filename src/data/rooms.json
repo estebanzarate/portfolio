@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-05-20T01:45:48.154Z",
+  "last_updated": "2026-05-20T12:06:50.997Z",
   "statistics": {
-    "total_rooms": 330,
-    "completed": 322,
-    "completion_percentage": 97.6,
+    "total_rooms": 334,
+    "completed": 325,
+    "completion_percentage": 97.3,
     "by_difficulty": {
-      "easy": 231,
+      "easy": 234,
       "medium": 56,
       "info": 35
     },
     "by_type": {
-      "challenge": 59,
+      "challenge": 62,
       "walkthrough": 263
     }
   },
@@ -6067,6 +6067,17 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5de96d9ca744773ea7ef8c00-1767868972234"
     },
     {
+      "id": "695df74996bd49629e69d3c6",
+      "title": "Missing Person",
+      "code": "missingperson",
+      "description": "Use your OSINT skills to help the police track down a missing person.",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": false,
+      "tags": [],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62ff64c3c859dc0042b2b9f6-1769691905491"
+    },
+    {
       "id": "69668301371925b330910fdc",
       "title": "Inside a Computer System",
       "code": "insideacomputer",
@@ -6104,6 +6115,17 @@
         "Web application security"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1769445124107"
+    },
+    {
+      "id": "696e60c5f39a3033442483c3",
+      "title": "Dev Diaries",
+      "code": "devdiaries",
+      "description": "Hunt through online development traces to uncover what was left behind.",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5dbea226085ab6182a2ee0f7-1769706952610"
     },
     {
       "id": "6970f1edc98f34dac4e2aeeb",
@@ -6440,6 +6462,17 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/69650d18bb3fe8c456972924-1775820771840"
     },
     {
+      "id": "69bbca144a06062f02363e02",
+      "title": "Letter",
+      "code": "letter",
+      "description": "Can you help us find out more about this letter?",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62ff64c3c859dc0042b2b9f6-1776069056535"
+    },
+    {
       "id": "69bbcfaeca986bc5db93e493",
       "title": "Vulnerability Scanning Tools",
       "code": "vulnerabilityscanningtools",
@@ -6458,6 +6491,17 @@
         "Web application security"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/691e303c8bb7e99b93a58132-1774169676399"
+    },
+    {
+      "id": "69cbb5b9fde0c51587c223ec",
+      "title": "Water Bottle",
+      "code": "waterbottle",
+      "description": "Track down a vanished water station using nothing but fragments of memory and OSINT.",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5dbea226085ab6182a2ee0f7-1774958473025"
     },
     {
       "id": "69d11794a4b37712cfb0bdc4",

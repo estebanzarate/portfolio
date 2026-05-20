@@ -42,6 +42,7 @@ function Header() {
   const t = translations[lang].nav
   const [menuOpen, setMenuOpen] = useState(false)
   const [activeSection, setActiveSection] = useState('')
+  const headerRef = useRef(null)
   const menuRef = useRef(null)
 
   const accentColor = usePrimaryColor([theme, palette])
@@ -57,7 +58,10 @@ function Header() {
 
   function scrollToSection(id) {
     const el = document.getElementById(id)
-    if (el) el.scrollIntoView({ behavior: 'smooth' })
+    if (!el) return
+    const headerHeight = headerRef.current?.offsetHeight ?? 0
+    const top = el.getBoundingClientRect().top + window.scrollY - headerHeight
+    window.scrollTo({ top, behavior: 'smooth' })
   }
 
   function handleNavClick(e, id) {
@@ -152,100 +156,104 @@ function Header() {
   }
 
   return (
-    <header className="sticky top-0 z-50 bg-surface border-b border-surface2 shadow-lg" ref={menuRef}>
-      <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-        <button
-          onClick={scrollToTop}
-          className="cursor-pointer text-primary font-bold text-xl tracking-wide hover:opacity-80 transition-opacity"
-        >
-          Esteban Zárate
-        </button>
+    <header
+      ref={headerRef}
+      className="sticky top-0 z-50 bg-surface border-b border-surface2 shadow-lg"
+    >
+      <div ref={menuRef}>
+        <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
+          <button
+            onClick={scrollToTop}
+            className="cursor-pointer text-primary font-bold text-xl tracking-wide hover:opacity-80 transition-opacity"
+          >
+            Esteban Zárate
+          </button>
 
-        <nav className="hidden md:flex items-center gap-6">
-          {navLinks.map(link => (
-            <a
-              key={link.href}
-              href={link.href}
-              onClick={e => handleNavClick(e, link.id)}
-              className={getLinkClass(link.id)}
+          <nav className="hidden md:flex items-center gap-6">
+            {navLinks.map(link => (
+              <a
+                key={link.href}
+                href={link.href}
+                onClick={e => handleNavClick(e, link.id)}
+                className={getLinkClass(link.id)}
+              >
+                {link.label}
+              </a>
+            ))}
+          </nav>
+
+          <div className="hidden md:flex items-center gap-2">
+            <button
+              onClick={cyclePalette}
+              title={`Paleta: ${currentPalette.label}`}
+              className="cursor-pointer w-7 h-7 rounded-full border-2 border-surface2 hover:border-primary/50 transition-all"
+              style={{ backgroundColor: accentColor }}
+            />
+            <button
+              onClick={toggleTheme}
+              aria-label={theme === 'dark' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'}
+              className="cursor-pointer w-8 h-8 flex items-center justify-center rounded border border-surface2 text-secondary hover:text-primary hover:border-primary/50 transition-all"
             >
-              {link.label}
-            </a>
-          ))}
-        </nav>
+              {theme === 'dark' ? <SunIcon /> : <MoonIcon />}
+            </button>
+            <button
+              onClick={toggleLang}
+              className="cursor-pointer px-2.5 py-1 rounded border border-surface2 text-secondary hover:text-light hover:border-primary/50 transition-all text-xs font-semibold tracking-wider"
+            >
+              {lang === 'es' ? 'EN' : 'ES'}
+            </button>
+          </div>
 
-        <div className="hidden md:flex items-center gap-2">
-          <button
-            onClick={cyclePalette}
-            title={`Paleta: ${currentPalette.label}`}
-            className="cursor-pointer w-7 h-7 rounded-full border-2 border-surface2 hover:border-primary/50 transition-all"
-            style={{ backgroundColor: accentColor }}
-          />
-          <button
-            onClick={toggleTheme}
-            aria-label={theme === 'dark' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'}
-            className="cursor-pointer w-8 h-8 flex items-center justify-center rounded border border-surface2 text-secondary hover:text-primary hover:border-primary/50 transition-all"
-          >
-            {theme === 'dark' ? <SunIcon /> : <MoonIcon />}
-          </button>
-          <button
-            onClick={toggleLang}
-            className="cursor-pointer px-2.5 py-1 rounded border border-surface2 text-secondary hover:text-light hover:border-primary/50 transition-all text-xs font-semibold tracking-wider"
-          >
-            {lang === 'es' ? 'EN' : 'ES'}
-          </button>
+          <div className="flex md:hidden items-center gap-2">
+            <button
+              onClick={cyclePalette}
+              title={`Paleta: ${currentPalette.label}`}
+              className="cursor-pointer w-6 h-6 rounded-full border-2 border-surface2 hover:border-primary/50 transition-all"
+              style={{ backgroundColor: accentColor }}
+            />
+            <button
+              onClick={toggleTheme}
+              aria-label={theme === 'dark' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'}
+              className="cursor-pointer w-8 h-8 flex items-center justify-center rounded border border-surface2 text-secondary hover:text-primary transition-all"
+            >
+              {theme === 'dark' ? <SunIcon /> : <MoonIcon />}
+            </button>
+            <button
+              onClick={toggleLang}
+              className="cursor-pointer px-2.5 py-1 rounded border border-surface2 text-secondary hover:text-light hover:border-primary/50 transition-all text-xs font-semibold tracking-wider"
+            >
+              {lang === 'es' ? 'EN' : 'ES'}
+            </button>
+            <button
+              onClick={() => setMenuOpen(prev => !prev)}
+              aria-label={menuOpen ? 'Cerrar menú' : 'Abrir menú'}
+              aria-expanded={menuOpen}
+              aria-controls={MOBILE_NAV_ID}
+              className="cursor-pointer flex flex-col justify-center items-center w-8 h-8 gap-1.5 text-secondary hover:text-light transition-colors"
+            >
+              <span className={`block h-0.5 w-5 bg-current transition-all duration-300 origin-center ${menuOpen ? 'rotate-45 translate-y-2' : ''}`} />
+              <span className={`block h-0.5 w-5 bg-current transition-all duration-300 ${menuOpen ? 'opacity-0 scale-x-0' : ''}`} />
+              <span className={`block h-0.5 w-5 bg-current transition-all duration-300 origin-center ${menuOpen ? '-rotate-45 -translate-y-2' : ''}`} />
+            </button>
+          </div>
         </div>
 
-        <div className="flex md:hidden items-center gap-2">
-          <button
-            onClick={cyclePalette}
-            title={`Paleta: ${currentPalette.label}`}
-            className="cursor-pointer w-6 h-6 rounded-full border-2 border-surface2 hover:border-primary/50 transition-all"
-            style={{ backgroundColor: accentColor }}
-          />
-          <button
-            onClick={toggleTheme}
-            aria-label={theme === 'dark' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'}
-            className="cursor-pointer w-8 h-8 flex items-center justify-center rounded border border-surface2 text-secondary hover:text-primary transition-all"
-          >
-            {theme === 'dark' ? <SunIcon /> : <MoonIcon />}
-          </button>
-          <button
-            onClick={toggleLang}
-            className="cursor-pointer px-2.5 py-1 rounded border border-surface2 text-secondary hover:text-light hover:border-primary/50 transition-all text-xs font-semibold tracking-wider"
-          >
-            {lang === 'es' ? 'EN' : 'ES'}
-          </button>
-          <button
-            onClick={() => setMenuOpen(prev => !prev)}
-            aria-label={menuOpen ? 'Cerrar menú' : 'Abrir menú'}
-            aria-expanded={menuOpen}
-            aria-controls={MOBILE_NAV_ID}
-            className="cursor-pointer flex flex-col justify-center items-center w-8 h-8 gap-1.5 text-secondary hover:text-light transition-colors"
-          >
-            <span className={`block h-0.5 w-5 bg-current transition-all duration-300 origin-center ${menuOpen ? 'rotate-45 translate-y-2' : ''}`} />
-            <span className={`block h-0.5 w-5 bg-current transition-all duration-300 ${menuOpen ? 'opacity-0 scale-x-0' : ''}`} />
-            <span className={`block h-0.5 w-5 bg-current transition-all duration-300 origin-center ${menuOpen ? '-rotate-45 -translate-y-2' : ''}`} />
-          </button>
-        </div>
-      </div>
-
-      <div
-        id={MOBILE_NAV_ID}
-        className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${menuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}
-      >
-        <nav className="flex flex-col border-t border-surface2 px-4 py-3 gap-1">
-          {navLinks.map(link => (
-            <a
-              key={link.href}
-              href={link.href}
-              onClick={e => handleNavClick(e, link.id)}
-              className={getLinkClass(link.id, true)}
-            >
-              {link.label}
-            </a>
-          ))}
-        </nav>
+        {menuOpen && (
+          <div id={MOBILE_NAV_ID} className="md:hidden drawer-open">
+            <nav className="flex flex-col border-t border-surface2 px-4 py-3 gap-1">
+              {navLinks.map(link => (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  onClick={e => handleNavClick(e, link.id)}
+                  className={getLinkClass(link.id, true)}
+                >
+                  {link.label}
+                </a>
+              ))}
+            </nav>
+          </div>
+        )}
       </div>
     </header>
   )
