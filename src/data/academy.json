@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-05-19T23:13:47.068Z",
+  "last_updated": "2026-05-20T01:45:48.698Z",
   "statistics": {
     "total_modules": 158,
-    "completed": 53,
-    "completion_percentage": 33.5,
+    "completed": 54,
+    "completion_percentage": 34.2,
     "by_category": {
       "Offensive": {
-        "completed": 25,
+        "completed": 26,
         "total": 96,
-        "percentage": 30.4
+        "percentage": 30.6
       },
       "Defensive": {
         "completed": 1,
@@ -313,7 +313,7 @@
       "name": "Cross-Site Scripting (XSS)",
       "slug": "cross-site-scripting-xss",
       "description": "Cross-Site Scripting (XSS) vulnerabilities are among the most common web application vulnerabilities. An XSS vulnerability may allow an attacker to execute arbitrary JavaScript code within the target's browser and result in complete web application compromise if chained together with other vulnerabilities. This module will teach you how to identify XSS vulnerabilities and exploit them.",
-      "progress": 70
+      "progress": 100
     },
     {
       "id": 108,
