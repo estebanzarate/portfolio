@@ -1,20 +1,36 @@
 {
-  "last_updated": "2026-05-20T12:27:56.781Z",
+  "last_updated": "2026-05-20T17:12:25.751Z",
   "statistics": {
-    "total_rooms": 334,
-    "completed": 325,
-    "completion_percentage": 97.3,
+    "total_rooms": 335,
+    "completed": 327,
+    "completion_percentage": 97.6,
     "by_difficulty": {
-      "easy": 234,
+      "easy": 236,
       "medium": 56,
       "info": 35
     },
     "by_type": {
-      "challenge": 62,
+      "challenge": 64,
       "walkthrough": 263
     }
   },
   "rooms": [
+    {
+      "id": "5bf1cf81f745217dc7c1caf5",
+      "title": "Crack the hash",
+      "code": "crackthehash",
+      "description": "Cracking hashes challenges",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [
+        "Blue",
+        "Digital forensics",
+        "Hashcat",
+        "Linux"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/fafc074a97207f99929f2ee28bea87ac.jpeg"
+    },
     {
       "id": "5c85078bf4bde85b94d830f5",
       "title": "Pickle Rick",
@@ -6073,7 +6089,7 @@
       "description": "Use your OSINT skills to help the police track down a missing person.",
       "difficulty": "easy",
       "type": "challenge",
-      "completed": false,
+      "completed": true,
       "tags": [],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62ff64c3c859dc0042b2b9f6-1769691905491"
     },
