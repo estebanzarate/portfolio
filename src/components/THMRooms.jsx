@@ -21,15 +21,16 @@ const ITEMS_PER_PAGE = 20
 const paginationBtn = 'px-3 py-1.5 rounded bg-surface2 text-secondary text-sm transition-colors cursor-pointer hover:text-light disabled:opacity-30 disabled:cursor-not-allowed'
 const selectClass = 'cursor-pointer px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-secondary focus:outline-none focus:border-primary text-sm'
 
+function SortIcon({ sortKey, col, sortDir }) {
+  if (sortKey !== col) return <span className="ml-1 text-secondary opacity-40">↕</span>
+  return <span className="ml-1 text-primary">{sortDir === 'asc' ? '↑' : '↓'}</span>
+}
+
 function WriteupLink({ url, label }) {
   if (!url) return <span className="text-secondary text-xs">—</span>
   return (
-    <a
-      href={url}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="inline-flex items-center gap-1 text-xs text-primary hover:underline cursor-pointer"
-    >
+    <a href={url} target="_blank" rel="noopener noreferrer"
+      className="inline-flex items-center gap-1 text-xs text-primary hover:underline cursor-pointer">
       {label}
       <svg className="w-3 h-3" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
@@ -42,14 +43,36 @@ function THMRooms() {
   const { lang } = useLanguage()
   const t = translations[lang].thm
   const { statistics, rooms } = roomsData
+
   const [filterDiff, setFilterDiff] = useState('All')
   const [filterType, setFilterType] = useState('All')
   const [filterDone, setFilterDone] = useState('All')
   const [search, setSearch] = useState('')
   const [page, setPage] = useState(1)
+  const [sortKey, setSortKey] = useState(null)
+  const [sortDir, setSortDir] = useState('asc')
 
   const diffList = ['All', 'easy', 'medium', 'hard', 'info']
   const typeList = ['All', 'walkthrough', 'challenge']
+
+  function handleSort(key) {
+    if (sortKey === key) {
+      setSortDir(prev => prev === 'asc' ? 'desc' : 'asc')
+    } else {
+      setSortKey(key)
+      setSortDir('asc')
+    }
+    setPage(1)
+  }
+
+  function toggleDiffFilter(diff) {
+    setFilterDiff(prev => prev === diff ? 'All' : diff)
+    setPage(1)
+  }
+
+  function resetPage(setter) {
+    return (val) => { setter(val); setPage(1) }
+  }
 
   const filtered = useMemo(() => rooms.filter(r => {
     const matchDiff = filterDiff === 'All' || r.difficulty === filterDiff
@@ -59,29 +82,44 @@ function THMRooms() {
     return matchDiff && matchType && matchDone && matchSearch
   }), [rooms, filterDiff, filterType, filterDone, search])
 
-  const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE)
-  const paginated = filtered.slice((page - 1) * ITEMS_PER_PAGE, page * ITEMS_PER_PAGE)
+  const sorted = useMemo(() => {
+    if (!sortKey) return filtered
+    return [...filtered].sort((a, b) => {
+      let av = a[sortKey], bv = b[sortKey]
+      if (sortKey === 'writeup') {
+        av = writeupsData.rooms[a.code]?.writeup ?? ''
+        bv = writeupsData.rooms[b.code]?.writeup ?? ''
+      }
+      if (typeof av === 'boolean') av = av ? 1 : 0
+      if (typeof bv === 'boolean') bv = bv ? 1 : 0
+      if (typeof av === 'string' && typeof bv === 'string') {
+        return sortDir === 'asc' ? av.localeCompare(bv) : bv.localeCompare(av)
+      }
+      return sortDir === 'asc' ? av - bv : bv - av
+    })
+  }, [filtered, sortKey, sortDir])
 
-  function resetPage(setter) {
-    return (val) => { setter(val); setPage(1) }
-  }
+  const totalPages = Math.ceil(sorted.length / ITEMS_PER_PAGE)
+  const paginated = sorted.slice((page - 1) * ITEMS_PER_PAGE, page * ITEMS_PER_PAGE)
 
   const hasData = rooms.length > 0
   const hasResults = filtered.length > 0
 
   const bannerItems = [
     { label: t.total, value: statistics.total_rooms, accent: false },
-    { label: t.completed, value: statistics.completed, accent: true },
+    { label: t.completed, value: statistics.completed, accent: false },
     { label: t.percentage, value: `${statistics.completion_percentage}%`, accent: false },
   ]
-  const bannerChips = [
-    ...Object.entries(statistics.by_difficulty).map(([diff, count]) => ({
-      label: diff.charAt(0).toUpperCase() + diff.slice(1), value: count,
-    })),
-    ...Object.entries(statistics.by_type).map(([type, count]) => ({
-      label: type.charAt(0).toUpperCase() + type.slice(1), value: count,
-    })),
-  ]
+  const bannerChips = Object.entries(statistics.by_difficulty).map(([diff, count]) => ({
+    label: diff.charAt(0).toUpperCase() + diff.slice(1),
+    value: count,
+    id: diff,
+  }))
+
+  const activeChip = filterDiff !== 'All' ? filterDiff : null
+
+  const thClass = 'px-4 py-3 text-left cursor-pointer hover:text-light select-none'
+  const thClassCenter = 'px-4 py-3 text-center cursor-pointer hover:text-light select-none'
 
   const Pagination = () => totalPages > 1 ? (
     <div className="flex items-center justify-center gap-2">
@@ -102,15 +140,29 @@ function THMRooms() {
 
       {!hasData ? <EmptyState message={t.noData} /> : (
         <>
-          <StatsBanner items={bannerItems} chips={bannerChips} />
+          <StatsBanner
+            items={bannerItems}
+            chips={bannerChips}
+            activeChip={activeChip}
+            onChipClick={toggleDiffFilter}
+          />
+
+          {/* Stats desktop */}
           <div className="hidden md:flex flex-wrap gap-3">
             <StatCard label={t.total} value={statistics.total_rooms} colorClass="border-surface2" />
-            <StatCard label={t.completed} value={statistics.completed} colorClass="border-primary/40" />
+            <StatCard label={t.completed} value={statistics.completed} colorClass="border-surface2" />
             <StatCard label={t.percentage} value={`${statistics.completion_percentage}%`} colorClass="border-surface2" />
           </div>
           <div className="hidden md:flex flex-wrap gap-3">
             {Object.entries(statistics.by_difficulty).map(([diff, count]) => (
-              <StatCard key={diff} label={diff.charAt(0).toUpperCase() + diff.slice(1)} value={count} colorClass="border-surface2" />
+              <StatCard
+                key={diff}
+                label={diff.charAt(0).toUpperCase() + diff.slice(1)}
+                value={count}
+                colorClass="border-surface2"
+                active={filterDiff === diff}
+                onClick={() => toggleDiffFilter(diff)}
+              />
             ))}
             {Object.entries(statistics.by_type).map(([type, count]) => (
               <StatCard key={type} label={type.charAt(0).toUpperCase() + type.slice(1)} value={count} colorClass="border-surface2" />
@@ -118,7 +170,9 @@ function THMRooms() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-3">
-            <input type="text" placeholder={t.searchPlaceholder} value={search} onChange={e => { setSearch(e.target.value); setPage(1) }} className="flex-1 px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-light placeholder-secondary focus:outline-none focus:border-primary text-sm" />
+            <input type="text" placeholder={t.searchPlaceholder} value={search}
+              onChange={e => { setSearch(e.target.value); setPage(1) }}
+              className="flex-1 px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-light placeholder-secondary focus:outline-none focus:border-primary text-sm" />
             <select value={filterDiff} onChange={e => resetPage(setFilterDiff)(e.target.value)} className={selectClass}>
               {diffList.map(d => <option key={d} value={d}>{d === 'All' ? t.allDiff : d.charAt(0).toUpperCase() + d.slice(1)}</option>)}
             </select>
@@ -166,11 +220,21 @@ function THMRooms() {
                 <table className="w-full text-sm">
                   <thead>
                     <tr className="bg-surface2 text-secondary uppercase text-xs tracking-wider">
-                      <th className="px-4 py-3 text-left">{t.name}</th>
-                      <th className="px-4 py-3 text-left">{t.difficulty}</th>
-                      <th className="px-4 py-3 text-left">{t.type}</th>
-                      <th className="px-4 py-3 text-center">{t.status}</th>
-                      <th className="px-4 py-3 text-left">{t.writeup}</th>
+                      <th className={thClass} onClick={() => handleSort('title')}>
+                        {t.name}<SortIcon sortKey={sortKey} col="title" sortDir={sortDir} />
+                      </th>
+                      <th className={thClass} onClick={() => handleSort('difficulty')}>
+                        {t.difficulty}<SortIcon sortKey={sortKey} col="difficulty" sortDir={sortDir} />
+                      </th>
+                      <th className={thClass} onClick={() => handleSort('type')}>
+                        {t.type}<SortIcon sortKey={sortKey} col="type" sortDir={sortDir} />
+                      </th>
+                      <th className={thClassCenter} onClick={() => handleSort('completed')}>
+                        {t.status}<SortIcon sortKey={sortKey} col="completed" sortDir={sortDir} />
+                      </th>
+                      <th className={thClass} onClick={() => handleSort('writeup')}>
+                        {t.writeup}<SortIcon sortKey={sortKey} col="writeup" sortDir={sortDir} />
+                      </th>
                     </tr>
                   </thead>
                   <tbody>

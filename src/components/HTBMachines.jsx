@@ -17,15 +17,16 @@ const ITEMS_PER_PAGE = 20
 const paginationBtn = 'px-3 py-1.5 rounded bg-surface2 text-secondary text-sm transition-colors cursor-pointer hover:text-light disabled:opacity-30 disabled:cursor-not-allowed'
 const selectClass = 'cursor-pointer px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-secondary focus:outline-none focus:border-primary text-sm'
 
+function SortIcon({ sortKey, col, sortDir }) {
+  if (sortKey !== col) return <span className="ml-1 text-secondary opacity-40">↕</span>
+  return <span className="ml-1 text-primary">{sortDir === 'asc' ? '↑' : '↓'}</span>
+}
+
 function WriteupLink({ url, label }) {
   if (!url) return <span className="text-secondary text-xs">—</span>
   return (
-    <a
-      href={url}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="inline-flex items-center gap-1 text-xs text-primary hover:underline cursor-pointer"
-    >
+    <a href={url} target="_blank" rel="noopener noreferrer"
+      className="inline-flex items-center gap-1 text-xs text-primary hover:underline cursor-pointer">
       {label}
       <svg className="w-3 h-3" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
@@ -38,13 +39,40 @@ function HTBMachines() {
   const { lang } = useLanguage()
   const t = translations[lang].machines
   const { statistics, machines } = machinesData
+
   const [filterOS, setFilterOS] = useState('All')
   const [filterDiff, setFilterDiff] = useState('All')
   const [search, setSearch] = useState('')
   const [page, setPage] = useState(1)
+  const [sortKey, setSortKey] = useState(null)
+  const [sortDir, setSortDir] = useState('asc')
 
   const osList = ['All', ...Object.keys(statistics.by_os)]
   const diffList = ['All', 'Easy', 'Medium', 'Hard', 'Insane']
+
+  function handleSort(key) {
+    if (sortKey === key) {
+      setSortDir(prev => prev === 'asc' ? 'desc' : 'asc')
+    } else {
+      setSortKey(key)
+      setSortDir('asc')
+    }
+    setPage(1)
+  }
+
+  function toggleDiffFilter(diff) {
+    setFilterDiff(prev => prev === diff ? 'All' : diff)
+    setPage(1)
+  }
+
+  function toggleOSFilter(os) {
+    setFilterOS(prev => prev === os ? 'All' : os)
+    setPage(1)
+  }
+
+  function handleFilterChange(setter) {
+    return (val) => { setter(val); setPage(1) }
+  }
 
   const filtered = useMemo(() => machines.filter(m => {
     const matchOS = filterOS === 'All' || m.os === filterOS
@@ -53,12 +81,25 @@ function HTBMachines() {
     return matchOS && matchDiff && matchSearch
   }), [machines, filterOS, filterDiff, search])
 
-  const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE)
-  const paginated = filtered.slice((page - 1) * ITEMS_PER_PAGE, page * ITEMS_PER_PAGE)
+  const sorted = useMemo(() => {
+    if (!sortKey) return filtered
+    return [...filtered].sort((a, b) => {
+      let av = a[sortKey], bv = b[sortKey]
+      if (sortKey === 'writeup') {
+        av = writeupsData.machines[String(a.id)]?.writeup ?? ''
+        bv = writeupsData.machines[String(b.id)]?.writeup ?? ''
+      }
+      if (typeof av === 'boolean') av = av ? 1 : 0
+      if (typeof bv === 'boolean') bv = bv ? 1 : 0
+      if (typeof av === 'string' && typeof bv === 'string') {
+        return sortDir === 'asc' ? av.localeCompare(bv) : bv.localeCompare(av)
+      }
+      return sortDir === 'asc' ? av - bv : bv - av
+    })
+  }, [filtered, sortKey, sortDir])
 
-  function handleFilterChange(setter) {
-    return (val) => { setter(val); setPage(1) }
-  }
+  const totalPages = Math.ceil(sorted.length / ITEMS_PER_PAGE)
+  const paginated = sorted.slice((page - 1) * ITEMS_PER_PAGE, page * ITEMS_PER_PAGE)
 
   const hasData = machines.length > 0
   const hasResults = filtered.length > 0
@@ -66,12 +107,24 @@ function HTBMachines() {
   const bannerItems = [
     { label: t.total, value: statistics.total, accent: false },
     { label: t.userOwns, value: statistics.user_owns, accent: false },
-    { label: t.rootOwns, value: statistics.root_owns, accent: true },
+    { label: t.rootOwns, value: statistics.root_owns, accent: false },
   ]
   const bannerChips = [
-    ...Object.entries(statistics.by_difficulty).map(([d, v]) => ({ label: d, value: v })),
-    ...Object.entries(statistics.by_os).map(([os, v]) => ({ label: os, value: v })),
+    ...Object.entries(statistics.by_difficulty).map(([d, v]) => ({ label: d, value: v, id: `diff:${d}` })),
+    ...Object.entries(statistics.by_os).map(([os, v]) => ({ label: os, value: v, id: `os:${os}` })),
   ]
+
+  function handleBannerChip(id) {
+    if (id.startsWith('diff:')) toggleDiffFilter(id.replace('diff:', ''))
+    else if (id.startsWith('os:')) toggleOSFilter(id.replace('os:', ''))
+  }
+
+  const activeChip =
+    filterDiff !== 'All' ? `diff:${filterDiff}` :
+      filterOS !== 'All' ? `os:${filterOS}` : null
+
+  const thClass = 'px-4 py-3 text-left cursor-pointer hover:text-light select-none'
+  const thClassCenter = 'px-4 py-3 text-center cursor-pointer hover:text-light select-none'
 
   const Pagination = () => totalPages > 1 ? (
     <div className="flex items-center justify-center gap-2">
@@ -92,26 +145,48 @@ function HTBMachines() {
 
       {!hasData ? <EmptyState message={t.noData} /> : (
         <>
-          <StatsBanner items={bannerItems} chips={bannerChips} />
+          <StatsBanner
+            items={bannerItems}
+            chips={bannerChips}
+            activeChip={activeChip}
+            onChipClick={handleBannerChip}
+          />
+
+          {/* Stats desktop */}
           <div className="hidden md:flex flex-wrap gap-3">
             <StatCard label={t.total} value={statistics.total} colorClass="border-surface2" />
             <StatCard label={t.userOwns} value={statistics.user_owns} colorClass="border-surface2" />
-            <StatCard label={t.rootOwns} value={statistics.root_owns} colorClass="border-primary/40" />
-            <StatCard label="Easy" value={statistics.by_difficulty.Easy ?? 0} colorClass="border-surface2" />
-            <StatCard label="Medium" value={statistics.by_difficulty.Medium ?? 0} colorClass="border-surface2" />
-            <StatCard label="Hard" value={statistics.by_difficulty.Hard ?? 0} colorClass="border-surface2" />
-            <StatCard label="Insane" value={statistics.by_difficulty.Insane ?? 0} colorClass="border-surface2" />
+            <StatCard label={t.rootOwns} value={statistics.root_owns} colorClass="border-surface2" />
+            {['Easy', 'Medium', 'Hard', 'Insane'].map(d => (
+              <StatCard
+                key={d}
+                label={d}
+                value={statistics.by_difficulty[d] ?? 0}
+                colorClass="border-surface2"
+                active={filterDiff === d}
+                onClick={() => toggleDiffFilter(d)}
+              />
+            ))}
           </div>
           <div className="hidden md:flex flex-wrap gap-2">
             {Object.entries(statistics.by_os).map(([os, count]) => (
-              <span key={os} className="px-3 py-1 rounded-full bg-surface2 text-secondary text-xs border border-surface2">
+              <span
+                key={os}
+                onClick={() => toggleOSFilter(os)}
+                className={`cursor-pointer px-3 py-1 rounded-full text-xs border transition-colors
+                  ${filterOS === os
+                    ? 'border-primary/70 bg-primary/10 text-primary'
+                    : 'bg-surface2 text-secondary border-surface2 hover:border-primary/40'}`}
+              >
                 {os}: <span className="text-light font-medium">{count}</span>
               </span>
             ))}
           </div>
 
           <div className="flex flex-col sm:flex-row gap-3">
-            <input type="text" placeholder={t.searchPlaceholder} value={search} onChange={e => { setSearch(e.target.value); setPage(1) }} className="flex-1 px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-light placeholder-secondary focus:outline-none focus:border-primary text-sm" />
+            <input type="text" placeholder={t.searchPlaceholder} value={search}
+              onChange={e => { setSearch(e.target.value); setPage(1) }}
+              className="flex-1 px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-light placeholder-secondary focus:outline-none focus:border-primary text-sm" />
             <select value={filterOS} onChange={e => handleFilterChange(setFilterOS)(e.target.value)} className={selectClass}>
               {osList.map(os => <option key={os} value={os}>{os === 'All' ? t.allOS : os}</option>)}
             </select>
@@ -133,9 +208,7 @@ function HTBMachines() {
                         <span className="text-light font-medium text-sm truncate">{m.name}</span>
                         <div className="flex items-center gap-2 flex-wrap">
                           <span className="text-secondary text-xs">{m.os}</span>
-                          {writeup && (
-                            <WriteupLink url={writeup} label="Writeup" />
-                          )}
+                          {writeup && <WriteupLink url={writeup} label="Writeup" />}
                         </div>
                       </div>
                       <div className="flex items-center gap-2 shrink-0 ml-3">
@@ -153,12 +226,24 @@ function HTBMachines() {
                 <table className="w-full text-sm">
                   <thead>
                     <tr className="bg-surface2 text-secondary uppercase text-xs tracking-wider">
-                      <th className="px-4 py-3 text-left">{t.name}</th>
-                      <th className="px-4 py-3 text-left">{t.os}</th>
-                      <th className="px-4 py-3 text-left">{t.difficulty}</th>
-                      <th className="px-4 py-3 text-center">{t.user}</th>
-                      <th className="px-4 py-3 text-center">{t.root}</th>
-                      <th className="px-4 py-3 text-left">{t.writeup}</th>
+                      <th className={thClass} onClick={() => handleSort('name')}>
+                        {t.name}<SortIcon sortKey={sortKey} col="name" sortDir={sortDir} />
+                      </th>
+                      <th className={thClass} onClick={() => handleSort('os')}>
+                        {t.os}<SortIcon sortKey={sortKey} col="os" sortDir={sortDir} />
+                      </th>
+                      <th className={thClass} onClick={() => handleSort('difficulty')}>
+                        {t.difficulty}<SortIcon sortKey={sortKey} col="difficulty" sortDir={sortDir} />
+                      </th>
+                      <th className={thClassCenter} onClick={() => handleSort('user_owned')}>
+                        {t.user}<SortIcon sortKey={sortKey} col="user_owned" sortDir={sortDir} />
+                      </th>
+                      <th className={thClassCenter} onClick={() => handleSort('root_owned')}>
+                        {t.root}<SortIcon sortKey={sortKey} col="root_owned" sortDir={sortDir} />
+                      </th>
+                      <th className={thClass} onClick={() => handleSort('writeup')}>
+                        {t.writeup}<SortIcon sortKey={sortKey} col="writeup" sortDir={sortDir} />
+                      </th>
                     </tr>
                   </thead>
                   <tbody>
@@ -168,7 +253,9 @@ function HTBMachines() {
                         <tr key={m.id} className={`border-t border-surface2 hover:bg-surface2/50 transition-colors ${i % 2 === 0 ? '' : 'bg-surface/30'}`}>
                           <td className="px-4 py-3 text-light font-medium">{m.name}</td>
                           <td className="px-4 py-3 text-secondary">{m.os}</td>
-                          <td className="px-4 py-3"><span className={`px-2 py-0.5 rounded border text-xs font-medium ${difficultyColor[m.difficulty]}`}>{m.difficulty}</span></td>
+                          <td className="px-4 py-3">
+                            <span className={`px-2 py-0.5 rounded border text-xs font-medium ${difficultyColor[m.difficulty]}`}>{m.difficulty}</span>
+                          </td>
                           <td className="px-4 py-3 text-center">{m.user_owned ? <span className="text-success font-bold">✓</span> : <span className="text-secondary">✗</span>}</td>
                           <td className="px-4 py-3 text-center">{m.root_owned ? <span className="text-success font-bold">✓</span> : <span className="text-secondary">✗</span>}</td>
                           <td className="px-4 py-3"><WriteupLink url={writeup} label="Writeup" /></td>
