@@ -91,6 +91,17 @@ const translations = {
       loading: 'Cargando...',
       sectionError: 'No se pudo cargar esta sección.',
     },
+    share: {
+      open: 'Compartir',
+      close: 'Cerrar compartir',
+      copy: 'Copiar enlace',
+      copied: 'Enlace copiado',
+      whatsapp: 'Compartir en WhatsApp',
+      telegram: 'Compartir en Telegram',
+      linkedin: 'Compartir en LinkedIn',
+      twitter: 'Compartir en X (Twitter)',
+      facebook: 'Compartir en Facebook',
+    },
   },
   en: {
     nav: {
@@ -183,6 +194,17 @@ const translations = {
     common: {
       loading: 'Loading...',
       sectionError: 'This section could not be loaded.',
+    },
+    share: {
+      open: 'Share',
+      close: 'Close share',
+      copy: 'Copy link',
+      copied: 'Link copied',
+      whatsapp: 'Share on WhatsApp',
+      telegram: 'Share on Telegram',
+      linkedin: 'Share on LinkedIn',
+      twitter: 'Share on X (Twitter)',
+      facebook: 'Share on Facebook',
     },
   },
 }

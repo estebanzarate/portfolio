@@ -7,8 +7,6 @@ import StatsBanner from './ui/StatsBanner'
 import EmptyState from './ui/EmptyState'
 
 const ITEMS_PER_PAGE = 20
-const paginationBtn = 'px-3 py-1.5 rounded bg-surface2 text-secondary text-sm transition-colors cursor-pointer hover:text-light disabled:opacity-30 disabled:cursor-not-allowed'
-const selectClass = 'cursor-pointer px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-secondary focus:outline-none focus:border-primary text-sm'
 
 function ProgressBar({ value, label }) {
   const color =
@@ -25,6 +23,11 @@ function ProgressBar({ value, label }) {
   )
 }
 
+function SortIcon({ sortKey, col, sortDir }) {
+  if (sortKey !== col) return <span className="ml-1 text-secondary opacity-40">↕</span>
+  return <span className="ml-1 text-primary">{sortDir === 'asc' ? '↑' : '↓'}</span>
+}
+
 function HTBAcademy() {
   const { lang } = useLanguage()
   const t = translations[lang].academy
@@ -33,6 +36,8 @@ function HTBAcademy() {
   const [search, setSearch] = useState('')
   const [page, setPage] = useState(1)
   const [expanded, setExpanded] = useState(null)
+  const [sortKey, setSortKey] = useState(null)
+  const [sortDir, setSortDir] = useState('asc')
 
   const statusList = ['All', 'Completed', 'In Progress', 'Not Started']
   const statusLabels = {
@@ -40,6 +45,16 @@ function HTBAcademy() {
     Completed: t.completedFilter,
     'In Progress': t.inProgress,
     'Not Started': t.notStarted,
+  }
+
+  function handleSort(key) {
+    if (sortKey === key) {
+      setSortDir(prev => prev === 'asc' ? 'desc' : 'asc')
+    } else {
+      setSortKey(key)
+      setSortDir('asc')
+    }
+    setPage(1)
   }
 
   const filtered = useMemo(() => modules.filter(m => {
@@ -52,20 +67,36 @@ function HTBAcademy() {
     return matchSearch && matchStatus
   }), [modules, filterStatus, search])
 
-  const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE)
-  const paginated = filtered.slice((page - 1) * ITEMS_PER_PAGE, page * ITEMS_PER_PAGE)
+  const sorted = useMemo(() => {
+    if (!sortKey) return filtered
+    return [...filtered].sort((a, b) => {
+      const av = a[sortKey]
+      const bv = b[sortKey]
+      if (typeof av === 'string') {
+        return sortDir === 'asc' ? av.localeCompare(bv) : bv.localeCompare(av)
+      }
+      return sortDir === 'asc' ? av - bv : bv - av
+    })
+  }, [filtered, sortKey, sortDir])
+
+  const totalPages = Math.ceil(sorted.length / ITEMS_PER_PAGE)
+  const paginated = sorted.slice((page - 1) * ITEMS_PER_PAGE, page * ITEMS_PER_PAGE)
 
   const hasData = modules.length > 0
   const hasResults = filtered.length > 0
 
   const bannerItems = [
     { label: t.totalModules, value: statistics.total_modules, accent: false },
-    { label: t.completed, value: statistics.completed, accent: true },
+    { label: t.completed, value: statistics.completed, accent: false },
     { label: '%', value: `${statistics.completion_percentage}%`, accent: false },
   ]
   const bannerChips = Object.entries(statistics.by_category).map(([cat, data]) => ({
     label: cat, value: `${data.completed}/${data.total}`,
   }))
+
+  const paginationBtn = 'px-3 py-1.5 rounded bg-surface2 text-secondary text-sm transition-colors cursor-pointer hover:text-light disabled:opacity-30 disabled:cursor-not-allowed'
+  const selectClass = 'cursor-pointer px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-secondary focus:outline-none focus:border-primary text-sm'
+  const thClass = 'px-4 py-3 text-left cursor-pointer hover:text-light select-none'
 
   const Pagination = () => totalPages > 1 ? (
     <div className="flex items-center justify-center gap-2">
@@ -89,7 +120,7 @@ function HTBAcademy() {
           <StatsBanner items={bannerItems} chips={bannerChips} />
           <div className="hidden md:flex flex-wrap gap-3">
             <StatCard label={t.totalModules} value={statistics.total_modules} colorClass="border-surface2" />
-            <StatCard label={t.completed} value={statistics.completed} sub={t.completedSub(statistics.completion_percentage)} colorClass="border-primary/40" />
+            <StatCard label={t.completed} value={statistics.completed} sub={t.completedSub(statistics.completion_percentage)} colorClass="border-surface2" />
           </div>
           <div className="hidden md:flex flex-wrap gap-3">
             {Object.entries(statistics.by_category).map(([cat, data]) => (
@@ -104,7 +135,9 @@ function HTBAcademy() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-3">
-            <input type="text" placeholder={t.searchPlaceholder} value={search} onChange={e => { setSearch(e.target.value); setPage(1) }} className="flex-1 px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-light placeholder-secondary focus:outline-none focus:border-primary text-sm" />
+            <input type="text" placeholder={t.searchPlaceholder} value={search}
+              onChange={e => { setSearch(e.target.value); setPage(1) }}
+              className="flex-1 px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-light placeholder-secondary focus:outline-none focus:border-primary text-sm" />
             <select value={filterStatus} onChange={e => { setFilterStatus(e.target.value); setPage(1) }} className={selectClass}>
               {statusList.map(s => <option key={s} value={s}>{statusLabels[s]}</option>)}
             </select>
@@ -113,6 +146,7 @@ function HTBAcademy() {
 
           {!hasResults ? <EmptyState message={t.noResults} /> : (
             <>
+              {/* Cards mobile */}
               <div className="flex flex-col gap-2 md:hidden">
                 {paginated.map(m => (
                   <div key={m.id} className="flex flex-col gap-2 p-3 rounded-lg bg-surface border border-surface2">
@@ -127,18 +161,27 @@ function HTBAcademy() {
                   </div>
                 ))}
               </div>
+
+              {/* Tabla desktop */}
               <div className="hidden md:block overflow-x-auto rounded-lg border border-surface2">
                 <table className="w-full text-sm">
                   <thead>
                     <tr className="bg-surface2 text-secondary uppercase text-xs tracking-wider">
-                      <th className="px-4 py-3 text-left">{t.module}</th>
-                      <th className="px-4 py-3 text-left w-48">{t.progress}</th>
+                      <th className={thClass} onClick={() => handleSort('name')}>
+                        {t.module}<SortIcon sortKey={sortKey} col="name" sortDir={sortDir} />
+                      </th>
+                      <th className={thClass} onClick={() => handleSort('progress')}>
+                        {t.progress}<SortIcon sortKey={sortKey} col="progress" sortDir={sortDir} />
+                      </th>
                     </tr>
                   </thead>
                   <tbody>
                     {paginated.map((m, i) => (
                       <Fragment key={m.id}>
-                        <tr onClick={() => setExpanded(prev => prev === m.id ? null : m.id)} className={`cursor-pointer border-t border-surface2 hover:bg-surface2/50 transition-colors ${i % 2 === 0 ? '' : 'bg-surface/30'}`}>
+                        <tr
+                          onClick={() => setExpanded(prev => prev === m.id ? null : m.id)}
+                          className={`cursor-pointer border-t border-surface2 hover:bg-surface2/50 transition-colors ${i % 2 === 0 ? '' : 'bg-surface/30'}`}
+                        >
                           <td className="px-4 py-3">
                             <div className="flex items-center gap-2">
                               <span className="text-light font-medium">{m.name}</span>
