@@ -71,10 +71,10 @@ function Hero() {
           alt={p.name}
           className="shrink-0 w-32 h-32 rounded-full border-4 border-primary object-cover"
         />
-        <div className="flex flex-col gap-4 text-center md:text-left">
+        <div className="flex flex-col gap-4 text-center md:text-left w-full">
           <h1 className="text-4xl font-bold text-light">{p.name}</h1>
           <p className="text-primary text-lg font-medium">{p.role}</p>
-          <p className="text-secondary max-w-xl leading-relaxed">{p.description}</p>
+          <p className="text-secondary w-full md:max-w-xl leading-relaxed">{p.description}</p>
           <div className="flex items-center justify-center md:justify-start gap-1 text-secondary text-sm">
             <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
               <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />

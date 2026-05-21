@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-05-20T22:30:15.955Z",
+  "last_updated": "2026-05-21T03:18:35.154Z",
   "statistics": {
     "total_rooms": 336,
-    "completed": 327,
-    "completion_percentage": 97.3,
+    "completed": 328,
+    "completion_percentage": 97.6,
     "by_difficulty": {
-      "easy": 236,
+      "easy": 237,
       "medium": 56,
       "info": 35
     },
     "by_type": {
-      "challenge": 64,
+      "challenge": 65,
       "walkthrough": 263
     }
   },
@@ -79,7 +79,7 @@
       "description": "Are you able to use open source intelligence to solve this challenge?",
       "difficulty": "easy",
       "type": "challenge",
-      "completed": false,
+      "completed": true,
       "tags": [
         "Red",
         "General Cyber",
