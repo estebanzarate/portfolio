@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-05-21T22:32:14.019Z",
+  "last_updated": "2026-05-21T23:49:37.577Z",
   "statistics": {
-    "total_rooms": 336,
-    "completed": 328,
+    "total_rooms": 337,
+    "completed": 329,
     "completion_percentage": 97.6,
     "by_difficulty": {
-      "easy": 237,
+      "easy": 238,
       "medium": 56,
       "info": 35
     },
     "by_type": {
       "challenge": 65,
-      "walkthrough": 263
+      "walkthrough": 264
     }
   },
   "rooms": [
@@ -346,6 +346,20 @@
         "Web"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/370ada1208acaa6444fce2cfac2be0a2.png"
+    },
+    {
+      "id": "5dc4375aefd6fe7fb4c345fa",
+      "title": "Toolbox: Vim ",
+      "code": "toolboxvim",
+      "description": "Learn vim, a universal text editor that can be incredibly powerful when used properly. From basic text editing to editing of binary files, Vim can be an important arsenal in a security toolkit.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Purple",
+        "General Cyber"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/90729a0e4d86421da566bb68669d46fd.png"
     },
     {
       "id": "5dcb7db400192f7f7155299a",
