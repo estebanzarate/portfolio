@@ -2046,7 +2046,7 @@
     },
     "826": {
       "name": "Overwatch",
-      "writeup": null
+      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/overwatch"
     },
     "829": {
       "name": "Facts",
@@ -3469,6 +3469,10 @@
     "toolboxvim": {
       "title": "Toolbox: Vim ",
       "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/toolbox-vim"
+    },
+    "snykcode": {
+      "title": "Snyk Code",
+      "writeup": null
     }
   }
 }

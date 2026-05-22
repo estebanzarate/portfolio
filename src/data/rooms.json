@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-21T23:56:09.723Z",
+  "last_updated": "2026-05-22T21:37:02.892Z",
   "statistics": {
-    "total_rooms": 337,
+    "total_rooms": 338,
     "completed": 329,
-    "completion_percentage": 97.6,
+    "completion_percentage": 97.3,
     "by_difficulty": {
       "easy": 238,
       "medium": 56,
@@ -4351,6 +4351,25 @@
         "Windows"
       ],
       "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339241811-monikerlink.png"
+    },
+    {
+      "id": "65d67214b8d2fc1dee10749c",
+      "title": "Snyk Code",
+      "code": "snykcode",
+      "description": "Securing code with Snyk - a junior application security engineer's journey.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": false,
+      "tags": [
+        "Blue",
+        "Security Engineer",
+        "ci/cd",
+        "Vulnerability analysis",
+        "Vulnerability management",
+        "DevSecOps",
+        "Snyk Code"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f9c7574e201fe31dad228fc-1718265595550"
     },
     {
       "id": "65fd7e05678bc78720a37464",
