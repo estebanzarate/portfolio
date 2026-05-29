@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-05-22T21:37:29.589Z",
+  "last_updated": "2026-05-29T17:20:46.530Z",
   "statistics": {
-    "total": 530,
-    "user_owns": 195,
-    "root_owns": 194,
+    "total": 531,
+    "user_owns": 196,
+    "root_owns": 195,
     "by_os": {
-      "Linux": 135,
+      "Linux": 136,
       "Windows": 53,
       "Android": 1,
       "Other": 3,
@@ -13,7 +13,7 @@
       "OpenBSD": 1
     },
     "by_difficulty": {
-      "Easy": 144,
+      "Easy": 145,
       "Medium": 34,
       "Hard": 10,
       "Insane": 6
@@ -23,6 +23,14 @@
     {
       "id": 351,
       "name": "Cap",
+      "os": "Linux",
+      "difficulty": "Easy",
+      "user_owned": true,
+      "root_owned": true
+    },
+    {
+      "id": 900,
+      "name": "Reactor",
       "os": "Linux",
       "difficulty": "Easy",
       "user_owned": true,
@@ -165,14 +173,6 @@
       "root_owned": true
     },
     {
-      "id": 826,
-      "name": "Overwatch",
-      "os": "Windows",
-      "difficulty": "Medium",
-      "user_owned": true,
-      "root_owned": true
-    },
-    {
       "id": 817,
       "name": "Eloquia",
       "os": "Windows",
@@ -243,6 +243,14 @@
       "difficulty": "Medium",
       "user_owned": false,
       "root_owned": false
+    },
+    {
+      "id": 826,
+      "name": "Overwatch",
+      "os": "Windows",
+      "difficulty": "Medium",
+      "user_owned": true,
+      "root_owned": true
     },
     {
       "id": 823,

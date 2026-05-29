@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-05-22T21:37:02.892Z",
+  "last_updated": "2026-05-29T17:20:28.660Z",
   "statistics": {
-    "total_rooms": 338,
-    "completed": 329,
-    "completion_percentage": 97.3,
+    "total_rooms": 341,
+    "completed": 331,
+    "completion_percentage": 97.1,
     "by_difficulty": {
-      "easy": 238,
+      "easy": 240,
       "medium": 56,
       "info": 35
     },
     "by_type": {
       "challenge": 65,
-      "walkthrough": 264
+      "walkthrough": 266
     }
   },
   "rooms": [
@@ -3262,6 +3262,22 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/f054e83e6b7c61f643222f8141105daf.png"
     },
     {
+      "id": "620ecf2123c68400505cfd05",
+      "title": "Introduction to DevSecOps",
+      "code": "introductiontodevsecops",
+      "description": "Learn about the story of DevSecOps, Software Development Models & Shifting Left.",
+      "difficulty": "medium",
+      "type": "walkthrough",
+      "completed": false,
+      "tags": [
+        "Purple",
+        "General Cyber",
+        "Security Engineer",
+        "DevSecOps"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/00050c31a2b84443dcc58d4513939515.png"
+    },
+    {
       "id": "6216d9feb9aab2004c5deb51",
       "title": "L2 MAC Flooding & ARP Spoofing",
       "code": "layer2",
@@ -4332,6 +4348,26 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/618b3fa52f0acc0061fb0172-1732205261742"
     },
     {
+      "id": "65b8fd60e6bee6b4d86c9b3e",
+      "title": "Snyk Open Source",
+      "code": "snykopensource",
+      "description": "Securing open-source dependencies with Snyk - a junior application security engineer's journey.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [
+        "Blue",
+        "Security Engineer",
+        "Code review",
+        "ci/cd",
+        "Vulnerability management",
+        "Vulnerability analysis",
+        "DevSecOps",
+        "Snyk Open Source"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f9c7574e201fe31dad228fc-1718201056256"
+    },
+    {
       "id": "65d34e8775488d8b700b19a0",
       "title": "Moniker Link (CVE-2024-21413)",
       "code": "monikerlink",
@@ -4359,7 +4395,7 @@
       "description": "Securing code with Snyk - a junior application security engineer's journey.",
       "difficulty": "easy",
       "type": "walkthrough",
-      "completed": false,
+      "completed": true,
       "tags": [
         "Blue",
         "Security Engineer",
@@ -4640,7 +4676,7 @@
         " Caesar Cipher",
         "Cryptography"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339175115-cryptographybasics.png"
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1779873722777"
     },
     {
       "id": "66deb5530288f675f0e2d33d",
@@ -6089,7 +6125,7 @@
         "segment 1",
         "Web application security"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400336792-Room_Image-16.png"
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1779874288391"
     },
     {
       "id": "694a8120d5a629e7fd635203",
@@ -6110,7 +6146,7 @@
         "segment 1",
         "Web application security"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400341993-Room_Image-18.png"
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1779874303188"
     },
     {
       "id": "695d03d589354d71afd6f863",
@@ -6560,6 +6596,26 @@
         "Web application security"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/691e303c8bb7e99b93a58132-1774169676399"
+    },
+    {
+      "id": "69c2381f98005f8d89c1e7fe",
+      "title": "Guided Pentest: Web",
+      "code": "guidedpentestweb",
+      "description": "Learn web app pentesting by chaining vulnerabilities from recon to full server compromise.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": false,
+      "tags": [
+        "Penetration Tester/ Red Team",
+        "Application penetration testing",
+        "Web",
+        "Nmap",
+        "Gobuster",
+        "Red",
+        "Cyber",
+        "segment 2.5"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62a7685ca6e7ce005d3f3afe-1779358981056"
     },
     {
       "id": "69cbb5b9fde0c51587c223ec",

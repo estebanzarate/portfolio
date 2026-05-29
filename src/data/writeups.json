@@ -2119,6 +2119,10 @@
     "897": {
       "name": "SmartHire",
       "writeup": null
+    },
+    "900": {
+      "name": "Reactor",
+      "writeup": null
     }
   },
   "rooms": {
@@ -3472,6 +3476,18 @@
     },
     "snykcode": {
       "title": "Snyk Code",
+      "writeup": null
+    },
+    "introductiontodevsecops": {
+      "title": "Introduction to DevSecOps",
+      "writeup": null
+    },
+    "snykopensource": {
+      "title": "Snyk Open Source",
+      "writeup": null
+    },
+    "guidedpentestweb": {
+      "title": "Guided Pentest: Web",
       "writeup": null
     }
   }
