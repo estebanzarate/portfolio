@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-05-29T19:06:54.703Z",
+  "last_updated": "2026-05-29T19:34:28.474Z",
   "statistics": {
     "total_rooms": 342,
-    "completed": 332,
-    "completion_percentage": 97.1,
+    "completed": 333,
+    "completion_percentage": 97.4,
     "by_difficulty": {
-      "easy": 241,
+      "easy": 242,
       "medium": 56,
       "info": 35
     },
     "by_type": {
       "challenge": 65,
-      "walkthrough": 267
+      "walkthrough": 268
     }
   },
   "rooms": [
@@ -6573,7 +6573,7 @@
       "description": "Understand the steps involved in a real-life pentest and follow them to compromise your target.",
       "difficulty": "easy",
       "type": "walkthrough",
-      "completed": false,
+      "completed": true,
       "tags": [
         "Penetration Tester/ Red Team",
         "Security Engineer",
