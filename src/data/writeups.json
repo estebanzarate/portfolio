@@ -3489,6 +3489,10 @@
     "guidedpentestweb": {
       "title": "Guided Pentest: Web",
       "writeup": null
+    },
+    "guidedpentestinfrastructure": {
+      "title": "Guided Pentest: Infrastructure",
+      "writeup": null
     }
   }
 }

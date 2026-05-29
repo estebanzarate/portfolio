@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-05-29T17:20:28.660Z",
+  "last_updated": "2026-05-29T19:06:54.703Z",
   "statistics": {
-    "total_rooms": 341,
-    "completed": 331,
+    "total_rooms": 342,
+    "completed": 332,
     "completion_percentage": 97.1,
     "by_difficulty": {
-      "easy": 240,
+      "easy": 241,
       "medium": 56,
       "info": 35
     },
     "by_type": {
       "challenge": 65,
-      "walkthrough": 266
+      "walkthrough": 267
     }
   },
   "rooms": [
@@ -6567,6 +6567,27 @@
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/69650d18bb3fe8c456972924-1775820771840"
     },
     {
+      "id": "69b3b6ed1ddb43f8f434b187",
+      "title": "Guided Pentest: Infrastructure",
+      "code": "guidedpentestinfrastructure",
+      "description": "Understand the steps involved in a real-life pentest and follow them to compromise your target.",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": false,
+      "tags": [
+        "Penetration Tester/ Red Team",
+        "Security Engineer",
+        "Network penetration testing",
+        "Penetration testing",
+        "Linux",
+        "Nmap",
+        "Metasploit Framework",
+        "Red",
+        "segment 2"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6989b1062386d3517f652edd-1778494472489"
+    },
+    {
       "id": "69bbca144a06062f02363e02",
       "title": "Letter",
       "code": "letter",
@@ -6604,7 +6625,7 @@
       "description": "Learn web app pentesting by chaining vulnerabilities from recon to full server compromise.",
       "difficulty": "easy",
       "type": "walkthrough",
-      "completed": false,
+      "completed": true,
       "tags": [
         "Penetration Tester/ Red Team",
         "Application penetration testing",
