@@ -2123,6 +2123,10 @@
     "900": {
       "name": "Reactor",
       "writeup": null
+    },
+    "903": {
+      "name": "DevHub",
+      "writeup": null
     }
   },
   "rooms": {
@@ -3492,6 +3496,10 @@
     },
     "guidedpentestinfrastructure": {
       "title": "Guided Pentest: Infrastructure",
+      "writeup": null
+    },
+    "adventuretime": {
+      "title": "Adventure Time",
       "writeup": null
     }
   }

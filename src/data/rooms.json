@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-05-29T19:34:28.474Z",
+  "last_updated": "2026-05-31T02:39:31.649Z",
   "statistics": {
-    "total_rooms": 342,
+    "total_rooms": 343,
     "completed": 333,
-    "completion_percentage": 97.4,
+    "completion_percentage": 97.1,
     "by_difficulty": {
       "easy": 242,
       "medium": 56,
@@ -264,6 +264,32 @@
         "Linux"
       ],
       "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/46f437a95b1de43238c290a9c416c8d4.png"
+    },
+    {
+      "id": "5d876d7dec940d1f47b766be",
+      "title": "Adventure Time",
+      "code": "adventuretime",
+      "description": "A CTF based challenge to get your blood pumping...",
+      "difficulty": "hard",
+      "type": "challenge",
+      "completed": false,
+      "tags": [
+        "Red",
+        "Security Engineer",
+        "Security analysis",
+        "Penetration testing",
+        "Application penetration testing",
+        "Red teaming",
+        "Vulnerability analysis",
+        "Nmap",
+        "telnet",
+        "python3",
+        "find",
+        "steghide",
+        "Linux",
+        "Web"
+      ],
+      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/b688ceda454abef6677fcf6d15b6f948.jpeg"
     },
     {
       "id": "5d879c62ec940d1f47b769ba",

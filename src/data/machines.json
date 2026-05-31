@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-05-29T19:34:45.081Z",
+  "last_updated": "2026-05-31T02:39:47.286Z",
   "statistics": {
-    "total": 531,
-    "user_owns": 196,
-    "root_owns": 195,
+    "total": 532,
+    "user_owns": 199,
+    "root_owns": 198,
     "by_os": {
-      "Linux": 136,
+      "Linux": 139,
       "Windows": 53,
       "Android": 1,
       "Other": 3,
@@ -13,8 +13,8 @@
       "OpenBSD": 1
     },
     "by_difficulty": {
-      "Easy": 145,
-      "Medium": 34,
+      "Easy": 147,
+      "Medium": 35,
       "Hard": 10,
       "Insane": 6
     }
@@ -25,6 +25,14 @@
       "name": "Cap",
       "os": "Linux",
       "difficulty": "Easy",
+      "user_owned": true,
+      "root_owned": true
+    },
+    {
+      "id": 903,
+      "name": "DevHub",
+      "os": "Linux",
+      "difficulty": "Medium",
       "user_owned": true,
       "root_owned": true
     },
@@ -105,8 +113,8 @@
       "name": "Kobold",
       "os": "Linux",
       "difficulty": "Easy",
-      "user_owned": false,
-      "root_owned": false
+      "user_owned": true,
+      "root_owned": true
     },
     {
       "id": 853,
@@ -129,8 +137,8 @@
       "name": "CCTV",
       "os": "Linux",
       "difficulty": "Easy",
-      "user_owned": false,
-      "root_owned": false
+      "user_owned": true,
+      "root_owned": true
     },
     {
       "id": 844,
@@ -155,14 +163,6 @@
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
-    },
-    {
-      "id": 832,
-      "name": "Pterodactyl",
-      "os": "Linux",
-      "difficulty": "Medium",
-      "user_owned": false,
-      "root_owned": false
     },
     {
       "id": 829,
@@ -239,6 +239,14 @@
     {
       "id": 838,
       "name": "Barrier",
+      "os": "Linux",
+      "difficulty": "Medium",
+      "user_owned": false,
+      "root_owned": false
+    },
+    {
+      "id": 832,
+      "name": "Pterodactyl",
       "os": "Linux",
       "difficulty": "Medium",
       "user_owned": false,
