@@ -1,21 +1,21 @@
 {
-  "last_updated": "2026-05-31T02:39:47.286Z",
+  "last_updated": "2026-06-04T19:40:14.866Z",
   "statistics": {
     "total": 532,
-    "user_owns": 199,
-    "root_owns": 198,
+    "user_owns": 201,
+    "root_owns": 200,
     "by_os": {
-      "Linux": 139,
-      "Windows": 53,
+      "Linux": 140,
+      "Windows": 54,
       "Android": 1,
       "Other": 3,
       "Solaris": 1,
       "OpenBSD": 1
     },
     "by_difficulty": {
-      "Easy": 147,
+      "Easy": 148,
       "Medium": 35,
-      "Hard": 10,
+      "Hard": 11,
       "Insane": 6
     }
   },
@@ -89,8 +89,8 @@
       "name": "Snapped",
       "os": "Linux",
       "difficulty": "Hard",
-      "user_owned": false,
-      "root_owned": false
+      "user_owned": true,
+      "root_owned": true
     },
     {
       "id": 862,
@@ -185,8 +185,8 @@
       "name": "MonitorsFour",
       "os": "Windows",
       "difficulty": "Easy",
-      "user_owned": false,
-      "root_owned": false
+      "user_owned": true,
+      "root_owned": true
     },
     {
       "id": 808,
