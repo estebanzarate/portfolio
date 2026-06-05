@@ -1,33 +1,33 @@
 #!/bin/bash
-
-# Define UI colors
 GREEN='\033[0;32m'
 BLUE='\033[0;34m'
+YELLOW='\033[0;33m'
 NC='\033[0m'
 
 echo -e "${BLUE}🚀 Initializing update process...${NC}"
 
-# 1. Execute data fetcher
 echo -e "${BLUE}📦 Fetching API data...${NC}"
 npm run fetch:all
+FETCH_EXIT=$?
 
-# Check if fetch was successful
-if [ $? -eq 0 ]; then
-    echo -e "${GREEN}✅ Data fetched successfully.${NC}"
+if [ $FETCH_EXIT -eq 0 ]; then
+  echo -e "${GREEN}✅ Data fetched successfully.${NC}"
 else
-    echo "❌ Error during data fetch. Aborting."
+  # Check if critical data files exist before deciding to abort
+  if [ ! -f "src/data/machines.json" ] && [ ! -f "src/data/academy.json" ]; then
+    echo "❌ Critical data files missing. Aborting."
     exit 1
+  fi
+  echo -e "${YELLOW}⚠️  Fetch completed with errors. Continuing with available data.${NC}"
 fi
 
-# 2. Automated Git Workflow
 echo -e "${BLUE}⚙️  Syncing changes with GitHub...${NC}"
 
-# Only commit if there are changes to the data files
 if [[ -n $(git status -s) ]]; then
-    git add .
-    git commit -m "update(data): $(date +'%Y-%m-%d %H:%M:%S')"
-    git push
-    echo -e "${GREEN}✨ Portfolio updated and pushed successfully!${NC}"
+  git add .
+  git commit -m "update(data): $(date +'%Y-%m-%d %H:%M:%S')"
+  git push
+  echo -e "${GREEN}✨ Portfolio updated and pushed successfully!${NC}"
 else
-    echo -e "${GREEN}✅ No data changes detected. Git push skipped.${NC}"
+  echo -e "${GREEN}✅ No data changes detected. Git push skipped.${NC}"
 fi
