@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-06-05T01:45:50.316Z",
+  "last_updated": "2026-06-05T23:09:47.423Z",
   "statistics": {
-    "total_modules": 158,
+    "total_modules": 159,
     "completed": 54,
-    "completion_percentage": 34.2,
+    "completion_percentage": 34,
     "by_category": {
       "Offensive": {
         "completed": 26,
-        "total": 96,
-        "percentage": 30.6
+        "total": 97,
+        "percentage": 30.4
       },
       "Defensive": {
         "completed": 1,
@@ -1132,6 +1132,13 @@
       "name": "Credential Access Tradecraft Analysis",
       "slug": "credential-access-tradecraft-analysis",
       "description": "This module delivers an in-depth, defense-focused study of Windows credential access. It explains how adversaries steal credentials via dumping and abuse of sensitive stores, then breaks down authentication flows, cryptographic protections, and both live-memory and offline extraction to understand tool behavior and build robust detection rules. It also covers DPAPI, Windows Credential Manager, browser credential stores including App-Bound encryption, and Credential Guard bypass techniques with their detection opportunities.",
+      "progress": 0
+    },
+    {
+      "id": 542,
+      "name": "Red Team Mindset",
+      "slug": "red-team-mindset",
+      "description": "This module covers the fundamental concepts of red teaming, exploring what it is, why it is important, and how red team engagements are run. That includes the differences between red teaming and penetration testing, the core roles of the red, blue, and white teams, and the complete lifecycle of an engagement from start to finish. Also discussed are ethical obligations, communication strategies, and the evolving role of AI in adversary simulation.",
       "progress": 0
     }
   ]
