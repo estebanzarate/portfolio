@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-06-05T23:14:12.462Z",
+  "last_updated": "2026-06-10T19:47:23.536Z",
   "statistics": {
-    "total": 533,
-    "user_owns": 202,
-    "root_owns": 201,
+    "total": 534,
+    "user_owns": 203,
+    "root_owns": 202,
     "by_os": {
-      "Linux": 141,
+      "Linux": 142,
       "Windows": 54,
       "Android": 1,
       "Other": 3,
@@ -13,7 +13,7 @@
       "OpenBSD": 1
     },
     "by_difficulty": {
-      "Easy": 149,
+      "Easy": 150,
       "Medium": 35,
       "Hard": 11,
       "Insane": 6
@@ -29,20 +29,20 @@
       "root_owned": true
     },
     {
-      "id": 867,
-      "name": "Silentium",
-      "os": "Linux",
-      "difficulty": "Easy",
-      "user_owned": true,
-      "root_owned": true
-    },
-    {
       "id": 924,
       "name": "Abducted",
       "os": "Linux",
       "difficulty": "Medium",
       "user_owned": false,
       "root_owned": false
+    },
+    {
+      "id": 906,
+      "name": "Connected",
+      "os": "Linux",
+      "difficulty": "Easy",
+      "user_owned": true,
+      "root_owned": true
     },
     {
       "id": 903,
@@ -91,6 +91,14 @@
       "difficulty": "Medium",
       "user_owned": false,
       "root_owned": false
+    },
+    {
+      "id": 867,
+      "name": "Silentium",
+      "os": "Linux",
+      "difficulty": "Easy",
+      "user_owned": true,
+      "root_owned": true
     },
     {
       "id": 864,
@@ -189,14 +197,6 @@
       "root_owned": false
     },
     {
-      "id": 814,
-      "name": "MonitorsFour",
-      "os": "Windows",
-      "difficulty": "Easy",
-      "user_owned": true,
-      "root_owned": true
-    },
-    {
       "id": 808,
       "name": "Fries",
       "os": "Windows",
@@ -255,7 +255,7 @@
     {
       "id": 832,
       "name": "Pterodactyl",
-      "os": "Linux",
+      "os": "linux",
       "difficulty": "Medium",
       "user_owned": false,
       "root_owned": false
@@ -281,6 +281,14 @@
       "name": "Browsed",
       "os": "Linux",
       "difficulty": "Medium",
+      "user_owned": true,
+      "root_owned": true
+    },
+    {
+      "id": 814,
+      "name": "MonitorsFour",
+      "os": "Windows",
+      "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
     },

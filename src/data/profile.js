@@ -29,17 +29,41 @@ const profile = {
         category: "Pentesting & Explotación",
         color: "danger",
         items: [
-          { name: "Metasploit Framework", source: "Using the Metasploit Framework" },
-          { name: "Privilege Escalation (Linux)", source: "Linux Privilege Escalation" },
-          { name: "Privilege Escalation (Windows)", source: "Windows Privilege Escalation" },
-          { name: "Buffer Overflows (Linux x86)", source: "Stack-Based Buffer Overflows on Linux x86" },
-          { name: "Buffer Overflows (Windows x86)", source: "Stack-Based Buffer Overflows on Windows x86" },
+          {
+            name: "Metasploit Framework",
+            source: "Using the Metasploit Framework",
+          },
+          {
+            name: "Privilege Escalation (Linux)",
+            source: "Linux Privilege Escalation",
+          },
+          {
+            name: "Privilege Escalation (Windows)",
+            source: "Windows Privilege Escalation",
+          },
+          {
+            name: "Buffer Overflows (Linux x86)",
+            source: "Stack-Based Buffer Overflows on Linux x86",
+          },
+          {
+            name: "Buffer Overflows (Windows x86)",
+            source: "Stack-Based Buffer Overflows on Windows x86",
+          },
           { name: "Shells & Payloads", source: "Shells & Payloads" },
           { name: "Password Attacks", source: "Password Attacks" },
           { name: "Login Brute Forcing", source: "Login Brute Forcing" },
-          { name: "Pivoting & Tunneling", source: "Pivoting, Tunneling, and Port Forwarding" },
-          { name: "Attacking Common Services", source: "Attacking Common Services" },
-          { name: "Attacking Common Applications", source: "Attacking Common Applications" },
+          {
+            name: "Pivoting & Tunneling",
+            source: "Pivoting, Tunneling, and Port Forwarding",
+          },
+          {
+            name: "Attacking Common Services",
+            source: "Attacking Common Services",
+          },
+          {
+            name: "Attacking Common Applications",
+            source: "Attacking Common Applications",
+          },
         ],
       },
       {
@@ -48,10 +72,19 @@ const profile = {
         items: [
           { name: "SQL Injection", source: "SQL Injection Fundamentals" },
           { name: "File Inclusion (LFI/RFI)", source: "File Inclusion" },
-          { name: "Web Fuzzing", source: "Attacking Web Applications with Ffuf / Web Fuzzing" },
-          { name: "JavaScript Deobfuscation", source: "JavaScript Deobfuscation" },
+          {
+            name: "Web Fuzzing",
+            source: "Attacking Web Applications with Ffuf / Web Fuzzing",
+          },
+          {
+            name: "JavaScript Deobfuscation",
+            source: "JavaScript Deobfuscation",
+          },
           { name: "WordPress Hacking", source: "Hacking WordPress" },
-          { name: "Information Gathering Web", source: "Information Gathering - Web Edition" },
+          {
+            name: "Information Gathering Web",
+            source: "Information Gathering - Web Edition",
+          },
           { name: "Web Requests & HTTP", source: "Web Requests" },
           { name: "Bug Bounty Process", source: "Bug Bounty Hunting Process" },
         ],
@@ -61,11 +94,17 @@ const profile = {
         color: "info",
         items: [
           { name: "Nmap", source: "Network Enumeration with Nmap" },
-          { name: "Network Traffic Analysis", source: "Intro to Network Traffic Analysis" },
+          {
+            name: "Network Traffic Analysis",
+            source: "Intro to Network Traffic Analysis",
+          },
           { name: "Footprinting", source: "Footprinting" },
           { name: "DNS Enumeration", source: "DNS Enumeration Using Python" },
           { name: "File Transfers", source: "File Transfers" },
-          { name: "Networking Fundamentals", source: "Introduction to Networking / Network Foundations" },
+          {
+            name: "Networking Fundamentals",
+            source: "Introduction to Networking / Network Foundations",
+          },
         ],
       },
       {
@@ -76,16 +115,28 @@ const profile = {
           { name: "Windows", source: "Windows Fundamentals" },
           { name: "macOS", source: "MacOS Fundamentals" },
           { name: "Bash Scripting", source: "Introduction to Bash Scripting" },
-          { name: "Windows CLI & PowerShell", source: "Introduction to Windows Command Line" },
-          { name: "Active Directory", source: "Introduction to Active Directory" },
+          {
+            name: "Windows CLI & PowerShell",
+            source: "Introduction to Windows Command Line",
+          },
+          {
+            name: "Active Directory",
+            source: "Introduction to Active Directory",
+          },
         ],
       },
       {
         category: "Programación & Scripting",
         color: "primary",
         items: [
-          { name: "Python 3", source: "Introduction to Python 3 / DNS Enumeration Using Python" },
-          { name: "JavaScript", source: "JavaScript Deobfuscation / Secure Coding 101" },
+          {
+            name: "Python 3",
+            source: "Introduction to Python 3 / DNS Enumeration Using Python",
+          },
+          {
+            name: "JavaScript",
+            source: "JavaScript Deobfuscation / Secure Coding 101",
+          },
           { name: "C#", source: "Introduction to C#" },
           { name: "Bash", source: "Introduction to Bash Scripting" },
         ],
@@ -94,8 +145,14 @@ const profile = {
         category: "Metodología & Proceso",
         color: "secondary",
         items: [
-          { name: "Penetration Testing Process", source: "Penetration Testing Process" },
-          { name: "Vulnerability Assessment", source: "Vulnerability Assessment" },
+          {
+            name: "Penetration Testing Process",
+            source: "Penetration Testing Process",
+          },
+          {
+            name: "Vulnerability Assessment",
+            source: "Vulnerability Assessment",
+          },
           { name: "Incident Handling", source: "Security Incident Reporting" },
           { name: "Pentest Reporting", source: "Pentest in a Nutshell" },
           { name: "Fundamentos de IA", source: "Fundamentals of AI" },
@@ -141,7 +198,8 @@ const profile = {
         institution: "TryHackMe",
         period: "2023",
         certificate: "/certificates/ICSLP.webp",
-        courseUrl: "https://tryhackme.com/module/introduction-to-cyber-security",
+        courseUrl:
+          "https://tryhackme.com/module/introduction-to-cyber-security",
       },
       {
         id: 6,
@@ -181,15 +239,28 @@ const profile = {
         institution: "TestOut Corporation",
         period: "2024",
         certificate: "/certificates/TOCP.webp",
-        courseUrl: "https://www.comptia.org/en-us/certifications/windows-client-pro/",
+        courseUrl:
+          "https://www.comptia.org/en-us/certifications/windows-client-pro/",
       },
       {
         id: 11,
         title: "Introduction to Cybersecurity",
-        institution: "Networking Academy through the Cisco Networking Academy program",
+        institution:
+          "Networking Academy through the Cisco Networking Academy program",
         period: "2026",
         certificate: "/certificates/ITC.webp",
-        courseUrl: "https://www.netacad.com/courses/introduction-to-cybersecurity?courseLang=en-US",
+        courseUrl:
+          "https://www.netacad.com/courses/introduction-to-cybersecurity?courseLang=en-US",
+      },
+      {
+        id: 12,
+        title: "Ethical Hacker",
+        institution:
+          "Networking Academy through the Cisco Networking Academy program",
+        period: "2026",
+        certificate: "/certificates/EH.webp",
+        courseUrl:
+          "https://www.netacad.com/courses/ethical-hacker?courseLang=en-US",
       },
     ],
   },
@@ -224,17 +295,41 @@ const profile = {
         category: "Pentesting & Exploitation",
         color: "danger",
         items: [
-          { name: "Metasploit Framework", source: "Using the Metasploit Framework" },
-          { name: "Privilege Escalation (Linux)", source: "Linux Privilege Escalation" },
-          { name: "Privilege Escalation (Windows)", source: "Windows Privilege Escalation" },
-          { name: "Buffer Overflows (Linux x86)", source: "Stack-Based Buffer Overflows on Linux x86" },
-          { name: "Buffer Overflows (Windows x86)", source: "Stack-Based Buffer Overflows on Windows x86" },
+          {
+            name: "Metasploit Framework",
+            source: "Using the Metasploit Framework",
+          },
+          {
+            name: "Privilege Escalation (Linux)",
+            source: "Linux Privilege Escalation",
+          },
+          {
+            name: "Privilege Escalation (Windows)",
+            source: "Windows Privilege Escalation",
+          },
+          {
+            name: "Buffer Overflows (Linux x86)",
+            source: "Stack-Based Buffer Overflows on Linux x86",
+          },
+          {
+            name: "Buffer Overflows (Windows x86)",
+            source: "Stack-Based Buffer Overflows on Windows x86",
+          },
           { name: "Shells & Payloads", source: "Shells & Payloads" },
           { name: "Password Attacks", source: "Password Attacks" },
           { name: "Login Brute Forcing", source: "Login Brute Forcing" },
-          { name: "Pivoting & Tunneling", source: "Pivoting, Tunneling, and Port Forwarding" },
-          { name: "Attacking Common Services", source: "Attacking Common Services" },
-          { name: "Attacking Common Applications", source: "Attacking Common Applications" },
+          {
+            name: "Pivoting & Tunneling",
+            source: "Pivoting, Tunneling, and Port Forwarding",
+          },
+          {
+            name: "Attacking Common Services",
+            source: "Attacking Common Services",
+          },
+          {
+            name: "Attacking Common Applications",
+            source: "Attacking Common Applications",
+          },
         ],
       },
       {
@@ -243,10 +338,19 @@ const profile = {
         items: [
           { name: "SQL Injection", source: "SQL Injection Fundamentals" },
           { name: "File Inclusion (LFI/RFI)", source: "File Inclusion" },
-          { name: "Web Fuzzing", source: "Attacking Web Applications with Ffuf / Web Fuzzing" },
-          { name: "JavaScript Deobfuscation", source: "JavaScript Deobfuscation" },
+          {
+            name: "Web Fuzzing",
+            source: "Attacking Web Applications with Ffuf / Web Fuzzing",
+          },
+          {
+            name: "JavaScript Deobfuscation",
+            source: "JavaScript Deobfuscation",
+          },
           { name: "WordPress Hacking", source: "Hacking WordPress" },
-          { name: "Web Information Gathering", source: "Information Gathering - Web Edition" },
+          {
+            name: "Web Information Gathering",
+            source: "Information Gathering - Web Edition",
+          },
           { name: "Web Requests & HTTP", source: "Web Requests" },
           { name: "Bug Bounty Process", source: "Bug Bounty Hunting Process" },
         ],
@@ -256,11 +360,17 @@ const profile = {
         color: "info",
         items: [
           { name: "Nmap", source: "Network Enumeration with Nmap" },
-          { name: "Network Traffic Analysis", source: "Intro to Network Traffic Analysis" },
+          {
+            name: "Network Traffic Analysis",
+            source: "Intro to Network Traffic Analysis",
+          },
           { name: "Footprinting", source: "Footprinting" },
           { name: "DNS Enumeration", source: "DNS Enumeration Using Python" },
           { name: "File Transfers", source: "File Transfers" },
-          { name: "Networking Fundamentals", source: "Introduction to Networking / Network Foundations" },
+          {
+            name: "Networking Fundamentals",
+            source: "Introduction to Networking / Network Foundations",
+          },
         ],
       },
       {
@@ -271,16 +381,28 @@ const profile = {
           { name: "Windows", source: "Windows Fundamentals" },
           { name: "macOS", source: "MacOS Fundamentals" },
           { name: "Bash Scripting", source: "Introduction to Bash Scripting" },
-          { name: "Windows CLI & PowerShell", source: "Introduction to Windows Command Line" },
-          { name: "Active Directory", source: "Introduction to Active Directory" },
+          {
+            name: "Windows CLI & PowerShell",
+            source: "Introduction to Windows Command Line",
+          },
+          {
+            name: "Active Directory",
+            source: "Introduction to Active Directory",
+          },
         ],
       },
       {
         category: "Programming & Scripting",
         color: "primary",
         items: [
-          { name: "Python 3", source: "Introduction to Python 3 / DNS Enumeration Using Python" },
-          { name: "JavaScript", source: "JavaScript Deobfuscation / Secure Coding 101" },
+          {
+            name: "Python 3",
+            source: "Introduction to Python 3 / DNS Enumeration Using Python",
+          },
+          {
+            name: "JavaScript",
+            source: "JavaScript Deobfuscation / Secure Coding 101",
+          },
           { name: "C#", source: "Introduction to C#" },
           { name: "Bash", source: "Introduction to Bash Scripting" },
         ],
@@ -289,8 +411,14 @@ const profile = {
         category: "Methodology & Process",
         color: "secondary",
         items: [
-          { name: "Penetration Testing Process", source: "Penetration Testing Process" },
-          { name: "Vulnerability Assessment", source: "Vulnerability Assessment" },
+          {
+            name: "Penetration Testing Process",
+            source: "Penetration Testing Process",
+          },
+          {
+            name: "Vulnerability Assessment",
+            source: "Vulnerability Assessment",
+          },
           { name: "Incident Handling", source: "Security Incident Reporting" },
           { name: "Pentest Reporting", source: "Pentest in a Nutshell" },
           { name: "AI Fundamentals", source: "Fundamentals of AI" },
@@ -336,7 +464,8 @@ const profile = {
         institution: "TryHackMe",
         period: "2023",
         certificate: "/certificates/ICSLP.webp",
-        courseUrl: "https://tryhackme.com/module/introduction-to-cyber-security",
+        courseUrl:
+          "https://tryhackme.com/module/introduction-to-cyber-security",
       },
       {
         id: 6,
@@ -376,18 +505,31 @@ const profile = {
         institution: "TestOut Corporation",
         period: "2024",
         certificate: "/certificates/TOCP.webp",
-        courseUrl: "https://www.comptia.org/en-us/certifications/windows-client-pro/",
+        courseUrl:
+          "https://www.comptia.org/en-us/certifications/windows-client-pro/",
       },
       {
         id: 11,
         title: "Introduction to Cybersecurity",
-        institution: "Networking Academy through the Cisco Networking Academy program",
+        institution:
+          "Networking Academy through the Cisco Networking Academy program",
         period: "2026",
         certificate: "/certificates/ITC.webp",
-        courseUrl: "https://www.netacad.com/courses/introduction-to-cybersecurity?courseLang=en-US",
+        courseUrl:
+          "https://www.netacad.com/courses/introduction-to-cybersecurity?courseLang=en-US",
+      },
+      {
+        id: 12,
+        title: "Ethical Hacker",
+        institution:
+          "Networking Academy through the Cisco Networking Academy program",
+        period: "2026",
+        certificate: "/certificates/EH.webp",
+        courseUrl:
+          "https://www.netacad.com/courses/ethical-hacker?courseLang=en-US",
       },
     ],
   },
-}
+};
 
-export default profile
+export default profile;
