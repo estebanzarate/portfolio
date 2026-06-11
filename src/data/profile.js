@@ -11,7 +11,7 @@ const profile = {
       htb: "https://app.hackthebox.com/users/1089152",
       thm: "https://tryhackme.com/p/no0funny",
       email: "mailto:estebanzarateok@gmail.com",
-      blog: "https://estebanzarate.gitbook.io/hackache",
+      blog: "https://hackache.vercel.app",
     },
     experience: [
       {
@@ -277,7 +277,7 @@ const profile = {
       htb: "https://app.hackthebox.com/users/1089152",
       thm: "https://tryhackme.com/p/no0funny",
       email: "mailto:estebanzarateok@gmail.com",
-      blog: "https://estebanzarate.gitbook.io/hackache",
+      blog: "https://hackache.vercel.app",
     },
     experience: [
       {
