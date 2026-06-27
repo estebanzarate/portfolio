@@ -2132,8 +2132,36 @@
       "name": "Connected",
       "writeup": null
     },
+    "909": {
+      "name": "Checkpoint",
+      "writeup": null
+    },
+    "912": {
+      "name": "Nimbus",
+      "writeup": null
+    },
     "924": {
       "name": "Abducted",
+      "writeup": null
+    },
+    "945": {
+      "name": "Orion",
+      "writeup": null
+    },
+    "948": {
+      "name": "Nexus",
+      "writeup": null
+    },
+    "951": {
+      "name": "Ghostlink",
+      "writeup": null
+    },
+    "954": {
+      "name": "Odyssey",
+      "writeup": null
+    },
+    "957": {
+      "name": "Fireflow",
       "writeup": null
     }
   },
