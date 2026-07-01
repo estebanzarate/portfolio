@@ -1,21 +1,21 @@
 {
-  "last_updated": "2026-06-27T17:39:03.981Z",
+  "last_updated": "2026-07-01T23:08:41.639Z",
   "statistics": {
-    "total": 541,
-    "user_owns": 206,
-    "root_owns": 205,
+    "total": 542,
+    "user_owns": 207,
+    "root_owns": 206,
     "by_os": {
-      "Linux": 140,
+      "Linux": 141,
       "linux": 4,
       "Windows": 54,
       "windows": 1,
-      "Android": 1,
+      "android": 1,
       "Other": 3,
       "Solaris": 1,
       "OpenBSD": 1
     },
     "by_difficulty": {
-      "Easy": 150,
+      "Easy": 151,
       "Medium": 37,
       "Hard": 12,
       "Insane": 6
@@ -29,6 +29,14 @@
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
+    },
+    {
+      "id": 945,
+      "name": "Orion",
+      "os": "linux",
+      "difficulty": "Easy",
+      "user_owned": false,
+      "root_owned": false
     },
     {
       "id": 957,
@@ -63,18 +71,18 @@
       "root_owned": false
     },
     {
-      "id": 945,
-      "name": "Orion",
-      "os": "linux",
-      "difficulty": "Easy",
-      "user_owned": false,
-      "root_owned": false
-    },
-    {
       "id": 924,
       "name": "Abducted",
       "os": "Linux",
       "difficulty": "Medium",
+      "user_owned": true,
+      "root_owned": true
+    },
+    {
+      "id": 915,
+      "name": "Enigma",
+      "os": "Linux",
+      "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
     },
@@ -2617,7 +2625,7 @@
     {
       "id": 356,
       "name": "Explore",
-      "os": "Android",
+      "os": "android",
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
