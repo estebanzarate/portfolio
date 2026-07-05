@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-02T02:24:52.594Z",
+  "last_updated": "2026-07-05T02:02:53.342Z",
   "statistics": {
-    "total": 542,
-    "user_owns": 208,
-    "root_owns": 207,
+    "total": 543,
+    "user_owns": 209,
+    "root_owns": 208,
     "by_os": {
-      "Linux": 141,
-      "linux": 5,
+      "Linux": 133,
+      "linux": 14,
       "Windows": 54,
       "windows": 1,
       "android": 1,
@@ -15,7 +15,7 @@
       "OpenBSD": 1
     },
     "by_difficulty": {
-      "Easy": 152,
+      "Easy": 153,
       "Medium": 37,
       "Hard": 12,
       "Insane": 6
@@ -26,14 +26,6 @@
       "id": 351,
       "name": "Cap",
       "os": "Linux",
-      "difficulty": "Easy",
-      "user_owned": true,
-      "root_owned": true
-    },
-    {
-      "id": 945,
-      "name": "Orion",
-      "os": "linux",
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
@@ -67,16 +59,32 @@
       "name": "Nexus",
       "os": "linux",
       "difficulty": "Easy",
-      "user_owned": false,
-      "root_owned": false
+      "user_owned": true,
+      "root_owned": true
+    },
+    {
+      "id": 945,
+      "name": "Orion",
+      "os": "linux",
+      "difficulty": "Easy",
+      "user_owned": true,
+      "root_owned": true
     },
     {
       "id": 924,
       "name": "Abducted",
-      "os": "Linux",
+      "os": "linux",
       "difficulty": "Medium",
       "user_owned": true,
       "root_owned": true
+    },
+    {
+      "id": 918,
+      "name": "MakeSense",
+      "os": "linux",
+      "difficulty": "Medium",
+      "user_owned": false,
+      "root_owned": false
     },
     {
       "id": 915,
@@ -185,7 +193,7 @@
     {
       "id": 859,
       "name": "DevArea",
-      "os": "Linux",
+      "os": "linux",
       "difficulty": "Medium",
       "user_owned": true,
       "root_owned": true
@@ -242,14 +250,6 @@
       "id": 808,
       "name": "Fries",
       "os": "Windows",
-      "difficulty": "Hard",
-      "user_owned": false,
-      "root_owned": false
-    },
-    {
-      "id": 802,
-      "name": "NanoCorp",
-      "os": "windows",
       "difficulty": "Hard",
       "user_owned": false,
       "root_owned": false
@@ -375,6 +375,14 @@
       "root_owned": false
     },
     {
+      "id": 802,
+      "name": "NanoCorp",
+      "os": "windows",
+      "difficulty": "Hard",
+      "user_owned": false,
+      "root_owned": false
+    },
+    {
       "id": 799,
       "name": "JobTwo",
       "os": "Windows",
@@ -409,7 +417,7 @@
     {
       "id": 787,
       "name": "Conversor",
-      "os": "Linux",
+      "os": "linux",
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
@@ -2241,7 +2249,7 @@
     {
       "id": 446,
       "name": "GoodGames",
-      "os": "Linux",
+      "os": "linux",
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
@@ -2393,7 +2401,7 @@
     {
       "id": 416,
       "name": "Backdoor",
-      "os": "Linux",
+      "os": "linux",
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
@@ -2921,7 +2929,7 @@
     {
       "id": 278,
       "name": "Doctor",
-      "os": "Linux",
+      "os": "linux",
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
@@ -3521,7 +3529,7 @@
     {
       "id": 181,
       "name": "LaCasaDePapel",
-      "os": "Linux",
+      "os": "linux",
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
@@ -4009,7 +4017,7 @@
     {
       "id": 118,
       "name": "Bashed",
-      "os": "Linux",
+      "os": "linux",
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
