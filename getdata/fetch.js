@@ -57,6 +57,9 @@ const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 async function fetchWithRetry(url, options, { retries = 3, baseDelay = 8000 } = {}) {
   for (let attempt = 1; attempt <= retries; attempt++) {
     const res = await fetch(url, options);
+    console.log(res.status);
+    console.log([...res.headers.entries()]);
+    console.log(await res.text());
     if (res.status === 429) {
       if (attempt === retries) {
         const body = await res.text().catch(() => '(no body)');
