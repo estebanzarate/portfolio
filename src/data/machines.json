@@ -1,22 +1,20 @@
 {
-  "last_updated": "2026-07-05T02:02:53.342Z",
+  "last_updated": "2026-08-02T16:47:25.956Z",
   "statistics": {
-    "total": 543,
-    "user_owns": 209,
-    "root_owns": 208,
+    "total": 547,
+    "user_owns": 213,
+    "root_owns": 211,
     "by_os": {
-      "Linux": 133,
-      "linux": 14,
-      "Windows": 54,
-      "windows": 1,
-      "android": 1,
+      "Linux": 150,
+      "Windows": 55,
+      "Android": 1,
       "Other": 3,
       "Solaris": 1,
       "OpenBSD": 1
     },
     "by_difficulty": {
-      "Easy": 153,
-      "Medium": 37,
+      "Easy": 154,
+      "Medium": 39,
       "Hard": 12,
       "Insane": 6
     }
@@ -33,15 +31,15 @@
     {
       "id": 957,
       "name": "Fireflow",
-      "os": "linux",
+      "os": "Linux",
       "difficulty": "Medium",
-      "user_owned": false,
+      "user_owned": true,
       "root_owned": false
     },
     {
       "id": 954,
       "name": "Odyssey",
-      "os": "windows",
+      "os": "Windows",
       "difficulty": "Insane",
       "user_owned": false,
       "root_owned": false
@@ -49,7 +47,7 @@
     {
       "id": 951,
       "name": "Ghostlink",
-      "os": "windows",
+      "os": "Windows",
       "difficulty": "Hard",
       "user_owned": false,
       "root_owned": false
@@ -57,7 +55,7 @@
     {
       "id": 948,
       "name": "Nexus",
-      "os": "linux",
+      "os": "Linux",
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
@@ -65,26 +63,58 @@
     {
       "id": 945,
       "name": "Orion",
-      "os": "linux",
+      "os": "Linux",
       "difficulty": "Easy",
+      "user_owned": true,
+      "root_owned": true
+    },
+    {
+      "id": 933,
+      "name": "Cohort",
+      "os": "Linux",
+      "difficulty": "Easy",
+      "user_owned": false,
+      "root_owned": false
+    },
+    {
+      "id": 930,
+      "name": "DarkZeroReturns",
+      "os": "Windows",
+      "difficulty": "Hard",
+      "user_owned": false,
+      "root_owned": false
+    },
+    {
+      "id": 927,
+      "name": "Bedside",
+      "os": "Linux",
+      "difficulty": "Medium",
       "user_owned": true,
       "root_owned": true
     },
     {
       "id": 924,
       "name": "Abducted",
-      "os": "linux",
+      "os": "Linux",
       "difficulty": "Medium",
+      "user_owned": true,
+      "root_owned": true
+    },
+    {
+      "id": 921,
+      "name": "Paperwork",
+      "os": "Linux",
+      "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
     },
     {
       "id": 918,
       "name": "MakeSense",
-      "os": "linux",
+      "os": "Linux",
       "difficulty": "Medium",
-      "user_owned": false,
-      "root_owned": false
+      "user_owned": true,
+      "root_owned": true
     },
     {
       "id": 915,
@@ -97,7 +127,7 @@
     {
       "id": 912,
       "name": "Nimbus",
-      "os": "linux",
+      "os": "Linux",
       "difficulty": "Hard",
       "user_owned": true,
       "root_owned": true
@@ -159,14 +189,6 @@
       "root_owned": false
     },
     {
-      "id": 888,
-      "name": "Logging",
-      "os": "Windows",
-      "difficulty": "Medium",
-      "user_owned": false,
-      "root_owned": false
-    },
-    {
       "id": 867,
       "name": "Silentium",
       "os": "Linux",
@@ -191,14 +213,6 @@
       "root_owned": false
     },
     {
-      "id": 859,
-      "name": "DevArea",
-      "os": "linux",
-      "difficulty": "Medium",
-      "user_owned": true,
-      "root_owned": true
-    },
-    {
       "id": 856,
       "name": "Kobold",
       "os": "Linux",
@@ -215,28 +229,12 @@
       "root_owned": true
     },
     {
-      "id": 847,
-      "name": "CCTV",
-      "os": "Linux",
-      "difficulty": "Easy",
-      "user_owned": true,
-      "root_owned": true
-    },
-    {
       "id": 844,
       "name": "Pirate",
       "os": "Windows",
       "difficulty": "Hard",
       "user_owned": false,
       "root_owned": false
-    },
-    {
-      "id": 835,
-      "name": "WingData",
-      "os": "linux",
-      "difficulty": "Easy",
-      "user_owned": true,
-      "root_owned": true
     },
     {
       "id": 817,
@@ -287,6 +285,22 @@
       "root_owned": true
     },
     {
+      "id": 888,
+      "name": "Logging",
+      "os": "Windows",
+      "difficulty": "Medium",
+      "user_owned": false,
+      "root_owned": false
+    },
+    {
+      "id": 859,
+      "name": "DevArea",
+      "os": "Linux",
+      "difficulty": "Medium",
+      "user_owned": true,
+      "root_owned": true
+    },
+    {
       "id": 850,
       "name": "VariaType",
       "os": "Linux",
@@ -295,9 +309,17 @@
       "root_owned": false
     },
     {
+      "id": 847,
+      "name": "CCTV",
+      "os": "Linux",
+      "difficulty": "Easy",
+      "user_owned": true,
+      "root_owned": true
+    },
+    {
       "id": 841,
       "name": "Interpreter",
-      "os": "linux",
+      "os": "Linux",
       "difficulty": "Medium",
       "user_owned": true,
       "root_owned": true
@@ -311,9 +333,17 @@
       "root_owned": false
     },
     {
+      "id": 835,
+      "name": "WingData",
+      "os": "Linux",
+      "difficulty": "Easy",
+      "user_owned": true,
+      "root_owned": true
+    },
+    {
       "id": 832,
       "name": "Pterodactyl",
-      "os": "linux",
+      "os": "Linux",
       "difficulty": "Medium",
       "user_owned": false,
       "root_owned": false
@@ -321,7 +351,7 @@
     {
       "id": 829,
       "name": "Facts",
-      "os": "linux",
+      "os": "Linux",
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
@@ -337,7 +367,7 @@
     {
       "id": 823,
       "name": "AirTouch",
-      "os": "linux",
+      "os": "Linux",
       "difficulty": "Medium",
       "user_owned": false,
       "root_owned": false
@@ -353,7 +383,7 @@
     {
       "id": 814,
       "name": "MonitorsFour",
-      "os": "windows",
+      "os": "Windows",
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
@@ -377,7 +407,7 @@
     {
       "id": 802,
       "name": "NanoCorp",
-      "os": "windows",
+      "os": "Windows",
       "difficulty": "Hard",
       "user_owned": false,
       "root_owned": false
@@ -417,7 +447,7 @@
     {
       "id": 787,
       "name": "Conversor",
-      "os": "linux",
+      "os": "Linux",
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
@@ -521,7 +551,7 @@
     {
       "id": 743,
       "name": "RainbowTwo",
-      "os": "windows",
+      "os": "Windows",
       "difficulty": "Hard",
       "user_owned": false,
       "root_owned": false
@@ -2249,7 +2279,7 @@
     {
       "id": 446,
       "name": "GoodGames",
-      "os": "linux",
+      "os": "Linux",
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
@@ -2401,7 +2431,7 @@
     {
       "id": 416,
       "name": "Backdoor",
-      "os": "linux",
+      "os": "Linux",
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
@@ -2633,7 +2663,7 @@
     {
       "id": 356,
       "name": "Explore",
-      "os": "android",
+      "os": "Android",
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
@@ -2929,7 +2959,7 @@
     {
       "id": 278,
       "name": "Doctor",
-      "os": "linux",
+      "os": "Linux",
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
@@ -3529,7 +3559,7 @@
     {
       "id": 181,
       "name": "LaCasaDePapel",
-      "os": "linux",
+      "os": "Linux",
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
@@ -4017,7 +4047,7 @@
     {
       "id": 118,
       "name": "Bashed",
-      "os": "linux",
+      "os": "Linux",
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true

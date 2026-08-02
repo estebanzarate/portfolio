@@ -3,7 +3,7 @@ const profile = {
     name: "Esteban Zárate",
     role: "Analista de Ciberseguridad",
     description:
-      "Entusiasta de ciberseguridad con experiencia en desarrollo full stack (JavaScript, React, Node.js) en transición hacia la seguridad ofensiva y defensiva. Actualmente me centro en penetration testing y análisis de vulnerabilidades, documentando mi aprendizaje con artículos sobre máquinas en Hack The Box, TryHackMe y otras plataformas en mi GitBook.",
+      "Desde 2021 empecé a estudiar programación e interesarme por la ciberseguridad estudiando en las academias de Hack The Box y TryHackMe. Tengo conocimientos en JavaScript, Python, bases de datos SQL y NoSQL. Me gusta practicar en plataformas de CTF y programación como Hack The Box, Try Hack Me, HackerRank, etc. A partir de ahí empecé a buscar mi primer oportunidad tanto en programación como en ciberseguridad.",
     location: "Buenos Aires, Argentina",
     links: {
       github: "https://github.com/estebanzarate",
@@ -20,7 +20,7 @@ const profile = {
         company: "",
         period: "2022 — Presente",
         description:
-          "Práctica activa de penetration testing mediante resolución de máquinas en plataformas CTF. Writeups documentados en gitbook personal. Técnicas trabajadas: privilege escalation en Linux/Windows, Active Directory attacks, web application exploitation, network enumeration y post-exploitation.",
+          "Practico mediante resolución de máquinas en plataformas CTF. Writeups documentados en mi blog personal.",
         tags: ["Pentesting", "Web Security", "CTF"],
       },
     ],
@@ -269,7 +269,7 @@ const profile = {
     name: "Esteban Zárate",
     role: "Cybersecurity Analyst",
     description:
-      "Cybersecurity enthusiast with a background in full stack development (JavaScript, React, Node.js), transitioning into offensive and defensive security. Currently focused on penetration testing and vulnerability analysis, documenting my learning journey through writeups on HackTheBox, TryHackMe and other platforms on my GitBook.",
+      "Since 2021, I've been studying programming and developing an interest in cybersecurity through the Hack The Box and TryHackMe academies. I have knowledge of JavaScript, Python, SQL, and NoSQL databases. I enjoy practicing on CTF and coding platforms such as Hack The Box, TryHackMe, and HackerRank. Since then, I've been looking for my first opportunity in either software development or cybersecurity.",
     location: "Buenos Aires, Argentina",
     links: {
       github: "https://github.com/estebanzarate",
@@ -286,7 +286,7 @@ const profile = {
         company: "",
         period: "2022 — Present",
         description:
-          "Active practice of penetration testing through CTF machine solving. Writeups documented on a personal GitBook. Techniques covered: Linux/Windows privilege escalation, Active Directory attacks, web application exploitation, network enumeration and post-exploitation.",
+          "I regularly practice by solving machines on CTF platforms and documenting my write-ups on my personal blog.",
         tags: ["Pentesting", "Web Security", "CTF"],
       },
     ],
