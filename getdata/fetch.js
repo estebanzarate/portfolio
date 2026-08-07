@@ -54,25 +54,6 @@ const CONFIG = {
   },
 };
 
-const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
-
-async function fetchWithRetry(url, options, { retries = 3, baseDelay = 8000 } = {}) {
-  for (let attempt = 1; attempt <= retries; attempt++) {
-    const res = await fetch(url, options);
-    if (res.status === 429) {
-      if (attempt === retries) {
-        const body = await res.text().catch(() => '(no body)');
-        throw new Error(`429 Too Many Requests after ${retries} attempts — body: ${body.slice(0, 200)}`);
-      }
-      const delay = baseDelay * attempt;
-      console.log(`   ⏳ Rate limited (429). Retrying in ${delay / 1000}s... (attempt ${attempt}/${retries})`);
-      await sleep(delay);
-      continue;
-    }
-    return res;
-  }
-}
-
 async function processAcademy() {
   console.log('🎓 Processing HTB Academy...');
   const [statsRes, modulesRes] = await Promise.all([
@@ -148,10 +129,9 @@ async function processTHM() {
   console.log('🚪 Processing TryHackMe...');
   let page = 1, allDocs = [], totalPages = 1;
   while (page <= totalPages) {
-    const res = await fetchWithRetry(
+    const res = await fetch(
       `${CONFIG.thm.base}/rooms/my-rooms?page=${page}&limit=200`,
-      { headers: CONFIG.thm.headers },
-      { retries: 3, baseDelay: 8000 }
+      { headers: CONFIG.thm.headers }
     );
     if (!res.ok) {
       const body = await res.text().catch(() => '(no body)');
