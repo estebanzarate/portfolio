@@ -101,7 +101,7 @@ function Hero() {
               ) : null
             )}
             <a
-              href={lang === 'es' ? '/estebanzarate.pdf' : '/estebanzarate.pdf'}
+              href={lang === 'es' ? '/resume/es/estebanzarate.pdf' : '/resume/en/estebanzarate.pdf'}
               download="estebanzarate.pdf"
               title={cvLabel}
               className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-primary/10 border border-primary/40 text-primary hover:bg-primary/20 transition-all text-sm font-medium"
