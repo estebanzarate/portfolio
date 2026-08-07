@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-08-04T02:14:52.571Z",
+  "last_updated": "2026-08-07T01:21:14.907Z",
   "statistics": {
     "total": 547,
-    "user_owns": 214,
-    "root_owns": 211,
+    "user_owns": 215,
+    "root_owns": 212,
     "by_os": {
-      "Linux": 150,
+      "Linux": 151,
       "Windows": 55,
       "Android": 1,
       "Other": 3,
@@ -13,7 +13,7 @@
       "OpenBSD": 1
     },
     "by_difficulty": {
-      "Easy": 154,
+      "Easy": 155,
       "Medium": 39,
       "Hard": 12,
       "Insane": 6
@@ -27,14 +27,6 @@
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true
-    },
-    {
-      "id": 933,
-      "name": "Cohort",
-      "os": "Linux",
-      "difficulty": "Easy",
-      "user_owned": true,
-      "root_owned": false
     },
     {
       "id": 957,
@@ -77,11 +69,19 @@
       "root_owned": true
     },
     {
+      "id": 933,
+      "name": "Cohort",
+      "os": "Linux",
+      "difficulty": "Easy",
+      "user_owned": true,
+      "root_owned": true
+    },
+    {
       "id": 930,
       "name": "DarkZeroReturns",
       "os": "Windows",
       "difficulty": "Hard",
-      "user_owned": false,
+      "user_owned": true,
       "root_owned": false
     },
     {
