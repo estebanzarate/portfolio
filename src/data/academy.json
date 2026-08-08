@@ -1,24 +1,24 @@
 {
-  "last_updated": "2026-06-05T23:13:58.817Z",
+  "last_updated": "2026-08-08T03:16:41.574Z",
   "statistics": {
-    "total_modules": 159,
-    "completed": 54,
-    "completion_percentage": 34,
+    "total_modules": 354,
+    "completed": 55,
+    "completion_percentage": 15.5,
     "by_category": {
       "Offensive": {
         "completed": 26,
-        "total": 97,
-        "percentage": 30.4
+        "total": 98,
+        "percentage": 30.1
       },
       "Defensive": {
-        "completed": 1,
-        "total": 30,
-        "percentage": 2.3
+        "completed": 2,
+        "total": 197,
+        "percentage": 1
       },
       "General": {
         "completed": 26,
-        "total": 29,
-        "percentage": 91.3
+        "total": 56,
+        "percentage": 60.5
       },
       "Purple": {
         "completed": 1,
@@ -1100,6 +1100,69 @@
       "progress": 0
     },
     {
+      "id": 325,
+      "name": "Network Packet Analysis",
+      "slug": "network-packet-analysis",
+      "description": "Delve into the art of network packet analysis in this comprehensive module. Gain essential skills to diagnose network issues, detect security threats, and optimize network performance. Learn protocols, tools, and techniques to capture, analyze, and interpret network traffic. Uncover hidden insights from packet headers and payloads, troubleshoot latency and congestion, and enhance network security. Whether you're a network administrator, security analyst, or IT professional, this module equips you with the knowledge and hands-on experience to excel in network packet analysis.",
+      "progress": 100
+    },
+    {
+      "id": 326,
+      "name": "Public Key Infrastructure",
+      "slug": "public-key-infrastructure",
+      "description": "Public Key Infrastructure (PKI) is fundamental to ensuring secure electronic communications and transactions across networks. This module offers a comprehensive introduction to PKI, guiding learners through its core components, including digital certificates, certificate authorities, and the role of encryption in maintaining security. Through a series of well-structured tutorials, learners will gain a deep understanding of how PKI functions within different infrastructures and the best practices for implementation and management.\r\n\r\nWhether you are new to the field of cybersecurity or seeking to solidify your understanding of PKI, this module caters to all levels. Learners will navigate through theoretical foundations as well as practical applications, ensuring a well-rounded grasp of the subject. With real-world examples, detailed explanations, and hands-on exercises, you'll leave equipped with the confidence to apply PKI concepts effectively in your professional environments.",
+      "progress": 0
+    },
+    {
+      "id": 327,
+      "name": "Threat Hunting with IPS/IDS",
+      "slug": "threat-hunting-with-ipsids",
+      "description": "In the ever-evolving landscape of cybersecurity, understanding how to detect and respond to intrusions is vital. The \"Threat Hunting with IPS/IDS\" module provides an in-depth exploration of Intrusion Prevention Systems (IPS) and Intrusion Detection Systems (IDS). Through a mix of theoretical knowledge and practical tutorials, you'll learn the art and science of threat hunting. This module will guide you through threat analysis and response strategies, ensuring you are well-prepared to protect digital assets against unauthorized activities.",
+      "progress": 0
+    },
+    {
+      "id": 328,
+      "name": "Threat Hunting for C2 with RITA",
+      "slug": "threat-hunting-for-c2-with-rita",
+      "description": "\"Threat Hunting for C2 with RITA\" is a course focused on utilizing the RITA (Real Intelligence Threat Analysis) tool for proactive detection and analysis of Command and Control (C2) communication in cybersecurity, enhancing skills in threat hunting and network security.",
+      "progress": 0
+    },
+    {
+      "id": 329,
+      "name": "Threat Hunting with SIEM",
+      "slug": "threat-hunting-with-siem",
+      "description": "This module is designed to teach the fundamentals of threat hunting using SIEM tools in real-world scenarios. You’ll work with actual security logs and events to identify suspicious activity, uncover hidden threats, and understand attacker behavior.\r\n\r\n\r\nWhether you're just starting out in cybersecurity or looking to strengthen your detection skills, this course offers hands-on experience with common hunting techniques and methodologies used by Threat Hunters.",
+      "progress": 0
+    },
+    {
+      "id": 330,
+      "name": "DFIR with EDR",
+      "slug": "dfir-with-edr",
+      "description": "The \"DFIR with EDR\" module offers a comprehensive, hands-on approach to learning essential skills for detecting, analyzing, and responding to cyber threats using Endpoint Detection and Response tools. Perfect for aspiring and current cybersecurity professionals, this module provides practical knowledge to enhance your threat response capabilities and advance your career in the ever-evolving field of cybersecurity.",
+      "progress": 0
+    },
+    {
+      "id": 331,
+      "name": "Cyber Kill Chain",
+      "slug": "cyber-kill-chain",
+      "description": "The Cyber Kill Chain module is designed to provide participants with a comprehensive understanding of the various stages of a cyber attack and how to identify and respond to them effectively. The module covers the different phases of the Cyber Kill Chain, including reconnaissance, weaponization, delivery, exploitation, installation, command and control, and actions on objectives. Participants will learn how to identify and analyze each stage of the Cyber Kill Chain, as well as how to develop effective strategies to prevent, detect, and respond to cyber attacks. The module is ideal for SOC analysts, incident responders, and anyone interested in enhancing their understanding of cyber threats and defenses.",
+      "progress": 0
+    },
+    {
+      "id": 332,
+      "name": "MITRE ATT&CK Framework",
+      "slug": "mitre-attck-framework",
+      "description": "In this module, the MITRE ATT&CK Framework, an important structure for SOC analysts, will be covered. This is an entry-level module that consists mainly of theoretical knowledge. SOC candidates will have a thorough knowledge of the MITRE ATT&CK Framework at the end of the module, and are recommended to complete the topics in this module without skipping any parts.",
+      "progress": 0
+    },
+    {
+      "id": 333,
+      "name": "Identifying Threats and Malicious Software",
+      "slug": "identifying-threats-and-malicious-software",
+      "description": "Dive into real-world cybersecurity scenarios with the \"Identifying Threats and Malicious Software\" module. This module focuses on helping learners recognize various types of threats, malware, and attack techniques used by adversaries. You'll develop practical skills in detecting and analyzing malicious activity within networks and systems. Perfect for those preparing for security certifications or working in blue team roles, this course provides a solid foundation in threat identification and malware behavior.",
+      "progress": 0
+    },
+    {
       "id": 334,
       "name": "Privilege Escalation Tradecraft Analysis",
       "slug": "privilege-escalation-tradecraft-analysis",
@@ -1111,6 +1174,20 @@
       "name": "AI Privacy",
       "slug": "ai-privacy",
       "description": "This module explores privacy attacks against machine learning models and the differential privacy defenses that protect models from such attacks.",
+      "progress": 0
+    },
+    {
+      "id": 337,
+      "name": "Threat Hunting with DNS",
+      "slug": "threat-hunting-with-dns",
+      "description": "Delve into the world of threat hunting with a specialized focus on DNS (Domain Name System) in this comprehensive module. DNS is crucial for network communication, but it can also be exploited by malicious actors. This module guides you through the intricacies of identifying unusual patterns, decoding network traffic, and recognizing signs of DNS abuse.",
+      "progress": 0
+    },
+    {
+      "id": 338,
+      "name": "Threat Hunting for Ransomware Attacks",
+      "slug": "threat-hunting-for-ransomware-attacks",
+      "description": "In today’s digital landscape, ransomware attacks pose one of the most significant threats to organizations of all sizes. Our \"Threat Hunting for Ransomware Attacks\" course is designed to equip you with the skills needed to proactively identify and mitigate these threats. Through a blend of theory and practical applications, this course provides an in-depth understanding of ransomware's tactics, techniques, and procedures (TTPs). You'll engage with interactive tutorials and hands-on labs that simulate real-world scenarios, allowing you to practice and refine your threat hunting skills in a safe environment.",
       "progress": 0
     },
     {
@@ -1135,10 +1212,220 @@
       "progress": 0
     },
     {
-      "id": 542,
-      "name": "Red Team Mindset",
-      "slug": "red-team-mindset",
-      "description": "This module covers the fundamental concepts of red teaming, exploring what it is, why it is important, and how red team engagements are run. That includes the differences between red teaming and penetration testing, the core roles of the red, blue, and white teams, and the complete lifecycle of an engagement from start to finish. Also discussed are ethical obligations, communication strategies, and the evolving role of AI in adversary simulation.",
+      "id": 343,
+      "name": "Incident Response on Windows",
+      "slug": "incident-response-on-windows",
+      "description": "Enhance your cybersecurity expertise with our Incident Response on Windows module. Dive into essential techniques for detecting, analyzing, and mitigating security threats on Windows systems. Gain hands-on experience and practical knowledge to handle incidents swiftly and efficiently.",
+      "progress": 0
+    },
+    {
+      "id": 344,
+      "name": "Incident Response on Linux",
+      "slug": "incident-response-on-linux",
+      "description": "Elevate your cybersecurity capabilities with our Incident Response on Linux module. This program provides thorough training on detecting, analyzing, and mitigating security threats in Linux environments. Tailored for IT professionals, system administrators, incident responders and security analysts, the module offers practical, hands-on experience to strengthen your incident response skills. By mastering essential tools and techniques, you’ll be equipped to safeguard networks and protect data effectively.",
+      "progress": 0
+    },
+    {
+      "id": 345,
+      "name": "SOC Fundamentals",
+      "slug": "soc-fundamentals",
+      "description": "This module provides comprehensive coverage of SOC Fundamentals concepts and techniques. Topics covered include Common Mistakes made by SOC Analysts, EDR\r\n- Endpoint Detection and Response, Introduction to SOC, Log Management, SIEM and Analyst Relationship, and more.",
+      "progress": 0
+    },
+    {
+      "id": 347,
+      "name": "SIEM 101",
+      "slug": "siem-101",
+      "description": "This module provides comprehensive coverage of SIEM 101 concepts and techniques. Topics covered include Alerting, Log Aggregation and Parsing, Log Collection, Log Storage, SIEM Introduction.",
+      "progress": 0
+    },
+    {
+      "id": 348,
+      "name": "Detecting Brute Force Attacks",
+      "slug": "detecting-brute-force-attacks",
+      "description": "This module provides comprehensive coverage of Detecting Brute Force Attacks concepts and techniques. Topics covered include Brute Force Attacks, HTTP Login Brute Force Attack Detection Example, How to Avoid Brute Force Attacks, Introduction to Detecting Brute Force Attacks, ProtocolServices That Can Be Attacked by Brute Force, and more.",
+      "progress": 0
+    },
+    {
+      "id": 349,
+      "name": "Malware Analysis Fundamentals",
+      "slug": "malware-analysis-fundamentals",
+      "description": "This module provides comprehensive coverage of Malware Analysis Fundamentals concepts and techniques. Topics covered include 29 Addresses to Analyze Malware Faster, Dynamic Analysis Example Using AnyRun, How Malware Analysis Help SOC Analysts, Introduction to Malware Analysis, Malware Definition and Malware Types, and more.",
+      "progress": 0
+    },
+    {
+      "id": 350,
+      "name": "Linux for Blue Team",
+      "slug": "linux-for-blue-team",
+      "description": "This module provides comprehensive coverage of Linux for Blue Team concepts and techniques. Topics covered include About This Course, Archive File Formats, Basic Terminal Commands - 1, Basic Terminal Commands - 2, Introduction to Linux, and more.",
+      "progress": 0
+    },
+    {
+      "id": 351,
+      "name": "Incident Management 101",
+      "slug": "incident-management-101",
+      "description": "This module provides comprehensive coverage of Incident Management 101 concepts and techniques. Topics covered include Basic Definitions About Incident Management, CaseAlert Naming, Incident Management Systems (IMS), Introduction to Incident Management, Playbooks, and more.",
+      "progress": 0
+    },
+    {
+      "id": 352,
+      "name": "Dynamic Malware Analysis",
+      "slug": "dynamic-malware-analysis",
+      "description": "This module provides comprehensive coverage of Dynamic Malware Analysis concepts and techniques. Topics covered include Creating Virtual Machine, Dynamic Malware Analysis Example #1, Dynamic Malware Analysis Example #2, Importance of Dynamic Malware Analysis for SOC Analysts, My Malware Doesn’t Do Anything, and more.",
+      "progress": 0
+    },
+    {
+      "id": 353,
+      "name": "Cyber Threat Intelligence",
+      "slug": "cyber-threat-intelligence",
+      "description": "This module provides comprehensive coverage of Cyber Threat Intelligence concepts and techniques. Topics covered include CTI Lifecycle, Determining the Attack Surface, Gathering Threat Intelligence, Introduction to CTI, Threat Intelligence Data Interpretation, and more.",
+      "progress": 0
+    },
+    {
+      "id": 354,
+      "name": "Malware Traffic Analysis with Wireshark",
+      "slug": "malware-traffic-analysis-with-wireshark",
+      "description": "This module provides comprehensive coverage of Malware Traffic Analysis with Wireshark concepts and techniques. Topics covered include Configuring the Wireshark for Malware Traffic Analysis, Installing the Wireshark, Malware Traffic Analysis with Wireshark - 1, Malware Traffic Analysis with Wireshark - 2.",
+      "progress": 0
+    },
+    {
+      "id": 355,
+      "name": "How to Prepare a Cyber Crisis Management Plan",
+      "slug": "how-to-prepare-a-cyber-crisis-management-plan",
+      "description": "This module provides comprehensive coverage of How to Prepare a Cyber Crisis Management Plan concepts and techniques. Topics covered include Alerts and End of Crisis, Backups, General Preparation, Introduction to Crisis Management, Preparing the Response Units, and more.",
+      "progress": 0
+    },
+    {
+      "id": 356,
+      "name": "VirusTotal for SOC Analysts",
+      "slug": "virustotal-for-soc-analysts",
+      "description": "This module provides comprehensive coverage of VirusTotal for SOC Analysts concepts and techniques. Topics covered include File Analysis with VirusTotal, Introduction to VirusTotal for SOC Analysts, Key Points to Pay Attention, Scanning URLs with VirusTotal, Searching for IOC.",
+      "progress": 0
+    },
+    {
+      "id": 357,
+      "name": "Introduction to Cryptology",
+      "slug": "introduction-to-cryptology",
+      "description": "This module provides comprehensive coverage of Introduction to Cryptology concepts and techniques. Topics covered include Base64 EncodingDecoding, Basic Concepts of Cryptology, Cryptographic Attacks, Digital Signatures, Hash Functions, and more.",
+      "progress": 0
+    },
+    {
+      "id": 359,
+      "name": "Writing Reports on Security Incidents",
+      "slug": "writing-reports-on-security-incidents",
+      "description": "This module provides comprehensive coverage of Writing Reports on Security Incidents concepts and techniques. Topics covered include Introduction to Technical Writing, Report Formatting, Report Templates, Reporting Standards, Reporting Style.",
+      "progress": 0
+    },
+    {
+      "id": 360,
+      "name": "Network Log Analysis",
+      "slug": "network-log-analysis",
+      "description": "This module provides comprehensive coverage of Network Log Analysis concepts and techniques. Topics covered include DNS Log Analysis, Firewall Log Analysis, Generic Log Analysis (Netflow), IDSIPS Log Analysis, Introduction to Network Log Analysis, and more.",
+      "progress": 0
+    },
+    {
+      "id": 361,
+      "name": "Job Hunting",
+      "slug": "job-hunting",
+      "description": "This module provides comprehensive coverage of Job Hunting concepts and techniques. Topics covered include Getting Ready for the Interview, How and Where to Look for a Job, How to Prepare a Cybersecurity Resume, Introduction to Job Hunting, What Should You Expect, and more.",
+      "progress": 0
+    },
+    {
+      "id": 362,
+      "name": "Building a Malware Analysis Lab",
+      "slug": "building-a-malware-analysis-lab",
+      "description": "This module provides comprehensive coverage of Building a Malware Analysis Lab concepts and techniques. Topics covered include Building a Malware Analysis Lab, Configuring the Virtual Machine, Dynamic Malware Analysis, Flare-VM Installation, Installing the VirtualBox, and more.",
+      "progress": 0
+    },
+    {
+      "id": 363,
+      "name": "Network Fundamentals",
+      "slug": "network-fundamentals",
+      "description": "This module provides comprehensive coverage of Network Fundamentals concepts and techniques. Topics covered include About Network Fundamentals Module, IP Addressing Mechanism, Introduction to Network Fundamentals, Network Address Translation (NAT), Network Devices, and more.",
+      "progress": 0
+    },
+    {
+      "id": 364,
+      "name": "Splunk",
+      "slug": "splunk",
+      "description": "This module provides comprehensive coverage of Splunk concepts and techniques. Topics covered include Add Data to Splunk, Alerts on Splunk, Creating and Managing Splunk Reports, Dashboards, Introduction to Splunk, and more.",
+      "progress": 0
+    },
+    {
+      "id": 365,
+      "name": "Hacked Web Server Analysis",
+      "slug": "hacked-web-server-analysis",
+      "description": "This module provides comprehensive coverage of Hacked Web Server Analysis concepts and techniques. Topics covered include Attacks Against Web Applications, Attacks on Web Servers, Discovering the Web Shell, Hacked Web Server Analysis Example, Introduction to Hacked Web Server Analysis, and more.",
+      "progress": 0
+    },
+    {
+      "id": 366,
+      "name": "IT Security Basis for Corporates",
+      "slug": "it-security-basis-for-corporates",
+      "description": "This module provides comprehensive coverage of IT Security Basis for Corporates concepts and techniques. Topics covered include Access Control, Backups, Incident Response for IT Security, Internet Browsing Protection, Introduction to IT Security Basis for Corporates, and more.",
+      "progress": 0
+    },
+    {
+      "id": 367,
+      "name": "Threat Hunting with EDR",
+      "slug": "threat-hunting-with-edr",
+      "description": "Dive into the world of threat hunting with a focus on EDR (Endpoint Detection and Response) tools. This module guides you through identifying, analyzing, and responding to threats using real-world scenarios and hands-on labs. Develop critical skills for detecting hidden threats and investigating endpoint activity efficiently.",
+      "progress": 0
+    },
+    {
+      "id": 368,
+      "name": "Network Fundamentals II",
+      "slug": "network-fundamentals-ii",
+      "description": "This module provides comprehensive coverage of Network Fundamentals II concepts and techniques. Topics covered include Address Resolution Protocol (ARP), Basic Concepts, Internet Control Message Protocol (ICMP), Internet Protocol (IP), Introduction to Network Fundamentals 2, and more.",
+      "progress": 0
+    },
+    {
+      "id": 369,
+      "name": "Hardening Strategies for Security+",
+      "slug": "hardening-strategies-for-security",
+      "description": "Strengthen your cybersecurity expertise with our \"Hardening Strategies for Security+\" module. This comprehensive tutorial covers essential techniques for securing systems and networks against potential threats.",
+      "progress": 0
+    },
+    {
+      "id": 370,
+      "name": "Memory Forensics",
+      "slug": "memory-forensics",
+      "description": "This module provides comprehensive coverage of Memory Forensics concepts and techniques. Topics covered include Memory Analysis Procedures, Practical Analysis 1 Masqueraded Process, Practical Analysis 2 Process Injection, Practical Analysis 3 DLL Injection, What is Memory Forensics.",
+      "progress": 0
+    },
+    {
+      "id": 371,
+      "name": "Threat Hunting with CTI",
+      "slug": "threat-hunting-with-cti",
+      "description": "In the \"Threat Hunting with CTI\" module, you'll delve into the practical application of Cyber Threat Intelligence to proactively identify and mitigate potential threats. The module offers hands-on tutorials, providing you with the techniques and tools needed to effectively hunt for threats before they materialize into incidents. This module is designed for security professionals eager to expand their knowledge in threat detection. You'll explore real-world scenarios, harnessing CTI to anticipate and counteract cyber threats efficiently. Whether you're new to the field or strengthening your existing skills, this module will guide you through every essential step of the threat hunting process.",
+      "progress": 0
+    },
+    {
+      "id": 372,
+      "name": "Log Analysis with Sysmon",
+      "slug": "log-analysis-with-sysmon",
+      "description": "This module provides comprehensive coverage of Log Analysis with Sysmon concepts and techniques. Topics covered include Detecting Mimikatz with Sysmon, Detecting Pass The Hash with Sysmon, Detecting Privilege Escalation with Sysmon, Introduction and Set Up of Sysmon.",
+      "progress": 0
+    },
+    {
+      "id": 373,
+      "name": "Building a SOC Lab at Home",
+      "slug": "building-a-soc-lab-at-home",
+      "description": "This module provides comprehensive coverage of Building a SOC Lab at Home concepts and techniques. Topics covered include Active Directory, CrowdSec, Sysmon, Windows Workstation, pfSense.",
+      "progress": 0
+    },
+    {
+      "id": 374,
+      "name": "Implementing Host-Based Security",
+      "slug": "implementing-host-based-security",
+      "description": "In our \"Implementing Host-Based Security\" module, you'll explore the essential practices and techniques crucial for protecting individual computer systems from internal and external threats. This module delves into the foundational concepts of host-based security mechanisms, such as antivirus software, firewalls, and intrusion detection systems. Through a blend of interactive tutorials and real-world examples, you’ll gain practical skills in configuring and managing security protocols to safeguard data integrity and system availability. Whether you're new to cybersecurity or looking to strengthen your defensive strategies, this module offers a deep dive into the key aspects of host-based security. By the end of the module, you will have the confidence and expertise to implement robust security measures, identify potential vulnerabilities, and respond proactively to any incidents that arise.",
+      "progress": 0
+    },
+    {
+      "id": 375,
+      "name": "Network Protocols",
+      "slug": "network-protocols",
+      "description": "This module provides comprehensive coverage of Network Protocols concepts and techniques. Topics covered include Domain Name System (DNS) - 1, Domain Name System (DNS) - 2, Introduction to Network Protocols, Telnet (Teletype Network) Protocol, Transmission Control Protocol (TCP) - 1, and more.",
       "progress": 0
     }
   ]
