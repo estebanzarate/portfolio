@@ -3561,6 +3561,14 @@
     "adventuretime": {
       "title": "Adventure Time",
       "writeup": null
+    },
+    "wordpresscve202129447": {
+      "title": "Wordpress: CVE-2021-29447",
+      "writeup": null
+    },
+    "hh-overheardatbreakfast-6f01793c": {
+      "title": "Overheard at Breakfast",
+      "writeup": null
     }
   }
 }

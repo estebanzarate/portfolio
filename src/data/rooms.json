@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-05-31T02:39:31.649Z",
+  "last_updated": "2026-08-08T03:11:53.000Z",
   "statistics": {
-    "total_rooms": 343,
-    "completed": 333,
-    "completion_percentage": 97.1,
+    "total_rooms": 345,
+    "completed": 332,
+    "completion_percentage": 96.2,
     "by_difficulty": {
-      "easy": 242,
+      "easy": 241,
       "medium": 56,
       "info": 35
     },
     "by_type": {
-      "challenge": 65,
-      "walkthrough": 268
+      "challenge": 67,
+      "walkthrough": 265
     }
   },
   "rooms": [
@@ -29,7 +29,7 @@
         "Hashcat",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/fafc074a97207f99929f2ee28bea87ac.jpeg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/fafc074a97207f99929f2ee28bea87ac.jpeg"
     },
     {
       "id": "5c85078bf4bde85b94d830f5",
@@ -50,7 +50,7 @@
         "netcat",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/47d2d3ade1795f81a155d0aca6e4da96.jpeg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/47d2d3ade1795f81a155d0aca6e4da96.jpeg"
     },
     {
       "id": "5c8edaab94a5767fa67f70ab",
@@ -70,7 +70,7 @@
         "Nmap",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339260886-blue.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/blue-1785241443587.png"
     },
     {
       "id": "5cb0b1b8779909395702c6d5",
@@ -90,7 +90,7 @@
         "Windows",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/9c6bc7e6db746ea68ecaa99e328923f1.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/9c6bc7e6db746ea68ecaa99e328923f1.png"
     },
     {
       "id": "5d3bb00e7c5b877bc87557c1",
@@ -107,7 +107,7 @@
         "Web",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/676cb3273c613c9ba00688162efc0979.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/676cb3273c613c9ba00688162efc0979.png"
     },
     {
       "id": "5d3f3faabe83462671c59eb7",
@@ -130,7 +130,7 @@
         "John the Ripper",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/99c72676aab814b94e3bc350ba627b71.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/99c72676aab814b94e3bc350ba627b71.png"
     },
     {
       "id": "5d4316a22007b6126fa2ca28",
@@ -154,7 +154,7 @@
         "Linux",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/85dee7ce633f5668b104d329da2769c3.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/85dee7ce633f5668b104d329da2769c3.png"
     },
     {
       "id": "5d52cdc82ec38e61dcfa3a1b",
@@ -171,7 +171,7 @@
         "Linux",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/eef338293d4a928420f1603870699e75.jpeg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/eef338293d4a928420f1603870699e75.jpeg"
     },
     {
       "id": "5d5700fb4174eb6de3a2e0d1",
@@ -191,7 +191,7 @@
         "Empire",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6c115871f6b6d8c2886d5dd63c718ca8.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6c115871f6b6d8c2886d5dd63c718ca8.png"
     },
     {
       "id": "5d60adfec8cd8348d0b4db84",
@@ -209,7 +209,7 @@
         "Linux",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/f5e35bf1d933a9b45077e5388635a593.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/f5e35bf1d933a9b45077e5388635a593.png"
     },
     {
       "id": "5d61c39ec8cd8348d0b4e99f",
@@ -228,7 +228,7 @@
         "Linux",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/484c37bcb5b90fac35d15f0c5ccdaed6.jpeg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/484c37bcb5b90fac35d15f0c5ccdaed6.jpeg"
     },
     {
       "id": "5d635fe4c8cd8348d0b4f923",
@@ -246,7 +246,7 @@
         "Linux",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/cb525f3e7944eb5eec637698f48b6844.jpeg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/cb525f3e7944eb5eec637698f48b6844.jpeg"
     },
     {
       "id": "5d6fc9ff89f67e1b3cca26b5",
@@ -263,7 +263,7 @@
         "Privilege escalation",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/46f437a95b1de43238c290a9c416c8d4.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/46f437a95b1de43238c290a9c416c8d4.png"
     },
     {
       "id": "5d876d7dec940d1f47b766be",
@@ -289,7 +289,7 @@
         "Linux",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/b688ceda454abef6677fcf6d15b6f948.jpeg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/b688ceda454abef6677fcf6d15b6f948.jpeg"
     },
     {
       "id": "5d879c62ec940d1f47b769ba",
@@ -307,7 +307,7 @@
         "Tmux",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/0268d3412331f7802108c84007985d0d.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/0268d3412331f7802108c84007985d0d.png"
     },
     {
       "id": "5d90db6f1457d878928a1e01",
@@ -329,7 +329,7 @@
         "Metasploit Framework",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/c9030a2b60bb7d1cf4fcb6e5032526d3.jpeg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/c9030a2b60bb7d1cf4fcb6e5032526d3.jpeg"
     },
     {
       "id": "5d96649dd832c106398e283a",
@@ -348,7 +348,7 @@
         "powershell",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/ca3da5aa8e312b0316f06a25a03028a5.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/ca3da5aa8e312b0316f06a25a03028a5.png"
     },
     {
       "id": "5db08731278d520a986149ac",
@@ -371,7 +371,7 @@
         "Linux",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/370ada1208acaa6444fce2cfac2be0a2.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/370ada1208acaa6444fce2cfac2be0a2.png"
     },
     {
       "id": "5dc4375aefd6fe7fb4c345fa",
@@ -385,7 +385,7 @@
         "Purple",
         "General Cyber"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/90729a0e4d86421da566bb68669d46fd.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/90729a0e4d86421da566bb68669d46fd.png"
     },
     {
       "id": "5dcb7db400192f7f7155299a",
@@ -405,7 +405,7 @@
         "Mimikatz",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/829892f5e7936a448f465b64d64f9c62.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/829892f5e7936a448f465b64d64f9c62.png"
     },
     {
       "id": "5dcda26e00192f7f71554b4d",
@@ -422,7 +422,7 @@
         "Domain enumeration",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/3f5ef66148ccfc98b4597d467943e185.jpeg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/3f5ef66148ccfc98b4597d467943e185.jpeg"
     },
     {
       "id": "5dd1bd64ef950b10526d81fc",
@@ -450,7 +450,7 @@
         "enumeration",
         "special-event"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/9efbcb85d76feac6b711b8ed1b2fd534.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/9efbcb85d76feac6b711b8ed1b2fd534.png"
     },
     {
       "id": "5ddc7633bb226e7352a57aea",
@@ -473,7 +473,7 @@
         "secretsdump",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/f38b047a2a7089147766099dffeb8a5d.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/f38b047a2a7089147766099dffeb8a5d.png"
     },
     {
       "id": "5ddfed56aaea05681f32f6ce",
@@ -491,7 +491,7 @@
         "Web",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/efbb70493ba66dfbac4302c02ad8facf.jpeg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/efbb70493ba66dfbac4302c02ad8facf.jpeg"
     },
     {
       "id": "5de958efa744773ea7ef8820",
@@ -507,7 +507,7 @@
         "Red teaming",
         "Network penetration testing"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/9c6dced5409f0ab40334bed720f438f5.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/9c6dced5409f0ab40334bed720f438f5.png"
     },
     {
       "id": "5e21e1b73657ee4945c145ec",
@@ -526,7 +526,7 @@
         "CyberChef",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/baa244c10b8308efe5d3956cc1c73db6.jpeg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/baa244c10b8308efe5d3956cc1c73db6.jpeg"
     },
     {
       "id": "5e227063c18e8c55af412e60",
@@ -551,7 +551,7 @@
         "Hashcat",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/282c55307eada4ad18a0b06e4d65ff34.jpeg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/282c55307eada4ad18a0b06e4d65ff34.jpeg"
     },
     {
       "id": "5e278d3c2875603ba63337ce",
@@ -567,7 +567,7 @@
         "Penetration testing",
         "log analysis"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/c062ef0e0b4f70e51a2dafc5fc2bca0e.jpeg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/c062ef0e0b4f70e51a2dafc5fc2bca0e.jpeg"
     },
     {
       "id": "5e2ef1508e67395e9ff05ef8",
@@ -581,7 +581,7 @@
         "Red",
         "Red teaming"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/477fa75b67495338f4eb12d9010b7b8e.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/477fa75b67495338f4eb12d9010b7b8e.png"
     },
     {
       "id": "5e357905e253d54ba1126132",
@@ -595,7 +595,7 @@
         "Purple",
         "Red teaming"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/995f80e68816165b201d93afe7703776.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/995f80e68816165b201d93afe7703776.png"
     },
     {
       "id": "5e36129f10c4674ba9f8554b",
@@ -611,7 +611,7 @@
         "Red teaming",
         "OSINT"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/59bb6a64228a88219c0a9de1928226b8.jpeg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/59bb6a64228a88219c0a9de1928226b8.jpeg"
     },
     {
       "id": "5e3d73dac9f2a441a1942fd9",
@@ -629,7 +629,7 @@
         "Gophish",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/77663a5ba36a16ec0fd8eb598649e38c.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/77663a5ba36a16ec0fd8eb598649e38c.png"
     },
     {
       "id": "5e4009ed285d3a54044c21dd",
@@ -645,7 +645,7 @@
         "Penetration testing",
         "Red teaming"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/79e82f49bdb7cb0090d5bad603866cd9.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/79e82f49bdb7cb0090d5bad603866cd9.png"
     },
     {
       "id": "5e400d56285d3a54044c2217",
@@ -665,7 +665,7 @@
         "searchsploit",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/e3b2def112489cd67ab68bf246093c3c.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/e3b2def112489cd67ab68bf246093c3c.png"
     },
     {
       "id": "5e43ca6a994cae0185e844a0",
@@ -686,7 +686,7 @@
         "Windows",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/95164927092fe0fc3e9f142aea05267a.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/95164927092fe0fc3e9f142aea05267a.png"
     },
     {
       "id": "5e4c7a9d21bd5359f72e2b76",
@@ -705,7 +705,7 @@
         "Hydra",
         "Red"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/69208399c3fe8b0416103c51e291e117.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/69208399c3fe8b0416103c51e291e117.png"
     },
     {
       "id": "5e5d312831717578c8ada47f",
@@ -724,7 +724,7 @@
         "nc",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/43522e07a54978ab307ad173fd585ab6.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/43522e07a54978ab307ad173fd585ab6.png"
     },
     {
       "id": "5e700e89290e4f081d349714",
@@ -746,7 +746,7 @@
         "Linux",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/268771cc9cef46ed20e557612028c6ba.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/268771cc9cef46ed20e557612028c6ba.png"
     },
     {
       "id": "5e715b8113049839ea7439d7",
@@ -765,7 +765,7 @@
         "search engines",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/24de724519d5a2f65efc6ae06fc2bbd9.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/24de724519d5a2f65efc6ae06fc2bbd9.png"
     },
     {
       "id": "5e722e6054eefa07d09ccfcc",
@@ -789,7 +789,7 @@
         "Enum4Linux NEW",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735573889029"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/66704dd0e54a1f39bff7b1a1-1735573889029"
     },
     {
       "id": "5e74f549724bb30828b584c4",
@@ -804,7 +804,7 @@
         "Penetration testing",
         "Security analysis"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/a3965d04160e266d168f5a0a9d4eb01a.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/a3965d04160e266d168f5a0a9d4eb01a.png"
     },
     {
       "id": "5e7e92c60768b360f226800e",
@@ -827,7 +827,7 @@
         "Linux",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/0741ea184b13423cdc35c13147cf930b.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/0741ea184b13423cdc35c13147cf930b.png"
     },
     {
       "id": "5e7eceff791b2e3c68a9902f",
@@ -844,7 +844,7 @@
         "Zap",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/b154b0d0ebaff4cb8148b63d7311c760.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/b154b0d0ebaff4cb8148b63d7311c760.png"
     },
     {
       "id": "5e85a63855ddcd7f81fc102c",
@@ -862,7 +862,7 @@
         "Nmap",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/c11fb449f10add8bc11a137fef9e979c.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/c11fb449f10add8bc11a137fef9e979c.png"
     },
     {
       "id": "5e9bc91f65995b561332b976",
@@ -880,7 +880,7 @@
         "Metasploit Framework",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/82d78fb8902418779d1ad30b81df8f05.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/82d78fb8902418779d1ad30b81df8f05.png"
     },
     {
       "id": "5ea1d319f943b07e84e05fe8",
@@ -902,7 +902,7 @@
         "Windows",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/07ad91ce2628efb8a2a3c5fddaeac710.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/07ad91ce2628efb8a2a3c5fddaeac710.png"
     },
     {
       "id": "5eb438b93c40cf0ca353284e",
@@ -924,7 +924,7 @@
         "powershell",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/a372c51dfdb1ee3975dea3198763ce13.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/a372c51dfdb1ee3975dea3198763ce13.png"
     },
     {
       "id": "5eb82beb51e82c3ca6159588",
@@ -943,7 +943,7 @@
         "Hashcat",
         "Haiti"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/95360a659831708b18fea654cc0c417c.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/95360a659831708b18fea654cc0c417c.png"
     },
     {
       "id": "5ebeb34c1aedc11f6c3f2db4",
@@ -962,7 +962,7 @@
         "Penetration testing",
         "Identity and access management (IAC)"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/d9ff4d8d845ecec00615d68b770e8d4b.jpeg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/d9ff4d8d845ecec00615d68b770e8d4b.jpeg"
     },
     {
       "id": "5ebefb066d6a6b06c3e8fd3e",
@@ -981,7 +981,7 @@
         "Gobuster",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5ebaa42422d2cf0aa103b2c77d02e100.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5ebaa42422d2cf0aa103b2c77d02e100.png"
     },
     {
       "id": "5ec280928b7e262efeb8c837",
@@ -999,7 +999,7 @@
         "Penetration testing",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/95b2fab20e29a6d22d6191a789dcbe1f.jpeg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/95b2fab20e29a6d22d6191a789dcbe1f.jpeg"
     },
     {
       "id": "5ecd23dec5b7e144c653d8f7",
@@ -1020,7 +1020,7 @@
         "Application security engineering",
         "John the Ripper"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/ca82a12b6aab343bc4689e6b7690457c.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/ca82a12b6aab343bc4689e6b7690457c.png"
     },
     {
       "id": "5ece28b485bfcf479dbd2986",
@@ -1036,7 +1036,7 @@
         "Red teaming",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/29ef13afaef5de5b8f1a27653f9d7a2d.jpeg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/29ef13afaef5de5b8f1a27653f9d7a2d.jpeg"
     },
     {
       "id": "5edbd241838ad50ee32b579d",
@@ -1060,7 +1060,7 @@
         "Linux",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/481f3944fed367e7755cd7f120a66e22.jpeg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/481f3944fed367e7755cd7f120a66e22.jpeg"
     },
     {
       "id": "5edda86da9de501640171220",
@@ -1077,7 +1077,7 @@
         "Penetration testing",
         "Identity and access management (IAC)"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/380988091a148cb77d399cf3c577f6da.jpeg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/380988091a148cb77d399cf3c577f6da.jpeg"
     },
     {
       "id": "5ee05469dd9e641e61d67510",
@@ -1088,7 +1088,7 @@
       "type": "walkthrough",
       "completed": true,
       "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/9a0c0a661ba218c0f9d533c8f41d8dd5.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/9a0c0a661ba218c0f9d533c8f41d8dd5.png"
     },
     {
       "id": "5ee72f8d21bb3c54b7b06483",
@@ -1110,7 +1110,7 @@
         "Incident response",
         "Malware analysis"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/cddd3c214db8ff7df5d524af3cfad5e4.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/cddd3c214db8ff7df5d524af3cfad5e4.png"
     },
     {
       "id": "5eec8d23c05e2d6735e99107",
@@ -1128,7 +1128,7 @@
         "John the Ripper",
         "Hashcat"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/43afc4ae36b5432c737ff13fdaf911a5.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/43afc4ae36b5432c737ff13fdaf911a5.png"
     },
     {
       "id": "5ef5ffc770e2b153dc0856ce",
@@ -1146,7 +1146,7 @@
         "Hydra",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/ae4bd465dbc01f0b09273ebbc1496063.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/ae4bd465dbc01f0b09273ebbc1496063.png"
     },
     {
       "id": "5f0b94076af0fb452da81299",
@@ -1165,7 +1165,7 @@
         "tmux",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/52ccf342efb1d502fd2fdca4b20ede34.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/52ccf342efb1d502fd2fdca4b20ede34.png"
     },
     {
       "id": "5f0c76f6e0a30d3d778db8bf",
@@ -1188,7 +1188,7 @@
         "Windows",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735573910730"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/66704dd0e54a1f39bff7b1a1-1735573910730"
     },
     {
       "id": "5f11a2030f4da933eda06224",
@@ -1203,7 +1203,7 @@
         "Security analysis",
         "Red teaming"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/3d8b9651d22266ef7447287e1328b5aa.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/3d8b9651d22266ef7447287e1328b5aa.png"
     },
     {
       "id": "5f1376802e10d21f3fc0c075",
@@ -1223,7 +1223,7 @@
         "metasploit",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/d2a747d195d4607cfd296eb2cffb7af1.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/d2a747d195d4607cfd296eb2cffb7af1.png"
     },
     {
       "id": "5f189bc83f7d9d33ae6f5de1",
@@ -1241,7 +1241,7 @@
         "Linux",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/7b57e3dc40f9d4a84488439fb763e1b1.jpeg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/7b57e3dc40f9d4a84488439fb763e1b1.jpeg"
     },
     {
       "id": "5f1db6c6cf08ce29f63401e8",
@@ -1256,7 +1256,7 @@
         "Scripting",
         "python"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735573939706"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/66704dd0e54a1f39bff7b1a1-1735573939706"
     },
     {
       "id": "5f4dd5a1a1014b7041c8876a",
@@ -1275,7 +1275,7 @@
         "Jiggler",
         "scada"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/a6d38d1e588a012eaf692e923e0c8926.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/a6d38d1e588a012eaf692e923e0c8926.png"
     },
     {
       "id": "5f4f89e8fef43326520de74d",
@@ -1297,7 +1297,7 @@
         "registers",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/f07ba5ffd2068e849893904f14128cf5.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/f07ba5ffd2068e849893904f14128cf5.png"
     },
     {
       "id": "5f529f5a82b20d17c5c770fb",
@@ -1318,7 +1318,7 @@
         "searchsploit",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6142091b256a7e8d7b6e1fc9349bd425.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6142091b256a7e8d7b6e1fc9349bd425.png"
     },
     {
       "id": "5f5704e6adb06234ecee89d0",
@@ -1334,7 +1334,7 @@
         "Red teaming",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/42bdeb37580f893369c19dc7250fe7d8.jpeg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/42bdeb37580f893369c19dc7250fe7d8.jpeg"
     },
     {
       "id": "5f6dc092ad42a045be2b62b9",
@@ -1355,7 +1355,7 @@
         "Haiti",
         "gpg"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/b4f28a92c7d33f8460d896653cf5d428.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/b4f28a92c7d33f8460d896653cf5d428.png"
     },
     {
       "id": "5f6f5f7317eed411eace7fe1",
@@ -1368,7 +1368,7 @@
       "tags": [
         "General Cyber"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/c916cc3206c2199f9b5e9db43d5a15e9.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/c916cc3206c2199f9b5e9db43d5a15e9.png"
     },
     {
       "id": "5f78eb34828b1b6e6809767c",
@@ -1387,7 +1387,7 @@
         "rustscan",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/ecf19b4a404cce7551226269fdd1972d.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/ecf19b4a404cce7551226269fdd1972d.png"
     },
     {
       "id": "5f7ce6a18aa8a33e7150b907",
@@ -1414,7 +1414,7 @@
         "Linux",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/915c0170a4d0a50cac23bac0f0b1f739.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/915c0170a4d0a50cac23bac0f0b1f739.png"
     },
     {
       "id": "5f8cd29d228530375331adb3",
@@ -1432,7 +1432,7 @@
         "Directory enumeration",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/923112c47e9e684ca2e4f077e7830da5.jpeg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/923112c47e9e684ca2e4f077e7830da5.jpeg"
     },
     {
       "id": "5f9448cc99ae8d3dc0186787",
@@ -1453,7 +1453,7 @@
         "virustotal",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/1a8af49f6135843b36f1378812034155.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/1a8af49f6135843b36f1378812034155.png"
     },
     {
       "id": "5f95b9e32fa3673dbfb2d2e9",
@@ -1470,7 +1470,7 @@
         "Splunk",
         "Volatility"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/2872c789f749c4be44eb42f762181330.jpeg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/2872c789f749c4be44eb42f762181330.jpeg"
     },
     {
       "id": "5fa04d44f0506c48b1fa0080",
@@ -1486,7 +1486,7 @@
         "Red teaming",
         "Nmap"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5d653d7a4e8a1a6d98379168cfc30ac0.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5d653d7a4e8a1a6d98379168cfc30ac0.png"
     },
     {
       "id": "5fa25e57f0506c48b1fab589",
@@ -1504,7 +1504,7 @@
         "flask",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/7189d9e0b1ec48e6e750491cf4dd10df.jpeg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/7189d9e0b1ec48e6e750491cf4dd10df.jpeg"
     },
     {
       "id": "5fa730bf09051d48aa3bd904",
@@ -1521,7 +1521,7 @@
         "John the Ripper",
         "Haiti"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339187295-johntheripperbasics.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/johntheripperbasics-1785241446684.png"
     },
     {
       "id": "5fcdc3cfa5a8e233c2879cfc",
@@ -1539,7 +1539,7 @@
         "Windows",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/8679261c8169d77aed56f0bc6d2fcf4b.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/8679261c8169d77aed56f0bc6d2fcf4b.png"
     },
     {
       "id": "5fce3d54a5a8e233c287aa90",
@@ -1556,7 +1556,7 @@
         "Network penetration testing",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/e10efbdae42b02a75d412d843705cb56.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/e10efbdae42b02a75d412d843705cb56.png"
     },
     {
       "id": "5fd4e87472a7721ed9e42737",
@@ -1577,7 +1577,7 @@
         "Linux",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/3ffa0349ab3326d3aeda7b190a6b5994.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/3ffa0349ab3326d3aeda7b190a6b5994.png"
     },
     {
       "id": "5fe49a07166696584a1efd53",
@@ -1602,7 +1602,7 @@
         "Web",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/338614f6e8d7068dfc3272e144c59818.jpeg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/338614f6e8d7068dfc3272e144c59818.jpeg"
     },
     {
       "id": "5fee462d13e8ff58ab1e873f",
@@ -1622,7 +1622,7 @@
         "Linux",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6cc3e134a104210f90367c6557e42b6e.jpeg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6cc3e134a104210f90367c6557e42b6e.jpeg"
     },
     {
       "id": "5ff0d31026b8416e6268aa01",
@@ -1640,7 +1640,7 @@
         "bash",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6d22bfaf14c9d40539415d505f2cf759.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6d22bfaf14c9d40539415d505f2cf759.png"
     },
     {
       "id": "600514f252a8f04310e6882d",
@@ -1656,7 +1656,7 @@
         "Security operations",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/1572ee9ebc9f63e1e0122e8d23bb33c6.jpeg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/1572ee9ebc9f63e1e0122e8d23bb33c6.jpeg"
     },
     {
       "id": "601068a7cecfb3686f4897d8",
@@ -1680,7 +1680,7 @@
         "Linux",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/ccbc0836dcca57cbcb1a270de2daabf0.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/ccbc0836dcca57cbcb1a270de2daabf0.png"
     },
     {
       "id": "601714607da0fa46f3c7b9bd",
@@ -1700,7 +1700,7 @@
         "Metasploit Framework",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/b64a68fc8025073fc1cc1ba972380ebd.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/b64a68fc8025073fc1cc1ba972380ebd.png"
     },
     {
       "id": "601ca59f49245778458bbdb7",
@@ -1716,7 +1716,7 @@
         "php",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/92a7eee54c5c4ce8ec4cd7468c2cf028.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/92a7eee54c5c4ce8ec4cd7468c2cf028.png"
     },
     {
       "id": "601f09d0640e286c5fe3d43e",
@@ -1736,7 +1736,7 @@
         "Showmount",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/133abb8b1a8449912a2461b8bd7d8edd.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/133abb8b1a8449912a2461b8bd7d8edd.png"
     },
     {
       "id": "6022d02eb8d8066c42593a1b",
@@ -1757,7 +1757,7 @@
         "Linux",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/d7631293b11aba96a4f5a00a3571ebda.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/d7631293b11aba96a4f5a00a3571ebda.png"
     },
     {
       "id": "6050f7833c64c72e01eb0a8f",
@@ -1779,7 +1779,7 @@
         "Active Directory",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/ef0d67108825cb45ab4f5644299de169.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/ef0d67108825cb45ab4f5644299de169.png"
     },
     {
       "id": "605345a60988e711c0065e07",
@@ -1797,7 +1797,7 @@
         "File system navigation",
         "segment 2"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773338653719-linuxfundamentalspart1.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/linuxfundamentalspart1-1785241447142.png"
     },
     {
       "id": "605c991a51a66f03a514770f",
@@ -1814,7 +1814,7 @@
         "File system navigation",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773338657502-linuxfundamentalspart1.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/linuxfundamentalspart2-1785241447270.png"
     },
     {
       "id": "605cbd7de3e045775d2172f1",
@@ -1830,7 +1830,7 @@
         "Security analysis",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/presec-room-image11.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/presec-room-image11.png"
     },
     {
       "id": "6065a8575a27121513f5bf1f",
@@ -1849,7 +1849,7 @@
         "automation",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773338660579-linuxfundamentalspart1.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/linuxfundamentalspart3-1785241447458.png"
     },
     {
       "id": "606d6c850562674d2e98c999",
@@ -1867,7 +1867,7 @@
         "python",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/presec-room-image12.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/presec-room-image12.png"
     },
     {
       "id": "606d751bb5dea76d5e3d03b6",
@@ -1885,7 +1885,7 @@
         "nslookup",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/presec-room-image9.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/presec-room-image9.png"
     },
     {
       "id": "606d755ba3918f6d3df0c89d",
@@ -1903,7 +1903,7 @@
         "owasp zap",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/presec-room-image10.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/presec-room-image10.png"
     },
     {
       "id": "607ffcaa92e6443f8396591c",
@@ -1922,7 +1922,7 @@
         "Wireshark",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773338771062-windowsfundamentals1xbx.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/windowsfundamentals1xbx-1785241454665.png"
     },
     {
       "id": "6081fdaa817eea41ccfead28",
@@ -1940,7 +1940,7 @@
         "Exploitation",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/29fd674a4ce506920970714ef27b3d45.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/29fd674a4ce506920970714ef27b3d45.png"
     },
     {
       "id": "608c04d1c7eb3b00424c2179",
@@ -1962,7 +1962,7 @@
         "Paramiko",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/0612731f45ee4148b48c6f2129d1c80b.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/0612731f45ee4148b48c6f2129d1c80b.png"
     },
     {
       "id": "608d9a2401da4a005467ec18",
@@ -1981,7 +1981,7 @@
         "Network penetration testing",
         "Detection engineering"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/9363a97ad4a8e96737dcb08e524c5c19.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/9363a97ad4a8e96737dcb08e524c5c19.png"
     },
     {
       "id": "6091e4ac2c5440004fa7ecd8",
@@ -2003,7 +2003,7 @@
         "Resmon (Resource Manager)",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773338774698-windowsfundamentals2x0x.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/windowsfundamentals2x0x-1785241454868.png"
     },
     {
       "id": "609313a28648290050a63be7",
@@ -2022,7 +2022,7 @@
         "powershell",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/2a037a905e467620157a23ab35bb3522.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/2a037a905e467620157a23ab35bb3522.png"
     },
     {
       "id": "6096aec7b2e4540048d583df",
@@ -2033,7 +2033,7 @@
       "type": "walkthrough",
       "completed": true,
       "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6cc1aa3b8181453d191d33233d0c12d9.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6cc1aa3b8181453d191d33233d0c12d9.png"
     },
     {
       "id": "609d1a64f32ee90041a2b371",
@@ -2052,7 +2052,7 @@
         "Burp Suite",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/523723e4d3b75b6439b8e2cd0fa6880b.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/523723e4d3b75b6439b8e2cd0fa6880b.png"
     },
     {
       "id": "60ae443a4c7e1d004a677ce8",
@@ -2068,7 +2068,7 @@
         "Network troubleshooting",
         "ping"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/presec-room-image4.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/presec-room-image4.png"
     },
     {
       "id": "60ae44e51358bc00489f1ef8",
@@ -2083,7 +2083,7 @@
         "General Cyber",
         "Security analysis"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/presec-room-image5.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/presec-room-image5.png"
     },
     {
       "id": "60ae4535530c3c004f246c1d",
@@ -2104,7 +2104,7 @@
         "Linux",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/presec-room-image6.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/presec-room-image6.png"
     },
     {
       "id": "60ae457149fbb00041e0e766",
@@ -2125,7 +2125,7 @@
         "Linux",
         "MacOs"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/presec-room-image7.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/presec-room-image7.png"
     },
     {
       "id": "60ae459a1358bc00489f1f25",
@@ -2140,7 +2140,24 @@
         "General Cyber",
         "Network security engineering"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/presec-room-image8.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/presec-room-image8.png"
+    },
+    {
+      "id": "60aeb6534ad3b8005e9bc8c3",
+      "title": "Wordpress: CVE-2021-29447",
+      "code": "wordpresscve202129447",
+      "description": "Vulnerability allow a authenticated user whith low privilages upload a malicious WAV file that could lead to remote arbitrary file disclosure and server-side request forgery (SSRF).",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [
+        "Red",
+        "Domain enumeration",
+        "Exploitation",
+        "Linux",
+        "Web"
+      ],
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/e9417007c4398491c2db96c52ef3106a.png"
     },
     {
       "id": "60b0c1e03071e1005f9e3341",
@@ -2157,7 +2174,7 @@
         "Application penetration testing",
         "Network security engineering"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/1616670bad7fd5b1b335edb119adae92.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/1616670bad7fd5b1b335edb119adae92.png"
     },
     {
       "id": "60ba3f01ad9ff1004266e1cb",
@@ -2177,7 +2194,7 @@
         "BitLocker",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773338778881-windowsfundamentals3xzx_.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/windowsfundamentals3xzx-1785241455111.png"
     },
     {
       "id": "60c0c663b7e1c400516a6802",
@@ -2198,7 +2215,7 @@
         "Web",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/db58ef402783e8d637df6c04ea9e6142.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/db58ef402783e8d637df6c04ea9e6142.png"
     },
     {
       "id": "60c21ceedbfbd5004ec4543b",
@@ -2218,7 +2235,7 @@
         "Windows",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/2eb62778d0ace3b308a4f635c198aff7.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/2eb62778d0ace3b308a4f635c198aff7.png"
     },
     {
       "id": "60c44a6d881b0b004fa7bec4",
@@ -2237,7 +2254,7 @@
         "Linux",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/3ce8e9c4d1da5eefef690e11f75798c7.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/3ce8e9c4d1da5eefef690e11f75798c7.png"
     },
     {
       "id": "60c53a8b662c01005fab553a",
@@ -2256,7 +2273,7 @@
         "terminal",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/e9f162fd101bd7becc3327feea17b295.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/e9f162fd101bd7becc3327feea17b295.png"
     },
     {
       "id": "60c5f40abbe2e9004736751f",
@@ -2274,7 +2291,7 @@
         "LinPeas",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/7303ba648ef3f3f899a55c7b19195add.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/7303ba648ef3f3f899a55c7b19195add.png"
     },
     {
       "id": "60cbc74100dc8c004174e2c9",
@@ -2297,7 +2314,7 @@
         "Dynamic malware analysis",
         "Phishtool"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735575404083"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/66704dd0e54a1f39bff7b1a1-1735575404083"
     },
     {
       "id": "60d9c86638a1990050ae3675",
@@ -2316,7 +2333,7 @@
         "Exploitation",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6c8d2a41e835c68b049773bb4c30d5d6.svg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6c8d2a41e835c68b049773bb4c30d5d6.svg"
     },
     {
       "id": "60e747cc7618cb005368a58d",
@@ -2338,7 +2355,7 @@
         "Dirbuster",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735574298438"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/66704dd0e54a1f39bff7b1a1-1735574298438"
     },
     {
       "id": "60e7480c2b315a0041f7b86c",
@@ -2357,7 +2374,7 @@
         "stride",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6c678e92fe6d0da58f691d94c4cacbe5.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6c678e92fe6d0da58f691d94c4cacbe5.png"
     },
     {
       "id": "60eb3e919210de0060159ed6",
@@ -2376,7 +2393,7 @@
         "Burp",
         "Burp Community"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/14daecc96c42994352f7c244b08335cf.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/14daecc96c42994352f7c244b08335cf.png"
     },
     {
       "id": "60eb5b6e51e271004e1cb4d0",
@@ -2392,7 +2409,7 @@
         "Tutorial",
         "Walkthrough"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/e80908cf9848084e2347c2988ef6c0e7.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/e80908cf9848084e2347c2988ef6c0e7.png"
     },
     {
       "id": "60eb69087ac609005e5393a8",
@@ -2410,7 +2427,7 @@
         "tutorial",
         "beginner"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/cb90d811e6ee37c4816e20b526f26220.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/cb90d811e6ee37c4816e20b526f26220.png"
     },
     {
       "id": "60eb8a7fcc45cf004ea6ec24",
@@ -2428,7 +2445,7 @@
         "Tutorial",
         "Walkthrough"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/a1656e73489ebf9d8acd69a955c5f541.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/a1656e73489ebf9d8acd69a955c5f541.png"
     },
     {
       "id": "60eb98e8257c4a00417c16d5",
@@ -2446,7 +2463,7 @@
         "Tutorial",
         "Walkthrough"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/12ffa435dd7ed462124ad74ee53f0dff.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/12ffa435dd7ed462124ad74ee53f0dff.png"
     },
     {
       "id": "60ec0f784d0ed20042873f90",
@@ -2467,7 +2484,7 @@
         "msfdb",
         "msfvenom"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339253878-metasploitintro.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/metasploitexploitation-1785241448092.png"
     },
     {
       "id": "60f03e8568f23900490844c7",
@@ -2488,7 +2505,7 @@
         "Google dorking",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/2f678b7457e828715a10b8bc02fd65b5.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/2f678b7457e828715a10b8bc02fd65b5.png"
     },
     {
       "id": "60f6804958358d005ffff930",
@@ -2507,7 +2524,7 @@
         "sublist3r",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/609f307f6fa5f1f7f39d50154d0d1db3.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/609f307f6fa5f1f7f39d50154d0d1db3.png"
     },
     {
       "id": "60f68070e9f46a0042f3b076",
@@ -2528,7 +2545,7 @@
         "curl",
         "Gobuster"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/098ee61b8842b7e6fc27e9eea9d7e1dc.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/098ee61b8842b7e6fc27e9eea9d7e1dc.png"
     },
     {
       "id": "60f820a3cbada70055e07e47",
@@ -2552,7 +2569,7 @@
         "nslookup",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735574284071"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/66704dd0e54a1f39bff7b1a1-1735574284071"
     },
     {
       "id": "60f9529c58feb80049f89db4",
@@ -2575,7 +2592,7 @@
         "Web",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735574230785"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/66704dd0e54a1f39bff7b1a1-1735574230785"
     },
     {
       "id": "60f952c158feb80049f89dc0",
@@ -2596,7 +2613,7 @@
         "Wireshark",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62a7685ca6e7ce005d3f3afe-1778939441152"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/62a7685ca6e7ce005d3f3afe-1778939441152"
     },
     {
       "id": "60f9532d58feb80049f89e01",
@@ -2618,7 +2635,7 @@
         "Port scanning",
         "segment 2.5"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62a7685ca6e7ce005d3f3afe-1778940381346"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/62a7685ca6e7ce005d3f3afe-1778940381346"
     },
     {
       "id": "60f953510bad50005b06ca78",
@@ -2638,7 +2655,7 @@
         "Nmap",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62a7685ca6e7ce005d3f3afe-1778952120935"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/62a7685ca6e7ce005d3f3afe-1778952120935"
     },
     {
       "id": "60fd47daa0c4a9004968059b",
@@ -2659,7 +2676,7 @@
         "pattern_offset",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339246178-metasploitintro.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/metasploitintro-1785241448337.png"
     },
     {
       "id": "610291d9eede810048dd2d6b",
@@ -2677,7 +2694,7 @@
         "Application penetration testing",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/92b349206a2901c187e32ad074eae45c.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/92b349206a2901c187e32ad074eae45c.png"
     },
     {
       "id": "61030a2a7fc72b0052843d70",
@@ -2697,7 +2714,7 @@
         "Linux",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/d30e917f1945d3e25592ee34805bb900.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/d30e917f1945d3e25592ee34805bb900.png"
     },
     {
       "id": "6103fa164ae75f005f557dd2",
@@ -2719,7 +2736,7 @@
         "getsystem",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339257101-metasploitintro.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/meterpreter-1785241448519.png"
     },
     {
       "id": "6107da24f571710060be5cac",
@@ -2739,7 +2756,7 @@
         "CyberChef",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/268e10b8ee0b53d1074b2a7fd5b1a789.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/268e10b8ee0b53d1074b2a7fd5b1a789.png"
     },
     {
       "id": "610980c0a43bdd00600408dc",
@@ -2761,7 +2778,7 @@
         "JtR",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/608e3293aede745c0790a05e9c3f8341.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/608e3293aede745c0790a05e9c3f8341.png"
     },
     {
       "id": "610d0258516bcd0055fc1806",
@@ -2780,7 +2797,7 @@
         "netcat",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/c1c509a263e7a42bece2f0b77fd1ba1b.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/c1c509a263e7a42bece2f0b77fd1ba1b.png"
     },
     {
       "id": "6114faf3ee3b140048b84191",
@@ -2799,7 +2816,7 @@
         "Nmap",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62a7685ca6e7ce005d3f3afe-1778952644474"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/62a7685ca6e7ce005d3f3afe-1778952644474"
     },
     {
       "id": "6129c9786b369d0050257a8d",
@@ -2819,7 +2836,7 @@
         "Burp Suite",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/4128774917fae71184e79acab2007e93.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/4128774917fae71184e79acab2007e93.png"
     },
     {
       "id": "612ce5b0d7a8ef00490c426a",
@@ -2835,7 +2852,7 @@
         "Incident response",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/d3d7881518d71dc929b4e84c2b47ed55.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/d3d7881518d71dc929b4e84c2b47ed55.png"
     },
     {
       "id": "612cfd6342d7f60053259157",
@@ -2852,7 +2869,7 @@
         "Privilege escalation",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/0d7a5f0c5e85265e1f0624cac523fb6c.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/0d7a5f0c5e85265e1f0624cac523fb6c.png"
     },
     {
       "id": "612d55a8d7a8ef00490c8ca5",
@@ -2880,7 +2897,7 @@
         "Windows",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/4230419258baf63102a2e1fbe8e5e491.jpeg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/4230419258baf63102a2e1fbe8e5e491.jpeg"
     },
     {
       "id": "612f74c0247129004a6a4d9a",
@@ -2901,7 +2918,7 @@
         "Linux",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/f746d44771571a662987e9499e18aece.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/f746d44771571a662987e9499e18aece.png"
     },
     {
       "id": "61386018b6498f0041d5f11f",
@@ -2920,7 +2937,7 @@
         "Linux",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5fda25317f800a25f8cbc7320bbd83b2.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5fda25317f800a25f8cbc7320bbd83b2.png"
     },
     {
       "id": "6141d0ac8fa7a30049b12b1f",
@@ -2940,7 +2957,7 @@
         "Wireshark",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/97a29d81bac4063c11b392347214e741.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/97a29d81bac4063c11b392347214e741.png"
     },
     {
       "id": "61434ee0727e780b394dba31",
@@ -2960,7 +2977,7 @@
         "SQLMap",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/86d8d3b6995ddad46f5d9142354b65b1.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/86d8d3b6995ddad46f5d9142354b65b1.png"
     },
     {
       "id": "614451e350ff67005b13fb47",
@@ -2977,7 +2994,7 @@
         "command injection",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/a72f3f1c0445bac396659c36a1e8c355.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/a72f3f1c0445bac396659c36a1e8c355.png"
     },
     {
       "id": "6148416e405805005fe6bda4",
@@ -2997,7 +3014,7 @@
         "Filezilla",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5a1f33f79fce3569a2bc247468713c93.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5a1f33f79fce3569a2bc247468713c93.png"
     },
     {
       "id": "614880809163240048d965e4",
@@ -3015,7 +3032,7 @@
         "Web",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5e2656cb5a909ddf63395dd7e7a377ad.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5e2656cb5a909ddf63395dd7e7a377ad.png"
     },
     {
       "id": "614aed8a6c320f005fd79be1",
@@ -3036,7 +3053,7 @@
         "Wireshark",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/87d4f9a61d3f92a761d4824b062d115e.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/87d4f9a61d3f92a761d4824b062d115e.png"
     },
     {
       "id": "614ce9e34240f700435d15dc",
@@ -3052,7 +3069,7 @@
         "Information gathering",
         "Research"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735574311415"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/66704dd0e54a1f39bff7b1a1-1735574311415"
     },
     {
       "id": "6160385d3f992e004f76d685",
@@ -3070,7 +3087,7 @@
         "hadoop",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/88a78308312cbba547f0e0fa5f6025bd.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/88a78308312cbba547f0e0fa5f6025bd.png"
     },
     {
       "id": "61683e87761294005ebd2a02",
@@ -3093,7 +3110,7 @@
         "FireEye",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735573649376"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/66704dd0e54a1f39bff7b1a1-1735573649376"
     },
     {
       "id": "616af3312e0b080051bd1572",
@@ -3113,7 +3130,7 @@
         "MITRE ATT&CK Framework",
         "cyber kill chain"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/9afd8ef84fbcda2fb11c8d87c821de79.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/9afd8ef84fbcda2fb11c8d87c821de79.png"
     },
     {
       "id": "617032dd1f1e5500492ebec2",
@@ -3133,7 +3150,7 @@
         "netcat",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6237ff0116023ea927d5f669af6d29bc.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6237ff0116023ea927d5f669af6d29bc.png"
     },
     {
       "id": "617a7b9e767c050041a6a7aa",
@@ -3155,7 +3172,7 @@
         "Nmap",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6187c9220cd0ff0c5c3b29b9aa6252ea.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6187c9220cd0ff0c5c3b29b9aa6252ea.png"
     },
     {
       "id": "61d74a696ae9410ef8415f48",
@@ -3173,7 +3190,7 @@
         "DevSecOps",
         "kubernetes"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/3c98dd3bb37fa4a1130057bd65fdca53.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/3c98dd3bb37fa4a1130057bd65fdca53.png"
     },
     {
       "id": "61e1041e83a67e0043fdb919",
@@ -3197,7 +3214,7 @@
         "PSPKIAudit",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/a911b3ab790199d12f39da937fb656aa.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/a911b3ab790199d12f39da937fb656aa.png"
     },
     {
       "id": "61e3fc55acb6b6005c442877",
@@ -3216,7 +3233,7 @@
         "Suricata",
         "Wazuh"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/9f5785fc9979f57ec0df40f2f06d8f2b.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/9f5785fc9979f57ec0df40f2f06d8f2b.png"
     },
     {
       "id": "61e6e51029c5b3004ab82955",
@@ -3232,7 +3249,7 @@
         "Penetration testing",
         "Documentation"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735574324705"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/66704dd0e54a1f39bff7b1a1-1735574324705"
     },
     {
       "id": "61f19a72253213005300ba33",
@@ -3248,7 +3265,7 @@
         "Privilege escalation",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/74e0f54fbdb415de32d590fe9af9816c.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/74e0f54fbdb415de32d590fe9af9816c.png"
     },
     {
       "id": "6201974fb0353c00548c1814",
@@ -3265,7 +3282,7 @@
         "Responder",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/9c8359d213941312199b6142d3421a57.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/9c8359d213941312199b6142d3421a57.png"
     },
     {
       "id": "620d139f6d58c3004b8faa2a",
@@ -3285,7 +3302,7 @@
         "exiftool",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/f054e83e6b7c61f643222f8141105daf.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/f054e83e6b7c61f643222f8141105daf.png"
     },
     {
       "id": "620ecf2123c68400505cfd05",
@@ -3301,7 +3318,7 @@
         "Security Engineer",
         "DevSecOps"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/00050c31a2b84443dcc58d4513939515.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/00050c31a2b84443dcc58d4513939515.png"
     },
     {
       "id": "6216d9feb9aab2004c5deb51",
@@ -3319,7 +3336,7 @@
         "Nmap",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/eef593f2e4745dcb78b16698115f2561.jpeg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/eef593f2e4745dcb78b16698115f2561.jpeg"
     },
     {
       "id": "621f396b4fee0d0044ef9d43",
@@ -3336,7 +3353,7 @@
         "Linux",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400267726-Room_Image-9.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/1773400267726-Room_Image-9.png"
     },
     {
       "id": "622412cf03017400563303fa",
@@ -3355,7 +3372,7 @@
         "owasp zap",
         "mini-challenge"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/04afd126bf7a729eec5ff41e5b9b1212.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/04afd126bf7a729eec5ff41e5b9b1212.png"
     },
     {
       "id": "622682128709cd004ce72851",
@@ -3380,7 +3397,7 @@
         "Linux",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5dbc4e7d8515e7bc05b7742f26944ae9.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5dbc4e7d8515e7bc05b7742f26944ae9.png"
     },
     {
       "id": "6226a23a0cde4b0054f256c6",
@@ -3389,7 +3406,7 @@
       "description": "Hack your first website (legally in a safe environment) and experience an ethical hacker's job.",
       "difficulty": "easy",
       "type": "walkthrough",
-      "completed": true,
+      "completed": false,
       "tags": [
         "Red",
         "Penetration testing",
@@ -3398,7 +3415,7 @@
         "Gobuster",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773338590067-offensivesecurityintro.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/offensivesecurityintro-1785241450434.png"
     },
     {
       "id": "6227b4c006e41e005286f4dd",
@@ -3416,7 +3433,7 @@
         "Kernel exploitation",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/dc199f5811f650866479991882430b1c.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/dc199f5811f650866479991882430b1c.png"
     },
     {
       "id": "622ba76891285b005eaf8b14",
@@ -3436,7 +3453,7 @@
         "Penetration Tester/ Red Team",
         "segment 2"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5e9c5d0148cf664325c8a075-1737130517336"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5e9c5d0148cf664325c8a075-1737130517336"
     },
     {
       "id": "622ba9ec5d81bd004a12865c",
@@ -3452,7 +3469,7 @@
         "Penetration testing",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5e9c5d0148cf664325c8a075-1737130447892"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5e9c5d0148cf664325c8a075-1737130447892"
     },
     {
       "id": "622bacc144211102a293ac4e",
@@ -3471,7 +3488,7 @@
         "lfi",
         "mini-challenge"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5de96d9ca744773ea7ef8c00-1737110160739"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5de96d9ca744773ea7ef8c00-1737110160739"
     },
     {
       "id": "622bb53de7347f05d0f94cc0",
@@ -3488,7 +3505,7 @@
         "Linux",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5e9c5d0148cf664325c8a075-1737130334933"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5e9c5d0148cf664325c8a075-1737130334933"
     },
     {
       "id": "622d20b8a316e90830d09387",
@@ -3510,7 +3527,7 @@
         "Penetration Tester/ Red Team",
         "segment 2"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/c53da808dba7b45a03b79dacf587ebb6.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/c53da808dba7b45a03b79dacf587ebb6.png"
     },
     {
       "id": "622df124d79e80147991adf2",
@@ -3532,7 +3549,7 @@
         "mini-challenge",
         "segment 2"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/e11be3e91db093a84dd92e794e9f8181.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/e11be3e91db093a84dd92e794e9f8181.png"
     },
     {
       "id": "622f24e34cabe4005fb016de",
@@ -3550,7 +3567,7 @@
         "ftp",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/01d0111f4aa4a8dce8143903e99eefd4.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/01d0111f4aa4a8dce8143903e99eefd4.png"
     },
     {
       "id": "622f79f0b207590062b5109d",
@@ -3572,7 +3589,7 @@
         "Application penetration testing",
         "Identity and access management (IAC)"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735574741077"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/66704dd0e54a1f39bff7b1a1-1735574741077"
     },
     {
       "id": "6238eeee29449b0048d98000",
@@ -3590,7 +3607,7 @@
         "Threat Intelligence",
         "mitre"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/f41ca18ac58ffaae35cc78ba615f238d.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/f41ca18ac58ffaae35cc78ba615f238d.png"
     },
     {
       "id": "623921676647c40041c81d30",
@@ -3613,7 +3630,7 @@
         "command injection",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/adcc4fe6db75bd8f327a51ea55a770aa.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/adcc4fe6db75bd8f327a51ea55a770aa.png"
     },
     {
       "id": "623c6c285180df005f472524",
@@ -3636,7 +3653,7 @@
         "Windows Event Viewer",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/01c0ff183a9d9767f90b03ca14b9a24d.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/01c0ff183a9d9767f90b03ca14b9a24d.png"
     },
     {
       "id": "6247df790e24e0004acb12fc",
@@ -3656,7 +3673,7 @@
         "searchsploit",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/45b3fa32cb65b9475a47f3a3d6857e49.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/45b3fa32cb65b9475a47f3a3d6857e49.png"
     },
     {
       "id": "624ee2179653750048ac4902",
@@ -3674,7 +3691,7 @@
         "Security analysis",
         "Incident response"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773338611844-defensivesecurityintro.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/defensivesecurityintro-1785241444783.png"
     },
     {
       "id": "626387f54c4556004a34a992",
@@ -3691,7 +3708,7 @@
         "Linux",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/e53a67e9382eed0edd9916a7da119031.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/e53a67e9382eed0edd9916a7da119031.png"
     },
     {
       "id": "6266855c803f01005478d86d",
@@ -3710,7 +3727,7 @@
         "Threat Intelligence",
         "firewall"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/87ea09805b118aa8c7d23d07ed06595d.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/87ea09805b118aa8c7d23d07ed06595d.png"
     },
     {
       "id": "626a44aa3a0b75005d415ece",
@@ -3732,7 +3749,7 @@
         "Metasploit Framework",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339767672-careersincyber.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/careersincyber-1785241444315.png"
     },
     {
       "id": "627367a038c78d004b0fb8b8",
@@ -3753,7 +3770,7 @@
         "PrivescCheck",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5c3530e1fb732e4a93dd4d6b7cb8373d.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5c3530e1fb732e4a93dd4d6b7cb8373d.png"
     },
     {
       "id": "627bd0d6cac01c00510030b5",
@@ -3773,7 +3790,7 @@
         "powershell",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/ce328823c491aaaa63f42c81977af7a1.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/ce328823c491aaaa63f42c81977af7a1.png"
     },
     {
       "id": "6295b9bd99cd7b004ae9be0b",
@@ -3801,7 +3818,7 @@
         "segment 2",
         "segment 2.5"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339621952-introtosiem.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/introtosiem-1785241446199.png"
     },
     {
       "id": "62a79f64126bc700560fd452",
@@ -3821,7 +3838,7 @@
         "System administration",
         "Identity and access management (IAC)"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773338782693-winadbasics.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/winadbasics-1785241454256.png"
     },
     {
       "id": "62bae2b9dc6a500060047287",
@@ -3837,7 +3854,7 @@
         "Threat modelling",
         "Security analysis"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339763473-securityprinciples.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/securityprinciples-1785241452480.png"
     },
     {
       "id": "62bd78ba21035e0049401173",
@@ -3855,7 +3872,7 @@
         "yara",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/24abefb51d5df78a4baa58fa49e979eb.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/24abefb51d5df78a4baa58fa49e979eb.png"
     },
     {
       "id": "62ce7894bee3350061888866",
@@ -3875,7 +3892,7 @@
         "Network traffic analysis",
         "Network troubleshooting"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735575427717"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/66704dd0e54a1f39bff7b1a1-1735575427717"
     },
     {
       "id": "62e8333776ad610042452002",
@@ -3892,7 +3909,7 @@
         "Security analysis",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/303a7ced0af5e7a634df6dfb4497cb40.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/303a7ced0af5e7a634df6dfb4497cb40.png"
     },
     {
       "id": "631211ab243aa600601e75f7",
@@ -3913,7 +3930,7 @@
         "Linux",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/ce007d5234db7621568cf95579eda299.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/ce007d5234db7621568cf95579eda299.png"
     },
     {
       "id": "6328bfc4149c9b005fb1bff8",
@@ -3938,7 +3955,7 @@
         "segment 2.5",
         "segment 3"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/10276e702a014f44aad22f1302b6c309.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/10276e702a014f44aad22f1302b6c309.png"
     },
     {
       "id": "633b09e0a64681004884b7d2",
@@ -3959,7 +3976,7 @@
         "Linux",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/2700326f6bf2127c414a0fa4582496cd.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/2700326f6bf2127c414a0fa4582496cd.png"
     },
     {
       "id": "63dd618dfbfbcf005f12964f",
@@ -3983,7 +4000,7 @@
         "command injection",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/af0e7c2109847033d31d273498657526.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/af0e7c2109847033d31d273498657526.png"
     },
     {
       "id": "6405e37fb35234005f9784aa",
@@ -4002,7 +4019,7 @@
         "Web",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/8d33165f4e0c5c59dcaced020cfd29d8.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/8d33165f4e0c5c59dcaced020cfd29d8.png"
     },
     {
       "id": "6414b943f7fe3f0052085a8a",
@@ -4030,7 +4047,7 @@
         "Responder NEW",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/8c1a96c6829a9e4ebd5715d5577b8517.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/8c1a96c6829a9e4ebd5715d5577b8517.png"
     },
     {
       "id": "6465f1ed5c090e005644cfbb",
@@ -4053,7 +4070,7 @@
         "Burp Suite",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/b60af5cb376e62ee1a7af132cc134588.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/b60af5cb376e62ee1a7af132cc134588.png"
     },
     {
       "id": "649caba75b61780062e77cf1",
@@ -4072,7 +4089,7 @@
         "General Cyber",
         "segment 2"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/9a13d8dcbd8940d14352ba2edbf66735.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/9a13d8dcbd8940d14352ba2edbf66735.png"
     },
     {
       "id": "64a56cc71d917a00602eecf0",
@@ -4092,7 +4109,7 @@
         "Burp Suite",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/003f622eb51e1399dde189ddbc9804a3.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/003f622eb51e1399dde189ddbc9804a3.png"
     },
     {
       "id": "64b7e49c92f84f0055eb9ad5",
@@ -4114,7 +4131,7 @@
         "rce",
         "auth bypass"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/c5e3f2c6f7b787a81c9ce97322632a49.svg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/c5e3f2c6f7b787a81c9ce97322632a49.svg"
     },
     {
       "id": "64c2b8b63b27320054384d0b",
@@ -4134,7 +4151,7 @@
         "Netcat NEW",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/3dfb0eaecf05e50b2b3fd5bca46ca5e2.svg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/3dfb0eaecf05e50b2b3fd5bca46ca5e2.svg"
     },
     {
       "id": "64db81c465e0ecc74345169f",
@@ -4177,7 +4194,7 @@
         "General Cyber",
         "Security Engineer"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/618b3fa52f0acc0061fb0172-1718377893997"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/618b3fa52f0acc0061fb0172-1718377893997"
     },
     {
       "id": "65083cca987f636ff69afb08",
@@ -4199,7 +4216,7 @@
         "Linux",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/02c75078a8759443f0b565ce48b89589.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/02c75078a8759443f0b565ce48b89589.png"
     },
     {
       "id": "651dce0028485828d36c50fe",
@@ -4224,7 +4241,7 @@
         "gcc",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6aaf1cd97145181eb0980816614ff67c.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6aaf1cd97145181eb0980816614ff67c.png"
     },
     {
       "id": "6529b16b1512c6716fc656e6",
@@ -4244,7 +4261,7 @@
         "hardening",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/b487fd948edf68a8200421f272759fed.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/b487fd948edf68a8200421f272759fed.png"
     },
     {
       "id": "653a98292a6702c7d288f15f",
@@ -4263,7 +4280,7 @@
         "Hydra",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/1e86f53cbe40b305b17e1e61a8cf0e74.svg"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/1e86f53cbe40b305b17e1e61a8cf0e74.svg"
     },
     {
       "id": "655dae854bec4be00c0e5983",
@@ -4280,7 +4297,7 @@
         "Developer Tool",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/862c9666786e7d2c3cb9fe893fe3acd5.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/862c9666786e7d2c3cb9fe893fe3acd5.png"
     },
     {
       "id": "656de8430120c62f8f41913f",
@@ -4299,7 +4316,7 @@
         "Developer Tool",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1718366341885"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5f04259cf9bf5b57aed2c476-1718366341885"
     },
     {
       "id": "659ef7828eba29d162ddee97",
@@ -4330,7 +4347,7 @@
         "Ncat",
         "Nmap"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/618b3fa52f0acc0061fb0172-1718377487436"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/618b3fa52f0acc0061fb0172-1718377487436"
     },
     {
       "id": "65a0523d8c0a74ccfe398ea3",
@@ -4371,7 +4388,7 @@
         "nc",
         "Metasploit Framework"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/618b3fa52f0acc0061fb0172-1732205261742"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/618b3fa52f0acc0061fb0172-1732205261742"
     },
     {
       "id": "65b8fd60e6bee6b4d86c9b3e",
@@ -4391,7 +4408,7 @@
         "DevSecOps",
         "Snyk Open Source"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f9c7574e201fe31dad228fc-1718201056256"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5f9c7574e201fe31dad228fc-1718201056256"
     },
     {
       "id": "65d34e8775488d8b700b19a0",
@@ -4412,7 +4429,7 @@
         "Wireshark",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339241811-monikerlink.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/monikerlink-1785241448789.png"
     },
     {
       "id": "65d67214b8d2fc1dee10749c",
@@ -4431,7 +4448,7 @@
         "DevSecOps",
         "Snyk Code"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f9c7574e201fe31dad228fc-1718265595550"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5f9c7574e201fe31dad228fc-1718265595550"
     },
     {
       "id": "65fd7e05678bc78720a37464",
@@ -4455,7 +4472,7 @@
         "Penetration testing",
         "Domain enumeration"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/618b3fa52f0acc0061fb0172-1727807358043"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/618b3fa52f0acc0061fb0172-1727807358043"
     },
     {
       "id": "6609d5b07cf2fa86a54a62da",
@@ -4478,7 +4495,7 @@
         "Red teaming",
         "Penetration testing"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/618b3fa52f0acc0061fb0172-1741192887584"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/618b3fa52f0acc0061fb0172-1741192887584"
     },
     {
       "id": "660d4bba2af127d8c7088119",
@@ -4495,7 +4512,7 @@
         "Web",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/0a46e92e8a9255f7dde294569e05dae1.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/0a46e92e8a9255f7dde294569e05dae1.png"
     },
     {
       "id": "6627c55f624376abfd0d86d2",
@@ -4513,7 +4530,7 @@
         "CLI",
         "General Cyber"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773338846698-windowscommandline.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/windowscommandline-1785241454442.png"
     },
     {
       "id": "6627c853bdb090891ef4369b",
@@ -4541,7 +4558,7 @@
         "censys",
         "Social Media"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773338615305-searchskills.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/searchskills-1785241452249.png"
     },
     {
       "id": "663e40d9e9ae81db98f61fd5",
@@ -4562,7 +4579,7 @@
         "TCP",
         "IP"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773341473209-networkingconcepts.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/networkingconcepts-1785241449058.png"
     },
     {
       "id": "6658b8ba7dc8524fb5880fd9",
@@ -4583,7 +4600,7 @@
         "Web",
         "Red"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6093e17fa004d20049b6933e-1720003412048"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6093e17fa004d20049b6933e-1720003412048"
     },
     {
       "id": "6666b1cd526cb7163dcd72e6",
@@ -4602,7 +4619,7 @@
         "Web",
         "Burp Suite"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/645b19f5d5848d004ab9c9e2-1719928599415"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/645b19f5d5848d004ab9c9e2-1719928599415"
     },
     {
       "id": "66684daedde4de46303b2a96",
@@ -4621,7 +4638,7 @@
         " cyber security",
         "Analyst SOC"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339521292-socfundamentals.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/socfundamentals-1785241452900.png"
     },
     {
       "id": "66697080a2878519cd453e78",
@@ -4660,7 +4677,7 @@
         " Boot2root ",
         "segment 2"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/618b3fa52f0acc0061fb0172-1753465052754"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/618b3fa52f0acc0061fb0172-1753465052754"
     },
     {
       "id": "66b9fcdbfc8f00e1ae048983",
@@ -4676,7 +4693,7 @@
         "CyberChef",
         "Security analysis"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339692582-cyberchefbasics.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/1773339692582-cyberchefbasics.png"
     },
     {
       "id": "66c379a1a5a29465fcae366e",
@@ -4702,7 +4719,7 @@
         " Caesar Cipher",
         "Cryptography"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1779873722777"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/cryptographybasics-1785241444536.png"
     },
     {
       "id": "66deb5530288f675f0e2d33d",
@@ -4720,7 +4737,7 @@
         "Red",
         "segment 2.5"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62a7685ca6e7ce005d3f3afe-1726641550999"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/62a7685ca6e7ce005d3f3afe-1726641550999"
     },
     {
       "id": "66e44382fd6ce645435979e3",
@@ -4742,7 +4759,7 @@
         "security training",
         "tryhackme"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339777763-training.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/training-1785241453838.png"
     },
     {
       "id": "6709166f408e675d7a01a237",
@@ -4761,7 +4778,7 @@
         "Web",
         "Burp Suite"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339319960-webapplicationbasics.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/webapplicationbasics-1785241454064.png"
     },
     {
       "id": "672b50a0321e047a84533eff",
@@ -4789,7 +4806,7 @@
         "hardening",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62a7685ca6e7ce005d3f3afe-1731472510279"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/62a7685ca6e7ce005d3f3afe-1731472510279"
     },
     {
       "id": "674e1cdf47c742f61152df78",
@@ -4815,7 +4832,7 @@
         " plugin",
         "segment 2"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62a7685ca6e7ce005d3f3afe-1733724189107"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/62a7685ca6e7ce005d3f3afe-1733724189107"
     },
     {
       "id": "678a54a860fc560256d845f8",
@@ -4834,7 +4851,7 @@
         "Web",
         "Burp Suite"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/645b19f5d5848d004ab9c9e2-1739180133439"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/645b19f5d5848d004ab9c9e2-1739180133439"
     },
     {
       "id": "679a6052b410bbce25fc16df",
@@ -4859,7 +4876,7 @@
         "Adversary emulation",
         "segment 2.5"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62ff64c3c859dc0042b2b9f6-1775735976220"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/62ff64c3c859dc0042b2b9f6-1775735976220"
     },
     {
       "id": "67ab0602f70442e3ddda0561",
@@ -4883,7 +4900,7 @@
         "Web",
         "Linux"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62a7685ca6e7ce005d3f3afe-1743656880330"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/62a7685ca6e7ce005d3f3afe-1743656880330"
     },
     {
       "id": "67d172043b13d50faa66fd76",
@@ -4906,7 +4923,7 @@
         "Linux",
         "Active Directory"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1748005316630"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5f04259cf9bf5b57aed2c476-1748005316630"
     },
     {
       "id": "67e173384230a2f8ca20c812",
@@ -4931,30 +4948,27 @@
         "segment 2.5",
         "curl"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1742831379313"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5f04259cf9bf5b57aed2c476-1742831379313"
     },
     {
       "id": "67e2b406050ea4e0a69bd5e4",
-      "title": "AI/ML Security Threats",
+      "title": "The Building Blocks of AI",
       "code": "aimlsecuritythreats",
-      "description": "Learn AI basics, key terms, and how it's used by both attackers and defenders.",
+      "description": "Learn how AI, ML, neural networks, and LLMs actually work, from the ground up.",
       "difficulty": "easy",
       "type": "walkthrough",
       "completed": true,
       "tags": [
         "Security Analyst/ Blue Team",
         "Blue",
-        "Phishing",
-        "Log analysis",
         "Artificial Intelligence",
         "Adversarial AI",
         "machine learning",
         "LLM",
         "segment 2.5",
-        "Artificial intelligence",
-        "Ollama"
+        "Artificial intelligence"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6228f0d4ca8e57005149c3e3-1775812180696"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6228f0d4ca8e57005149c3e3-1784893485639"
     },
     {
       "id": "67f0ce79b0ee614d7cb16746",
@@ -4981,7 +4995,7 @@
         "segment 3",
         "Windows Event Viewer"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/678ecc92c80aa206339f0f23-1748608724312"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/678ecc92c80aa206339f0f23-1748608724312"
     },
     {
       "id": "67fda3a9138bee168f3c3efb",
@@ -4990,7 +5004,7 @@
       "description": "Hack your first website (legally in a safe environment) and experience an ethical hacker's job.",
       "difficulty": "easy",
       "type": "walkthrough",
-      "completed": true,
+      "completed": false,
       "tags": [
         "Red",
         "Penetration testing",
@@ -4999,7 +5013,7 @@
         "Gobuster",
         "Web"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/85c37a8504a5db86f501beb204d2b78e8e7270d05ee0b036a4324cf48e04fecf.66704dd0e54a1f39bff7b1a1-1735573222714"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/85c37a8504a5db86f501beb204d2b78e8e7270d05ee0b036a4324cf48e04fecf.66704dd0e54a1f39bff7b1a1-1735573222714"
     },
     {
       "id": "6808a656322b23705313515c",
@@ -5030,7 +5044,7 @@
         "Network penetration testing",
         "Network traffic analysis"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1745418138356"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5f04259cf9bf5b57aed2c476-1745418138356"
     },
     {
       "id": "68126ccc243043eb516d5745",
@@ -5051,7 +5065,7 @@
         "Web",
         "Burp Suite"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6093e17fa004d20049b6933e-1746290313524"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6093e17fa004d20049b6933e-1746290313524"
     },
     {
       "id": "681b3109f613e121102edb35",
@@ -5075,7 +5089,7 @@
         "Samba",
         "Password Attacks"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/899ee7ac465626c3ebaa8bb73db4d329178d4d453afd52c6c6d9d971019cb4b5.5f04259cf9bf5b57aed2c476-1746607282956"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/899ee7ac465626c3ebaa8bb73db4d329178d4d453afd52c6c6d9d971019cb4b5.5f04259cf9bf5b57aed2c476-1746607282956"
     },
     {
       "id": "682b04c789a411b8e894d051",
@@ -5097,7 +5111,7 @@
         "LLM",
         "machine learning"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6228f0d4ca8e57005149c3e3-1775756737657"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6228f0d4ca8e57005149c3e3-1775756737657"
     },
     {
       "id": "684adef42bf6634501dd06b6",
@@ -5125,7 +5139,7 @@
         "Ncat",
         "nc"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1750061875034"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5f04259cf9bf5b57aed2c476-1750061875034"
     },
     {
       "id": "684c5d0d0234b84dc701472e",
@@ -5136,7 +5150,7 @@
       "type": "challenge",
       "completed": true,
       "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6228f0d4ca8e57005149c3e3-1775756760371"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6228f0d4ca8e57005149c3e3-1775756760371"
     },
     {
       "id": "68515928d4c468f7db6cc15e",
@@ -5155,7 +5169,7 @@
         "Web",
         "Burp Suite"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/645b19f5d5848d004ab9c9e2-1752206689409"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/645b19f5d5848d004ab9c9e2-1752206689409"
     },
     {
       "id": "685bfbba3190cd44e8db3907",
@@ -5172,7 +5186,7 @@
         "segment 2",
         "AI Pentesting"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6228f0d4ca8e57005149c3e3-1751449906664"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6228f0d4ca8e57005149c3e3-1751449906664"
     },
     {
       "id": "68644f8e2fd4ac3cc58979b3",
@@ -5190,7 +5204,7 @@
         "Security analysis",
         "Incident response"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/90baccc4261cc1fb0e668bb005c846cbde5ca7288d6ad5187dcba168bae597ea.66704dd0e54a1f39bff7b1a1-1735573172232"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/90baccc4261cc1fb0e668bb005c846cbde5ca7288d6ad5187dcba168bae597ea.66704dd0e54a1f39bff7b1a1-1735573172232"
     },
     {
       "id": "68a8463f0f60016219118f89",
@@ -5201,7 +5215,7 @@
       "type": "walkthrough",
       "completed": true,
       "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/d0a58ca1d013f9613b13b01e5eb7b86a9c2543effa8703a7f2d139a8663d9928.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/d0a58ca1d013f9613b13b01e5eb7b86a9c2543effa8703a7f2d139a8663d9928.png"
     },
     {
       "id": "68aef11763cadeddca4f758a",
@@ -5223,7 +5237,7 @@
         "Incident handling",
         "Windows"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/f90bca871d79eae64a3ebebc4e68ab62989c77d93523f3871dc893a1d5706792.6645aa8c024f7893371eb7ac-1753204708163"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/f90bca871d79eae64a3ebebc4e68ab62989c77d93523f3871dc893a1d5706792.6645aa8c024f7893371eb7ac-1753204708163"
     },
     {
       "id": "68b85673688546044b52cf5a",
@@ -5241,7 +5255,7 @@
         "AI Pentesting",
         "Artificial intelligence"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/645b19f5d5848d004ab9c9e2-1759491275677"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/645b19f5d5848d004ab9c9e2-1759491275677"
     },
     {
       "id": "68db9f76810325d62268550f",
@@ -5262,7 +5276,7 @@
         "AoC2025",
         "Red"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66c44fd9733427ea1181ad58-1761823903831"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/66c44fd9733427ea1181ad58-1761823903831"
     },
     {
       "id": "68dbd4fc01c50f5c660dc8c5",
@@ -5275,7 +5289,7 @@
       "tags": [
         "AoC2025"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f9c7574e201fe31dad228fc-1763962163689"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5f9c7574e201fe31dad228fc-1763962163689"
     },
     {
       "id": "68dbe4331339e40ee345d327",
@@ -5297,7 +5311,7 @@
         "segment 2",
         "AoC2025"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f9c7574e201fe31dad228fc-1763405859947"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5f9c7574e201fe31dad228fc-1763405859947"
     },
     {
       "id": "68dd330c5758d2d1e428ec00",
@@ -5317,7 +5331,7 @@
         "AoC2025",
         "segment 2"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5fc2847e1bbebc03aa89fbf2-1763007383191"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5fc2847e1bbebc03aa89fbf2-1763007383191"
     },
     {
       "id": "68dec40cf58369f4ac824447",
@@ -5328,7 +5342,7 @@
       "type": "walkthrough",
       "completed": true,
       "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5dbea226085ab6182a2ee0f7-1761751325593"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5dbea226085ab6182a2ee0f7-1761751325593"
     },
     {
       "id": "68e383799162a801991e58ec",
@@ -5348,7 +5362,7 @@
         "Web application security",
         "AoC2025"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5e8dd9a4a45e18443162feab-1762518888961"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5e8dd9a4a45e18443162feab-1762518888961"
     },
     {
       "id": "68e3b10a550ee62e5e253249",
@@ -5371,7 +5385,7 @@
         "email phishing",
         "AoC2025"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6645aa8c024f7893371eb7ac-1761822143495"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6645aa8c024f7893371eb7ac-1761822143495"
     },
     {
       "id": "68e5643f1bc4c1b61e19b29e",
@@ -5382,7 +5396,7 @@
       "type": "walkthrough",
       "completed": true,
       "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/63c131e50a24c3005eb34678-1763639792321"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/63c131e50a24c3005eb34678-1763639792321"
     },
     {
       "id": "68e68d9025f199e42ca6a802",
@@ -5407,7 +5421,7 @@
         "cli",
         "AoC2025"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/678ecc92c80aa206339f0f23-1761766884117"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/678ecc92c80aa206339f0f23-1761766884117"
     },
     {
       "id": "68e8b8b8f520768ecf8d5fb7",
@@ -5427,7 +5441,7 @@
         "segment 3",
         "YARA rule writing"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/674d9727a22822c1eb46cb31-1763551899077"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/674d9727a22822c1eb46cb31-1763551899077"
     },
     {
       "id": "68ecdee82a3b48f9fa279bd3",
@@ -5451,7 +5465,7 @@
         "segment 2.5",
         "Registry analysis"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6645aa8c024f7893371eb7ac-1763316546050"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6645aa8c024f7893371eb7ac-1763316546050"
     },
     {
       "id": "68ede268569895415d37c829",
@@ -5471,7 +5485,7 @@
         "Web application security",
         "AoC2025"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f9c7574e201fe31dad228fc-1764173598881"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5f9c7574e201fe31dad228fc-1764173598881"
     },
     {
       "id": "68ef2f0b98897a675f654d56",
@@ -5495,7 +5509,7 @@
         "segment 2.5",
         "AoC2025"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/63c131e50a24c3005eb34678-1764070538293"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/63c131e50a24c3005eb34678-1764070538293"
     },
     {
       "id": "68ef4add50574d30b0bda2bc",
@@ -5514,7 +5528,7 @@
         "Web application security",
         "AoC2025"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62a7685ca6e7ce005d3f3afe-1763479664712"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/62a7685ca6e7ce005d3f3afe-1763479664712"
     },
     {
       "id": "68ef91b8882bef04f84c63eb",
@@ -5537,7 +5551,7 @@
         "segment 2",
         "AoC2025"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/678ecc92c80aa206339f0f23-1761778821176"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/678ecc92c80aa206339f0f23-1761778821176"
     },
     {
       "id": "68efa523d9b57c17d943c861",
@@ -5550,7 +5564,7 @@
       "tags": [
         "AoC2025"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6228f0d4ca8e57005149c3e3-1762360425839"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6228f0d4ca8e57005149c3e3-1762360425839"
     },
     {
       "id": "68f0c35301f68b0bc9225038",
@@ -5572,7 +5586,7 @@
         "segment 2",
         "AoC2025"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/68baea2454c82afe90fd7020-1761822112541"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/68baea2454c82afe90fd7020-1761822112541"
     },
     {
       "id": "68f129f40677e8262f0621a8",
@@ -5591,7 +5605,7 @@
         "segment 2",
         "AoC2025"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/68dac5d6d4d4f23175b3296f-1761321790052"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/68dac5d6d4d4f23175b3296f-1761321790052"
     },
     {
       "id": "68f1ffccca2c4117fa622ea0",
@@ -5616,7 +5630,7 @@
         "Artificial intelligence",
         "AoC2025"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5de96d9ca744773ea7ef8c00-1762182384720"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5de96d9ca744773ea7ef8c00-1762182384720"
     },
     {
       "id": "68f206e9d269245f774bbe08",
@@ -5635,7 +5649,7 @@
         "Static malware analysis",
         "segment 1"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6093e17fa004d20049b6933e-1763893187327"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6093e17fa004d20049b6933e-1763893187327"
     },
     {
       "id": "68f21ad60e827f054c79e3dd",
@@ -5653,7 +5667,7 @@
         "segment 2",
         "AoC2025"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66c44fd9733427ea1181ad58-1761823947148"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/66c44fd9733427ea1181ad58-1761823947148"
     },
     {
       "id": "68f9aee7ea8ee3ad991a2549",
@@ -5664,7 +5678,7 @@
       "type": "walkthrough",
       "completed": true,
       "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5ed5961c6276df568891c3ea-1761886566945"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5ed5961c6276df568891c3ea-1761886566945"
     },
     {
       "id": "68fbc109aa5e7b54dfb72e2b",
@@ -5686,7 +5700,7 @@
         "segment 2.5",
         "AoC2025"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5de96d9ca744773ea7ef8c00-1762521735071"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5de96d9ca744773ea7ef8c00-1762521735071"
     },
     {
       "id": "68ff1e6acc879024b0b5c8d5",
@@ -5715,7 +5729,7 @@
         "segment 3",
         "AoC2025"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6186e45a4c3e9a0043efd100-1764342232871"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6186e45a4c3e9a0043efd100-1764342232871"
     },
     {
       "id": "690ccc5ec3e1e7d1c9239f70",
@@ -5726,7 +5740,7 @@
       "type": "walkthrough",
       "completed": true,
       "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6228f0d4ca8e57005149c3e3-1763126908480"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6228f0d4ca8e57005149c3e3-1763126908480"
     },
     {
       "id": "6910eb9d8579d857d2b195f5",
@@ -5737,7 +5751,7 @@
       "type": "walkthrough",
       "completed": true,
       "tags": [],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339806999-owasptopten2025one.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/owasptopten2025one-1785241451372.png"
     },
     {
       "id": "6910ebccbbf6510418138ebd",
@@ -5748,7 +5762,7 @@
       "type": "walkthrough",
       "completed": true,
       "tags": [],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339822057-owasptopten2025one.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/owasptopten2025two-1785241451787.png"
     },
     {
       "id": "6910ebfda2ab0bcc10166e90",
@@ -5759,7 +5773,7 @@
       "type": "walkthrough",
       "completed": true,
       "tags": [],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773339828097-owasptopten2025one.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/owasptopten2025three-1785241451582.png"
     },
     {
       "id": "691470d1489f094ee04af8a8",
@@ -5785,7 +5799,7 @@
         "segment 2",
         "segment 2.5"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1763364665707"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5f04259cf9bf5b57aed2c476-1763364665707"
     },
     {
       "id": "6914745e5e413b9bf4d80cd3",
@@ -5814,7 +5828,7 @@
         "General Cyber",
         "Security Analyst/ Blue Team"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1763367396646"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5f04259cf9bf5b57aed2c476-1763367396646"
     },
     {
       "id": "6931423a01db5e52a77a7e1d",
@@ -5842,7 +5856,7 @@
         "segment 3",
         "Web application security"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1764954113748"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5f04259cf9bf5b57aed2c476-1764954113748"
     },
     {
       "id": "69372770e663ab1fd4b38594",
@@ -5859,7 +5873,7 @@
         "Hypervisor",
         "segment 1"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400177898-Room_Image-2.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/1773400177898-Room_Image-2.png"
     },
     {
       "id": "6938e3a1c9be1bed60c1a854",
@@ -5879,7 +5893,7 @@
         "segment 1",
         "segment 2"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400208698-Room_Image-5.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/1773400208698-Room_Image-5.png"
     },
     {
       "id": "693a90f1d8b79d22e73b9392",
@@ -5895,7 +5909,7 @@
         "Purple",
         "segment 1"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400244147-linuxfundamentalspart1.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/linuxclibasics-1785241446878.png"
     },
     {
       "id": "693aab34e8fd11ac6170526f",
@@ -5919,7 +5933,7 @@
         "segment 1",
         "segment 2"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400279781-Room_Image-10.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/1773400279781-Room_Image-10.png"
     },
     {
       "id": "693aab7ce31a9a95a2a181b2",
@@ -5941,7 +5955,7 @@
         "utf-8",
         "segment 1"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400285735-Room_Image-13.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/1773400285735-Room_Image-13.png"
     },
     {
       "id": "693aabcb70d3c563289b564f",
@@ -5961,7 +5975,7 @@
         "segment 1",
         "segment 2"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400296115-Room_Image-12.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/1773400296115-Room_Image-12.png"
     },
     {
       "id": "693aabde56b620f222796be3",
@@ -5982,7 +5996,7 @@
         "segment 1",
         "segment 2"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400291430-Room_Image-11.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/1773400291430-Room_Image-11.png"
     },
     {
       "id": "693ad2f1f0aaec55a5ee7b17",
@@ -6000,7 +6014,7 @@
         "segment 2",
         "Artificial intelligence"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6228f0d4ca8e57005149c3e3-1775756919058"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6228f0d4ca8e57005149c3e3-1775756919058"
     },
     {
       "id": "693cee8c999d17cddc880176",
@@ -6020,7 +6034,7 @@
         "Windows Defender",
         "segment 1"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400216298-Room_Image-8.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/1773400216298-Room_Image-8.png"
     },
     {
       "id": "69405b95811b663620ca4c0c",
@@ -6035,7 +6049,7 @@
         "cloud computing",
         "segment 1"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400183488-Room_Image-4.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/1773400183488-Room_Image-4.png"
     },
     {
       "id": "69412ddb5cef0a01ebe0d967",
@@ -6050,7 +6064,7 @@
         "Windows",
         "segment 1"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400260703-Room_Image-7.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/1773400260703-Room_Image-7.png"
     },
     {
       "id": "6942c7ef0224651089cb8fdd",
@@ -6070,7 +6084,7 @@
         "segment 1",
         "segment 2"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400312904-Room_Image-15.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/1773400312904-Room_Image-15.png"
     },
     {
       "id": "6942c91edae025de74ebb679",
@@ -6089,7 +6103,7 @@
         "MySQL",
         "segment 1"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400301430-Room_Image-14.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/1773400301430-Room_Image-14.png"
     },
     {
       "id": "694535c370e0d8024611aee4",
@@ -6110,7 +6124,7 @@
         "segment 1",
         "N/A"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400321470-Room_Image-17.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/1773400321470-Room_Image-17.png"
     },
     {
       "id": "6945606bd6cc93efea287e7b",
@@ -6125,7 +6139,7 @@
         "Developer Tool",
         "segment 1"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400170483-Room_Image-1.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/1773400170483-Room_Image-1.png"
     },
     {
       "id": "694a181822d3a2e1da963a1a",
@@ -6151,7 +6165,7 @@
         "segment 1",
         "Web application security"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1779874288391"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5f04259cf9bf5b57aed2c476-1779874288391"
     },
     {
       "id": "694a8120d5a629e7fd635203",
@@ -6172,7 +6186,7 @@
         "segment 1",
         "Web application security"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1779874303188"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5f04259cf9bf5b57aed2c476-1779874303188"
     },
     {
       "id": "695d03d589354d71afd6f863",
@@ -6195,7 +6209,7 @@
         " web",
         "segment 1"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5de96d9ca744773ea7ef8c00-1767868972234"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5de96d9ca744773ea7ef8c00-1767868972234"
     },
     {
       "id": "695df74996bd49629e69d3c6",
@@ -6205,8 +6219,16 @@
       "difficulty": "easy",
       "type": "challenge",
       "completed": true,
-      "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62ff64c3c859dc0042b2b9f6-1769691905491"
+      "tags": [
+        "General Cyber",
+        "Blue",
+        "OSINT",
+        "geo-osint",
+        " osint",
+        "Social media osint",
+        "segment 2"
+      ],
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/62ff64c3c859dc0042b2b9f6-1769691905491"
     },
     {
       "id": "69668301371925b330910fdc",
@@ -6222,7 +6244,7 @@
         "segment 1",
         "N/A"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400154829-Room_Image.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/1773400154829-Room_Image.png"
     },
     {
       "id": "6967083fb94876121ab43d82",
@@ -6245,7 +6267,7 @@
         "segment 2.5",
         "Web application security"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1769445124107"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5f04259cf9bf5b57aed2c476-1769445124107"
     },
     {
       "id": "696e60c5f39a3033442483c3",
@@ -6256,7 +6278,7 @@
       "type": "challenge",
       "completed": true,
       "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5dbea226085ab6182a2ee0f7-1769706952610"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5dbea226085ab6182a2ee0f7-1769706952610"
     },
     {
       "id": "6970f1edc98f34dac4e2aeeb",
@@ -6265,7 +6287,7 @@
       "description": "Hack your first website (legally in a safe environment) and experience an ethical hacker's job.",
       "difficulty": "easy",
       "type": "walkthrough",
-      "completed": true,
+      "completed": false,
       "tags": [
         "Penetration Tester/ Red Team",
         "Application penetration testing",
@@ -6279,7 +6301,7 @@
         " web",
         "segment 1"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/2dcbc5890dd1acb0c8f69208e6bbb75faa64678860482160c5eb15346434f569.5de96d9ca744773ea7ef8c00-1767868972234"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/2dcbc5890dd1acb0c8f69208e6bbb75faa64678860482160c5eb15346434f569.5de96d9ca744773ea7ef8c00-1767868972234"
     },
     {
       "id": "6981d58d68f4050e3deea7a8",
@@ -6302,7 +6324,7 @@
         "segment 1",
         "segment 2"
       ],
-      "imageURL": "https://tryhackme-images.s3.eu-west-1.amazonaws.com/room-icons/1773400161307-Room_Image-3.png"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/1773400161307-Room_Image-3.png"
     },
     {
       "id": "6984336959d4757192c37e92",
@@ -6327,7 +6349,7 @@
         "Active Directory pentesting",
         "segment 2"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6808d44047ac5684351c94da-1777562424344"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6808d44047ac5684351c94da-1777562424344"
     },
     {
       "id": "6984f997f89de3973bbbbdae",
@@ -6338,7 +6360,7 @@
       "type": "challenge",
       "completed": true,
       "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5ed5961c6276df568891c3ea-1770943295656"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5ed5961c6276df568891c3ea-1770943295656"
     },
     {
       "id": "6984f99e32a3fd64f0062049",
@@ -6349,7 +6371,7 @@
       "type": "challenge",
       "completed": true,
       "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5ed5961c6276df568891c3ea-1770943328693"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5ed5961c6276df568891c3ea-1770943328693"
     },
     {
       "id": "6984f9a4664ad9215ebc1862",
@@ -6360,7 +6382,7 @@
       "type": "challenge",
       "completed": true,
       "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5ed5961c6276df568891c3ea-1770943345419"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5ed5961c6276df568891c3ea-1770943345419"
     },
     {
       "id": "6984f9aa551d702d2e5462c9",
@@ -6371,7 +6393,7 @@
       "type": "challenge",
       "completed": true,
       "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5ed5961c6276df568891c3ea-1770943358447"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5ed5961c6276df568891c3ea-1770943358447"
     },
     {
       "id": "6984f9b4e651b3a1f31ca5f4",
@@ -6382,7 +6404,7 @@
       "type": "challenge",
       "completed": true,
       "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5ed5961c6276df568891c3ea-1770943432210"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5ed5961c6276df568891c3ea-1770943432210"
     },
     {
       "id": "6984f9bbeaa12df8209514c6",
@@ -6393,7 +6415,7 @@
       "type": "challenge",
       "completed": true,
       "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5ed5961c6276df568891c3ea-1770943396649"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5ed5961c6276df568891c3ea-1770943396649"
     },
     {
       "id": "6984f9c3164fc6fa0000f3e8",
@@ -6404,7 +6426,7 @@
       "type": "challenge",
       "completed": true,
       "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5ed5961c6276df568891c3ea-1770943420374"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5ed5961c6276df568891c3ea-1770943420374"
     },
     {
       "id": "6984f9ca8b3cae48d8f5affe",
@@ -6415,7 +6437,7 @@
       "type": "challenge",
       "completed": true,
       "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5ed5961c6276df568891c3ea-1770943447874"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5ed5961c6276df568891c3ea-1770943447874"
     },
     {
       "id": "6984f9d2c0097a49339bbb85",
@@ -6426,7 +6448,7 @@
       "type": "challenge",
       "completed": true,
       "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5ed5961c6276df568891c3ea-1770943462089"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5ed5961c6276df568891c3ea-1770943462089"
     },
     {
       "id": "6984f9d8b081801db51a509a",
@@ -6437,7 +6459,7 @@
       "type": "challenge",
       "completed": true,
       "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5ed5961c6276df568891c3ea-1770943483211"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5ed5961c6276df568891c3ea-1770943483211"
     },
     {
       "id": "6989ece61902907bcb539217",
@@ -6448,7 +6470,7 @@
       "type": "challenge",
       "completed": false,
       "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5ed5961c6276df568891c3ea-1770737101248"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5ed5961c6276df568891c3ea-1770737101248"
     },
     {
       "id": "6996b15dda757919a0fceb23",
@@ -6467,7 +6489,7 @@
         "Prompt injection",
         "Artificial intelligence"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6228f0d4ca8e57005149c3e3-1775820505806"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6228f0d4ca8e57005149c3e3-1775820505806"
     },
     {
       "id": "699c39ffe5ef675dd5ac5069",
@@ -6487,7 +6509,7 @@
         "Artificial intelligence",
         "Model hardening"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6228f0d4ca8e57005149c3e3-1775756838514"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6228f0d4ca8e57005149c3e3-1775756838514"
     },
     {
       "id": "69a551a5af9a49ea1cf56e44",
@@ -6510,7 +6532,7 @@
         "Log Viewer NEW",
         "segment 1"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/60eeba4c12d185eee073d97e9a219ff1e4088f3604c9a07605f4aa8a42df9d60.5de96d9ca744773ea7ef8c00-1769425626237"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/60eeba4c12d185eee073d97e9a219ff1e4088f3604c9a07605f4aa8a42df9d60.5de96d9ca744773ea7ef8c00-1769425626237"
     },
     {
       "id": "69a576459c36c7158c55b6b1",
@@ -6532,7 +6554,7 @@
         "AI Pentesting",
         "Artificial intelligence"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6228f0d4ca8e57005149c3e3-1775757065770"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6228f0d4ca8e57005149c3e3-1775757065770"
     },
     {
       "id": "69a762a6d0cf8a134298d3b9",
@@ -6551,7 +6573,7 @@
         "Security architecture",
         "Artificial intelligence"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/69650d18bb3fe8c456972924-1775820714254"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/69650d18bb3fe8c456972924-1775820714254"
     },
     {
       "id": "69abe5c8bc3647d68f78765b",
@@ -6570,7 +6592,7 @@
         "segment 3",
         "Web application security"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62a7685ca6e7ce005d3f3afe-1775466711834"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/62a7685ca6e7ce005d3f3afe-1775466711834"
     },
     {
       "id": "69ae6c930dd4fefb8f723f1b",
@@ -6590,7 +6612,7 @@
         "segment 2",
         "AI Pentesting"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/69650d18bb3fe8c456972924-1775820771840"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/69650d18bb3fe8c456972924-1775820771840"
     },
     {
       "id": "69b3b6ed1ddb43f8f434b187",
@@ -6611,7 +6633,7 @@
         "Red",
         "segment 2"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6989b1062386d3517f652edd-1778494472489"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6989b1062386d3517f652edd-1778494472489"
     },
     {
       "id": "69bbca144a06062f02363e02",
@@ -6621,8 +6643,15 @@
       "difficulty": "easy",
       "type": "challenge",
       "completed": true,
-      "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62ff64c3c859dc0042b2b9f6-1776069056535"
+      "tags": [
+        "Security Analyst/ Blue Team",
+        "Blue",
+        "OSINT",
+        "OSINT ",
+        "people osint",
+        "segment 2"
+      ],
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/62ff64c3c859dc0042b2b9f6-1776069056535"
     },
     {
       "id": "69bbcfaeca986bc5db93e493",
@@ -6642,7 +6671,7 @@
         "segment 2",
         "Web application security"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/691e303c8bb7e99b93a58132-1774169676399"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/691e303c8bb7e99b93a58132-1774169676399"
     },
     {
       "id": "69c2381f98005f8d89c1e7fe",
@@ -6662,7 +6691,7 @@
         "Cyber",
         "segment 2.5"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/62a7685ca6e7ce005d3f3afe-1779358981056"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/62a7685ca6e7ce005d3f3afe-1779358981056"
     },
     {
       "id": "69cbb5b9fde0c51587c223ec",
@@ -6673,7 +6702,7 @@
       "type": "challenge",
       "completed": true,
       "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/5dbea226085ab6182a2ee0f7-1774958473025"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5dbea226085ab6182a2ee0f7-1774958473025"
     },
     {
       "id": "69d11794a4b37712cfb0bdc4",
@@ -6693,7 +6722,7 @@
         "AI Pentesting",
         "Artificial intelligence"
       ],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6228f0d4ca8e57005149c3e3-1775755617179"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6228f0d4ca8e57005149c3e3-1775755617179"
     },
     {
       "id": "69d65e3c1f606a19e2c00d3b",
@@ -6704,7 +6733,7 @@
       "type": "walkthrough",
       "completed": true,
       "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6228f0d4ca8e57005149c3e3-1776095593200"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6228f0d4ca8e57005149c3e3-1776095593200"
     },
     {
       "id": "6a0063c4cfe1b136130aa827",
@@ -6715,7 +6744,30 @@
       "type": "challenge",
       "completed": false,
       "tags": [],
-      "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/6228f0d4ca8e57005149c3e3-1778751780554"
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/6228f0d4ca8e57005149c3e3-1778751780554"
+    },
+    {
+      "id": "6a56425a934818040174f155",
+      "title": "Overheard at Breakfast",
+      "code": "hh-overheardatbreakfast-6f01793c",
+      "description": "Two strangers. One conversation. One profile they never meant to reveal.",
+      "difficulty": "easy",
+      "type": "challenge",
+      "completed": true,
+      "tags": [
+        "General Cyber",
+        "Blue",
+        "Red",
+        "Purple",
+        "OSINT",
+        "image-osint",
+        " osint",
+        "Social media osint",
+        "segment 1",
+        "segment 2",
+        "N/A"
+      ],
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5dbea226085ab6182a2ee0f7-1785251499374"
     }
   ]
 }

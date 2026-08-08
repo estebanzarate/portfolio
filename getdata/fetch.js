@@ -2,6 +2,7 @@ import 'dotenv/config';
 import { writeFileSync, readFileSync, existsSync, mkdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { execSync } from 'child_process';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = join(__dirname, '../src/data');
@@ -27,26 +28,6 @@ const CONFIG = {
       Authorization: `Bearer ${process.env.HTB_API_TOKEN}`,
       Origin: 'https://app.hackthebox.com',
       Referer: 'https://app.hackthebox.com/',
-    },
-  },
-  thm: {
-    base: 'https://tryhackme.com/api/v2',
-    output: join(DATA_DIR, 'rooms.json'),
-    headers: {
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0',
-      Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-      'Accept-Language': 'en-US,en;q=0.9,es-419;q=0.8,es;q=0.7,es-AR;q=0.6',
-      'Cache-Control': 'max-age=0',
-      'Upgrade-Insecure-Requests': '1',
-      'Sec-Fetch-Dest': 'document',
-      'Sec-Fetch-Mode': 'navigate',
-      'Sec-Fetch-Site': 'none',
-      'Sec-Fetch-User': '?1',
-      'sec-ch-ua': '"Not=A?Brand";v="99", "Microsoft Edge";v="151", "Chromium";v="151"',
-      'sec-ch-ua-mobile': '?0',
-      'sec-ch-ua-platform': '"Windows"',
-      Priority: 'u=0, i',
-      Cookie: process.env.THM_COOKIES,
     },
   },
   writeups: {
@@ -127,56 +108,15 @@ async function processMachines() {
 
 async function processTHM() {
   console.log('🚪 Processing TryHackMe...');
-  let page = 1, allDocs = [], totalPages = 1;
-  while (page <= totalPages) {
-    const res = await fetch(
-      `${CONFIG.thm.base}/rooms/my-rooms?page=${page}&limit=200`,
-      { headers: CONFIG.thm.headers }
-    );
-    if (!res.ok) {
-      const body = await res.text().catch(() => '(no body)');
-      throw new Error(`THM API error on page ${page} — status: ${res.status} ${res.statusText} — body: ${body.slice(0, 300)}`);
-    }
-    const json = await res.json();
-    allDocs = allDocs.concat(json.data.docs);
-    totalPages = json.data.totalPages;
-    page++;
-  }
-
-  mkdirSync(SAMPLE_DIR, { recursive: true });
-  writeFileSync(join(SAMPLE_DIR, 'thm.json'), JSON.stringify(allDocs[0] ?? {}, null, 2));
-
-  const completed = allDocs.filter(r => r.userCompleted);
-  const byDifficulty = {}, byType = {};
-  for (const r of completed) {
-    byDifficulty[r.difficulty] = (byDifficulty[r.difficulty] ?? 0) + 1;
-    byType[r.type] = (byType[r.type] ?? 0) + 1;
-  }
-  const output = {
-    last_updated: new Date().toISOString(),
-    statistics: {
-      total_rooms: allDocs.length,
-      completed: completed.length,
-      completion_percentage: allDocs.length > 0 ? Math.round((completed.length / allDocs.length) * 1000) / 10 : 0,
-      by_difficulty: byDifficulty,
-      by_type: byType,
-    },
-    rooms: allDocs.map(r => ({
-      id: r._id, title: r.title, code: r.code, description: r.description,
-      difficulty: r.difficulty, type: r.type, completed: r.userCompleted,
-      tags: r.tagEntities.map(t => t.tagLabel), imageURL: r.imageURL,
-    })),
-  };
-  writeFileSync(CONFIG.thm.output, JSON.stringify(output, null, 2));
-  console.log(`✅ THM: ${output.rooms.length} rooms saved.`);
-  console.log(`   📄 Sample saved to .data/thm.json`);
+  const scriptPath = join(__dirname, 'fetch_thm.py');
+  execSync(`python3 "${scriptPath}"`, { stdio: 'inherit' });
 }
 
 function processWriteups() {
   console.log('📝 Updating writeups...');
   const writeupsPath = CONFIG.writeups.output;
   const machinesPath = CONFIG.machines.output;
-  const roomsPath = CONFIG.thm.output;
+  const roomsPath = join(DATA_DIR, 'rooms.json');
   const existing = existsSync(writeupsPath)
     ? JSON.parse(readFileSync(writeupsPath, 'utf-8'))
     : { machines: {}, rooms: {} };
