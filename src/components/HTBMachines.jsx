@@ -8,14 +8,22 @@ import StatsBanner from './ui/StatsBanner'
 import EmptyState from './ui/EmptyState'
 
 const difficultyColor = {
-  Easy: 'text-success border-success/40 bg-success/10',
-  Medium: 'text-warning border-warning/40 bg-warning/10',
-  Hard: 'text-danger border-danger/40 bg-danger/10',
-  Insane: 'text-[#b0b8c8] border-[#b0b8c8]/40 bg-[#b0b8c8]/10',
+  'Very Easy': 'text-[#63e6be] border-[#63e6be]/40 bg-[#63e6be]/10',
+  Easy:        'text-success border-success/40 bg-success/10',
+  Medium:      'text-warning border-warning/40 bg-warning/10',
+  Hard:        'text-danger border-danger/40 bg-danger/10',
+  Insane:      'text-[#b0b8c8] border-[#b0b8c8]/40 bg-[#b0b8c8]/10',
 }
+
+const spTierLabel = {
+  1: 'SP T1',
+  2: 'SP T2',
+  3: 'SP T3',
+}
+
 const ITEMS_PER_PAGE = 20
-const paginationBtn = 'px-3 py-1.5 rounded bg-surface2 text-secondary text-sm transition-colors cursor-pointer hover:text-light disabled:opacity-30 disabled:cursor-not-allowed'
-const selectClass = 'cursor-pointer px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-secondary focus:outline-none focus:border-primary text-sm'
+const paginationBtn  = 'px-3 py-1.5 rounded bg-surface2 text-secondary text-sm transition-colors cursor-pointer hover:text-light disabled:opacity-30 disabled:cursor-not-allowed'
+const selectClass    = 'cursor-pointer px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-secondary focus:outline-none focus:border-primary text-sm'
 
 function SortIcon({ sortKey, col, sortDir }) {
   if (sortKey !== col) return <span className="ml-1 text-secondary opacity-40">↕</span>
@@ -25,8 +33,12 @@ function SortIcon({ sortKey, col, sortDir }) {
 function WriteupLink({ url, label }) {
   if (!url) return <span className="text-secondary text-xs">—</span>
   return (
-    <a href={url} target="_blank" rel="noopener noreferrer"
-      className="inline-flex items-center gap-1 text-xs text-primary hover:underline cursor-pointer">
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-1 text-xs text-primary hover:underline cursor-pointer"
+    >
       {label}
       <svg className="w-3 h-3" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
@@ -40,23 +52,21 @@ function HTBMachines() {
   const t = translations[lang].machines
   const { statistics, machines } = machinesData
 
-  const [filterOS, setFilterOS] = useState('All')
+  const [filterOS, setFilterOS]     = useState('All')
   const [filterDiff, setFilterDiff] = useState('All')
-  const [search, setSearch] = useState('')
-  const [page, setPage] = useState(1)
-  const [sortKey, setSortKey] = useState(null)
-  const [sortDir, setSortDir] = useState('asc')
+  const [filterSP, setFilterSP]     = useState('All')
+  const [search, setSearch]         = useState('')
+  const [page, setPage]             = useState(1)
+  const [sortKey, setSortKey]       = useState(null)
+  const [sortDir, setSortDir]       = useState('asc')
 
-  const osList = ['All', ...Object.keys(statistics.by_os)]
-  const diffList = ['All', 'Easy', 'Medium', 'Hard', 'Insane']
+  const osList   = ['All', ...Object.keys(statistics.by_os)]
+  const diffList = ['All', 'Very Easy', 'Easy', 'Medium', 'Hard', 'Insane']
+  const spList   = ['All', '1', '2', '3']
 
   function handleSort(key) {
-    if (sortKey === key) {
-      setSortDir(prev => prev === 'asc' ? 'desc' : 'asc')
-    } else {
-      setSortKey(key)
-      setSortDir('asc')
-    }
+    if (sortKey === key) setSortDir(prev => prev === 'asc' ? 'desc' : 'asc')
+    else { setSortKey(key); setSortDir('asc') }
     setPage(1)
   }
 
@@ -75,11 +85,17 @@ function HTBMachines() {
   }
 
   const filtered = useMemo(() => machines.filter(m => {
-    const matchOS = filterOS === 'All' || m.os === filterOS
-    const matchDiff = filterDiff === 'All' || m.difficulty === filterDiff
+    const matchOS     = filterOS   === 'All' || m.os === filterOS
+    const matchDiff   = filterDiff === 'All' || m.difficulty === filterDiff
+    const matchSP     = filterSP   === 'All'
+      ? true
+      : filterSP === '1' ? m.sp_tier === 1
+      : filterSP === '2' ? m.sp_tier === 2
+      : filterSP === '3' ? m.sp_tier === 3
+      : true
     const matchSearch = m.name.toLowerCase().includes(search.toLowerCase())
-    return matchOS && matchDiff && matchSearch
-  }), [machines, filterOS, filterDiff, search])
+    return matchOS && matchDiff && matchSP && matchSearch
+  }), [machines, filterOS, filterDiff, filterSP, search])
 
   const sorted = useMemo(() => {
     if (!sortKey) return filtered
@@ -88,6 +104,10 @@ function HTBMachines() {
       if (sortKey === 'writeup') {
         av = writeupsData.machines[String(a.id)]?.writeup ?? ''
         bv = writeupsData.machines[String(b.id)]?.writeup ?? ''
+      }
+      if (sortKey === 'sp_tier') {
+        av = a.sp_tier ?? 99
+        bv = b.sp_tier ?? 99
       }
       if (typeof av === 'boolean') av = av ? 1 : 0
       if (typeof bv === 'boolean') bv = bv ? 1 : 0
@@ -99,18 +119,20 @@ function HTBMachines() {
   }, [filtered, sortKey, sortDir])
 
   const totalPages = Math.ceil(sorted.length / ITEMS_PER_PAGE)
-  const paginated = sorted.slice((page - 1) * ITEMS_PER_PAGE, page * ITEMS_PER_PAGE)
+  const paginated  = sorted.slice((page - 1) * ITEMS_PER_PAGE, page * ITEMS_PER_PAGE)
 
-  const hasData = machines.length > 0
+  const hasData    = machines.length > 0
   const hasResults = filtered.length > 0
 
   const bannerItems = [
-    { label: t.total, value: statistics.total, accent: false },
-    { label: t.userOwns, value: statistics.user_owns, accent: false },
-    { label: t.rootOwns, value: statistics.root_owns, accent: false },
+    { label: t.total,    value: statistics.total,      accent: false },
+    { label: t.userOwns, value: statistics.user_owns,  accent: false },
+    { label: t.rootOwns, value: statistics.root_owns,  accent: false },
   ]
   const bannerChips = [
-    ...Object.entries(statistics.by_difficulty).map(([d, v]) => ({ label: d, value: v, id: `diff:${d}` })),
+    ...['Very Easy', 'Easy', 'Medium', 'Hard', 'Insane']
+      .filter(d => statistics.by_difficulty[d] != null)
+      .map(d => ({ label: d, value: statistics.by_difficulty[d], id: `diff:${d}` })),
     ...Object.entries(statistics.by_os).map(([os, v]) => ({ label: os, value: v, id: `os:${os}` })),
   ]
 
@@ -121,9 +143,9 @@ function HTBMachines() {
 
   const activeChip =
     filterDiff !== 'All' ? `diff:${filterDiff}` :
-      filterOS !== 'All' ? `os:${filterOS}` : null
+    filterOS   !== 'All' ? `os:${filterOS}` : null
 
-  const thClass = 'px-4 py-3 text-left cursor-pointer hover:text-light select-none'
+  const thClass       = 'px-4 py-3 text-left cursor-pointer hover:text-light select-none'
   const thClassCenter = 'px-4 py-3 text-center cursor-pointer hover:text-light select-none'
 
   const Pagination = () => totalPages > 1 ? (
@@ -145,23 +167,17 @@ function HTBMachines() {
 
       {!hasData ? <EmptyState message={t.noData} /> : (
         <>
-          <StatsBanner
-            items={bannerItems}
-            chips={bannerChips}
-            activeChip={activeChip}
-            onChipClick={handleBannerChip}
-          />
+          <StatsBanner items={bannerItems} chips={bannerChips} activeChip={activeChip} onChipClick={handleBannerChip} />
 
-          {/* Stats desktop */}
           <div className="hidden md:flex flex-wrap gap-3">
-            <StatCard label={t.total} value={statistics.total} colorClass="border-surface2" />
+            <StatCard label={t.total}    value={statistics.total}     colorClass="border-surface2" />
             <StatCard label={t.userOwns} value={statistics.user_owns} colorClass="border-surface2" />
             <StatCard label={t.rootOwns} value={statistics.root_owns} colorClass="border-surface2" />
-            {['Easy', 'Medium', 'Hard', 'Insane'].map(d => (
+            {['Very Easy', 'Easy', 'Medium', 'Hard', 'Insane'].filter(d => statistics.by_difficulty[d] != null).map(d => (
               <StatCard
                 key={d}
                 label={d}
-                value={statistics.by_difficulty[d] ?? 0}
+                value={statistics.by_difficulty[d]}
                 colorClass="border-surface2"
                 active={filterDiff === d}
                 onClick={() => toggleDiffFilter(d)}
@@ -184,14 +200,24 @@ function HTBMachines() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-3">
-            <input type="text" placeholder={t.searchPlaceholder} value={search}
+            <input
+              type="text"
+              placeholder={t.searchPlaceholder}
+              value={search}
               onChange={e => { setSearch(e.target.value); setPage(1) }}
-              className="flex-1 px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-light placeholder-secondary focus:outline-none focus:border-primary text-sm" />
+              className="flex-1 px-3 py-2 rounded-lg bg-surface2 border border-surface2 text-light placeholder-secondary focus:outline-none focus:border-primary text-sm"
+            />
             <select value={filterOS} onChange={e => handleFilterChange(setFilterOS)(e.target.value)} className={selectClass}>
               {osList.map(os => <option key={os} value={os}>{os === 'All' ? t.allOS : os}</option>)}
             </select>
             <select value={filterDiff} onChange={e => handleFilterChange(setFilterDiff)(e.target.value)} className={selectClass}>
               {diffList.map(d => <option key={d} value={d}>{d === 'All' ? t.allDiff : d}</option>)}
+            </select>
+            <select value={filterSP} onChange={e => handleFilterChange(setFilterSP)(e.target.value)} className={selectClass}>
+              <option value="All">{t.allSP}</option>
+              <option value="1">SP Tier 1</option>
+              <option value="2">SP Tier 2</option>
+              <option value="3">SP Tier 3</option>
             </select>
           </div>
           <p className="text-secondary text-sm">{filtered.length} {t.found}</p>
@@ -205,14 +231,23 @@ function HTBMachines() {
                   return (
                     <div key={m.id} className="flex items-center justify-between p-3 rounded-lg bg-surface border border-surface2">
                       <div className="flex flex-col gap-1 min-w-0">
-                        <span className="text-light font-medium text-sm truncate">{m.name}</span>
+                        <div className="flex items-center gap-1.5 min-w-0">
+                          <span className="text-light font-medium text-sm truncate">{m.name}</span>
+                          {m.sp_tier && (
+                            <span className="shrink-0 text-[10px] px-1.5 py-0.5 rounded bg-primary/10 border border-primary/30 text-primary font-medium">
+                              {spTierLabel[m.sp_tier]}
+                            </span>
+                          )}
+                        </div>
                         <div className="flex items-center gap-2 flex-wrap">
                           <span className="text-secondary text-xs">{m.os}</span>
                           {writeup && <WriteupLink url={writeup} label="Writeup" />}
                         </div>
                       </div>
                       <div className="flex items-center gap-2 shrink-0 ml-3">
-                        <span className={`px-2 py-0.5 rounded border text-xs font-medium ${difficultyColor[m.difficulty]}`}>{m.difficulty}</span>
+                        <span className={`px-2 py-0.5 rounded border text-xs font-medium ${difficultyColor[m.difficulty] ?? 'text-secondary border-surface2'}`}>
+                          {m.difficulty}
+                        </span>
                         <span className={`text-sm font-bold ${m.user_owned ? 'text-success' : 'text-secondary'}`} title={t.user}>U</span>
                         <span className={`text-sm font-bold ${m.root_owned ? 'text-success' : 'text-secondary'}`} title={t.root}>R</span>
                       </div>
@@ -235,6 +270,9 @@ function HTBMachines() {
                       <th className={thClass} onClick={() => handleSort('difficulty')}>
                         {t.difficulty}<SortIcon sortKey={sortKey} col="difficulty" sortDir={sortDir} />
                       </th>
+                      <th className={thClass} onClick={() => handleSort('sp_tier')}>
+                        SP<SortIcon sortKey={sortKey} col="sp_tier" sortDir={sortDir} />
+                      </th>
                       <th className={thClassCenter} onClick={() => handleSort('user_owned')}>
                         {t.user}<SortIcon sortKey={sortKey} col="user_owned" sortDir={sortDir} />
                       </th>
@@ -251,10 +289,24 @@ function HTBMachines() {
                       const writeup = writeupsData.machines[String(m.id)]?.writeup ?? null
                       return (
                         <tr key={m.id} className={`border-t border-surface2 hover:bg-surface2/50 transition-colors ${i % 2 === 0 ? '' : 'bg-surface/30'}`}>
-                          <td className="px-4 py-3 text-light font-medium">{m.name}</td>
+                          <td className="px-4 py-3">
+                            <div className="flex items-center gap-2">
+                              <span className="text-light font-medium">{m.name}</span>
+                              {m.sp_tier && (
+                                <span className="text-[10px] px-1.5 py-0.5 rounded bg-primary/10 border border-primary/30 text-primary font-medium">
+                                  {spTierLabel[m.sp_tier]}
+                                </span>
+                              )}
+                            </div>
+                          </td>
                           <td className="px-4 py-3 text-secondary">{m.os}</td>
                           <td className="px-4 py-3">
-                            <span className={`px-2 py-0.5 rounded border text-xs font-medium ${difficultyColor[m.difficulty]}`}>{m.difficulty}</span>
+                            <span className={`px-2 py-0.5 rounded border text-xs font-medium ${difficultyColor[m.difficulty] ?? 'text-secondary border-surface2'}`}>
+                              {m.difficulty}
+                            </span>
+                          </td>
+                          <td className="px-4 py-3 text-secondary text-xs">
+                            {m.sp_tier ? spTierLabel[m.sp_tier] : '—'}
                           </td>
                           <td className="px-4 py-3 text-center">{m.user_owned ? <span className="text-success font-bold">✓</span> : <span className="text-secondary">✗</span>}</td>
                           <td className="px-4 py-3 text-center">{m.root_owned ? <span className="text-success font-bold">✓</span> : <span className="text-secondary">✗</span>}</td>

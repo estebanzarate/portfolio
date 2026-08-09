@@ -736,6 +736,26 @@
       "name": "Time",
       "writeup": null
     },
+    "287": {
+      "name": "Archetype",
+      "writeup": null
+    },
+    "288": {
+      "name": "Oopsie",
+      "writeup": null
+    },
+    "289": {
+      "name": "Vaccine",
+      "writeup": null
+    },
+    "292": {
+      "name": "Included",
+      "writeup": null
+    },
+    "293": {
+      "name": "Markup",
+      "writeup": null
+    },
     "296": {
       "name": "APT",
       "writeup": null
@@ -944,6 +964,26 @@
       "name": "Jarmis",
       "writeup": null
     },
+    "393": {
+      "name": "Fawn",
+      "writeup": null
+    },
+    "394": {
+      "name": "Meow",
+      "writeup": null
+    },
+    "395": {
+      "name": "Dancing",
+      "writeup": null
+    },
+    "396": {
+      "name": "Explosion",
+      "writeup": null
+    },
+    "397": {
+      "name": "Preignition",
+      "writeup": null
+    },
     "398": {
       "name": "Devzat",
       "writeup": null
@@ -959,6 +999,30 @@
     "401": {
       "name": "Return",
       "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/return"
+    },
+    "402": {
+      "name": "Appointment",
+      "writeup": null
+    },
+    "403": {
+      "name": "Sequel",
+      "writeup": null
+    },
+    "404": {
+      "name": "Crocodile",
+      "writeup": null
+    },
+    "405": {
+      "name": "Ignition",
+      "writeup": null
+    },
+    "406": {
+      "name": "Pennyworth",
+      "writeup": null
+    },
+    "407": {
+      "name": "Tactics",
+      "writeup": null
     },
     "408": {
       "name": "Secret",
@@ -1048,6 +1112,10 @@
       "name": "Pressed",
       "writeup": null
     },
+    "441": {
+      "name": "Unified",
+      "writeup": null
+    },
     "442": {
       "name": "Epsilon",
       "writeup": null
@@ -1070,6 +1138,10 @@
     },
     "448": {
       "name": "Phoenix",
+      "writeup": null
+    },
+    "449": {
+      "name": "Bike",
       "writeup": null
     },
     "450": {
@@ -1104,6 +1176,10 @@
       "name": "Altered",
       "writeup": null
     },
+    "461": {
+      "name": "Responder",
+      "writeup": null
+    },
     "462": {
       "name": "Backend",
       "writeup": null
@@ -1132,6 +1208,10 @@
       "name": "OpenSource",
       "writeup": null
     },
+    "472": {
+      "name": "Redeemer",
+      "writeup": null
+    },
     "473": {
       "name": "Seventeen",
       "writeup": null
@@ -1150,6 +1230,10 @@
     },
     "478": {
       "name": "Carpediem",
+      "writeup": null
+    },
+    "479": {
+      "name": "Base",
       "writeup": null
     },
     "480": {
@@ -1174,6 +1258,10 @@
     },
     "485": {
       "name": "Moderators",
+      "writeup": null
+    },
+    "489": {
+      "name": "Three",
       "writeup": null
     },
     "490": {
@@ -1212,6 +1300,10 @@
       "name": "Photobomb",
       "writeup": null
     },
+    "501": {
+      "name": "Mongod",
+      "writeup": null
+    },
     "502": {
       "name": "RainyDay",
       "writeup": null
@@ -1244,6 +1336,10 @@
       "name": "Squashed",
       "writeup": null
     },
+    "515": {
+      "name": "Synced",
+      "writeup": null
+    },
     "517": {
       "name": "Pollution",
       "writeup": null
@@ -1254,6 +1350,10 @@
     },
     "519": {
       "name": "Soccer",
+      "writeup": null
+    },
+    "520": {
+      "name": "Funnel",
       "writeup": null
     },
     "521": {
@@ -2166,6 +2266,10 @@
     },
     "933": {
       "name": "Cohort",
+      "writeup": null
+    },
+    "936": {
+      "name": "DanglingTree",
       "writeup": null
     },
     "945": {

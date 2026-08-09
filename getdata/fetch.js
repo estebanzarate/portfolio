@@ -73,36 +73,84 @@ async function processAcademy() {
 
 async function processMachines() {
   console.log('🖥️  Processing HTB Machines...');
-  const res = await fetch(`${CONFIG.machines.base}/machines?per_page=1000`, { headers: CONFIG.machines.headers });
-  if (!res.ok) throw new Error('HTB Machines API error');
-  const raw = await res.json();
+
+  const headers = CONFIG.machines.headers;
+  const base = CONFIG.machines.base;
+
+  const [regularRes, sp1Res, sp2Res, sp3Res] = await Promise.all([
+    fetch(`${base}/machines?per_page=1000`, { headers }),
+    fetch(`${base}/machines?spTier=1`, { headers }),
+    fetch(`${base}/machines?spTier=2`, { headers }),
+    fetch(`${base}/machines?spTier=3`, { headers }),
+  ]);
+
+  if (!regularRes.ok) throw new Error(`HTB Machines API error: ${regularRes.status}`);
+  if (!sp1Res.ok) throw new Error(`HTB SP Tier 1 API error: ${sp1Res.status}`);
+  if (!sp2Res.ok) throw new Error(`HTB SP Tier 2 API error: ${sp2Res.status}`);
+  if (!sp3Res.ok) throw new Error(`HTB SP Tier 3 API error: ${sp3Res.status}`);
+
+  const [regularRaw, sp1Raw, sp2Raw, sp3Raw] = await Promise.all([
+    regularRes.json(),
+    sp1Res.json(),
+    sp2Res.json(),
+    sp3Res.json(),
+  ]);
 
   mkdirSync(SAMPLE_DIR, { recursive: true });
-  writeFileSync(join(SAMPLE_DIR, 'htb.json'), JSON.stringify(raw.data[0] ?? {}, null, 2));
+  writeFileSync(join(SAMPLE_DIR, 'htb.json'), JSON.stringify(regularRaw.data[0] ?? {}, null, 2));
 
-  const machines = raw.data.map(m => ({
-    id: m.id, name: m.name, os: m.os, difficulty: m.difficultyText,
-    user_owned: m.authUserInUserOwns, root_owned: m.authUserInRootOwns,
-  }));
-  const owned = raw.data.filter(m => m.authUserInRootOwns);
-  const byOS = {}, byDifficulty = {};
+  const mapMachine = (m, spTier = null) => ({
+    id: m.id,
+    name: m.name,
+    os: m.os,
+    difficulty: m.difficultyText,
+    user_owned: m.authUserInUserOwns,
+    root_owned: m.authUserInRootOwns,
+    sp_tier: spTier,
+  });
+
+  const spIds = new Set([
+    ...sp1Raw.data.map(m => m.id),
+    ...sp2Raw.data.map(m => m.id),
+    ...sp3Raw.data.map(m => m.id),
+  ]);
+
+  const regularMachines = regularRaw.data
+    .filter(m => !spIds.has(m.id))
+    .map(m => mapMachine(m, null));
+
+  const spMachines = [
+    ...sp1Raw.data.map(m => mapMachine(m, 1)),
+    ...sp2Raw.data.map(m => mapMachine(m, 2)),
+    ...sp3Raw.data.map(m => mapMachine(m, 3)),
+  ];
+
+  const allMachines = [...regularMachines, ...spMachines];
+  const allRaw = [...regularRaw.data, ...sp1Raw.data, ...sp2Raw.data, ...sp3Raw.data];
+
+  const owned = allMachines.filter(m => m.root_owned);
+  const byOS = {};
+  const byDiff = {};
+
   for (const m of owned) {
     byOS[m.os] = (byOS[m.os] ?? 0) + 1;
-    byDifficulty[m.difficultyText] = (byDifficulty[m.difficultyText] ?? 0) + 1;
+    byDiff[m.difficulty] = (byDiff[m.difficulty] ?? 0) + 1;
   }
+
   const output = {
     last_updated: new Date().toISOString(),
     statistics: {
-      total: raw.data.length,
-      user_owns: raw.data.filter(m => m.authUserInUserOwns).length,
+      total: allMachines.length,
+      user_owns: allMachines.filter(m => m.user_owned).length,
       root_owns: owned.length,
       by_os: byOS,
-      by_difficulty: byDifficulty,
+      by_difficulty: byDiff,
     },
-    machines,
+    machines: allMachines,
   };
+
   writeFileSync(CONFIG.machines.output, JSON.stringify(output, null, 2));
-  console.log(`✅ Machines: ${machines.length} saved.`);
+  console.log(`✅ Machines: ${regularMachines.length} regular + ${spMachines.length} SP saved (${allMachines.length} total).`);
   console.log(`   📄 Sample saved to .data/htb.json`);
 }
 
