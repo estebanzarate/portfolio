@@ -71,7 +71,11 @@ function HTBMachines() {
   }
 
   function toggleDiffFilter(diff) {
-    setFilterDiff(prev => prev === diff ? 'All' : diff)
+    setFilterDiff(prev => {
+      if (prev === diff) { setFilterSP('All'); return 'All' }
+      if (diff !== 'Very Easy') setFilterSP('All')
+      return diff
+    })
     setPage(1)
   }
 
@@ -81,7 +85,11 @@ function HTBMachines() {
   }
 
   function handleFilterChange(setter) {
-    return (val) => { setter(val); setPage(1) }
+    return (val) => {
+      if (setter === setFilterDiff && val !== 'Very Easy') setFilterSP('All')
+      setter(val)
+      setPage(1)
+    }
   }
 
   const filtered = useMemo(() => machines.filter(m => {
@@ -213,12 +221,14 @@ function HTBMachines() {
             <select value={filterDiff} onChange={e => handleFilterChange(setFilterDiff)(e.target.value)} className={selectClass}>
               {diffList.map(d => <option key={d} value={d}>{d === 'All' ? t.allDiff : d}</option>)}
             </select>
-            <select value={filterSP} onChange={e => handleFilterChange(setFilterSP)(e.target.value)} className={selectClass}>
-              <option value="All">{t.allSP}</option>
-              <option value="1">SP Tier 1</option>
-              <option value="2">SP Tier 2</option>
-              <option value="3">SP Tier 3</option>
-            </select>
+            {filterDiff === 'Very Easy' && (
+              <select value={filterSP} onChange={e => handleFilterChange(setFilterSP)(e.target.value)} className={selectClass}>
+                <option value="All">{t.allSP}</option>
+                <option value="1">SP Tier 1</option>
+                <option value="2">SP Tier 2</option>
+                <option value="3">SP Tier 3</option>
+              </select>
+            )}
           </div>
           <p className="text-secondary text-sm">{filtered.length} {t.found}</p>
 
