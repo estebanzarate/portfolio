@@ -2,7 +2,7 @@
   "machines": {
     "1": {
       "name": "Lame",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/lame"
+      "writeup": ""
     },
     "2": {
       "name": "Legacy",
@@ -14,7 +14,7 @@
     },
     "4": {
       "name": "Popcorn",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/popcorn"
+      "writeup": ""
     },
     "5": {
       "name": "Beep",
@@ -26,11 +26,11 @@
     },
     "7": {
       "name": "Bastard",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/bastard"
+      "writeup": ""
     },
     "8": {
       "name": "Tenten",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/tenten"
+      "writeup": ""
     },
     "9": {
       "name": "Arctic",
@@ -38,7 +38,7 @@
     },
     "11": {
       "name": "Cronos",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/cronos"
+      "writeup": ""
     },
     "13": {
       "name": "Grandpa",
@@ -54,7 +54,7 @@
     },
     "17": {
       "name": "Brainfuck",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/brainfuck"
+      "writeup": ""
     },
     "18": {
       "name": "Lazy",
@@ -66,7 +66,7 @@
     },
     "20": {
       "name": "Joker",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/joker"
+      "writeup": ""
     },
     "21": {
       "name": "Haircut",
@@ -738,15 +738,15 @@
     },
     "287": {
       "name": "Archetype",
-      "writeup": null
+      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/archetype"
     },
     "288": {
       "name": "Oopsie",
-      "writeup": null
+      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/oopsie"
     },
     "289": {
       "name": "Vaccine",
-      "writeup": null
+      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/vaccine"
     },
     "292": {
       "name": "Included",
@@ -834,7 +834,7 @@
     },
     "323": {
       "name": "Armageddon",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/armageddon"
+      "writeup": ""
     },
     "335": {
       "name": "Schooled",
@@ -878,7 +878,7 @@
     },
     "351": {
       "name": "Cap",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/cap"
+      "writeup": ""
     },
     "352": {
       "name": "Dynstr",
@@ -890,7 +890,7 @@
     },
     "356": {
       "name": "Explore",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/explore"
+      "writeup": ""
     },
     "357": {
       "name": "Intelligence",
@@ -922,11 +922,11 @@
     },
     "373": {
       "name": "Previse",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/previse"
+      "writeup": ""
     },
     "374": {
       "name": "Horizontall",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/horizontall"
+      "writeup": ""
     },
     "375": {
       "name": "EarlyAccess",
@@ -946,7 +946,7 @@
     },
     "382": {
       "name": "Validation",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/validation"
+      "writeup": ""
     },
     "384": {
       "name": "Bolt",
@@ -954,7 +954,7 @@
     },
     "387": {
       "name": "Driver",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/driver"
+      "writeup": ""
     },
     "388": {
       "name": "Hancliffe",
@@ -966,15 +966,15 @@
     },
     "393": {
       "name": "Fawn",
-      "writeup": null
+      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/fawn"
     },
     "394": {
       "name": "Meow",
-      "writeup": null
+      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/meow"
     },
     "395": {
       "name": "Dancing",
-      "writeup": null
+      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/dancing"
     },
     "396": {
       "name": "Explosion",
@@ -998,19 +998,19 @@
     },
     "401": {
       "name": "Return",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/return"
+      "writeup": ""
     },
     "402": {
       "name": "Appointment",
-      "writeup": null
+      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/appointment"
     },
     "403": {
       "name": "Sequel",
-      "writeup": null
+      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/sequel"
     },
     "404": {
       "name": "Crocodile",
-      "writeup": null
+      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/crocodile"
     },
     "405": {
       "name": "Ignition",
@@ -1026,7 +1026,7 @@
     },
     "408": {
       "name": "Secret",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/secret"
+      "writeup": ""
     },
     "409": {
       "name": "Toby",
@@ -1042,7 +1042,7 @@
     },
     "414": {
       "name": "Nunchucks",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/nunchucks"
+      "writeup": ""
     },
     "415": {
       "name": "Unicode",
@@ -1050,7 +1050,7 @@
     },
     "416": {
       "name": "Backdoor",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/backdoor"
+      "writeup": ""
     },
     "417": {
       "name": "Fingerprint",
@@ -1086,7 +1086,7 @@
     },
     "430": {
       "name": "NodeBlog",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/nodeblog"
+      "writeup": ""
     },
     "431": {
       "name": "Scanned",
@@ -1094,7 +1094,7 @@
     },
     "432": {
       "name": "Paper",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/paper"
+      "writeup": ""
     },
     "437": {
       "name": "Flustered",
@@ -1114,7 +1114,7 @@
     },
     "441": {
       "name": "Unified",
-      "writeup": null
+      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/unified"
     },
     "442": {
       "name": "Epsilon",
@@ -1178,7 +1178,7 @@
     },
     "461": {
       "name": "Responder",
-      "writeup": null
+      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/responder"
     },
     "462": {
       "name": "Backend",
@@ -1210,7 +1210,7 @@
     },
     "472": {
       "name": "Redeemer",
-      "writeup": null
+      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/redeemer"
     },
     "473": {
       "name": "Seventeen",
@@ -1242,7 +1242,7 @@
     },
     "481": {
       "name": "RedPanda",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/redpanda"
+      "writeup": ""
     },
     "482": {
       "name": "Extension",
@@ -1254,7 +1254,7 @@
     },
     "484": {
       "name": "Support",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/support"
+      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/support"
     },
     "485": {
       "name": "Moderators",
@@ -1262,7 +1262,7 @@
     },
     "489": {
       "name": "Three",
-      "writeup": null
+      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/three"
     },
     "490": {
       "name": "Outdated",
@@ -1362,7 +1362,7 @@
     },
     "523": {
       "name": "Stocker",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/stocker"
+      "writeup": ""
     },
     "525": {
       "name": "Investigation",
@@ -1450,7 +1450,7 @@
     },
     "547": {
       "name": "TwoMillion",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/twomillion"
+      "writeup": ""
     },
     "548": {
       "name": "Sandworm",
@@ -1590,7 +1590,7 @@
     },
     "587": {
       "name": "Crafty",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/crafty"
+      "writeup": ""
     },
     "588": {
       "name": "Office",
@@ -1602,7 +1602,7 @@
     },
     "590": {
       "name": "Perfection",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/perfection"
+      "writeup": ""
     },
     "591": {
       "name": "Builder",
@@ -1682,7 +1682,7 @@
     },
     "616": {
       "name": "Ghost",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/ghost"
+      "writeup": ""
     },
     "617": {
       "name": "GreenHorn",
@@ -1794,7 +1794,7 @@
     },
     "644": {
       "name": "Strutted",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/strutted"
+      "writeup": ""
     },
     "645": {
       "name": "BigBang",
@@ -1822,7 +1822,7 @@
     },
     "651": {
       "name": "Dog",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/dog"
+      "writeup": ""
     },
     "652": {
       "name": "TheFrizz",
@@ -1838,7 +1838,7 @@
     },
     "655": {
       "name": "WhiteRabbit",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/whiterabbit"
+      "writeup": ""
     },
     "656": {
       "name": "Nocturnal",
@@ -1850,11 +1850,11 @@
     },
     "658": {
       "name": "Eureka",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/eureka"
+      "writeup": ""
     },
     "659": {
       "name": "Environment",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/environment"
+      "writeup": ""
     },
     "660": {
       "name": "Planning",
@@ -1882,7 +1882,7 @@
     },
     "666": {
       "name": "Down",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/down"
+      "writeup": ""
     },
     "667": {
       "name": "Shibuya",
@@ -1890,27 +1890,27 @@
     },
     "668": {
       "name": "Artificial",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/artificial"
+      "writeup": ""
     },
     "669": {
       "name": "RustyKey",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/rustykey"
+      "writeup": ""
     },
     "670": {
       "name": "Voleur",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/voleur"
+      "writeup": ""
     },
     "671": {
       "name": "Retro",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/retro"
+      "writeup": ""
     },
     "672": {
       "name": "Outbound",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/outbound"
+      "writeup": ""
     },
     "673": {
       "name": "Data",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/data"
+      "writeup": ""
     },
     "677": {
       "name": "VulnCicada",
@@ -1918,11 +1918,11 @@
     },
     "678": {
       "name": "VulnEscape",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/vulnescape"
+      "writeup": ""
     },
     "680": {
       "name": "Reset",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/reset"
+      "writeup": ""
     },
     "681": {
       "name": "Redelegate",
@@ -1930,19 +1930,19 @@
     },
     "682": {
       "name": "Mirage",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/mirage"
+      "writeup": ""
     },
     "683": {
       "name": "Era",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/era"
+      "writeup": ""
     },
     "684": {
       "name": "Editor",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/editor"
+      "writeup": ""
     },
     "685": {
       "name": "RetroTwo",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/retrotwo"
+      "writeup": ""
     },
     "686": {
       "name": "Ten",
@@ -1950,7 +1950,7 @@
     },
     "687": {
       "name": "Manage",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/manage"
+      "writeup": ""
     },
     "688": {
       "name": "LustrousTwo",
@@ -1986,7 +1986,7 @@
     },
     "699": {
       "name": "Lock",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/lock"
+      "writeup": ""
     },
     "701": {
       "name": "Previous",
@@ -2026,15 +2026,15 @@
     },
     "733": {
       "name": "Forgotten",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/forgotten"
+      "writeup": ""
     },
     "736": {
       "name": "Expressway",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/expressway"
+      "writeup": ""
     },
     "739": {
       "name": "Baby",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/baby"
+      "writeup": ""
     },
     "743": {
       "name": "RainbowTwo",
@@ -2118,7 +2118,7 @@
     },
     "805": {
       "name": "Eighteen",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/eighteen"
+      "writeup": ""
     },
     "808": {
       "name": "Fries",
@@ -2138,7 +2138,7 @@
     },
     "820": {
       "name": "Browsed",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/browsed"
+      "writeup": ""
     },
     "823": {
       "name": "AirTouch",
@@ -2146,7 +2146,7 @@
     },
     "826": {
       "name": "Overwatch",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/overwatch"
+      "writeup": ""
     },
     "829": {
       "name": "Facts",
@@ -2182,7 +2182,7 @@
     },
     "853": {
       "name": "Principal",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/hack-the-box/machines/principal"
+      "writeup": ""
     },
     "856": {
       "name": "Kobold",
@@ -2214,7 +2214,7 @@
     },
     "894": {
       "name": "Helix",
-      "writeup": null
+      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/helix"
     },
     "897": {
       "name": "SmartHire",
@@ -2304,7 +2304,7 @@
     },
     "ignite": {
       "title": "Ignite",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/ignite"
+      "writeup": ""
     },
     "basicpentestingjt": {
       "title": "Basic Pentesting",
@@ -2316,7 +2316,7 @@
     },
     "bsidesgtanonforce": {
       "title": "Anonforce",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/anonforce"
+      "writeup": ""
     },
     "rppsempire": {
       "title": "Empire",
@@ -2324,15 +2324,15 @@
     },
     "bsidesgtthompson": {
       "title": "Thompson",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/thompson"
+      "writeup": ""
     },
     "bsidesgtlibrary": {
       "title": "Library",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/library"
+      "writeup": ""
     },
     "bsidesgtdav": {
       "title": "Dav",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/dav"
+      "writeup": ""
     },
     "kenobi": {
       "title": "Kenobi",
@@ -2380,7 +2380,7 @@
     },
     "jackofalltrades": {
       "title": "Jack-of-All-Trades",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/jack-of-all-trades"
+      "writeup": ""
     },
     "thecodcaper": {
       "title": "The Cod Caper",
@@ -2388,7 +2388,7 @@
     },
     "yearoftherabbit": {
       "title": "Year of the Rabbit",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/year-of-the-rabbit"
+      "writeup": ""
     },
     "torforbeginners": {
       "title": "Tor",
@@ -2488,7 +2488,7 @@
     },
     "breakoutthecage1": {
       "title": "Break Out The Cage",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/break-out-the-cage"
+      "writeup": ""
     },
     "attackerkb": {
       "title": "AttackerKB",
@@ -2568,7 +2568,7 @@
     },
     "allinonemj": {
       "title": "All in One",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/all-in-one  "
+      "writeup": ""
     },
     "gettingstarted": {
       "title": "Getting Started",
@@ -2612,7 +2612,7 @@
     },
     "cyborgt8": {
       "title": "Cyborg",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/cyborg"
+      "writeup": ""
     },
     "bashscripting": {
       "title": "Bash Scripting ",
@@ -2624,7 +2624,7 @@
     },
     "vulnnetnode": {
       "title": "VulnNet: Node",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/vulnnet-node"
+      "writeup": ""
     },
     "sudovulnssamedit": {
       "title": "Baron Samedit",
@@ -2636,7 +2636,7 @@
     },
     "vulnnetinternal": {
       "title": "VulnNet: Internal",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/vulnnet-internal"
+      "writeup": ""
     },
     "cyberweek2021": {
       "title": "Cyber Scotland 2021",
@@ -2644,7 +2644,7 @@
     },
     "vulnnetroasted": {
       "title": "VulnNet: Roasted",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/vulnnet-roasted"
+      "writeup": ""
     },
     "linuxfundamentalspart1": {
       "title": "Linux Fundamentals Part 1",
@@ -2744,7 +2744,7 @@
     },
     "ide": {
       "title": "IDE",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/ide"
+      "writeup": ""
     },
     "polkit": {
       "title": "Polkit: CVE-2021-3560",
@@ -2860,7 +2860,7 @@
     },
     "techsupp0rt1": {
       "title": "Tech_Supp0rt: 1",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/tech_supp0rt-1"
+      "writeup": ""
     },
     "securityawarenessintro": {
       "title": "Security Awareness",
@@ -2868,7 +2868,7 @@
     },
     "jason": {
       "title": "Jax sucks alot.............",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/jax-sucks-alot"
+      "writeup": ""
     },
     "atlas": {
       "title": "Atlas",
@@ -2928,7 +2928,7 @@
     },
     "plottedtms": {
       "title": "Plotted-TMS",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/plotted-tms"
+      "writeup": ""
     },
     "insekube": {
       "title": "Insekube",
@@ -2992,7 +2992,7 @@
     },
     "lofi": {
       "title": "Lo-Fi",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/lo-fi"
+      "writeup": ""
     },
     "cyberheroes": {
       "title": "CyberHeroes",
@@ -3004,7 +3004,7 @@
     },
     "takeover": {
       "title": "TakeOver",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/takeover"
+      "writeup": ""
     },
     "intronetworksecurity": {
       "title": "Network Security",
@@ -3020,7 +3020,7 @@
     },
     "bugged": {
       "title": "Bugged",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/bugged"
+      "writeup": ""
     },
     "printnightmarehpzqlp8": {
       "title": "PrintNightmare",
@@ -3036,7 +3036,7 @@
     },
     "b3dr0ck": {
       "title": "b3dr0ck",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/b3dr0ck"
+      "writeup": ""
     },
     "securityoperations": {
       "title": "Security Operations",
@@ -3080,7 +3080,7 @@
     },
     "dreaming": {
       "title": "Dreaming",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/dreaming"
+      "writeup": ""
     },
     "splunkexploringspl": {
       "title": "Splunk: Exploring SPL",
@@ -3088,15 +3088,15 @@
     },
     "valleype": {
       "title": "Valley",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/valley"
+      "writeup": ""
     },
     "crylo4a": {
       "title": "Crylo",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/crylo"
+      "writeup": ""
     },
     "hijack": {
       "title": "Hijack",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/hijack"
+      "writeup": ""
     },
     "outlookntlmleak": {
       "title": "Outlook NTLM Leak",
@@ -3124,7 +3124,7 @@
     },
     "publisher": {
       "title": "Publisher",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/publisher"
+      "writeup": ""
     },
     "httprequestsmuggling": {
       "title": "HTTP Request Smuggling",
@@ -3152,11 +3152,11 @@
     },
     "pyrat": {
       "title": "Pyrat",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/pyrat"
+      "writeup": ""
     },
     "lookup": {
       "title": "Lookup",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/lookup"
+      "writeup": ""
     },
     "monikerlink": {
       "title": "Moniker Link (CVE-2024-21413)",
@@ -3164,15 +3164,15 @@
     },
     "rabbitstore": {
       "title": "Rabbit Store",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/rabbit-store"
+      "writeup": ""
     },
     "billing": {
       "title": "Billing",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/billing"
+      "writeup": ""
     },
     "tryhack3mbricksheist": {
       "title": "TryHack3M: Bricks Heist",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/tryhack3m-bricks-heist"
+      "writeup": ""
     },
     "windowscommandline": {
       "title": "Windows Command Line",
@@ -3200,7 +3200,7 @@
     },
     "soupedecode01": {
       "title": "Soupedecode 01",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/soupedecode-01"
+      "writeup": ""
     },
     "cyberchefbasics": {
       "title": "CyberChef: The Basics",
@@ -3612,7 +3612,7 @@
     },
     "vectara": {
       "title": "Vectara",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/vectara"
+      "writeup": ""
     },
     "missingperson": {
       "title": "Missing Person",
@@ -3632,7 +3632,7 @@
     },
     "crackthehash": {
       "title": "Crack the hash",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/crack-the-hash"
+      "writeup": ""
     },
     "ohsint": {
       "title": "OhSINT",
@@ -3640,7 +3640,7 @@
     },
     "toolboxvim": {
       "title": "Toolbox: Vim ",
-      "writeup": "https://estebanzarate.gitbook.io/hackache/try-hack-me/rooms/toolbox-vim"
+      "writeup": ""
     },
     "snykcode": {
       "title": "Snyk Code",
