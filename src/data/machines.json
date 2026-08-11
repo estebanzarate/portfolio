@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-08-09T03:02:30.612Z",
+  "last_updated": "2026-08-11T02:04:02.643Z",
   "statistics": {
     "total": 573,
     "user_owns": 223,
-    "root_owns": 237,
+    "root_owns": 238,
     "by_os": {
-      "Linux": 170,
+      "Linux": 171,
       "Windows": 61,
       "Android": 1,
       "Other": 3,
@@ -14,7 +14,7 @@
     },
     "by_difficulty": {
       "Easy": 155,
-      "Medium": 39,
+      "Medium": 40,
       "Hard": 12,
       "Insane": 6,
       "Very Easy": 25
@@ -26,6 +26,15 @@
       "name": "Cap",
       "os": "Linux",
       "difficulty": "Easy",
+      "user_owned": true,
+      "root_owned": true,
+      "sp_tier": null
+    },
+    {
+      "id": 894,
+      "name": "Helix",
+      "os": "Linux",
+      "difficulty": "Medium",
       "user_owned": true,
       "root_owned": true,
       "sp_tier": null
@@ -198,15 +207,6 @@
       "os": "Linux",
       "difficulty": "Medium",
       "user_owned": false,
-      "root_owned": false,
-      "sp_tier": null
-    },
-    {
-      "id": 894,
-      "name": "Helix",
-      "os": "Linux",
-      "difficulty": "Medium",
-      "user_owned": true,
       "root_owned": false,
       "sp_tier": null
     },
