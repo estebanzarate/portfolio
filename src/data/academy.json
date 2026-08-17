@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-08-11T02:03:52.971Z",
+  "last_updated": "2026-08-17T14:41:18.989Z",
   "statistics": {
     "total_modules": 354,
-    "completed": 55,
-    "completion_percentage": 15.5,
+    "completed": 56,
+    "completion_percentage": 15.8,
     "by_category": {
       "Offensive": {
         "completed": 26,
@@ -11,14 +11,14 @@
         "percentage": 30.1
       },
       "Defensive": {
-        "completed": 2,
+        "completed": 3,
         "total": 197,
-        "percentage": 1
+        "percentage": 1.9
       },
       "General": {
         "completed": 26,
         "total": 56,
-        "percentage": 60.5
+        "percentage": 60.4
       },
       "Purple": {
         "completed": 1,
@@ -180,7 +180,7 @@
       "name": "Windows Fundamentals",
       "slug": "windows-fundamentals",
       "description": "This module covers the fundamentals required to work comfortably with the Windows operating system.",
-      "progress": 100
+      "progress": 93.33
     },
     {
       "id": 51,
@@ -1146,7 +1146,7 @@
       "name": "Cyber Kill Chain",
       "slug": "cyber-kill-chain",
       "description": "The Cyber Kill Chain module is designed to provide participants with a comprehensive understanding of the various stages of a cyber attack and how to identify and respond to them effectively. The module covers the different phases of the Cyber Kill Chain, including reconnaissance, weaponization, delivery, exploitation, installation, command and control, and actions on objectives. Participants will learn how to identify and analyze each stage of the Cyber Kill Chain, as well as how to develop effective strategies to prevent, detect, and respond to cyber attacks. The module is ideal for SOC analysts, incident responders, and anyone interested in enhancing their understanding of cyber threats and defenses.",
-      "progress": 0
+      "progress": 20
     },
     {
       "id": 332,
@@ -1258,7 +1258,7 @@
       "name": "Linux for Blue Team",
       "slug": "linux-for-blue-team",
       "description": "This module provides comprehensive coverage of Linux for Blue Team concepts and techniques. Topics covered include About This Course, Archive File Formats, Basic Terminal Commands - 1, Basic Terminal Commands - 2, Introduction to Linux, and more.",
-      "progress": 0
+      "progress": 100
     },
     {
       "id": 351,
