@@ -262,6 +262,16 @@ const profile = {
         courseUrl:
           "https://www.netacad.com/courses/ethical-hacker?courseLang=en-US",
       },
+      {
+        id: 13,
+        title: "Network Basics",
+        institution:
+          "Networking Academy through the Cisco Networking Academy program",
+        period: "2026",
+        certificate: "/certificates/NB.webp",
+        courseUrl:
+          "https://www.netacad.com/courses/networking-basics?courseLang=en-US",
+      },
     ],
   },
 
@@ -527,6 +537,16 @@ const profile = {
         certificate: "/certificates/EH.webp",
         courseUrl:
           "https://www.netacad.com/courses/ethical-hacker?courseLang=en-US",
+      },
+      {
+        id: 13,
+        title: "Network Basics",
+        institution:
+          "Networking Academy through the Cisco Networking Academy program",
+        period: "2026",
+        certificate: "/certificates/NB.webp",
+        courseUrl:
+          "https://www.netacad.com/courses/networking-basics?courseLang=en-US",
       },
     ],
   },

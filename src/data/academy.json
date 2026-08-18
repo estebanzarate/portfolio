@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17T14:41:18.989Z",
+  "last_updated": "2026-08-18T16:14:33.207Z",
   "statistics": {
     "total_modules": 354,
     "completed": 56,
@@ -1146,7 +1146,7 @@
       "name": "Cyber Kill Chain",
       "slug": "cyber-kill-chain",
       "description": "The Cyber Kill Chain module is designed to provide participants with a comprehensive understanding of the various stages of a cyber attack and how to identify and respond to them effectively. The module covers the different phases of the Cyber Kill Chain, including reconnaissance, weaponization, delivery, exploitation, installation, command and control, and actions on objectives. Participants will learn how to identify and analyze each stage of the Cyber Kill Chain, as well as how to develop effective strategies to prevent, detect, and respond to cyber attacks. The module is ideal for SOC analysts, incident responders, and anyone interested in enhancing their understanding of cyber threats and defenses.",
-      "progress": 20
+      "progress": 30
     },
     {
       "id": 332,
