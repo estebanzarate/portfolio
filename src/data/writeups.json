@@ -3674,5 +3674,4133 @@
       "title": "Overheard at Breakfast",
       "writeup": null
     }
+  },
+  "challenges": {
+    "2": {
+      "name": "The Art of Reversing",
+      "writeup": null
+    },
+    "3": {
+      "name": "Tear Or Dear",
+      "writeup": null
+    },
+    "4": {
+      "name": "Bombs Landed",
+      "writeup": null
+    },
+    "5": {
+      "name": "Find The Easy Pass",
+      "writeup": null
+    },
+    "6": {
+      "name": "Weak RSA",
+      "writeup": null
+    },
+    "10": {
+      "name": "I know Mag1k",
+      "writeup": null
+    },
+    "11": {
+      "name": "Monstrosity",
+      "writeup": null
+    },
+    "12": {
+      "name": "Eat the Cake!",
+      "writeup": null
+    },
+    "14": {
+      "name": "BitsNBytes",
+      "writeup": null
+    },
+    "17": {
+      "name": "Hackerman",
+      "writeup": null
+    },
+    "18": {
+      "name": "Pseudo",
+      "writeup": null
+    },
+    "20": {
+      "name": "fs0ciety",
+      "writeup": null
+    },
+    "22": {
+      "name": "Classic, yet complicated!",
+      "writeup": null
+    },
+    "23": {
+      "name": "Milkshake",
+      "writeup": null
+    },
+    "26": {
+      "name": "Impossible Password",
+      "writeup": null
+    },
+    "27": {
+      "name": "Marshal in the Middle",
+      "writeup": null
+    },
+    "28": {
+      "name": "Infinite Descent",
+      "writeup": null
+    },
+    "31": {
+      "name": "0ld is g0ld",
+      "writeup": null
+    },
+    "33": {
+      "name": "Da Vinci",
+      "writeup": null
+    },
+    "36": {
+      "name": "Deadly Arthropod",
+      "writeup": null
+    },
+    "37": {
+      "name": "Ebola Virus",
+      "writeup": null
+    },
+    "39": {
+      "name": "Reminiscent",
+      "writeup": null
+    },
+    "41": {
+      "name": "Dream Diary: Chapter 1",
+      "writeup": null
+    },
+    "42": {
+      "name": "Dream Diary: Chapter 2",
+      "writeup": null
+    },
+    "43": {
+      "name": "Brainy's Cipher",
+      "writeup": null
+    },
+    "44": {
+      "name": "Art",
+      "writeup": null
+    },
+    "51": {
+      "name": "Keep Tryin'",
+      "writeup": null
+    },
+    "52": {
+      "name": "Pusheen Loves Graphs",
+      "writeup": null
+    },
+    "53": {
+      "name": "Old Bridge",
+      "writeup": null
+    },
+    "55": {
+      "name": "misDIRection",
+      "writeup": null
+    },
+    "56": {
+      "name": "Eternal Loop",
+      "writeup": null
+    },
+    "59": {
+      "name": "Cryptohorrific",
+      "writeup": null
+    },
+    "66": {
+      "name": "MarketDump",
+      "writeup": null
+    },
+    "67": {
+      "name": "Emdee five for life",
+      "writeup": null
+    },
+    "72": {
+      "name": "Debugme",
+      "writeup": null
+    },
+    "79": {
+      "name": "Easy Phish",
+      "writeup": null
+    },
+    "83": {
+      "name": "Infiltration",
+      "writeup": null
+    },
+    "84": {
+      "name": "Obscure",
+      "writeup": null
+    },
+    "85": {
+      "name": "Headache",
+      "writeup": null
+    },
+    "87": {
+      "name": "Illumination",
+      "writeup": null
+    },
+    "89": {
+      "name": "ExploitedStream",
+      "writeup": null
+    },
+    "90": {
+      "name": "Optimus Prime",
+      "writeup": null
+    },
+    "92": {
+      "name": "Baby RE",
+      "writeup": null
+    },
+    "93": {
+      "name": "oBfsC4t10n",
+      "writeup": null
+    },
+    "98": {
+      "name": "M0rsarchive",
+      "writeup": null
+    },
+    "100": {
+      "name": "interdimensional internet",
+      "writeup": null
+    },
+    "103": {
+      "name": "Kernel Adventures: Part 1",
+      "writeup": null
+    },
+    "106": {
+      "name": "You know 0xDiablos",
+      "writeup": null
+    },
+    "108": {
+      "name": "RsaCtfTool",
+      "writeup": null
+    },
+    "109": {
+      "name": "Dream Diary: Chapter 3",
+      "writeup": null
+    },
+    "111": {
+      "name": "Under Construction",
+      "writeup": null
+    },
+    "112": {
+      "name": "Poly",
+      "writeup": null
+    },
+    "113": {
+      "name": "Console",
+      "writeup": null
+    },
+    "114": {
+      "name": "Bypass",
+      "writeup": null
+    },
+    "115": {
+      "name": "Cat",
+      "writeup": null
+    },
+    "116": {
+      "name": "No Return",
+      "writeup": null
+    },
+    "117": {
+      "name": "wafwaf",
+      "writeup": null
+    },
+    "118": {
+      "name": "Missing in Action",
+      "writeup": null
+    },
+    "119": {
+      "name": "QuickR",
+      "writeup": null
+    },
+    "120": {
+      "name": "oBfsC4t10n2",
+      "writeup": null
+    },
+    "121": {
+      "name": "Exatlon",
+      "writeup": null
+    },
+    "122": {
+      "name": "Nostalgia",
+      "writeup": null
+    },
+    "123": {
+      "name": "Money Flowz",
+      "writeup": null
+    },
+    "124": {
+      "name": "Flippin Bank",
+      "writeup": null
+    },
+    "125": {
+      "name": "baby ninja jinja",
+      "writeup": null
+    },
+    "126": {
+      "name": "Space",
+      "writeup": null
+    },
+    "127": {
+      "name": "ImageTok",
+      "writeup": null
+    },
+    "128": {
+      "name": "Outrun",
+      "writeup": null
+    },
+    "129": {
+      "name": "Bounty Head",
+      "writeup": null
+    },
+    "130": {
+      "name": "breaking grad",
+      "writeup": null
+    },
+    "132": {
+      "name": "Mission Pinpossible",
+      "writeup": null
+    },
+    "133": {
+      "name": "The secret of a Queen",
+      "writeup": null
+    },
+    "134": {
+      "name": "Mr. Burns",
+      "writeup": null
+    },
+    "135": {
+      "name": "What does the f say?",
+      "writeup": null
+    },
+    "137": {
+      "name": "Sick ROP",
+      "writeup": null
+    },
+    "138": {
+      "name": "vmcrack",
+      "writeup": null
+    },
+    "139": {
+      "name": "Deterministic",
+      "writeup": null
+    },
+    "140": {
+      "name": "Format",
+      "writeup": null
+    },
+    "141": {
+      "name": "Window's Infinity Edge",
+      "writeup": null
+    },
+    "142": {
+      "name": "LostKey",
+      "writeup": null
+    },
+    "143": {
+      "name": "nginxatsu",
+      "writeup": null
+    },
+    "144": {
+      "name": "Hunting",
+      "writeup": null
+    },
+    "145": {
+      "name": "Prison Escape",
+      "writeup": null
+    },
+    "146": {
+      "name": "baby sql",
+      "writeup": null
+    },
+    "147": {
+      "name": "baby interdimensional internet",
+      "writeup": null
+    },
+    "148": {
+      "name": "Roulette",
+      "writeup": null
+    },
+    "149": {
+      "name": "Fibopadcci",
+      "writeup": null
+    },
+    "152": {
+      "name": "Templated",
+      "writeup": null
+    },
+    "153": {
+      "name": "Phonebook",
+      "writeup": null
+    },
+    "154": {
+      "name": "Rookie Mistake",
+      "writeup": null
+    },
+    "155": {
+      "name": "Query",
+      "writeup": null
+    },
+    "156": {
+      "name": "Canvas",
+      "writeup": null
+    },
+    "157": {
+      "name": "Chase",
+      "writeup": null
+    },
+    "158": {
+      "name": "Event Horizon",
+      "writeup": null
+    },
+    "159": {
+      "name": "Export",
+      "writeup": null
+    },
+    "160": {
+      "name": "Insider",
+      "writeup": null
+    },
+    "162": {
+      "name": "Logger",
+      "writeup": null
+    },
+    "163": {
+      "name": "Lure",
+      "writeup": null
+    },
+    "164": {
+      "name": "No Place To Hide",
+      "writeup": null
+    },
+    "166": {
+      "name": "Ransom",
+      "writeup": null
+    },
+    "167": {
+      "name": "Jeeves",
+      "writeup": null
+    },
+    "168": {
+      "name": "Bat Computer",
+      "writeup": null
+    },
+    "169": {
+      "name": "Optimistic",
+      "writeup": null
+    },
+    "170": {
+      "name": "Reg",
+      "writeup": null
+    },
+    "171": {
+      "name": "HTB Console",
+      "writeup": null
+    },
+    "172": {
+      "name": "PwnShop",
+      "writeup": null
+    },
+    "173": {
+      "name": "Leet Test",
+      "writeup": null
+    },
+    "174": {
+      "name": "Nightmare",
+      "writeup": null
+    },
+    "175": {
+      "name": "Blacksmith",
+      "writeup": null
+    },
+    "176": {
+      "name": "Shooting star",
+      "writeup": null
+    },
+    "177": {
+      "name": "looking glass",
+      "writeup": null
+    },
+    "178": {
+      "name": "sanitize",
+      "writeup": null
+    },
+    "179": {
+      "name": "baby auth",
+      "writeup": null
+    },
+    "180": {
+      "name": "baby nginxatsu",
+      "writeup": null
+    },
+    "181": {
+      "name": "baby WAFfles order",
+      "writeup": null
+    },
+    "182": {
+      "name": "baby todo or not todo",
+      "writeup": null
+    },
+    "183": {
+      "name": "baby BoneChewerCon",
+      "writeup": null
+    },
+    "184": {
+      "name": "Full Stack Conf",
+      "writeup": null
+    },
+    "185": {
+      "name": "baby website rick",
+      "writeup": null
+    },
+    "186": {
+      "name": "baby breaking grad",
+      "writeup": null
+    },
+    "187": {
+      "name": "Persistence",
+      "writeup": null
+    },
+    "188": {
+      "name": "emo",
+      "writeup": null
+    },
+    "189": {
+      "name": "Antidote",
+      "writeup": null
+    },
+    "190": {
+      "name": "TwoForOne",
+      "writeup": null
+    },
+    "191": {
+      "name": "xorxorxor",
+      "writeup": null
+    },
+    "192": {
+      "name": "HackyBird",
+      "writeup": null
+    },
+    "193": {
+      "name": "Toxin",
+      "writeup": null
+    },
+    "194": {
+      "name": "Bare Metal",
+      "writeup": null
+    },
+    "195": {
+      "name": "Broken Decryptor",
+      "writeup": null
+    },
+    "196": {
+      "name": "Weather App",
+      "writeup": null
+    },
+    "197": {
+      "name": "Secret Treasures",
+      "writeup": null
+    },
+    "198": {
+      "name": "LoveTok",
+      "writeup": null
+    },
+    "199": {
+      "name": "Kryptor",
+      "writeup": null
+    },
+    "200": {
+      "name": "Restaurant",
+      "writeup": null
+    },
+    "201": {
+      "name": "Bad grades",
+      "writeup": null
+    },
+    "202": {
+      "name": "echoland",
+      "writeup": null
+    },
+    "203": {
+      "name": "Modern Typer",
+      "writeup": null
+    },
+    "204": {
+      "name": "Dream Diary: Chapter 4",
+      "writeup": null
+    },
+    "205": {
+      "name": "TicTacPwn",
+      "writeup": null
+    },
+    "206": {
+      "name": "Composition",
+      "writeup": null
+    },
+    "207": {
+      "name": "Debugging Interface",
+      "writeup": null
+    },
+    "209": {
+      "name": "You Cant C Me",
+      "writeup": null
+    },
+    "210": {
+      "name": "Baby Crypt",
+      "writeup": null
+    },
+    "211": {
+      "name": "Anti Flag",
+      "writeup": null
+    },
+    "212": {
+      "name": "IRCWare",
+      "writeup": null
+    },
+    "213": {
+      "name": "Sekure Decrypt",
+      "writeup": null
+    },
+    "214": {
+      "name": "Hissss",
+      "writeup": null
+    },
+    "215": {
+      "name": "Unique",
+      "writeup": null
+    },
+    "216": {
+      "name": "Secure Digital",
+      "writeup": null
+    },
+    "217": {
+      "name": "Walkie Hackie",
+      "writeup": null
+    },
+    "218": {
+      "name": "Chop Shop",
+      "writeup": null
+    },
+    "219": {
+      "name": "Mini Line",
+      "writeup": null
+    },
+    "220": {
+      "name": "The Needle",
+      "writeup": null
+    },
+    "221": {
+      "name": "Trace",
+      "writeup": null
+    },
+    "222": {
+      "name": "Factory",
+      "writeup": null
+    },
+    "223": {
+      "name": "Project Power",
+      "writeup": null
+    },
+    "224": {
+      "name": "Toxic",
+      "writeup": null
+    },
+    "225": {
+      "name": "Nuclear Sale",
+      "writeup": null
+    },
+    "226": {
+      "name": "PersistenceIsFutile",
+      "writeup": null
+    },
+    "227": {
+      "name": "RLotto",
+      "writeup": null
+    },
+    "228": {
+      "name": "BabyEncryption",
+      "writeup": null
+    },
+    "229": {
+      "name": "petpet rcbee",
+      "writeup": null
+    },
+    "231": {
+      "name": "RAuth",
+      "writeup": null
+    },
+    "232": {
+      "name": "Lost Modulus",
+      "writeup": null
+    },
+    "233": {
+      "name": "Signals",
+      "writeup": null
+    },
+    "234": {
+      "name": "LunaCrypt",
+      "writeup": null
+    },
+    "235": {
+      "name": "RSAisEasy",
+      "writeup": null
+    },
+    "236": {
+      "name": "signup",
+      "writeup": null
+    },
+    "237": {
+      "name": "Lost Modulus Again",
+      "writeup": null
+    },
+    "238": {
+      "name": "quick maffs",
+      "writeup": null
+    },
+    "239": {
+      "name": "Wander",
+      "writeup": null
+    },
+    "240": {
+      "name": "APKey",
+      "writeup": null
+    },
+    "241": {
+      "name": "SeeTheSharpFlag",
+      "writeup": null
+    },
+    "242": {
+      "name": "racecar",
+      "writeup": null
+    },
+    "243": {
+      "name": "mysterybox",
+      "writeup": null
+    },
+    "244": {
+      "name": "baby CachedView",
+      "writeup": null
+    },
+    "245": {
+      "name": "Gunship",
+      "writeup": null
+    },
+    "246": {
+      "name": "Gawk",
+      "writeup": null
+    },
+    "247": {
+      "name": "Line",
+      "writeup": null
+    },
+    "248": {
+      "name": "WAFfle-y Order",
+      "writeup": null
+    },
+    "249": {
+      "name": "TwoDots Horror",
+      "writeup": null
+    },
+    "250": {
+      "name": "Protein Cookies",
+      "writeup": null
+    },
+    "251": {
+      "name": "Auth-or-out",
+      "writeup": null
+    },
+    "252": {
+      "name": "Micro Storage",
+      "writeup": null
+    },
+    "253": {
+      "name": "Nowhere to go",
+      "writeup": null
+    },
+    "254": {
+      "name": "Vipère",
+      "writeup": null
+    },
+    "255": {
+      "name": "Don't Overreact",
+      "writeup": null
+    },
+    "256": {
+      "name": "BFD56",
+      "writeup": null
+    },
+    "257": {
+      "name": "Substandard Optimization",
+      "writeup": null
+    },
+    "258": {
+      "name": "Kernel Adventures: Part 2",
+      "writeup": null
+    },
+    "259": {
+      "name": "BoneChewerCon",
+      "writeup": null
+    },
+    "260": {
+      "name": "AbuseHumanDB",
+      "writeup": null
+    },
+    "261": {
+      "name": "knote",
+      "writeup": null
+    },
+    "262": {
+      "name": "Always Has Been",
+      "writeup": null
+    },
+    "263": {
+      "name": "Arms roped",
+      "writeup": null
+    },
+    "264": {
+      "name": "Pneumatic Validator",
+      "writeup": null
+    },
+    "265": {
+      "name": "Slippy",
+      "writeup": null
+    },
+    "266": {
+      "name": "Insane Bolt",
+      "writeup": null
+    },
+    "267": {
+      "name": "Sigma Technology",
+      "writeup": null
+    },
+    "268": {
+      "name": "SteamCoin",
+      "writeup": null
+    },
+    "269": {
+      "name": "AnalyticalEngine",
+      "writeup": null
+    },
+    "270": {
+      "name": "Tree of Danger",
+      "writeup": null
+    },
+    "271": {
+      "name": "The Vault",
+      "writeup": null
+    },
+    "272": {
+      "name": "Waiting List",
+      "writeup": null
+    },
+    "273": {
+      "name": "Oracle Leaks",
+      "writeup": null
+    },
+    "274": {
+      "name": "Space Pirates",
+      "writeup": null
+    },
+    "275": {
+      "name": "Robot Factory",
+      "writeup": null
+    },
+    "276": {
+      "name": "Steam Driver",
+      "writeup": null
+    },
+    "277": {
+      "name": "Peel Back The Layers",
+      "writeup": null
+    },
+    "278": {
+      "name": "Strike Back",
+      "writeup": null
+    },
+    "279": {
+      "name": "Keep the steam going",
+      "writeup": null
+    },
+    "280": {
+      "name": "Out of Time",
+      "writeup": null
+    },
+    "281": {
+      "name": "Mechanical Madness",
+      "writeup": null
+    },
+    "282": {
+      "name": "Pinned",
+      "writeup": null
+    },
+    "283": {
+      "name": "Manager",
+      "writeup": null
+    },
+    "284": {
+      "name": "Anchored",
+      "writeup": null
+    },
+    "285": {
+      "name": "APKrypt",
+      "writeup": null
+    },
+    "286": {
+      "name": "SAW",
+      "writeup": null
+    },
+    "287": {
+      "name": "Login Simulator",
+      "writeup": null
+    },
+    "288": {
+      "name": "Diogenes' Rage",
+      "writeup": null
+    },
+    "289": {
+      "name": "Birds of randomness",
+      "writeup": null
+    },
+    "290": {
+      "name": "CRSid",
+      "writeup": null
+    },
+    "291": {
+      "name": "Red Failure",
+      "writeup": null
+    },
+    "292": {
+      "name": "ExpressionalRebel",
+      "writeup": null
+    },
+    "293": {
+      "name": "Acknowledge the corn",
+      "writeup": null
+    },
+    "294": {
+      "name": "Shamir's Secret",
+      "writeup": null
+    },
+    "295": {
+      "name": "Masks Off",
+      "writeup": null
+    },
+    "296": {
+      "name": "OOPArtDB",
+      "writeup": null
+    },
+    "297": {
+      "name": "Fancy names",
+      "writeup": null
+    },
+    "298": {
+      "name": "Quantum Memory Manager",
+      "writeup": null
+    },
+    "299": {
+      "name": "Quantum-Safe",
+      "writeup": null
+    },
+    "300": {
+      "name": "Iterative Virus",
+      "writeup": null
+    },
+    "301": {
+      "name": "Behind the Scenes",
+      "writeup": null
+    },
+    "302": {
+      "name": "CubeMadness1",
+      "writeup": null
+    },
+    "303": {
+      "name": "Neonify",
+      "writeup": null
+    },
+    "304": {
+      "name": "CubeBreaker",
+      "writeup": null
+    },
+    "305": {
+      "name": "CubeMadness2",
+      "writeup": null
+    },
+    "306": {
+      "name": "Partial Encryption",
+      "writeup": null
+    },
+    "307": {
+      "name": "InfiniteDoge",
+      "writeup": null
+    },
+    "308": {
+      "name": "Coffee Invocation",
+      "writeup": null
+    },
+    "309": {
+      "name": "Malception",
+      "writeup": null
+    },
+    "310": {
+      "name": "Userland City",
+      "writeup": null
+    },
+    "311": {
+      "name": "EasterBunny",
+      "writeup": null
+    },
+    "312": {
+      "name": "PTRACE_NOPEEKING",
+      "writeup": null
+    },
+    "313": {
+      "name": "NFTDRM",
+      "writeup": null
+    },
+    "314": {
+      "name": "SecretRezipe",
+      "writeup": null
+    },
+    "315": {
+      "name": "LightningFast",
+      "writeup": null
+    },
+    "316": {
+      "name": "baby quick maffs",
+      "writeup": null
+    },
+    "317": {
+      "name": "Intergalactic Recovery",
+      "writeup": null
+    },
+    "318": {
+      "name": "Reflection",
+      "writeup": null
+    },
+    "319": {
+      "name": "Precious Guidance",
+      "writeup": null
+    },
+    "320": {
+      "name": "Free Services",
+      "writeup": null
+    },
+    "321": {
+      "name": "Automation",
+      "writeup": null
+    },
+    "322": {
+      "name": "Seized",
+      "writeup": null
+    },
+    "323": {
+      "name": "Red Island",
+      "writeup": null
+    },
+    "324": {
+      "name": "Spiky Tamagotchi",
+      "writeup": null
+    },
+    "325": {
+      "name": "Amidst Us",
+      "writeup": null
+    },
+    "326": {
+      "name": "Mutation Lab",
+      "writeup": null
+    },
+    "327": {
+      "name": "Kryptos Support",
+      "writeup": null
+    },
+    "328": {
+      "name": "Intergalactic Post",
+      "writeup": null
+    },
+    "329": {
+      "name": "Acnologia Portal",
+      "writeup": null
+    },
+    "330": {
+      "name": "Space pirate: Going Deeper",
+      "writeup": null
+    },
+    "331": {
+      "name": "Space pirate: Entrypoint",
+      "writeup": null
+    },
+    "332": {
+      "name": "Space pirate: Retribution",
+      "writeup": null
+    },
+    "333": {
+      "name": "Vault-breaker",
+      "writeup": null
+    },
+    "334": {
+      "name": "Trick or Deal",
+      "writeup": null
+    },
+    "335": {
+      "name": "Bon-nie-appetit",
+      "writeup": null
+    },
+    "336": {
+      "name": "Sabotage",
+      "writeup": null
+    },
+    "337": {
+      "name": "Once and for all",
+      "writeup": null
+    },
+    "338": {
+      "name": "Hellhound",
+      "writeup": null
+    },
+    "339": {
+      "name": "Fleet Management",
+      "writeup": null
+    },
+    "340": {
+      "name": "Android-in-the-Middle",
+      "writeup": null
+    },
+    "341": {
+      "name": "Jenny From The Block",
+      "writeup": null
+    },
+    "342": {
+      "name": "The Three-Eyed Oracle",
+      "writeup": null
+    },
+    "343": {
+      "name": "How The Columns Have Turned",
+      "writeup": null
+    },
+    "344": {
+      "name": "MOVs Like Jagger",
+      "writeup": null
+    },
+    "345": {
+      "name": "Find Marher's Secret",
+      "writeup": null
+    },
+    "346": {
+      "name": "Memory Acceleration",
+      "writeup": null
+    },
+    "347": {
+      "name": "Down the Rabinhole",
+      "writeup": null
+    },
+    "348": {
+      "name": "Mind In The Clouds",
+      "writeup": null
+    },
+    "349": {
+      "name": "One Step Closer",
+      "writeup": null
+    },
+    "350": {
+      "name": "BlinkerFluids",
+      "writeup": null
+    },
+    "351": {
+      "name": "WIDE",
+      "writeup": null
+    },
+    "352": {
+      "name": "Rebuilding",
+      "writeup": null
+    },
+    "353": {
+      "name": "Teleport",
+      "writeup": null
+    },
+    "354": {
+      "name": "Indefinite",
+      "writeup": null
+    },
+    "355": {
+      "name": "Freaky Forum Interception",
+      "writeup": null
+    },
+    "356": {
+      "name": "Shuffleme",
+      "writeup": null
+    },
+    "357": {
+      "name": "Snakecode",
+      "writeup": null
+    },
+    "358": {
+      "name": "Compressor",
+      "writeup": null
+    },
+    "359": {
+      "name": "CFI++",
+      "writeup": null
+    },
+    "360": {
+      "name": "Diagnostic",
+      "writeup": null
+    },
+    "361": {
+      "name": "Bashic Calculator",
+      "writeup": null
+    },
+    "362": {
+      "name": "Chainsmoker",
+      "writeup": null
+    },
+    "363": {
+      "name": "Triangles",
+      "writeup": null
+    },
+    "364": {
+      "name": "Embryonic Plant",
+      "writeup": null
+    },
+    "365": {
+      "name": "Baby Time Capsule",
+      "writeup": null
+    },
+    "366": {
+      "name": "Simple Encryptor",
+      "writeup": null
+    },
+    "367": {
+      "name": "Hash the Filesystem",
+      "writeup": null
+    },
+    "368": {
+      "name": "400Curves",
+      "writeup": null
+    },
+    "369": {
+      "name": "Perseverance",
+      "writeup": null
+    },
+    "370": {
+      "name": "MBCoin",
+      "writeup": null
+    },
+    "371": {
+      "name": "Rogue",
+      "writeup": null
+    },
+    "372": {
+      "name": "Debugger Unchained",
+      "writeup": null
+    },
+    "373": {
+      "name": "Letter Dispair",
+      "writeup": null
+    },
+    "374": {
+      "name": "PhishTale",
+      "writeup": null
+    },
+    "375": {
+      "name": "Felonious Forums",
+      "writeup": null
+    },
+    "376": {
+      "name": "GrandMonty",
+      "writeup": null
+    },
+    "377": {
+      "name": "SquatBot",
+      "writeup": null
+    },
+    "378": {
+      "name": "Golfer - Part 1",
+      "writeup": null
+    },
+    "379": {
+      "name": "ElElGamal",
+      "writeup": null
+    },
+    "380": {
+      "name": "BBGun06",
+      "writeup": null
+    },
+    "381": {
+      "name": "Homomurphy's Law",
+      "writeup": null
+    },
+    "382": {
+      "name": "Breakin",
+      "writeup": null
+    },
+    "383": {
+      "name": "Superfast",
+      "writeup": null
+    },
+    "384": {
+      "name": "Convoluted Boot",
+      "writeup": null
+    },
+    "385": {
+      "name": "State of Emergency",
+      "writeup": null
+    },
+    "386": {
+      "name": "Midenios",
+      "writeup": null
+    },
+    "387": {
+      "name": "Pivotman",
+      "writeup": null
+    },
+    "388": {
+      "name": "Mr. Abilgate",
+      "writeup": null
+    },
+    "389": {
+      "name": "The Last Dance",
+      "writeup": null
+    },
+    "390": {
+      "name": "Touch",
+      "writeup": null
+    },
+    "391": {
+      "name": "FileStorage",
+      "writeup": null
+    },
+    "392": {
+      "name": "Up a Stream",
+      "writeup": null
+    },
+    "393": {
+      "name": "Twisted Entanglement",
+      "writeup": null
+    },
+    "394": {
+      "name": "Infinite Knapsack",
+      "writeup": null
+    },
+    "395": {
+      "name": "C.O.P",
+      "writeup": null
+    },
+    "396": {
+      "name": "Thief",
+      "writeup": null
+    },
+    "397": {
+      "name": "NoMap3D",
+      "writeup": null
+    },
+    "398": {
+      "name": "Supermarket",
+      "writeup": null
+    },
+    "399": {
+      "name": "ChromeMiner",
+      "writeup": null
+    },
+    "400": {
+      "name": "Kryptor 2",
+      "writeup": null
+    },
+    "401": {
+      "name": "TurboCipher",
+      "writeup": null
+    },
+    "402": {
+      "name": "Open sesame",
+      "writeup": null
+    },
+    "403": {
+      "name": "Taking down the Hive",
+      "writeup": null
+    },
+    "404": {
+      "name": "Space Heist",
+      "writeup": null
+    },
+    "405": {
+      "name": "Finale",
+      "writeup": null
+    },
+    "406": {
+      "name": "Spooky Time",
+      "writeup": null
+    },
+    "407": {
+      "name": "Entity",
+      "writeup": null
+    },
+    "408": {
+      "name": "Inside Scoop",
+      "writeup": null
+    },
+    "409": {
+      "name": "Spooky License",
+      "writeup": null
+    },
+    "410": {
+      "name": "Ouija",
+      "writeup": null
+    },
+    "411": {
+      "name": "Cursed Secret Party",
+      "writeup": null
+    },
+    "412": {
+      "name": "Juggling facts",
+      "writeup": null
+    },
+    "413": {
+      "name": "Spookifier",
+      "writeup": null
+    },
+    "414": {
+      "name": "Horror Feeds",
+      "writeup": null
+    },
+    "415": {
+      "name": "Whole Lotta Candy",
+      "writeup": null
+    },
+    "416": {
+      "name": "Fast Carmichael",
+      "writeup": null
+    },
+    "417": {
+      "name": "AHS512",
+      "writeup": null
+    },
+    "418": {
+      "name": "Spooky RSA",
+      "writeup": null
+    },
+    "419": {
+      "name": "Gonna-Lift-Em-All",
+      "writeup": null
+    },
+    "420": {
+      "name": "Downgrade",
+      "writeup": null
+    },
+    "421": {
+      "name": "POOF",
+      "writeup": null
+    },
+    "422": {
+      "name": "Halloween Invitation",
+      "writeup": null
+    },
+    "423": {
+      "name": "Wrong Spooky Season",
+      "writeup": null
+    },
+    "424": {
+      "name": "FFModule",
+      "writeup": null
+    },
+    "425": {
+      "name": "Secured Transfer",
+      "writeup": null
+    },
+    "426": {
+      "name": "Investigator",
+      "writeup": null
+    },
+    "427": {
+      "name": "Man In The Middle",
+      "writeup": null
+    },
+    "428": {
+      "name": "WS-Todo",
+      "writeup": null
+    },
+    "429": {
+      "name": "Type Exception",
+      "writeup": null
+    },
+    "430": {
+      "name": "Sacred Scrolls: Revenge",
+      "writeup": null
+    },
+    "431": {
+      "name": "Wizard's Diary",
+      "writeup": null
+    },
+    "432": {
+      "name": "Spellbook",
+      "writeup": null
+    },
+    "433": {
+      "name": "Potion Master",
+      "writeup": null
+    },
+    "434": {
+      "name": "Curse Breaker",
+      "writeup": null
+    },
+    "435": {
+      "name": "Spell Weaving Exam",
+      "writeup": null
+    },
+    "436": {
+      "name": "AbraCryptabra",
+      "writeup": null
+    },
+    "437": {
+      "name": "AESWCM",
+      "writeup": null
+    },
+    "438": {
+      "name": "Bank-er-smith",
+      "writeup": null
+    },
+    "439": {
+      "name": "One Of Us",
+      "writeup": null
+    },
+    "440": {
+      "name": "Fake News",
+      "writeup": null
+    },
+    "441": {
+      "name": "The Magic Informer",
+      "writeup": null
+    },
+    "442": {
+      "name": "BatchCraft Potions",
+      "writeup": null
+    },
+    "443": {
+      "name": "Spell Orsterra",
+      "writeup": null
+    },
+    "444": {
+      "name": "NoClip",
+      "writeup": null
+    },
+    "445": {
+      "name": "A Nightmare On Math Street",
+      "writeup": null
+    },
+    "446": {
+      "name": "TrueSecrets",
+      "writeup": null
+    },
+    "447": {
+      "name": "Joker",
+      "writeup": null
+    },
+    "448": {
+      "name": "RetoRetro",
+      "writeup": null
+    },
+    "449": {
+      "name": "YALM",
+      "writeup": null
+    },
+    "450": {
+      "name": "RFlag",
+      "writeup": null
+    },
+    "451": {
+      "name": "Noisy",
+      "writeup": null
+    },
+    "452": {
+      "name": "NoRadar",
+      "writeup": null
+    },
+    "453": {
+      "name": "Encryption Bot",
+      "writeup": null
+    },
+    "454": {
+      "name": "Waiting",
+      "writeup": null
+    },
+    "455": {
+      "name": "Dragon Army",
+      "writeup": null
+    },
+    "456": {
+      "name": "CryptoConundrum",
+      "writeup": null
+    },
+    "457": {
+      "name": "Protein Cookies 2",
+      "writeup": null
+    },
+    "458": {
+      "name": "Oxidized ROP",
+      "writeup": null
+    },
+    "459": {
+      "name": "Prying Eyes",
+      "writeup": null
+    },
+    "460": {
+      "name": "Questionnaire",
+      "writeup": null
+    },
+    "461": {
+      "name": "Getting Started",
+      "writeup": null
+    },
+    "462": {
+      "name": "Void",
+      "writeup": null
+    },
+    "463": {
+      "name": "Kana",
+      "writeup": null
+    },
+    "464": {
+      "name": "Control Room",
+      "writeup": null
+    },
+    "465": {
+      "name": "Math Door",
+      "writeup": null
+    },
+    "466": {
+      "name": "Runic",
+      "writeup": null
+    },
+    "467": {
+      "name": "Fake Snake",
+      "writeup": null
+    },
+    "468": {
+      "name": "VHDLock",
+      "writeup": null
+    },
+    "469": {
+      "name": "Alien Cradle",
+      "writeup": null
+    },
+    "470": {
+      "name": "Extraterrestrial Persistence",
+      "writeup": null
+    },
+    "471": {
+      "name": "Packet Cyclone",
+      "writeup": null
+    },
+    "472": {
+      "name": "Artifact Of Dangerous Sighting",
+      "writeup": null
+    },
+    "473": {
+      "name": "Relic Maps",
+      "writeup": null
+    },
+    "474": {
+      "name": "Interstellar C2",
+      "writeup": null
+    },
+    "475": {
+      "name": "Ancient Encodings",
+      "writeup": null
+    },
+    "476": {
+      "name": "Perfect Synchronization",
+      "writeup": null
+    },
+    "477": {
+      "name": "Multipage Recyclings",
+      "writeup": null
+    },
+    "478": {
+      "name": "Inside the Matrix",
+      "writeup": null
+    },
+    "479": {
+      "name": "Colliding Heritage",
+      "writeup": null
+    },
+    "480": {
+      "name": "Elliptic Labyrinth",
+      "writeup": null
+    },
+    "481": {
+      "name": "Biased Heritage",
+      "writeup": null
+    },
+    "482": {
+      "name": "Converging Visions",
+      "writeup": null
+    },
+    "483": {
+      "name": "Vessel Cartographer",
+      "writeup": null
+    },
+    "484": {
+      "name": "Alien Saboteur",
+      "writeup": null
+    },
+    "485": {
+      "name": "Hunting License",
+      "writeup": null
+    },
+    "486": {
+      "name": "Shattered Tablet",
+      "writeup": null
+    },
+    "487": {
+      "name": "Pickle Panic",
+      "writeup": null
+    },
+    "488": {
+      "name": "Ancient Interface",
+      "writeup": null
+    },
+    "489": {
+      "name": "Pod Diagnostics",
+      "writeup": null
+    },
+    "490": {
+      "name": "Didactic Octo Paddles",
+      "writeup": null
+    },
+    "491": {
+      "name": "Trapped Source",
+      "writeup": null
+    },
+    "492": {
+      "name": "UnEarthly Shop",
+      "writeup": null
+    },
+    "493": {
+      "name": "Passman",
+      "writeup": null
+    },
+    "494": {
+      "name": "Orbital",
+      "writeup": null
+    },
+    "495": {
+      "name": "Spybug",
+      "writeup": null
+    },
+    "496": {
+      "name": "TrapTrack",
+      "writeup": null
+    },
+    "497": {
+      "name": "Rhome",
+      "writeup": null
+    },
+    "498": {
+      "name": "ReRop",
+      "writeup": null
+    },
+    "499": {
+      "name": "Angler",
+      "writeup": null
+    },
+    "500": {
+      "name": "Survival of the Fittest",
+      "writeup": null
+    },
+    "501": {
+      "name": "Distract and Destroy",
+      "writeup": null
+    },
+    "502": {
+      "name": "Magic Vault",
+      "writeup": null
+    },
+    "503": {
+      "name": "CachedWeb",
+      "writeup": null
+    },
+    "504": {
+      "name": "Token to Wonderland",
+      "writeup": null
+    },
+    "505": {
+      "name": "Honor Among Thieves",
+      "writeup": null
+    },
+    "506": {
+      "name": "False Bidding",
+      "writeup": null
+    },
+    "507": {
+      "name": "Portal Noncense",
+      "writeup": null
+    },
+    "508": {
+      "name": "Locked and Loaded",
+      "writeup": null
+    },
+    "509": {
+      "name": "Secure Signing",
+      "writeup": null
+    },
+    "510": {
+      "name": "Snow Scan",
+      "writeup": null
+    },
+    "511": {
+      "name": "Device Control",
+      "writeup": null
+    },
+    "512": {
+      "name": "PAC breaker",
+      "writeup": null
+    },
+    "513": {
+      "name": "Pedometer",
+      "writeup": null
+    },
+    "514": {
+      "name": "Red Miners",
+      "writeup": null
+    },
+    "515": {
+      "name": "Scripts and Formulas",
+      "writeup": null
+    },
+    "516": {
+      "name": "Hypercraft",
+      "writeup": null
+    },
+    "517": {
+      "name": "No Start Where",
+      "writeup": null
+    },
+    "518": {
+      "name": "I'm gRoot",
+      "writeup": null
+    },
+    "519": {
+      "name": "Initialization",
+      "writeup": null
+    },
+    "520": {
+      "name": "PRaNsomG",
+      "writeup": null
+    },
+    "521": {
+      "name": "Interception",
+      "writeup": null
+    },
+    "522": {
+      "name": "Vitrium Stash",
+      "writeup": null
+    },
+    "523": {
+      "name": "Breach",
+      "writeup": null
+    },
+    "524": {
+      "name": "Watch Tower",
+      "writeup": null
+    },
+    "525": {
+      "name": "Intrusion",
+      "writeup": null
+    },
+    "526": {
+      "name": "Confidentiality",
+      "writeup": null
+    },
+    "527": {
+      "name": "Funds Secured",
+      "writeup": null
+    },
+    "528": {
+      "name": "SEPC",
+      "writeup": null
+    },
+    "529": {
+      "name": "LicenseGenerator",
+      "writeup": null
+    },
+    "530": {
+      "name": "DeSynth Recruit",
+      "writeup": null
+    },
+    "531": {
+      "name": "Watersnake",
+      "writeup": null
+    },
+    "533": {
+      "name": "Lazy Ballot",
+      "writeup": null
+    },
+    "534": {
+      "name": "AliEnS",
+      "writeup": null
+    },
+    "535": {
+      "name": "Unsighted",
+      "writeup": null
+    },
+    "536": {
+      "name": "Cyberpsychosis",
+      "writeup": null
+    },
+    "537": {
+      "name": "RenderQuest",
+      "writeup": null
+    },
+    "538": {
+      "name": "Wild Goose Hunt",
+      "writeup": null
+    },
+    "539": {
+      "name": "emoji voting",
+      "writeup": null
+    },
+    "540": {
+      "name": "Scanner",
+      "writeup": null
+    },
+    "541": {
+      "name": "E.Tree",
+      "writeup": null
+    },
+    "542": {
+      "name": "pcalc",
+      "writeup": null
+    },
+    "543": {
+      "name": "CurlAsAService",
+      "writeup": null
+    },
+    "544": {
+      "name": "The Galactic Times",
+      "writeup": null
+    },
+    "545": {
+      "name": "Alien Complaint Form",
+      "writeup": null
+    },
+    "546": {
+      "name": "ApacheBlaze",
+      "writeup": null
+    },
+    "547": {
+      "name": "Why Lambda",
+      "writeup": null
+    },
+    "548": {
+      "name": "Photon Lockdown",
+      "writeup": null
+    },
+    "549": {
+      "name": "ProxyAsAService",
+      "writeup": null
+    },
+    "550": {
+      "name": "Wonky AES",
+      "writeup": null
+    },
+    "551": {
+      "name": "jscalc",
+      "writeup": null
+    },
+    "566": {
+      "name": "RedTrails",
+      "writeup": null
+    },
+    "568": {
+      "name": "Quadratic Points",
+      "writeup": null
+    },
+    "570": {
+      "name": "No-Threshold",
+      "writeup": null
+    },
+    "576": {
+      "name": "Saturn",
+      "writeup": null
+    },
+    "579": {
+      "name": "StayInTheBoxCorp",
+      "writeup": null
+    },
+    "583": {
+      "name": "Fentastic Moves",
+      "writeup": null
+    },
+    "584": {
+      "name": "Picture Magic",
+      "writeup": null
+    },
+    "588": {
+      "name": "ReMeeting the Wheel",
+      "writeup": null
+    },
+    "589": {
+      "name": "HTBank",
+      "writeup": null
+    },
+    "590": {
+      "name": "Evil Corp",
+      "writeup": null
+    },
+    "591": {
+      "name": "0xBOverchunked",
+      "writeup": null
+    },
+    "592": {
+      "name": "Maze",
+      "writeup": null
+    },
+    "593": {
+      "name": "ARMs Race",
+      "writeup": null
+    },
+    "594": {
+      "name": "Pixel Audio",
+      "writeup": null
+    },
+    "597": {
+      "name": "Heapify",
+      "writeup": null
+    },
+    "598": {
+      "name": "Nexus Void",
+      "writeup": null
+    },
+    "599": {
+      "name": "GateCrash",
+      "writeup": null
+    },
+    "600": {
+      "name": "PhantomFeed",
+      "writeup": null
+    },
+    "601": {
+      "name": "BioBundle",
+      "writeup": null
+    },
+    "602": {
+      "name": "RiseFromTheDead",
+      "writeup": null
+    },
+    "603": {
+      "name": "Getting Closer",
+      "writeup": null
+    },
+    "604": {
+      "name": "ZombieNet",
+      "writeup": null
+    },
+    "605": {
+      "name": "Shadow of the Undead",
+      "writeup": null
+    },
+    "606": {
+      "name": "Great Old Talisman",
+      "writeup": null
+    },
+    "607": {
+      "name": "Zombienator",
+      "writeup": null
+    },
+    "608": {
+      "name": "Zombiedote",
+      "writeup": null
+    },
+    "609": {
+      "name": "WonderSMS",
+      "writeup": null
+    },
+    "610": {
+      "name": "Insomnia",
+      "writeup": null
+    },
+    "611": {
+      "name": "Virtually Mad",
+      "writeup": null
+    },
+    "617": {
+      "name": "Lesson",
+      "writeup": null
+    },
+    "618": {
+      "name": "SpellBrewery",
+      "writeup": null
+    },
+    "619": {
+      "name": "SPG",
+      "writeup": null
+    },
+    "620": {
+      "name": "Symbols",
+      "writeup": null
+    },
+    "621": {
+      "name": "Valhalloween",
+      "writeup": null
+    },
+    "622": {
+      "name": "HauntMart",
+      "writeup": null
+    },
+    "623": {
+      "name": "SpookTastic",
+      "writeup": null
+    },
+    "624": {
+      "name": "CandyVault",
+      "writeup": null
+    },
+    "625": {
+      "name": "PumpkinSpice",
+      "writeup": null
+    },
+    "626": {
+      "name": "Spellbound Servants",
+      "writeup": null
+    },
+    "627": {
+      "name": "GhostlyTemplates",
+      "writeup": null
+    },
+    "628": {
+      "name": "Mayday Mayday",
+      "writeup": null
+    },
+    "629": {
+      "name": "Zombie Rolled",
+      "writeup": null
+    },
+    "630": {
+      "name": "MSS",
+      "writeup": null
+    },
+    "634": {
+      "name": "Magic Scrolls",
+      "writeup": null
+    },
+    "635": {
+      "name": "Stylish",
+      "writeup": null
+    },
+    "637": {
+      "name": "PDFy",
+      "writeup": null
+    },
+    "638": {
+      "name": "JerryTok",
+      "writeup": null
+    },
+    "639": {
+      "name": "POPO",
+      "writeup": null
+    },
+    "640": {
+      "name": "Execute",
+      "writeup": null
+    },
+    "641": {
+      "name": "Signing Factory",
+      "writeup": null
+    },
+    "642": {
+      "name": "ScreenCrack",
+      "writeup": null
+    },
+    "644": {
+      "name": "Fishy HTTP",
+      "writeup": null
+    },
+    "645": {
+      "name": "DoxPit",
+      "writeup": null
+    },
+    "646": {
+      "name": "Flag Command",
+      "writeup": null
+    },
+    "647": {
+      "name": "KORP Terminal",
+      "writeup": null
+    },
+    "648": {
+      "name": "TimeKORP",
+      "writeup": null
+    },
+    "649": {
+      "name": "Labyrinth Linguist",
+      "writeup": null
+    },
+    "650": {
+      "name": "Testimonial",
+      "writeup": null
+    },
+    "651": {
+      "name": "LockTalk",
+      "writeup": null
+    },
+    "653": {
+      "name": "SerialFlow",
+      "writeup": null
+    },
+    "656": {
+      "name": "Percetron",
+      "writeup": null
+    },
+    "657": {
+      "name": "ApexSurvive",
+      "writeup": null
+    },
+    "658": {
+      "name": "Iced Tea",
+      "writeup": null
+    },
+    "659": {
+      "name": "Arranged",
+      "writeup": null
+    },
+    "660": {
+      "name": "Partial Tenacity",
+      "writeup": null
+    },
+    "661": {
+      "name": "Permuted",
+      "writeup": null
+    },
+    "662": {
+      "name": "Tsayaki",
+      "writeup": null
+    },
+    "663": {
+      "name": "Writing on the Wall",
+      "writeup": null
+    },
+    "664": {
+      "name": "Rocket Blaster XXX",
+      "writeup": null
+    },
+    "665": {
+      "name": "Deathnote",
+      "writeup": null
+    },
+    "667": {
+      "name": "Sound of Silence",
+      "writeup": null
+    },
+    "668": {
+      "name": "Oracle",
+      "writeup": null
+    },
+    "669": {
+      "name": "Maze of Mist",
+      "writeup": null
+    },
+    "670": {
+      "name": "Quantum Conundrum",
+      "writeup": null
+    },
+    "671": {
+      "name": "Path of Survival",
+      "writeup": null
+    },
+    "672": {
+      "name": "MultiDigilingual",
+      "writeup": null
+    },
+    "673": {
+      "name": "An unusual sighting",
+      "writeup": null
+    },
+    "675": {
+      "name": "Urgent",
+      "writeup": null
+    },
+    "676": {
+      "name": "Pursue the Tracks",
+      "writeup": null
+    },
+    "677": {
+      "name": "Fake Boost",
+      "writeup": null
+    },
+    "678": {
+      "name": "Phreaky",
+      "writeup": null
+    },
+    "679": {
+      "name": "Data Siege",
+      "writeup": null
+    },
+    "680": {
+      "name": "Game Invitation",
+      "writeup": null
+    },
+    "681": {
+      "name": "The PROM",
+      "writeup": null
+    },
+    "682": {
+      "name": "Flash-ing Logs",
+      "writeup": null
+    },
+    "683": {
+      "name": "HM74",
+      "writeup": null
+    },
+    "684": {
+      "name": "Lucky Faucet",
+      "writeup": null
+    },
+    "685": {
+      "name": "Recovery",
+      "writeup": null
+    },
+    "686": {
+      "name": "Ledger Heist",
+      "writeup": null
+    },
+    "687": {
+      "name": "Cubicle Riddle",
+      "writeup": null
+    },
+    "689": {
+      "name": "SatelliteHijack",
+      "writeup": null
+    },
+    "690": {
+      "name": "TunnelMadness",
+      "writeup": null
+    },
+    "691": {
+      "name": "Don't Panic",
+      "writeup": null
+    },
+    "692": {
+      "name": "FlagCasino",
+      "writeup": null
+    },
+    "693": {
+      "name": "Crushing",
+      "writeup": null
+    },
+    "694": {
+      "name": "QuickScan",
+      "writeup": null
+    },
+    "695": {
+      "name": "Metagaming",
+      "writeup": null
+    },
+    "696": {
+      "name": "MazeOfPower",
+      "writeup": null
+    },
+    "701": {
+      "name": "ShinyHunter",
+      "writeup": null
+    },
+    "702": {
+      "name": "Living with Elegance",
+      "writeup": null
+    },
+    "703": {
+      "name": "Bloom Bloom",
+      "writeup": null
+    },
+    "704": {
+      "name": "Not that random",
+      "writeup": null
+    },
+    "705": {
+      "name": "Blessed",
+      "writeup": null
+    },
+    "706": {
+      "name": "Regularity",
+      "writeup": null
+    },
+    "707": {
+      "name": "No Gadgets",
+      "writeup": null
+    },
+    "708": {
+      "name": "Abyss",
+      "writeup": null
+    },
+    "709": {
+      "name": "Pyrrhus",
+      "writeup": null
+    },
+    "710": {
+      "name": "Nothing Without A Cost",
+      "writeup": null
+    },
+    "711": {
+      "name": "Branching Tactics",
+      "writeup": null
+    },
+    "712": {
+      "name": "Dynamic Paths",
+      "writeup": null
+    },
+    "713": {
+      "name": "Bag Secured",
+      "writeup": null
+    },
+    "714": {
+      "name": "Computational Recruiting",
+      "writeup": null
+    },
+    "715": {
+      "name": "Prison Pipeline",
+      "writeup": null
+    },
+    "716": {
+      "name": "Chrono Mind",
+      "writeup": null
+    },
+    "717": {
+      "name": "Locked Away",
+      "writeup": null
+    },
+    "718": {
+      "name": "Hidden Path",
+      "writeup": null
+    },
+    "719": {
+      "name": "Tangled Heist",
+      "writeup": null
+    },
+    "720": {
+      "name": "Silicon Data Sleuthing",
+      "writeup": null
+    },
+    "721": {
+      "name": "Six Five O Two",
+      "writeup": null
+    },
+    "722": {
+      "name": "Say Cheese!",
+      "writeup": null
+    },
+    "723": {
+      "name": "Sneak peek",
+      "writeup": null
+    },
+    "724": {
+      "name": "NotADemocraticElection",
+      "writeup": null
+    },
+    "725": {
+      "name": "MetaVault",
+      "writeup": null
+    },
+    "726": {
+      "name": "Brokenswap",
+      "writeup": null
+    },
+    "727": {
+      "name": "Knock Knock?",
+      "writeup": null
+    },
+    "728": {
+      "name": "Jailbreak",
+      "writeup": null
+    },
+    "729": {
+      "name": "Blueprint Heist",
+      "writeup": null
+    },
+    "730": {
+      "name": "HTB Proxy",
+      "writeup": null
+    },
+    "731": {
+      "name": "Magicom",
+      "writeup": null
+    },
+    "732": {
+      "name": "OmniWatch",
+      "writeup": null
+    },
+    "733": {
+      "name": "SOS or SSO?",
+      "writeup": null
+    },
+    "734": {
+      "name": "KHP Protocol",
+      "writeup": null
+    },
+    "735": {
+      "name": "ArtificialUniversity",
+      "writeup": null
+    },
+    "738": {
+      "name": "AI SPACE",
+      "writeup": null
+    },
+    "739": {
+      "name": "Lost in Hyperspace",
+      "writeup": null
+    },
+    "740": {
+      "name": "Death's Glance",
+      "writeup": null
+    },
+    "741": {
+      "name": "Fuel Crisis",
+      "writeup": null
+    },
+    "742": {
+      "name": "Battle in OrIOn",
+      "writeup": null
+    },
+    "743": {
+      "name": "vvm",
+      "writeup": null
+    },
+    "744": {
+      "name": "Spin Glass Brain",
+      "writeup": null
+    },
+    "745": {
+      "name": "FastJson and Furious",
+      "writeup": null
+    },
+    "746": {
+      "name": "Suspicious Threat",
+      "writeup": null
+    },
+    "753": {
+      "name": "Prometheon",
+      "writeup": null
+    },
+    "754": {
+      "name": "Like a Glove",
+      "writeup": null
+    },
+    "755": {
+      "name": "TornadoService",
+      "writeup": null
+    },
+    "756": {
+      "name": "Full of Stars",
+      "writeup": null
+    },
+    "760": {
+      "name": "Forks and Knives",
+      "writeup": null
+    },
+    "766": {
+      "name": "The Art of Capture",
+      "writeup": null
+    },
+    "767": {
+      "name": "Breathtaking View",
+      "writeup": null
+    },
+    "768": {
+      "name": "Memento",
+      "writeup": null
+    },
+    "769": {
+      "name": "Secure Server",
+      "writeup": null
+    },
+    "770": {
+      "name": "POP Restaurant",
+      "writeup": null
+    },
+    "771": {
+      "name": "infosekurus query",
+      "writeup": null
+    },
+    "772": {
+      "name": "Pentest Notes",
+      "writeup": null
+    },
+    "773": {
+      "name": "Digital Safety Annex",
+      "writeup": null
+    },
+    "775": {
+      "name": "NextPath",
+      "writeup": null
+    },
+    "776": {
+      "name": "Wayback",
+      "writeup": null
+    },
+    "777": {
+      "name": "FF Jump Street",
+      "writeup": null
+    },
+    "778": {
+      "name": "yoU ART",
+      "writeup": null
+    },
+    "779": {
+      "name": "The Last Frontier",
+      "writeup": null
+    },
+    "780": {
+      "name": "Override",
+      "writeup": null
+    },
+    "781": {
+      "name": "Assemblers Avenge",
+      "writeup": null
+    },
+    "782": {
+      "name": "Feedback Flux",
+      "writeup": null
+    },
+    "783": {
+      "name": "DLLAMA",
+      "writeup": null
+    },
+    "784": {
+      "name": "Endpoint",
+      "writeup": null
+    },
+    "785": {
+      "name": "Armed Terminal",
+      "writeup": null
+    },
+    "786": {
+      "name": "gb3000",
+      "writeup": null
+    },
+    "787": {
+      "name": "Complaint Conglomerate",
+      "writeup": null
+    },
+    "788": {
+      "name": "secure source",
+      "writeup": null
+    },
+    "789": {
+      "name": "read before you sign",
+      "writeup": null
+    },
+    "795": {
+      "name": "binary basis",
+      "writeup": null
+    },
+    "796": {
+      "name": "hybrid unifier",
+      "writeup": null
+    },
+    "797": {
+      "name": "sekur julius",
+      "writeup": null
+    },
+    "798": {
+      "name": "sugar free candies",
+      "writeup": null
+    },
+    "799": {
+      "name": "brevi moduli",
+      "writeup": null
+    },
+    "800": {
+      "name": "Sp00ky Theme",
+      "writeup": null
+    },
+    "801": {
+      "name": "Foggy Intrusion",
+      "writeup": null
+    },
+    "802": {
+      "name": "LinkHands",
+      "writeup": null
+    },
+    "803": {
+      "name": "Terrorfryer",
+      "writeup": null
+    },
+    "804": {
+      "name": "Graverobber",
+      "writeup": null
+    },
+    "805": {
+      "name": "CryptOfTheUndead",
+      "writeup": null
+    },
+    "806": {
+      "name": "SpookyPass",
+      "writeup": null
+    },
+    "807": {
+      "name": "WayWitch",
+      "writeup": null
+    },
+    "808": {
+      "name": "Void Whispers",
+      "writeup": null
+    },
+    "809": {
+      "name": "Unholy Union",
+      "writeup": null
+    },
+    "810": {
+      "name": "Phantom Script",
+      "writeup": null
+    },
+    "811": {
+      "name": "Cursed Stale Policy",
+      "writeup": null
+    },
+    "812": {
+      "name": "Oddly Even",
+      "writeup": null
+    },
+    "813": {
+      "name": "Reversal",
+      "writeup": null
+    },
+    "814": {
+      "name": "Addition",
+      "writeup": null
+    },
+    "815": {
+      "name": "MinMax",
+      "writeup": null
+    },
+    "816": {
+      "name": "Replacement",
+      "writeup": null
+    },
+    "817": {
+      "name": "El Teteo",
+      "writeup": null
+    },
+    "818": {
+      "name": "Mathematricks",
+      "writeup": null
+    },
+    "819": {
+      "name": "El Pipo",
+      "writeup": null
+    },
+    "820": {
+      "name": "El Mundo",
+      "writeup": null
+    },
+    "821": {
+      "name": "Que onda",
+      "writeup": null
+    },
+    "822": {
+      "name": "Under the web",
+      "writeup": null
+    },
+    "823": {
+      "name": "Shambles",
+      "writeup": null
+    },
+    "824": {
+      "name": "Low Logic",
+      "writeup": null
+    },
+    "825": {
+      "name": "Rega's Town",
+      "writeup": null
+    },
+    "826": {
+      "name": "ReplaceMe",
+      "writeup": null
+    },
+    "828": {
+      "name": "CDNio",
+      "writeup": null
+    },
+    "829": {
+      "name": "Interstellar",
+      "writeup": null
+    },
+    "835": {
+      "name": "Sudoking",
+      "writeup": null
+    },
+    "836": {
+      "name": "Last Resort",
+      "writeup": null
+    },
+    "837": {
+      "name": "r0bob1rd",
+      "writeup": null
+    },
+    "838": {
+      "name": "BinCrypt Breaker",
+      "writeup": null
+    },
+    "839": {
+      "name": "Raining Primes",
+      "writeup": null
+    },
+    "842": {
+      "name": "Reconstruction",
+      "writeup": null
+    },
+    "843": {
+      "name": "Dead or Alive",
+      "writeup": null
+    },
+    "844": {
+      "name": "Prison Break",
+      "writeup": null
+    },
+    "845": {
+      "name": "Armaxis",
+      "writeup": null
+    },
+    "846": {
+      "name": "EncoDecept",
+      "writeup": null
+    },
+    "847": {
+      "name": "Intergalatic Bounty",
+      "writeup": null
+    },
+    "848": {
+      "name": "GravitometerGambit",
+      "writeup": null
+    },
+    "849": {
+      "name": "Wanted Alive",
+      "writeup": null
+    },
+    "850": {
+      "name": "Binary Badresources",
+      "writeup": null
+    },
+    "851": {
+      "name": "alphascii clashing",
+      "writeup": null
+    },
+    "852": {
+      "name": "Clutch",
+      "writeup": null
+    },
+    "853": {
+      "name": "portaloo",
+      "writeup": null
+    },
+    "854": {
+      "name": "Dark Runes",
+      "writeup": null
+    },
+    "855": {
+      "name": "Desires",
+      "writeup": null
+    },
+    "856": {
+      "name": "Breaking Bank",
+      "writeup": null
+    },
+    "858": {
+      "name": "ColossalBreach",
+      "writeup": null
+    },
+    "860": {
+      "name": "OnlyHacks",
+      "writeup": null
+    },
+    "861": {
+      "name": "Rids",
+      "writeup": null
+    },
+    "862": {
+      "name": "Hubbub",
+      "writeup": null
+    },
+    "863": {
+      "name": "Dusty Alleys",
+      "writeup": null
+    },
+    "867": {
+      "name": "Primed for Action",
+      "writeup": null
+    },
+    "868": {
+      "name": "Evaluative",
+      "writeup": null
+    },
+    "871": {
+      "name": "Quantum Engine",
+      "writeup": null
+    },
+    "872": {
+      "name": "Quantum Artifact",
+      "writeup": null
+    },
+    "877": {
+      "name": "Defusal",
+      "writeup": null
+    },
+    "880": {
+      "name": "NeuroSync",
+      "writeup": null
+    },
+    "882": {
+      "name": "TicTacToed",
+      "writeup": null
+    },
+    "883": {
+      "name": "Broken Shell",
+      "writeup": null
+    },
+    "884": {
+      "name": "Contractor",
+      "writeup": null
+    },
+    "885": {
+      "name": "Crossbow",
+      "writeup": null
+    },
+    "886": {
+      "name": "Laconic",
+      "writeup": null
+    },
+    "887": {
+      "name": "Quack Quack",
+      "writeup": null
+    },
+    "888": {
+      "name": "Blessing",
+      "writeup": null
+    },
+    "889": {
+      "name": "Twin Oracles",
+      "writeup": null
+    },
+    "890": {
+      "name": "Verilicious",
+      "writeup": null
+    },
+    "891": {
+      "name": "Copperbox",
+      "writeup": null
+    },
+    "892": {
+      "name": "Kewiri",
+      "writeup": null
+    },
+    "893": {
+      "name": "Traces",
+      "writeup": null
+    },
+    "894": {
+      "name": "Hourcle",
+      "writeup": null
+    },
+    "896": {
+      "name": "Neon Core",
+      "writeup": null
+    },
+    "898": {
+      "name": "SocratesPanel",
+      "writeup": null
+    },
+    "901": {
+      "name": "NexusSeven",
+      "writeup": null
+    },
+    "907": {
+      "name": "Blinded",
+      "writeup": null
+    },
+    "908": {
+      "name": "Hidden Handshake",
+      "writeup": null
+    },
+    "909": {
+      "name": "Phoenix Zero Trust",
+      "writeup": null
+    },
+    "910": {
+      "name": "Curveware",
+      "writeup": null
+    },
+    "911": {
+      "name": "Early Bird",
+      "writeup": null
+    },
+    "912": {
+      "name": "Power Greed",
+      "writeup": null
+    },
+    "913": {
+      "name": "LiteServe",
+      "writeup": null
+    },
+    "914": {
+      "name": "Cyber Bankrupt",
+      "writeup": null
+    },
+    "915": {
+      "name": "NeonCGI",
+      "writeup": null
+    },
+    "916": {
+      "name": "Null Assembler",
+      "writeup": null
+    },
+    "917": {
+      "name": "Threat Index",
+      "writeup": null
+    },
+    "918": {
+      "name": "Triple Knock",
+      "writeup": null
+    },
+    "919": {
+      "name": "Honeypot",
+      "writeup": null
+    },
+    "920": {
+      "name": "Blackwire",
+      "writeup": null
+    },
+    "921": {
+      "name": "Ghost Path",
+      "writeup": null
+    },
+    "923": {
+      "name": "Scrambled Payload",
+      "writeup": null
+    },
+    "924": {
+      "name": "TinyPlatformer",
+      "writeup": null
+    },
+    "925": {
+      "name": "Industry Secret",
+      "writeup": null
+    },
+    "926": {
+      "name": "EvilBox",
+      "writeup": null
+    },
+    "927": {
+      "name": "ShadowLabyrinth",
+      "writeup": null
+    },
+    "928": {
+      "name": "Callfuscated",
+      "writeup": null
+    },
+    "930": {
+      "name": "Blackout Ops",
+      "writeup": null
+    },
+    "931": {
+      "name": "Volnaya Forums",
+      "writeup": null
+    },
+    "932": {
+      "name": "QuickBlog",
+      "writeup": null
+    },
+    "933": {
+      "name": "Novacore",
+      "writeup": null
+    },
+    "934": {
+      "name": "Jigsaw",
+      "writeup": null
+    },
+    "938": {
+      "name": "Cred Hunter",
+      "writeup": null
+    },
+    "940": {
+      "name": "PINsmith",
+      "writeup": null
+    },
+    "941": {
+      "name": "Uplink Artifact",
+      "writeup": null
+    },
+    "942": {
+      "name": "Neural Detonator",
+      "writeup": null
+    },
+    "943": {
+      "name": "Decision Gate",
+      "writeup": null
+    },
+    "944": {
+      "name": "Doctrine Studio",
+      "writeup": null
+    },
+    "945": {
+      "name": "External Affairs",
+      "writeup": null
+    },
+    "946": {
+      "name": "Power Supply",
+      "writeup": null
+    },
+    "947": {
+      "name": "Loyalty Survey",
+      "writeup": null
+    },
+    "948": {
+      "name": "TrynaSob Ransomware",
+      "writeup": null
+    },
+    "950": {
+      "name": "Pivot Chain",
+      "writeup": null
+    },
+    "952": {
+      "name": "Not Posixtive",
+      "writeup": null
+    },
+    "954": {
+      "name": "Agriweb",
+      "writeup": null
+    },
+    "955": {
+      "name": "Commnet",
+      "writeup": null
+    },
+    "956": {
+      "name": "Phoenix Pipeline",
+      "writeup": null
+    },
+    "957": {
+      "name": "Resourcehub Core",
+      "writeup": null
+    },
+    "958": {
+      "name": "Powergrid",
+      "writeup": null
+    },
+    "959": {
+      "name": "Hydroadmin",
+      "writeup": null
+    },
+    "960": {
+      "name": "NeoVault",
+      "writeup": null
+    },
+    "961": {
+      "name": "JinjaCare",
+      "writeup": null
+    },
+    "962": {
+      "name": "SpeedNet",
+      "writeup": null
+    },
+    "963": {
+      "name": "CitiSmart",
+      "writeup": null
+    },
+    "964": {
+      "name": "Sattrack",
+      "writeup": null
+    },
+    "965": {
+      "name": "Criticalops",
+      "writeup": null
+    },
+    "966": {
+      "name": "NovaEnergy",
+      "writeup": null
+    },
+    "970": {
+      "name": "Hexecution",
+      "writeup": null
+    },
+    "972": {
+      "name": "The Suspicious Reviewer",
+      "writeup": null
+    },
+    "973": {
+      "name": "The Suspicious Domain",
+      "writeup": null
+    },
+    "974": {
+      "name": "WebVault Time Machine Investigation",
+      "writeup": null
+    },
+    "975": {
+      "name": "Social Media Investigation Hub",
+      "writeup": null
+    },
+    "976": {
+      "name": "Follow The Money",
+      "writeup": null
+    },
+    "977": {
+      "name": "The Puppet Master",
+      "writeup": null
+    },
+    "991": {
+      "name": "FlappyFlopper",
+      "writeup": null
+    },
+    "1003": {
+      "name": "Celestial Scribe",
+      "writeup": null
+    },
+    "1009": {
+      "name": "Noncesense Encryption",
+      "writeup": null
+    },
+    "1018": {
+      "name": "Global Hyperlink Zone",
+      "writeup": null
+    },
+    "1021": {
+      "name": "Flagportation",
+      "writeup": null
+    },
+    "1030": {
+      "name": "Phase Madness",
+      "writeup": null
+    },
+    "1036": {
+      "name": "SokobanHTB",
+      "writeup": null
+    },
+    "1042": {
+      "name": "Magical Palindrome",
+      "writeup": null
+    },
+    "1048": {
+      "name": "QLotto",
+      "writeup": null
+    },
+    "1054": {
+      "name": "Ether Tag",
+      "writeup": null
+    },
+    "1060": {
+      "name": "Arno",
+      "writeup": null
+    },
+    "1063": {
+      "name": "Untrusted Node",
+      "writeup": null
+    },
+    "1081": {
+      "name": "ReactOOPS",
+      "writeup": null
+    },
+    "1087": {
+      "name": "Protected",
+      "writeup": null
+    },
+    "1108": {
+      "name": "Offlinea",
+      "writeup": null
+    },
+    "1111": {
+      "name": "Steel Mountain",
+      "writeup": null
+    },
+    "1114": {
+      "name": "Flow Override",
+      "writeup": null
+    },
+    "1117": {
+      "name": "Dressrosa Reactor",
+      "writeup": null
+    },
+    "1120": {
+      "name": "dudidudida",
+      "writeup": null
+    },
+    "1126": {
+      "name": "Secure Notes",
+      "writeup": null
+    },
+    "1135": {
+      "name": "OpenSecret",
+      "writeup": null
+    },
+    "1141": {
+      "name": "Infinity Bank",
+      "writeup": null
+    },
+    "1147": {
+      "name": "SSOS",
+      "writeup": null
+    },
+    "1150": {
+      "name": "PyDome",
+      "writeup": null
+    },
+    "1156": {
+      "name": "MadMath",
+      "writeup": null
+    },
+    "1174": {
+      "name": "Sandcastle",
+      "writeup": null
+    },
+    "1177": {
+      "name": "GameLoader",
+      "writeup": null
+    },
+    "1180": {
+      "name": "Lucky Dice",
+      "writeup": null
+    },
+    "1185": {
+      "name": "Noisy Vault",
+      "writeup": null
+    },
+    "1188": {
+      "name": "Funkynator",
+      "writeup": null
+    },
+    "1194": {
+      "name": "Uplink",
+      "writeup": null
+    },
+    "1203": {
+      "name": "Resizer",
+      "writeup": null
+    },
+    "1206": {
+      "name": "Plug & Pray",
+      "writeup": null
+    },
+    "1215": {
+      "name": "Utterly Broken Shell",
+      "writeup": null
+    },
+    "1218": {
+      "name": "Notebook Converter Pro",
+      "writeup": null
+    },
+    "1224": {
+      "name": "Kernel Monarch",
+      "writeup": null
+    },
+    "1227": {
+      "name": "Threadweaver",
+      "writeup": null
+    },
+    "1245": {
+      "name": "Invisible Theft",
+      "writeup": null
+    },
+    "1251": {
+      "name": "Surprise Factor",
+      "writeup": null
+    },
+    "1254": {
+      "name": "Espresso",
+      "writeup": null
+    },
+    "1272": {
+      "name": "Bobby's Bistro",
+      "writeup": null
+    },
+    "1284": {
+      "name": "Chaogen",
+      "writeup": null
+    },
+    "1293": {
+      "name": "Forklifts R Us",
+      "writeup": null
+    },
+    "1299": {
+      "name": "Echoes in Orbit",
+      "writeup": null
+    },
+    "1302": {
+      "name": "No Errors",
+      "writeup": null
+    },
+    "1305": {
+      "name": "Baby Frame",
+      "writeup": null
+    },
+    "1308": {
+      "name": "HILLarious",
+      "writeup": null
+    },
+    "1317": {
+      "name": "Space Explorer",
+      "writeup": null
+    },
+    "1323": {
+      "name": "Zigzag",
+      "writeup": null
+    },
+    "1335": {
+      "name": "Nomad Notes",
+      "writeup": null
+    },
+    "1338": {
+      "name": "Lazarus - Rewind 1",
+      "writeup": null
+    },
+    "1341": {
+      "name": "Antenna Pointing",
+      "writeup": null
+    },
+    "1344": {
+      "name": "First Contact",
+      "writeup": null
+    },
+    "1347": {
+      "name": "Groundstation Breach",
+      "writeup": null
+    },
+    "1350": {
+      "name": "Scalped Platform",
+      "writeup": null
+    },
+    "1353": {
+      "name": "Signal from Space",
+      "writeup": null
+    },
+    "1356": {
+      "name": "Space Ops",
+      "writeup": null
+    },
+    "1365": {
+      "name": "Lazarus - Rewind 2",
+      "writeup": null
+    },
+    "1419": {
+      "name": "Noise Codex",
+      "writeup": null
+    }
+  },
+  "sherlocks": {
+    "552": {
+      "name": "Meerkat",
+      "writeup": null
+    },
+    "553": {
+      "name": "i-like-to",
+      "writeup": null
+    },
+    "554": {
+      "name": "Bumblebee",
+      "writeup": null
+    },
+    "555": {
+      "name": "Litter",
+      "writeup": null
+    },
+    "556": {
+      "name": "Lockpick",
+      "writeup": null
+    },
+    "557": {
+      "name": "LogJammer",
+      "writeup": null
+    },
+    "558": {
+      "name": "Tracer",
+      "writeup": null
+    },
+    "559": {
+      "name": "Hyperfiletable",
+      "writeup": null
+    },
+    "560": {
+      "name": "Knock Knock",
+      "writeup": null
+    },
+    "561": {
+      "name": "Ore",
+      "writeup": null
+    },
+    "562": {
+      "name": "TickTock",
+      "writeup": null
+    },
+    "563": {
+      "name": "Lockpick2.0",
+      "writeup": null
+    },
+    "564": {
+      "name": "ProcNet",
+      "writeup": null
+    },
+    "565": {
+      "name": "Safecracker",
+      "writeup": null
+    },
+    "567": {
+      "name": "Einladen",
+      "writeup": null
+    },
+    "569": {
+      "name": "RogueOne",
+      "writeup": null
+    },
+    "571": {
+      "name": "Nubilum-1",
+      "writeup": null
+    },
+    "572": {
+      "name": "Constellation",
+      "writeup": null
+    },
+    "573": {
+      "name": "Nubilum2",
+      "writeup": null
+    },
+    "574": {
+      "name": "Hunter",
+      "writeup": null
+    },
+    "577": {
+      "name": "OpTinselTrace-1",
+      "writeup": null
+    },
+    "578": {
+      "name": "OpTinselTrace-2",
+      "writeup": null
+    },
+    "580": {
+      "name": "OpTinselTrace-3",
+      "writeup": null
+    },
+    "581": {
+      "name": "OpTinselTrace-4",
+      "writeup": null
+    },
+    "582": {
+      "name": "OpTinselTrace-5",
+      "writeup": null
+    },
+    "585": {
+      "name": "Noted",
+      "writeup": null
+    },
+    "586": {
+      "name": "Recollection",
+      "writeup": null
+    },
+    "587": {
+      "name": "Jinkies",
+      "writeup": null
+    },
+    "595": {
+      "name": "BOughT",
+      "writeup": null
+    },
+    "596": {
+      "name": "Jugglin",
+      "writeup": null
+    },
+    "612": {
+      "name": "APTNightmare",
+      "writeup": null
+    },
+    "613": {
+      "name": "Jingle Bell",
+      "writeup": null
+    },
+    "614": {
+      "name": "Heist",
+      "writeup": null
+    },
+    "615": {
+      "name": "Ultimatum",
+      "writeup": null
+    },
+    "616": {
+      "name": "Mellitus",
+      "writeup": null
+    },
+    "631": {
+      "name": "Brutus",
+      "writeup": null
+    },
+    "632": {
+      "name": "Unit42",
+      "writeup": null
+    },
+    "633": {
+      "name": "BFT",
+      "writeup": null
+    },
+    "636": {
+      "name": "Subatomic",
+      "writeup": null
+    },
+    "643": {
+      "name": "Fragility",
+      "writeup": null
+    },
+    "688": {
+      "name": "Lockpick3.0",
+      "writeup": null
+    },
+    "697": {
+      "name": "Detroit Becomes Human",
+      "writeup": null
+    },
+    "698": {
+      "name": "Heartbreaker",
+      "writeup": null
+    },
+    "699": {
+      "name": "Heartbreaker-Continuum",
+      "writeup": null
+    },
+    "700": {
+      "name": "Heartbreaker-Denouement",
+      "writeup": null
+    },
+    "736": {
+      "name": "Campfire-2",
+      "writeup": null
+    },
+    "737": {
+      "name": "Campfire-1",
+      "writeup": null
+    },
+    "747": {
+      "name": "Noxious",
+      "writeup": null
+    },
+    "748": {
+      "name": "Lockpick4.0",
+      "writeup": null
+    },
+    "749": {
+      "name": "Reaper",
+      "writeup": null
+    },
+    "750": {
+      "name": "CrownJewel-2",
+      "writeup": null
+    },
+    "751": {
+      "name": "CrownJewel-1",
+      "writeup": null
+    },
+    "752": {
+      "name": "Nuts",
+      "writeup": null
+    },
+    "757": {
+      "name": "Latus",
+      "writeup": null
+    },
+    "758": {
+      "name": "Compromised",
+      "writeup": null
+    },
+    "759": {
+      "name": "MisCloud",
+      "writeup": null
+    },
+    "761": {
+      "name": "Takedown",
+      "writeup": null
+    },
+    "762": {
+      "name": "Lovely Malware",
+      "writeup": null
+    },
+    "764": {
+      "name": "Psittaciformes",
+      "writeup": null
+    },
+    "765": {
+      "name": "Loggy",
+      "writeup": null
+    },
+    "774": {
+      "name": "Pikaptcha",
+      "writeup": null
+    },
+    "790": {
+      "name": "OpSalwarKameez24-1: Super-Star",
+      "writeup": null
+    },
+    "791": {
+      "name": "OpSalwarKameez24-2: Magic-Show",
+      "writeup": null
+    },
+    "792": {
+      "name": "OpSalwarKameez24-3: Snake-Pill",
+      "writeup": null
+    },
+    "793": {
+      "name": "OpSalwarKameez24-4: Salsa-Dance",
+      "writeup": null
+    },
+    "794": {
+      "name": "OpSalwarKameez24-5: Bling-Bling",
+      "writeup": null
+    },
+    "827": {
+      "name": "OpTinselTrace24-1: Sneaky Cookies",
+      "writeup": null
+    },
+    "830": {
+      "name": "OpTinselTrace24-2: Cookie Consumption",
+      "writeup": null
+    },
+    "831": {
+      "name": "OpTinselTrace24-3: Blizzard Breakdown",
+      "writeup": null
+    },
+    "832": {
+      "name": "OpTinselTrace24-4: Neural Noel",
+      "writeup": null
+    },
+    "833": {
+      "name": "OpTinselTrace24-5: Tale of Maple Syrup",
+      "writeup": null
+    },
+    "834": {
+      "name": "OpTinselTrace24-6: Sleigh Slayer",
+      "writeup": null
+    },
+    "840": {
+      "name": "UFO-1",
+      "writeup": null
+    },
+    "841": {
+      "name": "Trent",
+      "writeup": null
+    },
+    "857": {
+      "name": "APTNightmare-2",
+      "writeup": null
+    },
+    "859": {
+      "name": "ReliableThreat",
+      "writeup": null
+    },
+    "864": {
+      "name": "SmartyPants",
+      "writeup": null
+    },
+    "865": {
+      "name": "Dream Job-1",
+      "writeup": null
+    },
+    "866": {
+      "name": "Anpu",
+      "writeup": null
+    },
+    "869": {
+      "name": "Origins",
+      "writeup": null
+    },
+    "870": {
+      "name": "Kuber",
+      "writeup": null
+    },
+    "873": {
+      "name": "TrainingDay",
+      "writeup": null
+    },
+    "874": {
+      "name": "Unsupervised",
+      "writeup": null
+    },
+    "875": {
+      "name": "TeamWork",
+      "writeup": null
+    },
+    "876": {
+      "name": "DroidPhish",
+      "writeup": null
+    },
+    "878": {
+      "name": "Novitas",
+      "writeup": null
+    },
+    "879": {
+      "name": "NeuroSync-D",
+      "writeup": null
+    },
+    "881": {
+      "name": "ElectricBreeze-1",
+      "writeup": null
+    },
+    "895": {
+      "name": "Trojan",
+      "writeup": null
+    },
+    "897": {
+      "name": "GroundWorm",
+      "writeup": null
+    },
+    "899": {
+      "name": "Streamer",
+      "writeup": null
+    },
+    "900": {
+      "name": "CrewCrow",
+      "writeup": null
+    },
+    "906": {
+      "name": "Payload",
+      "writeup": null
+    },
+    "922": {
+      "name": "ReachKart",
+      "writeup": null
+    },
+    "929": {
+      "name": "Allegretto",
+      "writeup": null
+    },
+    "935": {
+      "name": "Operation Blackout 2025: Phantom Check",
+      "writeup": null
+    },
+    "936": {
+      "name": "Operation Blackout 2025: Ghost Thread",
+      "writeup": null
+    },
+    "937": {
+      "name": "Operation Blackout 2025: Smoke & Mirrors",
+      "writeup": null
+    },
+    "939": {
+      "name": "Zenith",
+      "writeup": null
+    },
+    "949": {
+      "name": "ElectricBreeze-2",
+      "writeup": null
+    },
+    "951": {
+      "name": "GateKeeper",
+      "writeup": null
+    },
+    "953": {
+      "name": "PercyPay",
+      "writeup": null
+    },
+    "967": {
+      "name": "Cuidado",
+      "writeup": null
+    },
+    "968": {
+      "name": "Interceptor",
+      "writeup": null
+    },
+    "969": {
+      "name": "WhyFind",
+      "writeup": null
+    },
+    "971": {
+      "name": "Hijacked",
+      "writeup": null
+    },
+    "979": {
+      "name": "SalineBreeze-1",
+      "writeup": null
+    },
+    "982": {
+      "name": "Malevolent ModMaker",
+      "writeup": null
+    },
+    "985": {
+      "name": "PhishNet",
+      "writeup": null
+    },
+    "988": {
+      "name": "RomCom",
+      "writeup": null
+    },
+    "994": {
+      "name": "CafePoisoning",
+      "writeup": null
+    },
+    "998": {
+      "name": "HookFlare",
+      "writeup": null
+    },
+    "1006": {
+      "name": "SalineBreeze-2",
+      "writeup": null
+    },
+    "1012": {
+      "name": "Caught",
+      "writeup": null
+    },
+    "1015": {
+      "name": "Whisper",
+      "writeup": null
+    },
+    "1024": {
+      "name": "SillyEli",
+      "writeup": null
+    },
+    "1027": {
+      "name": "Packet Puzzle",
+      "writeup": null
+    },
+    "1033": {
+      "name": "SecretPictures",
+      "writeup": null
+    },
+    "1039": {
+      "name": "WorkFromHome",
+      "writeup": null
+    },
+    "1045": {
+      "name": "Easy Money",
+      "writeup": null
+    },
+    "1051": {
+      "name": "Dream Job-2",
+      "writeup": null
+    },
+    "1069": {
+      "name": "Holmes 2025 2: The Watchman's Residue",
+      "writeup": null
+    },
+    "1072": {
+      "name": "Holmes 2025 3: The Enduring Echo",
+      "writeup": null
+    },
+    "1075": {
+      "name": "Holmes 2025 4: The Tunnel Without Walls",
+      "writeup": null
+    },
+    "1078": {
+      "name": "Holmes 2025 5: The Payload",
+      "writeup": null
+    },
+    "1084": {
+      "name": "GhostTrace",
+      "writeup": null
+    },
+    "1090": {
+      "name": "AoTR 1: A Call from the Museum",
+      "writeup": null
+    },
+    "1093": {
+      "name": "AoTR 2: Operation Winter Blackout",
+      "writeup": null
+    },
+    "1096": {
+      "name": "AoTR 3: The Abandoned Farmhouse",
+      "writeup": null
+    },
+    "1099": {
+      "name": "AoTR 4: A Drone in the Snow",
+      "writeup": null
+    },
+    "1102": {
+      "name": "SneakyKeys",
+      "writeup": null
+    },
+    "1105": {
+      "name": "MangoBleed",
+      "writeup": null
+    },
+    "1123": {
+      "name": "LuckyShot",
+      "writeup": null
+    },
+    "1129": {
+      "name": "Ruse",
+      "writeup": null
+    },
+    "1132": {
+      "name": "CrashDump",
+      "writeup": null
+    },
+    "1138": {
+      "name": "Lupin",
+      "writeup": null
+    },
+    "1144": {
+      "name": "Telly",
+      "writeup": null
+    },
+    "1153": {
+      "name": "JustSomePages",
+      "writeup": null
+    },
+    "1159": {
+      "name": "ShadowBait",
+      "writeup": null
+    },
+    "1162": {
+      "name": "Vantage",
+      "writeup": null
+    },
+    "1165": {
+      "name": "Liberty",
+      "writeup": null
+    },
+    "1168": {
+      "name": "ShadowStream",
+      "writeup": null
+    },
+    "1183": {
+      "name": "Antarctica",
+      "writeup": null
+    },
+    "1191": {
+      "name": "Foreigner",
+      "writeup": null
+    },
+    "1197": {
+      "name": "Midnight Crash",
+      "writeup": null
+    },
+    "1200": {
+      "name": "FortySeven-1",
+      "writeup": null
+    },
+    "1209": {
+      "name": "CorpDown-1",
+      "writeup": null
+    },
+    "1212": {
+      "name": "Fruitzy",
+      "writeup": null
+    },
+    "1221": {
+      "name": "LogForge",
+      "writeup": null
+    },
+    "1230": {
+      "name": "Stonks",
+      "writeup": null
+    },
+    "1233": {
+      "name": "JobApplicant",
+      "writeup": null
+    },
+    "1236": {
+      "name": "Holmes 2025 1: The Card",
+      "writeup": null
+    },
+    "1239": {
+      "name": "CAMouflage",
+      "writeup": null
+    },
+    "1242": {
+      "name": "Kraken",
+      "writeup": null
+    },
+    "1260": {
+      "name": "KitsuneHook",
+      "writeup": null
+    },
+    "1269": {
+      "name": "ShadowMonarch",
+      "writeup": null
+    },
+    "1278": {
+      "name": "CorpDown-2",
+      "writeup": null
+    },
+    "1287": {
+      "name": "Opportunist",
+      "writeup": null
+    },
+    "1296": {
+      "name": "PhantomRing",
+      "writeup": null
+    },
+    "1311": {
+      "name": "TaskForce",
+      "writeup": null
+    },
+    "1326": {
+      "name": "WhaleSecret",
+      "writeup": null
+    },
+    "1329": {
+      "name": "Oldie",
+      "writeup": null
+    },
+    "1332": {
+      "name": "Phantom",
+      "writeup": null
+    },
+    "1359": {
+      "name": "Baggage",
+      "writeup": null
+    },
+    "1362": {
+      "name": "VelvetThrone",
+      "writeup": null
+    },
+    "1422": {
+      "name": "Anti-Analysis_TyphonLogger",
+      "writeup": null
+    },
+    "1425": {
+      "name": "AS-REP_Challenge",
+      "writeup": null
+    },
+    "1428": {
+      "name": "AWS_Bucketware",
+      "writeup": null
+    },
+    "1431": {
+      "name": "Excel_4.0_Macros",
+      "writeup": null
+    },
+    "1434": {
+      "name": "Http_Basic_Auth",
+      "writeup": null
+    },
+    "1437": {
+      "name": "Infection_with_Cobalt_Strike",
+      "writeup": null
+    },
+    "1440": {
+      "name": "Linux_Disk_Forensics",
+      "writeup": null
+    },
+    "1443": {
+      "name": "Malicious_VBA",
+      "writeup": null
+    },
+    "1446": {
+      "name": "PDFURI",
+      "writeup": null
+    },
+    "1449": {
+      "name": "Phishing_Email",
+      "writeup": null
+    },
+    "1452": {
+      "name": "Revenge_RAT",
+      "writeup": null
+    },
+    "1455": {
+      "name": "USB_Forensics",
+      "writeup": null
+    },
+    "1458": {
+      "name": "WannaCry_Ransomware",
+      "writeup": null
+    },
+    "1461": {
+      "name": "Windows_Memory_Dump",
+      "writeup": null
+    },
+    "1464": {
+      "name": "Adobe_ColdFusion_RCE",
+      "writeup": null
+    },
+    "1467": {
+      "name": "BlackStore",
+      "writeup": null
+    }
   }
 }

@@ -1,10 +1,7676 @@
 {
-  "last_updated": "",
+  "last_updated": "2026-08-23T03:25:22.422Z",
   "statistics": {
-    "total": 0,
-    "owned": 0,
-    "by_difficulty": {},
-    "by_category": {}
+    "total": 850,
+    "owned": 49,
+    "by_difficulty": {
+      "Very Easy": 25,
+      "Easy": 23,
+      "Medium": 1
+    },
+    "by_category": {
+      "Reversing": 3,
+      "Web": 28,
+      "Misc": 2,
+      "OSINT": 4,
+      "Coding": 2,
+      "Hardware": 3,
+      "Crypto": 4,
+      "GamePwn": 1,
+      "Pwn": 1,
+      "Forensics": 1
+    }
   },
-  "challenges": []
+  "challenges": [
+    {
+      "id": 806,
+      "name": "SpookyPass",
+      "difficulty": "Very Easy",
+      "category": "Reversing",
+      "is_owned": true,
+      "solves": 27760,
+      "state": "retired_free"
+    },
+    {
+      "id": 646,
+      "name": "Flag Command",
+      "difficulty": "Very Easy",
+      "category": "Web",
+      "is_owned": true,
+      "solves": 30884,
+      "state": "retired_free"
+    },
+    {
+      "id": 1344,
+      "name": "First Contact",
+      "difficulty": "Very Easy",
+      "category": "Satellite",
+      "is_owned": false,
+      "solves": 502,
+      "state": "active"
+    },
+    {
+      "id": 1350,
+      "name": "Scalped Platform",
+      "difficulty": "Very Easy",
+      "category": "Satellite",
+      "is_owned": false,
+      "solves": 308,
+      "state": "active"
+    },
+    {
+      "id": 1317,
+      "name": "Space Explorer",
+      "difficulty": "Very Easy",
+      "category": "Web",
+      "is_owned": true,
+      "solves": 1974,
+      "state": "active"
+    },
+    {
+      "id": 1305,
+      "name": "Baby Frame",
+      "difficulty": "Very Easy",
+      "category": "Satellite",
+      "is_owned": false,
+      "solves": 900,
+      "state": "active"
+    },
+    {
+      "id": 1254,
+      "name": "Espresso",
+      "difficulty": "Very Easy",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 1038,
+      "state": "active"
+    },
+    {
+      "id": 1180,
+      "name": "Lucky Dice",
+      "difficulty": "Very Easy",
+      "category": "Misc",
+      "is_owned": true,
+      "solves": 2428,
+      "state": "active"
+    },
+    {
+      "id": 1135,
+      "name": "OpenSecret",
+      "difficulty": "Very Easy",
+      "category": "Web",
+      "is_owned": true,
+      "solves": 7119,
+      "state": "retired_free"
+    },
+    {
+      "id": 1054,
+      "name": "Ether Tag",
+      "difficulty": "Very Easy",
+      "category": "ICS",
+      "is_owned": false,
+      "solves": 2121,
+      "state": "active"
+    },
+    {
+      "id": 1081,
+      "name": "ReactOOPS",
+      "difficulty": "Very Easy",
+      "category": "Web",
+      "is_owned": true,
+      "solves": 3595,
+      "state": "retired_free"
+    },
+    {
+      "id": 1042,
+      "name": "Magical Palindrome",
+      "difficulty": "Very Easy",
+      "category": "Web",
+      "is_owned": true,
+      "solves": 5418,
+      "state": "retired"
+    },
+    {
+      "id": 1018,
+      "name": "Global Hyperlink Zone",
+      "difficulty": "Very Easy",
+      "category": "Quantum",
+      "is_owned": false,
+      "solves": 2138,
+      "state": "active"
+    },
+    {
+      "id": 1021,
+      "name": "Flagportation",
+      "difficulty": "Very Easy",
+      "category": "Quantum",
+      "is_owned": false,
+      "solves": 1559,
+      "state": "active"
+    },
+    {
+      "id": 977,
+      "name": "The Puppet Master",
+      "difficulty": "Very Easy",
+      "category": "OSINT",
+      "is_owned": true,
+      "solves": 8627,
+      "state": "active"
+    },
+    {
+      "id": 975,
+      "name": "Social Media Investigation Hub",
+      "difficulty": "Very Easy",
+      "category": "OSINT",
+      "is_owned": true,
+      "solves": 7556,
+      "state": "active"
+    },
+    {
+      "id": 973,
+      "name": "The Suspicious Domain",
+      "difficulty": "Very Easy",
+      "category": "OSINT",
+      "is_owned": true,
+      "solves": 6581,
+      "state": "active"
+    },
+    {
+      "id": 972,
+      "name": "The Suspicious Reviewer",
+      "difficulty": "Very Easy",
+      "category": "OSINT",
+      "is_owned": true,
+      "solves": 6786,
+      "state": "retired"
+    },
+    {
+      "id": 960,
+      "name": "NeoVault",
+      "difficulty": "Very Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 1870,
+      "state": "retired_free"
+    },
+    {
+      "id": 961,
+      "name": "JinjaCare",
+      "difficulty": "Very Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 1893,
+      "state": "retired_free"
+    },
+    {
+      "id": 965,
+      "name": "Criticalops",
+      "difficulty": "Very Easy",
+      "category": "Web",
+      "is_owned": true,
+      "solves": 1396,
+      "state": "retired_free"
+    },
+    {
+      "id": 941,
+      "name": "Uplink Artifact",
+      "difficulty": "Very Easy",
+      "category": "AI/ML",
+      "is_owned": false,
+      "solves": 517,
+      "state": "retired"
+    },
+    {
+      "id": 908,
+      "name": "Hidden Handshake",
+      "difficulty": "Very Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 299,
+      "state": "retired"
+    },
+    {
+      "id": 912,
+      "name": "Power Greed",
+      "difficulty": "Very Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 325,
+      "state": "retired"
+    },
+    {
+      "id": 917,
+      "name": "Threat Index",
+      "difficulty": "Very Easy",
+      "category": "Coding",
+      "is_owned": false,
+      "solves": 645,
+      "state": "retired"
+    },
+    {
+      "id": 923,
+      "name": "Scrambled Payload",
+      "difficulty": "Very Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 575,
+      "state": "retired"
+    },
+    {
+      "id": 887,
+      "name": "Quack Quack",
+      "difficulty": "Very Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 300,
+      "state": "retired"
+    },
+    {
+      "id": 888,
+      "name": "Blessing",
+      "difficulty": "Very Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 273,
+      "state": "retired"
+    },
+    {
+      "id": 892,
+      "name": "Kewiri",
+      "difficulty": "Very Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 96,
+      "state": "retired"
+    },
+    {
+      "id": 868,
+      "name": "Evaluative",
+      "difficulty": "Very Easy",
+      "category": "Coding",
+      "is_owned": true,
+      "solves": 5361,
+      "state": "retired"
+    },
+    {
+      "id": 867,
+      "name": "Primed for Action",
+      "difficulty": "Very Easy",
+      "category": "Coding",
+      "is_owned": true,
+      "solves": 5737,
+      "state": "active"
+    },
+    {
+      "id": 860,
+      "name": "OnlyHacks",
+      "difficulty": "Very Easy",
+      "category": "Web",
+      "is_owned": true,
+      "solves": 6245,
+      "state": "retired"
+    },
+    {
+      "id": 845,
+      "name": "Armaxis",
+      "difficulty": "Very Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 1327,
+      "state": "retired"
+    },
+    {
+      "id": 851,
+      "name": "alphascii clashing",
+      "difficulty": "Very Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 361,
+      "state": "retired"
+    },
+    {
+      "id": 824,
+      "name": "Low Logic",
+      "difficulty": "Very Easy",
+      "category": "Hardware",
+      "is_owned": true,
+      "solves": 5111,
+      "state": "active"
+    },
+    {
+      "id": 799,
+      "name": "brevi moduli",
+      "difficulty": "Very Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 507,
+      "state": "retired"
+    },
+    {
+      "id": 797,
+      "name": "sekur julius",
+      "difficulty": "Very Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 519,
+      "state": "retired"
+    },
+    {
+      "id": 798,
+      "name": "sugar free candies",
+      "difficulty": "Very Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 310,
+      "state": "retired"
+    },
+    {
+      "id": 800,
+      "name": "Sp00ky Theme",
+      "difficulty": "Very Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 1002,
+      "state": "retired"
+    },
+    {
+      "id": 804,
+      "name": "Graverobber",
+      "difficulty": "Very Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 1021,
+      "state": "retired"
+    },
+    {
+      "id": 805,
+      "name": "CryptOfTheUndead",
+      "difficulty": "Very Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 755,
+      "state": "retired"
+    },
+    {
+      "id": 807,
+      "name": "WayWitch",
+      "difficulty": "Very Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 1067,
+      "state": "retired"
+    },
+    {
+      "id": 808,
+      "name": "Void Whispers",
+      "difficulty": "Very Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 982,
+      "state": "retired"
+    },
+    {
+      "id": 809,
+      "name": "Unholy Union",
+      "difficulty": "Very Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 1060,
+      "state": "retired"
+    },
+    {
+      "id": 810,
+      "name": "Phantom Script",
+      "difficulty": "Very Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 1027,
+      "state": "retired"
+    },
+    {
+      "id": 812,
+      "name": "Oddly Even",
+      "difficulty": "Very Easy",
+      "category": "Coding",
+      "is_owned": false,
+      "solves": 786,
+      "state": "retired"
+    },
+    {
+      "id": 813,
+      "name": "Reversal",
+      "difficulty": "Very Easy",
+      "category": "Coding",
+      "is_owned": false,
+      "solves": 610,
+      "state": "retired"
+    },
+    {
+      "id": 814,
+      "name": "Addition",
+      "difficulty": "Very Easy",
+      "category": "Coding",
+      "is_owned": false,
+      "solves": 597,
+      "state": "retired"
+    },
+    {
+      "id": 817,
+      "name": "El Teteo",
+      "difficulty": "Very Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 527,
+      "state": "retired"
+    },
+    {
+      "id": 818,
+      "name": "Mathematricks",
+      "difficulty": "Very Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 646,
+      "state": "retired"
+    },
+    {
+      "id": 819,
+      "name": "El Pipo",
+      "difficulty": "Very Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 572,
+      "state": "retired"
+    },
+    {
+      "id": 821,
+      "name": "Que onda",
+      "difficulty": "Very Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 364,
+      "state": "retired"
+    },
+    {
+      "id": 773,
+      "name": "Digital Safety Annex",
+      "difficulty": "Very Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 821,
+      "state": "retired"
+    },
+    {
+      "id": 706,
+      "name": "Regularity",
+      "difficulty": "Very Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 670,
+      "state": "retired"
+    },
+    {
+      "id": 714,
+      "name": "Computational Recruiting",
+      "difficulty": "Very Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 493,
+      "state": "retired"
+    },
+    {
+      "id": 717,
+      "name": "Locked Away",
+      "difficulty": "Very Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 811,
+      "state": "retired"
+    },
+    {
+      "id": 647,
+      "name": "KORP Terminal",
+      "difficulty": "Very Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 1516,
+      "state": "retired"
+    },
+    {
+      "id": 648,
+      "name": "TimeKORP",
+      "difficulty": "Very Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 1117,
+      "state": "retired"
+    },
+    {
+      "id": 663,
+      "name": "Writing on the Wall",
+      "difficulty": "Very Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 481,
+      "state": "retired"
+    },
+    {
+      "id": 673,
+      "name": "An unusual sighting",
+      "difficulty": "Very Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 932,
+      "state": "retired"
+    },
+    {
+      "id": 675,
+      "name": "Urgent",
+      "difficulty": "Very Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 1267,
+      "state": "retired"
+    },
+    {
+      "id": 692,
+      "name": "FlagCasino",
+      "difficulty": "Very Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 1258,
+      "state": "retired"
+    },
+    {
+      "id": 617,
+      "name": "Lesson",
+      "difficulty": "Very Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 1288,
+      "state": "retired"
+    },
+    {
+      "id": 619,
+      "name": "SPG",
+      "difficulty": "Very Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 749,
+      "state": "retired"
+    },
+    {
+      "id": 623,
+      "name": "SpookTastic",
+      "difficulty": "Very Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 1656,
+      "state": "retired"
+    },
+    {
+      "id": 624,
+      "name": "CandyVault",
+      "difficulty": "Very Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 1495,
+      "state": "retired"
+    },
+    {
+      "id": 548,
+      "name": "Photon Lockdown",
+      "difficulty": "Very Easy",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 9651,
+      "state": "retired"
+    },
+    {
+      "id": 514,
+      "name": "Red Miners",
+      "difficulty": "Very Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 1414,
+      "state": "retired"
+    },
+    {
+      "id": 519,
+      "name": "Initialization",
+      "difficulty": "Very Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 577,
+      "state": "retired"
+    },
+    {
+      "id": 524,
+      "name": "Watch Tower",
+      "difficulty": "Very Easy",
+      "category": "ICS",
+      "is_owned": false,
+      "solves": 1180,
+      "state": "retired"
+    },
+    {
+      "id": 501,
+      "name": "Distract and Destroy",
+      "difficulty": "Very Easy",
+      "category": "Blockchain",
+      "is_owned": false,
+      "solves": 3038,
+      "state": "active"
+    },
+    {
+      "id": 500,
+      "name": "Survival of the Fittest",
+      "difficulty": "Very Easy",
+      "category": "Blockchain",
+      "is_owned": false,
+      "solves": 3583,
+      "state": "retired"
+    },
+    {
+      "id": 491,
+      "name": "Trapped Source",
+      "difficulty": "Very Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 2711,
+      "state": "retired"
+    },
+    {
+      "id": 469,
+      "name": "Alien Cradle",
+      "difficulty": "Very Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 1633,
+      "state": "retired"
+    },
+    {
+      "id": 470,
+      "name": "Extraterrestrial Persistence",
+      "difficulty": "Very Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 1574,
+      "state": "retired"
+    },
+    {
+      "id": 475,
+      "name": "Ancient Encodings",
+      "difficulty": "Very Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 930,
+      "state": "retired"
+    },
+    {
+      "id": 476,
+      "name": "Perfect Synchronization",
+      "difficulty": "Very Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 297,
+      "state": "retired"
+    },
+    {
+      "id": 485,
+      "name": "Hunting License",
+      "difficulty": "Very Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 1876,
+      "state": "retired"
+    },
+    {
+      "id": 486,
+      "name": "Shattered Tablet",
+      "difficulty": "Very Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 1226,
+      "state": "retired"
+    },
+    {
+      "id": 460,
+      "name": "Questionnaire",
+      "difficulty": "Very Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 2125,
+      "state": "retired"
+    },
+    {
+      "id": 461,
+      "name": "Getting Started",
+      "difficulty": "Very Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 1071,
+      "state": "retired"
+    },
+    {
+      "id": 430,
+      "name": "Sacred Scrolls: Revenge",
+      "difficulty": "Very Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 211,
+      "state": "retired"
+    },
+    {
+      "id": 407,
+      "name": "Entity",
+      "difficulty": "Very Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 553,
+      "state": "retired"
+    },
+    {
+      "id": 411,
+      "name": "Cursed Secret Party",
+      "difficulty": "Very Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 1014,
+      "state": "retired"
+    },
+    {
+      "id": 412,
+      "name": "Juggling facts",
+      "difficulty": "Very Easy",
+      "category": "Web",
+      "is_owned": true,
+      "solves": 1525,
+      "state": "retired"
+    },
+    {
+      "id": 416,
+      "name": "Fast Carmichael",
+      "difficulty": "Very Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 316,
+      "state": "retired"
+    },
+    {
+      "id": 419,
+      "name": "Gonna-Lift-Em-All",
+      "difficulty": "Very Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 353,
+      "state": "retired"
+    },
+    {
+      "id": 423,
+      "name": "Wrong Spooky Season",
+      "difficulty": "Very Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 1718,
+      "state": "retired"
+    },
+    {
+      "id": 413,
+      "name": "Spookifier",
+      "difficulty": "Very Easy",
+      "category": "Web",
+      "is_owned": true,
+      "solves": 18545,
+      "state": "retired_free"
+    },
+    {
+      "id": 389,
+      "name": "The Last Dance",
+      "difficulty": "Very Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 9358,
+      "state": "active"
+    },
+    {
+      "id": 366,
+      "name": "Simple Encryptor",
+      "difficulty": "Very Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 9906,
+      "state": "active"
+    },
+    {
+      "id": 365,
+      "name": "Baby Time Capsule",
+      "difficulty": "Very Easy",
+      "category": "Crypto",
+      "is_owned": true,
+      "solves": 5740,
+      "state": "active"
+    },
+    {
+      "id": 330,
+      "name": "Space pirate: Going Deeper",
+      "difficulty": "Very Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 664,
+      "state": "retired"
+    },
+    {
+      "id": 331,
+      "name": "Space pirate: Entrypoint",
+      "difficulty": "Very Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 410,
+      "state": "retired"
+    },
+    {
+      "id": 332,
+      "name": "Space pirate: Retribution",
+      "difficulty": "Very Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 492,
+      "state": "retired"
+    },
+    {
+      "id": 333,
+      "name": "Vault-breaker",
+      "difficulty": "Very Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 425,
+      "state": "retired"
+    },
+    {
+      "id": 340,
+      "name": "Android-in-the-Middle",
+      "difficulty": "Very Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 380,
+      "state": "retired"
+    },
+    {
+      "id": 351,
+      "name": "WIDE",
+      "difficulty": "Very Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 1396,
+      "state": "retired"
+    },
+    {
+      "id": 358,
+      "name": "Compressor",
+      "difficulty": "Very Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 1114,
+      "state": "retired"
+    },
+    {
+      "id": 302,
+      "name": "CubeMadness1",
+      "difficulty": "Very Easy",
+      "category": "GamePwn",
+      "is_owned": true,
+      "solves": 6785,
+      "state": "active"
+    },
+    {
+      "id": 301,
+      "name": "Behind the Scenes",
+      "difficulty": "Very Easy",
+      "category": "Reversing",
+      "is_owned": true,
+      "solves": 18744,
+      "state": "active"
+    },
+    {
+      "id": 255,
+      "name": "Don't Overreact",
+      "difficulty": "Very Easy",
+      "category": "Mobile",
+      "is_owned": false,
+      "solves": 5440,
+      "state": "retired"
+    },
+    {
+      "id": 246,
+      "name": "Gawk",
+      "difficulty": "Very Easy",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 903,
+      "state": "retired"
+    },
+    {
+      "id": 242,
+      "name": "racecar",
+      "difficulty": "Very Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 11552,
+      "state": "retired"
+    },
+    {
+      "id": 245,
+      "name": "Gunship",
+      "difficulty": "Very Easy",
+      "category": "Web",
+      "is_owned": true,
+      "solves": 5280,
+      "state": "retired"
+    },
+    {
+      "id": 228,
+      "name": "BabyEncryption",
+      "difficulty": "Very Easy",
+      "category": "Crypto",
+      "is_owned": true,
+      "solves": 22751,
+      "state": "active"
+    },
+    {
+      "id": 220,
+      "name": "The Needle",
+      "difficulty": "Very Easy",
+      "category": "Hardware",
+      "is_owned": true,
+      "solves": 7549,
+      "state": "active"
+    },
+    {
+      "id": 215,
+      "name": "Unique",
+      "difficulty": "Very Easy",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 666,
+      "state": "retired"
+    },
+    {
+      "id": 216,
+      "name": "Secure Digital",
+      "difficulty": "Very Easy",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 594,
+      "state": "retired"
+    },
+    {
+      "id": 217,
+      "name": "Walkie Hackie",
+      "difficulty": "Very Easy",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 264,
+      "state": "retired"
+    },
+    {
+      "id": 207,
+      "name": "Debugging Interface",
+      "difficulty": "Very Easy",
+      "category": "Hardware",
+      "is_owned": true,
+      "solves": 11617,
+      "state": "active"
+    },
+    {
+      "id": 1419,
+      "name": "Noise Codex",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 159,
+      "state": "active"
+    },
+    {
+      "id": 1341,
+      "name": "Antenna Pointing",
+      "difficulty": "Easy",
+      "category": "Satellite",
+      "is_owned": false,
+      "solves": 242,
+      "state": "active"
+    },
+    {
+      "id": 1299,
+      "name": "Echoes in Orbit",
+      "difficulty": "Easy",
+      "category": "Satellite",
+      "is_owned": false,
+      "solves": 410,
+      "state": "active"
+    },
+    {
+      "id": 1302,
+      "name": "No Errors",
+      "difficulty": "Easy",
+      "category": "Satellite",
+      "is_owned": false,
+      "solves": 455,
+      "state": "active"
+    },
+    {
+      "id": 1293,
+      "name": "Forklifts R Us",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 501,
+      "state": "active"
+    },
+    {
+      "id": 1185,
+      "name": "Noisy Vault",
+      "difficulty": "Easy",
+      "category": "Quantum",
+      "is_owned": false,
+      "solves": 564,
+      "state": "active"
+    },
+    {
+      "id": 1126,
+      "name": "Secure Notes",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": true,
+      "solves": 1660,
+      "state": "active"
+    },
+    {
+      "id": 1108,
+      "name": "Offlinea",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": true,
+      "solves": 990,
+      "state": "active"
+    },
+    {
+      "id": 1060,
+      "name": "Arno",
+      "difficulty": "Easy",
+      "category": "Mobile",
+      "is_owned": false,
+      "solves": 558,
+      "state": "active"
+    },
+    {
+      "id": 1048,
+      "name": "QLotto",
+      "difficulty": "Easy",
+      "category": "Quantum",
+      "is_owned": false,
+      "solves": 606,
+      "state": "active"
+    },
+    {
+      "id": 1036,
+      "name": "SokobanHTB",
+      "difficulty": "Easy",
+      "category": "GamePwn",
+      "is_owned": false,
+      "solves": 514,
+      "state": "active"
+    },
+    {
+      "id": 1030,
+      "name": "Phase Madness",
+      "difficulty": "Easy",
+      "category": "Quantum",
+      "is_owned": false,
+      "solves": 635,
+      "state": "retired"
+    },
+    {
+      "id": 976,
+      "name": "Follow The Money",
+      "difficulty": "Easy",
+      "category": "OSINT",
+      "is_owned": false,
+      "solves": 1794,
+      "state": "active"
+    },
+    {
+      "id": 974,
+      "name": "WebVault Time Machine Investigation",
+      "difficulty": "Easy",
+      "category": "OSINT",
+      "is_owned": false,
+      "solves": 3271,
+      "state": "active"
+    },
+    {
+      "id": 958,
+      "name": "Powergrid",
+      "difficulty": "Easy",
+      "category": "Secure Coding",
+      "is_owned": false,
+      "solves": 1227,
+      "state": "active"
+    },
+    {
+      "id": 959,
+      "name": "Hydroadmin",
+      "difficulty": "Easy",
+      "category": "Secure Coding",
+      "is_owned": false,
+      "solves": 648,
+      "state": "retired"
+    },
+    {
+      "id": 957,
+      "name": "Resourcehub Core",
+      "difficulty": "Easy",
+      "category": "Secure Coding",
+      "is_owned": false,
+      "solves": 690,
+      "state": "retired"
+    },
+    {
+      "id": 954,
+      "name": "Agriweb",
+      "difficulty": "Easy",
+      "category": "Secure Coding",
+      "is_owned": false,
+      "solves": 1015,
+      "state": "active"
+    },
+    {
+      "id": 955,
+      "name": "Commnet",
+      "difficulty": "Easy",
+      "category": "Secure Coding",
+      "is_owned": false,
+      "solves": 670,
+      "state": "retired"
+    },
+    {
+      "id": 962,
+      "name": "SpeedNet",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 469,
+      "state": "retired_free"
+    },
+    {
+      "id": 963,
+      "name": "CitiSmart",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 317,
+      "state": "retired_free"
+    },
+    {
+      "id": 966,
+      "name": "NovaEnergy",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 598,
+      "state": "retired"
+    },
+    {
+      "id": 952,
+      "name": "Not Posixtive",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 777,
+      "state": "active"
+    },
+    {
+      "id": 950,
+      "name": "Pivot Chain",
+      "difficulty": "Easy",
+      "category": "Coding",
+      "is_owned": false,
+      "solves": 1751,
+      "state": "active"
+    },
+    {
+      "id": 940,
+      "name": "PINsmith",
+      "difficulty": "Easy",
+      "category": "Coding",
+      "is_owned": false,
+      "solves": 1952,
+      "state": "active"
+    },
+    {
+      "id": 938,
+      "name": "Cred Hunter",
+      "difficulty": "Easy",
+      "category": "Coding",
+      "is_owned": false,
+      "solves": 1798,
+      "state": "retired"
+    },
+    {
+      "id": 945,
+      "name": "External Affairs",
+      "difficulty": "Easy",
+      "category": "AI/ML",
+      "is_owned": false,
+      "solves": 319,
+      "state": "retired"
+    },
+    {
+      "id": 947,
+      "name": "Loyalty Survey",
+      "difficulty": "Easy",
+      "category": "AI/ML",
+      "is_owned": false,
+      "solves": 199,
+      "state": "retired"
+    },
+    {
+      "id": 948,
+      "name": "TrynaSob Ransomware",
+      "difficulty": "Easy",
+      "category": "AI/ML",
+      "is_owned": false,
+      "solves": 271,
+      "state": "retired"
+    },
+    {
+      "id": 934,
+      "name": "Jigsaw",
+      "difficulty": "Easy",
+      "category": "Mobile",
+      "is_owned": false,
+      "solves": 702,
+      "state": "active"
+    },
+    {
+      "id": 909,
+      "name": "Phoenix Zero Trust",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 66,
+      "state": "retired"
+    },
+    {
+      "id": 913,
+      "name": "LiteServe",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 92,
+      "state": "retired"
+    },
+    {
+      "id": 918,
+      "name": "Triple Knock",
+      "difficulty": "Easy",
+      "category": "Coding",
+      "is_owned": false,
+      "solves": 197,
+      "state": "retired"
+    },
+    {
+      "id": 924,
+      "name": "TinyPlatformer",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 186,
+      "state": "retired"
+    },
+    {
+      "id": 925,
+      "name": "Industry Secret",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 143,
+      "state": "retired"
+    },
+    {
+      "id": 930,
+      "name": "Blackout Ops",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 247,
+      "state": "retired"
+    },
+    {
+      "id": 931,
+      "name": "Volnaya Forums",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 167,
+      "state": "retired"
+    },
+    {
+      "id": 901,
+      "name": "NexusSeven",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 699,
+      "state": "retired"
+    },
+    {
+      "id": 883,
+      "name": "Broken Shell",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 1258,
+      "state": "active"
+    },
+    {
+      "id": 885,
+      "name": "Crossbow",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 85,
+      "state": "retired"
+    },
+    {
+      "id": 886,
+      "name": "Laconic",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 98,
+      "state": "retired"
+    },
+    {
+      "id": 893,
+      "name": "Traces",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 75,
+      "state": "retired"
+    },
+    {
+      "id": 894,
+      "name": "Hourcle",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 56,
+      "state": "retired"
+    },
+    {
+      "id": 862,
+      "name": "Hubbub",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 1106,
+      "state": "retired"
+    },
+    {
+      "id": 871,
+      "name": "Quantum Engine",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 52,
+      "state": "retired"
+    },
+    {
+      "id": 872,
+      "name": "Quantum Artifact",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 135,
+      "state": "retired"
+    },
+    {
+      "id": 855,
+      "name": "Desires",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": true,
+      "solves": 1928,
+      "state": "active"
+    },
+    {
+      "id": 854,
+      "name": "Dark Runes",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 2116,
+      "state": "retired"
+    },
+    {
+      "id": 861,
+      "name": "Rids",
+      "difficulty": "Easy",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 116,
+      "state": "retired"
+    },
+    {
+      "id": 837,
+      "name": "r0bob1rd",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 1529,
+      "state": "active"
+    },
+    {
+      "id": 842,
+      "name": "Reconstruction",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 94,
+      "state": "retired"
+    },
+    {
+      "id": 849,
+      "name": "Wanted Alive",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 277,
+      "state": "retired"
+    },
+    {
+      "id": 856,
+      "name": "Breaking Bank",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 145,
+      "state": "retired"
+    },
+    {
+      "id": 858,
+      "name": "ColossalBreach",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 153,
+      "state": "retired"
+    },
+    {
+      "id": 835,
+      "name": "Sudoking",
+      "difficulty": "Easy",
+      "category": "Coding",
+      "is_owned": false,
+      "solves": 1195,
+      "state": "retired"
+    },
+    {
+      "id": 828,
+      "name": "CDNio",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 1835,
+      "state": "retired"
+    },
+    {
+      "id": 795,
+      "name": "binary basis",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 157,
+      "state": "retired"
+    },
+    {
+      "id": 796,
+      "name": "hybrid unifier",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 90,
+      "state": "retired"
+    },
+    {
+      "id": 801,
+      "name": "Foggy Intrusion",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 425,
+      "state": "retired"
+    },
+    {
+      "id": 802,
+      "name": "LinkHands",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 264,
+      "state": "retired"
+    },
+    {
+      "id": 803,
+      "name": "Terrorfryer",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 234,
+      "state": "retired"
+    },
+    {
+      "id": 811,
+      "name": "Cursed Stale Policy",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 568,
+      "state": "retired"
+    },
+    {
+      "id": 815,
+      "name": "MinMax",
+      "difficulty": "Easy",
+      "category": "Coding",
+      "is_owned": false,
+      "solves": 390,
+      "state": "retired"
+    },
+    {
+      "id": 816,
+      "name": "Replacement",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 174,
+      "state": "retired"
+    },
+    {
+      "id": 820,
+      "name": "El Mundo",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 305,
+      "state": "retired"
+    },
+    {
+      "id": 777,
+      "name": "FF Jump Street",
+      "difficulty": "Easy",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 55,
+      "state": "retired"
+    },
+    {
+      "id": 778,
+      "name": "yoU ART",
+      "difficulty": "Easy",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 83,
+      "state": "retired"
+    },
+    {
+      "id": 781,
+      "name": "Assemblers Avenge",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 122,
+      "state": "retired"
+    },
+    {
+      "id": 782,
+      "name": "Feedback Flux",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 210,
+      "state": "retired"
+    },
+    {
+      "id": 784,
+      "name": "Endpoint",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 451,
+      "state": "retired"
+    },
+    {
+      "id": 785,
+      "name": "Armed Terminal",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 70,
+      "state": "retired"
+    },
+    {
+      "id": 789,
+      "name": "read before you sign",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 66,
+      "state": "retired"
+    },
+    {
+      "id": 772,
+      "name": "Pentest Notes",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 2564,
+      "state": "retired"
+    },
+    {
+      "id": 770,
+      "name": "POP Restaurant",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 2434,
+      "state": "retired"
+    },
+    {
+      "id": 769,
+      "name": "Secure Server",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 782,
+      "state": "active"
+    },
+    {
+      "id": 767,
+      "name": "Breathtaking View",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 976,
+      "state": "retired"
+    },
+    {
+      "id": 754,
+      "name": "Like a Glove",
+      "difficulty": "Easy",
+      "category": "AI/ML",
+      "is_owned": false,
+      "solves": 1455,
+      "state": "active"
+    },
+    {
+      "id": 746,
+      "name": "Suspicious Threat",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 3572,
+      "state": "active"
+    },
+    {
+      "id": 745,
+      "name": "FastJson and Furious",
+      "difficulty": "Easy",
+      "category": "Mobile",
+      "is_owned": false,
+      "solves": 528,
+      "state": "retired"
+    },
+    {
+      "id": 738,
+      "name": "AI SPACE",
+      "difficulty": "Easy",
+      "category": "AI/ML",
+      "is_owned": false,
+      "solves": 1867,
+      "state": "active"
+    },
+    {
+      "id": 741,
+      "name": "Fuel Crisis",
+      "difficulty": "Easy",
+      "category": "AI/ML",
+      "is_owned": false,
+      "solves": 188,
+      "state": "retired"
+    },
+    {
+      "id": 691,
+      "name": "Don't Panic",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 196,
+      "state": "retired"
+    },
+    {
+      "id": 701,
+      "name": "ShinyHunter",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 915,
+      "state": "active"
+    },
+    {
+      "id": 702,
+      "name": "Living with Elegance",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 86,
+      "state": "retired"
+    },
+    {
+      "id": 703,
+      "name": "Bloom Bloom",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 97,
+      "state": "retired"
+    },
+    {
+      "id": 708,
+      "name": "Abyss",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 100,
+      "state": "retired"
+    },
+    {
+      "id": 712,
+      "name": "Dynamic Paths",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 62,
+      "state": "retired"
+    },
+    {
+      "id": 713,
+      "name": "Bag Secured",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 75,
+      "state": "retired"
+    },
+    {
+      "id": 716,
+      "name": "Chrono Mind",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 50,
+      "state": "retired"
+    },
+    {
+      "id": 718,
+      "name": "Hidden Path",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 76,
+      "state": "retired"
+    },
+    {
+      "id": 719,
+      "name": "Tangled Heist",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 201,
+      "state": "retired"
+    },
+    {
+      "id": 720,
+      "name": "Silicon Data Sleuthing",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 156,
+      "state": "retired"
+    },
+    {
+      "id": 722,
+      "name": "Say Cheese!",
+      "difficulty": "Easy",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 58,
+      "state": "retired"
+    },
+    {
+      "id": 723,
+      "name": "Sneak peek",
+      "difficulty": "Easy",
+      "category": "ICS",
+      "is_owned": false,
+      "solves": 155,
+      "state": "retired"
+    },
+    {
+      "id": 724,
+      "name": "NotADemocraticElection",
+      "difficulty": "Easy",
+      "category": "Blockchain",
+      "is_owned": false,
+      "solves": 141,
+      "state": "retired"
+    },
+    {
+      "id": 725,
+      "name": "MetaVault",
+      "difficulty": "Easy",
+      "category": "Blockchain",
+      "is_owned": false,
+      "solves": 119,
+      "state": "retired"
+    },
+    {
+      "id": 728,
+      "name": "Jailbreak",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 527,
+      "state": "retired"
+    },
+    {
+      "id": 729,
+      "name": "Blueprint Heist",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 131,
+      "state": "retired"
+    },
+    {
+      "id": 649,
+      "name": "Labyrinth Linguist",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 326,
+      "state": "retired"
+    },
+    {
+      "id": 650,
+      "name": "Testimonial",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 179,
+      "state": "retired"
+    },
+    {
+      "id": 658,
+      "name": "Iced Tea",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 139,
+      "state": "retired"
+    },
+    {
+      "id": 659,
+      "name": "Arranged",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 84,
+      "state": "retired"
+    },
+    {
+      "id": 664,
+      "name": "Rocket Blaster XXX",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 378,
+      "state": "retired"
+    },
+    {
+      "id": 676,
+      "name": "Pursue the Tracks",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 203,
+      "state": "retired"
+    },
+    {
+      "id": 677,
+      "name": "Fake Boost",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 487,
+      "state": "retired"
+    },
+    {
+      "id": 684,
+      "name": "Lucky Faucet",
+      "difficulty": "Easy",
+      "category": "Blockchain",
+      "is_owned": false,
+      "solves": 132,
+      "state": "retired"
+    },
+    {
+      "id": 685,
+      "name": "Recovery",
+      "difficulty": "Easy",
+      "category": "Blockchain",
+      "is_owned": false,
+      "solves": 82,
+      "state": "retired"
+    },
+    {
+      "id": 687,
+      "name": "Cubicle Riddle",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 48,
+      "state": "retired"
+    },
+    {
+      "id": 693,
+      "name": "Crushing",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 157,
+      "state": "retired"
+    },
+    {
+      "id": 694,
+      "name": "QuickScan",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 109,
+      "state": "retired"
+    },
+    {
+      "id": 644,
+      "name": "Fishy HTTP",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 1933,
+      "state": "active"
+    },
+    {
+      "id": 640,
+      "name": "Execute",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 2362,
+      "state": "active"
+    },
+    {
+      "id": 637,
+      "name": "PDFy",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": true,
+      "solves": 3687,
+      "state": "retired"
+    },
+    {
+      "id": 618,
+      "name": "SpellBrewery",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 190,
+      "state": "retired"
+    },
+    {
+      "id": 620,
+      "name": "Symbols",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 128,
+      "state": "retired"
+    },
+    {
+      "id": 621,
+      "name": "Valhalloween",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 186,
+      "state": "retired"
+    },
+    {
+      "id": 622,
+      "name": "HauntMart",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 577,
+      "state": "retired"
+    },
+    {
+      "id": 625,
+      "name": "PumpkinSpice",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 420,
+      "state": "retired"
+    },
+    {
+      "id": 626,
+      "name": "Spellbound Servants",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 526,
+      "state": "retired"
+    },
+    {
+      "id": 627,
+      "name": "GhostlyTemplates",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 309,
+      "state": "retired"
+    },
+    {
+      "id": 630,
+      "name": "MSS",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 87,
+      "state": "retired"
+    },
+    {
+      "id": 610,
+      "name": "Insomnia",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": true,
+      "solves": 4959,
+      "state": "retired"
+    },
+    {
+      "id": 599,
+      "name": "GateCrash",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 403,
+      "state": "retired"
+    },
+    {
+      "id": 603,
+      "name": "Getting Closer",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 126,
+      "state": "retired"
+    },
+    {
+      "id": 606,
+      "name": "Great Old Talisman",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 208,
+      "state": "retired"
+    },
+    {
+      "id": 593,
+      "name": "ARMs Race",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 1842,
+      "state": "active"
+    },
+    {
+      "id": 591,
+      "name": "0xBOverchunked",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 1562,
+      "state": "retired"
+    },
+    {
+      "id": 589,
+      "name": "HTBank",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 1380,
+      "state": "retired"
+    },
+    {
+      "id": 583,
+      "name": "Fentastic Moves",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 204,
+      "state": "retired"
+    },
+    {
+      "id": 576,
+      "name": "Saturn",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 1865,
+      "state": "retired"
+    },
+    {
+      "id": 551,
+      "name": "jscalc",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": true,
+      "solves": 6389,
+      "state": "retired"
+    },
+    {
+      "id": 549,
+      "name": "ProxyAsAService",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": true,
+      "solves": 4010,
+      "state": "retired"
+    },
+    {
+      "id": 538,
+      "name": "Wild Goose Hunt",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 359,
+      "state": "retired"
+    },
+    {
+      "id": 539,
+      "name": "emoji voting",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 363,
+      "state": "retired"
+    },
+    {
+      "id": 541,
+      "name": "E.Tree",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 273,
+      "state": "retired"
+    },
+    {
+      "id": 543,
+      "name": "CurlAsAService",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 384,
+      "state": "retired"
+    },
+    {
+      "id": 546,
+      "name": "ApacheBlaze",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 3172,
+      "state": "retired"
+    },
+    {
+      "id": 537,
+      "name": "RenderQuest",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 3442,
+      "state": "retired"
+    },
+    {
+      "id": 536,
+      "name": "Cyberpsychosis",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 2351,
+      "state": "active"
+    },
+    {
+      "id": 531,
+      "name": "Watersnake",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 398,
+      "state": "retired"
+    },
+    {
+      "id": 533,
+      "name": "Lazy Ballot",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 416,
+      "state": "retired"
+    },
+    {
+      "id": 515,
+      "name": "Scripts and Formulas",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 185,
+      "state": "retired"
+    },
+    {
+      "id": 518,
+      "name": "I'm gRoot",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 82,
+      "state": "retired"
+    },
+    {
+      "id": 525,
+      "name": "Intrusion",
+      "difficulty": "Easy",
+      "category": "ICS",
+      "is_owned": false,
+      "solves": 231,
+      "state": "retired"
+    },
+    {
+      "id": 527,
+      "name": "Funds Secured",
+      "difficulty": "Easy",
+      "category": "Blockchain",
+      "is_owned": false,
+      "solves": 176,
+      "state": "retired"
+    },
+    {
+      "id": 510,
+      "name": "Snow Scan",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 70,
+      "state": "retired"
+    },
+    {
+      "id": 505,
+      "name": "Honor Among Thieves",
+      "difficulty": "Easy",
+      "category": "Blockchain",
+      "is_owned": false,
+      "solves": 1158,
+      "state": "active"
+    },
+    {
+      "id": 504,
+      "name": "Token to Wonderland",
+      "difficulty": "Easy",
+      "category": "Blockchain",
+      "is_owned": false,
+      "solves": 1018,
+      "state": "active"
+    },
+    {
+      "id": 509,
+      "name": "Secure Signing",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 945,
+      "state": "retired"
+    },
+    {
+      "id": 502,
+      "name": "Magic Vault",
+      "difficulty": "Easy",
+      "category": "Blockchain",
+      "is_owned": false,
+      "solves": 1092,
+      "state": "active"
+    },
+    {
+      "id": 493,
+      "name": "Passman",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 681,
+      "state": "retired"
+    },
+    {
+      "id": 494,
+      "name": "Orbital",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 618,
+      "state": "retired"
+    },
+    {
+      "id": 497,
+      "name": "Rhome",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 1795,
+      "state": "active"
+    },
+    {
+      "id": 468,
+      "name": "VHDLock",
+      "difficulty": "Easy",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 556,
+      "state": "retired"
+    },
+    {
+      "id": 471,
+      "name": "Packet Cyclone",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 327,
+      "state": "retired"
+    },
+    {
+      "id": 472,
+      "name": "Artifact Of Dangerous Sighting",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 236,
+      "state": "retired"
+    },
+    {
+      "id": 477,
+      "name": "Multipage Recyclings",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 142,
+      "state": "retired"
+    },
+    {
+      "id": 478,
+      "name": "Inside the Matrix",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 97,
+      "state": "retired"
+    },
+    {
+      "id": 462,
+      "name": "Void",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 289,
+      "state": "retired"
+    },
+    {
+      "id": 458,
+      "name": "Oxidized ROP",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 686,
+      "state": "retired"
+    },
+    {
+      "id": 453,
+      "name": "Encryption Bot",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 1144,
+      "state": "retired"
+    },
+    {
+      "id": 452,
+      "name": "NoRadar",
+      "difficulty": "Easy",
+      "category": "GamePwn",
+      "is_owned": false,
+      "solves": 741,
+      "state": "active"
+    },
+    {
+      "id": 450,
+      "name": "RFlag",
+      "difficulty": "Easy",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 2099,
+      "state": "active"
+    },
+    {
+      "id": 446,
+      "name": "TrueSecrets",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 3556,
+      "state": "active"
+    },
+    {
+      "id": 445,
+      "name": "A Nightmare On Math Street",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 931,
+      "state": "retired"
+    },
+    {
+      "id": 433,
+      "name": "Potion Master",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 174,
+      "state": "retired"
+    },
+    {
+      "id": 438,
+      "name": "Bank-er-smith",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 100,
+      "state": "retired"
+    },
+    {
+      "id": 440,
+      "name": "Fake News",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 327,
+      "state": "retired"
+    },
+    {
+      "id": 441,
+      "name": "The Magic Informer",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 374,
+      "state": "retired"
+    },
+    {
+      "id": 427,
+      "name": "Man In The Middle",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 702,
+      "state": "retired"
+    },
+    {
+      "id": 425,
+      "name": "Secured Transfer",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 272,
+      "state": "retired"
+    },
+    {
+      "id": 405,
+      "name": "Finale",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 182,
+      "state": "retired"
+    },
+    {
+      "id": 406,
+      "name": "Spooky Time",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 193,
+      "state": "retired"
+    },
+    {
+      "id": 408,
+      "name": "Inside Scoop",
+      "difficulty": "Easy",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 53,
+      "state": "retired"
+    },
+    {
+      "id": 409,
+      "name": "Spooky License",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 1910,
+      "state": "retired"
+    },
+    {
+      "id": 410,
+      "name": "Ouija",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 473,
+      "state": "retired"
+    },
+    {
+      "id": 414,
+      "name": "Horror Feeds",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 506,
+      "state": "retired"
+    },
+    {
+      "id": 415,
+      "name": "Whole Lotta Candy",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 127,
+      "state": "retired"
+    },
+    {
+      "id": 417,
+      "name": "AHS512",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 127,
+      "state": "retired"
+    },
+    {
+      "id": 418,
+      "name": "Spooky RSA",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 245,
+      "state": "retired"
+    },
+    {
+      "id": 420,
+      "name": "Downgrade",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 258,
+      "state": "retired"
+    },
+    {
+      "id": 421,
+      "name": "POOF",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 220,
+      "state": "retired"
+    },
+    {
+      "id": 422,
+      "name": "Halloween Invitation",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 340,
+      "state": "retired"
+    },
+    {
+      "id": 399,
+      "name": "ChromeMiner",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 191,
+      "state": "retired"
+    },
+    {
+      "id": 395,
+      "name": "C.O.P",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 4028,
+      "state": "retired"
+    },
+    {
+      "id": 392,
+      "name": "Up a Stream",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 676,
+      "state": "retired"
+    },
+    {
+      "id": 379,
+      "name": "ElElGamal",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 100,
+      "state": "retired"
+    },
+    {
+      "id": 380,
+      "name": "BBGun06",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 120,
+      "state": "retired"
+    },
+    {
+      "id": 383,
+      "name": "Superfast",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 95,
+      "state": "retired"
+    },
+    {
+      "id": 387,
+      "name": "Pivotman",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 106,
+      "state": "retired"
+    },
+    {
+      "id": 390,
+      "name": "Touch",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 834,
+      "state": "retired"
+    },
+    {
+      "id": 378,
+      "name": "Golfer - Part 1",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 2329,
+      "state": "retired"
+    },
+    {
+      "id": 369,
+      "name": "Perseverance",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 428,
+      "state": "retired"
+    },
+    {
+      "id": 372,
+      "name": "Debugger Unchained",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 280,
+      "state": "retired"
+    },
+    {
+      "id": 373,
+      "name": "Letter Dispair",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 895,
+      "state": "retired"
+    },
+    {
+      "id": 374,
+      "name": "PhishTale",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 188,
+      "state": "retired"
+    },
+    {
+      "id": 375,
+      "name": "Felonious Forums",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 356,
+      "state": "retired"
+    },
+    {
+      "id": 364,
+      "name": "Embryonic Plant",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 1917,
+      "state": "active"
+    },
+    {
+      "id": 361,
+      "name": "Bashic Calculator",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 1043,
+      "state": "retired"
+    },
+    {
+      "id": 360,
+      "name": "Diagnostic",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 5604,
+      "state": "active"
+    },
+    {
+      "id": 316,
+      "name": "baby quick maffs",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 484,
+      "state": "retired"
+    },
+    {
+      "id": 317,
+      "name": "Intergalactic Recovery",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 223,
+      "state": "retired"
+    },
+    {
+      "id": 320,
+      "name": "Free Services",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 232,
+      "state": "retired"
+    },
+    {
+      "id": 321,
+      "name": "Automation",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 249,
+      "state": "retired"
+    },
+    {
+      "id": 324,
+      "name": "Spiky Tamagotchi",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 563,
+      "state": "retired"
+    },
+    {
+      "id": 325,
+      "name": "Amidst Us",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 705,
+      "state": "retired"
+    },
+    {
+      "id": 327,
+      "name": "Kryptos Support",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 446,
+      "state": "retired"
+    },
+    {
+      "id": 328,
+      "name": "Intergalactic Post",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 696,
+      "state": "retired"
+    },
+    {
+      "id": 339,
+      "name": "Fleet Management",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 318,
+      "state": "retired"
+    },
+    {
+      "id": 341,
+      "name": "Jenny From The Block",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 114,
+      "state": "retired"
+    },
+    {
+      "id": 342,
+      "name": "The Three-Eyed Oracle",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 98,
+      "state": "retired"
+    },
+    {
+      "id": 343,
+      "name": "How The Columns Have Turned",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 205,
+      "state": "retired"
+    },
+    {
+      "id": 350,
+      "name": "BlinkerFluids",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 1146,
+      "state": "retired"
+    },
+    {
+      "id": 352,
+      "name": "Rebuilding",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 323,
+      "state": "retired"
+    },
+    {
+      "id": 357,
+      "name": "Snakecode",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 572,
+      "state": "retired"
+    },
+    {
+      "id": 314,
+      "name": "SecretRezipe",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 960,
+      "state": "retired"
+    },
+    {
+      "id": 311,
+      "name": "EasterBunny",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 1663,
+      "state": "retired"
+    },
+    {
+      "id": 305,
+      "name": "CubeMadness2",
+      "difficulty": "Easy",
+      "category": "GamePwn",
+      "is_owned": false,
+      "solves": 1404,
+      "state": "active"
+    },
+    {
+      "id": 306,
+      "name": "Partial Encryption",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 1840,
+      "state": "active"
+    },
+    {
+      "id": 303,
+      "name": "Neonify",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 8346,
+      "state": "retired"
+    },
+    {
+      "id": 299,
+      "name": "Quantum-Safe",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 1816,
+      "state": "active"
+    },
+    {
+      "id": 288,
+      "name": "Diogenes' Rage",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 2477,
+      "state": "retired"
+    },
+    {
+      "id": 282,
+      "name": "Pinned",
+      "difficulty": "Easy",
+      "category": "Mobile",
+      "is_owned": false,
+      "solves": 1141,
+      "state": "retired"
+    },
+    {
+      "id": 283,
+      "name": "Manager",
+      "difficulty": "Easy",
+      "category": "Mobile",
+      "is_owned": false,
+      "solves": 1216,
+      "state": "retired"
+    },
+    {
+      "id": 284,
+      "name": "Anchored",
+      "difficulty": "Easy",
+      "category": "Mobile",
+      "is_owned": false,
+      "solves": 491,
+      "state": "retired"
+    },
+    {
+      "id": 285,
+      "name": "APKrypt",
+      "difficulty": "Easy",
+      "category": "Mobile",
+      "is_owned": false,
+      "solves": 739,
+      "state": "retired"
+    },
+    {
+      "id": 265,
+      "name": "Slippy",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 905,
+      "state": "retired"
+    },
+    {
+      "id": 274,
+      "name": "Space Pirates",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 192,
+      "state": "retired"
+    },
+    {
+      "id": 277,
+      "name": "Peel Back The Layers",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 283,
+      "state": "retired"
+    },
+    {
+      "id": 280,
+      "name": "Out of Time",
+      "difficulty": "Easy",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 78,
+      "state": "retired"
+    },
+    {
+      "id": 260,
+      "name": "AbuseHumanDB",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 1069,
+      "state": "retired"
+    },
+    {
+      "id": 252,
+      "name": "Micro Storage",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 2357,
+      "state": "active"
+    },
+    {
+      "id": 250,
+      "name": "Protein Cookies",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 1707,
+      "state": "active"
+    },
+    {
+      "id": 247,
+      "name": "Line",
+      "difficulty": "Easy",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 854,
+      "state": "retired"
+    },
+    {
+      "id": 244,
+      "name": "baby CachedView",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 1446,
+      "state": "retired"
+    },
+    {
+      "id": 239,
+      "name": "Wander",
+      "difficulty": "Easy",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 2503,
+      "state": "active"
+    },
+    {
+      "id": 240,
+      "name": "APKey",
+      "difficulty": "Easy",
+      "category": "Mobile",
+      "is_owned": false,
+      "solves": 4622,
+      "state": "active"
+    },
+    {
+      "id": 235,
+      "name": "RSAisEasy",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 3672,
+      "state": "active"
+    },
+    {
+      "id": 234,
+      "name": "LunaCrypt",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 792,
+      "state": "retired"
+    },
+    {
+      "id": 233,
+      "name": "Signals",
+      "difficulty": "Easy",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 2923,
+      "state": "retired"
+    },
+    {
+      "id": 232,
+      "name": "Lost Modulus",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 3072,
+      "state": "retired"
+    },
+    {
+      "id": 231,
+      "name": "RAuth",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 2910,
+      "state": "active"
+    },
+    {
+      "id": 229,
+      "name": "petpet rcbee",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 6772,
+      "state": "retired"
+    },
+    {
+      "id": 227,
+      "name": "RLotto",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 2639,
+      "state": "retired"
+    },
+    {
+      "id": 225,
+      "name": "Nuclear Sale",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 3133,
+      "state": "retired"
+    },
+    {
+      "id": 224,
+      "name": "Toxic",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 9877,
+      "state": "retired"
+    },
+    {
+      "id": 222,
+      "name": "Factory",
+      "difficulty": "Easy",
+      "category": "ICS",
+      "is_owned": false,
+      "solves": 2174,
+      "state": "active"
+    },
+    {
+      "id": 209,
+      "name": "You Cant C Me",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 2162,
+      "state": "retired"
+    },
+    {
+      "id": 210,
+      "name": "Baby Crypt",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 1458,
+      "state": "retired"
+    },
+    {
+      "id": 211,
+      "name": "Anti Flag",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 954,
+      "state": "retired"
+    },
+    {
+      "id": 212,
+      "name": "IRCWare",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 657,
+      "state": "retired"
+    },
+    {
+      "id": 213,
+      "name": "Sekure Decrypt",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 404,
+      "state": "retired"
+    },
+    {
+      "id": 214,
+      "name": "Hissss",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 375,
+      "state": "retired"
+    },
+    {
+      "id": 218,
+      "name": "Chop Shop",
+      "difficulty": "Easy",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 52,
+      "state": "retired"
+    },
+    {
+      "id": 219,
+      "name": "Mini Line",
+      "difficulty": "Easy",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 139,
+      "state": "retired"
+    },
+    {
+      "id": 201,
+      "name": "Bad grades",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 2470,
+      "state": "retired"
+    },
+    {
+      "id": 200,
+      "name": "Restaurant",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 4403,
+      "state": "active"
+    },
+    {
+      "id": 198,
+      "name": "LoveTok",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 14826,
+      "state": "retired"
+    },
+    {
+      "id": 196,
+      "name": "Weather App",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 6612,
+      "state": "retired"
+    },
+    {
+      "id": 192,
+      "name": "HackyBird",
+      "difficulty": "Easy",
+      "category": "GamePwn",
+      "is_owned": false,
+      "solves": 3039,
+      "state": "retired"
+    },
+    {
+      "id": 191,
+      "name": "xorxorxor",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 11137,
+      "state": "retired"
+    },
+    {
+      "id": 190,
+      "name": "TwoForOne",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 3010,
+      "state": "retired"
+    },
+    {
+      "id": 188,
+      "name": "emo",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 4529,
+      "state": "active"
+    },
+    {
+      "id": 157,
+      "name": "Chase",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 3822,
+      "state": "retired"
+    },
+    {
+      "id": 158,
+      "name": "Event Horizon",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 2356,
+      "state": "retired"
+    },
+    {
+      "id": 159,
+      "name": "Export",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 1513,
+      "state": "retired"
+    },
+    {
+      "id": 160,
+      "name": "Insider",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 1461,
+      "state": "retired"
+    },
+    {
+      "id": 162,
+      "name": "Logger",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 1095,
+      "state": "retired"
+    },
+    {
+      "id": 163,
+      "name": "Lure",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 1180,
+      "state": "retired"
+    },
+    {
+      "id": 164,
+      "name": "No Place To Hide",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 1076,
+      "state": "retired"
+    },
+    {
+      "id": 166,
+      "name": "Ransom",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 779,
+      "state": "retired"
+    },
+    {
+      "id": 167,
+      "name": "Jeeves",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 2139,
+      "state": "retired"
+    },
+    {
+      "id": 168,
+      "name": "Bat Computer",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 1125,
+      "state": "retired"
+    },
+    {
+      "id": 169,
+      "name": "Optimistic",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 702,
+      "state": "retired"
+    },
+    {
+      "id": 170,
+      "name": "Reg",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 1302,
+      "state": "retired"
+    },
+    {
+      "id": 171,
+      "name": "HTB Console",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 765,
+      "state": "retired"
+    },
+    {
+      "id": 172,
+      "name": "PwnShop",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 410,
+      "state": "retired"
+    },
+    {
+      "id": 173,
+      "name": "Leet Test",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 445,
+      "state": "retired"
+    },
+    {
+      "id": 174,
+      "name": "Nightmare",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 287,
+      "state": "retired"
+    },
+    {
+      "id": 175,
+      "name": "Blacksmith",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 496,
+      "state": "retired"
+    },
+    {
+      "id": 176,
+      "name": "Shooting star",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 394,
+      "state": "retired"
+    },
+    {
+      "id": 177,
+      "name": "looking glass",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": true,
+      "solves": 7505,
+      "state": "retired"
+    },
+    {
+      "id": 178,
+      "name": "sanitize",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": true,
+      "solves": 7120,
+      "state": "retired"
+    },
+    {
+      "id": 179,
+      "name": "baby auth",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": true,
+      "solves": 6275,
+      "state": "retired"
+    },
+    {
+      "id": 180,
+      "name": "baby nginxatsu",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": true,
+      "solves": 4841,
+      "state": "retired"
+    },
+    {
+      "id": 181,
+      "name": "baby WAFfles order",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": true,
+      "solves": 3576,
+      "state": "retired"
+    },
+    {
+      "id": 182,
+      "name": "baby todo or not todo",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": true,
+      "solves": 3277,
+      "state": "retired"
+    },
+    {
+      "id": 183,
+      "name": "baby BoneChewerCon",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": true,
+      "solves": 4558,
+      "state": "retired"
+    },
+    {
+      "id": 184,
+      "name": "Full Stack Conf",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": true,
+      "solves": 4352,
+      "state": "retired"
+    },
+    {
+      "id": 185,
+      "name": "baby website rick",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": true,
+      "solves": 2269,
+      "state": "retired"
+    },
+    {
+      "id": 186,
+      "name": "baby breaking grad",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": true,
+      "solves": 1573,
+      "state": "retired"
+    },
+    {
+      "id": 187,
+      "name": "Persistence",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 1150,
+      "state": "retired"
+    },
+    {
+      "id": 156,
+      "name": "Canvas",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": true,
+      "solves": 10934,
+      "state": "retired"
+    },
+    {
+      "id": 153,
+      "name": "Phonebook",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 19196,
+      "state": "retired"
+    },
+    {
+      "id": 152,
+      "name": "Templated",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 34930,
+      "state": "retired"
+    },
+    {
+      "id": 147,
+      "name": "baby interdimensional internet",
+      "difficulty": "Easy",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 2937,
+      "state": "retired"
+    },
+    {
+      "id": 144,
+      "name": "Hunting",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 4329,
+      "state": "retired"
+    },
+    {
+      "id": 140,
+      "name": "Format",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 987,
+      "state": "retired"
+    },
+    {
+      "id": 139,
+      "name": "Deterministic",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 2920,
+      "state": "retired"
+    },
+    {
+      "id": 137,
+      "name": "Sick ROP",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 3104,
+      "state": "retired"
+    },
+    {
+      "id": 133,
+      "name": "The secret of a Queen",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 6051,
+      "state": "retired"
+    },
+    {
+      "id": 132,
+      "name": "Mission Pinpossible",
+      "difficulty": "Easy",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 3173,
+      "state": "active"
+    },
+    {
+      "id": 124,
+      "name": "Flippin Bank",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": true,
+      "solves": 4707,
+      "state": "retired"
+    },
+    {
+      "id": 123,
+      "name": "Money Flowz",
+      "difficulty": "Easy",
+      "category": "OSINT",
+      "is_owned": false,
+      "solves": 11738,
+      "state": "retired"
+    },
+    {
+      "id": 121,
+      "name": "Exatlon",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 9403,
+      "state": "active"
+    },
+    {
+      "id": 119,
+      "name": "QuickR",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 2980,
+      "state": "retired"
+    },
+    {
+      "id": 115,
+      "name": "Cat",
+      "difficulty": "Easy",
+      "category": "Mobile",
+      "is_owned": false,
+      "solves": 15479,
+      "state": "active"
+    },
+    {
+      "id": 114,
+      "name": "Bypass",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 12819,
+      "state": "active"
+    },
+    {
+      "id": 108,
+      "name": "RsaCtfTool",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 2875,
+      "state": "retired"
+    },
+    {
+      "id": 106,
+      "name": "You know 0xDiablos",
+      "difficulty": "Easy",
+      "category": "Pwn",
+      "is_owned": true,
+      "solves": 16237,
+      "state": "active"
+    },
+    {
+      "id": 98,
+      "name": "M0rsarchive",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 5028,
+      "state": "retired"
+    },
+    {
+      "id": 92,
+      "name": "Baby RE",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 23003,
+      "state": "retired"
+    },
+    {
+      "id": 90,
+      "name": "Optimus Prime",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 2741,
+      "state": "retired"
+    },
+    {
+      "id": 89,
+      "name": "ExploitedStream",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 2422,
+      "state": "retired"
+    },
+    {
+      "id": 87,
+      "name": "Illumination",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 21952,
+      "state": "retired"
+    },
+    {
+      "id": 84,
+      "name": "Obscure",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 7214,
+      "state": "active"
+    },
+    {
+      "id": 83,
+      "name": "Infiltration",
+      "difficulty": "Easy",
+      "category": "OSINT",
+      "is_owned": false,
+      "solves": 16558,
+      "state": "retired"
+    },
+    {
+      "id": 79,
+      "name": "Easy Phish",
+      "difficulty": "Easy",
+      "category": "OSINT",
+      "is_owned": false,
+      "solves": 24948,
+      "state": "retired"
+    },
+    {
+      "id": 67,
+      "name": "Emdee five for life",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 35192,
+      "state": "retired"
+    },
+    {
+      "id": 66,
+      "name": "MarketDump",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 12815,
+      "state": "retired"
+    },
+    {
+      "id": 55,
+      "name": "misDIRection",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 16037,
+      "state": "retired"
+    },
+    {
+      "id": 56,
+      "name": "Eternal Loop",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 11373,
+      "state": "retired"
+    },
+    {
+      "id": 52,
+      "name": "Pusheen Loves Graphs",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 11575,
+      "state": "retired"
+    },
+    {
+      "id": 44,
+      "name": "Art",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 8384,
+      "state": "retired"
+    },
+    {
+      "id": 43,
+      "name": "Brainy's Cipher",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 5307,
+      "state": "retired"
+    },
+    {
+      "id": 39,
+      "name": "Reminiscent",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 13678,
+      "state": "retired"
+    },
+    {
+      "id": 33,
+      "name": "Da Vinci",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 7858,
+      "state": "retired"
+    },
+    {
+      "id": 31,
+      "name": "0ld is g0ld",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 16415,
+      "state": "retired"
+    },
+    {
+      "id": 26,
+      "name": "Impossible Password",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 22136,
+      "state": "retired"
+    },
+    {
+      "id": 27,
+      "name": "Marshal in the Middle",
+      "difficulty": "Easy",
+      "category": "Forensics",
+      "is_owned": true,
+      "solves": 4823,
+      "state": "retired"
+    },
+    {
+      "id": 22,
+      "name": "Classic, yet complicated!",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 10001,
+      "state": "retired"
+    },
+    {
+      "id": 23,
+      "name": "Milkshake",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 7007,
+      "state": "retired"
+    },
+    {
+      "id": 20,
+      "name": "fs0ciety",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 11544,
+      "state": "retired"
+    },
+    {
+      "id": 14,
+      "name": "BitsNBytes",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 1254,
+      "state": "retired"
+    },
+    {
+      "id": 17,
+      "name": "Hackerman",
+      "difficulty": "Easy",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 5987,
+      "state": "retired"
+    },
+    {
+      "id": 12,
+      "name": "Eat the Cake!",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 2312,
+      "state": "retired"
+    },
+    {
+      "id": 10,
+      "name": "I know Mag1k",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 10171,
+      "state": "retired"
+    },
+    {
+      "id": 5,
+      "name": "Find The Easy Pass",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": true,
+      "solves": 25795,
+      "state": "retired"
+    },
+    {
+      "id": 6,
+      "name": "Weak RSA",
+      "difficulty": "Easy",
+      "category": "Crypto",
+      "is_owned": true,
+      "solves": 18402,
+      "state": "retired"
+    },
+    {
+      "id": 2,
+      "name": "The Art of Reversing",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 3292,
+      "state": "retired"
+    },
+    {
+      "id": 3,
+      "name": "Tear Or Dear",
+      "difficulty": "Easy",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 4845,
+      "state": "retired"
+    },
+    {
+      "id": 1347,
+      "name": "Groundstation Breach",
+      "difficulty": "Medium",
+      "category": "Satellite",
+      "is_owned": false,
+      "solves": 216,
+      "state": "active"
+    },
+    {
+      "id": 1353,
+      "name": "Signal from Space",
+      "difficulty": "Medium",
+      "category": "Satellite",
+      "is_owned": false,
+      "solves": 221,
+      "state": "active"
+    },
+    {
+      "id": 1335,
+      "name": "Nomad Notes",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 262,
+      "state": "active"
+    },
+    {
+      "id": 1323,
+      "name": "Zigzag",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 246,
+      "state": "active"
+    },
+    {
+      "id": 1308,
+      "name": "HILLarious",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 430,
+      "state": "active"
+    },
+    {
+      "id": 1272,
+      "name": "Bobby's Bistro",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 546,
+      "state": "active"
+    },
+    {
+      "id": 1218,
+      "name": "Notebook Converter Pro",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 283,
+      "state": "retired_free"
+    },
+    {
+      "id": 1215,
+      "name": "Utterly Broken Shell",
+      "difficulty": "Medium",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 393,
+      "state": "active"
+    },
+    {
+      "id": 1206,
+      "name": "Plug & Pray",
+      "difficulty": "Medium",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 414,
+      "state": "active"
+    },
+    {
+      "id": 1188,
+      "name": "Funkynator",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 392,
+      "state": "active"
+    },
+    {
+      "id": 1177,
+      "name": "GameLoader",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 403,
+      "state": "active"
+    },
+    {
+      "id": 1150,
+      "name": "PyDome",
+      "difficulty": "Medium",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 311,
+      "state": "active"
+    },
+    {
+      "id": 1147,
+      "name": "SSOS",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 308,
+      "state": "active"
+    },
+    {
+      "id": 1111,
+      "name": "Steel Mountain",
+      "difficulty": "Medium",
+      "category": "ICS",
+      "is_owned": false,
+      "solves": 426,
+      "state": "active"
+    },
+    {
+      "id": 1114,
+      "name": "Flow Override",
+      "difficulty": "Medium",
+      "category": "ICS",
+      "is_owned": false,
+      "solves": 340,
+      "state": "active"
+    },
+    {
+      "id": 1087,
+      "name": "Protected",
+      "difficulty": "Medium",
+      "category": "Mobile",
+      "is_owned": false,
+      "solves": 303,
+      "state": "active"
+    },
+    {
+      "id": 1063,
+      "name": "Untrusted Node",
+      "difficulty": "Medium",
+      "category": "Quantum",
+      "is_owned": false,
+      "solves": 380,
+      "state": "active"
+    },
+    {
+      "id": 1009,
+      "name": "Noncesense Encryption",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 734,
+      "state": "active"
+    },
+    {
+      "id": 1003,
+      "name": "Celestial Scribe",
+      "difficulty": "Medium",
+      "category": "Mobile",
+      "is_owned": false,
+      "solves": 298,
+      "state": "active"
+    },
+    {
+      "id": 991,
+      "name": "FlappyFlopper",
+      "difficulty": "Medium",
+      "category": "GamePwn",
+      "is_owned": false,
+      "solves": 309,
+      "state": "active"
+    },
+    {
+      "id": 956,
+      "name": "Phoenix Pipeline",
+      "difficulty": "Medium",
+      "category": "Secure Coding",
+      "is_owned": false,
+      "solves": 572,
+      "state": "active"
+    },
+    {
+      "id": 964,
+      "name": "Sattrack",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 160,
+      "state": "retired_free"
+    },
+    {
+      "id": 943,
+      "name": "Decision Gate",
+      "difficulty": "Medium",
+      "category": "AI/ML",
+      "is_owned": false,
+      "solves": 86,
+      "state": "retired"
+    },
+    {
+      "id": 944,
+      "name": "Doctrine Studio",
+      "difficulty": "Medium",
+      "category": "AI/ML",
+      "is_owned": false,
+      "solves": 94,
+      "state": "retired"
+    },
+    {
+      "id": 946,
+      "name": "Power Supply",
+      "difficulty": "Medium",
+      "category": "AI/ML",
+      "is_owned": false,
+      "solves": 157,
+      "state": "retired"
+    },
+    {
+      "id": 911,
+      "name": "Early Bird",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 31,
+      "state": "retired"
+    },
+    {
+      "id": 914,
+      "name": "Cyber Bankrupt",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 55,
+      "state": "retired"
+    },
+    {
+      "id": 916,
+      "name": "Null Assembler",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 33,
+      "state": "retired"
+    },
+    {
+      "id": 919,
+      "name": "Honeypot",
+      "difficulty": "Medium",
+      "category": "Coding",
+      "is_owned": false,
+      "solves": 130,
+      "state": "retired"
+    },
+    {
+      "id": 920,
+      "name": "Blackwire",
+      "difficulty": "Medium",
+      "category": "Coding",
+      "is_owned": false,
+      "solves": 115,
+      "state": "retired"
+    },
+    {
+      "id": 926,
+      "name": "EvilBox",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 51,
+      "state": "retired"
+    },
+    {
+      "id": 896,
+      "name": "Neon Core",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 580,
+      "state": "active"
+    },
+    {
+      "id": 877,
+      "name": "Defusal",
+      "difficulty": "Medium",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 371,
+      "state": "active"
+    },
+    {
+      "id": 884,
+      "name": "Contractor",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 39,
+      "state": "retired"
+    },
+    {
+      "id": 890,
+      "name": "Verilicious",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 55,
+      "state": "retired"
+    },
+    {
+      "id": 891,
+      "name": "Copperbox",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 56,
+      "state": "retired"
+    },
+    {
+      "id": 882,
+      "name": "TicTacToed",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 430,
+      "state": "active"
+    },
+    {
+      "id": 863,
+      "name": "Dusty Alleys",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 1248,
+      "state": "retired"
+    },
+    {
+      "id": 853,
+      "name": "portaloo",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 556,
+      "state": "active"
+    },
+    {
+      "id": 838,
+      "name": "BinCrypt Breaker",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 702,
+      "state": "retired"
+    },
+    {
+      "id": 844,
+      "name": "Prison Break",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 60,
+      "state": "retired"
+    },
+    {
+      "id": 846,
+      "name": "EncoDecept",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 23,
+      "state": "retired"
+    },
+    {
+      "id": 847,
+      "name": "Intergalatic Bounty",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 35,
+      "state": "retired"
+    },
+    {
+      "id": 850,
+      "name": "Binary Badresources",
+      "difficulty": "Medium",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 81,
+      "state": "retired"
+    },
+    {
+      "id": 829,
+      "name": "Interstellar",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 908,
+      "state": "active"
+    },
+    {
+      "id": 826,
+      "name": "ReplaceMe",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 490,
+      "state": "retired"
+    },
+    {
+      "id": 825,
+      "name": "Rega's Town",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 749,
+      "state": "active"
+    },
+    {
+      "id": 823,
+      "name": "Shambles",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 497,
+      "state": "active"
+    },
+    {
+      "id": 822,
+      "name": "Under the web",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 425,
+      "state": "active"
+    },
+    {
+      "id": 776,
+      "name": "Wayback",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 816,
+      "state": "active"
+    },
+    {
+      "id": 775,
+      "name": "NextPath",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 1192,
+      "state": "active"
+    },
+    {
+      "id": 780,
+      "name": "Override",
+      "difficulty": "Medium",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 27,
+      "state": "retired"
+    },
+    {
+      "id": 783,
+      "name": "DLLAMA",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 93,
+      "state": "retired"
+    },
+    {
+      "id": 786,
+      "name": "gb3000",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 58,
+      "state": "retired"
+    },
+    {
+      "id": 787,
+      "name": "Complaint Conglomerate",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 36,
+      "state": "retired"
+    },
+    {
+      "id": 788,
+      "name": "secure source",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 53,
+      "state": "retired"
+    },
+    {
+      "id": 771,
+      "name": "infosekurus query",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 506,
+      "state": "active"
+    },
+    {
+      "id": 760,
+      "name": "Forks and Knives",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 565,
+      "state": "active"
+    },
+    {
+      "id": 755,
+      "name": "TornadoService",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 998,
+      "state": "retired"
+    },
+    {
+      "id": 753,
+      "name": "Prometheon",
+      "difficulty": "Medium",
+      "category": "AI/ML",
+      "is_owned": false,
+      "solves": 2082,
+      "state": "active"
+    },
+    {
+      "id": 739,
+      "name": "Lost in Hyperspace",
+      "difficulty": "Medium",
+      "category": "AI/ML",
+      "is_owned": false,
+      "solves": 1090,
+      "state": "active"
+    },
+    {
+      "id": 740,
+      "name": "Death's Glance",
+      "difficulty": "Medium",
+      "category": "AI/ML",
+      "is_owned": false,
+      "solves": 95,
+      "state": "retired"
+    },
+    {
+      "id": 742,
+      "name": "Battle in OrIOn",
+      "difficulty": "Medium",
+      "category": "AI/ML",
+      "is_owned": false,
+      "solves": 70,
+      "state": "retired"
+    },
+    {
+      "id": 734,
+      "name": "KHP Protocol",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 561,
+      "state": "active"
+    },
+    {
+      "id": 689,
+      "name": "SatelliteHijack",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 76,
+      "state": "retired"
+    },
+    {
+      "id": 690,
+      "name": "TunnelMadness",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 57,
+      "state": "retired"
+    },
+    {
+      "id": 704,
+      "name": "Not that random",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 68,
+      "state": "retired"
+    },
+    {
+      "id": 707,
+      "name": "No Gadgets",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 48,
+      "state": "retired"
+    },
+    {
+      "id": 710,
+      "name": "Nothing Without A Cost",
+      "difficulty": "Medium",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 35,
+      "state": "retired"
+    },
+    {
+      "id": 711,
+      "name": "Branching Tactics",
+      "difficulty": "Medium",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 47,
+      "state": "retired"
+    },
+    {
+      "id": 715,
+      "name": "Prison Pipeline",
+      "difficulty": "Medium",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 31,
+      "state": "retired"
+    },
+    {
+      "id": 721,
+      "name": "Six Five O Two",
+      "difficulty": "Medium",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 31,
+      "state": "retired"
+    },
+    {
+      "id": 726,
+      "name": "Brokenswap",
+      "difficulty": "Medium",
+      "category": "Blockchain",
+      "is_owned": false,
+      "solves": 62,
+      "state": "retired"
+    },
+    {
+      "id": 727,
+      "name": "Knock Knock?",
+      "difficulty": "Medium",
+      "category": "ICS",
+      "is_owned": false,
+      "solves": 48,
+      "state": "retired"
+    },
+    {
+      "id": 730,
+      "name": "HTB Proxy",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 84,
+      "state": "retired"
+    },
+    {
+      "id": 731,
+      "name": "Magicom",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 52,
+      "state": "retired"
+    },
+    {
+      "id": 645,
+      "name": "DoxPit",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 1190,
+      "state": "active"
+    },
+    {
+      "id": 651,
+      "name": "LockTalk",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 115,
+      "state": "retired"
+    },
+    {
+      "id": 653,
+      "name": "SerialFlow",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 64,
+      "state": "retired"
+    },
+    {
+      "id": 660,
+      "name": "Partial Tenacity",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 74,
+      "state": "retired"
+    },
+    {
+      "id": 661,
+      "name": "Permuted",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 53,
+      "state": "retired"
+    },
+    {
+      "id": 665,
+      "name": "Deathnote",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 64,
+      "state": "retired"
+    },
+    {
+      "id": 667,
+      "name": "Sound of Silence",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 89,
+      "state": "retired"
+    },
+    {
+      "id": 668,
+      "name": "Oracle",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 35,
+      "state": "retired"
+    },
+    {
+      "id": 669,
+      "name": "Maze of Mist",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 51,
+      "state": "retired"
+    },
+    {
+      "id": 670,
+      "name": "Quantum Conundrum",
+      "difficulty": "Medium",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 44,
+      "state": "retired"
+    },
+    {
+      "id": 671,
+      "name": "Path of Survival",
+      "difficulty": "Medium",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 44,
+      "state": "retired"
+    },
+    {
+      "id": 672,
+      "name": "MultiDigilingual",
+      "difficulty": "Medium",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 33,
+      "state": "retired"
+    },
+    {
+      "id": 678,
+      "name": "Phreaky",
+      "difficulty": "Medium",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 156,
+      "state": "retired"
+    },
+    {
+      "id": 679,
+      "name": "Data Siege",
+      "difficulty": "Medium",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 105,
+      "state": "retired"
+    },
+    {
+      "id": 681,
+      "name": "The PROM",
+      "difficulty": "Medium",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 40,
+      "state": "retired"
+    },
+    {
+      "id": 683,
+      "name": "HM74",
+      "difficulty": "Medium",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 54,
+      "state": "retired"
+    },
+    {
+      "id": 695,
+      "name": "Metagaming",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 64,
+      "state": "retired"
+    },
+    {
+      "id": 642,
+      "name": "ScreenCrack",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 928,
+      "state": "active"
+    },
+    {
+      "id": 641,
+      "name": "Signing Factory",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 276,
+      "state": "retired"
+    },
+    {
+      "id": 639,
+      "name": "POPO",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 714,
+      "state": "active"
+    },
+    {
+      "id": 638,
+      "name": "JerryTok",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 1046,
+      "state": "active"
+    },
+    {
+      "id": 635,
+      "name": "Stylish",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 600,
+      "state": "retired"
+    },
+    {
+      "id": 611,
+      "name": "Virtually Mad",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 937,
+      "state": "active"
+    },
+    {
+      "id": 628,
+      "name": "Mayday Mayday",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 69,
+      "state": "retired"
+    },
+    {
+      "id": 598,
+      "name": "Nexus Void",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 85,
+      "state": "retired"
+    },
+    {
+      "id": 601,
+      "name": "BioBundle",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 122,
+      "state": "retired"
+    },
+    {
+      "id": 602,
+      "name": "RiseFromTheDead",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 87,
+      "state": "retired"
+    },
+    {
+      "id": 604,
+      "name": "ZombieNet",
+      "difficulty": "Medium",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 80,
+      "state": "retired"
+    },
+    {
+      "id": 607,
+      "name": "Zombienator",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 78,
+      "state": "retired"
+    },
+    {
+      "id": 594,
+      "name": "Pixel Audio",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 274,
+      "state": "retired"
+    },
+    {
+      "id": 592,
+      "name": "Maze",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 744,
+      "state": "retired"
+    },
+    {
+      "id": 590,
+      "name": "Evil Corp",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 864,
+      "state": "active"
+    },
+    {
+      "id": 588,
+      "name": "ReMeeting the Wheel",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 814,
+      "state": "active"
+    },
+    {
+      "id": 570,
+      "name": "No-Threshold",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 1360,
+      "state": "retired"
+    },
+    {
+      "id": 568,
+      "name": "Quadratic Points",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 171,
+      "state": "retired"
+    },
+    {
+      "id": 566,
+      "name": "RedTrails",
+      "difficulty": "Medium",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 1615,
+      "state": "active"
+    },
+    {
+      "id": 542,
+      "name": "pcalc",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 116,
+      "state": "retired"
+    },
+    {
+      "id": 544,
+      "name": "The Galactic Times",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 57,
+      "state": "retired"
+    },
+    {
+      "id": 545,
+      "name": "Alien Complaint Form",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 77,
+      "state": "retired"
+    },
+    {
+      "id": 540,
+      "name": "Scanner",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 524,
+      "state": "active"
+    },
+    {
+      "id": 534,
+      "name": "AliEnS",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 616,
+      "state": "active"
+    },
+    {
+      "id": 508,
+      "name": "Locked and Loaded",
+      "difficulty": "Medium",
+      "category": "Blockchain",
+      "is_owned": false,
+      "solves": 745,
+      "state": "active"
+    },
+    {
+      "id": 530,
+      "name": "DeSynth Recruit",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 43,
+      "state": "retired"
+    },
+    {
+      "id": 507,
+      "name": "Portal Noncense",
+      "difficulty": "Medium",
+      "category": "Blockchain",
+      "is_owned": false,
+      "solves": 731,
+      "state": "active"
+    },
+    {
+      "id": 516,
+      "name": "Hypercraft",
+      "difficulty": "Medium",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 136,
+      "state": "retired"
+    },
+    {
+      "id": 517,
+      "name": "No Start Where",
+      "difficulty": "Medium",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 64,
+      "state": "retired"
+    },
+    {
+      "id": 520,
+      "name": "PRaNsomG",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 47,
+      "state": "retired"
+    },
+    {
+      "id": 521,
+      "name": "Interception",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 56,
+      "state": "retired"
+    },
+    {
+      "id": 523,
+      "name": "Breach",
+      "difficulty": "Medium",
+      "category": "ICS",
+      "is_owned": false,
+      "solves": 93,
+      "state": "retired"
+    },
+    {
+      "id": 526,
+      "name": "Confidentiality",
+      "difficulty": "Medium",
+      "category": "Blockchain",
+      "is_owned": false,
+      "solves": 138,
+      "state": "retired"
+    },
+    {
+      "id": 528,
+      "name": "SEPC",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 992,
+      "state": "active"
+    },
+    {
+      "id": 506,
+      "name": "False Bidding",
+      "difficulty": "Medium",
+      "category": "Blockchain",
+      "is_owned": false,
+      "solves": 752,
+      "state": "active"
+    },
+    {
+      "id": 511,
+      "name": "Device Control",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 26,
+      "state": "retired"
+    },
+    {
+      "id": 503,
+      "name": "CachedWeb",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 36,
+      "state": "retired"
+    },
+    {
+      "id": 499,
+      "name": "Angler",
+      "difficulty": "Medium",
+      "category": "Mobile",
+      "is_owned": false,
+      "solves": 402,
+      "state": "retired"
+    },
+    {
+      "id": 490,
+      "name": "Didactic Octo Paddles",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 259,
+      "state": "retired"
+    },
+    {
+      "id": 495,
+      "name": "Spybug",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 107,
+      "state": "retired"
+    },
+    {
+      "id": 496,
+      "name": "TrapTrack",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 141,
+      "state": "retired"
+    },
+    {
+      "id": 488,
+      "name": "Ancient Interface",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 289,
+      "state": "retired"
+    },
+    {
+      "id": 487,
+      "name": "Pickle Panic",
+      "difficulty": "Medium",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 65,
+      "state": "retired"
+    },
+    {
+      "id": 473,
+      "name": "Relic Maps",
+      "difficulty": "Medium",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 142,
+      "state": "retired"
+    },
+    {
+      "id": 474,
+      "name": "Interstellar C2",
+      "difficulty": "Medium",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 143,
+      "state": "retired"
+    },
+    {
+      "id": 479,
+      "name": "Colliding Heritage",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 72,
+      "state": "retired"
+    },
+    {
+      "id": 480,
+      "name": "Elliptic Labyrinth",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 64,
+      "state": "retired"
+    },
+    {
+      "id": 484,
+      "name": "Alien Saboteur",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 76,
+      "state": "retired"
+    },
+    {
+      "id": 459,
+      "name": "Prying Eyes",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 838,
+      "state": "retired"
+    },
+    {
+      "id": 464,
+      "name": "Control Room",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 88,
+      "state": "retired"
+    },
+    {
+      "id": 457,
+      "name": "Protein Cookies 2",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 305,
+      "state": "retired"
+    },
+    {
+      "id": 456,
+      "name": "CryptoConundrum",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 142,
+      "state": "retired"
+    },
+    {
+      "id": 455,
+      "name": "Dragon Army",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 166,
+      "state": "retired"
+    },
+    {
+      "id": 454,
+      "name": "Waiting",
+      "difficulty": "Medium",
+      "category": "Mobile",
+      "is_owned": false,
+      "solves": 345,
+      "state": "retired"
+    },
+    {
+      "id": 451,
+      "name": "Noisy",
+      "difficulty": "Medium",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 779,
+      "state": "active"
+    },
+    {
+      "id": 449,
+      "name": "YALM",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 736,
+      "state": "active"
+    },
+    {
+      "id": 448,
+      "name": "RetoRetro",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 123,
+      "state": "retired"
+    },
+    {
+      "id": 432,
+      "name": "Spellbook",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 87,
+      "state": "retired"
+    },
+    {
+      "id": 434,
+      "name": "Curse Breaker",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 102,
+      "state": "retired"
+    },
+    {
+      "id": 436,
+      "name": "AbraCryptabra",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 57,
+      "state": "retired"
+    },
+    {
+      "id": 437,
+      "name": "AESWCM",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 55,
+      "state": "retired"
+    },
+    {
+      "id": 439,
+      "name": "One Of Us",
+      "difficulty": "Medium",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 76,
+      "state": "retired"
+    },
+    {
+      "id": 442,
+      "name": "BatchCraft Potions",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 60,
+      "state": "retired"
+    },
+    {
+      "id": 444,
+      "name": "NoClip",
+      "difficulty": "Medium",
+      "category": "GamePwn",
+      "is_owned": false,
+      "solves": 618,
+      "state": "active"
+    },
+    {
+      "id": 429,
+      "name": "Type Exception",
+      "difficulty": "Medium",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 167,
+      "state": "retired"
+    },
+    {
+      "id": 428,
+      "name": "WS-Todo",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 565,
+      "state": "retired"
+    },
+    {
+      "id": 426,
+      "name": "Investigator",
+      "difficulty": "Medium",
+      "category": "Mobile",
+      "is_owned": false,
+      "solves": 904,
+      "state": "retired"
+    },
+    {
+      "id": 424,
+      "name": "FFModule",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 755,
+      "state": "active"
+    },
+    {
+      "id": 401,
+      "name": "TurboCipher",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 153,
+      "state": "retired"
+    },
+    {
+      "id": 403,
+      "name": "Taking down the Hive",
+      "difficulty": "Medium",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 24,
+      "state": "retired"
+    },
+    {
+      "id": 404,
+      "name": "Space Heist",
+      "difficulty": "Medium",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 30,
+      "state": "retired"
+    },
+    {
+      "id": 398,
+      "name": "Supermarket",
+      "difficulty": "Medium",
+      "category": "Mobile",
+      "is_owned": false,
+      "solves": 568,
+      "state": "retired"
+    },
+    {
+      "id": 397,
+      "name": "NoMap3D",
+      "difficulty": "Medium",
+      "category": "GamePwn",
+      "is_owned": false,
+      "solves": 638,
+      "state": "active"
+    },
+    {
+      "id": 396,
+      "name": "Thief",
+      "difficulty": "Medium",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 612,
+      "state": "active"
+    },
+    {
+      "id": 394,
+      "name": "Infinite Knapsack",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 101,
+      "state": "retired"
+    },
+    {
+      "id": 393,
+      "name": "Twisted Entanglement",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 611,
+      "state": "active"
+    },
+    {
+      "id": 381,
+      "name": "Homomurphy's Law",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 54,
+      "state": "retired"
+    },
+    {
+      "id": 382,
+      "name": "Breakin",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 67,
+      "state": "retired"
+    },
+    {
+      "id": 385,
+      "name": "State of Emergency",
+      "difficulty": "Medium",
+      "category": "ICS",
+      "is_owned": false,
+      "solves": 129,
+      "state": "retired"
+    },
+    {
+      "id": 388,
+      "name": "Mr. Abilgate",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 120,
+      "state": "retired"
+    },
+    {
+      "id": 368,
+      "name": "400Curves",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 79,
+      "state": "retired"
+    },
+    {
+      "id": 370,
+      "name": "MBCoin",
+      "difficulty": "Medium",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 309,
+      "state": "retired"
+    },
+    {
+      "id": 371,
+      "name": "Rogue",
+      "difficulty": "Medium",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 121,
+      "state": "retired"
+    },
+    {
+      "id": 376,
+      "name": "GrandMonty",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 92,
+      "state": "retired"
+    },
+    {
+      "id": 363,
+      "name": "Triangles",
+      "difficulty": "Medium",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 530,
+      "state": "retired"
+    },
+    {
+      "id": 362,
+      "name": "Chainsmoker",
+      "difficulty": "Medium",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 77,
+      "state": "retired"
+    },
+    {
+      "id": 318,
+      "name": "Reflection",
+      "difficulty": "Medium",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 185,
+      "state": "retired"
+    },
+    {
+      "id": 319,
+      "name": "Precious Guidance",
+      "difficulty": "Medium",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 102,
+      "state": "retired"
+    },
+    {
+      "id": 322,
+      "name": "Seized",
+      "difficulty": "Medium",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 213,
+      "state": "retired"
+    },
+    {
+      "id": 323,
+      "name": "Red Island",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 264,
+      "state": "retired"
+    },
+    {
+      "id": 326,
+      "name": "Mutation Lab",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 267,
+      "state": "retired"
+    },
+    {
+      "id": 329,
+      "name": "Acnologia Portal",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 128,
+      "state": "retired"
+    },
+    {
+      "id": 334,
+      "name": "Trick or Deal",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 210,
+      "state": "retired"
+    },
+    {
+      "id": 335,
+      "name": "Bon-nie-appetit",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 100,
+      "state": "retired"
+    },
+    {
+      "id": 336,
+      "name": "Sabotage",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 94,
+      "state": "retired"
+    },
+    {
+      "id": 338,
+      "name": "Hellhound",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 193,
+      "state": "retired"
+    },
+    {
+      "id": 344,
+      "name": "MOVs Like Jagger",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 46,
+      "state": "retired"
+    },
+    {
+      "id": 345,
+      "name": "Find Marher's Secret",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 63,
+      "state": "retired"
+    },
+    {
+      "id": 347,
+      "name": "Down the Rabinhole",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 102,
+      "state": "retired"
+    },
+    {
+      "id": 349,
+      "name": "One Step Closer",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 69,
+      "state": "retired"
+    },
+    {
+      "id": 353,
+      "name": "Teleport",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 327,
+      "state": "retired"
+    },
+    {
+      "id": 354,
+      "name": "Indefinite",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 116,
+      "state": "retired"
+    },
+    {
+      "id": 315,
+      "name": "LightningFast",
+      "difficulty": "Medium",
+      "category": "GamePwn",
+      "is_owned": false,
+      "solves": 1592,
+      "state": "active"
+    },
+    {
+      "id": 312,
+      "name": "PTRACE_NOPEEKING",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 266,
+      "state": "retired"
+    },
+    {
+      "id": 304,
+      "name": "CubeBreaker",
+      "difficulty": "Medium",
+      "category": "GamePwn",
+      "is_owned": false,
+      "solves": 575,
+      "state": "retired"
+    },
+    {
+      "id": 308,
+      "name": "Coffee Invocation",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 968,
+      "state": "active"
+    },
+    {
+      "id": 309,
+      "name": "Malception",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 55,
+      "state": "retired"
+    },
+    {
+      "id": 310,
+      "name": "Userland City",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 688,
+      "state": "retired"
+    },
+    {
+      "id": 307,
+      "name": "InfiniteDoge",
+      "difficulty": "Medium",
+      "category": "GamePwn",
+      "is_owned": false,
+      "solves": 715,
+      "state": "active"
+    },
+    {
+      "id": 300,
+      "name": "Iterative Virus",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 372,
+      "state": "retired"
+    },
+    {
+      "id": 297,
+      "name": "Fancy names",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 358,
+      "state": "retired"
+    },
+    {
+      "id": 294,
+      "name": "Shamir's Secret",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 695,
+      "state": "active"
+    },
+    {
+      "id": 292,
+      "name": "ExpressionalRebel",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 466,
+      "state": "retired"
+    },
+    {
+      "id": 291,
+      "name": "Red Failure",
+      "difficulty": "Medium",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 1548,
+      "state": "active"
+    },
+    {
+      "id": 289,
+      "name": "Birds of randomness",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 772,
+      "state": "active"
+    },
+    {
+      "id": 287,
+      "name": "Login Simulator",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 213,
+      "state": "retired"
+    },
+    {
+      "id": 286,
+      "name": "SAW",
+      "difficulty": "Medium",
+      "category": "Mobile",
+      "is_owned": false,
+      "solves": 1905,
+      "state": "active"
+    },
+    {
+      "id": 263,
+      "name": "Arms roped",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 657,
+      "state": "active"
+    },
+    {
+      "id": 266,
+      "name": "Insane Bolt",
+      "difficulty": "Medium",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 135,
+      "state": "retired"
+    },
+    {
+      "id": 267,
+      "name": "Sigma Technology",
+      "difficulty": "Medium",
+      "category": "AI/ML",
+      "is_owned": false,
+      "solves": 280,
+      "state": "retired"
+    },
+    {
+      "id": 268,
+      "name": "SteamCoin",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 118,
+      "state": "retired"
+    },
+    {
+      "id": 270,
+      "name": "Tree of Danger",
+      "difficulty": "Medium",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 75,
+      "state": "retired"
+    },
+    {
+      "id": 271,
+      "name": "The Vault",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 173,
+      "state": "retired"
+    },
+    {
+      "id": 273,
+      "name": "Oracle Leaks",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 87,
+      "state": "retired"
+    },
+    {
+      "id": 275,
+      "name": "Robot Factory",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 71,
+      "state": "retired"
+    },
+    {
+      "id": 278,
+      "name": "Strike Back",
+      "difficulty": "Medium",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 196,
+      "state": "retired"
+    },
+    {
+      "id": 261,
+      "name": "knote",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 81,
+      "state": "retired"
+    },
+    {
+      "id": 258,
+      "name": "Kernel Adventures: Part 2",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 381,
+      "state": "retired"
+    },
+    {
+      "id": 256,
+      "name": "BFD56",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 88,
+      "state": "retired"
+    },
+    {
+      "id": 254,
+      "name": "Vipère",
+      "difficulty": "Medium",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 539,
+      "state": "retired"
+    },
+    {
+      "id": 251,
+      "name": "Auth-or-out",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 217,
+      "state": "retired"
+    },
+    {
+      "id": 249,
+      "name": "TwoDots Horror",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 1224,
+      "state": "retired"
+    },
+    {
+      "id": 243,
+      "name": "mysterybox",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 1118,
+      "state": "active"
+    },
+    {
+      "id": 248,
+      "name": "WAFfle-y Order",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 181,
+      "state": "retired"
+    },
+    {
+      "id": 241,
+      "name": "SeeTheSharpFlag",
+      "difficulty": "Medium",
+      "category": "Mobile",
+      "is_owned": false,
+      "solves": 1588,
+      "state": "retired"
+    },
+    {
+      "id": 237,
+      "name": "Lost Modulus Again",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 756,
+      "state": "retired"
+    },
+    {
+      "id": 236,
+      "name": "signup",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 260,
+      "state": "retired"
+    },
+    {
+      "id": 226,
+      "name": "PersistenceIsFutile",
+      "difficulty": "Medium",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 2221,
+      "state": "active"
+    },
+    {
+      "id": 223,
+      "name": "Project Power",
+      "difficulty": "Medium",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 621,
+      "state": "active"
+    },
+    {
+      "id": 221,
+      "name": "Trace",
+      "difficulty": "Medium",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 920,
+      "state": "active"
+    },
+    {
+      "id": 206,
+      "name": "Composition",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 748,
+      "state": "retired"
+    },
+    {
+      "id": 202,
+      "name": "echoland",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 392,
+      "state": "retired"
+    },
+    {
+      "id": 197,
+      "name": "Secret Treasures",
+      "difficulty": "Medium",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 577,
+      "state": "active"
+    },
+    {
+      "id": 195,
+      "name": "Broken Decryptor",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 1554,
+      "state": "active"
+    },
+    {
+      "id": 194,
+      "name": "Bare Metal",
+      "difficulty": "Medium",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 1213,
+      "state": "active"
+    },
+    {
+      "id": 193,
+      "name": "Toxin",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 620,
+      "state": "retired"
+    },
+    {
+      "id": 189,
+      "name": "Antidote",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 587,
+      "state": "retired"
+    },
+    {
+      "id": 155,
+      "name": "Query",
+      "difficulty": "Medium",
+      "category": "Misc",
+      "is_owned": false,
+      "solves": 896,
+      "state": "retired"
+    },
+    {
+      "id": 154,
+      "name": "Rookie Mistake",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 997,
+      "state": "retired"
+    },
+    {
+      "id": 149,
+      "name": "Fibopadcci",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 746,
+      "state": "retired"
+    },
+    {
+      "id": 145,
+      "name": "Prison Escape",
+      "difficulty": "Medium",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 502,
+      "state": "active"
+    },
+    {
+      "id": 146,
+      "name": "baby sql",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 1670,
+      "state": "retired"
+    },
+    {
+      "id": 143,
+      "name": "nginxatsu",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 1498,
+      "state": "retired"
+    },
+    {
+      "id": 142,
+      "name": "LostKey",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 1649,
+      "state": "retired"
+    },
+    {
+      "id": 135,
+      "name": "What does the f say?",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 1483,
+      "state": "retired"
+    },
+    {
+      "id": 134,
+      "name": "Mr. Burns",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 1762,
+      "state": "retired"
+    },
+    {
+      "id": 130,
+      "name": "breaking grad",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 3778,
+      "state": "retired"
+    },
+    {
+      "id": 129,
+      "name": "Bounty Head",
+      "difficulty": "Medium",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 1862,
+      "state": "active"
+    },
+    {
+      "id": 128,
+      "name": "Outrun",
+      "difficulty": "Medium",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 2048,
+      "state": "active"
+    },
+    {
+      "id": 125,
+      "name": "baby ninja jinja",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 2502,
+      "state": "retired"
+    },
+    {
+      "id": 126,
+      "name": "Space",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 2730,
+      "state": "retired"
+    },
+    {
+      "id": 122,
+      "name": "Nostalgia",
+      "difficulty": "Medium",
+      "category": "GamePwn",
+      "is_owned": false,
+      "solves": 3171,
+      "state": "active"
+    },
+    {
+      "id": 118,
+      "name": "Missing in Action",
+      "difficulty": "Medium",
+      "category": "OSINT",
+      "is_owned": false,
+      "solves": 5955,
+      "state": "retired"
+    },
+    {
+      "id": 117,
+      "name": "wafwaf",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 3426,
+      "state": "retired"
+    },
+    {
+      "id": 113,
+      "name": "Console",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 2542,
+      "state": "retired"
+    },
+    {
+      "id": 111,
+      "name": "Under Construction",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": true,
+      "solves": 8650,
+      "state": "retired"
+    },
+    {
+      "id": 103,
+      "name": "Kernel Adventures: Part 1",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 2112,
+      "state": "retired"
+    },
+    {
+      "id": 100,
+      "name": "interdimensional internet",
+      "difficulty": "Medium",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 2660,
+      "state": "retired"
+    },
+    {
+      "id": 85,
+      "name": "Headache",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 3083,
+      "state": "retired"
+    },
+    {
+      "id": 72,
+      "name": "Debugme",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 4988,
+      "state": "active"
+    },
+    {
+      "id": 59,
+      "name": "Cryptohorrific",
+      "difficulty": "Medium",
+      "category": "Mobile",
+      "is_owned": false,
+      "solves": 6509,
+      "state": "active"
+    },
+    {
+      "id": 51,
+      "name": "Keep Tryin'",
+      "difficulty": "Medium",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 1923,
+      "state": "retired"
+    },
+    {
+      "id": 41,
+      "name": "Dream Diary: Chapter 1",
+      "difficulty": "Medium",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 1061,
+      "state": "retired"
+    },
+    {
+      "id": 36,
+      "name": "Deadly Arthropod",
+      "difficulty": "Medium",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 3735,
+      "state": "retired"
+    },
+    {
+      "id": 37,
+      "name": "Ebola Virus",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 1801,
+      "state": "retired"
+    },
+    {
+      "id": 28,
+      "name": "Infinite Descent",
+      "difficulty": "Medium",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 2255,
+      "state": "retired"
+    },
+    {
+      "id": 18,
+      "name": "Pseudo",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 474,
+      "state": "retired"
+    },
+    {
+      "id": 11,
+      "name": "Monstrosity",
+      "difficulty": "Medium",
+      "category": "OSINT",
+      "is_owned": false,
+      "solves": 1291,
+      "state": "retired"
+    },
+    {
+      "id": 4,
+      "name": "Bombs Landed",
+      "difficulty": "Medium",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 4383,
+      "state": "retired"
+    },
+    {
+      "id": 1365,
+      "name": "Lazarus - Rewind 2",
+      "difficulty": "Hard",
+      "category": "Quantum",
+      "is_owned": false,
+      "solves": 190,
+      "state": "active"
+    },
+    {
+      "id": 1338,
+      "name": "Lazarus - Rewind 1",
+      "difficulty": "Hard",
+      "category": "Blockchain",
+      "is_owned": false,
+      "solves": 189,
+      "state": "active"
+    },
+    {
+      "id": 1356,
+      "name": "Space Ops",
+      "difficulty": "Hard",
+      "category": "Satellite",
+      "is_owned": false,
+      "solves": 123,
+      "state": "active"
+    },
+    {
+      "id": 1284,
+      "name": "Chaogen",
+      "difficulty": "Hard",
+      "category": "Coding",
+      "is_owned": false,
+      "solves": 465,
+      "state": "active"
+    },
+    {
+      "id": 1251,
+      "name": "Surprise Factor",
+      "difficulty": "Hard",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 192,
+      "state": "active"
+    },
+    {
+      "id": 1245,
+      "name": "Invisible Theft",
+      "difficulty": "Hard",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 245,
+      "state": "active"
+    },
+    {
+      "id": 1227,
+      "name": "Threadweaver",
+      "difficulty": "Hard",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 241,
+      "state": "active"
+    },
+    {
+      "id": 1224,
+      "name": "Kernel Monarch",
+      "difficulty": "Hard",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 341,
+      "state": "active"
+    },
+    {
+      "id": 1203,
+      "name": "Resizer",
+      "difficulty": "Hard",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 400,
+      "state": "active"
+    },
+    {
+      "id": 1156,
+      "name": "MadMath",
+      "difficulty": "Hard",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 327,
+      "state": "active"
+    },
+    {
+      "id": 1141,
+      "name": "Infinity Bank",
+      "difficulty": "Hard",
+      "category": "Mobile",
+      "is_owned": false,
+      "solves": 270,
+      "state": "active"
+    },
+    {
+      "id": 1120,
+      "name": "dudidudida",
+      "difficulty": "Hard",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 283,
+      "state": "active"
+    },
+    {
+      "id": 1117,
+      "name": "Dressrosa Reactor",
+      "difficulty": "Hard",
+      "category": "ICS",
+      "is_owned": false,
+      "solves": 336,
+      "state": "active"
+    },
+    {
+      "id": 970,
+      "name": "Hexecution",
+      "difficulty": "Hard",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 465,
+      "state": "retired"
+    },
+    {
+      "id": 942,
+      "name": "Neural Detonator",
+      "difficulty": "Hard",
+      "category": "AI/ML",
+      "is_owned": false,
+      "solves": 68,
+      "state": "retired"
+    },
+    {
+      "id": 910,
+      "name": "Curveware",
+      "difficulty": "Hard",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 44,
+      "state": "retired"
+    },
+    {
+      "id": 915,
+      "name": "NeonCGI",
+      "difficulty": "Hard",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 22,
+      "state": "retired"
+    },
+    {
+      "id": 921,
+      "name": "Ghost Path",
+      "difficulty": "Hard",
+      "category": "Coding",
+      "is_owned": false,
+      "solves": 102,
+      "state": "retired"
+    },
+    {
+      "id": 927,
+      "name": "ShadowLabyrinth",
+      "difficulty": "Hard",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 45,
+      "state": "retired"
+    },
+    {
+      "id": 932,
+      "name": "QuickBlog",
+      "difficulty": "Hard",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 31,
+      "state": "retired"
+    },
+    {
+      "id": 898,
+      "name": "SocratesPanel",
+      "difficulty": "Hard",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 287,
+      "state": "active"
+    },
+    {
+      "id": 889,
+      "name": "Twin Oracles",
+      "difficulty": "Hard",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 58,
+      "state": "retired"
+    },
+    {
+      "id": 880,
+      "name": "NeuroSync",
+      "difficulty": "Hard",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 47,
+      "state": "retired"
+    },
+    {
+      "id": 839,
+      "name": "Raining Primes",
+      "difficulty": "Hard",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 379,
+      "state": "active"
+    },
+    {
+      "id": 843,
+      "name": "Dead or Alive",
+      "difficulty": "Hard",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 57,
+      "state": "retired"
+    },
+    {
+      "id": 848,
+      "name": "GravitometerGambit",
+      "difficulty": "Hard",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 38,
+      "state": "retired"
+    },
+    {
+      "id": 836,
+      "name": "Last Resort",
+      "difficulty": "Hard",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 168,
+      "state": "active"
+    },
+    {
+      "id": 779,
+      "name": "The Last Frontier",
+      "difficulty": "Hard",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 28,
+      "state": "retired"
+    },
+    {
+      "id": 768,
+      "name": "Memento",
+      "difficulty": "Hard",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 330,
+      "state": "retired"
+    },
+    {
+      "id": 766,
+      "name": "The Art of Capture",
+      "difficulty": "Hard",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 493,
+      "state": "active"
+    },
+    {
+      "id": 756,
+      "name": "Full of Stars",
+      "difficulty": "Hard",
+      "category": "AI/ML",
+      "is_owned": false,
+      "solves": 562,
+      "state": "active"
+    },
+    {
+      "id": 744,
+      "name": "Spin Glass Brain",
+      "difficulty": "Hard",
+      "category": "AI/ML",
+      "is_owned": false,
+      "solves": 630,
+      "state": "active"
+    },
+    {
+      "id": 743,
+      "name": "vvm",
+      "difficulty": "Hard",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 608,
+      "state": "active"
+    },
+    {
+      "id": 705,
+      "name": "Blessed",
+      "difficulty": "Hard",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 65,
+      "state": "retired"
+    },
+    {
+      "id": 732,
+      "name": "OmniWatch",
+      "difficulty": "Hard",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 65,
+      "state": "retired"
+    },
+    {
+      "id": 733,
+      "name": "SOS or SSO?",
+      "difficulty": "Hard",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 28,
+      "state": "retired"
+    },
+    {
+      "id": 656,
+      "name": "Percetron",
+      "difficulty": "Hard",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 40,
+      "state": "retired"
+    },
+    {
+      "id": 662,
+      "name": "Tsayaki",
+      "difficulty": "Hard",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 62,
+      "state": "retired"
+    },
+    {
+      "id": 680,
+      "name": "Game Invitation",
+      "difficulty": "Hard",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 95,
+      "state": "retired"
+    },
+    {
+      "id": 682,
+      "name": "Flash-ing Logs",
+      "difficulty": "Hard",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 32,
+      "state": "retired"
+    },
+    {
+      "id": 686,
+      "name": "Ledger Heist",
+      "difficulty": "Hard",
+      "category": "Blockchain",
+      "is_owned": false,
+      "solves": 49,
+      "state": "retired"
+    },
+    {
+      "id": 696,
+      "name": "MazeOfPower",
+      "difficulty": "Hard",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 31,
+      "state": "retired"
+    },
+    {
+      "id": 634,
+      "name": "Magic Scrolls",
+      "difficulty": "Hard",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 439,
+      "state": "active"
+    },
+    {
+      "id": 629,
+      "name": "Zombie Rolled",
+      "difficulty": "Hard",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 67,
+      "state": "retired"
+    },
+    {
+      "id": 609,
+      "name": "WonderSMS",
+      "difficulty": "Hard",
+      "category": "Mobile",
+      "is_owned": false,
+      "solves": 248,
+      "state": "retired"
+    },
+    {
+      "id": 600,
+      "name": "PhantomFeed",
+      "difficulty": "Hard",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 36,
+      "state": "retired"
+    },
+    {
+      "id": 605,
+      "name": "Shadow of the Undead",
+      "difficulty": "Hard",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 75,
+      "state": "retired"
+    },
+    {
+      "id": 608,
+      "name": "Zombiedote",
+      "difficulty": "Hard",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 64,
+      "state": "retired"
+    },
+    {
+      "id": 584,
+      "name": "Picture Magic",
+      "difficulty": "Hard",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 94,
+      "state": "retired"
+    },
+    {
+      "id": 579,
+      "name": "StayInTheBoxCorp",
+      "difficulty": "Hard",
+      "category": "GamePwn",
+      "is_owned": false,
+      "solves": 657,
+      "state": "active"
+    },
+    {
+      "id": 547,
+      "name": "Why Lambda",
+      "difficulty": "Hard",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 953,
+      "state": "active"
+    },
+    {
+      "id": 535,
+      "name": "Unsighted",
+      "difficulty": "Hard",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 43,
+      "state": "retired"
+    },
+    {
+      "id": 513,
+      "name": "Pedometer",
+      "difficulty": "Hard",
+      "category": "Mobile",
+      "is_owned": false,
+      "solves": 331,
+      "state": "retired"
+    },
+    {
+      "id": 522,
+      "name": "Vitrium Stash",
+      "difficulty": "Hard",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 59,
+      "state": "retired"
+    },
+    {
+      "id": 529,
+      "name": "LicenseGenerator",
+      "difficulty": "Hard",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 47,
+      "state": "retired"
+    },
+    {
+      "id": 512,
+      "name": "PAC breaker",
+      "difficulty": "Hard",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 24,
+      "state": "retired"
+    },
+    {
+      "id": 498,
+      "name": "ReRop",
+      "difficulty": "Hard",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 476,
+      "state": "retired"
+    },
+    {
+      "id": 492,
+      "name": "UnEarthly Shop",
+      "difficulty": "Hard",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 61,
+      "state": "retired"
+    },
+    {
+      "id": 489,
+      "name": "Pod Diagnostics",
+      "difficulty": "Hard",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 683,
+      "state": "retired"
+    },
+    {
+      "id": 481,
+      "name": "Biased Heritage",
+      "difficulty": "Hard",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 66,
+      "state": "retired"
+    },
+    {
+      "id": 482,
+      "name": "Converging Visions",
+      "difficulty": "Hard",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 73,
+      "state": "retired"
+    },
+    {
+      "id": 483,
+      "name": "Vessel Cartographer",
+      "difficulty": "Hard",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 44,
+      "state": "retired"
+    },
+    {
+      "id": 467,
+      "name": "Fake Snake",
+      "difficulty": "Hard",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 198,
+      "state": "retired"
+    },
+    {
+      "id": 463,
+      "name": "Kana",
+      "difficulty": "Hard",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 46,
+      "state": "retired"
+    },
+    {
+      "id": 465,
+      "name": "Math Door",
+      "difficulty": "Hard",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 70,
+      "state": "retired"
+    },
+    {
+      "id": 466,
+      "name": "Runic",
+      "difficulty": "Hard",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 35,
+      "state": "retired"
+    },
+    {
+      "id": 447,
+      "name": "Joker",
+      "difficulty": "Hard",
+      "category": "Mobile",
+      "is_owned": false,
+      "solves": 352,
+      "state": "retired"
+    },
+    {
+      "id": 431,
+      "name": "Wizard's Diary",
+      "difficulty": "Hard",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 24,
+      "state": "retired"
+    },
+    {
+      "id": 435,
+      "name": "Spell Weaving Exam",
+      "difficulty": "Hard",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 47,
+      "state": "retired"
+    },
+    {
+      "id": 443,
+      "name": "Spell Orsterra",
+      "difficulty": "Hard",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 23,
+      "state": "retired"
+    },
+    {
+      "id": 402,
+      "name": "Open sesame",
+      "difficulty": "Hard",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 27,
+      "state": "retired"
+    },
+    {
+      "id": 391,
+      "name": "FileStorage",
+      "difficulty": "Hard",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 91,
+      "state": "retired"
+    },
+    {
+      "id": 384,
+      "name": "Convoluted Boot",
+      "difficulty": "Hard",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 53,
+      "state": "retired"
+    },
+    {
+      "id": 386,
+      "name": "Midenios",
+      "difficulty": "Hard",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 26,
+      "state": "retired"
+    },
+    {
+      "id": 367,
+      "name": "Hash the Filesystem",
+      "difficulty": "Hard",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 94,
+      "state": "retired"
+    },
+    {
+      "id": 377,
+      "name": "SquatBot",
+      "difficulty": "Hard",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 148,
+      "state": "retired"
+    },
+    {
+      "id": 359,
+      "name": "CFI++",
+      "difficulty": "Hard",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 388,
+      "state": "active"
+    },
+    {
+      "id": 337,
+      "name": "Once and for all",
+      "difficulty": "Hard",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 27,
+      "state": "retired"
+    },
+    {
+      "id": 346,
+      "name": "Memory Acceleration",
+      "difficulty": "Hard",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 54,
+      "state": "retired"
+    },
+    {
+      "id": 348,
+      "name": "Mind In The Clouds",
+      "difficulty": "Hard",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 79,
+      "state": "retired"
+    },
+    {
+      "id": 355,
+      "name": "Freaky Forum Interception",
+      "difficulty": "Hard",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 50,
+      "state": "retired"
+    },
+    {
+      "id": 356,
+      "name": "Shuffleme",
+      "difficulty": "Hard",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 48,
+      "state": "retired"
+    },
+    {
+      "id": 295,
+      "name": "Masks Off",
+      "difficulty": "Hard",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 827,
+      "state": "active"
+    },
+    {
+      "id": 293,
+      "name": "Acknowledge the corn",
+      "difficulty": "Hard",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 881,
+      "state": "active"
+    },
+    {
+      "id": 290,
+      "name": "CRSid",
+      "difficulty": "Hard",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 89,
+      "state": "retired"
+    },
+    {
+      "id": 264,
+      "name": "Pneumatic Validator",
+      "difficulty": "Hard",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 136,
+      "state": "retired"
+    },
+    {
+      "id": 269,
+      "name": "AnalyticalEngine",
+      "difficulty": "Hard",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 30,
+      "state": "retired"
+    },
+    {
+      "id": 272,
+      "name": "Waiting List",
+      "difficulty": "Hard",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 111,
+      "state": "retired"
+    },
+    {
+      "id": 276,
+      "name": "Steam Driver",
+      "difficulty": "Hard",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 24,
+      "state": "retired"
+    },
+    {
+      "id": 279,
+      "name": "Keep the steam going",
+      "difficulty": "Hard",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 117,
+      "state": "retired"
+    },
+    {
+      "id": 281,
+      "name": "Mechanical Madness",
+      "difficulty": "Hard",
+      "category": "Hardware",
+      "is_owned": false,
+      "solves": 50,
+      "state": "retired"
+    },
+    {
+      "id": 262,
+      "name": "Always Has Been",
+      "difficulty": "Hard",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 824,
+      "state": "active"
+    },
+    {
+      "id": 259,
+      "name": "BoneChewerCon",
+      "difficulty": "Hard",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 126,
+      "state": "retired"
+    },
+    {
+      "id": 253,
+      "name": "Nowhere to go",
+      "difficulty": "Hard",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 84,
+      "state": "retired"
+    },
+    {
+      "id": 238,
+      "name": "quick maffs",
+      "difficulty": "Hard",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 677,
+      "state": "retired"
+    },
+    {
+      "id": 205,
+      "name": "TicTacPwn",
+      "difficulty": "Hard",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 69,
+      "state": "retired"
+    },
+    {
+      "id": 203,
+      "name": "Modern Typer",
+      "difficulty": "Hard",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 157,
+      "state": "retired"
+    },
+    {
+      "id": 141,
+      "name": "Window's Infinity Edge",
+      "difficulty": "Hard",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 2361,
+      "state": "active"
+    },
+    {
+      "id": 138,
+      "name": "vmcrack",
+      "difficulty": "Hard",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 432,
+      "state": "retired"
+    },
+    {
+      "id": 127,
+      "name": "ImageTok",
+      "difficulty": "Hard",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 1753,
+      "state": "retired"
+    },
+    {
+      "id": 120,
+      "name": "oBfsC4t10n2",
+      "difficulty": "Hard",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 3860,
+      "state": "active"
+    },
+    {
+      "id": 116,
+      "name": "No Return",
+      "difficulty": "Hard",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 1175,
+      "state": "retired"
+    },
+    {
+      "id": 109,
+      "name": "Dream Diary: Chapter 3",
+      "difficulty": "Hard",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 1537,
+      "state": "retired"
+    },
+    {
+      "id": 93,
+      "name": "oBfsC4t10n",
+      "difficulty": "Hard",
+      "category": "Forensics",
+      "is_owned": false,
+      "solves": 3959,
+      "state": "active"
+    },
+    {
+      "id": 53,
+      "name": "Old Bridge",
+      "difficulty": "Hard",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 2156,
+      "state": "retired"
+    },
+    {
+      "id": 42,
+      "name": "Dream Diary: Chapter 2",
+      "difficulty": "Hard",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 1623,
+      "state": "retired"
+    },
+    {
+      "id": 1194,
+      "name": "Uplink",
+      "difficulty": "Insane",
+      "category": "Coding",
+      "is_owned": false,
+      "solves": 720,
+      "state": "active"
+    },
+    {
+      "id": 1174,
+      "name": "Sandcastle",
+      "difficulty": "Insane",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 244,
+      "state": "active"
+    },
+    {
+      "id": 928,
+      "name": "Callfuscated",
+      "difficulty": "Insane",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 442,
+      "state": "active"
+    },
+    {
+      "id": 933,
+      "name": "Novacore",
+      "difficulty": "Insane",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 35,
+      "state": "retired"
+    },
+    {
+      "id": 907,
+      "name": "Blinded",
+      "difficulty": "Insane",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 197,
+      "state": "active"
+    },
+    {
+      "id": 852,
+      "name": "Clutch",
+      "difficulty": "Insane",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 76,
+      "state": "retired"
+    },
+    {
+      "id": 735,
+      "name": "ArtificialUniversity",
+      "difficulty": "Insane",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 800,
+      "state": "active"
+    },
+    {
+      "id": 709,
+      "name": "Pyrrhus",
+      "difficulty": "Insane",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 25,
+      "state": "retired"
+    },
+    {
+      "id": 657,
+      "name": "ApexSurvive",
+      "difficulty": "Insane",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 35,
+      "state": "retired"
+    },
+    {
+      "id": 597,
+      "name": "Heapify",
+      "difficulty": "Insane",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 355,
+      "state": "active"
+    },
+    {
+      "id": 550,
+      "name": "Wonky AES",
+      "difficulty": "Insane",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 685,
+      "state": "active"
+    },
+    {
+      "id": 400,
+      "name": "Kryptor 2",
+      "difficulty": "Insane",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 339,
+      "state": "active"
+    },
+    {
+      "id": 313,
+      "name": "NFTDRM",
+      "difficulty": "Insane",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 356,
+      "state": "active"
+    },
+    {
+      "id": 298,
+      "name": "Quantum Memory Manager",
+      "difficulty": "Insane",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 258,
+      "state": "retired"
+    },
+    {
+      "id": 296,
+      "name": "OOPArtDB",
+      "difficulty": "Insane",
+      "category": "Web",
+      "is_owned": false,
+      "solves": 144,
+      "state": "retired"
+    },
+    {
+      "id": 257,
+      "name": "Substandard Optimization",
+      "difficulty": "Insane",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 461,
+      "state": "retired"
+    },
+    {
+      "id": 204,
+      "name": "Dream Diary: Chapter 4",
+      "difficulty": "Insane",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 90,
+      "state": "retired"
+    },
+    {
+      "id": 199,
+      "name": "Kryptor",
+      "difficulty": "Insane",
+      "category": "Pwn",
+      "is_owned": false,
+      "solves": 308,
+      "state": "retired"
+    },
+    {
+      "id": 148,
+      "name": "Roulette",
+      "difficulty": "Insane",
+      "category": "Crypto",
+      "is_owned": false,
+      "solves": 103,
+      "state": "retired"
+    },
+    {
+      "id": 112,
+      "name": "Poly",
+      "difficulty": "Insane",
+      "category": "Reversing",
+      "is_owned": false,
+      "solves": 3115,
+      "state": "active"
+    }
+  ]
 }

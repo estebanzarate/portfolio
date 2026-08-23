@@ -1,10 +1,1826 @@
 {
-  "last_updated": "",
+  "last_updated": "2026-08-23T03:25:16.260Z",
   "statistics": {
-    "total": 0,
-    "owned": 0,
-    "by_difficulty": {},
-    "by_category": {}
+    "total": 181,
+    "owned": 3,
+    "by_difficulty": {
+      "Very Easy": 3
+    },
+    "by_category": {
+      "DFIR": 2,
+      "SOC": 1
+    }
   },
-  "sherlocks": []
+  "sherlocks": [
+    {
+      "id": 631,
+      "name": "Brutus",
+      "difficulty": "Very Easy",
+      "category": "DFIR",
+      "is_owned": true,
+      "progress": 100,
+      "solves": 37322,
+      "state": "retired_free"
+    },
+    {
+      "id": 1359,
+      "name": "Baggage",
+      "difficulty": "Very Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 409,
+      "state": "active"
+    },
+    {
+      "id": 1296,
+      "name": "PhantomRing",
+      "difficulty": "Very Easy",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 1483,
+      "state": "active"
+    },
+    {
+      "id": 1449,
+      "name": "Phishing_Email",
+      "difficulty": "Very Easy",
+      "category": "SOC",
+      "is_owned": true,
+      "progress": 100,
+      "solves": 122,
+      "state": "retired_free"
+    },
+    {
+      "id": 1200,
+      "name": "FortySeven-1",
+      "difficulty": "Very Easy",
+      "category": "Threat Intelligence",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 2698,
+      "state": "retired"
+    },
+    {
+      "id": 1162,
+      "name": "Vantage",
+      "difficulty": "Very Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 2051,
+      "state": "retired"
+    },
+    {
+      "id": 1144,
+      "name": "Telly",
+      "difficulty": "Very Easy",
+      "category": "SOC",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 2717,
+      "state": "retired"
+    },
+    {
+      "id": 1105,
+      "name": "MangoBleed",
+      "difficulty": "Very Easy",
+      "category": "DFIR",
+      "is_owned": true,
+      "progress": 100,
+      "solves": 2812,
+      "state": "retired_free"
+    },
+    {
+      "id": 1051,
+      "name": "Dream Job-2",
+      "difficulty": "Very Easy",
+      "category": "Threat Intelligence",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 1744,
+      "state": "retired"
+    },
+    {
+      "id": 988,
+      "name": "RomCom",
+      "difficulty": "Very Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 20,
+      "solves": 2576,
+      "state": "retired_free"
+    },
+    {
+      "id": 985,
+      "name": "PhishNet",
+      "difficulty": "Very Easy",
+      "category": "SOC",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 5579,
+      "state": "retired"
+    },
+    {
+      "id": 979,
+      "name": "SalineBreeze-1",
+      "difficulty": "Very Easy",
+      "category": "Threat Intelligence",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 2847,
+      "state": "retired"
+    },
+    {
+      "id": 935,
+      "name": "Operation Blackout 2025: Phantom Check",
+      "difficulty": "Very Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 3368,
+      "state": "retired_free"
+    },
+    {
+      "id": 937,
+      "name": "Operation Blackout 2025: Smoke & Mirrors",
+      "difficulty": "Very Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 2462,
+      "state": "retired_free"
+    },
+    {
+      "id": 881,
+      "name": "ElectricBreeze-1",
+      "difficulty": "Very Easy",
+      "category": "Threat Intelligence",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 3539,
+      "state": "retired"
+    },
+    {
+      "id": 869,
+      "name": "Origins",
+      "difficulty": "Very Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 4257,
+      "state": "retired"
+    },
+    {
+      "id": 865,
+      "name": "Dream Job-1",
+      "difficulty": "Very Easy",
+      "category": "Threat Intelligence",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 5097,
+      "state": "retired_free"
+    },
+    {
+      "id": 864,
+      "name": "SmartyPants",
+      "difficulty": "Very Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 2403,
+      "state": "retired_free"
+    },
+    {
+      "id": 840,
+      "name": "UFO-1",
+      "difficulty": "Very Easy",
+      "category": "Threat Intelligence",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 4251,
+      "state": "retired_free"
+    },
+    {
+      "id": 750,
+      "name": "CrownJewel-2",
+      "difficulty": "Very Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 3566,
+      "state": "retired_free"
+    },
+    {
+      "id": 751,
+      "name": "CrownJewel-1",
+      "difficulty": "Very Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 3397,
+      "state": "retired_free"
+    },
+    {
+      "id": 749,
+      "name": "Reaper",
+      "difficulty": "Very Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 4494,
+      "state": "retired_free"
+    },
+    {
+      "id": 747,
+      "name": "Noxious",
+      "difficulty": "Very Easy",
+      "category": "SOC",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 5287,
+      "state": "retired_free"
+    },
+    {
+      "id": 736,
+      "name": "Campfire-2",
+      "difficulty": "Very Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 4389,
+      "state": "retired_free"
+    },
+    {
+      "id": 737,
+      "name": "Campfire-1",
+      "difficulty": "Very Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 5562,
+      "state": "retired_free"
+    },
+    {
+      "id": 632,
+      "name": "Unit42",
+      "difficulty": "Very Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 7998,
+      "state": "retired_free"
+    },
+    {
+      "id": 633,
+      "name": "BFT",
+      "difficulty": "Very Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 4273,
+      "state": "retired_free"
+    },
+    {
+      "id": 1332,
+      "name": "Phantom",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 241,
+      "state": "active"
+    },
+    {
+      "id": 1311,
+      "name": "TaskForce",
+      "difficulty": "Easy",
+      "category": "Threat Hunting",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 118,
+      "state": "active"
+    },
+    {
+      "id": 1443,
+      "name": "Malicious_VBA",
+      "difficulty": "Easy",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 62,
+      "state": "retired_free"
+    },
+    {
+      "id": 1434,
+      "name": "Http_Basic_Auth",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 60,
+      "state": "retired_free"
+    },
+    {
+      "id": 1260,
+      "name": "KitsuneHook",
+      "difficulty": "Easy",
+      "category": "Threat Intelligence",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 696,
+      "state": "active"
+    },
+    {
+      "id": 1239,
+      "name": "CAMouflage",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 264,
+      "state": "active"
+    },
+    {
+      "id": 1212,
+      "name": "Fruitzy",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 482,
+      "state": "active"
+    },
+    {
+      "id": 1159,
+      "name": "ShadowBait",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 450,
+      "state": "retired"
+    },
+    {
+      "id": 1132,
+      "name": "CrashDump",
+      "difficulty": "Easy",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 527,
+      "state": "retired"
+    },
+    {
+      "id": 1123,
+      "name": "LuckyShot",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 674,
+      "state": "retired"
+    },
+    {
+      "id": 1099,
+      "name": "AoTR 4: A Drone in the Snow",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 350,
+      "state": "retired"
+    },
+    {
+      "id": 1090,
+      "name": "AoTR 1: A Call from the Museum",
+      "difficulty": "Easy",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 1191,
+      "state": "retired"
+    },
+    {
+      "id": 1093,
+      "name": "AoTR 2: Operation Winter Blackout",
+      "difficulty": "Easy",
+      "category": "Threat Intelligence",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 766,
+      "state": "retired"
+    },
+    {
+      "id": 1084,
+      "name": "GhostTrace",
+      "difficulty": "Easy",
+      "category": "SOC",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 622,
+      "state": "retired"
+    },
+    {
+      "id": 1072,
+      "name": "Holmes 2025 3: The Enduring Echo",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 454,
+      "state": "retired_free"
+    },
+    {
+      "id": 1236,
+      "name": "Holmes 2025 1: The Card",
+      "difficulty": "Easy",
+      "category": "Threat Intelligence",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 242,
+      "state": "retired"
+    },
+    {
+      "id": 1033,
+      "name": "SecretPictures",
+      "difficulty": "Easy",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 808,
+      "state": "retired"
+    },
+    {
+      "id": 1027,
+      "name": "Packet Puzzle",
+      "difficulty": "Easy",
+      "category": "SOC",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 1156,
+      "state": "retired"
+    },
+    {
+      "id": 1015,
+      "name": "Whisper",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 643,
+      "state": "retired"
+    },
+    {
+      "id": 1006,
+      "name": "SalineBreeze-2",
+      "difficulty": "Easy",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 578,
+      "state": "retired"
+    },
+    {
+      "id": 969,
+      "name": "WhyFind",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 659,
+      "state": "retired"
+    },
+    {
+      "id": 968,
+      "name": "Interceptor",
+      "difficulty": "Easy",
+      "category": "SOC",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 1304,
+      "state": "retired"
+    },
+    {
+      "id": 967,
+      "name": "Cuidado",
+      "difficulty": "Easy",
+      "category": "SOC",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 1182,
+      "state": "retired"
+    },
+    {
+      "id": 953,
+      "name": "PercyPay",
+      "difficulty": "Easy",
+      "category": "Cloud",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 156,
+      "state": "retired"
+    },
+    {
+      "id": 949,
+      "name": "ElectricBreeze-2",
+      "difficulty": "Easy",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 786,
+      "state": "retired"
+    },
+    {
+      "id": 939,
+      "name": "Zenith",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 565,
+      "state": "retired"
+    },
+    {
+      "id": 936,
+      "name": "Operation Blackout 2025: Ghost Thread",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 628,
+      "state": "retired_free"
+    },
+    {
+      "id": 906,
+      "name": "Payload",
+      "difficulty": "Easy",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 376,
+      "state": "retired"
+    },
+    {
+      "id": 895,
+      "name": "Trojan",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 692,
+      "state": "retired"
+    },
+    {
+      "id": 876,
+      "name": "DroidPhish",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 361,
+      "state": "retired"
+    },
+    {
+      "id": 875,
+      "name": "TeamWork",
+      "difficulty": "Easy",
+      "category": "Threat Intelligence",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 717,
+      "state": "retired"
+    },
+    {
+      "id": 879,
+      "name": "NeuroSync-D",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 1308,
+      "state": "retired_free"
+    },
+    {
+      "id": 873,
+      "name": "TrainingDay",
+      "difficulty": "Easy",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 352,
+      "state": "retired"
+    },
+    {
+      "id": 870,
+      "name": "Kuber",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 768,
+      "state": "retired"
+    },
+    {
+      "id": 765,
+      "name": "Loggy",
+      "difficulty": "Easy",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 1251,
+      "state": "retired"
+    },
+    {
+      "id": 764,
+      "name": "Psittaciformes",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 812,
+      "state": "retired"
+    },
+    {
+      "id": 832,
+      "name": "OpTinselTrace24-4: Neural Noel",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 620,
+      "state": "retired"
+    },
+    {
+      "id": 830,
+      "name": "OpTinselTrace24-2: Cookie Consumption",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 567,
+      "state": "retired"
+    },
+    {
+      "id": 758,
+      "name": "Compromised",
+      "difficulty": "Easy",
+      "category": "SOC",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 2133,
+      "state": "retired"
+    },
+    {
+      "id": 761,
+      "name": "Takedown",
+      "difficulty": "Easy",
+      "category": "SOC",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 1706,
+      "state": "retired"
+    },
+    {
+      "id": 794,
+      "name": "OpSalwarKameez24-5: Bling-Bling",
+      "difficulty": "Easy",
+      "category": "SOC",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 239,
+      "state": "retired"
+    },
+    {
+      "id": 790,
+      "name": "OpSalwarKameez24-1: Super-Star",
+      "difficulty": "Easy",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 284,
+      "state": "retired"
+    },
+    {
+      "id": 774,
+      "name": "Pikaptcha",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 1816,
+      "state": "retired_free"
+    },
+    {
+      "id": 700,
+      "name": "Heartbreaker-Denouement",
+      "difficulty": "Easy",
+      "category": "Cloud",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 310,
+      "state": "retired"
+    },
+    {
+      "id": 699,
+      "name": "Heartbreaker-Continuum",
+      "difficulty": "Easy",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 1548,
+      "state": "retired"
+    },
+    {
+      "id": 643,
+      "name": "Fragility",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 549,
+      "state": "retired"
+    },
+    {
+      "id": 615,
+      "name": "Ultimatum",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 912,
+      "state": "retired"
+    },
+    {
+      "id": 613,
+      "name": "Jingle Bell",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 1866,
+      "state": "retired"
+    },
+    {
+      "id": 586,
+      "name": "Recollection",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 1836,
+      "state": "retired"
+    },
+    {
+      "id": 585,
+      "name": "Noted",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 2696,
+      "state": "retired"
+    },
+    {
+      "id": 573,
+      "name": "Nubilum2",
+      "difficulty": "Easy",
+      "category": "Cloud",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 572,
+      "state": "retired"
+    },
+    {
+      "id": 581,
+      "name": "OpTinselTrace-4",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 426,
+      "state": "retired"
+    },
+    {
+      "id": 578,
+      "name": "OpTinselTrace-2",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 327,
+      "state": "retired"
+    },
+    {
+      "id": 577,
+      "name": "OpTinselTrace-1",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 560,
+      "state": "retired"
+    },
+    {
+      "id": 569,
+      "name": "RogueOne",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 1578,
+      "state": "retired"
+    },
+    {
+      "id": 552,
+      "name": "Meerkat",
+      "difficulty": "Easy",
+      "category": "SOC",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 7053,
+      "state": "retired"
+    },
+    {
+      "id": 553,
+      "name": "i-like-to",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 595,
+      "state": "retired"
+    },
+    {
+      "id": 554,
+      "name": "Bumblebee",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 3964,
+      "state": "retired_free"
+    },
+    {
+      "id": 555,
+      "name": "Litter",
+      "difficulty": "Easy",
+      "category": "SOC",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 2213,
+      "state": "retired"
+    },
+    {
+      "id": 556,
+      "name": "Lockpick",
+      "difficulty": "Easy",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 1298,
+      "state": "retired"
+    },
+    {
+      "id": 557,
+      "name": "LogJammer",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 3646,
+      "state": "retired_free"
+    },
+    {
+      "id": 558,
+      "name": "Tracer",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 1320,
+      "state": "retired"
+    },
+    {
+      "id": 559,
+      "name": "Hyperfiletable",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 730,
+      "state": "retired"
+    },
+    {
+      "id": 1461,
+      "name": "Windows_Memory_Dump",
+      "difficulty": "Medium",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 48,
+      "state": "retired_free"
+    },
+    {
+      "id": 1326,
+      "name": "WhaleSecret",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 217,
+      "state": "active"
+    },
+    {
+      "id": 1464,
+      "name": "Adobe_ColdFusion_RCE",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 31,
+      "state": "retired_free"
+    },
+    {
+      "id": 1458,
+      "name": "WannaCry_Ransomware",
+      "difficulty": "Medium",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 29,
+      "state": "retired_free"
+    },
+    {
+      "id": 1452,
+      "name": "Revenge_RAT",
+      "difficulty": "Medium",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 24,
+      "state": "retired_free"
+    },
+    {
+      "id": 1446,
+      "name": "PDFURI",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 26,
+      "state": "retired_free"
+    },
+    {
+      "id": 1431,
+      "name": "Excel_4.0_Macros",
+      "difficulty": "Medium",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 24,
+      "state": "retired_free"
+    },
+    {
+      "id": 1437,
+      "name": "Infection_with_Cobalt_Strike",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 29,
+      "state": "retired_free"
+    },
+    {
+      "id": 1425,
+      "name": "AS-REP_Challenge",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 32,
+      "state": "retired_free"
+    },
+    {
+      "id": 1287,
+      "name": "Opportunist",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 178,
+      "state": "active"
+    },
+    {
+      "id": 1242,
+      "name": "Kraken",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 246,
+      "state": "active"
+    },
+    {
+      "id": 1221,
+      "name": "LogForge",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 380,
+      "state": "active"
+    },
+    {
+      "id": 1209,
+      "name": "CorpDown-1",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 146,
+      "state": "active"
+    },
+    {
+      "id": 1197,
+      "name": "Midnight Crash",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 350,
+      "state": "active"
+    },
+    {
+      "id": 1183,
+      "name": "Antarctica",
+      "difficulty": "Medium",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 329,
+      "state": "retired"
+    },
+    {
+      "id": 1165,
+      "name": "Liberty",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 340,
+      "state": "retired"
+    },
+    {
+      "id": 1153,
+      "name": "JustSomePages",
+      "difficulty": "Medium",
+      "category": "SOC",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 195,
+      "state": "retired"
+    },
+    {
+      "id": 1138,
+      "name": "Lupin",
+      "difficulty": "Medium",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 308,
+      "state": "retired"
+    },
+    {
+      "id": 1102,
+      "name": "SneakyKeys",
+      "difficulty": "Medium",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 163,
+      "state": "retired"
+    },
+    {
+      "id": 1069,
+      "name": "Holmes 2025 2: The Watchman's Residue",
+      "difficulty": "Medium",
+      "category": "SOC",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 496,
+      "state": "retired_free"
+    },
+    {
+      "id": 1045,
+      "name": "Easy Money",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 268,
+      "state": "retired"
+    },
+    {
+      "id": 1039,
+      "name": "WorkFromHome",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 381,
+      "state": "retired"
+    },
+    {
+      "id": 998,
+      "name": "HookFlare",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 291,
+      "state": "retired"
+    },
+    {
+      "id": 994,
+      "name": "CafePoisoning",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 207,
+      "state": "retired"
+    },
+    {
+      "id": 982,
+      "name": "Malevolent ModMaker",
+      "difficulty": "Medium",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 318,
+      "state": "retired"
+    },
+    {
+      "id": 971,
+      "name": "Hijacked",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 160,
+      "state": "retired"
+    },
+    {
+      "id": 929,
+      "name": "Allegretto",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 333,
+      "state": "retired"
+    },
+    {
+      "id": 922,
+      "name": "ReachKart",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 335,
+      "state": "retired"
+    },
+    {
+      "id": 900,
+      "name": "CrewCrow",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 218,
+      "state": "retired"
+    },
+    {
+      "id": 874,
+      "name": "Unsupervised",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 266,
+      "state": "retired"
+    },
+    {
+      "id": 866,
+      "name": "Anpu",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 175,
+      "state": "retired"
+    },
+    {
+      "id": 859,
+      "name": "ReliableThreat",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 292,
+      "state": "retired"
+    },
+    {
+      "id": 841,
+      "name": "Trent",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 550,
+      "state": "retired"
+    },
+    {
+      "id": 831,
+      "name": "OpTinselTrace24-3: Blizzard Breakdown",
+      "difficulty": "Medium",
+      "category": "Cloud",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 246,
+      "state": "retired"
+    },
+    {
+      "id": 793,
+      "name": "OpSalwarKameez24-4: Salsa-Dance",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 142,
+      "state": "retired"
+    },
+    {
+      "id": 791,
+      "name": "OpSalwarKameez24-2: Magic-Show",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 128,
+      "state": "retired"
+    },
+    {
+      "id": 759,
+      "name": "MisCloud",
+      "difficulty": "Medium",
+      "category": "Cloud",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 278,
+      "state": "retired"
+    },
+    {
+      "id": 752,
+      "name": "Nuts",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 534,
+      "state": "retired"
+    },
+    {
+      "id": 698,
+      "name": "Heartbreaker",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 691,
+      "state": "retired"
+    },
+    {
+      "id": 616,
+      "name": "Mellitus",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 297,
+      "state": "retired"
+    },
+    {
+      "id": 636,
+      "name": "Subatomic",
+      "difficulty": "Medium",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 677,
+      "state": "retired_free"
+    },
+    {
+      "id": 612,
+      "name": "APTNightmare",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 538,
+      "state": "retired"
+    },
+    {
+      "id": 596,
+      "name": "Jugglin",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 303,
+      "state": "retired"
+    },
+    {
+      "id": 587,
+      "name": "Jinkies",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 657,
+      "state": "retired"
+    },
+    {
+      "id": 580,
+      "name": "OpTinselTrace-3",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 295,
+      "state": "retired"
+    },
+    {
+      "id": 572,
+      "name": "Constellation",
+      "difficulty": "Medium",
+      "category": "Threat Intelligence",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 858,
+      "state": "retired"
+    },
+    {
+      "id": 571,
+      "name": "Nubilum-1",
+      "difficulty": "Medium",
+      "category": "Cloud",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 308,
+      "state": "retired"
+    },
+    {
+      "id": 560,
+      "name": "Knock Knock",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 491,
+      "state": "retired"
+    },
+    {
+      "id": 561,
+      "name": "Ore",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 294,
+      "state": "retired"
+    },
+    {
+      "id": 562,
+      "name": "TickTock",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 442,
+      "state": "retired"
+    },
+    {
+      "id": 567,
+      "name": "Einladen",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 398,
+      "state": "retired"
+    },
+    {
+      "id": 1362,
+      "name": "VelvetThrone",
+      "difficulty": "Hard",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 100,
+      "state": "active"
+    },
+    {
+      "id": 1329,
+      "name": "Oldie",
+      "difficulty": "Hard",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 126,
+      "state": "active"
+    },
+    {
+      "id": 1455,
+      "name": "USB_Forensics",
+      "difficulty": "Hard",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 29,
+      "state": "retired_free"
+    },
+    {
+      "id": 1440,
+      "name": "Linux_Disk_Forensics",
+      "difficulty": "Hard",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 26,
+      "state": "retired_free"
+    },
+    {
+      "id": 1422,
+      "name": "Anti-Analysis_TyphonLogger",
+      "difficulty": "Hard",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 25,
+      "state": "retired_free"
+    },
+    {
+      "id": 1467,
+      "name": "BlackStore",
+      "difficulty": "Hard",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 24,
+      "state": "retired_free"
+    },
+    {
+      "id": 1428,
+      "name": "AWS_Bucketware",
+      "difficulty": "Hard",
+      "category": "Cloud",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 29,
+      "state": "retired_free"
+    },
+    {
+      "id": 1278,
+      "name": "CorpDown-2",
+      "difficulty": "Hard",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 121,
+      "state": "active"
+    },
+    {
+      "id": 1269,
+      "name": "ShadowMonarch",
+      "difficulty": "Hard",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 241,
+      "state": "active"
+    },
+    {
+      "id": 1233,
+      "name": "JobApplicant",
+      "difficulty": "Hard",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 256,
+      "state": "active"
+    },
+    {
+      "id": 1191,
+      "name": "Foreigner",
+      "difficulty": "Hard",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 214,
+      "state": "retired"
+    },
+    {
+      "id": 1129,
+      "name": "Ruse",
+      "difficulty": "Hard",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 160,
+      "state": "retired"
+    },
+    {
+      "id": 1096,
+      "name": "AoTR 3: The Abandoned Farmhouse",
+      "difficulty": "Hard",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 176,
+      "state": "retired"
+    },
+    {
+      "id": 1075,
+      "name": "Holmes 2025 4: The Tunnel Without Walls",
+      "difficulty": "Hard",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 277,
+      "state": "retired_free"
+    },
+    {
+      "id": 1078,
+      "name": "Holmes 2025 5: The Payload",
+      "difficulty": "Hard",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 222,
+      "state": "retired_free"
+    },
+    {
+      "id": 1024,
+      "name": "SillyEli",
+      "difficulty": "Hard",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 184,
+      "state": "retired"
+    },
+    {
+      "id": 1012,
+      "name": "Caught",
+      "difficulty": "Hard",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 152,
+      "state": "retired"
+    },
+    {
+      "id": 951,
+      "name": "GateKeeper",
+      "difficulty": "Hard",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 129,
+      "state": "retired"
+    },
+    {
+      "id": 899,
+      "name": "Streamer",
+      "difficulty": "Hard",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 338,
+      "state": "retired"
+    },
+    {
+      "id": 897,
+      "name": "GroundWorm",
+      "difficulty": "Hard",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 128,
+      "state": "retired"
+    },
+    {
+      "id": 857,
+      "name": "APTNightmare-2",
+      "difficulty": "Hard",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 271,
+      "state": "retired"
+    },
+    {
+      "id": 834,
+      "name": "OpTinselTrace24-6: Sleigh Slayer",
+      "difficulty": "Hard",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 133,
+      "state": "retired"
+    },
+    {
+      "id": 833,
+      "name": "OpTinselTrace24-5: Tale of Maple Syrup",
+      "difficulty": "Hard",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 134,
+      "state": "retired"
+    },
+    {
+      "id": 827,
+      "name": "OpTinselTrace24-1: Sneaky Cookies",
+      "difficulty": "Hard",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 237,
+      "state": "retired"
+    },
+    {
+      "id": 792,
+      "name": "OpSalwarKameez24-3: Snake-Pill",
+      "difficulty": "Hard",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 98,
+      "state": "retired"
+    },
+    {
+      "id": 757,
+      "name": "Latus",
+      "difficulty": "Hard",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 168,
+      "state": "retired"
+    },
+    {
+      "id": 697,
+      "name": "Detroit Becomes Human",
+      "difficulty": "Hard",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 421,
+      "state": "retired"
+    },
+    {
+      "id": 688,
+      "name": "Lockpick3.0",
+      "difficulty": "Hard",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 434,
+      "state": "retired_free"
+    },
+    {
+      "id": 614,
+      "name": "Heist",
+      "difficulty": "Hard",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 187,
+      "state": "retired"
+    },
+    {
+      "id": 595,
+      "name": "BOughT",
+      "difficulty": "Hard",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 200,
+      "state": "retired"
+    },
+    {
+      "id": 582,
+      "name": "OpTinselTrace-5",
+      "difficulty": "Hard",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 210,
+      "state": "retired"
+    },
+    {
+      "id": 563,
+      "name": "Lockpick2.0",
+      "difficulty": "Hard",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 352,
+      "state": "retired"
+    },
+    {
+      "id": 564,
+      "name": "ProcNet",
+      "difficulty": "Hard",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 268,
+      "state": "retired"
+    },
+    {
+      "id": 1230,
+      "name": "Stonks",
+      "difficulty": "Insane",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 273,
+      "state": "active"
+    },
+    {
+      "id": 1168,
+      "name": "ShadowStream",
+      "difficulty": "Insane",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 106,
+      "state": "active"
+    },
+    {
+      "id": 878,
+      "name": "Novitas",
+      "difficulty": "Insane",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 154,
+      "state": "retired"
+    },
+    {
+      "id": 762,
+      "name": "Lovely Malware",
+      "difficulty": "Insane",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 167,
+      "state": "retired"
+    },
+    {
+      "id": 748,
+      "name": "Lockpick4.0",
+      "difficulty": "Insane",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 409,
+      "state": "retired_free"
+    },
+    {
+      "id": 574,
+      "name": "Hunter",
+      "difficulty": "Insane",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 232,
+      "state": "retired"
+    },
+    {
+      "id": 565,
+      "name": "Safecracker",
+      "difficulty": "Insane",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 435,
+      "state": "retired_free"
+    }
+  ]
 }

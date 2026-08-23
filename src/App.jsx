@@ -12,9 +12,9 @@ import useLanguage from "./hooks/useLanguage";
 import translations from "./data/translations";
 
 const HTBMachines = lazy(() => import("./components/HTBMachines"));
-const HTBSherlocks = lazy(() => import("./components/HTBSherlocks"));
-const HTBChallenges = lazy(() => import("./components/HTBChallenges"));
 const HTBAcademy = lazy(() => import("./components/HTBAcademy"));
+const HTBChallenges = lazy(() => import("./components/HTBChallenges"));
+const HTBSherlocks = lazy(() => import("./components/HTBSherlocks"));
 const THMRooms = lazy(() => import("./components/THMRooms"));
 
 function SectionFallback() {
@@ -69,13 +69,13 @@ function AppContent() {
             <LazySection component={HTBMachines} />
           </div>
           <div className="py-16">
-            <LazySection component={HTBSherlocks} />
+            <LazySection component={HTBAcademy} />
           </div>
           <div className="py-16">
             <LazySection component={HTBChallenges} />
           </div>
           <div className="py-16">
-            <LazySection component={HTBAcademy} />
+            <LazySection component={HTBSherlocks} />
           </div>
           <div className="pt-16">
             <LazySection component={THMRooms} />

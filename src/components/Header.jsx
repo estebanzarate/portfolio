@@ -18,6 +18,8 @@ function Header() {
     { label: t.skills, href: "#skills", id: "skills" },
     { label: t.machines, href: "#machines", id: "machines" },
     { label: t.academy, href: "#academy", id: "academy" },
+    { label: t.challenges, href: "#challenges", id: "challenges" },
+    { label: t.sherlocks, href: "#sherlocks", id: "sherlocks" },
     { label: t.thm, href: "#thm", id: "thm" },
   ];
 
@@ -132,7 +134,7 @@ function Header() {
             Esteban Zárate
           </button>
 
-          <nav className="hidden md:flex items-center gap-6">
+          <nav className="hidden md:flex items-center gap-5">
             {navLinks.map((link) => (
               <a
                 key={link.href}
