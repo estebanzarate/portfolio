@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-28T00:54:40.712Z",
+  "last_updated": "2026-08-28T00:58:40.929Z",
   "statistics": {
     "total": 198,
     "owned": 4,
@@ -979,7 +979,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 78,
+      "solves": 79,
       "state": "retired_free"
     },
     {
@@ -1619,7 +1619,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 41,
+      "solves": 42,
       "state": "retired_free"
     },
     {
