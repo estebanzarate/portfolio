@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-28T00:53:41.582Z",
+  "last_updated": "2026-08-28T00:54:40.712Z",
   "statistics": {
     "total": 198,
     "owned": 4,
@@ -269,7 +269,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 8059,
+      "solves": 8060,
       "state": "retired_free"
     },
     {

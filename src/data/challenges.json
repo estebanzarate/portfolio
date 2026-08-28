@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-28T00:53:48.010Z",
+  "last_updated": "2026-08-28T00:54:48.982Z",
   "statistics": {
     "total": 850,
     "owned": 49,
@@ -208,7 +208,7 @@
       "difficulty": "Very Easy",
       "category": "Web",
       "is_owned": true,
-      "solves": 1445,
+      "solves": 1446,
       "state": "retired_free"
     },
     {

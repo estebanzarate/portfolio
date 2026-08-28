@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-08-18T16:14:33.207Z",
+  "last_updated": "2026-08-28T00:54:41.601Z",
   "statistics": {
     "total_modules": 354,
-    "completed": 56,
-    "completion_percentage": 15.8,
+    "completed": 57,
+    "completion_percentage": 16.1,
     "by_category": {
       "Offensive": {
         "completed": 26,
@@ -11,9 +11,9 @@
         "percentage": 30.1
       },
       "Defensive": {
-        "completed": 3,
+        "completed": 4,
         "total": 197,
-        "percentage": 1.9
+        "percentage": 2.5
       },
       "General": {
         "completed": 26,
@@ -1111,7 +1111,7 @@
       "name": "Public Key Infrastructure",
       "slug": "public-key-infrastructure",
       "description": "Public Key Infrastructure (PKI) is fundamental to ensuring secure electronic communications and transactions across networks. This module offers a comprehensive introduction to PKI, guiding learners through its core components, including digital certificates, certificate authorities, and the role of encryption in maintaining security. Through a series of well-structured tutorials, learners will gain a deep understanding of how PKI functions within different infrastructures and the best practices for implementation and management.\r\n\r\nWhether you are new to the field of cybersecurity or seeking to solidify your understanding of PKI, this module caters to all levels. Learners will navigate through theoretical foundations as well as practical applications, ensuring a well-rounded grasp of the subject. With real-world examples, detailed explanations, and hands-on exercises, you'll leave equipped with the confidence to apply PKI concepts effectively in your professional environments.",
-      "progress": 0
+      "progress": 50
     },
     {
       "id": 327,
@@ -1146,7 +1146,7 @@
       "name": "Cyber Kill Chain",
       "slug": "cyber-kill-chain",
       "description": "The Cyber Kill Chain module is designed to provide participants with a comprehensive understanding of the various stages of a cyber attack and how to identify and respond to them effectively. The module covers the different phases of the Cyber Kill Chain, including reconnaissance, weaponization, delivery, exploitation, installation, command and control, and actions on objectives. Participants will learn how to identify and analyze each stage of the Cyber Kill Chain, as well as how to develop effective strategies to prevent, detect, and respond to cyber attacks. The module is ideal for SOC analysts, incident responders, and anyone interested in enhancing their understanding of cyber threats and defenses.",
-      "progress": 30
+      "progress": 100
     },
     {
       "id": 332,
