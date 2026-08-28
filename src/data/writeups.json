@@ -7801,6 +7801,74 @@
     "1467": {
       "name": "BlackStore",
       "writeup": null
+    },
+    "1476": {
+      "name": "Kawmikaze",
+      "writeup": null
+    },
+    "1479": {
+      "name": "OdysseyStealer",
+      "writeup": null
+    },
+    "1482": {
+      "name": "PhantomValidation",
+      "writeup": null
+    },
+    "1485": {
+      "name": "AWS_Stacked",
+      "writeup": null
+    },
+    "1488": {
+      "name": "HeartBeat_Backdoor",
+      "writeup": null
+    },
+    "1491": {
+      "name": "IcedID_Malware_Family",
+      "writeup": null
+    },
+    "1494": {
+      "name": "LDAP_Enumeration",
+      "writeup": null
+    },
+    "1497": {
+      "name": "Linux_Memory_Forensics",
+      "writeup": null
+    },
+    "1500": {
+      "name": "macOS_Malware",
+      "writeup": null
+    },
+    "1503": {
+      "name": "Obfuscated_HTA",
+      "writeup": null
+    },
+    "1506": {
+      "name": "Overlord",
+      "writeup": null
+    },
+    "1509": {
+      "name": "PHP-CGI_(CVE-2024-4577)",
+      "writeup": null
+    },
+    "1512": {
+      "name": "Port_Scan_Activity",
+      "writeup": null
+    },
+    "1515": {
+      "name": "Print-Nightmare",
+      "writeup": null
+    },
+    "1518": {
+      "name": "Risen_Ransomware",
+      "writeup": null
+    },
+    "1521": {
+      "name": "Windows_Registry",
+      "writeup": null
+    },
+    "1524": {
+      "name": "WinRAR_0-Day",
+      "writeup": null
     }
   }
 }
