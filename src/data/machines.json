@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-28T00:58:51.859Z",
+  "last_updated": "2026-09-03T16:54:13.572Z",
   "statistics": {
-    "total": 573,
+    "total": 574,
     "user_owns": 223,
     "root_owns": 238,
     "by_os": {
@@ -28,6 +28,15 @@
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true,
+      "sp_tier": null
+    },
+    {
+      "id": 975,
+      "name": "BlockSynergy",
+      "os": "Linux",
+      "difficulty": "Insane",
+      "user_owned": false,
+      "root_owned": false,
       "sp_tier": null
     },
     {

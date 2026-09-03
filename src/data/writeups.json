@@ -2291,6 +2291,10 @@
     "957": {
       "name": "Fireflow",
       "writeup": null
+    },
+    "975": {
+      "name": "BlockSynergy",
+      "writeup": null
     }
   },
   "rooms": {
@@ -7075,6 +7079,10 @@
     "1419": {
       "name": "Noise Codex",
       "writeup": null
+    },
+    "1473": {
+      "name": "Conga Curse",
+      "writeup": null
     }
   },
   "sherlocks": {
@@ -7868,6 +7876,70 @@
     },
     "1524": {
       "name": "WinRAR_0-Day",
+      "writeup": null
+    },
+    "1530": {
+      "name": "AI-Powered_Ransomware",
+      "writeup": null
+    },
+    "1533": {
+      "name": "Alternate_Data_Stream",
+      "writeup": null
+    },
+    "1536": {
+      "name": "Android_Forensics",
+      "writeup": null
+    },
+    "1539": {
+      "name": "Google_Cloud_Incident",
+      "writeup": null
+    },
+    "1542": {
+      "name": "Helldown_Ransomware",
+      "writeup": null
+    },
+    "1545": {
+      "name": "Investigate_Web_Attack",
+      "writeup": null
+    },
+    "1548": {
+      "name": "MacForensics",
+      "writeup": null
+    },
+    "1551": {
+      "name": "Malicious_Chrome_Extension",
+      "writeup": null
+    },
+    "1554": {
+      "name": "RanDev",
+      "writeup": null
+    },
+    "1557": {
+      "name": "Royal_Ransomware",
+      "writeup": null
+    },
+    "1560": {
+      "name": "Samba_Spy",
+      "writeup": null
+    },
+    "1563": {
+      "name": "Stagecomp",
+      "writeup": null
+    },
+    "1566": {
+      "name": "Windows_Forensics",
+      "writeup": null
+    },
+    "1569": {
+      "name": "PhantomLoader",
+      "writeup": null
+    },
+    "1572": {
+      "name": "SupportBot",
+      "writeup": null
+    },
+    "1575": {
+      "name": "OrbitBreach",
       "writeup": null
     }
   }

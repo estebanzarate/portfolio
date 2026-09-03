@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-28T00:58:40.929Z",
+  "last_updated": "2026-09-03T16:54:02.834Z",
   "statistics": {
-    "total": 198,
+    "total": 214,
     "owned": 4,
     "by_difficulty": {
       "Very Easy": 4
@@ -19,7 +19,7 @@
       "category": "DFIR",
       "is_owned": true,
       "progress": 100,
-      "solves": 37645,
+      "solves": 37970,
       "state": "retired_free"
     },
     {
@@ -29,7 +29,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 558,
+      "solves": 689,
       "state": "active"
     },
     {
@@ -39,7 +39,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 1605,
+      "solves": 1776,
       "state": "active"
     },
     {
@@ -49,7 +49,7 @@
       "category": "SOC",
       "is_owned": true,
       "progress": 100,
-      "solves": 273,
+      "solves": 426,
       "state": "retired_free"
     },
     {
@@ -59,7 +59,7 @@
       "category": "Threat Intelligence",
       "is_owned": false,
       "progress": 0,
-      "solves": 2715,
+      "solves": 2726,
       "state": "retired"
     },
     {
@@ -69,7 +69,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 2065,
+      "solves": 2078,
       "state": "retired"
     },
     {
@@ -79,7 +79,7 @@
       "category": "SOC",
       "is_owned": false,
       "progress": 0,
-      "solves": 2735,
+      "solves": 2755,
       "state": "retired"
     },
     {
@@ -89,7 +89,7 @@
       "category": "DFIR",
       "is_owned": true,
       "progress": 100,
-      "solves": 2865,
+      "solves": 2939,
       "state": "retired_free"
     },
     {
@@ -99,7 +99,7 @@
       "category": "Threat Intelligence",
       "is_owned": false,
       "progress": 0,
-      "solves": 1753,
+      "solves": 1760,
       "state": "retired"
     },
     {
@@ -109,7 +109,7 @@
       "category": "DFIR",
       "is_owned": true,
       "progress": 100,
-      "solves": 2615,
+      "solves": 2663,
       "state": "retired_free"
     },
     {
@@ -119,7 +119,7 @@
       "category": "SOC",
       "is_owned": false,
       "progress": 0,
-      "solves": 5612,
+      "solves": 5631,
       "state": "retired"
     },
     {
@@ -129,7 +129,7 @@
       "category": "Threat Intelligence",
       "is_owned": false,
       "progress": 0,
-      "solves": 2859,
+      "solves": 2872,
       "state": "retired"
     },
     {
@@ -138,8 +138,8 @@
       "difficulty": "Very Easy",
       "category": "DFIR",
       "is_owned": false,
-      "progress": 50,
-      "solves": 3401,
+      "progress": 83,
+      "solves": 3440,
       "state": "retired_free"
     },
     {
@@ -149,7 +149,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 2489,
+      "solves": 2541,
       "state": "retired_free"
     },
     {
@@ -159,7 +159,7 @@
       "category": "Threat Intelligence",
       "is_owned": false,
       "progress": 0,
-      "solves": 3551,
+      "solves": 3563,
       "state": "retired"
     },
     {
@@ -169,7 +169,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 4269,
+      "solves": 4282,
       "state": "retired"
     },
     {
@@ -179,7 +179,7 @@
       "category": "Threat Intelligence",
       "is_owned": false,
       "progress": 0,
-      "solves": 5127,
+      "solves": 5168,
       "state": "retired_free"
     },
     {
@@ -189,7 +189,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 2431,
+      "solves": 2454,
       "state": "retired_free"
     },
     {
@@ -199,7 +199,7 @@
       "category": "Threat Intelligence",
       "is_owned": false,
       "progress": 0,
-      "solves": 4282,
+      "solves": 4319,
       "state": "retired_free"
     },
     {
@@ -209,7 +209,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 3594,
+      "solves": 3625,
       "state": "retired_free"
     },
     {
@@ -219,7 +219,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 3431,
+      "solves": 3455,
       "state": "retired_free"
     },
     {
@@ -229,7 +229,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 4531,
+      "solves": 4568,
       "state": "retired_free"
     },
     {
@@ -239,7 +239,7 @@
       "category": "SOC",
       "is_owned": false,
       "progress": 0,
-      "solves": 5325,
+      "solves": 5375,
       "state": "retired_free"
     },
     {
@@ -249,7 +249,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 4434,
+      "solves": 4479,
       "state": "retired_free"
     },
     {
@@ -259,7 +259,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 5616,
+      "solves": 5676,
       "state": "retired_free"
     },
     {
@@ -269,7 +269,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 8060,
+      "solves": 8129,
       "state": "retired_free"
     },
     {
@@ -279,7 +279,17 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 4318,
+      "solves": 4360,
+      "state": "retired_free"
+    },
+    {
+      "id": 1563,
+      "name": "Stagecomp",
+      "difficulty": "Easy",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 12,
       "state": "retired_free"
     },
     {
@@ -289,7 +299,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 13,
+      "solves": 67,
       "state": "retired_free"
     },
     {
@@ -299,7 +309,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 282,
+      "solves": 325,
       "state": "active"
     },
     {
@@ -309,8 +319,18 @@
       "category": "Threat Hunting",
       "is_owned": false,
       "progress": 0,
-      "solves": 127,
+      "solves": 139,
       "state": "active"
+    },
+    {
+      "id": 1560,
+      "name": "Samba_Spy",
+      "difficulty": "Easy",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 6,
+      "state": "retired_free"
     },
     {
       "id": 1512,
@@ -319,7 +339,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 13,
+      "solves": 71,
       "state": "retired_free"
     },
     {
@@ -329,7 +349,7 @@
       "category": "SOC",
       "is_owned": false,
       "progress": 0,
-      "solves": 13,
+      "solves": 61,
       "state": "retired_free"
     },
     {
@@ -339,7 +359,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 11,
+      "solves": 57,
       "state": "retired_free"
     },
     {
@@ -349,7 +369,17 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 116,
+      "solves": 134,
+      "state": "retired_free"
+    },
+    {
+      "id": 1545,
+      "name": "Investigate_Web_Attack",
+      "difficulty": "Easy",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 9,
       "state": "retired_free"
     },
     {
@@ -359,7 +389,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 8,
+      "solves": 37,
       "state": "retired_free"
     },
     {
@@ -369,7 +399,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 93,
+      "solves": 111,
       "state": "retired_free"
     },
     {
@@ -379,7 +409,7 @@
       "category": "Threat Intelligence",
       "is_owned": false,
       "progress": 0,
-      "solves": 742,
+      "solves": 792,
       "state": "active"
     },
     {
@@ -389,7 +419,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 293,
+      "solves": 320,
       "state": "active"
     },
     {
@@ -399,7 +429,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 503,
+      "solves": 529,
       "state": "active"
     },
     {
@@ -409,7 +439,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 454,
+      "solves": 459,
       "state": "retired"
     },
     {
@@ -419,7 +449,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 532,
+      "solves": 537,
       "state": "retired"
     },
     {
@@ -429,7 +459,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 677,
+      "solves": 682,
       "state": "retired"
     },
     {
@@ -439,8 +469,8 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 353,
-      "state": "retired"
+      "solves": 362,
+      "state": "retired_free"
     },
     {
       "id": 1090,
@@ -449,7 +479,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 1195,
+      "solves": 1202,
       "state": "retired"
     },
     {
@@ -459,8 +489,8 @@
       "category": "Threat Intelligence",
       "is_owned": false,
       "progress": 0,
-      "solves": 771,
-      "state": "retired"
+      "solves": 780,
+      "state": "retired_free"
     },
     {
       "id": 1084,
@@ -469,7 +499,7 @@
       "category": "SOC",
       "is_owned": false,
       "progress": 0,
-      "solves": 625,
+      "solves": 629,
       "state": "retired"
     },
     {
@@ -479,7 +509,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 464,
+      "solves": 475,
       "state": "retired_free"
     },
     {
@@ -489,7 +519,7 @@
       "category": "Threat Intelligence",
       "is_owned": false,
       "progress": 0,
-      "solves": 246,
+      "solves": 251,
       "state": "retired"
     },
     {
@@ -499,7 +529,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 811,
+      "solves": 814,
       "state": "retired"
     },
     {
@@ -509,7 +539,7 @@
       "category": "SOC",
       "is_owned": false,
       "progress": 0,
-      "solves": 1163,
+      "solves": 1173,
       "state": "retired"
     },
     {
@@ -519,7 +549,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 647,
+      "solves": 650,
       "state": "retired"
     },
     {
@@ -529,7 +559,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 583,
+      "solves": 585,
       "state": "retired"
     },
     {
@@ -539,7 +569,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 664,
+      "solves": 667,
       "state": "retired"
     },
     {
@@ -549,7 +579,7 @@
       "category": "SOC",
       "is_owned": false,
       "progress": 0,
-      "solves": 1309,
+      "solves": 1315,
       "state": "retired"
     },
     {
@@ -559,7 +589,7 @@
       "category": "SOC",
       "is_owned": false,
       "progress": 0,
-      "solves": 1185,
+      "solves": 1193,
       "state": "retired"
     },
     {
@@ -569,7 +599,7 @@
       "category": "Cloud",
       "is_owned": false,
       "progress": 0,
-      "solves": 157,
+      "solves": 160,
       "state": "retired"
     },
     {
@@ -579,7 +609,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 788,
+      "solves": 791,
       "state": "retired"
     },
     {
@@ -589,7 +619,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 568,
+      "solves": 569,
       "state": "retired"
     },
     {
@@ -599,7 +629,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 637,
+      "solves": 644,
       "state": "retired_free"
     },
     {
@@ -609,7 +639,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 380,
+      "solves": 383,
       "state": "retired"
     },
     {
@@ -619,7 +649,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 698,
+      "solves": 703,
       "state": "retired"
     },
     {
@@ -629,7 +659,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 364,
+      "solves": 367,
       "state": "retired"
     },
     {
@@ -639,7 +669,7 @@
       "category": "Threat Intelligence",
       "is_owned": false,
       "progress": 0,
-      "solves": 722,
+      "solves": 725,
       "state": "retired"
     },
     {
@@ -649,7 +679,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 1319,
+      "solves": 1337,
       "state": "retired_free"
     },
     {
@@ -659,7 +689,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 353,
+      "solves": 356,
       "state": "retired"
     },
     {
@@ -669,7 +699,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 769,
+      "solves": 772,
       "state": "retired"
     },
     {
@@ -679,7 +709,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 1254,
+      "solves": 1257,
       "state": "retired"
     },
     {
@@ -689,7 +719,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 813,
+      "solves": 814,
       "state": "retired"
     },
     {
@@ -699,7 +729,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 623,
+      "solves": 625,
       "state": "retired"
     },
     {
@@ -709,7 +739,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 570,
+      "solves": 571,
       "state": "retired"
     },
     {
@@ -719,7 +749,7 @@
       "category": "SOC",
       "is_owned": false,
       "progress": 0,
-      "solves": 2136,
+      "solves": 2144,
       "state": "retired"
     },
     {
@@ -729,7 +759,7 @@
       "category": "SOC",
       "is_owned": false,
       "progress": 0,
-      "solves": 1710,
+      "solves": 1716,
       "state": "retired"
     },
     {
@@ -739,7 +769,7 @@
       "category": "SOC",
       "is_owned": false,
       "progress": 0,
-      "solves": 242,
+      "solves": 243,
       "state": "retired"
     },
     {
@@ -749,7 +779,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 285,
+      "solves": 286,
       "state": "retired"
     },
     {
@@ -759,7 +789,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 1830,
+      "solves": 1848,
       "state": "retired_free"
     },
     {
@@ -769,7 +799,7 @@
       "category": "Cloud",
       "is_owned": false,
       "progress": 0,
-      "solves": 311,
+      "solves": 313,
       "state": "retired"
     },
     {
@@ -779,7 +809,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 1550,
+      "solves": 1552,
       "state": "retired"
     },
     {
@@ -789,7 +819,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 550,
+      "solves": 552,
       "state": "retired"
     },
     {
@@ -799,7 +829,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 918,
+      "solves": 923,
       "state": "retired"
     },
     {
@@ -809,7 +839,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 1869,
+      "solves": 1874,
       "state": "retired"
     },
     {
@@ -819,7 +849,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 1840,
+      "solves": 1848,
       "state": "retired"
     },
     {
@@ -829,7 +859,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 2701,
+      "solves": 2703,
       "state": "retired"
     },
     {
@@ -839,7 +869,7 @@
       "category": "Cloud",
       "is_owned": false,
       "progress": 0,
-      "solves": 576,
+      "solves": 581,
       "state": "retired"
     },
     {
@@ -849,7 +879,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 431,
+      "solves": 432,
       "state": "retired"
     },
     {
@@ -859,7 +889,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 330,
+      "solves": 335,
       "state": "retired"
     },
     {
@@ -869,8 +899,8 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 564,
-      "state": "retired"
+      "solves": 572,
+      "state": "retired_free"
     },
     {
       "id": 569,
@@ -879,7 +909,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 1586,
+      "solves": 1593,
       "state": "retired"
     },
     {
@@ -889,7 +919,7 @@
       "category": "SOC",
       "is_owned": false,
       "progress": 0,
-      "solves": 7063,
+      "solves": 7072,
       "state": "retired"
     },
     {
@@ -899,7 +929,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 601,
+      "solves": 604,
       "state": "retired"
     },
     {
@@ -909,7 +939,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 3976,
+      "solves": 3986,
       "state": "retired_free"
     },
     {
@@ -919,7 +949,7 @@
       "category": "SOC",
       "is_owned": false,
       "progress": 0,
-      "solves": 2218,
+      "solves": 2222,
       "state": "retired"
     },
     {
@@ -929,7 +959,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 1302,
+      "solves": 1305,
       "state": "retired"
     },
     {
@@ -939,7 +969,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 3679,
+      "solves": 3705,
       "state": "retired_free"
     },
     {
@@ -949,7 +979,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 1329,
+      "solves": 1333,
       "state": "retired"
     },
     {
@@ -959,8 +989,28 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 732,
+      "solves": 734,
       "state": "retired"
+    },
+    {
+      "id": 1569,
+      "name": "PhantomLoader",
+      "difficulty": "Medium",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 4,
+      "state": "retired_free"
+    },
+    {
+      "id": 1572,
+      "name": "SupportBot",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 6,
+      "state": "retired_free"
     },
     {
       "id": 1479,
@@ -969,7 +1019,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 7,
+      "solves": 38,
       "state": "retired_free"
     },
     {
@@ -979,7 +1029,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 79,
+      "solves": 152,
       "state": "retired_free"
     },
     {
@@ -989,7 +1039,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 242,
+      "solves": 258,
       "state": "active"
     },
     {
@@ -999,7 +1049,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 7,
+      "solves": 38,
       "state": "retired_free"
     },
     {
@@ -1009,7 +1059,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 53,
+      "solves": 62,
       "state": "retired_free"
     },
     {
@@ -1019,7 +1069,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 5,
+      "solves": 37,
       "state": "retired_free"
     },
     {
@@ -1029,7 +1079,17 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 8,
+      "solves": 34,
+      "state": "retired_free"
+    },
+    {
+      "id": 1557,
+      "name": "Royal_Ransomware",
+      "difficulty": "Medium",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 5,
       "state": "retired_free"
     },
     {
@@ -1039,7 +1099,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 51,
+      "solves": 60,
       "state": "retired_free"
     },
     {
@@ -1049,7 +1109,17 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 47,
+      "solves": 53,
+      "state": "retired_free"
+    },
+    {
+      "id": 1554,
+      "name": "RanDev",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 2,
       "state": "retired_free"
     },
     {
@@ -1059,7 +1129,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 8,
+      "solves": 28,
       "state": "retired_free"
     },
     {
@@ -1069,7 +1139,17 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 43,
+      "solves": 49,
+      "state": "retired_free"
+    },
+    {
+      "id": 1551,
+      "name": "Malicious_Chrome_Extension",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 3,
       "state": "retired_free"
     },
     {
@@ -1079,7 +1159,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 8,
+      "solves": 31,
       "state": "retired_free"
     },
     {
@@ -1089,7 +1169,17 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 44,
+      "solves": 49,
+      "state": "retired_free"
+    },
+    {
+      "id": 1542,
+      "name": "Helldown_Ransomware",
+      "difficulty": "Medium",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 3,
       "state": "retired_free"
     },
     {
@@ -1099,7 +1189,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 44,
+      "solves": 53,
       "state": "retired_free"
     },
     {
@@ -1109,7 +1199,17 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 7,
+      "solves": 32,
+      "state": "retired_free"
+    },
+    {
+      "id": 1536,
+      "name": "Android_Forensics",
+      "difficulty": "Medium",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 3,
       "state": "retired_free"
     },
     {
@@ -1119,7 +1219,17 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 47,
+      "solves": 58,
+      "state": "retired_free"
+    },
+    {
+      "id": 1530,
+      "name": "AI-Powered_Ransomware",
+      "difficulty": "Medium",
+      "category": "Malware Analysis",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 3,
       "state": "retired_free"
     },
     {
@@ -1129,7 +1239,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 197,
+      "solves": 211,
       "state": "active"
     },
     {
@@ -1139,7 +1249,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 261,
+      "solves": 273,
       "state": "active"
     },
     {
@@ -1149,7 +1259,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 400,
+      "solves": 414,
       "state": "active"
     },
     {
@@ -1159,7 +1269,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 157,
+      "solves": 163,
       "state": "active"
     },
     {
@@ -1169,7 +1279,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 363,
+      "solves": 379,
       "state": "active"
     },
     {
@@ -1179,7 +1289,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 331,
+      "solves": 333,
       "state": "retired"
     },
     {
@@ -1189,7 +1299,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 345,
+      "solves": 349,
       "state": "retired"
     },
     {
@@ -1199,7 +1309,7 @@
       "category": "SOC",
       "is_owned": false,
       "progress": 0,
-      "solves": 198,
+      "solves": 200,
       "state": "retired"
     },
     {
@@ -1209,7 +1319,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 312,
+      "solves": 313,
       "state": "retired"
     },
     {
@@ -1219,7 +1329,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 165,
+      "solves": 166,
       "state": "retired"
     },
     {
@@ -1229,7 +1339,7 @@
       "category": "SOC",
       "is_owned": false,
       "progress": 0,
-      "solves": 509,
+      "solves": 527,
       "state": "retired_free"
     },
     {
@@ -1239,7 +1349,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 270,
+      "solves": 273,
       "state": "retired"
     },
     {
@@ -1249,7 +1359,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 384,
+      "solves": 386,
       "state": "retired"
     },
     {
@@ -1259,7 +1369,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 293,
+      "solves": 294,
       "state": "retired"
     },
     {
@@ -1269,7 +1379,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 209,
+      "solves": 211,
       "state": "retired"
     },
     {
@@ -1279,7 +1389,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 321,
+      "solves": 322,
       "state": "retired"
     },
     {
@@ -1289,7 +1399,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 162,
+      "solves": 164,
       "state": "retired"
     },
     {
@@ -1299,7 +1409,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 336,
+      "solves": 338,
       "state": "retired"
     },
     {
@@ -1309,8 +1419,8 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 337,
-      "state": "retired"
+      "solves": 339,
+      "state": "retired_free"
     },
     {
       "id": 900,
@@ -1319,7 +1429,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 220,
+      "solves": 221,
       "state": "retired"
     },
     {
@@ -1329,7 +1439,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 268,
+      "solves": 274,
       "state": "retired"
     },
     {
@@ -1339,7 +1449,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 177,
+      "solves": 178,
       "state": "retired"
     },
     {
@@ -1349,7 +1459,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 297,
+      "solves": 300,
       "state": "retired"
     },
     {
@@ -1359,7 +1469,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 553,
+      "solves": 554,
       "state": "retired"
     },
     {
@@ -1369,7 +1479,7 @@
       "category": "Cloud",
       "is_owned": false,
       "progress": 0,
-      "solves": 248,
+      "solves": 249,
       "state": "retired"
     },
     {
@@ -1379,7 +1489,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 144,
+      "solves": 146,
       "state": "retired"
     },
     {
@@ -1389,7 +1499,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 129,
+      "solves": 132,
       "state": "retired"
     },
     {
@@ -1399,7 +1509,7 @@
       "category": "Cloud",
       "is_owned": false,
       "progress": 0,
-      "solves": 281,
+      "solves": 282,
       "state": "retired"
     },
     {
@@ -1409,8 +1519,8 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 537,
-      "state": "retired"
+      "solves": 539,
+      "state": "retired_free"
     },
     {
       "id": 698,
@@ -1419,7 +1529,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 694,
+      "solves": 697,
       "state": "retired"
     },
     {
@@ -1429,7 +1539,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 300,
+      "solves": 302,
       "state": "retired"
     },
     {
@@ -1439,7 +1549,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 687,
+      "solves": 699,
       "state": "retired_free"
     },
     {
@@ -1449,7 +1559,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 542,
+      "solves": 543,
       "state": "retired"
     },
     {
@@ -1459,7 +1569,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 305,
+      "solves": 308,
       "state": "retired"
     },
     {
@@ -1469,7 +1579,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 662,
+      "solves": 665,
       "state": "retired"
     },
     {
@@ -1479,7 +1589,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 297,
+      "solves": 299,
       "state": "retired"
     },
     {
@@ -1489,7 +1599,7 @@
       "category": "Threat Intelligence",
       "is_owned": false,
       "progress": 0,
-      "solves": 864,
+      "solves": 866,
       "state": "retired"
     },
     {
@@ -1499,7 +1609,7 @@
       "category": "Cloud",
       "is_owned": false,
       "progress": 0,
-      "solves": 312,
+      "solves": 315,
       "state": "retired"
     },
     {
@@ -1509,7 +1619,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 496,
+      "solves": 498,
       "state": "retired"
     },
     {
@@ -1519,7 +1629,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 298,
+      "solves": 301,
       "state": "retired"
     },
     {
@@ -1529,7 +1639,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 449,
+      "solves": 451,
       "state": "retired"
     },
     {
@@ -1539,8 +1649,28 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 402,
+      "solves": 406,
       "state": "retired"
+    },
+    {
+      "id": 1539,
+      "name": "Google_Cloud_Incident",
+      "difficulty": "Hard",
+      "category": "Cloud",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 4,
+      "state": "retired_free"
+    },
+    {
+      "id": 1575,
+      "name": "OrbitBreach",
+      "difficulty": "Hard",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 3,
+      "state": "retired_free"
     },
     {
       "id": 1506,
@@ -1549,7 +1679,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 8,
+      "solves": 34,
       "state": "retired_free"
     },
     {
@@ -1559,7 +1689,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 144,
+      "solves": 171,
       "state": "active"
     },
     {
@@ -1569,8 +1699,18 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 140,
+      "solves": 152,
       "state": "active"
+    },
+    {
+      "id": 1533,
+      "name": "Alternate_Data_Stream",
+      "difficulty": "Hard",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 3,
+      "state": "retired_free"
     },
     {
       "id": 1524,
@@ -1579,7 +1719,17 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 4,
+      "solves": 27,
+      "state": "retired_free"
+    },
+    {
+      "id": 1566,
+      "name": "Windows_Forensics",
+      "difficulty": "Hard",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 5,
       "state": "retired_free"
     },
     {
@@ -1589,7 +1739,17 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 46,
+      "solves": 57,
+      "state": "retired_free"
+    },
+    {
+      "id": 1548,
+      "name": "MacForensics",
+      "difficulty": "Hard",
+      "category": "DFIR",
+      "is_owned": false,
+      "progress": 0,
+      "solves": 4,
       "state": "retired_free"
     },
     {
@@ -1599,7 +1759,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 7,
+      "solves": 33,
       "state": "retired_free"
     },
     {
@@ -1609,7 +1769,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 40,
+      "solves": 51,
       "state": "retired_free"
     },
     {
@@ -1619,7 +1779,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 42,
+      "solves": 51,
       "state": "retired_free"
     },
     {
@@ -1629,7 +1789,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 41,
+      "solves": 53,
       "state": "retired_free"
     },
     {
@@ -1639,7 +1799,7 @@
       "category": "Cloud",
       "is_owned": false,
       "progress": 0,
-      "solves": 5,
+      "solves": 35,
       "state": "retired_free"
     },
     {
@@ -1649,7 +1809,7 @@
       "category": "Cloud",
       "is_owned": false,
       "progress": 0,
-      "solves": 44,
+      "solves": 60,
       "state": "retired_free"
     },
     {
@@ -1659,7 +1819,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 132,
+      "solves": 140,
       "state": "active"
     },
     {
@@ -1669,7 +1829,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 258,
+      "solves": 272,
       "state": "active"
     },
     {
@@ -1679,7 +1839,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 267,
+      "solves": 290,
       "state": "active"
     },
     {
@@ -1689,7 +1849,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 218,
+      "solves": 221,
       "state": "retired"
     },
     {
@@ -1699,7 +1859,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 162,
+      "solves": 165,
       "state": "retired"
     },
     {
@@ -1709,7 +1869,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 178,
+      "solves": 180,
       "state": "retired"
     },
     {
@@ -1719,7 +1879,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 284,
+      "solves": 291,
       "state": "retired_free"
     },
     {
@@ -1729,7 +1889,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 230,
+      "solves": 239,
       "state": "retired_free"
     },
     {
@@ -1739,7 +1899,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 186,
+      "solves": 188,
       "state": "retired"
     },
     {
@@ -1749,7 +1909,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 155,
+      "solves": 160,
       "state": "retired"
     },
     {
@@ -1759,7 +1919,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 131,
+      "solves": 132,
       "state": "retired"
     },
     {
@@ -1769,7 +1929,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 341,
+      "solves": 347,
       "state": "retired"
     },
     {
@@ -1779,7 +1939,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 131,
+      "solves": 134,
       "state": "retired"
     },
     {
@@ -1789,7 +1949,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 276,
+      "solves": 277,
       "state": "retired"
     },
     {
@@ -1799,8 +1959,8 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 133,
-      "state": "retired"
+      "solves": 140,
+      "state": "retired_free"
     },
     {
       "id": 833,
@@ -1809,7 +1969,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 136,
+      "solves": 139,
       "state": "retired"
     },
     {
@@ -1819,7 +1979,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 241,
+      "solves": 245,
       "state": "retired"
     },
     {
@@ -1829,7 +1989,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 100,
+      "solves": 101,
       "state": "retired"
     },
     {
@@ -1839,7 +1999,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 171,
+      "solves": 173,
       "state": "retired"
     },
     {
@@ -1849,7 +2009,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 427,
+      "solves": 431,
       "state": "retired"
     },
     {
@@ -1859,7 +2019,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 441,
+      "solves": 449,
       "state": "retired_free"
     },
     {
@@ -1869,7 +2029,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 191,
+      "solves": 193,
       "state": "retired"
     },
     {
@@ -1879,7 +2039,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 203,
+      "solves": 206,
       "state": "retired"
     },
     {
@@ -1889,7 +2049,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 213,
+      "solves": 216,
       "state": "retired"
     },
     {
@@ -1899,7 +2059,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 355,
+      "solves": 356,
       "state": "retired"
     },
     {
@@ -1909,7 +2069,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 272,
+      "solves": 275,
       "state": "retired"
     },
     {
@@ -1919,7 +2079,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 32,
+      "solves": 124,
       "state": "active"
     },
     {
@@ -1929,7 +2089,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 286,
+      "solves": 305,
       "state": "active"
     },
     {
@@ -1939,7 +2099,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 117,
+      "solves": 121,
       "state": "retired"
     },
     {
@@ -1949,7 +2109,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 161,
+      "solves": 169,
       "state": "retired"
     },
     {
@@ -1959,7 +2119,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 174,
+      "solves": 178,
       "state": "retired"
     },
     {
@@ -1969,7 +2129,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 416,
+      "solves": 434,
       "state": "retired_free"
     },
     {
@@ -1979,7 +2139,7 @@
       "category": "DFIR",
       "is_owned": false,
       "progress": 0,
-      "solves": 239,
+      "solves": 245,
       "state": "retired"
     },
     {
@@ -1989,7 +2149,7 @@
       "category": "Malware Analysis",
       "is_owned": false,
       "progress": 0,
-      "solves": 445,
+      "solves": 458,
       "state": "retired_free"
     }
   ]
