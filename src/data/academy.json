@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-08-28T00:58:41.976Z",
+  "last_updated": "2026-09-03T16:55:19.440Z",
   "statistics": {
     "total_modules": 354,
-    "completed": 57,
-    "completion_percentage": 16.1,
+    "completed": 59,
+    "completion_percentage": 16.7,
     "by_category": {
       "Offensive": {
         "completed": 26,
@@ -11,9 +11,9 @@
         "percentage": 30.1
       },
       "Defensive": {
-        "completed": 4,
+        "completed": 6,
         "total": 197,
-        "percentage": 2.5
+        "percentage": 3
       },
       "General": {
         "completed": 26,
@@ -1111,14 +1111,14 @@
       "name": "Public Key Infrastructure",
       "slug": "public-key-infrastructure",
       "description": "Public Key Infrastructure (PKI) is fundamental to ensuring secure electronic communications and transactions across networks. This module offers a comprehensive introduction to PKI, guiding learners through its core components, including digital certificates, certificate authorities, and the role of encryption in maintaining security. Through a series of well-structured tutorials, learners will gain a deep understanding of how PKI functions within different infrastructures and the best practices for implementation and management.\r\n\r\nWhether you are new to the field of cybersecurity or seeking to solidify your understanding of PKI, this module caters to all levels. Learners will navigate through theoretical foundations as well as practical applications, ensuring a well-rounded grasp of the subject. With real-world examples, detailed explanations, and hands-on exercises, you'll leave equipped with the confidence to apply PKI concepts effectively in your professional environments.",
-      "progress": 50
+      "progress": 100
     },
     {
       "id": 327,
       "name": "Threat Hunting with IPS/IDS",
       "slug": "threat-hunting-with-ipsids",
       "description": "In the ever-evolving landscape of cybersecurity, understanding how to detect and respond to intrusions is vital. The \"Threat Hunting with IPS/IDS\" module provides an in-depth exploration of Intrusion Prevention Systems (IPS) and Intrusion Detection Systems (IDS). Through a mix of theoretical knowledge and practical tutorials, you'll learn the art and science of threat hunting. This module will guide you through threat analysis and response strategies, ensuring you are well-prepared to protect digital assets against unauthorized activities.",
-      "progress": 0
+      "progress": 100
     },
     {
       "id": 328,

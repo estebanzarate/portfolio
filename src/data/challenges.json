@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-03T16:54:10.218Z",
+  "last_updated": "2026-09-03T16:55:22.103Z",
   "statistics": {
     "total": 851,
     "owned": 49,
@@ -5536,7 +5536,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 775,
+      "solves": 776,
       "state": "active"
     },
     {
