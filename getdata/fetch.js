@@ -111,6 +111,7 @@ async function processAcademy() {
       slug: m.slug,
       description: m.description,
       progress: m.progress,
+      category: m.category?.title ?? null,
     })),
   };
   writeFileSync(CONFIG.academy.output, JSON.stringify(output, null, 2));
