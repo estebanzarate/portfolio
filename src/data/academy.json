@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-09-04T02:08:25.809Z",
+  "last_updated": "2026-09-05T20:12:57.650Z",
   "statistics": {
     "total_modules": 354,
-    "completed": 59,
-    "completion_percentage": 16.7,
+    "completed": 61,
+    "completion_percentage": 17.2,
     "by_category": {
       "Offensive": {
         "completed": 26,
@@ -11,9 +11,9 @@
         "percentage": 30.1
       },
       "Defensive": {
-        "completed": 6,
+        "completed": 8,
         "total": 197,
-        "percentage": 3
+        "percentage": 4
       },
       "General": {
         "completed": 26,
@@ -1281,7 +1281,7 @@
       "name": "Threat Hunting for C2 with RITA",
       "slug": "threat-hunting-for-c2-with-rita",
       "description": "\"Threat Hunting for C2 with RITA\" is a course focused on utilizing the RITA (Real Intelligence Threat Analysis) tool for proactive detection and analysis of Command and Control (C2) communication in cybersecurity, enhancing skills in threat hunting and network security.",
-      "progress": 0,
+      "progress": 100,
       "category": "Defensive"
     },
     {
@@ -1289,7 +1289,7 @@
       "name": "Threat Hunting with SIEM",
       "slug": "threat-hunting-with-siem",
       "description": "This module is designed to teach the fundamentals of threat hunting using SIEM tools in real-world scenarios. You’ll work with actual security logs and events to identify suspicious activity, uncover hidden threats, and understand attacker behavior.\r\n\r\n\r\nWhether you're just starting out in cybersecurity or looking to strengthen your detection skills, this course offers hands-on experience with common hunting techniques and methodologies used by Threat Hunters.",
-      "progress": 0,
+      "progress": 100,
       "category": "Defensive"
     },
     {

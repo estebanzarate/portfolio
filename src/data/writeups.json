@@ -2295,6 +2295,10 @@
     "975": {
       "name": "BlockSynergy",
       "writeup": null
+    },
+    "978": {
+      "name": "Scaffold",
+      "writeup": null
     }
   },
   "rooms": {
@@ -7082,6 +7086,10 @@
     },
     "1473": {
       "name": "Conga Curse",
+      "writeup": null
+    },
+    "1527": {
+      "name": "Phosphor Ghost",
       "writeup": null
     }
   },

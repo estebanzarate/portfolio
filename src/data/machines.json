@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-09-04T02:08:35.186Z",
+  "last_updated": "2026-09-05T20:13:07.281Z",
   "statistics": {
-    "total": 574,
+    "total": 575,
     "user_owns": 223,
     "root_owns": 238,
     "by_os": {
@@ -28,6 +28,15 @@
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true,
+      "sp_tier": null
+    },
+    {
+      "id": 978,
+      "name": "Scaffold",
+      "os": "Windows",
+      "difficulty": "Hard",
+      "user_owned": false,
+      "root_owned": false,
       "sp_tier": null
     },
     {
@@ -211,15 +220,6 @@
       "sp_tier": null
     },
     {
-      "id": 894,
-      "name": "Helix",
-      "os": "Linux",
-      "difficulty": "Medium",
-      "user_owned": true,
-      "root_owned": true,
-      "sp_tier": null
-    },
-    {
       "id": 891,
       "name": "PingPong",
       "os": "Windows",
@@ -314,6 +314,15 @@
       "name": "Support",
       "os": "Windows",
       "difficulty": "Easy",
+      "user_owned": true,
+      "root_owned": true,
+      "sp_tier": null
+    },
+    {
+      "id": 894,
+      "name": "Helix",
+      "os": "Linux",
+      "difficulty": "Medium",
       "user_owned": true,
       "root_owned": true,
       "sp_tier": null
