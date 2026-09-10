@@ -7949,6 +7949,70 @@
     "1575": {
       "name": "OrbitBreach",
       "writeup": null
+    },
+    "1584": {
+      "name": "AgnianeStealer",
+      "writeup": null
+    },
+    "1587": {
+      "name": "AWS_CloudTrail",
+      "writeup": null
+    },
+    "1590": {
+      "name": "BingoMod",
+      "writeup": null
+    },
+    "1593": {
+      "name": "Brute_Force_Attacks",
+      "writeup": null
+    },
+    "1596": {
+      "name": "Compromised_ICS_Device",
+      "writeup": null
+    },
+    "1599": {
+      "name": "Interlock_Ransomware",
+      "writeup": null
+    },
+    "1602": {
+      "name": "Kernel_Exploit",
+      "writeup": null
+    },
+    "1605": {
+      "name": "Malicious_Doc",
+      "writeup": null
+    },
+    "1608": {
+      "name": "Malicious_NuGet_Package",
+      "writeup": null
+    },
+    "1611": {
+      "name": "NoSignal",
+      "writeup": null
+    },
+    "1617": {
+      "name": "Ransomware_Attack",
+      "writeup": null
+    },
+    "1620": {
+      "name": "Serpent_Stealer",
+      "writeup": null
+    },
+    "1623": {
+      "name": "Upstyle_Backdoor",
+      "writeup": null
+    },
+    "1626": {
+      "name": "VoIP",
+      "writeup": null
+    },
+    "1629": {
+      "name": "Windows_Theme_Spoofing",
+      "writeup": null
+    },
+    "1632": {
+      "name": "TabFlowPro",
+      "writeup": null
     }
   }
 }
