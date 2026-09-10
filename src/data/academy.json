@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-09-05T20:12:57.650Z",
+  "last_updated": "2026-09-10T12:27:38.654Z",
   "statistics": {
     "total_modules": 354,
-    "completed": 61,
-    "completion_percentage": 17.2,
+    "completed": 62,
+    "completion_percentage": 17.5,
     "by_category": {
       "Offensive": {
         "completed": 26,
@@ -11,9 +11,9 @@
         "percentage": 30.1
       },
       "Defensive": {
-        "completed": 8,
+        "completed": 9,
         "total": 197,
-        "percentage": 4
+        "percentage": 4.4
       },
       "General": {
         "completed": 26,
@@ -1297,7 +1297,7 @@
       "name": "DFIR with EDR",
       "slug": "dfir-with-edr",
       "description": "The \"DFIR with EDR\" module offers a comprehensive, hands-on approach to learning essential skills for detecting, analyzing, and responding to cyber threats using Endpoint Detection and Response tools. Perfect for aspiring and current cybersecurity professionals, this module provides practical knowledge to enhance your threat response capabilities and advance your career in the ever-evolving field of cybersecurity.",
-      "progress": 0,
+      "progress": 100,
       "category": "Defensive"
     },
     {
