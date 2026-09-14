@@ -1,0 +1,41 @@
+Analista de Monitoreo Jr - (9 a 18 hs, esquema híbrido) - CABA
+Buenos Aires, Argentina
+ Analista de Monitoreo Jr - (9 a 18 hs, esquema híbrido) - CABA
+¿Te interesa el monitoreo de infraestructura y aplicaciones? ¿Querés crecer en un entorno técnico, dinámico y con foco en la mejora continua? ¡Esta oportunidad puede ser para vos!
+
+🎯 Objetivo del rol
+
+Asegurar la correcta operación del servicio de monitoreo, detectando, registrando y escalando incidencias en tiempo y forma, y contribuyendo a la mejora continua mediante reportes, configuraciones y capacitaciones.
+
+🧩 Principales responsabilidades
+
+Monitorear infraestructura y aplicaciones según los procedimientos definidos
+Verificar y gestionar alertas recibidas por herramientas de monitoreo (Zabbix, entre otras)
+Registrar, escalar y dar seguimiento a incidencias cumpliendo SLA
+Ejecutar el circuito de gestión de alertas del área
+Enviar informes de traspaso de turno
+Participar en reuniones internas y con clientes
+Realizar capacitaciones internas y colaborar con la mejora continua del servicio
+🛠 Requisitos técnicos
+
+Experiencia en soporte de primer nivel
+Conocimientos básicos de redes (ping, traceroute, switch, router, troubleshooting)
+Manejo de comandos básicos en Linux
+Conocimientos básicos de SQL y motores de bases de datos
+Experiencia en herramientas de monitoreo (Zabbix, PRTG, Nagios)
+Manejo de sistemas de ticketing (GLPI, InvGate, Jira)
+Formación en carreras afines a Sistemas – deseable
+🤝 Buscamos personas con
+
+Capacidad resolutiva y autonomía
+Pensamiento crítico y análisis de riesgos
+Responsabilidad y compromiso
+Buena comunicación y adaptabilidad
+Ganas de aprender y crecer profesionalmente
+Modalidad de trabajo:
+
+Días y horario: Lunes a Viernes de 9 a 18 hs. 
+Esquema híbrido (3x2) en Parque Patricios, CABA
+ 
+
+📩 Si te sentís identificado/a y querés formar parte de un equipo técnico en constante evolución, ¡postulate!

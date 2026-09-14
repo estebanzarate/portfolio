@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-09-10T12:27:47.980Z",
+  "last_updated": "2026-09-14T21:49:47.070Z",
   "statistics": {
-    "total": 575,
+    "total": 577,
     "user_owns": 223,
     "root_owns": 238,
     "by_os": {
@@ -31,6 +31,15 @@
       "sp_tier": null
     },
     {
+      "id": 981,
+      "name": "Management",
+      "os": "Linux",
+      "difficulty": "Easy",
+      "user_owned": false,
+      "root_owned": false,
+      "sp_tier": null
+    },
+    {
       "id": 978,
       "name": "Scaffold",
       "os": "Windows",
@@ -43,6 +52,15 @@
       "id": 975,
       "name": "BlockSynergy",
       "os": "Linux",
+      "difficulty": "Insane",
+      "user_owned": false,
+      "root_owned": false,
+      "sp_tier": null
+    },
+    {
+      "id": 963,
+      "name": "TrustFall",
+      "os": "Windows",
       "difficulty": "Insane",
       "user_owned": false,
       "root_owned": false,
@@ -265,15 +283,6 @@
       "sp_tier": null
     },
     {
-      "id": 844,
-      "name": "Pirate",
-      "os": "Windows",
-      "difficulty": "Hard",
-      "user_owned": false,
-      "root_owned": false,
-      "sp_tier": null
-    },
-    {
       "id": 817,
       "name": "Eloquia",
       "os": "Windows",
@@ -286,15 +295,6 @@
       "id": 778,
       "name": "Hercules",
       "os": "Windows",
-      "difficulty": "Insane",
-      "user_owned": false,
-      "root_owned": false,
-      "sp_tier": null
-    },
-    {
-      "id": 691,
-      "name": "Cobblestone",
-      "os": "Linux",
       "difficulty": "Insane",
       "user_owned": false,
       "root_owned": false,
@@ -370,6 +370,15 @@
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true,
+      "sp_tier": null
+    },
+    {
+      "id": 844,
+      "name": "Pirate",
+      "os": "Windows",
+      "difficulty": "Hard",
+      "user_owned": false,
+      "root_owned": false,
       "sp_tier": null
     },
     {
@@ -802,6 +811,15 @@
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true,
+      "sp_tier": null
+    },
+    {
+      "id": 691,
+      "name": "Cobblestone",
+      "os": "Linux",
+      "difficulty": "Insane",
+      "user_owned": false,
+      "root_owned": false,
       "sp_tier": null
     },
     {

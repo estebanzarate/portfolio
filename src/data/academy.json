@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-09-10T12:27:38.654Z",
+  "last_updated": "2026-09-14T21:49:38.087Z",
   "statistics": {
     "total_modules": 354,
-    "completed": 62,
-    "completion_percentage": 17.5,
+    "completed": 64,
+    "completion_percentage": 18.1,
     "by_category": {
       "Offensive": {
         "completed": 26,
@@ -11,9 +11,9 @@
         "percentage": 30.1
       },
       "Defensive": {
-        "completed": 9,
+        "completed": 11,
         "total": 197,
-        "percentage": 4.4
+        "percentage": 5.5
       },
       "General": {
         "completed": 26,
@@ -1313,7 +1313,7 @@
       "name": "MITRE ATT&CK Framework",
       "slug": "mitre-attck-framework",
       "description": "In this module, the MITRE ATT&CK Framework, an important structure for SOC analysts, will be covered. This is an entry-level module that consists mainly of theoretical knowledge. SOC candidates will have a thorough knowledge of the MITRE ATT&CK Framework at the end of the module, and are recommended to complete the topics in this module without skipping any parts.",
-      "progress": 0,
+      "progress": 100,
       "category": "Defensive"
     },
     {
@@ -1321,7 +1321,7 @@
       "name": "Identifying Threats and Malicious Software",
       "slug": "identifying-threats-and-malicious-software",
       "description": "Dive into real-world cybersecurity scenarios with the \"Identifying Threats and Malicious Software\" module. This module focuses on helping learners recognize various types of threats, malware, and attack techniques used by adversaries. You'll develop practical skills in detecting and analyzing malicious activity within networks and systems. Perfect for those preparing for security certifications or working in blue team roles, this course provides a solid foundation in threat identification and malware behavior.",
-      "progress": 0,
+      "progress": 100,
       "category": "Defensive"
     },
     {
@@ -1345,7 +1345,7 @@
       "name": "Threat Hunting with DNS",
       "slug": "threat-hunting-with-dns",
       "description": "Delve into the world of threat hunting with a specialized focus on DNS (Domain Name System) in this comprehensive module. DNS is crucial for network communication, but it can also be exploited by malicious actors. This module guides you through the intricacies of identifying unusual patterns, decoding network traffic, and recognizing signs of DNS abuse.",
-      "progress": 0,
+      "progress": 14.29,
       "category": "Defensive"
     },
     {

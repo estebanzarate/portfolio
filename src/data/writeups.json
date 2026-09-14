@@ -2292,12 +2292,20 @@
       "name": "Fireflow",
       "writeup": null
     },
+    "963": {
+      "name": "TrustFall",
+      "writeup": null
+    },
     "975": {
       "name": "BlockSynergy",
       "writeup": null
     },
     "978": {
       "name": "Scaffold",
+      "writeup": null
+    },
+    "981": {
+      "name": "Management",
       "writeup": null
     }
   },
@@ -7091,6 +7099,10 @@
     "1527": {
       "name": "Phosphor Ghost",
       "writeup": null
+    },
+    "1578": {
+      "name": "ZaZamarin",
+      "writeup": null
     }
   },
   "sherlocks": {
@@ -7948,6 +7960,10 @@
     },
     "1575": {
       "name": "OrbitBreach",
+      "writeup": null
+    },
+    "1581": {
+      "name": "Yggdrasil",
       "writeup": null
     },
     "1584": {
