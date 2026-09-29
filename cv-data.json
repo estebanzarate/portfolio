@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T21:49:47.124538+00:00",
+  "generated_at": "2026-09-29T23:29:08.279520+00:00",
   "personal": {
     "name": "Esteban Zárate",
     "title_es": "Analista de Ciberseguridad | Desarrollador de Software",
@@ -11,32 +11,293 @@
     "portfolio": "estebanzarate.vercel.app",
     "blog": "no0funny.vercel.app"
   },
+  "summary": {
+    "es": "Aspirante a Analista de Ciberseguridad con formación en desarrollo de software y experiencia práctica desarrollando herramientas de seguridad, aplicaciones full stack y laboratorios de seguridad ofensiva. Puse en práctica mis conocimientos mediante Hack The Box, TryHackMe, laboratorios propios de Active Directory y proyectos personales enfocados en automatización, documentación técnica y desarrollo seguro. Interesado en incorporarme a un equipo de ciberseguridad donde pueda aplicar mis conocimientos en desarrollo de software y seguridad ofensiva mientras continúo creciendo profesionalmente.",
+    "en": "Aspiring Cybersecurity Analyst with a software development background and hands-on experience building security tools, full-stack applications and offensive security labs. I have strengthened my skills through Hack The Box, TryHackMe, personal Active Directory labs and projects focused on automation, technical documentation and secure software development. Interested in joining a cybersecurity team where I can apply my software development and offensive security skills while continuing to grow professionally."
+  },
+  "skills": {
+    "languages": [
+      "Python",
+      "Bash",
+      "JavaScript",
+      "TypeScript",
+      "HTML",
+      "CSS"
+    ],
+    "frameworks": [
+      "React",
+      "Vite",
+      "Express.js",
+      "PostgreSQL",
+      "Docker",
+      "Tailwind CSS"
+    ],
+    "cybersecurity": [
+      "Web Application Security",
+      "Active Directory",
+      "Linux",
+      "Windows",
+      "HTTP",
+      "Authentication",
+      "Authorization",
+      "RBAC",
+      "JWT",
+      "Session Management",
+      "Privilege Escalation",
+      "Network Enumeration",
+      "Post-Exploitation",
+      "Password Attacks",
+      "File Inclusion",
+      "SQL Injection"
+    ],
+    "tools": [
+      "Burp Suite",
+      "Nmap",
+      "Wireshark",
+      "Metasploit",
+      "ffuf",
+      "Gobuster",
+      "Hydra",
+      "Impacket",
+      "NetExec",
+      "Git",
+      "GitHub"
+    ],
+    "htb_academy_topics": [
+      "Penetration Testing Process",
+      "Footprinting",
+      "Information Gathering",
+      "Vulnerability Assessment",
+      "File Transfers",
+      "Shells & Payloads",
+      "Password Attacks",
+      "Privilege Escalation (Linux & Windows)",
+      "Active Directory Attacks",
+      "Web Application Attacks",
+      "Network Traffic Analysis",
+      "Incident Handling"
+    ]
+  },
+  "projects": [
+    {
+      "name": "Secure Full-Stack Authentication Platform",
+      "description_es": "Aplicación full stack con React, TypeScript, Express y PostgreSQL. Autenticación mediante JWT, refresh tokens rotativos, cookies httpOnly y RBAC. Arquitectura reutilizable con operaciones transaccionales y soporte para múltiples backends.",
+      "description_en": "Full-stack application using React, TypeScript, Express and PostgreSQL. Secure authentication with JWT, rotating refresh tokens, httpOnly cookies and RBAC. Reusable architecture with transactional operations and support for multiple backend implementations.",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Express.js",
+        "PostgreSQL",
+        "JWT",
+        "RBAC"
+      ]
+    },
+    {
+      "name": "urlfckr",
+      "description_es": "Crawler web multihilo en Python para reconocimiento. Descubre subdominios y rutas de aplicaciones web. Implementa profundidad configurable, limitación de velocidad, cabeceras HTTP personalizadas y exportación JSON.",
+      "description_en": "Multithreaded Python web crawler for reconnaissance. Discovers subdomains and application paths. Configurable crawl depth, rate limiting, custom HTTP headers and JSON export.",
+      "technologies": [
+        "Python",
+        "multithreading",
+        "HTTP",
+        "reconnaissance"
+      ]
+    },
+    {
+      "name": "Portfolio de Ciberseguridad / Cybersecurity Portfolio",
+      "description_es": "Portfolio técnico con integración en tiempo real de HackTheBox y TryHackMe vía APIs. Desarrollado con React, Vite y Tailwind CSS. Incluye estadísticas de máquinas, challenges, sherlocks, rooms y módulos de academia.",
+      "description_en": "Technical portfolio with real-time HackTheBox and TryHackMe integration via APIs. Built with React, Vite and Tailwind CSS. Includes stats for machines, challenges, sherlocks, rooms and academy modules.",
+      "technologies": [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "Python",
+        "Node.js",
+        "REST APIs"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "role_es": "Practicante de Ciberseguridad y CTF Player",
+      "role_en": "Cybersecurity Practitioner & CTF Player",
+      "company": "Self-directed / HackTheBox / TryHackMe",
+      "period": "2022 — Present",
+      "highlights_es": [
+        "Resolución de máquinas y desafíos en HackTheBox y TryHackMe.",
+        "Práctica de pruebas de seguridad web, escalada de privilegios en Linux/Windows, enumeración de Active Directory y post-explotación.",
+        "Desarrollo de herramientas propias para automatizar reconocimiento y pentesting.",
+        "Mantenimiento de portfolio técnico, blog especializado y repositorios públicos en GitHub."
+      ],
+      "highlights_en": [
+        "Completed security labs and challenges on Hack The Box and TryHackMe.",
+        "Practiced web application security testing, Linux/Windows privilege escalation, Active Directory enumeration and post-exploitation.",
+        "Developed custom tools to automate reconnaissance and penetration testing tasks.",
+        "Maintain a technical portfolio, cybersecurity blog and public GitHub repositories."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Brigham Young University–Idaho",
+      "degree_es": "Desarrollo de Software",
+      "degree_en": "Software Development",
+      "certificate": "Web & Computer Programming",
+      "relevant_courses": [
+        "Programming with Functions",
+        "Programming with Classes",
+        "JavaScript Language",
+        "Web Fundamentals",
+        "Web Frontend Development I",
+        "Career Development"
+      ]
+    },
+    {
+      "institution": "Ensign College",
+      "degree_es": "Licenciatura en Tecnología de la Información",
+      "degree_en": "Bachelor's in Information Technology",
+      "relevant_courses": [
+        "Python Scripting",
+        "Cloud Server Administration",
+        "PC Hardware Technician",
+        "Introduction to Information Technology"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Ethical Hacker",
+      "issuer": "Cisco Networking Academy",
+      "year": 2026
+    },
+    {
+      "name": "Introduction to Cybersecurity",
+      "issuer": "Cisco Networking Academy",
+      "year": 2026
+    },
+    {
+      "name": "Jr Penetration Tester Learning Path",
+      "issuer": "TryHackMe",
+      "year": 2023
+    },
+    {
+      "name": "PC Pro",
+      "issuer": "TestOut",
+      "year": 2024
+    },
+    {
+      "name": "Client Pro",
+      "issuer": "TestOut",
+      "year": 2024
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "level": "Native"
+    },
+    {
+      "language": "English",
+      "level": "Professional reading comprehension and technical documentation"
+    }
+  ],
+  "base_cv": {
+    "es": "ESTEBAN ZÁRATE\nAnalista de Ciberseguridad | Desarrollador de Software\nBuenos Aires, Argentina | estebanzarateok@gmail.com\nLinkedIn: linkedin.com/in/esteban-zarate | GitHub: github.com/estebanzarate\nPortfolio: estebanzarate.vercel.app | Blog: no0funny.vercel.app\n\nPERFIL\nAspirante a Analista de Ciberseguridad con formación en desarrollo de software y experiencia práctica desarrollando herramientas de seguridad, aplicaciones full stack y laboratorios de seguridad ofensiva. Puse en práctica mis conocimientos mediante Hack The Box, TryHackMe, laboratorios propios de Active Directory y proyectos personales enfocados en automatización, documentación técnica y desarrollo seguro. Interesado en incorporarme a un equipo de ciberseguridad donde pueda aplicar mis conocimientos en desarrollo de software y seguridad ofensiva mientras continúo creciendo profesionalmente.\n\nHABILIDADES TÉCNICAS\nLenguajes: Python, Bash, JavaScript, TypeScript, HTML, CSS\nFrameworks y tecnologías: React, Vite, Express.js, PostgreSQL, Docker, Tailwind CSS\nCiberseguridad: Seguridad en aplicaciones web, Active Directory, Linux, Windows, HTTP, autenticación, autorización, RBAC, JWT, gestión de sesiones\nHerramientas: Burp Suite, Nmap, Wireshark, Metasploit, ffuf, Gobuster, Hydra, Impacket, NetExec, Git, GitHub\n\nPROYECTOS DESTACADOS\nPlataforma Full Stack con Autenticación Segura\n- Desarrollé una aplicación full stack utilizando React, TypeScript, Express y PostgreSQL.\n- Implementé autenticación mediante JWT, refresh tokens rotativos, cookies httpOnly y RBAC.\n- Diseñé una arquitectura reutilizable con operaciones transaccionales y soporte para múltiples backends.\n\nurlfckr\n- Desarrollé un crawler web multihilo en Python para reconocimiento, capaz de descubrir subdominios y rutas.\n- Implementé profundidad configurable, limitación de velocidad, cabeceras HTTP personalizadas y exportación JSON.\n\nEXPERIENCIA PRÁCTICA\nLaboratorios de Ciberseguridad y CTF\n- Resolución de máquinas y desafíos en Hack The Box y TryHackMe.\n- Práctica de pruebas de seguridad web, escalada de privilegios en Linux/Windows, enumeración de Active Directory y post-explotación.\n- Desarrollo de herramientas propias para automatizar reconocimiento y pentesting.\n- Mantenimiento de portfolio técnico, blog especializado y repositorios públicos en GitHub.\n\nEDUCACIÓN\nBrigham Young University–Idaho — Desarrollo de Software\nCertificado: Web & Computer Programming\nEnsign College — Licenciatura en Tecnología de la Información\n\nCERTIFICACIONES\n- Cisco Networking Academy — Ethical Hacker (2026)\n- Cisco Networking Academy — Introduction to Cybersecurity (2026)\n- TryHackMe — Jr Penetration Tester Learning Path\n- TestOut — PC Pro | TestOut — Client Pro\n\nIDIOMAS\nEspañol: Nativo | Inglés: Comprensión técnica y lectura de documentación profesional",
+    "en": "ESTEBAN ZÁRATE\nCybersecurity Analyst | Software Developer\nBuenos Aires, Argentina | estebanzarateok@gmail.com\nLinkedIn: linkedin.com/in/esteban-zarate | GitHub: github.com/estebanzarate\nPortfolio: estebanzarate.vercel.app | Blog: no0funny.vercel.app\n\nPROFILE\nAspiring Cybersecurity Analyst with a software development background and hands-on experience building security tools, full-stack applications and offensive security labs. I have strengthened my skills through Hack The Box, TryHackMe, personal Active Directory labs and projects focused on automation, technical documentation and secure software development. Interested in joining a cybersecurity team where I can apply my software development and offensive security skills while continuing to grow professionally.\n\nTECHNICAL SKILLS\nLanguages: Python, Bash, JavaScript, TypeScript, HTML, CSS\nFrameworks & Technologies: React, Vite, Express.js, PostgreSQL, Docker, Tailwind CSS\nCybersecurity: Web Application Security, Active Directory, Linux, Windows, HTTP, Authentication, Authorization, RBAC, JWT, Session Management\nTools: Burp Suite, Nmap, Wireshark, Metasploit, ffuf, Gobuster, Hydra, Impacket, NetExec, Git, GitHub\n\nSELECTED PROJECTS\nSecure Full-Stack Authentication Platform\n- Developed a full-stack application using React, TypeScript, Express and PostgreSQL.\n- Implemented secure authentication using JWT, rotating refresh tokens, httpOnly cookies and RBAC.\n- Designed a reusable architecture with transactional operations and support for multiple backend implementations.\n\nurlfckr\n- Developed a multithreaded Python web crawler for reconnaissance capable of discovering subdomains and application paths.\n- Implemented configurable crawl depth, rate limiting, custom HTTP headers and JSON export.\n\nPRACTICAL EXPERIENCE\nCybersecurity Labs & Capture The Flag\n- Completed security labs and challenges on Hack The Box and TryHackMe.\n- Practiced web application security testing, Linux privilege escalation, Active Directory enumeration and post-exploitation.\n- Developed custom tools to automate reconnaissance and penetration testing tasks.\n- Maintain a technical portfolio, cybersecurity blog and public GitHub repositories.\n\nEDUCATION\nBrigham Young University–Idaho — Software Development\nCertificate: Web & Computer Programming\nEnsign College — Bachelor's in Information Technology\n\nCERTIFICATIONS\n- Cisco Networking Academy — Ethical Hacker (2026)\n- Cisco Networking Academy — Introduction to Cybersecurity (2026)\n- TryHackMe — Jr Penetration Tester Learning Path\n- TestOut — PC Pro | TestOut — Client Pro\n\nLANGUAGES\nSpanish: Native | English: Professional reading comprehension and technical documentation"
+  },
   "htb_stats": {
     "machines": {
-      "total": 577,
+      "total": 578,
       "root_owned": 238,
-      "user_owned": 223
+      "user_owned": 223,
+      "by_difficulty": {
+        "Easy": 155,
+        "Medium": 40,
+        "Hard": 12,
+        "Insane": 6,
+        "Very Easy": 25
+      },
+      "by_os": {
+        "Linux": 171,
+        "Windows": 61,
+        "Android": 1,
+        "Other": 3,
+        "Solaris": 1,
+        "OpenBSD": 1
+      }
     },
     "academy": {
       "modules_completed": 64,
-      "modules_total": 354,
-      "completion_percentage": 18.1
+      "modules_total": 355,
+      "completion_percentage": 18,
+      "by_category": {
+        "Offensive": {
+          "completed": 26,
+          "total": 99,
+          "percentage": 29.9
+        },
+        "Defensive": {
+          "completed": 11,
+          "total": 197,
+          "percentage": 5.5
+        },
+        "General": {
+          "completed": 26,
+          "total": 56,
+          "percentage": 61.9
+        },
+        "Purple": {
+          "completed": 1,
+          "total": 3,
+          "percentage": 35.9
+        }
+      }
     },
     "challenges": {
       "owned": 49,
-      "total": 853
+      "total": 855,
+      "by_difficulty": {
+        "Very Easy": 25,
+        "Easy": 23,
+        "Medium": 1
+      },
+      "by_category": {
+        "Reversing": 3,
+        "Web": 28,
+        "Misc": 2,
+        "OSINT": 4,
+        "Coding": 2,
+        "Hardware": 3,
+        "Crypto": 4,
+        "GamePwn": 1,
+        "Pwn": 1,
+        "Forensics": 1
+      }
     },
     "sherlocks": {
       "owned": 4,
-      "total": 231
-    },
-    "thm_rooms": {
-      "completed": 332,
-      "total": 345
+      "total": 267,
+      "by_difficulty": {
+        "Very Easy": 4
+      },
+      "by_category": {
+        "DFIR": 3,
+        "SOC": 1
+      }
     }
   },
-  "base_cv": {
-    "es": "ESTEBAN ZÁRATE\nAnalista de Ciberseguridad | Desarrollador de Software\nBuenos Aires, Argentina | estebanzarateok@gmail.com\nLinkedIn: linkedin.com/in/esteban-zarate | GitHub: github.com/estebanzarate\nPortfolio: estebanzarate.vercel.app | Blog: no0funny.vercel.app\n\nPERFIL\nAspirante a Analista de Ciberseguridad con formación en desarrollo de software y experiencia práctica desarrollando herramientas de seguridad, aplicaciones full stack y laboratorios de seguridad ofensiva. Puse en práctica mis conocimientos mediante Hack The Box, TryHackMe, laboratorios propios de Active Directory y proyectos personales enfocados en automatización, documentación técnica y desarrollo seguro. Interesado en incorporarme a un equipo de ciberseguridad donde pueda aplicar mis conocimientos en desarrollo de software y seguridad ofensiva mientras continúo creciendo profesionalmente.\n\nHABILIDADES TÉCNICAS\nLenguajes: Python, Bash, JavaScript, TypeScript, HTML, CSS\nFrameworks y tecnologías: React, Vite, Express.js, PostgreSQL, Docker, Tailwind CSS\nCiberseguridad: Seguridad en aplicaciones web, Active Directory, Linux, Windows, HTTP, autenticación, autorización, RBAC, JWT, gestión de sesiones\nHerramientas: Burp Suite, Nmap, Wireshark, Metasploit, ffuf, Gobuster, Hydra, Impacket, NetExec, Git, GitHub\n\nPROYECTOS DESTACADOS\nPlataforma Full Stack con Autenticación Segura\n- Desarrollé una aplicación full stack utilizando React, TypeScript, Express y PostgreSQL.\n- Implementé autenticación mediante JWT, refresh tokens rotativos, cookies httpOnly y RBAC.\n- Diseñé una arquitectura reutilizable con operaciones transaccionales y soporte para múltiples backends.\n\nurlfckr\n- Desarrollé un crawler web multihilo en Python para reconocimiento, capaz de descubrir subdominios y rutas.\n- Implementé profundidad configurable, limitación de velocidad, cabeceras HTTP personalizadas y exportación JSON.\n\nEXPERIENCIA PRÁCTICA\nLaboratorios de Ciberseguridad y CTF\n- Resolución de máquinas y desafíos en Hack The Box y TryHackMe.\n- Práctica de pruebas de seguridad web, escalada de privilegios en Linux/Windows, enumeración de Active Directory y post-explotación.\n- Desarrollo de herramientas propias para automatizar reconocimiento y pentesting.\n- Mantenimiento de portfolio técnico, blog especializado y repositorios públicos en GitHub.\n\nEDUCACIÓN\nBrigham Young University–Idaho — Desarrollo de Software\nCertificado: Web & Computer Programming\nEnsign College — Licenciatura en Tecnología de la Información\n\nCERTIFICACIONES\n- Cisco Networking Academy — Ethical Hacker (2026)\n- Cisco Networking Academy — Introduction to Cybersecurity (2026)\n- TryHackMe — Jr Penetration Tester Learning Path\n- TestOut — PC Pro | TestOut — Client Pro\n\nIDIOMAS\nEspañol: Nativo | Inglés: Comprensión técnica y lectura de documentación profesional\n",
-    "en": "ESTEBAN ZÁRATE\nCybersecurity Analyst | Software Developer\nBuenos Aires, Argentina | estebanzarateok@gmail.com\nLinkedIn: linkedin.com/in/esteban-zarate | GitHub: github.com/estebanzarate\nPortfolio: estebanzarate.vercel.app | Blog: no0funny.vercel.app\n\nPROFILE\nAspiring Cybersecurity Analyst with a software development background and hands-on experience building security tools, full-stack applications and offensive security labs. I have strengthened my skills through Hack The Box, TryHackMe, personal Active Directory labs and projects focused on automation, technical documentation and secure software development. Interested in joining a cybersecurity team where I can apply my software development and offensive security skills while continuing to grow professionally.\n\nTECHNICAL SKILLS\nLanguages: Python, Bash, JavaScript, TypeScript, HTML, CSS\nFrameworks & Technologies: React, Vite, Express.js, PostgreSQL, Docker, Tailwind CSS\nCybersecurity: Web Application Security, Active Directory, Linux, Windows, HTTP, Authentication, Authorization, RBAC, JWT, Session Management\nTools: Burp Suite, Nmap, Wireshark, Metasploit, ffuf, Gobuster, Hydra, Impacket, NetExec, Git, GitHub\n\nSELECTED PROJECTS\nSecure Full-Stack Authentication Platform\n- Developed a full-stack application using React, TypeScript, Express and PostgreSQL.\n- Implemented secure authentication using JWT, rotating refresh tokens, httpOnly cookies and RBAC.\n- Designed a reusable architecture with transactional operations and support for multiple backend implementations.\n\nurlfckr\n- Developed a multithreaded Python web crawler for reconnaissance capable of discovering subdomains and application paths.\n- Implemented configurable crawl depth, rate limiting, custom HTTP headers and JSON export.\n\nPRACTICAL EXPERIENCE\nCybersecurity Labs & Capture The Flag\n- Completed security labs and challenges on Hack The Box and TryHackMe.\n- Practiced web application security testing, Linux privilege escalation, Active Directory enumeration and post-exploitation.\n- Developed custom tools to automate reconnaissance and penetration testing tasks.\n- Maintain a technical portfolio, cybersecurity blog and public GitHub repositories.\n\nEDUCATION\nBrigham Young University–Idaho — Software Development\nCertificate: Web & Computer Programming\nEnsign College — Bachelor's in Information Technology\n\nCERTIFICATIONS\n- Cisco Networking Academy — Ethical Hacker (2026)\n- Cisco Networking Academy — Introduction to Cybersecurity (2026)\n- TryHackMe — Jr Penetration Tester Learning Path\n- TestOut — PC Pro | TestOut — Client Pro\n\nLANGUAGES\nSpanish: Native | English: Professional reading comprehension and technical documentation\n"
+  "thm_stats": {
+    "completed": 332,
+    "total": 345,
+    "completion_percentage": 96.2,
+    "by_difficulty": {
+      "easy": 241,
+      "medium": 56,
+      "info": 35
+    },
+    "by_type": {
+      "challenge": 67,
+      "walkthrough": 265
+    }
   }
 }

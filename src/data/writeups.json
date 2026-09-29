@@ -2307,6 +2307,10 @@
     "981": {
       "name": "Management",
       "writeup": null
+    },
+    "984": {
+      "name": "Layover",
+      "writeup": null
     }
   },
   "rooms": {
@@ -7103,6 +7107,14 @@
     "1578": {
       "name": "ZaZamarin",
       "writeup": null
+    },
+    "1635": {
+      "name": "NestGuard Breach",
+      "writeup": null
+    },
+    "1689": {
+      "name": "Palimpsest",
+      "writeup": null
     }
   },
   "sherlocks": {
@@ -8006,6 +8018,10 @@
       "name": "NoSignal",
       "writeup": null
     },
+    "1614": {
+      "name": "Obfuscated_RAT",
+      "writeup": null
+    },
     "1617": {
       "name": "Ransomware_Attack",
       "writeup": null
@@ -8028,6 +8044,146 @@
     },
     "1632": {
       "name": "TabFlowPro",
+      "writeup": null
+    },
+    "1638": {
+      "name": "Android_Infostealer",
+      "writeup": null
+    },
+    "1641": {
+      "name": "AppleRot",
+      "writeup": null
+    },
+    "1644": {
+      "name": "AWS_PerSEStence",
+      "writeup": null
+    },
+    "1647": {
+      "name": "cl0p_Ransomware",
+      "writeup": null
+    },
+    "1650": {
+      "name": "Compromised_AI_Cluster",
+      "writeup": null
+    },
+    "1653": {
+      "name": "Docker_Forensics",
+      "writeup": null
+    },
+    "1656": {
+      "name": "Email_Analysis",
+      "writeup": null
+    },
+    "1659": {
+      "name": "Java_Shellcode",
+      "writeup": null
+    },
+    "1662": {
+      "name": "Kimsuky_APT_Group",
+      "writeup": null
+    },
+    "1665": {
+      "name": "Linux_Forensics",
+      "writeup": null
+    },
+    "1668": {
+      "name": "Malicious_Web_Traffic_Analysis",
+      "writeup": null
+    },
+    "1671": {
+      "name": "Presentation_As_a_Malware",
+      "writeup": null
+    },
+    "1674": {
+      "name": "ProcDump",
+      "writeup": null
+    },
+    "1677": {
+      "name": "Ransomware_Reverse_Engineering",
+      "writeup": null
+    },
+    "1680": {
+      "name": "RegistryHive",
+      "writeup": null
+    },
+    "1683": {
+      "name": "ShadowofLiteLLM",
+      "writeup": null
+    },
+    "1686": {
+      "name": "TeamPCP",
+      "writeup": null
+    },
+    "1692": {
+      "name": "SaSync",
+      "writeup": null
+    },
+    "1695": {
+      "name": "AstasiaLoader",
+      "writeup": null
+    },
+    "1698": {
+      "name": "cl0p_Malware",
+      "writeup": null
+    },
+    "1701": {
+      "name": "Google_Cloud_Compromise",
+      "writeup": null
+    },
+    "1704": {
+      "name": "iOS_Forensics_Challenge",
+      "writeup": null
+    },
+    "1707": {
+      "name": "Koredos",
+      "writeup": null
+    },
+    "1710": {
+      "name": "Linux_Downloader",
+      "writeup": null
+    },
+    "1713": {
+      "name": "RDP_Bitmap_Cache",
+      "writeup": null
+    },
+    "1716": {
+      "name": "Bash_Script",
+      "writeup": null
+    },
+    "1719": {
+      "name": "Compromised_Chat_Server",
+      "writeup": null
+    },
+    "1722": {
+      "name": "LockBit",
+      "writeup": null
+    },
+    "1725": {
+      "name": "Malicious_WordPress_Plugin",
+      "writeup": null
+    },
+    "1728": {
+      "name": "Remote_Access_Regret",
+      "writeup": null
+    },
+    "1731": {
+      "name": "Remote_Working",
+      "writeup": null
+    },
+    "1734": {
+      "name": "Drone Forensics",
+      "writeup": null
+    },
+    "1737": {
+      "name": "ShadowDropLoader",
+      "writeup": null
+    },
+    "1740": {
+      "name": "Silent Drain",
+      "writeup": null
+    },
+    "1743": {
+      "name": "DirtyFrag",
       "writeup": null
     }
   }
