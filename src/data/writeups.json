@@ -738,15 +738,15 @@
     },
     "287": {
       "name": "Archetype",
-      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/archetype"
+      "writeup": ""
     },
     "288": {
       "name": "Oopsie",
-      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/oopsie"
+      "writeup": ""
     },
     "289": {
       "name": "Vaccine",
-      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/vaccine"
+      "writeup": ""
     },
     "292": {
       "name": "Included",
@@ -966,15 +966,15 @@
     },
     "393": {
       "name": "Fawn",
-      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/fawn"
+      "writeup": ""
     },
     "394": {
       "name": "Meow",
-      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/meow"
+      "writeup": ""
     },
     "395": {
       "name": "Dancing",
-      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/dancing"
+      "writeup": ""
     },
     "396": {
       "name": "Explosion",
@@ -1002,15 +1002,15 @@
     },
     "402": {
       "name": "Appointment",
-      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/appointment"
+      "writeup": ""
     },
     "403": {
       "name": "Sequel",
-      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/sequel"
+      "writeup": ""
     },
     "404": {
       "name": "Crocodile",
-      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/crocodile"
+      "writeup": ""
     },
     "405": {
       "name": "Ignition",
@@ -1114,7 +1114,7 @@
     },
     "441": {
       "name": "Unified",
-      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/unified"
+      "writeup": ""
     },
     "442": {
       "name": "Epsilon",
@@ -1178,7 +1178,7 @@
     },
     "461": {
       "name": "Responder",
-      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/responder"
+      "writeup": ""
     },
     "462": {
       "name": "Backend",
@@ -1210,7 +1210,7 @@
     },
     "472": {
       "name": "Redeemer",
-      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/redeemer"
+      "writeup": ""
     },
     "473": {
       "name": "Seventeen",
@@ -1254,7 +1254,7 @@
     },
     "484": {
       "name": "Support",
-      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/support"
+      "writeup": ""
     },
     "485": {
       "name": "Moderators",
@@ -1262,7 +1262,7 @@
     },
     "489": {
       "name": "Three",
-      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/three"
+      "writeup": ""
     },
     "490": {
       "name": "Outdated",
@@ -2214,7 +2214,7 @@
     },
     "894": {
       "name": "Helix",
-      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/machines/helix"
+      "writeup": ""
     },
     "897": {
       "name": "SmartHire",
@@ -2310,6 +2310,22 @@
     },
     "984": {
       "name": "Layover",
+      "writeup": null
+    },
+    "987": {
+      "name": "Touch",
+      "writeup": null
+    },
+    "990": {
+      "name": "Stream",
+      "writeup": null
+    },
+    "993": {
+      "name": "Autopilot",
+      "writeup": null
+    },
+    "1008": {
+      "name": "Odori",
       "writeup": null
     }
   },
@@ -7115,6 +7131,18 @@
     "1689": {
       "name": "Palimpsest",
       "writeup": null
+    },
+    "1749": {
+      "name": "TreaPortal",
+      "writeup": null
+    },
+    "1800": {
+      "name": "GroundControl",
+      "writeup": null
+    },
+    "1851": {
+      "name": "Last Call",
+      "writeup": null
     }
   },
   "sherlocks": {
@@ -7500,7 +7528,7 @@
     },
     "935": {
       "name": "Operation Blackout 2025: Phantom Check",
-      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/sherlocks/operationblackout2025phantomcheck"
+      "writeup": "/operationblackout2025phantomcheck"
     },
     "936": {
       "name": "Operation Blackout 2025: Ghost Thread",
@@ -7556,7 +7584,7 @@
     },
     "988": {
       "name": "RomCom",
-      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/sherlocks/romcom"
+      "writeup": ""
     },
     "994": {
       "name": "CafePoisoning",
@@ -7644,7 +7672,7 @@
     },
     "1105": {
       "name": "MangoBleed",
-      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/sherlocks/mangobleed"
+      "writeup": ""
     },
     "1123": {
       "name": "LuckyShot",
@@ -7816,7 +7844,7 @@
     },
     "1449": {
       "name": "Phishing_Email",
-      "writeup": "https://no0funny.vercel.app/es/writeups/hackthebox/sherlocks/phishingemail"
+      "writeup": ""
     },
     "1452": {
       "name": "Revenge_RAT",
@@ -8184,6 +8212,226 @@
     },
     "1743": {
       "name": "DirtyFrag",
+      "writeup": null
+    },
+    "1746": {
+      "name": "PhantomBundle",
+      "writeup": null
+    },
+    "1752": {
+      "name": "Biotech_Ransomware",
+      "writeup": null
+    },
+    "1755": {
+      "name": "BlueStealer",
+      "writeup": null
+    },
+    "1758": {
+      "name": "Compromised_Network_Printer",
+      "writeup": null
+    },
+    "1761": {
+      "name": "Confluence_CVE-2023-22527",
+      "writeup": null
+    },
+    "1764": {
+      "name": "HTTP2_Rapid_Reset",
+      "writeup": null
+    },
+    "1767": {
+      "name": "Learn_Sigma",
+      "writeup": null
+    },
+    "1770": {
+      "name": "Log_Analysis_With_Sysmon",
+      "writeup": null
+    },
+    "1773": {
+      "name": "Mac_Backdoor",
+      "writeup": null
+    },
+    "1776": {
+      "name": "Mandrake_Spyware",
+      "writeup": null
+    },
+    "1779": {
+      "name": "Obfuscated_JavaScript",
+      "writeup": null
+    },
+    "1782": {
+      "name": "Poseidon_macOS_Stealer",
+      "writeup": null
+    },
+    "1785": {
+      "name": "REvil_Ransomware",
+      "writeup": null
+    },
+    "1788": {
+      "name": "Silent_Update",
+      "writeup": null
+    },
+    "1791": {
+      "name": "SpiceRAT",
+      "writeup": null
+    },
+    "1794": {
+      "name": "Threat Hunting with Splunk",
+      "writeup": null
+    },
+    "1797": {
+      "name": "KeyDis",
+      "writeup": null
+    },
+    "1803": {
+      "name": "MSHTML",
+      "writeup": null
+    },
+    "1806": {
+      "name": "Disclose_The_Agent",
+      "writeup": null
+    },
+    "1809": {
+      "name": "Batch_Downloader",
+      "writeup": null
+    },
+    "1812": {
+      "name": "Browser_Exploit",
+      "writeup": null
+    },
+    "1815": {
+      "name": "C++_Malware",
+      "writeup": null
+    },
+    "1818": {
+      "name": "Discord_Forensics",
+      "writeup": null
+    },
+    "1821": {
+      "name": "Hidden_Backdoor",
+      "writeup": null
+    },
+    "1824": {
+      "name": "Malicious_AutoIT",
+      "writeup": null
+    },
+    "1827": {
+      "name": "MemLoot",
+      "writeup": null
+    },
+    "1830": {
+      "name": "OctoRAT",
+      "writeup": null
+    },
+    "1833": {
+      "name": "PowerShell_Keylogger",
+      "writeup": null
+    },
+    "1836": {
+      "name": "Spymax_Telegram_RAT",
+      "writeup": null
+    },
+    "1839": {
+      "name": "TeamViewer_Forensics",
+      "writeup": null
+    },
+    "1842": {
+      "name": "WordpressWebForensics",
+      "writeup": null
+    },
+    "1845": {
+      "name": "ICS_FuelStation",
+      "writeup": null
+    },
+    "1848": {
+      "name": "Arcadia'sCompromise",
+      "writeup": null
+    },
+    "1854": {
+      "name": "Memory_Analysis",
+      "writeup": null
+    },
+    "1857": {
+      "name": "Python_Stealer",
+      "writeup": null
+    },
+    "1860": {
+      "name": "Suspicious_Browser_Extension",
+      "writeup": null
+    },
+    "1863": {
+      "name": "Shellshock Attack",
+      "writeup": null
+    },
+    "1866": {
+      "name": "YARA_Rule",
+      "writeup": null
+    },
+    "1869": {
+      "name": "Downloader",
+      "writeup": null
+    },
+    "1872": {
+      "name": "Golang_Ransomware",
+      "writeup": null
+    },
+    "1875": {
+      "name": "Golden_Ticket",
+      "writeup": null
+    },
+    "1878": {
+      "name": "ImageStegano",
+      "writeup": null
+    },
+    "1881": {
+      "name": "Kerberoasting",
+      "writeup": null
+    },
+    "1884": {
+      "name": "NTFS_Forensics",
+      "writeup": null
+    },
+    "1887": {
+      "name": "NTLM_Relay",
+      "writeup": null
+    },
+    "1890": {
+      "name": "PCAP Analysis",
+      "writeup": null
+    },
+    "1893": {
+      "name": "PDF_Analysis",
+      "writeup": null
+    },
+    "1896": {
+      "name": "PowerShell_Script",
+      "writeup": null
+    },
+    "1899": {
+      "name": "QakBot_Malware",
+      "writeup": null
+    },
+    "1902": {
+      "name": "Suspicious_Python_Package",
+      "writeup": null
+    },
+    "1905": {
+      "name": "TinyTurla_Backdoor",
+      "writeup": null
+    },
+    "1908": {
+      "name": "Velociraptor",
+      "writeup": null
+    },
+    "1911": {
+      "name": "Hollow Service",
+      "writeup": null
+    },
+    "1914": {
+      "name": "Harvest Ransomware",
+      "writeup": null
+    },
+    "1917": {
+      "name": "ShellForSell",
       "writeup": null
     }
   }

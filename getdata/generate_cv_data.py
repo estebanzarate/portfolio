@@ -96,7 +96,7 @@ PROFILE = {
         "linkedin":  "linkedin.com/in/esteban-zarate",
         "github":    "github.com/estebanzarate",
         "portfolio": "estebanzarate.vercel.app",
-        "blog":      "no0funny.vercel.app",
+        "blog":      "0xmelvin.vercel.app",
     },
     "summary": {
         "es": (
@@ -239,7 +239,7 @@ ESTEBAN ZÁRATE
 Analista de Ciberseguridad | Desarrollador de Software
 Buenos Aires, Argentina | estebanzarateok@gmail.com
 LinkedIn: linkedin.com/in/esteban-zarate | GitHub: github.com/estebanzarate
-Portfolio: estebanzarate.vercel.app | Blog: no0funny.vercel.app
+Portfolio: estebanzarate.vercel.app | Blog: 0xmelvin.vercel.app
 
 PERFIL
 Aspirante a Analista de Ciberseguridad con formación en desarrollo de software y experiencia práctica desarrollando herramientas de seguridad, aplicaciones full stack y laboratorios de seguridad ofensiva. Puse en práctica mis conocimientos mediante Hack The Box, TryHackMe, laboratorios propios de Active Directory y proyectos personales enfocados en automatización, documentación técnica y desarrollo seguro. Interesado en incorporarme a un equipo de ciberseguridad donde pueda aplicar mis conocimientos en desarrollo de software y seguridad ofensiva mientras continúo creciendo profesionalmente.
@@ -286,7 +286,7 @@ ESTEBAN ZÁRATE
 Cybersecurity Analyst | Software Developer
 Buenos Aires, Argentina | estebanzarateok@gmail.com
 LinkedIn: linkedin.com/in/esteban-zarate | GitHub: github.com/estebanzarate
-Portfolio: estebanzarate.vercel.app | Blog: no0funny.vercel.app
+Portfolio: estebanzarate.vercel.app | Blog: 0xmelvin.vercel.app
 
 PROFILE
 Aspiring Cybersecurity Analyst with a software development background and hands-on experience building security tools, full-stack applications and offensive security labs. I have strengthened my skills through Hack The Box, TryHackMe, personal Active Directory labs and projects focused on automation, technical documentation and secure software development. Interested in joining a cybersecurity team where I can apply my software development and offensive security skills while continuing to grow professionally.

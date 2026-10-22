@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-09-29T23:29:08.220Z",
+  "last_updated": "2026-10-22T21:56:39.450Z",
   "statistics": {
-    "total": 578,
+    "total": 582,
     "user_owns": 223,
     "root_owns": 238,
     "by_os": {
@@ -28,6 +28,42 @@
       "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true,
+      "sp_tier": null
+    },
+    {
+      "id": 1008,
+      "name": "Odori",
+      "os": "Linux",
+      "difficulty": "Medium",
+      "user_owned": false,
+      "root_owned": false,
+      "sp_tier": null
+    },
+    {
+      "id": 993,
+      "name": "Autopilot",
+      "os": "Windows",
+      "difficulty": "Insane",
+      "user_owned": false,
+      "root_owned": false,
+      "sp_tier": null
+    },
+    {
+      "id": 990,
+      "name": "Stream",
+      "os": "Linux",
+      "difficulty": "Medium",
+      "user_owned": false,
+      "root_owned": false,
+      "sp_tier": null
+    },
+    {
+      "id": 987,
+      "name": "Touch",
+      "os": "Windows",
+      "difficulty": "Easy",
+      "user_owned": false,
+      "root_owned": false,
       "sp_tier": null
     },
     {
@@ -229,39 +265,12 @@
       "sp_tier": null
     },
     {
-      "id": 900,
-      "name": "Reactor",
-      "os": "Linux",
-      "difficulty": "Easy",
-      "user_owned": true,
-      "root_owned": true,
-      "sp_tier": null
-    },
-    {
-      "id": 897,
-      "name": "SmartHire",
-      "os": "Linux",
-      "difficulty": "Medium",
-      "user_owned": false,
-      "root_owned": false,
-      "sp_tier": null
-    },
-    {
       "id": 891,
       "name": "PingPong",
       "os": "Windows",
       "difficulty": "Insane",
       "user_owned": false,
       "root_owned": false,
-      "sp_tier": null
-    },
-    {
-      "id": 867,
-      "name": "Silentium",
-      "os": "Linux",
-      "difficulty": "Easy",
-      "user_owned": true,
-      "root_owned": true,
       "sp_tier": null
     },
     {
@@ -319,6 +328,24 @@
       "sp_tier": null
     },
     {
+      "id": 900,
+      "name": "Reactor",
+      "os": "Linux",
+      "difficulty": "Easy",
+      "user_owned": true,
+      "root_owned": true,
+      "sp_tier": null
+    },
+    {
+      "id": 897,
+      "name": "SmartHire",
+      "os": "Linux",
+      "difficulty": "Medium",
+      "user_owned": false,
+      "root_owned": false,
+      "sp_tier": null
+    },
+    {
       "id": 894,
       "name": "Helix",
       "os": "Linux",
@@ -334,6 +361,15 @@
       "difficulty": "Medium",
       "user_owned": false,
       "root_owned": false,
+      "sp_tier": null
+    },
+    {
+      "id": 867,
+      "name": "Silentium",
+      "os": "Linux",
+      "difficulty": "Easy",
+      "user_owned": true,
+      "root_owned": true,
       "sp_tier": null
     },
     {
