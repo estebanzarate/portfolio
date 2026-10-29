@@ -2324,6 +2324,10 @@
       "name": "Autopilot",
       "writeup": null
     },
+    "999": {
+      "name": "DutyBound",
+      "writeup": null
+    },
     "1008": {
       "name": "Odori",
       "writeup": null
@@ -7143,6 +7147,14 @@
     "1851": {
       "name": "Last Call",
       "writeup": null
+    },
+    "1920": {
+      "name": "Halfmask",
+      "writeup": null
+    },
+    "1926": {
+      "name": "Dark Embargo",
+      "writeup": null
     }
   },
   "sherlocks": {
@@ -7296,7 +7308,7 @@
     },
     "633": {
       "name": "BFT",
-      "writeup": null
+      "writeup": "https://0xmelvin.vercel.app/es/writeups/hackthebox/sherlocks/bft"
     },
     "636": {
       "name": "Subatomic",
@@ -8432,6 +8444,18 @@
     },
     "1917": {
       "name": "ShellForSell",
+      "writeup": null
+    },
+    "1923": {
+      "name": "Frosted",
+      "writeup": null
+    },
+    "1932": {
+      "name": "RouteCause",
+      "writeup": null
+    },
+    "1935": {
+      "name": "dOOMs Day",
       "writeup": null
     }
   }

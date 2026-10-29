@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-10-22T21:56:39.450Z",
+  "last_updated": "2026-10-29T23:17:07.160Z",
   "statistics": {
-    "total": 582,
+    "total": 583,
     "user_owns": 223,
     "root_owns": 238,
     "by_os": {
@@ -33,6 +33,15 @@
     {
       "id": 1008,
       "name": "Odori",
+      "os": "Linux",
+      "difficulty": "Medium",
+      "user_owned": false,
+      "root_owned": false,
+      "sp_tier": null
+    },
+    {
+      "id": 999,
+      "name": "DutyBound",
       "os": "Linux",
       "difficulty": "Medium",
       "user_owned": false,
@@ -256,15 +265,6 @@
       "sp_tier": null
     },
     {
-      "id": 903,
-      "name": "DevHub",
-      "os": "Linux",
-      "difficulty": "Medium",
-      "user_owned": true,
-      "root_owned": true,
-      "sp_tier": null
-    },
-    {
       "id": 891,
       "name": "PingPong",
       "os": "Windows",
@@ -323,6 +323,15 @@
       "name": "Support",
       "os": "Windows",
       "difficulty": "Easy",
+      "user_owned": true,
+      "root_owned": true,
+      "sp_tier": null
+    },
+    {
+      "id": 903,
+      "name": "DevHub",
+      "os": "Linux",
+      "difficulty": "Medium",
       "user_owned": true,
       "root_owned": true,
       "sp_tier": null

@@ -78,6 +78,7 @@ async function processAcademy() {
   if (!statsRes.ok || !modulesRes.ok) throw new Error("HTB Academy API error");
   const statsRaw = await statsRes.json();
   const modulesRaw = await modulesRes.json();
+  console.log(modulesRaw.data[0]);
   const items = statsRaw.data.completion_statistics.by_category;
   const byCategory = {};
   let totalCompleted = 0,
