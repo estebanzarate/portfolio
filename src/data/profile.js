@@ -272,6 +272,16 @@ const profile = {
         courseUrl:
           "https://www.netacad.com/courses/networking-basics?courseLang=en-US",
       },
+      {
+        id: 14,
+        title: "Network Addressing and Basic Troubleshooting",
+        institution:
+          "Networking Academy through the Cisco Networking Academy program",
+        period: "2026",
+        certificate: "/certificates/NABT.webp",
+        courseUrl:
+          "https://www.netacad.com/courses/network-addressing-and-basic-troubleshooting?courseLang=en-US",
+      },
     ],
   },
 
@@ -547,6 +557,16 @@ const profile = {
         certificate: "/certificates/NB.webp",
         courseUrl:
           "https://www.netacad.com/courses/networking-basics?courseLang=en-US",
+      },
+      {
+        id: 14,
+        title: "Network Addressing and Basic Troubleshooting",
+        institution:
+          "Networking Academy through the Cisco Networking Academy program",
+        period: "2026",
+        certificate: "/certificates/NABT.webp",
+        courseUrl:
+          "https://www.netacad.com/courses/network-addressing-and-basic-troubleshooting?courseLang=en-US",
       },
     ],
   },
