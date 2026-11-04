@@ -282,6 +282,16 @@ const profile = {
         courseUrl:
           "https://www.netacad.com/courses/network-addressing-and-basic-troubleshooting?courseLang=en-US",
       },
+      {
+        id: 15,
+        title: "Networking Devices and Initial Configuration",
+        institution:
+          "Networking Academy through the Cisco Networking Academy program",
+        period: "2026",
+        certificate: "/certificates/NDBC.webp",
+        courseUrl:
+          "https://www.netacad.com/courses/networking-devices-and-initial-configuration?courseLang=en-US",
+      },
     ],
   },
 
@@ -567,6 +577,16 @@ const profile = {
         certificate: "/certificates/NABT.webp",
         courseUrl:
           "https://www.netacad.com/courses/network-addressing-and-basic-troubleshooting?courseLang=en-US",
+      },
+      {
+        id: 15,
+        title: "Networking Devices and Initial Configuration",
+        institution:
+          "Networking Academy through the Cisco Networking Academy program",
+        period: "2026",
+        certificate: "/certificates/NDBC.webp",
+        courseUrl:
+          "https://www.netacad.com/courses/networking-devices-and-initial-configuration?courseLang=en-US",
       },
     ],
   },
