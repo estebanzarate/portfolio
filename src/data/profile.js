@@ -292,6 +292,16 @@ const profile = {
         courseUrl:
           "https://www.netacad.com/courses/networking-devices-and-initial-configuration?courseLang=en-US",
       },
+      {
+        id: 16,
+        title:
+          "Security Monitoring and SIEM Fundamentals: Cybersecurity Labs Powered by Hack The Box",
+        institution: "Hack The Box",
+        period: "2026",
+        certificate: "/certificates/SMSFCLPHTB.webp",
+        courseUrl:
+          "https://www.linkedin.com/learning-login/share?account=2153100&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fsecurity-monitoring-and-siem-fundamentals-cybersecurity-labs-powered-by-hack-the-box%3Ftrk%3Dshare_ent_url%26shareId%3Dp5TOfqFeQpmiARPdbT7HAg%253D%253D",
+      },
     ],
   },
 
@@ -587,6 +597,16 @@ const profile = {
         certificate: "/certificates/NDBC.webp",
         courseUrl:
           "https://www.netacad.com/courses/networking-devices-and-initial-configuration?courseLang=en-US",
+      },
+      {
+        id: 16,
+        title:
+          "Security Monitoring and SIEM Fundamentals: Cybersecurity Labs Powered by Hack The Box",
+        institution: "Hack The Box",
+        period: "2026",
+        certificate: "/certificates/SMSFCLPHTB.webp",
+        courseUrl:
+          "https://www.linkedin.com/learning-login/share?account=2153100&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fsecurity-monitoring-and-siem-fundamentals-cybersecurity-labs-powered-by-hack-the-box%3Ftrk%3Dshare_ent_url%26shareId%3Dp5TOfqFeQpmiARPdbT7HAg%253D%253D",
       },
     ],
   },
