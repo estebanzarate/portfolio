@@ -8,8 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "fetch:all": "node getdata/fetch.js",
-    "deploy": "./getdata/deploy.sh"
+    "fetch:all": "node getdata/fetch.js"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.1",

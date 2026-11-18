@@ -2328,8 +2328,24 @@
       "name": "DutyBound",
       "writeup": null
     },
+    "1002": {
+      "name": "Takeoff",
+      "writeup": null
+    },
     "1008": {
       "name": "Odori",
+      "writeup": null
+    },
+    "1012": {
+      "name": "Unclaimed",
+      "writeup": null
+    },
+    "1014": {
+      "name": "RedEye",
+      "writeup": null
+    },
+    "1018": {
+      "name": "DoubleTake",
       "writeup": null
     }
   },
@@ -7159,6 +7175,14 @@
     "1929": {
       "name": "Detour",
       "writeup": null
+    },
+    "1944": {
+      "name": "Orrery Vault",
+      "writeup": null
+    },
+    "1953": {
+      "name": "XO XO Exploit",
+      "writeup": null
     }
   },
   "sherlocks": {
@@ -8460,6 +8484,22 @@
     },
     "1935": {
       "name": "dOOMs Day",
+      "writeup": null
+    },
+    "1938": {
+      "name": "Chameleon",
+      "writeup": null
+    },
+    "1941": {
+      "name": "PurpleKnight",
+      "writeup": null
+    },
+    "1947": {
+      "name": "SSHole",
+      "writeup": null
+    },
+    "1950": {
+      "name": "CVenom",
       "writeup": null
     }
   }

@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-10-31T17:50:17.500Z",
+  "last_updated": "2026-11-18T14:28:21.907Z",
   "statistics": {
-    "total": 583,
+    "total": 587,
     "user_owns": 223,
     "root_owns": 238,
     "by_os": {
@@ -31,10 +31,46 @@
       "sp_tier": null
     },
     {
+      "id": 1018,
+      "name": "DoubleTake",
+      "os": "Linux",
+      "difficulty": "Easy",
+      "user_owned": false,
+      "root_owned": false,
+      "sp_tier": null
+    },
+    {
+      "id": 1014,
+      "name": "RedEye",
+      "os": "Windows",
+      "difficulty": "Hard",
+      "user_owned": false,
+      "root_owned": false,
+      "sp_tier": null
+    },
+    {
+      "id": 1012,
+      "name": "Unclaimed",
+      "os": "Windows",
+      "difficulty": "Medium",
+      "user_owned": false,
+      "root_owned": false,
+      "sp_tier": null
+    },
+    {
       "id": 1008,
       "name": "Odori",
       "os": "Linux",
       "difficulty": "Medium",
+      "user_owned": false,
+      "root_owned": false,
+      "sp_tier": null
+    },
+    {
+      "id": 1002,
+      "name": "Takeoff",
+      "os": "Linux",
+      "difficulty": "Hard",
       "user_owned": false,
       "root_owned": false,
       "sp_tier": null
@@ -121,6 +157,105 @@
       "sp_tier": null
     },
     {
+      "id": 936,
+      "name": "DanglingTree",
+      "os": "Windows",
+      "difficulty": "Medium",
+      "user_owned": false,
+      "root_owned": false,
+      "sp_tier": null
+    },
+    {
+      "id": 933,
+      "name": "Cohort",
+      "os": "Linux",
+      "difficulty": "Easy",
+      "user_owned": true,
+      "root_owned": true,
+      "sp_tier": null
+    },
+    {
+      "id": 930,
+      "name": "DarkZeroReturns",
+      "os": "Windows",
+      "difficulty": "Hard",
+      "user_owned": true,
+      "root_owned": false,
+      "sp_tier": null
+    },
+    {
+      "id": 927,
+      "name": "Bedside",
+      "os": "Linux",
+      "difficulty": "Medium",
+      "user_owned": true,
+      "root_owned": true,
+      "sp_tier": null
+    },
+    {
+      "id": 921,
+      "name": "Paperwork",
+      "os": "Linux",
+      "difficulty": "Easy",
+      "user_owned": true,
+      "root_owned": true,
+      "sp_tier": null
+    },
+    {
+      "id": 915,
+      "name": "Enigma",
+      "os": "Linux",
+      "difficulty": "Easy",
+      "user_owned": true,
+      "root_owned": true,
+      "sp_tier": null
+    },
+    {
+      "id": 912,
+      "name": "Nimbus",
+      "os": "Linux",
+      "difficulty": "Hard",
+      "user_owned": true,
+      "root_owned": true,
+      "sp_tier": null
+    },
+    {
+      "id": 906,
+      "name": "Connected",
+      "os": "Linux",
+      "difficulty": "Easy",
+      "user_owned": true,
+      "root_owned": true,
+      "sp_tier": null
+    },
+    {
+      "id": 891,
+      "name": "PingPong",
+      "os": "Windows",
+      "difficulty": "Insane",
+      "user_owned": false,
+      "root_owned": false,
+      "sp_tier": null
+    },
+    {
+      "id": 862,
+      "name": "Garfield",
+      "os": "Windows",
+      "difficulty": "Hard",
+      "user_owned": false,
+      "root_owned": false,
+      "sp_tier": null
+    },
+    {
+      "id": 547,
+      "name": "TwoMillion",
+      "os": "Linux",
+      "difficulty": "Easy",
+      "user_owned": true,
+      "root_owned": true,
+      "sp_tier": null
+    },
+    {
       "id": 957,
       "name": "Fireflow",
       "os": "Linux",
@@ -166,55 +301,10 @@
       "sp_tier": null
     },
     {
-      "id": 936,
-      "name": "DanglingTree",
-      "os": "Windows",
-      "difficulty": "Medium",
-      "user_owned": false,
-      "root_owned": false,
-      "sp_tier": null
-    },
-    {
-      "id": 933,
-      "name": "Cohort",
-      "os": "Linux",
-      "difficulty": "Easy",
-      "user_owned": true,
-      "root_owned": true,
-      "sp_tier": null
-    },
-    {
-      "id": 930,
-      "name": "DarkZeroReturns",
-      "os": "Windows",
-      "difficulty": "Hard",
-      "user_owned": true,
-      "root_owned": false,
-      "sp_tier": null
-    },
-    {
-      "id": 927,
-      "name": "Bedside",
-      "os": "Linux",
-      "difficulty": "Medium",
-      "user_owned": true,
-      "root_owned": true,
-      "sp_tier": null
-    },
-    {
       "id": 924,
       "name": "Abducted",
       "os": "Linux",
       "difficulty": "Medium",
-      "user_owned": true,
-      "root_owned": true,
-      "sp_tier": null
-    },
-    {
-      "id": 921,
-      "name": "Paperwork",
-      "os": "Linux",
-      "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true,
       "sp_tier": null
@@ -229,91 +319,10 @@
       "sp_tier": null
     },
     {
-      "id": 915,
-      "name": "Enigma",
-      "os": "Linux",
-      "difficulty": "Easy",
-      "user_owned": true,
-      "root_owned": true,
-      "sp_tier": null
-    },
-    {
-      "id": 912,
-      "name": "Nimbus",
-      "os": "Linux",
-      "difficulty": "Hard",
-      "user_owned": true,
-      "root_owned": true,
-      "sp_tier": null
-    },
-    {
       "id": 909,
       "name": "Checkpoint",
       "os": "Windows",
       "difficulty": "Medium",
-      "user_owned": true,
-      "root_owned": true,
-      "sp_tier": null
-    },
-    {
-      "id": 906,
-      "name": "Connected",
-      "os": "Linux",
-      "difficulty": "Easy",
-      "user_owned": true,
-      "root_owned": true,
-      "sp_tier": null
-    },
-    {
-      "id": 891,
-      "name": "PingPong",
-      "os": "Windows",
-      "difficulty": "Insane",
-      "user_owned": false,
-      "root_owned": false,
-      "sp_tier": null
-    },
-    {
-      "id": 864,
-      "name": "Snapped",
-      "os": "Linux",
-      "difficulty": "Hard",
-      "user_owned": true,
-      "root_owned": true,
-      "sp_tier": null
-    },
-    {
-      "id": 862,
-      "name": "Garfield",
-      "os": "Windows",
-      "difficulty": "Hard",
-      "user_owned": false,
-      "root_owned": false,
-      "sp_tier": null
-    },
-    {
-      "id": 853,
-      "name": "Principal",
-      "os": "Linux",
-      "difficulty": "Medium",
-      "user_owned": true,
-      "root_owned": true,
-      "sp_tier": null
-    },
-    {
-      "id": 547,
-      "name": "TwoMillion",
-      "os": "Linux",
-      "difficulty": "Easy",
-      "user_owned": true,
-      "root_owned": true,
-      "sp_tier": null
-    },
-    {
-      "id": 484,
-      "name": "Support",
-      "os": "Windows",
-      "difficulty": "Easy",
       "user_owned": true,
       "root_owned": true,
       "sp_tier": null
@@ -373,6 +382,15 @@
       "sp_tier": null
     },
     {
+      "id": 864,
+      "name": "Snapped",
+      "os": "Linux",
+      "difficulty": "Hard",
+      "user_owned": true,
+      "root_owned": true,
+      "sp_tier": null
+    },
+    {
       "id": 859,
       "name": "DevArea",
       "os": "Linux",
@@ -386,6 +404,15 @@
       "name": "Kobold",
       "os": "Linux",
       "difficulty": "Easy",
+      "user_owned": true,
+      "root_owned": true,
+      "sp_tier": null
+    },
+    {
+      "id": 853,
+      "name": "Principal",
+      "os": "Linux",
+      "difficulty": "Medium",
       "user_owned": true,
       "root_owned": true,
       "sp_tier": null
@@ -2422,6 +2449,15 @@
       "difficulty": "Hard",
       "user_owned": false,
       "root_owned": false,
+      "sp_tier": null
+    },
+    {
+      "id": 484,
+      "name": "Support",
+      "os": "Windows",
+      "difficulty": "Easy",
+      "user_owned": true,
+      "root_owned": true,
       "sp_tier": null
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T23:29:08.279520+00:00",
+  "generated_at": "2026-11-18T11:44:48.710784+00:00",
   "personal": {
     "name": "Esteban Zárate",
     "title_es": "Analista de Ciberseguridad | Desarrollador de Software",
@@ -16,7 +16,14 @@
     "en": "Aspiring Cybersecurity Analyst with a software development background and hands-on experience building security tools, full-stack applications and offensive security labs. I have strengthened my skills through Hack The Box, TryHackMe, personal Active Directory labs and projects focused on automation, technical documentation and secure software development. Interested in joining a cybersecurity team where I can apply my software development and offensive security skills while continuing to grow professionally."
   },
   "skills": {
-    "languages": ["Python", "Bash", "JavaScript", "TypeScript", "HTML", "CSS"],
+    "languages": [
+      "Python",
+      "Bash",
+      "JavaScript",
+      "TypeScript",
+      "HTML",
+      "CSS"
+    ],
     "frameworks": [
       "React",
       "Vite",
@@ -89,7 +96,12 @@
       "name": "urlfckr",
       "description_es": "Crawler web multihilo en Python para reconocimiento. Descubre subdominios y rutas de aplicaciones web. Implementa profundidad configurable, limitación de velocidad, cabeceras HTTP personalizadas y exportación JSON.",
       "description_en": "Multithreaded Python web crawler for reconnaissance. Discovers subdomains and application paths. Configurable crawl depth, rate limiting, custom HTTP headers and JSON export.",
-      "technologies": ["Python", "multithreading", "HTTP", "reconnaissance"]
+      "technologies": [
+        "Python",
+        "multithreading",
+        "HTTP",
+        "reconnaissance"
+      ]
     },
     {
       "name": "Portfolio de Ciberseguridad / Cybersecurity Portfolio",
@@ -195,7 +207,7 @@
   },
   "htb_stats": {
     "machines": {
-      "total": 578,
+      "total": 587,
       "root_owned": 238,
       "user_owned": 223,
       "by_difficulty": {
@@ -243,7 +255,7 @@
     },
     "challenges": {
       "owned": 49,
-      "total": 855,
+      "total": 863,
       "by_difficulty": {
         "Very Easy": 25,
         "Easy": 23,
@@ -263,13 +275,13 @@
       }
     },
     "sherlocks": {
-      "owned": 4,
-      "total": 267,
+      "owned": 6,
+      "total": 329,
       "by_difficulty": {
-        "Very Easy": 4
+        "Very Easy": 6
       },
       "by_category": {
-        "DFIR": 3,
+        "DFIR": 5,
         "SOC": 1
       }
     }
