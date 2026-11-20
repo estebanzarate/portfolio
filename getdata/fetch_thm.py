@@ -3,6 +3,7 @@ import json
 import os
 import sys
 from pathlib import Path
+from datetime import datetime, timezone
 
 try:
     from curl_cffi import requests as curl_requests
@@ -68,10 +69,13 @@ def main():
             impersonate="chrome",
             timeout=30,
         )
-        if res.status_code != 200:
-            body = res.text[:300]
-            print(f"ERROR: status {res.status_code} on page {page} — {body}", file=sys.stderr)
-            sys.exit(1)
+        if res.status_code in (401, 403):
+            raise RuntimeError("THM session is invalid or expired.")
+
+        if not res.ok:
+            raise RuntimeError(
+                f"THM request failed with HTTP {res.status_code}."
+            )
 
         data = res.json()
         all_docs.extend(data["data"]["docs"])
@@ -95,7 +99,7 @@ def main():
     pct   = round((len(completed) / total) * 100, 1) if total > 0 else 0
 
     output = {
-        "last_updated": __import__("datetime").datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%S.000Z"),
+        "last_updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z"),
         "statistics": {
             "total_rooms": total,
             "completed": len(completed),
@@ -121,8 +125,19 @@ def main():
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(json.dumps(output, indent=2, ensure_ascii=False))
-    print(f"✅ THM: {len(all_docs)} rooms saved.")
-    print(f"   📄 Sample saved to .data/thm.json")
+    print(f"THM: {len(all_docs)} rooms saved.")
+    print(f"Sample saved to .data/thm.json")
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except RuntimeError as error:
+        print(f"ERROR: {error}")
+
+        if str(error) == "THM session is invalid or expired.":
+            sys.exit(2)
+
+        sys.exit(1)
+    except Exception as error:
+        print(f"ERROR: {error}")
+        sys.exit(1)

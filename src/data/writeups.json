@@ -3729,6 +3729,10 @@
     "hh-overheardatbreakfast-6f01793c": {
       "title": "Overheard at Breakfast",
       "writeup": null
+    },
+    "defensivesecurityintroexp": {
+      "title": "Defensive Security Intro",
+      "writeup": null
     }
   },
   "challenges": {
@@ -8500,6 +8504,10 @@
     },
     "1950": {
       "name": "CVenom",
+      "writeup": null
+    },
+    "1954": {
+      "name": "Assistant",
       "writeup": null
     }
   }

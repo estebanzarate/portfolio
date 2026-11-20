@@ -3,12 +3,12 @@
 HTB data fetcher — exploration and data retrieval script.
 
 Usage:
-    python3 getdata/htb_fetch.py --machines
-    python3 getdata/htb_fetch.py --academy
-    python3 getdata/htb_fetch.py --sherlocks
-    python3 getdata/htb_fetch.py --challenges
-    python3 getdata/htb_fetch.py --all
-    python3 getdata/htb_fetch.py --machines --challenges
+    python3 getdata/fetch_htb.py --machines
+    python3 getdata/fetch_htb.py --academy
+    python3 getdata/fetch_htb.py --sherlocks
+    python3 getdata/fetch_htb.py --challenges
+    python3 getdata/fetch_htb.py --all
+    python3 getdata/fetch_htb.py --machines --challenges
 """
 
 import argparse

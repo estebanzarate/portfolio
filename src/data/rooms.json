@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-09-29T23:28:56.000Z",
+  "last_updated": "2026-11-20T03:51:06.000Z",
   "statistics": {
-    "total_rooms": 345,
-    "completed": 332,
+    "total_rooms": 346,
+    "completed": 333,
     "completion_percentage": 96.2,
     "by_difficulty": {
-      "easy": 241,
+      "easy": 242,
       "medium": 56,
       "info": 35
     },
     "by_type": {
       "challenge": 67,
-      "walkthrough": 265
+      "walkthrough": 266
     }
   },
   "rooms": [
@@ -3849,10 +3849,10 @@
       "type": "walkthrough",
       "completed": true,
       "tags": [
-        "Blue",
         "Security Engineer",
-        "Threat modelling",
-        "Security analysis"
+        "Security analysis",
+        "Blue",
+        "Threat modelling"
       ],
       "imageURL": "https://cdn-images.tryhackme.com/room-icons/securityprinciples-1785241452480.png"
     },
@@ -4966,7 +4966,8 @@
         "machine learning",
         "LLM",
         "segment 2.5",
-        "Artificial intelligence"
+        "Artificial intelligence",
+        "AI"
       ],
       "imageURL": "https://cdn-images.tryhackme.com/room-icons/6228f0d4ca8e57005149c3e3-1784893485639"
     },
@@ -5109,7 +5110,8 @@
         "Python",
         "Artificial Intelligence",
         "LLM",
-        "machine learning"
+        "machine learning",
+        "AI"
       ],
       "imageURL": "https://cdn-images.tryhackme.com/room-icons/6228f0d4ca8e57005149c3e3-1775756737657"
     },
@@ -5149,7 +5151,9 @@
       "difficulty": "medium",
       "type": "challenge",
       "completed": true,
-      "tags": [],
+      "tags": [
+        "AI"
+      ],
       "imageURL": "https://cdn-images.tryhackme.com/room-icons/6228f0d4ca8e57005149c3e3-1775756760371"
     },
     {
@@ -5253,7 +5257,8 @@
         "Red",
         "segment 2.5",
         "AI Pentesting",
-        "Artificial intelligence"
+        "Artificial intelligence",
+        "AI"
       ],
       "imageURL": "https://cdn-images.tryhackme.com/room-icons/645b19f5d5848d004ab9c9e2-1759491275677"
     },
@@ -5628,7 +5633,8 @@
         "AI Pentesting",
         "Ollama",
         "Artificial intelligence",
-        "AoC2025"
+        "AoC2025",
+        "AI"
       ],
       "imageURL": "https://cdn-images.tryhackme.com/room-icons/5de96d9ca744773ea7ef8c00-1762182384720"
     },
@@ -6012,7 +6018,8 @@
         "Artificial Intelligence",
         "LLM",
         "segment 2",
-        "Artificial intelligence"
+        "Artificial intelligence",
+        "AI"
       ],
       "imageURL": "https://cdn-images.tryhackme.com/room-icons/6228f0d4ca8e57005149c3e3-1775756919058"
     },
@@ -6381,7 +6388,9 @@
       "difficulty": "easy",
       "type": "challenge",
       "completed": true,
-      "tags": [],
+      "tags": [
+        "AI"
+      ],
       "imageURL": "https://cdn-images.tryhackme.com/room-icons/5ed5961c6276df568891c3ea-1770943345419"
     },
     {
@@ -6414,7 +6423,9 @@
       "difficulty": "easy",
       "type": "challenge",
       "completed": true,
-      "tags": [],
+      "tags": [
+        "AI"
+      ],
       "imageURL": "https://cdn-images.tryhackme.com/room-icons/5ed5961c6276df568891c3ea-1770943396649"
     },
     {
@@ -6487,7 +6498,8 @@
         "LLM",
         "segment 2",
         "Prompt injection",
-        "Artificial intelligence"
+        "Artificial intelligence",
+        "AI"
       ],
       "imageURL": "https://cdn-images.tryhackme.com/room-icons/6228f0d4ca8e57005149c3e3-1775820505806"
     },
@@ -6507,7 +6519,8 @@
         "LLM",
         "segment 2.5",
         "Artificial intelligence",
-        "Model hardening"
+        "Model hardening",
+        "AI"
       ],
       "imageURL": "https://cdn-images.tryhackme.com/room-icons/6228f0d4ca8e57005149c3e3-1775756838514"
     },
@@ -6552,7 +6565,8 @@
         "MITRE ATT&CK® Navigator",
         "segment 2.5",
         "AI Pentesting",
-        "Artificial intelligence"
+        "Artificial intelligence",
+        "AI"
       ],
       "imageURL": "https://cdn-images.tryhackme.com/room-icons/6228f0d4ca8e57005149c3e3-1775757065770"
     },
@@ -6720,7 +6734,8 @@
         "LLM",
         "segment 2.5",
         "AI Pentesting",
-        "Artificial intelligence"
+        "Artificial intelligence",
+        "AI"
       ],
       "imageURL": "https://cdn-images.tryhackme.com/room-icons/6228f0d4ca8e57005149c3e3-1775755617179"
     },
@@ -6743,8 +6758,21 @@
       "difficulty": "easy",
       "type": "challenge",
       "completed": false,
-      "tags": [],
+      "tags": [
+        "AI"
+      ],
       "imageURL": "https://cdn-images.tryhackme.com/room-icons/6228f0d4ca8e57005149c3e3-1778751780554"
+    },
+    {
+      "id": "6a4e02f22301ceff550b9e60",
+      "title": "Defensive Security Intro",
+      "code": "defensivesecurityintroexp",
+      "description": "Get a taster for how cyber defenders stop a hacker in this interactive scenario",
+      "difficulty": "easy",
+      "type": "walkthrough",
+      "completed": true,
+      "tags": [],
+      "imageURL": "https://cdn-images.tryhackme.com/room-icons/5de96d9ca744773ea7ef8c00-1784059295216"
     },
     {
       "id": "6a56425a934818040174f155",

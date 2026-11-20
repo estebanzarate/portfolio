@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-09-29T23:29:00.228Z",
+  "last_updated": "2026-11-20T03:51:12.011Z",
   "statistics": {
-    "total_modules": 355,
-    "completed": 64,
-    "completion_percentage": 18,
+    "total_modules": 358,
+    "completed": 66,
+    "completion_percentage": 18.4,
     "by_category": {
       "Offensive": {
         "completed": 26,
@@ -11,19 +11,19 @@
         "percentage": 29.9
       },
       "Defensive": {
-        "completed": 11,
-        "total": 197,
-        "percentage": 5.5
+        "completed": 12,
+        "total": 198,
+        "percentage": 6
       },
       "General": {
-        "completed": 26,
-        "total": 56,
-        "percentage": 61.9
+        "completed": 27,
+        "total": 57,
+        "percentage": 62.9
       },
       "Purple": {
         "completed": 1,
-        "total": 3,
-        "percentage": 35.9
+        "total": 4,
+        "percentage": 23
       }
     }
   },
@@ -313,7 +313,7 @@
       "name": "Intro to Assembly Language",
       "slug": "intro-to-assembly-language",
       "description": "This module builds the core foundation for Binary Exploitation by teaching Computer Architecture and Assembly language basics.",
-      "progress": 41.67,
+      "progress": 83.33,
       "category": "General"
     },
     {
@@ -513,7 +513,7 @@
       "name": "Documentation & Reporting",
       "slug": "documentation--reporting",
       "description": "Proper documentation is paramount during any engagement. The end goal of a technical assessment is the report deliverable which will often be presented to a broad audience within the target organization. We must take detailed notes and be very organized in our documentation, which will help us in the event of an incident during the assessment. This will also help ensure that our reports contain enough detail to illustrate the impact of our findings properly.",
-      "progress": 0,
+      "progress": 100,
       "category": "General"
     },
     {
@@ -1197,6 +1197,14 @@
       "category": "Defensive"
     },
     {
+      "id": 314,
+      "name": "Active Directory Hardening - Accounts & Credentials",
+      "slug": "active-directory-hardening---accounts--credentials",
+      "description": "Accounts and credentials are among the most frequently targeted components in Active Directory (AD) environments. Weak password policies, excessive privileges, legacy authentication protocols, and poorly managed service accounts can provide attackers with opportunities for credential theft, lateral movement, and domain privilege escalation. This module covers remediating common AD account and credential security findings uncovered during penetration tests, including hardening authentication mechanisms, securing privileged accounts, preventing credential theft and reuse, and implementing managed account solutions.",
+      "progress": 0,
+      "category": "Defensive"
+    },
+    {
       "id": 315,
       "name": "Attacking AI - Application and System",
       "slug": "attacking-ai---application-and-system",
@@ -1401,7 +1409,7 @@
       "name": "SOC Fundamentals",
       "slug": "soc-fundamentals",
       "description": "This module provides comprehensive coverage of SOC Fundamentals concepts and techniques. Topics covered include Common Mistakes made by SOC Analysts, EDR\r\n- Endpoint Detection and Response, Introduction to SOC, Log Management, SIEM and Analyst Relationship, and more.",
-      "progress": 0,
+      "progress": 90,
       "category": "Defensive"
     },
     {
@@ -1529,7 +1537,7 @@
       "name": "Network Fundamentals",
       "slug": "network-fundamentals",
       "description": "This module provides comprehensive coverage of Network Fundamentals concepts and techniques. Topics covered include About Network Fundamentals Module, IP Addressing Mechanism, Introduction to Network Fundamentals, Network Address Translation (NAT), Network Devices, and more.",
-      "progress": 0,
+      "progress": 10,
       "category": "General"
     },
     {
@@ -1619,14 +1627,6 @@
       "description": "In our \"Implementing Host-Based Security\" module, you'll explore the essential practices and techniques crucial for protecting individual computer systems from internal and external threats. This module delves into the foundational concepts of host-based security mechanisms, such as antivirus software, firewalls, and intrusion detection systems. Through a blend of interactive tutorials and real-world examples, you’ll gain practical skills in configuring and managing security protocols to safeguard data integrity and system availability. Whether you're new to cybersecurity or looking to strengthen your defensive strategies, this module offers a deep dive into the key aspects of host-based security. By the end of the module, you will have the confidence and expertise to implement robust security measures, identify potential vulnerabilities, and respond proactively to any incidents that arise.",
       "progress": 0,
       "category": "Defensive"
-    },
-    {
-      "id": 375,
-      "name": "Network Protocols",
-      "slug": "network-protocols",
-      "description": "This module provides comprehensive coverage of Network Protocols concepts and techniques. Topics covered include Domain Name System (DNS) - 1, Domain Name System (DNS) - 2, Introduction to Network Protocols, Telnet (Teletype Network) Protocol, Transmission Control Protocol (TCP) - 1, and more.",
-      "progress": 0,
-      "category": "General"
     }
   ]
 }

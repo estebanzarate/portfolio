@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-18T14:28:16.741Z",
+  "last_updated": "2026-11-20T03:51:14.296Z",
   "statistics": {
     "total": 863,
     "owned": 49,
@@ -28,7 +28,7 @@
       "difficulty": "Very Easy",
       "category": "Reversing",
       "is_owned": true,
-      "solves": 31879,
+      "solves": 31959,
       "state": "retired_free"
     },
     {
@@ -37,7 +37,7 @@
       "difficulty": "Very Easy",
       "category": "Web",
       "is_owned": true,
-      "solves": 35284,
+      "solves": 35353,
       "state": "retired_free"
     },
     {
@@ -46,7 +46,7 @@
       "difficulty": "Very Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 487,
+      "solves": 571,
       "state": "active"
     },
     {
@@ -55,7 +55,7 @@
       "difficulty": "Very Easy",
       "category": "Satellite",
       "is_owned": false,
-      "solves": 1692,
+      "solves": 1709,
       "state": "active"
     },
     {
@@ -64,7 +64,7 @@
       "difficulty": "Very Easy",
       "category": "Satellite",
       "is_owned": false,
-      "solves": 1046,
+      "solves": 1054,
       "state": "active"
     },
     {
@@ -73,7 +73,7 @@
       "difficulty": "Very Easy",
       "category": "Web",
       "is_owned": true,
-      "solves": 4407,
+      "solves": 4411,
       "state": "retired"
     },
     {
@@ -82,7 +82,7 @@
       "difficulty": "Very Easy",
       "category": "Satellite",
       "is_owned": false,
-      "solves": 1553,
+      "solves": 1561,
       "state": "active"
     },
     {
@@ -91,7 +91,7 @@
       "difficulty": "Very Easy",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 1683,
+      "solves": 1695,
       "state": "active"
     },
     {
@@ -100,7 +100,7 @@
       "difficulty": "Very Easy",
       "category": "Misc",
       "is_owned": true,
-      "solves": 3046,
+      "solves": 3056,
       "state": "active"
     },
     {
@@ -109,7 +109,7 @@
       "difficulty": "Very Easy",
       "category": "Web",
       "is_owned": true,
-      "solves": 9172,
+      "solves": 9175,
       "state": "retired"
     },
     {
@@ -118,7 +118,7 @@
       "difficulty": "Very Easy",
       "category": "ICS",
       "is_owned": false,
-      "solves": 2576,
+      "solves": 2585,
       "state": "active"
     },
     {
@@ -127,7 +127,7 @@
       "difficulty": "Very Easy",
       "category": "Web",
       "is_owned": true,
-      "solves": 4503,
+      "solves": 4516,
       "state": "retired_free"
     },
     {
@@ -136,7 +136,7 @@
       "difficulty": "Very Easy",
       "category": "Web",
       "is_owned": true,
-      "solves": 5562,
+      "solves": 5563,
       "state": "retired"
     },
     {
@@ -145,7 +145,7 @@
       "difficulty": "Very Easy",
       "category": "Quantum",
       "is_owned": false,
-      "solves": 2494,
+      "solves": 2501,
       "state": "active"
     },
     {
@@ -154,7 +154,7 @@
       "difficulty": "Very Easy",
       "category": "Quantum",
       "is_owned": false,
-      "solves": 1886,
+      "solves": 1892,
       "state": "active"
     },
     {
@@ -163,7 +163,7 @@
       "difficulty": "Very Easy",
       "category": "OSINT",
       "is_owned": true,
-      "solves": 10088,
+      "solves": 10109,
       "state": "active"
     },
     {
@@ -172,7 +172,7 @@
       "difficulty": "Very Easy",
       "category": "OSINT",
       "is_owned": true,
-      "solves": 8634,
+      "solves": 8652,
       "state": "active"
     },
     {
@@ -181,7 +181,7 @@
       "difficulty": "Very Easy",
       "category": "OSINT",
       "is_owned": true,
-      "solves": 7484,
+      "solves": 7506,
       "state": "active"
     },
     {
@@ -190,7 +190,7 @@
       "difficulty": "Very Easy",
       "category": "OSINT",
       "is_owned": true,
-      "solves": 6916,
+      "solves": 6919,
       "state": "retired"
     },
     {
@@ -208,7 +208,7 @@
       "difficulty": "Very Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 2730,
+      "solves": 2731,
       "state": "retired"
     },
     {
@@ -235,7 +235,7 @@
       "difficulty": "Very Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 358,
+      "solves": 357,
       "state": "retired"
     },
     {
@@ -253,7 +253,7 @@
       "difficulty": "Very Easy",
       "category": "Coding",
       "is_owned": false,
-      "solves": 751,
+      "solves": 752,
       "state": "retired"
     },
     {
@@ -262,7 +262,7 @@
       "difficulty": "Very Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 669,
+      "solves": 671,
       "state": "retired"
     },
     {
@@ -280,7 +280,7 @@
       "difficulty": "Very Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 323,
+      "solves": 322,
       "state": "retired"
     },
     {
@@ -289,7 +289,7 @@
       "difficulty": "Very Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 131,
+      "solves": 130,
       "state": "retired"
     },
     {
@@ -307,7 +307,7 @@
       "difficulty": "Very Easy",
       "category": "Coding",
       "is_owned": true,
-      "solves": 5885,
+      "solves": 5884,
       "state": "retired"
     },
     {
@@ -316,7 +316,7 @@
       "difficulty": "Very Easy",
       "category": "Web",
       "is_owned": true,
-      "solves": 6502,
+      "solves": 6507,
       "state": "retired"
     },
     {
@@ -325,7 +325,7 @@
       "difficulty": "Very Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 1586,
+      "solves": 1588,
       "state": "retired"
     },
     {
@@ -343,7 +343,7 @@
       "difficulty": "Very Easy",
       "category": "Hardware",
       "is_owned": true,
-      "solves": 5525,
+      "solves": 5531,
       "state": "active"
     },
     {
@@ -352,7 +352,7 @@
       "difficulty": "Very Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 544,
+      "solves": 543,
       "state": "retired"
     },
     {
@@ -370,7 +370,7 @@
       "difficulty": "Very Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 359,
+      "solves": 360,
       "state": "retired"
     },
     {
@@ -379,7 +379,7 @@
       "difficulty": "Very Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 1112,
+      "solves": 1113,
       "state": "retired"
     },
     {
@@ -388,7 +388,7 @@
       "difficulty": "Very Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 1141,
+      "solves": 1143,
       "state": "retired"
     },
     {
@@ -397,7 +397,7 @@
       "difficulty": "Very Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 846,
+      "solves": 848,
       "state": "retired"
     },
     {
@@ -424,7 +424,7 @@
       "difficulty": "Very Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 1188,
+      "solves": 1189,
       "state": "retired"
     },
     {
@@ -442,7 +442,7 @@
       "difficulty": "Very Easy",
       "category": "Coding",
       "is_owned": false,
-      "solves": 884,
+      "solves": 887,
       "state": "retired"
     },
     {
@@ -451,7 +451,7 @@
       "difficulty": "Very Easy",
       "category": "Coding",
       "is_owned": false,
-      "solves": 702,
+      "solves": 704,
       "state": "retired"
     },
     {
@@ -460,7 +460,7 @@
       "difficulty": "Very Easy",
       "category": "Coding",
       "is_owned": false,
-      "solves": 698,
+      "solves": 700,
       "state": "retired"
     },
     {
@@ -487,7 +487,7 @@
       "difficulty": "Very Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 658,
+      "solves": 659,
       "state": "retired"
     },
     {
@@ -514,7 +514,7 @@
       "difficulty": "Very Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 713,
+      "solves": 714,
       "state": "retired"
     },
     {
@@ -523,7 +523,7 @@
       "difficulty": "Very Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 524,
+      "solves": 523,
       "state": "retired"
     },
     {
@@ -532,7 +532,7 @@
       "difficulty": "Very Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 848,
+      "solves": 847,
       "state": "retired"
     },
     {
@@ -550,7 +550,7 @@
       "difficulty": "Very Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 1216,
+      "solves": 1217,
       "state": "retired"
     },
     {
@@ -559,7 +559,7 @@
       "difficulty": "Very Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 530,
+      "solves": 529,
       "state": "retired"
     },
     {
@@ -568,7 +568,7 @@
       "difficulty": "Very Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 1015,
+      "solves": 1014,
       "state": "retired"
     },
     {
@@ -577,7 +577,7 @@
       "difficulty": "Very Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 1368,
+      "solves": 1369,
       "state": "retired"
     },
     {
@@ -586,7 +586,7 @@
       "difficulty": "Very Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 1318,
+      "solves": 1319,
       "state": "retired"
     },
     {
@@ -595,7 +595,7 @@
       "difficulty": "Very Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 1347,
+      "solves": 1348,
       "state": "retired"
     },
     {
@@ -604,7 +604,7 @@
       "difficulty": "Very Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 786,
+      "solves": 785,
       "state": "retired"
     },
     {
@@ -613,7 +613,7 @@
       "difficulty": "Very Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 1757,
+      "solves": 1760,
       "state": "retired"
     },
     {
@@ -631,7 +631,7 @@
       "difficulty": "Very Easy",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 9706,
+      "solves": 9705,
       "state": "retired"
     },
     {
@@ -640,7 +640,7 @@
       "difficulty": "Very Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 1501,
+      "solves": 1500,
       "state": "retired"
     },
     {
@@ -658,7 +658,7 @@
       "difficulty": "Very Easy",
       "category": "ICS",
       "is_owned": false,
-      "solves": 1299,
+      "solves": 1301,
       "state": "retired"
     },
     {
@@ -667,7 +667,7 @@
       "difficulty": "Very Easy",
       "category": "Blockchain",
       "is_owned": false,
-      "solves": 3338,
+      "solves": 3344,
       "state": "active"
     },
     {
@@ -685,7 +685,7 @@
       "difficulty": "Very Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 2884,
+      "solves": 2888,
       "state": "retired"
     },
     {
@@ -694,7 +694,7 @@
       "difficulty": "Very Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 1745,
+      "solves": 1744,
       "state": "retired"
     },
     {
@@ -703,7 +703,7 @@
       "difficulty": "Very Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 1691,
+      "solves": 1692,
       "state": "retired"
     },
     {
@@ -712,7 +712,7 @@
       "difficulty": "Very Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 1014,
+      "solves": 1013,
       "state": "retired"
     },
     {
@@ -748,7 +748,7 @@
       "difficulty": "Very Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 2199,
+      "solves": 2200,
       "state": "retired"
     },
     {
@@ -757,7 +757,7 @@
       "difficulty": "Very Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 1143,
+      "solves": 1144,
       "state": "retired"
     },
     {
@@ -766,7 +766,7 @@
       "difficulty": "Very Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 246,
+      "solves": 247,
       "state": "retired"
     },
     {
@@ -784,7 +784,7 @@
       "difficulty": "Very Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 1074,
+      "solves": 1073,
       "state": "retired"
     },
     {
@@ -802,7 +802,7 @@
       "difficulty": "Very Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 353,
+      "solves": 352,
       "state": "retired"
     },
     {
@@ -811,7 +811,7 @@
       "difficulty": "Very Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 394,
+      "solves": 393,
       "state": "retired"
     },
     {
@@ -829,7 +829,7 @@
       "difficulty": "Very Easy",
       "category": "Web",
       "is_owned": true,
-      "solves": 18936,
+      "solves": 18935,
       "state": "retired"
     },
     {
@@ -838,7 +838,7 @@
       "difficulty": "Very Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 9944,
+      "solves": 9952,
       "state": "active"
     },
     {
@@ -847,7 +847,7 @@
       "difficulty": "Very Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 10620,
+      "solves": 10636,
       "state": "active"
     },
     {
@@ -856,7 +856,7 @@
       "difficulty": "Very Easy",
       "category": "Crypto",
       "is_owned": true,
-      "solves": 6087,
+      "solves": 6094,
       "state": "active"
     },
     {
@@ -865,7 +865,7 @@
       "difficulty": "Very Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 706,
+      "solves": 707,
       "state": "retired"
     },
     {
@@ -874,7 +874,7 @@
       "difficulty": "Very Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 448,
+      "solves": 449,
       "state": "retired"
     },
     {
@@ -883,7 +883,7 @@
       "difficulty": "Very Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 528,
+      "solves": 529,
       "state": "retired"
     },
     {
@@ -910,7 +910,7 @@
       "difficulty": "Very Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 1480,
+      "solves": 1481,
       "state": "retired"
     },
     {
@@ -919,7 +919,7 @@
       "difficulty": "Very Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 1153,
+      "solves": 1152,
       "state": "retired"
     },
     {
@@ -928,7 +928,7 @@
       "difficulty": "Very Easy",
       "category": "GamePwn",
       "is_owned": true,
-      "solves": 7106,
+      "solves": 7114,
       "state": "active"
     },
     {
@@ -937,7 +937,7 @@
       "difficulty": "Very Easy",
       "category": "Reversing",
       "is_owned": true,
-      "solves": 19426,
+      "solves": 19438,
       "state": "active"
     },
     {
@@ -946,7 +946,7 @@
       "difficulty": "Very Easy",
       "category": "Mobile",
       "is_owned": false,
-      "solves": 5507,
+      "solves": 5506,
       "state": "retired"
     },
     {
@@ -955,7 +955,7 @@
       "difficulty": "Very Easy",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 942,
+      "solves": 941,
       "state": "retired"
     },
     {
@@ -964,7 +964,7 @@
       "difficulty": "Very Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 11591,
+      "solves": 11590,
       "state": "retired"
     },
     {
@@ -982,7 +982,7 @@
       "difficulty": "Very Easy",
       "category": "Crypto",
       "is_owned": true,
-      "solves": 23241,
+      "solves": 23251,
       "state": "active"
     },
     {
@@ -991,7 +991,7 @@
       "difficulty": "Very Easy",
       "category": "Hardware",
       "is_owned": true,
-      "solves": 7803,
+      "solves": 7808,
       "state": "active"
     },
     {
@@ -1000,7 +1000,7 @@
       "difficulty": "Very Easy",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 703,
+      "solves": 702,
       "state": "retired"
     },
     {
@@ -1009,7 +1009,7 @@
       "difficulty": "Very Easy",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 636,
+      "solves": 635,
       "state": "retired"
     },
     {
@@ -1018,7 +1018,7 @@
       "difficulty": "Very Easy",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 293,
+      "solves": 292,
       "state": "retired"
     },
     {
@@ -1027,7 +1027,7 @@
       "difficulty": "Very Easy",
       "category": "Hardware",
       "is_owned": true,
-      "solves": 11896,
+      "solves": 11899,
       "state": "active"
     },
     {
@@ -1036,7 +1036,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 543,
+      "solves": 556,
       "state": "active"
     },
     {
@@ -1045,7 +1045,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 1171,
+      "solves": 1184,
       "state": "active"
     },
     {
@@ -1054,7 +1054,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 736,
+      "solves": 739,
       "state": "active"
     },
     {
@@ -1063,7 +1063,7 @@
       "difficulty": "Easy",
       "category": "Satellite",
       "is_owned": false,
-      "solves": 586,
+      "solves": 585,
       "state": "active"
     },
     {
@@ -1072,7 +1072,7 @@
       "difficulty": "Easy",
       "category": "Satellite",
       "is_owned": false,
-      "solves": 729,
+      "solves": 731,
       "state": "active"
     },
     {
@@ -1081,7 +1081,7 @@
       "difficulty": "Easy",
       "category": "Satellite",
       "is_owned": false,
-      "solves": 826,
+      "solves": 829,
       "state": "active"
     },
     {
@@ -1090,7 +1090,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 760,
+      "solves": 763,
       "state": "active"
     },
     {
@@ -1099,7 +1099,7 @@
       "difficulty": "Easy",
       "category": "Quantum",
       "is_owned": false,
-      "solves": 765,
+      "solves": 767,
       "state": "active"
     },
     {
@@ -1108,7 +1108,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": true,
-      "solves": 2314,
+      "solves": 2323,
       "state": "active"
     },
     {
@@ -1117,7 +1117,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": true,
-      "solves": 1349,
+      "solves": 1358,
       "state": "active"
     },
     {
@@ -1126,7 +1126,7 @@
       "difficulty": "Easy",
       "category": "Mobile",
       "is_owned": false,
-      "solves": 841,
+      "solves": 842,
       "state": "active"
     },
     {
@@ -1135,7 +1135,7 @@
       "difficulty": "Easy",
       "category": "Quantum",
       "is_owned": false,
-      "solves": 783,
+      "solves": 786,
       "state": "active"
     },
     {
@@ -1144,7 +1144,7 @@
       "difficulty": "Easy",
       "category": "GamePwn",
       "is_owned": false,
-      "solves": 731,
+      "solves": 735,
       "state": "active"
     },
     {
@@ -1153,7 +1153,7 @@
       "difficulty": "Easy",
       "category": "Quantum",
       "is_owned": false,
-      "solves": 652,
+      "solves": 651,
       "state": "retired"
     },
     {
@@ -1162,7 +1162,7 @@
       "difficulty": "Easy",
       "category": "OSINT",
       "is_owned": false,
-      "solves": 2189,
+      "solves": 2195,
       "state": "active"
     },
     {
@@ -1171,7 +1171,7 @@
       "difficulty": "Easy",
       "category": "OSINT",
       "is_owned": false,
-      "solves": 3708,
+      "solves": 3715,
       "state": "active"
     },
     {
@@ -1180,7 +1180,7 @@
       "difficulty": "Easy",
       "category": "Secure Coding",
       "is_owned": false,
-      "solves": 1494,
+      "solves": 1496,
       "state": "active"
     },
     {
@@ -1189,7 +1189,7 @@
       "difficulty": "Easy",
       "category": "Secure Coding",
       "is_owned": false,
-      "solves": 686,
+      "solves": 685,
       "state": "retired"
     },
     {
@@ -1198,7 +1198,7 @@
       "difficulty": "Easy",
       "category": "Secure Coding",
       "is_owned": false,
-      "solves": 724,
+      "solves": 723,
       "state": "retired"
     },
     {
@@ -1207,7 +1207,7 @@
       "difficulty": "Easy",
       "category": "Secure Coding",
       "is_owned": false,
-      "solves": 1277,
+      "solves": 1278,
       "state": "active"
     },
     {
@@ -1216,7 +1216,7 @@
       "difficulty": "Easy",
       "category": "Secure Coding",
       "is_owned": false,
-      "solves": 700,
+      "solves": 699,
       "state": "retired"
     },
     {
@@ -1225,7 +1225,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 744,
+      "solves": 746,
       "state": "retired"
     },
     {
@@ -1234,7 +1234,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 540,
+      "solves": 539,
       "state": "retired"
     },
     {
@@ -1243,7 +1243,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 713,
+      "solves": 714,
       "state": "retired"
     },
     {
@@ -1252,7 +1252,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 973,
+      "solves": 979,
       "state": "active"
     },
     {
@@ -1270,7 +1270,7 @@
       "difficulty": "Easy",
       "category": "Coding",
       "is_owned": false,
-      "solves": 2289,
+      "solves": 2294,
       "state": "active"
     },
     {
@@ -1288,7 +1288,7 @@
       "difficulty": "Easy",
       "category": "AI/ML",
       "is_owned": false,
-      "solves": 413,
+      "solves": 412,
       "state": "retired"
     },
     {
@@ -1297,7 +1297,7 @@
       "difficulty": "Easy",
       "category": "AI/ML",
       "is_owned": false,
-      "solves": 283,
+      "solves": 282,
       "state": "retired"
     },
     {
@@ -1306,7 +1306,7 @@
       "difficulty": "Easy",
       "category": "AI/ML",
       "is_owned": false,
-      "solves": 369,
+      "solves": 368,
       "state": "retired"
     },
     {
@@ -1315,7 +1315,7 @@
       "difficulty": "Easy",
       "category": "Mobile",
       "is_owned": false,
-      "solves": 945,
+      "solves": 947,
       "state": "active"
     },
     {
@@ -1324,7 +1324,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 93,
+      "solves": 92,
       "state": "retired"
     },
     {
@@ -1333,7 +1333,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 121,
+      "solves": 120,
       "state": "retired"
     },
     {
@@ -1342,7 +1342,7 @@
       "difficulty": "Easy",
       "category": "Coding",
       "is_owned": false,
-      "solves": 242,
+      "solves": 243,
       "state": "retired"
     },
     {
@@ -1351,7 +1351,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 231,
+      "solves": 232,
       "state": "retired"
     },
     {
@@ -1360,7 +1360,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 184,
+      "solves": 183,
       "state": "retired"
     },
     {
@@ -1378,7 +1378,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 225,
+      "solves": 227,
       "state": "retired"
     },
     {
@@ -1387,7 +1387,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 735,
+      "solves": 734,
       "state": "retired"
     },
     {
@@ -1396,7 +1396,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 1467,
+      "solves": 1470,
       "state": "active"
     },
     {
@@ -1405,7 +1405,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 113,
+      "solves": 112,
       "state": "retired"
     },
     {
@@ -1423,7 +1423,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 103,
+      "solves": 102,
       "state": "retired"
     },
     {
@@ -1432,7 +1432,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 83,
+      "solves": 82,
       "state": "retired"
     },
     {
@@ -1441,7 +1441,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 1136,
+      "solves": 1135,
       "state": "retired"
     },
     {
@@ -1450,7 +1450,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 86,
+      "solves": 85,
       "state": "retired"
     },
     {
@@ -1468,7 +1468,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": true,
-      "solves": 2114,
+      "solves": 2113,
       "state": "retired"
     },
     {
@@ -1486,7 +1486,7 @@
       "difficulty": "Easy",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 153,
+      "solves": 152,
       "state": "retired"
     },
     {
@@ -1495,7 +1495,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 1732,
+      "solves": 1736,
       "state": "active"
     },
     {
@@ -1504,7 +1504,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 129,
+      "solves": 128,
       "state": "retired"
     },
     {
@@ -1513,7 +1513,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 328,
+      "solves": 327,
       "state": "retired"
     },
     {
@@ -1522,7 +1522,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 179,
+      "solves": 178,
       "state": "retired"
     },
     {
@@ -1531,7 +1531,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 181,
+      "solves": 180,
       "state": "retired"
     },
     {
@@ -1540,7 +1540,7 @@
       "difficulty": "Easy",
       "category": "Coding",
       "is_owned": false,
-      "solves": 1232,
+      "solves": 1234,
       "state": "retired"
     },
     {
@@ -1558,7 +1558,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 186,
+      "solves": 185,
       "state": "retired"
     },
     {
@@ -1567,7 +1567,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 118,
+      "solves": 117,
       "state": "retired"
     },
     {
@@ -1576,7 +1576,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 479,
+      "solves": 478,
       "state": "retired"
     },
     {
@@ -1585,7 +1585,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 308,
+      "solves": 309,
       "state": "retired"
     },
     {
@@ -1594,7 +1594,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 270,
+      "solves": 269,
       "state": "retired"
     },
     {
@@ -1603,7 +1603,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 627,
+      "solves": 626,
       "state": "retired"
     },
     {
@@ -1612,7 +1612,7 @@
       "difficulty": "Easy",
       "category": "Coding",
       "is_owned": false,
-      "solves": 461,
+      "solves": 462,
       "state": "retired"
     },
     {
@@ -1621,7 +1621,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 220,
+      "solves": 219,
       "state": "retired"
     },
     {
@@ -1630,7 +1630,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 359,
+      "solves": 358,
       "state": "retired"
     },
     {
@@ -1639,7 +1639,7 @@
       "difficulty": "Easy",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 84,
+      "solves": 83,
       "state": "retired"
     },
     {
@@ -1648,7 +1648,7 @@
       "difficulty": "Easy",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 114,
+      "solves": 113,
       "state": "retired"
     },
     {
@@ -1657,7 +1657,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 157,
+      "solves": 156,
       "state": "retired"
     },
     {
@@ -1666,7 +1666,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 249,
+      "solves": 248,
       "state": "retired"
     },
     {
@@ -1684,7 +1684,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 103,
+      "solves": 102,
       "state": "retired"
     },
     {
@@ -1693,7 +1693,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 108,
+      "solves": 109,
       "state": "retired"
     },
     {
@@ -1702,7 +1702,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 2605,
+      "solves": 2604,
       "state": "retired"
     },
     {
@@ -1711,7 +1711,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 2471,
+      "solves": 2470,
       "state": "retired"
     },
     {
@@ -1720,7 +1720,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 940,
+      "solves": 943,
       "state": "active"
     },
     {
@@ -1729,7 +1729,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 1010,
+      "solves": 1009,
       "state": "retired"
     },
     {
@@ -1747,7 +1747,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 3984,
+      "solves": 3991,
       "state": "active"
     },
     {
@@ -1756,7 +1756,7 @@
       "difficulty": "Easy",
       "category": "Mobile",
       "is_owned": false,
-      "solves": 562,
+      "solves": 561,
       "state": "retired"
     },
     {
@@ -1765,7 +1765,7 @@
       "difficulty": "Easy",
       "category": "AI/ML",
       "is_owned": false,
-      "solves": 2183,
+      "solves": 2184,
       "state": "active"
     },
     {
@@ -1774,7 +1774,7 @@
       "difficulty": "Easy",
       "category": "AI/ML",
       "is_owned": false,
-      "solves": 234,
+      "solves": 233,
       "state": "retired"
     },
     {
@@ -1783,7 +1783,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 231,
+      "solves": 230,
       "state": "retired"
     },
     {
@@ -1792,7 +1792,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 1078,
+      "solves": 1082,
       "state": "active"
     },
     {
@@ -1801,7 +1801,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 116,
+      "solves": 115,
       "state": "retired"
     },
     {
@@ -1810,7 +1810,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 125,
+      "solves": 124,
       "state": "retired"
     },
     {
@@ -1819,7 +1819,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 126,
+      "solves": 125,
       "state": "retired"
     },
     {
@@ -1828,7 +1828,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 89,
+      "solves": 88,
       "state": "retired"
     },
     {
@@ -1837,7 +1837,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 101,
+      "solves": 100,
       "state": "retired"
     },
     {
@@ -1846,7 +1846,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 74,
+      "solves": 73,
       "state": "retired"
     },
     {
@@ -1855,7 +1855,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 102,
+      "solves": 101,
       "state": "retired"
     },
     {
@@ -1882,7 +1882,7 @@
       "difficulty": "Easy",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 86,
+      "solves": 85,
       "state": "retired"
     },
     {
@@ -1900,7 +1900,7 @@
       "difficulty": "Easy",
       "category": "Blockchain",
       "is_owned": false,
-      "solves": 171,
+      "solves": 170,
       "state": "retired"
     },
     {
@@ -1909,7 +1909,7 @@
       "difficulty": "Easy",
       "category": "Blockchain",
       "is_owned": false,
-      "solves": 147,
+      "solves": 146,
       "state": "retired"
     },
     {
@@ -1918,7 +1918,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 607,
+      "solves": 606,
       "state": "retired"
     },
     {
@@ -1936,7 +1936,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 368,
+      "solves": 367,
       "state": "retired"
     },
     {
@@ -1945,7 +1945,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 217,
+      "solves": 216,
       "state": "retired"
     },
     {
@@ -1954,7 +1954,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 174,
+      "solves": 173,
       "state": "retired"
     },
     {
@@ -1963,7 +1963,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 115,
+      "solves": 114,
       "state": "retired"
     },
     {
@@ -1972,7 +1972,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 424,
+      "solves": 423,
       "state": "retired"
     },
     {
@@ -1981,7 +1981,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 243,
+      "solves": 242,
       "state": "retired"
     },
     {
@@ -1990,7 +1990,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 537,
+      "solves": 536,
       "state": "retired"
     },
     {
@@ -1999,7 +1999,7 @@
       "difficulty": "Easy",
       "category": "Blockchain",
       "is_owned": false,
-      "solves": 164,
+      "solves": 163,
       "state": "retired"
     },
     {
@@ -2008,7 +2008,7 @@
       "difficulty": "Easy",
       "category": "Blockchain",
       "is_owned": false,
-      "solves": 108,
+      "solves": 107,
       "state": "retired"
     },
     {
@@ -2017,7 +2017,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 75,
+      "solves": 74,
       "state": "retired"
     },
     {
@@ -2026,7 +2026,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 186,
+      "solves": 185,
       "state": "retired"
     },
     {
@@ -2035,7 +2035,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 140,
+      "solves": 139,
       "state": "retired"
     },
     {
@@ -2044,7 +2044,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 2238,
+      "solves": 2245,
       "state": "active"
     },
     {
@@ -2053,7 +2053,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 2588,
+      "solves": 2594,
       "state": "active"
     },
     {
@@ -2062,7 +2062,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": true,
-      "solves": 3723,
+      "solves": 3722,
       "state": "retired"
     },
     {
@@ -2071,7 +2071,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 222,
+      "solves": 221,
       "state": "retired"
     },
     {
@@ -2080,7 +2080,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 163,
+      "solves": 162,
       "state": "retired"
     },
     {
@@ -2089,7 +2089,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 220,
+      "solves": 219,
       "state": "retired"
     },
     {
@@ -2098,7 +2098,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 637,
+      "solves": 636,
       "state": "retired"
     },
     {
@@ -2107,7 +2107,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 483,
+      "solves": 482,
       "state": "retired"
     },
     {
@@ -2116,7 +2116,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 588,
+      "solves": 587,
       "state": "retired"
     },
     {
@@ -2125,7 +2125,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 343,
+      "solves": 342,
       "state": "retired"
     },
     {
@@ -2134,7 +2134,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 116,
+      "solves": 115,
       "state": "retired"
     },
     {
@@ -2152,7 +2152,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 446,
+      "solves": 445,
       "state": "retired"
     },
     {
@@ -2161,7 +2161,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 152,
+      "solves": 151,
       "state": "retired"
     },
     {
@@ -2170,7 +2170,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 249,
+      "solves": 248,
       "state": "retired"
     },
     {
@@ -2179,7 +2179,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 2137,
+      "solves": 2144,
       "state": "active"
     },
     {
@@ -2188,7 +2188,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 1605,
+      "solves": 1604,
       "state": "retired"
     },
     {
@@ -2197,7 +2197,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 1425,
+      "solves": 1424,
       "state": "retired"
     },
     {
@@ -2206,7 +2206,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 229,
+      "solves": 228,
       "state": "retired"
     },
     {
@@ -2215,7 +2215,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 1956,
+      "solves": 1958,
       "state": "retired"
     },
     {
@@ -2224,7 +2224,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": true,
-      "solves": 6447,
+      "solves": 6446,
       "state": "retired"
     },
     {
@@ -2233,7 +2233,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": true,
-      "solves": 4058,
+      "solves": 4057,
       "state": "retired"
     },
     {
@@ -2242,7 +2242,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 403,
+      "solves": 402,
       "state": "retired"
     },
     {
@@ -2260,7 +2260,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 329,
+      "solves": 328,
       "state": "retired"
     },
     {
@@ -2269,7 +2269,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 442,
+      "solves": 441,
       "state": "retired"
     },
     {
@@ -2278,7 +2278,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 3206,
+      "solves": 3205,
       "state": "retired"
     },
     {
@@ -2287,7 +2287,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 3482,
+      "solves": 3481,
       "state": "retired"
     },
     {
@@ -2296,7 +2296,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 2678,
+      "solves": 2684,
       "state": "active"
     },
     {
@@ -2305,7 +2305,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 442,
+      "solves": 441,
       "state": "retired"
     },
     {
@@ -2323,7 +2323,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 217,
+      "solves": 216,
       "state": "retired"
     },
     {
@@ -2332,7 +2332,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 112,
+      "solves": 111,
       "state": "retired"
     },
     {
@@ -2341,7 +2341,7 @@
       "difficulty": "Easy",
       "category": "ICS",
       "is_owned": false,
-      "solves": 280,
+      "solves": 279,
       "state": "retired"
     },
     {
@@ -2359,7 +2359,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 98,
+      "solves": 97,
       "state": "retired"
     },
     {
@@ -2368,7 +2368,7 @@
       "difficulty": "Easy",
       "category": "Blockchain",
       "is_owned": false,
-      "solves": 1345,
+      "solves": 1348,
       "state": "active"
     },
     {
@@ -2377,7 +2377,7 @@
       "difficulty": "Easy",
       "category": "Blockchain",
       "is_owned": false,
-      "solves": 1206,
+      "solves": 1209,
       "state": "active"
     },
     {
@@ -2386,7 +2386,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 975,
+      "solves": 974,
       "state": "retired"
     },
     {
@@ -2395,7 +2395,7 @@
       "difficulty": "Easy",
       "category": "Blockchain",
       "is_owned": false,
-      "solves": 1276,
+      "solves": 1280,
       "state": "active"
     },
     {
@@ -2404,7 +2404,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 730,
+      "solves": 729,
       "state": "retired"
     },
     {
@@ -2422,7 +2422,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 1995,
+      "solves": 2002,
       "state": "active"
     },
     {
@@ -2431,7 +2431,7 @@
       "difficulty": "Easy",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 586,
+      "solves": 585,
       "state": "retired"
     },
     {
@@ -2440,7 +2440,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 358,
+      "solves": 357,
       "state": "retired"
     },
     {
@@ -2449,7 +2449,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 275,
+      "solves": 274,
       "state": "retired"
     },
     {
@@ -2458,7 +2458,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 175,
+      "solves": 174,
       "state": "retired"
     },
     {
@@ -2467,7 +2467,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 129,
+      "solves": 128,
       "state": "retired"
     },
     {
@@ -2485,7 +2485,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 720,
+      "solves": 719,
       "state": "retired"
     },
     {
@@ -2503,7 +2503,7 @@
       "difficulty": "Easy",
       "category": "GamePwn",
       "is_owned": false,
-      "solves": 919,
+      "solves": 923,
       "state": "active"
     },
     {
@@ -2512,7 +2512,7 @@
       "difficulty": "Easy",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 2224,
+      "solves": 2223,
       "state": "retired"
     },
     {
@@ -2521,7 +2521,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 3863,
+      "solves": 3865,
       "state": "active"
     },
     {
@@ -2530,7 +2530,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 960,
+      "solves": 959,
       "state": "retired"
     },
     {
@@ -2548,7 +2548,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 126,
+      "solves": 125,
       "state": "retired"
     },
     {
@@ -2557,7 +2557,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 364,
+      "solves": 365,
       "state": "retired"
     },
     {
@@ -2566,7 +2566,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 409,
+      "solves": 408,
       "state": "retired"
     },
     {
@@ -2575,7 +2575,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 728,
+      "solves": 727,
       "state": "retired"
     },
     {
@@ -2584,7 +2584,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 308,
+      "solves": 307,
       "state": "retired"
     },
     {
@@ -2593,7 +2593,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 214,
+      "solves": 213,
       "state": "retired"
     },
     {
@@ -2611,7 +2611,7 @@
       "difficulty": "Easy",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 78,
+      "solves": 77,
       "state": "retired"
     },
     {
@@ -2620,7 +2620,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 1949,
+      "solves": 1948,
       "state": "retired"
     },
     {
@@ -2629,7 +2629,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 518,
+      "solves": 517,
       "state": "retired"
     },
     {
@@ -2638,7 +2638,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 547,
+      "solves": 546,
       "state": "retired"
     },
     {
@@ -2647,7 +2647,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 158,
+      "solves": 157,
       "state": "retired"
     },
     {
@@ -2656,7 +2656,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 158,
+      "solves": 157,
       "state": "retired"
     },
     {
@@ -2665,7 +2665,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 286,
+      "solves": 285,
       "state": "retired"
     },
     {
@@ -2692,7 +2692,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 375,
+      "solves": 376,
       "state": "retired"
     },
     {
@@ -2701,7 +2701,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 225,
+      "solves": 224,
       "state": "retired"
     },
     {
@@ -2710,7 +2710,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 4066,
+      "solves": 4065,
       "state": "retired"
     },
     {
@@ -2719,7 +2719,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 710,
+      "solves": 709,
       "state": "retired"
     },
     {
@@ -2728,7 +2728,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 153,
+      "solves": 152,
       "state": "retired"
     },
     {
@@ -2737,7 +2737,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 158,
+      "solves": 161,
       "state": "retired"
     },
     {
@@ -2746,7 +2746,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 117,
+      "solves": 116,
       "state": "retired"
     },
     {
@@ -2755,7 +2755,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 128,
+      "solves": 127,
       "state": "retired"
     },
     {
@@ -2764,7 +2764,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 853,
+      "solves": 852,
       "state": "retired"
     },
     {
@@ -2773,7 +2773,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 2367,
+      "solves": 2366,
       "state": "retired"
     },
     {
@@ -2782,7 +2782,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 458,
+      "solves": 457,
       "state": "retired"
     },
     {
@@ -2791,7 +2791,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 309,
+      "solves": 308,
       "state": "retired"
     },
     {
@@ -2800,7 +2800,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 930,
+      "solves": 929,
       "state": "retired"
     },
     {
@@ -2809,7 +2809,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 222,
+      "solves": 221,
       "state": "retired"
     },
     {
@@ -2818,7 +2818,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 386,
+      "solves": 385,
       "state": "retired"
     },
     {
@@ -2827,7 +2827,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 2102,
+      "solves": 2108,
       "state": "active"
     },
     {
@@ -2836,7 +2836,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 1070,
+      "solves": 1069,
       "state": "retired"
     },
     {
@@ -2845,7 +2845,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 5881,
+      "solves": 5884,
       "state": "active"
     },
     {
@@ -2854,7 +2854,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 512,
+      "solves": 511,
       "state": "retired"
     },
     {
@@ -2863,7 +2863,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 259,
+      "solves": 258,
       "state": "retired"
     },
     {
@@ -2872,7 +2872,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 271,
+      "solves": 270,
       "state": "retired"
     },
     {
@@ -2881,7 +2881,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 290,
+      "solves": 289,
       "state": "retired"
     },
     {
@@ -2890,7 +2890,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 609,
+      "solves": 610,
       "state": "retired"
     },
     {
@@ -2899,7 +2899,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 739,
+      "solves": 738,
       "state": "retired"
     },
     {
@@ -2908,7 +2908,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 502,
+      "solves": 501,
       "state": "retired"
     },
     {
@@ -2917,7 +2917,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 734,
+      "solves": 733,
       "state": "retired"
     },
     {
@@ -2926,7 +2926,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 354,
+      "solves": 353,
       "state": "retired"
     },
     {
@@ -2935,7 +2935,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 143,
+      "solves": 142,
       "state": "retired"
     },
     {
@@ -2944,7 +2944,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 131,
+      "solves": 130,
       "state": "retired"
     },
     {
@@ -2953,7 +2953,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 232,
+      "solves": 231,
       "state": "retired"
     },
     {
@@ -2962,7 +2962,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 1189,
+      "solves": 1188,
       "state": "retired"
     },
     {
@@ -2971,7 +2971,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 362,
+      "solves": 361,
       "state": "retired"
     },
     {
@@ -2980,7 +2980,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 612,
+      "solves": 611,
       "state": "retired"
     },
     {
@@ -2989,7 +2989,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 987,
+      "solves": 986,
       "state": "retired"
     },
     {
@@ -2998,7 +2998,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 1694,
+      "solves": 1693,
       "state": "retired"
     },
     {
@@ -3007,7 +3007,7 @@
       "difficulty": "Easy",
       "category": "GamePwn",
       "is_owned": false,
-      "solves": 1570,
+      "solves": 1573,
       "state": "active"
     },
     {
@@ -3016,7 +3016,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 2121,
+      "solves": 2122,
       "state": "active"
     },
     {
@@ -3025,7 +3025,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 8389,
+      "solves": 8388,
       "state": "retired"
     },
     {
@@ -3034,7 +3034,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 2049,
+      "solves": 2054,
       "state": "active"
     },
     {
@@ -3043,7 +3043,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 2505,
+      "solves": 2504,
       "state": "retired"
     },
     {
@@ -3052,7 +3052,7 @@
       "difficulty": "Easy",
       "category": "Mobile",
       "is_owned": false,
-      "solves": 1185,
+      "solves": 1184,
       "state": "retired"
     },
     {
@@ -3061,7 +3061,7 @@
       "difficulty": "Easy",
       "category": "Mobile",
       "is_owned": false,
-      "solves": 1275,
+      "solves": 1274,
       "state": "retired"
     },
     {
@@ -3070,7 +3070,7 @@
       "difficulty": "Easy",
       "category": "Mobile",
       "is_owned": false,
-      "solves": 530,
+      "solves": 529,
       "state": "retired"
     },
     {
@@ -3079,7 +3079,7 @@
       "difficulty": "Easy",
       "category": "Mobile",
       "is_owned": false,
-      "solves": 784,
+      "solves": 783,
       "state": "retired"
     },
     {
@@ -3088,7 +3088,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 946,
+      "solves": 945,
       "state": "retired"
     },
     {
@@ -3106,7 +3106,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 314,
+      "solves": 313,
       "state": "retired"
     },
     {
@@ -3115,7 +3115,7 @@
       "difficulty": "Easy",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 108,
+      "solves": 107,
       "state": "retired"
     },
     {
@@ -3124,7 +3124,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 1100,
+      "solves": 1099,
       "state": "retired"
     },
     {
@@ -3133,7 +3133,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 2521,
+      "solves": 2532,
       "state": "active"
     },
     {
@@ -3142,7 +3142,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 1904,
+      "solves": 1910,
       "state": "active"
     },
     {
@@ -3151,7 +3151,7 @@
       "difficulty": "Easy",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 875,
+      "solves": 874,
       "state": "retired"
     },
     {
@@ -3160,7 +3160,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 1473,
+      "solves": 1472,
       "state": "retired"
     },
     {
@@ -3169,7 +3169,7 @@
       "difficulty": "Easy",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 2683,
+      "solves": 2688,
       "state": "active"
     },
     {
@@ -3178,7 +3178,7 @@
       "difficulty": "Easy",
       "category": "Mobile",
       "is_owned": false,
-      "solves": 4860,
+      "solves": 4864,
       "state": "active"
     },
     {
@@ -3187,7 +3187,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 3957,
+      "solves": 3964,
       "state": "active"
     },
     {
@@ -3196,7 +3196,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 824,
+      "solves": 823,
       "state": "retired"
     },
     {
@@ -3205,7 +3205,7 @@
       "difficulty": "Easy",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 2954,
+      "solves": 2953,
       "state": "retired"
     },
     {
@@ -3214,7 +3214,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 3105,
+      "solves": 3104,
       "state": "retired"
     },
     {
@@ -3223,7 +3223,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 3152,
+      "solves": 3157,
       "state": "active"
     },
     {
@@ -3232,7 +3232,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 6806,
+      "solves": 6805,
       "state": "retired"
     },
     {
@@ -3241,7 +3241,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 2669,
+      "solves": 2668,
       "state": "retired"
     },
     {
@@ -3250,7 +3250,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 3164,
+      "solves": 3163,
       "state": "retired"
     },
     {
@@ -3259,7 +3259,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 9922,
+      "solves": 9921,
       "state": "retired"
     },
     {
@@ -3268,7 +3268,7 @@
       "difficulty": "Easy",
       "category": "ICS",
       "is_owned": false,
-      "solves": 2380,
+      "solves": 2383,
       "state": "active"
     },
     {
@@ -3277,7 +3277,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 2211,
+      "solves": 2210,
       "state": "retired"
     },
     {
@@ -3286,7 +3286,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 1499,
+      "solves": 1498,
       "state": "retired"
     },
     {
@@ -3295,7 +3295,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 993,
+      "solves": 992,
       "state": "retired"
     },
     {
@@ -3304,7 +3304,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 697,
+      "solves": 696,
       "state": "retired"
     },
     {
@@ -3313,7 +3313,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 439,
+      "solves": 438,
       "state": "retired"
     },
     {
@@ -3322,7 +3322,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 407,
+      "solves": 406,
       "state": "retired"
     },
     {
@@ -3331,7 +3331,7 @@
       "difficulty": "Easy",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 72,
+      "solves": 71,
       "state": "retired"
     },
     {
@@ -3340,7 +3340,7 @@
       "difficulty": "Easy",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 165,
+      "solves": 164,
       "state": "retired"
     },
     {
@@ -3349,7 +3349,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 2496,
+      "solves": 2495,
       "state": "retired"
     },
     {
@@ -3358,7 +3358,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 4628,
+      "solves": 4637,
       "state": "active"
     },
     {
@@ -3367,7 +3367,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 14869,
+      "solves": 14868,
       "state": "retired"
     },
     {
@@ -3376,7 +3376,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 6647,
+      "solves": 6646,
       "state": "retired"
     },
     {
@@ -3394,7 +3394,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 11167,
+      "solves": 11166,
       "state": "retired"
     },
     {
@@ -3403,7 +3403,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 3038,
+      "solves": 3037,
       "state": "retired"
     },
     {
@@ -3412,7 +3412,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 4781,
+      "solves": 4785,
       "state": "active"
     },
     {
@@ -3421,7 +3421,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 3870,
+      "solves": 3869,
       "state": "retired"
     },
     {
@@ -3430,7 +3430,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 2408,
+      "solves": 2407,
       "state": "retired"
     },
     {
@@ -3439,7 +3439,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 1564,
+      "solves": 1563,
       "state": "retired"
     },
     {
@@ -3448,7 +3448,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 1498,
+      "solves": 1497,
       "state": "retired"
     },
     {
@@ -3466,7 +3466,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 1217,
+      "solves": 1216,
       "state": "retired"
     },
     {
@@ -3475,7 +3475,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 1108,
+      "solves": 1107,
       "state": "retired"
     },
     {
@@ -3484,7 +3484,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 812,
+      "solves": 811,
       "state": "retired"
     },
     {
@@ -3493,7 +3493,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 2181,
+      "solves": 2180,
       "state": "retired"
     },
     {
@@ -3511,7 +3511,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 732,
+      "solves": 731,
       "state": "retired"
     },
     {
@@ -3529,7 +3529,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 799,
+      "solves": 798,
       "state": "retired"
     },
     {
@@ -3538,7 +3538,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 447,
+      "solves": 446,
       "state": "retired"
     },
     {
@@ -3547,7 +3547,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 479,
+      "solves": 478,
       "state": "retired"
     },
     {
@@ -3556,7 +3556,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 322,
+      "solves": 321,
       "state": "retired"
     },
     {
@@ -3565,7 +3565,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 530,
+      "solves": 529,
       "state": "retired"
     },
     {
@@ -3574,7 +3574,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 423,
+      "solves": 422,
       "state": "retired"
     },
     {
@@ -3583,7 +3583,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": true,
-      "solves": 7599,
+      "solves": 7598,
       "state": "retired"
     },
     {
@@ -3592,7 +3592,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": true,
-      "solves": 7216,
+      "solves": 7215,
       "state": "retired"
     },
     {
@@ -3601,7 +3601,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": true,
-      "solves": 6373,
+      "solves": 6372,
       "state": "retired"
     },
     {
@@ -3628,7 +3628,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": true,
-      "solves": 3325,
+      "solves": 3324,
       "state": "retired"
     },
     {
@@ -3655,7 +3655,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": true,
-      "solves": 2301,
+      "solves": 2300,
       "state": "retired"
     },
     {
@@ -3664,7 +3664,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": true,
-      "solves": 1606,
+      "solves": 1605,
       "state": "retired"
     },
     {
@@ -3673,7 +3673,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 1185,
+      "solves": 1184,
       "state": "retired"
     },
     {
@@ -3682,7 +3682,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": true,
-      "solves": 10969,
+      "solves": 10968,
       "state": "retired"
     },
     {
@@ -3691,7 +3691,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 19261,
+      "solves": 19260,
       "state": "retired"
     },
     {
@@ -3709,7 +3709,7 @@
       "difficulty": "Easy",
       "category": "Web",
       "is_owned": false,
-      "solves": 3008,
+      "solves": 3007,
       "state": "retired"
     },
     {
@@ -3727,7 +3727,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 1019,
+      "solves": 1018,
       "state": "retired"
     },
     {
@@ -3736,7 +3736,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 2949,
+      "solves": 2948,
       "state": "retired"
     },
     {
@@ -3745,7 +3745,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 3131,
+      "solves": 3130,
       "state": "retired"
     },
     {
@@ -3754,7 +3754,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 6085,
+      "solves": 6084,
       "state": "retired"
     },
     {
@@ -3763,7 +3763,7 @@
       "difficulty": "Easy",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 3374,
+      "solves": 3379,
       "state": "active"
     },
     {
@@ -3772,7 +3772,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": true,
-      "solves": 4733,
+      "solves": 4732,
       "state": "retired"
     },
     {
@@ -3790,7 +3790,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 9721,
+      "solves": 9724,
       "state": "active"
     },
     {
@@ -3799,7 +3799,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 3005,
+      "solves": 3004,
       "state": "retired"
     },
     {
@@ -3808,7 +3808,7 @@
       "difficulty": "Easy",
       "category": "Mobile",
       "is_owned": false,
-      "solves": 15792,
+      "solves": 15798,
       "state": "active"
     },
     {
@@ -3817,7 +3817,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 13187,
+      "solves": 13191,
       "state": "active"
     },
     {
@@ -3826,7 +3826,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 2906,
+      "solves": 2905,
       "state": "retired"
     },
     {
@@ -3835,7 +3835,7 @@
       "difficulty": "Easy",
       "category": "Pwn",
       "is_owned": true,
-      "solves": 16426,
+      "solves": 16425,
       "state": "retired"
     },
     {
@@ -3844,7 +3844,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 5059,
+      "solves": 5058,
       "state": "retired"
     },
     {
@@ -3853,7 +3853,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 23070,
+      "solves": 23069,
       "state": "retired"
     },
     {
@@ -3862,7 +3862,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 2768,
+      "solves": 2767,
       "state": "retired"
     },
     {
@@ -3871,7 +3871,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 2451,
+      "solves": 2450,
       "state": "retired"
     },
     {
@@ -3880,7 +3880,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 22008,
+      "solves": 22007,
       "state": "retired"
     },
     {
@@ -3889,7 +3889,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 7499,
+      "solves": 7505,
       "state": "active"
     },
     {
@@ -3907,7 +3907,7 @@
       "difficulty": "Easy",
       "category": "OSINT",
       "is_owned": false,
-      "solves": 25030,
+      "solves": 25031,
       "state": "retired"
     },
     {
@@ -3925,7 +3925,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 12867,
+      "solves": 12866,
       "state": "retired"
     },
     {
@@ -3934,7 +3934,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 16068,
+      "solves": 16067,
       "state": "retired"
     },
     {
@@ -3943,7 +3943,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 11398,
+      "solves": 11397,
       "state": "retired"
     },
     {
@@ -3952,7 +3952,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 11601,
+      "solves": 11600,
       "state": "retired"
     },
     {
@@ -3961,7 +3961,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 8410,
+      "solves": 8409,
       "state": "retired"
     },
     {
@@ -3970,7 +3970,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 5338,
+      "solves": 5337,
       "state": "retired"
     },
     {
@@ -3979,7 +3979,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 13725,
+      "solves": 13724,
       "state": "retired"
     },
     {
@@ -3988,7 +3988,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 7887,
+      "solves": 7886,
       "state": "retired"
     },
     {
@@ -3997,7 +3997,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 16459,
+      "solves": 16458,
       "state": "retired"
     },
     {
@@ -4006,7 +4006,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 22192,
+      "solves": 22191,
       "state": "retired"
     },
     {
@@ -4015,7 +4015,7 @@
       "difficulty": "Easy",
       "category": "Forensics",
       "is_owned": true,
-      "solves": 4861,
+      "solves": 4860,
       "state": "retired"
     },
     {
@@ -4024,7 +4024,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 10034,
+      "solves": 10033,
       "state": "retired"
     },
     {
@@ -4033,7 +4033,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 7038,
+      "solves": 7037,
       "state": "retired"
     },
     {
@@ -4042,7 +4042,7 @@
       "difficulty": "Easy",
       "category": "Misc",
       "is_owned": false,
-      "solves": 11580,
+      "solves": 11579,
       "state": "retired"
     },
     {
@@ -4069,7 +4069,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 2350,
+      "solves": 2349,
       "state": "retired"
     },
     {
@@ -4078,7 +4078,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 10201,
+      "solves": 10200,
       "state": "retired"
     },
     {
@@ -4087,7 +4087,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": true,
-      "solves": 25852,
+      "solves": 25851,
       "state": "retired"
     },
     {
@@ -4096,7 +4096,7 @@
       "difficulty": "Easy",
       "category": "Crypto",
       "is_owned": true,
-      "solves": 18472,
+      "solves": 18471,
       "state": "retired"
     },
     {
@@ -4105,7 +4105,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 3344,
+      "solves": 3343,
       "state": "retired"
     },
     {
@@ -4114,7 +4114,7 @@
       "difficulty": "Easy",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 4893,
+      "solves": 4892,
       "state": "retired"
     },
     {
@@ -4123,7 +4123,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 284,
+      "solves": 290,
       "state": "retired_free"
     },
     {
@@ -4132,7 +4132,7 @@
       "difficulty": "Medium",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 343,
+      "solves": 345,
       "state": "active"
     },
     {
@@ -4141,7 +4141,7 @@
       "difficulty": "Medium",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 256,
+      "solves": 258,
       "state": "active"
     },
     {
@@ -4150,7 +4150,7 @@
       "difficulty": "Medium",
       "category": "Misc",
       "is_owned": false,
-      "solves": 486,
+      "solves": 488,
       "state": "active"
     },
     {
@@ -4159,7 +4159,7 @@
       "difficulty": "Medium",
       "category": "Satellite",
       "is_owned": false,
-      "solves": 500,
+      "solves": 503,
       "state": "active"
     },
     {
@@ -4168,7 +4168,7 @@
       "difficulty": "Medium",
       "category": "Satellite",
       "is_owned": false,
-      "solves": 538,
+      "solves": 541,
       "state": "active"
     },
     {
@@ -4177,7 +4177,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 635,
+      "solves": 638,
       "state": "active"
     },
     {
@@ -4186,7 +4186,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 437,
+      "solves": 440,
       "state": "active"
     },
     {
@@ -4195,7 +4195,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 784,
+      "solves": 789,
       "state": "active"
     },
     {
@@ -4204,7 +4204,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 878,
+      "solves": 881,
       "state": "active"
     },
     {
@@ -4213,7 +4213,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 415,
+      "solves": 414,
       "state": "retired"
     },
     {
@@ -4222,7 +4222,7 @@
       "difficulty": "Medium",
       "category": "Misc",
       "is_owned": false,
-      "solves": 552,
+      "solves": 555,
       "state": "active"
     },
     {
@@ -4231,7 +4231,7 @@
       "difficulty": "Medium",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 570,
+      "solves": 571,
       "state": "active"
     },
     {
@@ -4249,7 +4249,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 585,
+      "solves": 589,
       "state": "active"
     },
     {
@@ -4258,7 +4258,7 @@
       "difficulty": "Medium",
       "category": "Misc",
       "is_owned": false,
-      "solves": 455,
+      "solves": 460,
       "state": "active"
     },
     {
@@ -4267,7 +4267,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 449,
+      "solves": 452,
       "state": "active"
     },
     {
@@ -4276,7 +4276,7 @@
       "difficulty": "Medium",
       "category": "ICS",
       "is_owned": false,
-      "solves": 588,
+      "solves": 592,
       "state": "active"
     },
     {
@@ -4285,7 +4285,7 @@
       "difficulty": "Medium",
       "category": "ICS",
       "is_owned": false,
-      "solves": 475,
+      "solves": 477,
       "state": "active"
     },
     {
@@ -4294,7 +4294,7 @@
       "difficulty": "Medium",
       "category": "Mobile",
       "is_owned": false,
-      "solves": 438,
+      "solves": 440,
       "state": "active"
     },
     {
@@ -4303,7 +4303,7 @@
       "difficulty": "Medium",
       "category": "Quantum",
       "is_owned": false,
-      "solves": 502,
+      "solves": 505,
       "state": "active"
     },
     {
@@ -4312,7 +4312,7 @@
       "difficulty": "Medium",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 928,
+      "solves": 931,
       "state": "active"
     },
     {
@@ -4321,7 +4321,7 @@
       "difficulty": "Medium",
       "category": "Mobile",
       "is_owned": false,
-      "solves": 414,
+      "solves": 416,
       "state": "active"
     },
     {
@@ -4330,7 +4330,7 @@
       "difficulty": "Medium",
       "category": "GamePwn",
       "is_owned": false,
-      "solves": 447,
+      "solves": 450,
       "state": "active"
     },
     {
@@ -4339,7 +4339,7 @@
       "difficulty": "Medium",
       "category": "Secure Coding",
       "is_owned": false,
-      "solves": 732,
+      "solves": 734,
       "state": "active"
     },
     {
@@ -4348,7 +4348,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 280,
+      "solves": 279,
       "state": "retired"
     },
     {
@@ -4393,7 +4393,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 79,
+      "solves": 78,
       "state": "retired"
     },
     {
@@ -4402,7 +4402,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 62,
+      "solves": 61,
       "state": "retired"
     },
     {
@@ -4411,7 +4411,7 @@
       "difficulty": "Medium",
       "category": "Coding",
       "is_owned": false,
-      "solves": 169,
+      "solves": 171,
       "state": "retired"
     },
     {
@@ -4420,7 +4420,7 @@
       "difficulty": "Medium",
       "category": "Coding",
       "is_owned": false,
-      "solves": 148,
+      "solves": 150,
       "state": "retired"
     },
     {
@@ -4429,7 +4429,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 77,
+      "solves": 76,
       "state": "retired"
     },
     {
@@ -4438,7 +4438,7 @@
       "difficulty": "Medium",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 749,
+      "solves": 753,
       "state": "active"
     },
     {
@@ -4447,7 +4447,7 @@
       "difficulty": "Medium",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 528,
+      "solves": 530,
       "state": "active"
     },
     {
@@ -4456,7 +4456,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 66,
+      "solves": 65,
       "state": "retired"
     },
     {
@@ -4483,7 +4483,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 547,
+      "solves": 549,
       "state": "active"
     },
     {
@@ -4492,7 +4492,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 1283,
+      "solves": 1282,
       "state": "retired"
     },
     {
@@ -4501,7 +4501,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 686,
+      "solves": 688,
       "state": "active"
     },
     {
@@ -4510,7 +4510,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 736,
+      "solves": 735,
       "state": "retired"
     },
     {
@@ -4537,7 +4537,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 69,
+      "solves": 68,
       "state": "retired"
     },
     {
@@ -4546,7 +4546,7 @@
       "difficulty": "Medium",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 111,
+      "solves": 110,
       "state": "retired"
     },
     {
@@ -4555,7 +4555,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 1089,
+      "solves": 1091,
       "state": "active"
     },
     {
@@ -4564,7 +4564,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 505,
+      "solves": 504,
       "state": "retired"
     },
     {
@@ -4573,7 +4573,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 952,
+      "solves": 955,
       "state": "active"
     },
     {
@@ -4582,7 +4582,7 @@
       "difficulty": "Medium",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 627,
+      "solves": 631,
       "state": "active"
     },
     {
@@ -4591,7 +4591,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 536,
+      "solves": 538,
       "state": "active"
     },
     {
@@ -4600,7 +4600,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 1030,
+      "solves": 1032,
       "state": "active"
     },
     {
@@ -4609,7 +4609,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 1414,
+      "solves": 1417,
       "state": "active"
     },
     {
@@ -4618,7 +4618,7 @@
       "difficulty": "Medium",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 49,
+      "solves": 48,
       "state": "retired"
     },
     {
@@ -4627,7 +4627,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 130,
+      "solves": 129,
       "state": "retired"
     },
     {
@@ -4636,7 +4636,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 86,
+      "solves": 85,
       "state": "retired"
     },
     {
@@ -4645,7 +4645,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 62,
+      "solves": 61,
       "state": "retired"
     },
     {
@@ -4663,7 +4663,7 @@
       "difficulty": "Medium",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 633,
+      "solves": 636,
       "state": "active"
     },
     {
@@ -4672,7 +4672,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 666,
+      "solves": 665,
       "state": "active"
     },
     {
@@ -4681,7 +4681,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 1022,
+      "solves": 1021,
       "state": "retired"
     },
     {
@@ -4690,7 +4690,7 @@
       "difficulty": "Medium",
       "category": "AI/ML",
       "is_owned": false,
-      "solves": 2396,
+      "solves": 2400,
       "state": "active"
     },
     {
@@ -4699,7 +4699,7 @@
       "difficulty": "Medium",
       "category": "AI/ML",
       "is_owned": false,
-      "solves": 1305,
+      "solves": 1307,
       "state": "active"
     },
     {
@@ -4726,7 +4726,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 661,
+      "solves": 664,
       "state": "active"
     },
     {
@@ -4735,7 +4735,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 106,
+      "solves": 105,
       "state": "retired"
     },
     {
@@ -4744,7 +4744,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 82,
+      "solves": 81,
       "state": "retired"
     },
     {
@@ -4753,7 +4753,7 @@
       "difficulty": "Medium",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 94,
+      "solves": 95,
       "state": "retired"
     },
     {
@@ -4771,7 +4771,7 @@
       "difficulty": "Medium",
       "category": "Misc",
       "is_owned": false,
-      "solves": 54,
+      "solves": 53,
       "state": "retired"
     },
     {
@@ -4798,7 +4798,7 @@
       "difficulty": "Medium",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 53,
+      "solves": 52,
       "state": "retired"
     },
     {
@@ -4834,7 +4834,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 82,
+      "solves": 81,
       "state": "retired"
     },
     {
@@ -4843,7 +4843,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 1372,
+      "solves": 1375,
       "state": "active"
     },
     {
@@ -4852,7 +4852,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 148,
+      "solves": 147,
       "state": "retired"
     },
     {
@@ -4861,7 +4861,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 93,
+      "solves": 94,
       "state": "retired"
     },
     {
@@ -4897,7 +4897,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 120,
+      "solves": 119,
       "state": "retired"
     },
     {
@@ -4906,7 +4906,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 58,
+      "solves": 57,
       "state": "retired"
     },
     {
@@ -4933,7 +4933,7 @@
       "difficulty": "Medium",
       "category": "Misc",
       "is_owned": false,
-      "solves": 66,
+      "solves": 67,
       "state": "retired"
     },
     {
@@ -4951,7 +4951,7 @@
       "difficulty": "Medium",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 194,
+      "solves": 193,
       "state": "retired"
     },
     {
@@ -4960,7 +4960,7 @@
       "difficulty": "Medium",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 132,
+      "solves": 131,
       "state": "retired"
     },
     {
@@ -4969,7 +4969,7 @@
       "difficulty": "Medium",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 61,
+      "solves": 60,
       "state": "retired"
     },
     {
@@ -4987,7 +4987,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 96,
+      "solves": 95,
       "state": "retired"
     },
     {
@@ -4996,7 +4996,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 1098,
+      "solves": 1101,
       "state": "active"
     },
     {
@@ -5005,7 +5005,7 @@
       "difficulty": "Medium",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 296,
+      "solves": 297,
       "state": "retired"
     },
     {
@@ -5014,7 +5014,7 @@
       "difficulty": "Medium",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 862,
+      "solves": 868,
       "state": "active"
     },
     {
@@ -5023,7 +5023,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 1252,
+      "solves": 1256,
       "state": "active"
     },
     {
@@ -5032,7 +5032,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 629,
+      "solves": 628,
       "state": "retired"
     },
     {
@@ -5041,7 +5041,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 1138,
+      "solves": 1140,
       "state": "active"
     },
     {
@@ -5068,7 +5068,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 153,
+      "solves": 152,
       "state": "retired"
     },
     {
@@ -5077,7 +5077,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 117,
+      "solves": 116,
       "state": "retired"
     },
     {
@@ -5086,7 +5086,7 @@
       "difficulty": "Medium",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 103,
+      "solves": 102,
       "state": "retired"
     },
     {
@@ -5104,7 +5104,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 302,
+      "solves": 303,
       "state": "retired"
     },
     {
@@ -5113,7 +5113,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 760,
+      "solves": 759,
       "state": "retired"
     },
     {
@@ -5122,7 +5122,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 987,
+      "solves": 991,
       "state": "active"
     },
     {
@@ -5131,7 +5131,7 @@
       "difficulty": "Medium",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 996,
+      "solves": 998,
       "state": "active"
     },
     {
@@ -5140,7 +5140,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 1389,
+      "solves": 1388,
       "state": "retired"
     },
     {
@@ -5158,7 +5158,7 @@
       "difficulty": "Medium",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 1858,
+      "solves": 1859,
       "state": "active"
     },
     {
@@ -5167,7 +5167,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 152,
+      "solves": 151,
       "state": "retired"
     },
     {
@@ -5185,7 +5185,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 125,
+      "solves": 124,
       "state": "retired"
     },
     {
@@ -5194,7 +5194,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 626,
+      "solves": 628,
       "state": "active"
     },
     {
@@ -5203,7 +5203,7 @@
       "difficulty": "Medium",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 754,
+      "solves": 757,
       "state": "active"
     },
     {
@@ -5212,7 +5212,7 @@
       "difficulty": "Medium",
       "category": "Blockchain",
       "is_owned": false,
-      "solves": 901,
+      "solves": 906,
       "state": "active"
     },
     {
@@ -5221,7 +5221,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 65,
+      "solves": 66,
       "state": "retired"
     },
     {
@@ -5230,7 +5230,7 @@
       "difficulty": "Medium",
       "category": "Blockchain",
       "is_owned": false,
-      "solves": 891,
+      "solves": 895,
       "state": "active"
     },
     {
@@ -5239,7 +5239,7 @@
       "difficulty": "Medium",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 164,
+      "solves": 163,
       "state": "retired"
     },
     {
@@ -5248,7 +5248,7 @@
       "difficulty": "Medium",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 90,
+      "solves": 89,
       "state": "retired"
     },
     {
@@ -5275,7 +5275,7 @@
       "difficulty": "Medium",
       "category": "ICS",
       "is_owned": false,
-      "solves": 129,
+      "solves": 128,
       "state": "retired"
     },
     {
@@ -5293,7 +5293,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 1192,
+      "solves": 1193,
       "state": "active"
     },
     {
@@ -5302,7 +5302,7 @@
       "difficulty": "Medium",
       "category": "Blockchain",
       "is_owned": false,
-      "solves": 914,
+      "solves": 919,
       "state": "active"
     },
     {
@@ -5320,7 +5320,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 64,
+      "solves": 63,
       "state": "retired"
     },
     {
@@ -5329,7 +5329,7 @@
       "difficulty": "Medium",
       "category": "Mobile",
       "is_owned": false,
-      "solves": 431,
+      "solves": 430,
       "state": "retired"
     },
     {
@@ -5347,7 +5347,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 135,
+      "solves": 134,
       "state": "retired"
     },
     {
@@ -5356,7 +5356,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 170,
+      "solves": 169,
       "state": "retired"
     },
     {
@@ -5383,7 +5383,7 @@
       "difficulty": "Medium",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 168,
+      "solves": 167,
       "state": "retired"
     },
     {
@@ -5392,7 +5392,7 @@
       "difficulty": "Medium",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 171,
+      "solves": 170,
       "state": "retired"
     },
     {
@@ -5410,7 +5410,7 @@
       "difficulty": "Medium",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 87,
+      "solves": 88,
       "state": "retired"
     },
     {
@@ -5419,7 +5419,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 102,
+      "solves": 101,
       "state": "retired"
     },
     {
@@ -5428,7 +5428,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 861,
+      "solves": 860,
       "state": "retired"
     },
     {
@@ -5473,7 +5473,7 @@
       "difficulty": "Medium",
       "category": "Mobile",
       "is_owned": false,
-      "solves": 373,
+      "solves": 372,
       "state": "retired"
     },
     {
@@ -5482,7 +5482,7 @@
       "difficulty": "Medium",
       "category": "Misc",
       "is_owned": false,
-      "solves": 956,
+      "solves": 957,
       "state": "active"
     },
     {
@@ -5491,7 +5491,7 @@
       "difficulty": "Medium",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 865,
+      "solves": 869,
       "state": "active"
     },
     {
@@ -5500,7 +5500,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 146,
+      "solves": 145,
       "state": "retired"
     },
     {
@@ -5518,7 +5518,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 134,
+      "solves": 133,
       "state": "retired"
     },
     {
@@ -5536,7 +5536,7 @@
       "difficulty": "Medium",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 80,
+      "solves": 81,
       "state": "retired"
     },
     {
@@ -5545,7 +5545,7 @@
       "difficulty": "Medium",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 103,
+      "solves": 102,
       "state": "retired"
     },
     {
@@ -5563,7 +5563,7 @@
       "difficulty": "Medium",
       "category": "GamePwn",
       "is_owned": false,
-      "solves": 780,
+      "solves": 782,
       "state": "active"
     },
     {
@@ -5572,7 +5572,7 @@
       "difficulty": "Medium",
       "category": "Misc",
       "is_owned": false,
-      "solves": 187,
+      "solves": 186,
       "state": "retired"
     },
     {
@@ -5581,7 +5581,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 586,
+      "solves": 585,
       "state": "retired"
     },
     {
@@ -5590,7 +5590,7 @@
       "difficulty": "Medium",
       "category": "Mobile",
       "is_owned": false,
-      "solves": 929,
+      "solves": 928,
       "state": "retired"
     },
     {
@@ -5626,7 +5626,7 @@
       "difficulty": "Medium",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 50,
+      "solves": 49,
       "state": "retired"
     },
     {
@@ -5635,7 +5635,7 @@
       "difficulty": "Medium",
       "category": "Mobile",
       "is_owned": false,
-      "solves": 602,
+      "solves": 601,
       "state": "retired"
     },
     {
@@ -5644,7 +5644,7 @@
       "difficulty": "Medium",
       "category": "GamePwn",
       "is_owned": false,
-      "solves": 783,
+      "solves": 785,
       "state": "active"
     },
     {
@@ -5653,7 +5653,7 @@
       "difficulty": "Medium",
       "category": "Misc",
       "is_owned": false,
-      "solves": 672,
+      "solves": 671,
       "state": "retired"
     },
     {
@@ -5671,7 +5671,7 @@
       "difficulty": "Medium",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 741,
+      "solves": 744,
       "state": "active"
     },
     {
@@ -5680,7 +5680,7 @@
       "difficulty": "Medium",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 75,
+      "solves": 76,
       "state": "retired"
     },
     {
@@ -5689,7 +5689,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 87,
+      "solves": 86,
       "state": "retired"
     },
     {
@@ -5698,7 +5698,7 @@
       "difficulty": "Medium",
       "category": "ICS",
       "is_owned": false,
-      "solves": 152,
+      "solves": 151,
       "state": "retired"
     },
     {
@@ -5707,7 +5707,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 148,
+      "solves": 147,
       "state": "retired"
     },
     {
@@ -5716,7 +5716,7 @@
       "difficulty": "Medium",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 105,
+      "solves": 106,
       "state": "retired"
     },
     {
@@ -5725,7 +5725,7 @@
       "difficulty": "Medium",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 337,
+      "solves": 336,
       "state": "retired"
     },
     {
@@ -5734,7 +5734,7 @@
       "difficulty": "Medium",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 144,
+      "solves": 143,
       "state": "retired"
     },
     {
@@ -5743,7 +5743,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 115,
+      "solves": 114,
       "state": "retired"
     },
     {
@@ -5761,7 +5761,7 @@
       "difficulty": "Medium",
       "category": "Misc",
       "is_owned": false,
-      "solves": 99,
+      "solves": 98,
       "state": "retired"
     },
     {
@@ -5770,7 +5770,7 @@
       "difficulty": "Medium",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 211,
+      "solves": 210,
       "state": "retired"
     },
     {
@@ -5779,7 +5779,7 @@
       "difficulty": "Medium",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 129,
+      "solves": 128,
       "state": "retired"
     },
     {
@@ -5788,7 +5788,7 @@
       "difficulty": "Medium",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 241,
+      "solves": 240,
       "state": "retired"
     },
     {
@@ -5797,7 +5797,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 295,
+      "solves": 294,
       "state": "retired"
     },
     {
@@ -5806,7 +5806,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 299,
+      "solves": 298,
       "state": "retired"
     },
     {
@@ -5824,7 +5824,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 244,
+      "solves": 243,
       "state": "retired"
     },
     {
@@ -5833,7 +5833,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 129,
+      "solves": 128,
       "state": "retired"
     },
     {
@@ -5851,7 +5851,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 221,
+      "solves": 220,
       "state": "retired"
     },
     {
@@ -5860,7 +5860,7 @@
       "difficulty": "Medium",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 67,
+      "solves": 68,
       "state": "retired"
     },
     {
@@ -5887,7 +5887,7 @@
       "difficulty": "Medium",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 94,
+      "solves": 95,
       "state": "retired"
     },
     {
@@ -5896,7 +5896,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 363,
+      "solves": 362,
       "state": "retired"
     },
     {
@@ -5905,7 +5905,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 144,
+      "solves": 143,
       "state": "retired"
     },
     {
@@ -5914,7 +5914,7 @@
       "difficulty": "Medium",
       "category": "GamePwn",
       "is_owned": false,
-      "solves": 1714,
+      "solves": 1717,
       "state": "active"
     },
     {
@@ -5923,7 +5923,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 291,
+      "solves": 290,
       "state": "retired"
     },
     {
@@ -5932,7 +5932,7 @@
       "difficulty": "Medium",
       "category": "GamePwn",
       "is_owned": false,
-      "solves": 597,
+      "solves": 596,
       "state": "retired"
     },
     {
@@ -5941,7 +5941,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 1142,
+      "solves": 1145,
       "state": "active"
     },
     {
@@ -5950,7 +5950,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 81,
+      "solves": 80,
       "state": "retired"
     },
     {
@@ -5959,7 +5959,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 719,
+      "solves": 718,
       "state": "retired"
     },
     {
@@ -5968,7 +5968,7 @@
       "difficulty": "Medium",
       "category": "GamePwn",
       "is_owned": false,
-      "solves": 844,
+      "solves": 846,
       "state": "active"
     },
     {
@@ -5977,7 +5977,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 396,
+      "solves": 395,
       "state": "retired"
     },
     {
@@ -5986,7 +5986,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 377,
+      "solves": 376,
       "state": "retired"
     },
     {
@@ -5995,7 +5995,7 @@
       "difficulty": "Medium",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 819,
+      "solves": 820,
       "state": "active"
     },
     {
@@ -6004,7 +6004,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 493,
+      "solves": 492,
       "state": "retired"
     },
     {
@@ -6013,7 +6013,7 @@
       "difficulty": "Medium",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 1765,
+      "solves": 1769,
       "state": "active"
     },
     {
@@ -6022,7 +6022,7 @@
       "difficulty": "Medium",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 895,
+      "solves": 899,
       "state": "active"
     },
     {
@@ -6031,7 +6031,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 231,
+      "solves": 230,
       "state": "retired"
     },
     {
@@ -6040,7 +6040,7 @@
       "difficulty": "Medium",
       "category": "Mobile",
       "is_owned": false,
-      "solves": 2077,
+      "solves": 2076,
       "state": "retired"
     },
     {
@@ -6049,7 +6049,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 775,
+      "solves": 777,
       "state": "active"
     },
     {
@@ -6058,7 +6058,7 @@
       "difficulty": "Medium",
       "category": "Misc",
       "is_owned": false,
-      "solves": 157,
+      "solves": 156,
       "state": "retired"
     },
     {
@@ -6067,7 +6067,7 @@
       "difficulty": "Medium",
       "category": "AI/ML",
       "is_owned": false,
-      "solves": 311,
+      "solves": 312,
       "state": "retired"
     },
     {
@@ -6076,7 +6076,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 139,
+      "solves": 138,
       "state": "retired"
     },
     {
@@ -6085,7 +6085,7 @@
       "difficulty": "Medium",
       "category": "Misc",
       "is_owned": false,
-      "solves": 96,
+      "solves": 95,
       "state": "retired"
     },
     {
@@ -6094,7 +6094,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 208,
+      "solves": 207,
       "state": "retired"
     },
     {
@@ -6112,7 +6112,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 94,
+      "solves": 93,
       "state": "retired"
     },
     {
@@ -6121,7 +6121,7 @@
       "difficulty": "Medium",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 226,
+      "solves": 225,
       "state": "retired"
     },
     {
@@ -6130,7 +6130,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 103,
+      "solves": 102,
       "state": "retired"
     },
     {
@@ -6139,7 +6139,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 403,
+      "solves": 402,
       "state": "retired"
     },
     {
@@ -6157,7 +6157,7 @@
       "difficulty": "Medium",
       "category": "Misc",
       "is_owned": false,
-      "solves": 556,
+      "solves": 555,
       "state": "retired"
     },
     {
@@ -6166,7 +6166,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 243,
+      "solves": 242,
       "state": "retired"
     },
     {
@@ -6175,7 +6175,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 1247,
+      "solves": 1246,
       "state": "retired"
     },
     {
@@ -6184,7 +6184,7 @@
       "difficulty": "Medium",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 1254,
+      "solves": 1260,
       "state": "active"
     },
     {
@@ -6193,7 +6193,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 205,
+      "solves": 204,
       "state": "retired"
     },
     {
@@ -6202,7 +6202,7 @@
       "difficulty": "Medium",
       "category": "Mobile",
       "is_owned": false,
-      "solves": 1621,
+      "solves": 1620,
       "state": "retired"
     },
     {
@@ -6220,7 +6220,7 @@
       "difficulty": "Medium",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 295,
+      "solves": 299,
       "state": "retired"
     },
     {
@@ -6229,7 +6229,7 @@
       "difficulty": "Medium",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 2393,
+      "solves": 2398,
       "state": "active"
     },
     {
@@ -6238,7 +6238,7 @@
       "difficulty": "Medium",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 744,
+      "solves": 746,
       "state": "active"
     },
     {
@@ -6265,7 +6265,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 413,
+      "solves": 412,
       "state": "retired"
     },
     {
@@ -6274,7 +6274,7 @@
       "difficulty": "Medium",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 670,
+      "solves": 669,
       "state": "retired"
     },
     {
@@ -6283,7 +6283,7 @@
       "difficulty": "Medium",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 1679,
+      "solves": 1683,
       "state": "active"
     },
     {
@@ -6292,7 +6292,7 @@
       "difficulty": "Medium",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 1381,
+      "solves": 1382,
       "state": "active"
     },
     {
@@ -6301,7 +6301,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 639,
+      "solves": 638,
       "state": "retired"
     },
     {
@@ -6310,7 +6310,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 613,
+      "solves": 612,
       "state": "retired"
     },
     {
@@ -6319,7 +6319,7 @@
       "difficulty": "Medium",
       "category": "Misc",
       "is_owned": false,
-      "solves": 921,
+      "solves": 920,
       "state": "retired"
     },
     {
@@ -6355,7 +6355,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 1704,
+      "solves": 1703,
       "state": "retired"
     },
     {
@@ -6364,7 +6364,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 1524,
+      "solves": 1523,
       "state": "retired"
     },
     {
@@ -6382,7 +6382,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 1504,
+      "solves": 1503,
       "state": "retired"
     },
     {
@@ -6391,7 +6391,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 1787,
+      "solves": 1786,
       "state": "retired"
     },
     {
@@ -6400,7 +6400,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 3816,
+      "solves": 3815,
       "state": "retired"
     },
     {
@@ -6409,7 +6409,7 @@
       "difficulty": "Medium",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 1993,
+      "solves": 1994,
       "state": "active"
     },
     {
@@ -6418,7 +6418,7 @@
       "difficulty": "Medium",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 2178,
+      "solves": 2183,
       "state": "active"
     },
     {
@@ -6427,7 +6427,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 2535,
+      "solves": 2534,
       "state": "retired"
     },
     {
@@ -6436,7 +6436,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 2752,
+      "solves": 2751,
       "state": "retired"
     },
     {
@@ -6445,7 +6445,7 @@
       "difficulty": "Medium",
       "category": "GamePwn",
       "is_owned": false,
-      "solves": 3393,
+      "solves": 3397,
       "state": "active"
     },
     {
@@ -6454,7 +6454,7 @@
       "difficulty": "Medium",
       "category": "OSINT",
       "is_owned": false,
-      "solves": 6008,
+      "solves": 6009,
       "state": "retired"
     },
     {
@@ -6463,7 +6463,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 3468,
+      "solves": 3467,
       "state": "retired"
     },
     {
@@ -6472,7 +6472,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 2572,
+      "solves": 2571,
       "state": "retired"
     },
     {
@@ -6481,7 +6481,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": true,
-      "solves": 8688,
+      "solves": 8687,
       "state": "retired"
     },
     {
@@ -6490,7 +6490,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 2137,
+      "solves": 2136,
       "state": "retired"
     },
     {
@@ -6499,7 +6499,7 @@
       "difficulty": "Medium",
       "category": "Web",
       "is_owned": false,
-      "solves": 2685,
+      "solves": 2684,
       "state": "retired"
     },
     {
@@ -6526,7 +6526,7 @@
       "difficulty": "Medium",
       "category": "Mobile",
       "is_owned": false,
-      "solves": 6596,
+      "solves": 6595,
       "state": "retired"
     },
     {
@@ -6535,7 +6535,7 @@
       "difficulty": "Medium",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 1961,
+      "solves": 1960,
       "state": "retired"
     },
     {
@@ -6544,7 +6544,7 @@
       "difficulty": "Medium",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 1086,
+      "solves": 1085,
       "state": "retired"
     },
     {
@@ -6553,7 +6553,7 @@
       "difficulty": "Medium",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 3774,
+      "solves": 3773,
       "state": "retired"
     },
     {
@@ -6580,7 +6580,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 499,
+      "solves": 498,
       "state": "retired"
     },
     {
@@ -6589,7 +6589,7 @@
       "difficulty": "Medium",
       "category": "OSINT",
       "is_owned": false,
-      "solves": 1328,
+      "solves": 1327,
       "state": "retired"
     },
     {
@@ -6598,7 +6598,7 @@
       "difficulty": "Medium",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 4419,
+      "solves": 4418,
       "state": "retired"
     },
     {
@@ -6607,7 +6607,7 @@
       "difficulty": "Hard",
       "category": "Coding",
       "is_owned": false,
-      "solves": 329,
+      "solves": 334,
       "state": "active"
     },
     {
@@ -6616,7 +6616,7 @@
       "difficulty": "Hard",
       "category": "Mobile",
       "is_owned": false,
-      "solves": 299,
+      "solves": 304,
       "state": "active"
     },
     {
@@ -6625,7 +6625,7 @@
       "difficulty": "Hard",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 307,
+      "solves": 312,
       "state": "active"
     },
     {
@@ -6643,7 +6643,7 @@
       "difficulty": "Hard",
       "category": "Mobile",
       "is_owned": false,
-      "solves": 377,
+      "solves": 380,
       "state": "active"
     },
     {
@@ -6652,7 +6652,7 @@
       "difficulty": "Hard",
       "category": "Coding",
       "is_owned": false,
-      "solves": 530,
+      "solves": 533,
       "state": "active"
     },
     {
@@ -6670,7 +6670,7 @@
       "difficulty": "Hard",
       "category": "Blockchain",
       "is_owned": false,
-      "solves": 361,
+      "solves": 364,
       "state": "active"
     },
     {
@@ -6688,7 +6688,7 @@
       "difficulty": "Hard",
       "category": "Coding",
       "is_owned": false,
-      "solves": 728,
+      "solves": 732,
       "state": "active"
     },
     {
@@ -6706,7 +6706,7 @@
       "difficulty": "Hard",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 385,
+      "solves": 387,
       "state": "active"
     },
     {
@@ -6715,7 +6715,7 @@
       "difficulty": "Hard",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 375,
+      "solves": 377,
       "state": "active"
     },
     {
@@ -6724,7 +6724,7 @@
       "difficulty": "Hard",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 511,
+      "solves": 512,
       "state": "active"
     },
     {
@@ -6760,7 +6760,7 @@
       "difficulty": "Hard",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 466,
+      "solves": 468,
       "state": "active"
     },
     {
@@ -6778,7 +6778,7 @@
       "difficulty": "Hard",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 496,
+      "solves": 495,
       "state": "retired"
     },
     {
@@ -6796,7 +6796,7 @@
       "difficulty": "Hard",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 68,
+      "solves": 67,
       "state": "retired"
     },
     {
@@ -6805,7 +6805,7 @@
       "difficulty": "Hard",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 43,
+      "solves": 42,
       "state": "retired"
     },
     {
@@ -6814,7 +6814,7 @@
       "difficulty": "Hard",
       "category": "Coding",
       "is_owned": false,
-      "solves": 135,
+      "solves": 136,
       "state": "retired"
     },
     {
@@ -6823,7 +6823,7 @@
       "difficulty": "Hard",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 70,
+      "solves": 69,
       "state": "retired"
     },
     {
@@ -6832,7 +6832,7 @@
       "difficulty": "Hard",
       "category": "Web",
       "is_owned": false,
-      "solves": 62,
+      "solves": 61,
       "state": "retired"
     },
     {
@@ -6841,7 +6841,7 @@
       "difficulty": "Hard",
       "category": "Web",
       "is_owned": false,
-      "solves": 463,
+      "solves": 462,
       "state": "active"
     },
     {
@@ -6850,7 +6850,7 @@
       "difficulty": "Hard",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 81,
+      "solves": 80,
       "state": "retired"
     },
     {
@@ -6859,7 +6859,7 @@
       "difficulty": "Hard",
       "category": "Web",
       "is_owned": false,
-      "solves": 71,
+      "solves": 70,
       "state": "retired"
     },
     {
@@ -6868,7 +6868,7 @@
       "difficulty": "Hard",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 520,
+      "solves": 522,
       "state": "active"
     },
     {
@@ -6904,7 +6904,7 @@
       "difficulty": "Hard",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 46,
+      "solves": 45,
       "state": "retired"
     },
     {
@@ -6913,7 +6913,7 @@
       "difficulty": "Hard",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 346,
+      "solves": 345,
       "state": "retired"
     },
     {
@@ -6931,7 +6931,7 @@
       "difficulty": "Hard",
       "category": "AI/ML",
       "is_owned": false,
-      "solves": 724,
+      "solves": 728,
       "state": "active"
     },
     {
@@ -6940,7 +6940,7 @@
       "difficulty": "Hard",
       "category": "AI/ML",
       "is_owned": false,
-      "solves": 801,
+      "solves": 803,
       "state": "active"
     },
     {
@@ -6949,7 +6949,7 @@
       "difficulty": "Hard",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 704,
+      "solves": 703,
       "state": "retired"
     },
     {
@@ -6958,7 +6958,7 @@
       "difficulty": "Hard",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 92,
+      "solves": 91,
       "state": "retired"
     },
     {
@@ -6967,7 +6967,7 @@
       "difficulty": "Hard",
       "category": "Web",
       "is_owned": false,
-      "solves": 98,
+      "solves": 97,
       "state": "retired"
     },
     {
@@ -6976,7 +6976,7 @@
       "difficulty": "Hard",
       "category": "Web",
       "is_owned": false,
-      "solves": 49,
+      "solves": 48,
       "state": "retired"
     },
     {
@@ -6994,7 +6994,7 @@
       "difficulty": "Hard",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 86,
+      "solves": 87,
       "state": "retired"
     },
     {
@@ -7003,7 +7003,7 @@
       "difficulty": "Hard",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 121,
+      "solves": 120,
       "state": "retired"
     },
     {
@@ -7012,7 +7012,7 @@
       "difficulty": "Hard",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 55,
+      "solves": 54,
       "state": "retired"
     },
     {
@@ -7021,7 +7021,7 @@
       "difficulty": "Hard",
       "category": "Blockchain",
       "is_owned": false,
-      "solves": 69,
+      "solves": 70,
       "state": "retired"
     },
     {
@@ -7030,7 +7030,7 @@
       "difficulty": "Hard",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 55,
+      "solves": 54,
       "state": "retired"
     },
     {
@@ -7039,7 +7039,7 @@
       "difficulty": "Hard",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 545,
+      "solves": 544,
       "state": "active"
     },
     {
@@ -7048,7 +7048,7 @@
       "difficulty": "Hard",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 95,
+      "solves": 94,
       "state": "retired"
     },
     {
@@ -7057,7 +7057,7 @@
       "difficulty": "Hard",
       "category": "Mobile",
       "is_owned": false,
-      "solves": 275,
+      "solves": 274,
       "state": "retired"
     },
     {
@@ -7075,7 +7075,7 @@
       "difficulty": "Hard",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 97,
+      "solves": 96,
       "state": "retired"
     },
     {
@@ -7102,7 +7102,7 @@
       "difficulty": "Hard",
       "category": "GamePwn",
       "is_owned": false,
-      "solves": 802,
+      "solves": 803,
       "state": "active"
     },
     {
@@ -7111,7 +7111,7 @@
       "difficulty": "Hard",
       "category": "Web",
       "is_owned": false,
-      "solves": 1154,
+      "solves": 1155,
       "state": "active"
     },
     {
@@ -7129,7 +7129,7 @@
       "difficulty": "Hard",
       "category": "Mobile",
       "is_owned": false,
-      "solves": 361,
+      "solves": 360,
       "state": "retired"
     },
     {
@@ -7138,7 +7138,7 @@
       "difficulty": "Hard",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 86,
+      "solves": 85,
       "state": "retired"
     },
     {
@@ -7147,7 +7147,7 @@
       "difficulty": "Hard",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 73,
+      "solves": 72,
       "state": "retired"
     },
     {
@@ -7156,7 +7156,7 @@
       "difficulty": "Hard",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 38,
+      "solves": 37,
       "state": "retired"
     },
     {
@@ -7165,7 +7165,7 @@
       "difficulty": "Hard",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 506,
+      "solves": 505,
       "state": "retired"
     },
     {
@@ -7183,7 +7183,7 @@
       "difficulty": "Hard",
       "category": "Web",
       "is_owned": false,
-      "solves": 709,
+      "solves": 708,
       "state": "retired"
     },
     {
@@ -7201,7 +7201,7 @@
       "difficulty": "Hard",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 99,
+      "solves": 98,
       "state": "retired"
     },
     {
@@ -7210,7 +7210,7 @@
       "difficulty": "Hard",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 68,
+      "solves": 67,
       "state": "retired"
     },
     {
@@ -7219,7 +7219,7 @@
       "difficulty": "Hard",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 222,
+      "solves": 221,
       "state": "retired"
     },
     {
@@ -7246,7 +7246,7 @@
       "difficulty": "Hard",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 49,
+      "solves": 48,
       "state": "retired"
     },
     {
@@ -7255,7 +7255,7 @@
       "difficulty": "Hard",
       "category": "Mobile",
       "is_owned": false,
-      "solves": 381,
+      "solves": 380,
       "state": "retired"
     },
     {
@@ -7273,7 +7273,7 @@
       "difficulty": "Hard",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 70,
+      "solves": 69,
       "state": "retired"
     },
     {
@@ -7291,7 +7291,7 @@
       "difficulty": "Hard",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 45,
+      "solves": 44,
       "state": "retired"
     },
     {
@@ -7309,7 +7309,7 @@
       "difficulty": "Hard",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 78,
+      "solves": 77,
       "state": "retired"
     },
     {
@@ -7336,7 +7336,7 @@
       "difficulty": "Hard",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 167,
+      "solves": 166,
       "state": "retired"
     },
     {
@@ -7345,7 +7345,7 @@
       "difficulty": "Hard",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 470,
+      "solves": 471,
       "state": "active"
     },
     {
@@ -7372,7 +7372,7 @@
       "difficulty": "Hard",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 107,
+      "solves": 106,
       "state": "retired"
     },
     {
@@ -7381,7 +7381,7 @@
       "difficulty": "Hard",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 74,
+      "solves": 73,
       "state": "retired"
     },
     {
@@ -7390,7 +7390,7 @@
       "difficulty": "Hard",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 74,
+      "solves": 73,
       "state": "retired"
     },
     {
@@ -7399,7 +7399,7 @@
       "difficulty": "Hard",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 1042,
+      "solves": 1043,
       "state": "active"
     },
     {
@@ -7408,7 +7408,7 @@
       "difficulty": "Hard",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 1078,
+      "solves": 1079,
       "state": "active"
     },
     {
@@ -7417,7 +7417,7 @@
       "difficulty": "Hard",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 115,
+      "solves": 114,
       "state": "retired"
     },
     {
@@ -7426,7 +7426,7 @@
       "difficulty": "Hard",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 161,
+      "solves": 160,
       "state": "retired"
     },
     {
@@ -7462,7 +7462,7 @@
       "difficulty": "Hard",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 137,
+      "solves": 136,
       "state": "retired"
     },
     {
@@ -7471,7 +7471,7 @@
       "difficulty": "Hard",
       "category": "Hardware",
       "is_owned": false,
-      "solves": 73,
+      "solves": 72,
       "state": "retired"
     },
     {
@@ -7489,7 +7489,7 @@
       "difficulty": "Hard",
       "category": "Web",
       "is_owned": false,
-      "solves": 151,
+      "solves": 150,
       "state": "retired"
     },
     {
@@ -7498,7 +7498,7 @@
       "difficulty": "Hard",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 108,
+      "solves": 107,
       "state": "retired"
     },
     {
@@ -7516,7 +7516,7 @@
       "difficulty": "Hard",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 82,
+      "solves": 83,
       "state": "retired"
     },
     {
@@ -7525,7 +7525,7 @@
       "difficulty": "Hard",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 175,
+      "solves": 174,
       "state": "retired"
     },
     {
@@ -7534,7 +7534,7 @@
       "difficulty": "Hard",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 2603,
+      "solves": 2605,
       "state": "active"
     },
     {
@@ -7543,7 +7543,7 @@
       "difficulty": "Hard",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 458,
+      "solves": 457,
       "state": "retired"
     },
     {
@@ -7552,7 +7552,7 @@
       "difficulty": "Hard",
       "category": "Web",
       "is_owned": false,
-      "solves": 1783,
+      "solves": 1782,
       "state": "retired"
     },
     {
@@ -7561,7 +7561,7 @@
       "difficulty": "Hard",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 4141,
+      "solves": 4146,
       "state": "active"
     },
     {
@@ -7570,7 +7570,7 @@
       "difficulty": "Hard",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 1200,
+      "solves": 1199,
       "state": "retired"
     },
     {
@@ -7579,7 +7579,7 @@
       "difficulty": "Hard",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 1563,
+      "solves": 1562,
       "state": "retired"
     },
     {
@@ -7588,7 +7588,7 @@
       "difficulty": "Hard",
       "category": "Forensics",
       "is_owned": false,
-      "solves": 4175,
+      "solves": 4176,
       "state": "active"
     },
     {
@@ -7597,7 +7597,7 @@
       "difficulty": "Hard",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 2183,
+      "solves": 2182,
       "state": "retired"
     },
     {
@@ -7606,7 +7606,7 @@
       "difficulty": "Hard",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 1647,
+      "solves": 1646,
       "state": "retired"
     },
     {
@@ -7615,7 +7615,7 @@
       "difficulty": "Insane",
       "category": "Coding",
       "is_owned": false,
-      "solves": 1032,
+      "solves": 1036,
       "state": "active"
     },
     {
@@ -7624,7 +7624,7 @@
       "difficulty": "Insane",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 446,
+      "solves": 447,
       "state": "active"
     },
     {
@@ -7642,7 +7642,7 @@
       "difficulty": "Insane",
       "category": "Web",
       "is_owned": false,
-      "solves": 73,
+      "solves": 72,
       "state": "retired"
     },
     {
@@ -7651,7 +7651,7 @@
       "difficulty": "Insane",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 298,
+      "solves": 300,
       "state": "active"
     },
     {
@@ -7660,7 +7660,7 @@
       "difficulty": "Insane",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 111,
+      "solves": 110,
       "state": "retired"
     },
     {
@@ -7669,7 +7669,7 @@
       "difficulty": "Insane",
       "category": "Web",
       "is_owned": false,
-      "solves": 1036,
+      "solves": 1041,
       "state": "active"
     },
     {
@@ -7678,7 +7678,7 @@
       "difficulty": "Insane",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 44,
+      "solves": 45,
       "state": "retired"
     },
     {
@@ -7687,7 +7687,7 @@
       "difficulty": "Insane",
       "category": "Web",
       "is_owned": false,
-      "solves": 55,
+      "solves": 57,
       "state": "retired"
     },
     {
@@ -7705,7 +7705,7 @@
       "difficulty": "Insane",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 861,
+      "solves": 863,
       "state": "active"
     },
     {
@@ -7714,7 +7714,7 @@
       "difficulty": "Insane",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 424,
+      "solves": 425,
       "state": "active"
     },
     {
@@ -7732,7 +7732,7 @@
       "difficulty": "Insane",
       "category": "Pwn",
       "is_owned": false,
-      "solves": 270,
+      "solves": 272,
       "state": "retired"
     },
     {
@@ -7741,7 +7741,7 @@
       "difficulty": "Insane",
       "category": "Web",
       "is_owned": false,
-      "solves": 164,
+      "solves": 165,
       "state": "retired"
     },
     {
@@ -7750,7 +7750,7 @@
       "difficulty": "Insane",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 500,
+      "solves": 499,
       "state": "retired"
     },
     {
@@ -7777,7 +7777,7 @@
       "difficulty": "Insane",
       "category": "Crypto",
       "is_owned": false,
-      "solves": 137,
+      "solves": 138,
       "state": "retired"
     },
     {
@@ -7786,7 +7786,7 @@
       "difficulty": "Insane",
       "category": "Reversing",
       "is_owned": false,
-      "solves": 3370,
+      "solves": 3373,
       "state": "active"
     }
   ]

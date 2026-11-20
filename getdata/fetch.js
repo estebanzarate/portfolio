@@ -1,3 +1,6 @@
+import fs from "node:fs";
+import { emitKeypressEvents } from "node:readline";
+import { stdin, stdout } from "node:process";
 import "dotenv/config";
 import { writeFileSync, readFileSync, existsSync, mkdirSync } from "fs";
 import { join, dirname } from "path";
@@ -48,6 +51,156 @@ const CONFIG = {
   },
 };
 
+async function validateHTBToken(token) {
+  if (!token) {
+    throw new Error("HTB_API_TOKEN is missing.");
+  }
+
+  const response = await fetch("https://labs.hackthebox.com/api/v4/user/info", {
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+    redirect: "manual",
+    signal: AbortSignal.timeout(15000),
+  });
+
+  if (response.status === 401 || response.status === 403) {
+    return false;
+  }
+
+  if (response.status >= 300 && response.status < 400) {
+    return false;
+  }
+
+  if (!response.ok) {
+    throw new Error(`HTB token validation failed. HTTP ${response.status}.`);
+  }
+
+  return true;
+}
+
+async function promptForSecret(message) {
+  if (!stdin.isTTY || typeof stdin.setRawMode !== "function") {
+    throw new Error("Hidden input requires an interactive terminal.");
+  }
+
+  emitKeypressEvents(stdin);
+  stdin.setRawMode(true);
+  stdin.resume();
+
+  return new Promise((resolve, reject) => {
+    let value = "";
+
+    function cleanup() {
+      stdin.removeListener("keypress", onKeypress);
+      stdin.setRawMode(false);
+      stdout.write("\n");
+    }
+
+    function onKeypress(char, key) {
+      if (key.ctrl && key.name === "c") {
+        cleanup();
+        reject(new Error("Input cancelled."));
+        return;
+      }
+
+      if (key.name === "return") {
+        cleanup();
+        resolve(value.trim());
+        return;
+      }
+
+      if (key.name === "backspace") {
+        value = value.slice(0, -1);
+        return;
+      }
+
+      if (char && !key.ctrl && !key.meta) {
+        value += char;
+      }
+    }
+
+    stdin.on("keypress", onKeypress);
+    stdout.write(message);
+  });
+}
+
+async function promptForHTBToken() {
+  return promptForSecret("Enter your new HTB API token: ");
+}
+
+async function promptForAcademySession() {
+  return promptForSecret("Enter your new HTB Academy session: ");
+}
+
+function saveEnvVariable(name, value) {
+  const envPath = ".env";
+  let envContent = fs.readFileSync(envPath, "utf8");
+
+  const variableLine = `${name}=${value}`;
+  const variableRegex = new RegExp(`^${name}=.*$`, "m");
+
+  if (variableRegex.test(envContent)) {
+    envContent = envContent.replace(variableRegex, variableLine);
+  } else {
+    envContent += `\n${variableLine}\n`;
+  }
+
+  fs.writeFileSync(envPath, envContent);
+  process.env[name] = value;
+}
+
+function saveHTBToken(token) {
+  saveEnvVariable("HTB_API_TOKEN", token);
+}
+
+function saveAcademySession(session) {
+  saveEnvVariable("HTB_ACADEMY_SESSION", session);
+}
+
+async function validateAcademySession(session) {
+  if (!session) {
+    throw new Error("HTB_ACADEMY_SESSION is missing.");
+  }
+
+  const response = await fetch(`${CONFIG.academy.base}/modules/statistics`, {
+    headers: {
+      ...CONFIG.academy.headers,
+      Cookie: `htb_academy_session=${session}`,
+    },
+    redirect: "manual",
+    signal: AbortSignal.timeout(15000),
+  });
+
+  if (response.status === 401 || response.status === 403) {
+    return false;
+  }
+
+  if (response.status >= 300 && response.status < 400) {
+    return false;
+  }
+
+  if (!response.ok) {
+    throw new Error(
+      `HTB Academy session validation failed. HTTP ${response.status}.`,
+    );
+  }
+
+  const contentType = response.headers.get("content-type") || "";
+
+  if (!contentType.includes("application/json")) {
+    return false;
+  }
+
+  try {
+    const data = await response.json();
+
+    return data !== null && typeof data === "object";
+  } catch {
+    return false;
+  }
+}
+
 async function getAllPages(url, headers, perPage = 100) {
   const allItems = [];
   let page = 1;
@@ -78,7 +231,6 @@ async function processAcademy() {
   if (!statsRes.ok || !modulesRes.ok) throw new Error("HTB Academy API error");
   const statsRaw = await statsRes.json();
   const modulesRaw = await modulesRes.json();
-  console.log(modulesRaw.data[0]);
   const items = statsRaw.data.completion_statistics.by_category;
   const byCategory = {};
   let totalCompleted = 0,
@@ -197,8 +349,33 @@ async function processMachines() {
 
 async function processTHM() {
   console.log("Processing TryHackMe...");
+
   const scriptPath = join(__dirname, "fetch_thm.py");
-  execSync(`python3 "${scriptPath}"`, { stdio: "inherit" });
+
+  while (true) {
+    try {
+      execSync(`python3 "${scriptPath}"`, { stdio: "inherit" });
+      break;
+    } catch (error) {
+      if (error.status !== 2) {
+        throw error;
+      }
+
+      console.log("TryHackMe session is invalid or expired.");
+
+      const session = await promptForSecret(
+        "Enter your new TryHackMe connect.sid value: ",
+      );
+
+      if (!session) {
+        throw new Error("TryHackMe session cannot be empty.");
+      }
+
+      saveEnvVariable("THM_COOKIES", `connect.sid=${session}`);
+
+      console.log("TryHackMe session updated. Retrying...");
+    }
+  }
 }
 
 async function processChallenges() {
@@ -343,6 +520,66 @@ function processWriteups() {
 }
 
 async function main() {
+  try {
+    let token = process.env.HTB_API_TOKEN;
+    let isValid = await validateHTBToken(token);
+
+    while (!isValid) {
+      console.log("HTB API token is invalid or expired.");
+
+      token = await promptForHTBToken();
+
+      if (!token) {
+        console.log("No token provided. Aborting update.");
+        process.exit(1);
+      }
+
+      isValid = await validateHTBToken(token);
+
+      if (isValid) {
+        saveHTBToken(token);
+        console.log("New HTB API token saved successfully.");
+      } else {
+        console.log("Invalid token. Please try again.");
+      }
+    }
+
+    console.log("HTB token validated successfully.");
+  } catch (error) {
+    console.error(`HTB authentication error: ${error.message}`);
+    process.exit(1);
+  }
+
+  try {
+    let session = process.env.HTB_ACADEMY_SESSION;
+    let isValid = await validateAcademySession(session);
+
+    while (!isValid) {
+      console.log("HTB Academy session is invalid or expired.");
+
+      session = await promptForAcademySession();
+
+      if (!session) {
+        console.log("No session provided. Aborting update.");
+        process.exit(1);
+      }
+
+      isValid = await validateAcademySession(session);
+
+      if (isValid) {
+        saveAcademySession(session);
+        console.log("New HTB Academy session saved successfully.");
+      } else {
+        console.log("Invalid session. Please try again.");
+      }
+    }
+
+    console.log("HTB Academy session validated successfully.");
+  } catch (error) {
+    console.error(`HTB Academy authentication error: ${error.message}`);
+    process.exit(1);
+  }
+
   mkdirSync(DATA_DIR, { recursive: true });
 
   const results = await Promise.allSettled([
@@ -375,4 +612,7 @@ async function main() {
   }
 }
 
-main();
+main().catch((error) => {
+  console.error("ERROR:", error.message);
+  process.exitCode = 1;
+});
