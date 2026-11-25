@@ -245,8 +245,7 @@ const profile = {
       {
         id: 11,
         title: "Introduction to Cybersecurity",
-        institution:
-          "Networking Academy through the Cisco Networking Academy program",
+        institution: "Cisco Networking Academy",
         period: "2026",
         certificate: "/certificates/ITC.webp",
         courseUrl:
@@ -255,8 +254,7 @@ const profile = {
       {
         id: 12,
         title: "Ethical Hacker",
-        institution:
-          "Networking Academy through the Cisco Networking Academy program",
+        institution: "Cisco Networking Academy",
         period: "2026",
         certificate: "/certificates/EH.webp",
         courseUrl:
@@ -265,8 +263,7 @@ const profile = {
       {
         id: 13,
         title: "Network Basics",
-        institution:
-          "Networking Academy through the Cisco Networking Academy program",
+        institution: "Cisco Networking Academy",
         period: "2026",
         certificate: "/certificates/NB.webp",
         courseUrl:
@@ -275,8 +272,7 @@ const profile = {
       {
         id: 14,
         title: "Network Addressing and Basic Troubleshooting",
-        institution:
-          "Networking Academy through the Cisco Networking Academy program",
+        institution: "Cisco Networking Academy",
         period: "2026",
         certificate: "/certificates/NABT.webp",
         courseUrl:
@@ -285,8 +281,7 @@ const profile = {
       {
         id: 15,
         title: "Networking Devices and Initial Configuration",
-        institution:
-          "Networking Academy through the Cisco Networking Academy program",
+        institution: "Cisco Networking Academy",
         period: "2026",
         certificate: "/certificates/NDBC.webp",
         courseUrl:
@@ -301,6 +296,15 @@ const profile = {
         certificate: "/certificates/SMSFCLPHTB.webp",
         courseUrl:
           "https://www.linkedin.com/learning-login/share?account=2153100&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fsecurity-monitoring-and-siem-fundamentals-cybersecurity-labs-powered-by-hack-the-box%3Ftrk%3Dshare_ent_url%26shareId%3Dp5TOfqFeQpmiARPdbT7HAg%253D%253D",
+      },
+      {
+        id: 17,
+        title: "Network Support and Security",
+        institution: "Cisco Networking Academy",
+        period: "2026",
+        certificate: "/certificates/NSAS.webp",
+        courseUrl:
+          "https://www.netacad.com/courses/network-support-security?courseLang=en-US",
       },
     ],
   },
@@ -551,8 +555,7 @@ const profile = {
       {
         id: 11,
         title: "Introduction to Cybersecurity",
-        institution:
-          "Networking Academy through the Cisco Networking Academy program",
+        institution: "Cisco Networking Academy",
         period: "2026",
         certificate: "/certificates/ITC.webp",
         courseUrl:
@@ -561,8 +564,7 @@ const profile = {
       {
         id: 12,
         title: "Ethical Hacker",
-        institution:
-          "Networking Academy through the Cisco Networking Academy program",
+        institution: "Cisco Networking Academy",
         period: "2026",
         certificate: "/certificates/EH.webp",
         courseUrl:
@@ -571,8 +573,7 @@ const profile = {
       {
         id: 13,
         title: "Network Basics",
-        institution:
-          "Networking Academy through the Cisco Networking Academy program",
+        institution: "Cisco Networking Academy",
         period: "2026",
         certificate: "/certificates/NB.webp",
         courseUrl:
@@ -581,8 +582,7 @@ const profile = {
       {
         id: 14,
         title: "Network Addressing and Basic Troubleshooting",
-        institution:
-          "Networking Academy through the Cisco Networking Academy program",
+        institution: "Cisco Networking Academy",
         period: "2026",
         certificate: "/certificates/NABT.webp",
         courseUrl:
@@ -591,8 +591,7 @@ const profile = {
       {
         id: 15,
         title: "Networking Devices and Initial Configuration",
-        institution:
-          "Networking Academy through the Cisco Networking Academy program",
+        institution: "Cisco Networking Academy",
         period: "2026",
         certificate: "/certificates/NDBC.webp",
         courseUrl:
@@ -607,6 +606,15 @@ const profile = {
         certificate: "/certificates/SMSFCLPHTB.webp",
         courseUrl:
           "https://www.linkedin.com/learning-login/share?account=2153100&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fsecurity-monitoring-and-siem-fundamentals-cybersecurity-labs-powered-by-hack-the-box%3Ftrk%3Dshare_ent_url%26shareId%3Dp5TOfqFeQpmiARPdbT7HAg%253D%253D",
+      },
+      {
+        id: 17,
+        title: "Network Support and Security",
+        institution: "Cisco Networking Academy",
+        period: "2026",
+        certificate: "/certificates/NSAS.webp",
+        courseUrl:
+          "https://www.netacad.com/courses/network-support-security?courseLang=en-US",
       },
     ],
   },

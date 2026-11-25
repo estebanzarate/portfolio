@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-11-20T03:51:17.512Z",
+  "last_updated": "2026-11-25T17:55:37.861Z",
   "statistics": {
-    "total": 587,
-    "user_owns": 223,
+    "total": 588,
+    "user_owns": 224,
     "root_owns": 238,
     "by_os": {
       "Linux": 171,
@@ -35,6 +35,15 @@
       "name": "DoubleTake",
       "os": "Linux",
       "difficulty": "Easy",
+      "user_owned": true,
+      "root_owned": false,
+      "sp_tier": null
+    },
+    {
+      "id": 1017,
+      "name": "Handler",
+      "os": "Windows",
+      "difficulty": "Insane",
       "user_owned": false,
       "root_owned": false,
       "sp_tier": null
@@ -238,15 +247,6 @@
       "sp_tier": null
     },
     {
-      "id": 862,
-      "name": "Garfield",
-      "os": "Windows",
-      "difficulty": "Hard",
-      "user_owned": false,
-      "root_owned": false,
-      "sp_tier": null
-    },
-    {
       "id": 547,
       "name": "TwoMillion",
       "os": "Linux",
@@ -388,6 +388,15 @@
       "difficulty": "Hard",
       "user_owned": true,
       "root_owned": true,
+      "sp_tier": null
+    },
+    {
+      "id": 862,
+      "name": "Garfield",
+      "os": "Windows",
+      "difficulty": "Hard",
+      "user_owned": false,
+      "root_owned": false,
       "sp_tier": null
     },
     {

@@ -2344,6 +2344,10 @@
       "name": "RedEye",
       "writeup": null
     },
+    "1017": {
+      "name": "Handler",
+      "writeup": null
+    },
     "1018": {
       "name": "DoubleTake",
       "writeup": null
@@ -7186,6 +7190,10 @@
     },
     "1953": {
       "name": "XO XO Exploit",
+      "writeup": null
+    },
+    "1957": {
+      "name": "Retention",
       "writeup": null
     }
   },

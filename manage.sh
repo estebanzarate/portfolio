@@ -28,7 +28,7 @@ while [[ $# -gt 0 ]]; do
             exit 0
             ;;
         *)
-            echo "Error: Unknown option '$1'"
+            echo "ERROR: Unknown option '$1'"
             echo "Use --help to see available options."
             exit 1
             ;;
@@ -42,27 +42,44 @@ if [[ "$UPDATE_DATA" == false && "$PUSH_CHANGES" == false ]]; then
 fi
 
 update_data() {
-    echo "Updating HTB and THM data..."
+    echo
+    echo "========================================"
+    echo "          DATA SYNCHRONIZATION"
+    echo "========================================"
 
     if npm run fetch:all; then
-        echo "Data updated successfully."
+        echo
+        echo "[SUCCESS] Data synchronization completed."
     else
-        echo "Error: Data update failed."
+        echo
+        echo "[FAILED] Data synchronization failed."
+        echo "[SKIPPED] Git push will not be executed."
         exit 1
     fi
 }
 
 push_changes() {
+    echo
+    echo "========================================"
+    echo "             GIT PUSH"
+    echo "========================================"
+
     echo "Checking for pending changes..."
 
     if [[ -n "$(git status --porcelain)" ]]; then
         git add -A
-        git commit -m "Update portfolio data"
-        git push
 
-        echo "Changes pushed successfully."
+        if git commit -m "Update portfolio data"; then
+            git push
+            echo
+            echo "[SUCCESS] Changes pushed successfully."
+        else
+            echo
+            echo "[FAILED] Git commit failed."
+            exit 1
+        fi
     else
-        echo "No changes detected. Skipping Git push."
+        echo "[SKIPPED] No changes detected."
     fi
 }
 
@@ -74,4 +91,7 @@ if [[ "$PUSH_CHANGES" == true ]]; then
     push_changes
 fi
 
-echo "All requested operations completed."
+echo
+echo "========================================"
+echo "       ALL OPERATIONS COMPLETED"
+echo "========================================"

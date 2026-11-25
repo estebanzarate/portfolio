@@ -11,6 +11,10 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = join(__dirname, "../src/data");
 const SAMPLE_DIR = join(__dirname, "../.data");
 
+const PYTHON_ENV_DIR = join(__dirname, "venv");
+const PYTHON_PATH = join(PYTHON_ENV_DIR, "bin", "python");
+const PYTHON_REQUIREMENTS = join(__dirname, "requirements.txt");
+
 const CONFIG = {
   academy: {
     base: "https://academy.hackthebox.com/api/v2",
@@ -347,6 +351,31 @@ async function processMachines() {
   );
 }
 
+function preparePythonEnvironment() {
+  console.log("\nPreparing Python environment...");
+
+  if (!existsSync(PYTHON_PATH)) {
+    console.log("Python virtual environment not found. Creating it...");
+
+    execSync(`python3 -m venv "${PYTHON_ENV_DIR}"`, {
+      stdio: "inherit",
+    });
+
+    console.log("Python virtual environment created.");
+  } else {
+    console.log("Python virtual environment found.");
+  }
+
+  console.log("Checking Python dependencies...");
+
+  execSync(
+    `"${PYTHON_PATH}" -m pip install --disable-pip-version-check --quiet -r "${PYTHON_REQUIREMENTS}"`,
+    { stdio: "inherit" },
+  );
+
+  console.log("Python environment ready.\n");
+}
+
 async function processTHM() {
   console.log("Processing TryHackMe...");
 
@@ -354,7 +383,7 @@ async function processTHM() {
 
   while (true) {
     try {
-      execSync(`python3 "${scriptPath}"`, { stdio: "inherit" });
+      execSync(`"${PYTHON_PATH}" "${scriptPath}"`, { stdio: "inherit" });
       break;
     } catch (error) {
       if (error.status !== 2) {
@@ -582,34 +611,62 @@ async function main() {
 
   mkdirSync(DATA_DIR, { recursive: true });
 
-  const results = await Promise.allSettled([
-    processAcademy(),
-    processMachines(),
-    processTHM(),
-    processChallenges(),
-    processSherlocks(),
-  ]);
+  try {
+    preparePythonEnvironment();
+  } catch (error) {
+    console.error(
+      `\nERROR: Python environment preparation failed — ${error.message}`,
+    );
+    process.exit(1);
+  }
 
-  const labels = ["Academy", "Machines", "THM", "Challenges", "Sherlocks"];
+  console.log("\nStarting data synchronization...\n");
+
+  const tasks = [
+    { label: "Academy", promise: processAcademy() },
+    { label: "Machines", promise: processMachines() },
+    { label: "THM", promise: processTHM() },
+    { label: "Challenges", promise: processChallenges() },
+    { label: "Sherlocks", promise: processSherlocks() },
+  ];
+
+  const results = await Promise.allSettled(tasks.map((task) => task.promise));
+
   let hasErrors = false;
 
+  console.log("\nData synchronization results:");
+
   results.forEach((result, i) => {
-    if (result.status === "rejected") {
+    if (result.status === "fulfilled") {
+      console.log(`[SUCCESS] ${tasks[i].label}`);
+    } else {
       console.error(
-        `\nERROR: ${labels[i]} failed — ${result.reason?.message ?? result.reason}`,
+        `[FAILED] ${tasks[i].label}: ${
+          result.reason?.message ?? result.reason
+        }`,
       );
       hasErrors = true;
     }
   });
 
-  processWriteups();
-
   if (hasErrors) {
-    console.warn("\nSync completed with errors. Some data may be stale.");
-    process.exit(1);
-  } else {
-    console.log("\nAll data synchronized successfully.");
+    console.error("\nSynchronization failed. Writeups will not be updated.");
+    process.exitCode = 1;
+    return;
   }
+
+  console.log("\nAll data sources synchronized successfully.");
+
+  try {
+    processWriteups();
+    console.log("[SUCCESS] Writeups updated.");
+  } catch (error) {
+    console.error(`[FAILED] Writeups: ${error.message}`);
+    process.exitCode = 1;
+    return;
+  }
+
+  console.log("\nAll synchronization tasks completed successfully.");
 }
 
 main().catch((error) => {
