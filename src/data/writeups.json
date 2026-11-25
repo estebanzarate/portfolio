@@ -2350,7 +2350,7 @@
     },
     "1018": {
       "name": "DoubleTake",
-      "writeup": null
+      "writeup": "https://0xmelvin.vercel.app/es/writeups/hackthebox/machines/doubletake"
     }
   },
   "rooms": {
