@@ -1,87 +1,32 @@
-import { lazy, Suspense } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import LanguageProvider from "./context/LanguageProvider";
+
 import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Experience from "./components/Experience";
-import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import ShareFAB from "./components/ShareFAB";
 import ErrorBoundary from "./components/ErrorBoundary";
-import useLanguage from "./hooks/useLanguage";
-import translations from "./data/translations";
 
-const HTBMachines = lazy(() => import("./components/HTBMachines"));
-const HTBAcademy = lazy(() => import("./components/HTBAcademy"));
-const HTBChallenges = lazy(() => import("./components/HTBChallenges"));
-const HTBSherlocks = lazy(() => import("./components/HTBSherlocks"));
-const THMRooms = lazy(() => import("./components/THMRooms"));
-
-function SectionFallback() {
-  const { lang } = useLanguage();
-  const t = translations[lang].common;
-  return (
-    <div className="flex items-center justify-center py-24">
-      <div className="flex flex-col items-center gap-3">
-        <div className="w-6 h-6 rounded-full border-2 border-primary border-t-transparent animate-spin" />
-        <span className="text-secondary text-sm">{t.loading}</span>
-      </div>
-    </div>
-  );
-}
-
-function SectionError() {
-  const { lang } = useLanguage();
-  const t = translations[lang].common;
-  return (
-    <div className="flex items-center justify-center py-24">
-      <p className="text-secondary text-sm">{t.sectionError}</p>
-    </div>
-  );
-}
-
-function LazySection({ component: Component }) {
-  return (
-    <ErrorBoundary fallback={<SectionError />}>
-      <Suspense fallback={<SectionFallback />}>
-        <Component />
-      </Suspense>
-    </ErrorBoundary>
-  );
-}
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Skills from "./pages/Skills";
+import Labs from "./pages/Labs";
 
 function AppContent() {
   return (
-    <div className="min-h-screen bg-bg text-light font-sans flex flex-col">
+    <div className="min-h-screen bg-bg text-light">
       <Header />
-      <main className="max-w-5xl w-full mx-auto px-4 py-10 flex-1">
-        <div className="flex flex-col divide-y divide-surface2">
-          <div className="pb-16">
-            <Hero />
-          </div>
-          <div className="py-16">
-            <Experience />
-          </div>
-          <div className="py-16">
-            <Skills />
-          </div>
-          <div className="py-16">
-            <LazySection component={HTBMachines} />
-          </div>
-          <div className="py-16">
-            <LazySection component={HTBAcademy} />
-          </div>
-          <div className="py-16">
-            <LazySection component={HTBChallenges} />
-          </div>
-          <div className="py-16">
-            <LazySection component={HTBSherlocks} />
-          </div>
-          <div className="pt-16">
-            <LazySection component={THMRooms} />
-          </div>
-        </div>
+
+      <main className="max-w-5xl mx-auto px-4">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/labs" element={<Labs />} />
+        </Routes>
       </main>
+
       <Footer />
       <ScrollToTop />
       <ShareFAB />
@@ -92,7 +37,11 @@ function AppContent() {
 function App() {
   return (
     <LanguageProvider>
-      <AppContent />
+      <BrowserRouter>
+        <ErrorBoundary>
+          <AppContent />
+        </ErrorBoundary>
+      </BrowserRouter>
     </LanguageProvider>
   );
 }

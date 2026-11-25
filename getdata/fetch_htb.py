@@ -31,7 +31,6 @@ except ImportError:
 
 ROOT_DIR   = Path(__file__).parent.parent
 SAMPLE_DIR = ROOT_DIR / ".data"
-SAMPLE_DIR.mkdir(parents=True, exist_ok=True)
 
 HTB_TOKEN           = os.environ.get("HTB_API_TOKEN", "")
 HTB_ACADEMY_SESSION = os.environ.get("HTB_ACADEMY_SESSION", "")
@@ -57,15 +56,43 @@ ACADEMY_HEADERS = {
 
 
 def save(name: str, data) -> Path:
+    SAMPLE_DIR.mkdir(parents=True, exist_ok=True)
+
     path = SAMPLE_DIR / f"{name}.json"
-    path.write_text(json.dumps(data, indent=2, ensure_ascii=False))
+    path.write_text(
+        json.dumps(data, indent=2, ensure_ascii=False),
+        encoding="utf-8",
+    )
     return path
 
 
 def get(url: str, headers: dict, params: dict = None) -> dict:
-    res = requests.get(url, headers=headers, params=params, timeout=30)
-    res.raise_for_status()
-    return res.json()
+    try:
+        res = requests.get(
+            url,
+            headers=headers,
+            params=params,
+            timeout=30,
+        )
+    except requests.RequestException as error:
+        raise RuntimeError(f"HTB connection failed: {error}") from error
+
+    if res.status_code in (401, 403):
+        raise RuntimeError("HTB authentication failed. Check your credentials.")
+
+    try:
+        res.raise_for_status()
+    except requests.HTTPError as error:
+        raise RuntimeError(
+            f"HTB request failed with HTTP {res.status_code}: {res.reason} — {res.url}"
+        ) from error
+
+    try:
+        return res.json()
+    except requests.exceptions.JSONDecodeError as error:
+        raise RuntimeError(
+            f"HTB returned an invalid JSON response: {res.url}"
+        ) from error
 
 
 def get_all_pages(url: str, headers: dict, per_page: int = 100) -> list:
@@ -74,13 +101,31 @@ def get_all_pages(url: str, headers: dict, per_page: int = 100) -> list:
     page = 1
 
     while True:
-        data = get(url, headers, params={"per_page": per_page, "page": page})
-        items = data.get("data", [])
+        response = get(
+            url,
+            headers,
+            params={"per_page": per_page, "page": page},
+        )
+
+        if not isinstance(response, dict):
+            raise RuntimeError(f"Invalid HTB response on page {page}.")
+
+        items = response.get("data")
+        meta = response.get("meta")
+
+        if not isinstance(items, list) or not isinstance(meta, dict):
+            raise RuntimeError(f"Invalid HTB pagination structure on page {page}.")
+
+        last_page = meta.get("last_page")
+
+        if not isinstance(last_page, int) or last_page < 1:
+            raise RuntimeError(f"Invalid HTB last_page value on page {page}.")
+
         all_items.extend(items)
 
-        last_page = data.get("meta", {}).get("last_page", 1)
         if page >= last_page:
             break
+
         page += 1
 
     return all_items
@@ -160,8 +205,8 @@ def main():
             fetch_sherlocks()
         if args.all or args.challenges:
             fetch_challenges()
-    except requests.HTTPError as e:
-        print(f"ERROR: {e.response.status_code} {e.response.reason} — {e.request.url}", file=sys.stderr)
+    except Exception as error:
+        print(f"ERROR: {error}", file=sys.stderr)
         sys.exit(1)
 
     print(f"\nDone. JSON files saved to .data/")
