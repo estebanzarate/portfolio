@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-11-25T21:04:18.128Z",
+  "last_updated": "2026-11-26T02:35:16.682Z",
   "statistics": {
     "total_modules": 358,
-    "completed": 66,
-    "completion_percentage": 18.4,
+    "completed": 67,
+    "completion_percentage": 18.7,
     "by_category": {
       "Offensive": {
         "completed": 26,
@@ -16,9 +16,9 @@
         "percentage": 6
       },
       "General": {
-        "completed": 27,
+        "completed": 28,
         "total": 57,
-        "percentage": 62.9
+        "percentage": 63.4
       },
       "Purple": {
         "completed": 1,
@@ -313,7 +313,7 @@
       "name": "Intro to Assembly Language",
       "slug": "intro-to-assembly-language",
       "description": "This module builds the core foundation for Binary Exploitation by teaching Computer Architecture and Assembly language basics.",
-      "progress": 83.33,
+      "progress": 100,
       "category": "General"
     },
     {
