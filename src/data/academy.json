@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-11-26T18:11:54.414Z",
+  "last_updated": "2026-11-26T20:40:30.305Z",
   "statistics": {
     "total_modules": 358,
-    "completed": 67,
-    "completion_percentage": 18.7,
+    "completed": 68,
+    "completion_percentage": 19,
     "by_category": {
       "Offensive": {
         "completed": 26,
@@ -11,9 +11,9 @@
         "percentage": 29.9
       },
       "Defensive": {
-        "completed": 12,
+        "completed": 13,
         "total": 198,
-        "percentage": 6.2
+        "percentage": 6.3
       },
       "General": {
         "completed": 28,
@@ -1353,7 +1353,7 @@
       "name": "Threat Hunting with DNS",
       "slug": "threat-hunting-with-dns",
       "description": "Delve into the world of threat hunting with a specialized focus on DNS (Domain Name System) in this comprehensive module. DNS is crucial for network communication, but it can also be exploited by malicious actors. This module guides you through the intricacies of identifying unusual patterns, decoding network traffic, and recognizing signs of DNS abuse.",
-      "progress": 57.14,
+      "progress": 100,
       "category": "Defensive"
     },
     {
