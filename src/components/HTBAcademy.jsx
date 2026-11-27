@@ -169,16 +169,10 @@ function HTBAcademy() {
 
   return (
     <section id="academy" className="flex flex-col gap-6 scroll-mt-20">
-      <div className="border-l-4 border-primary pl-4">
+      <div>
         <h2 className="text-2xl font-bold text-light">
           HackTheBox <span className="text-primary">Academy</span>
         </h2>
-        <p className="text-secondary text-sm mt-1">
-          {t.subtitle}:{" "}
-          {new Date(academyData.last_updated).toLocaleDateString(
-            lang === "es" ? "es-AR" : "en-US",
-          )}
-        </p>
       </div>
 
       {!hasData ? (
